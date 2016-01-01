@@ -1,9 +1,9 @@
 // TO DO:
-// 1. data merge
+// xxxx1. data merge
 // 2. hook up searching
 // 3. results rendering
 // 4. hand-tune supplemental data
-//
+// 5. add back aliasing
 // ALSO
 // - add pills
 
@@ -91,6 +91,30 @@ function retrieveTestHits(data, searchText)
 	return hits;
 }
 
+function retrieveHits(data, searchText)
+{
+	// split search into multiple terms
+	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
+	var nTerms = terms.length;
+
+	var hits = [];
+	for (var key in data.items)
+	{
+		for (var i = 0; i < nTerms; ++i)
+		{
+			var term = terms[i];
+
+			// item name hits
+			if (key.indexOf(term) >= 0)
+			{
+				hits.push(data.items[key]);
+				break;
+			}
+		}
+	}
+	return hits;
+}
+
 var g_data = 
 {
 	items: {}
@@ -134,22 +158,39 @@ function mergeItems(data, itemTableArray, override)
 		}
 	});
 }
-
 update.lastTerms = null;
 function update()
 {
 	var terms = event.currentTarget.value.trim();
 	console.log("terms '" + terms + "'");
 
-	if (update.lastTerms != terms && terms.length > 0)
+	if (update.lastTerms != terms)
 	{
-		var hits = retrieveTestHits(g_testData, terms);
-		update.lastTerms = terms;
+		if (terms.length)
+		{
+			// var hits = retrieveTestHits(g_testData, terms);
+			var hits = retrieveHits(g_data, terms);
+			update.lastTerms = terms;
 
-		console.log("hits " + hits.length);
+			// console.log("hits " + hits.length);
+			renderHits(hits);
+		}
+		else
+		{
+			renderHits([]);
+		}
 	}
 }
+function renderHits(hits)
+{
+	var hitsHTML = "";
+	hits.forEach(function(hit) {
 
+		hitsHTML += hit.properName;
+		hitsHTML += "<br/>";
+	});
+	hitsContainer.innerHTML = hitsHTML;
+}
 prepareTestData(g_testData);
 prepareData(g_data);
 loading.style.visibility = "hidden";
