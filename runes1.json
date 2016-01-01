@@ -1,0 +1,18 @@
+{
+	"Hagalaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Hagalaz_Icon.png?version=2f587276dcf4f28be30a3d9088c0f326",
+		"descriptionHTML": "<a href=\"/File:Hagalaz_Icon.png\" class=\"image\"><img alt=\"Hagalaz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Hagalaz_Icon.png?version=2f587276dcf4f28be30a3d9088c0f326\" width=\"40\" height=\"40\"></a>"
+	},
+	"Jera": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Jera_Icon.png?version=582f624f883cde40b317ef0bb9cd2ae9",
+		"descriptionHTML": "<a href=\"/File:Jera_Icon.png\" class=\"image\"><img alt=\"Jera Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Jera_Icon.png?version=582f624f883cde40b317ef0bb9cd2ae9\" width=\"40\" height=\"40\"></a>"
+	},
+	"Ehwaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/Ehwaz_Icon.png?version=330154715282e7c788238eb28a214a80",
+		"descriptionHTML": "<a href=\"/File:Ehwaz_Icon.png\" class=\"image\"><img alt=\"Ehwaz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/Ehwaz_Icon.png?version=330154715282e7c788238eb28a214a80\" width=\"40\" height=\"40\"></a>"
+	},
+	"Dagaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Dagaz_Icon.png?version=100fd265b6f7a699327b71722c4e4fb1",
+		"descriptionHTML": "<a href=\"/File:Dagaz_Icon.png\" class=\"image\"><img alt=\"Dagaz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Dagaz_Icon.png?version=100fd265b6f7a699327b71722c4e4fb1\" width=\"40\" height=\"40\"></a>"
+	}
+}

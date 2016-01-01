@@ -1,0 +1,22 @@
+{
+	"Ansuz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d",
+		"descriptionHTML": "<a href=\"/File:Ansuz_Icon.png\" class=\"image\"><img alt=\"Ansuz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d\" width=\"40\" height=\"40\"></a>"
+	},
+	"Perthro": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png?version=803a97e064dd0576fe2bf1242c5edfe5",
+		"descriptionHTML": "<a href=\"/File:Perthro_Icon.png\" class=\"image\"><img alt=\"Perthro Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png?version=803a97e064dd0576fe2bf1242c5edfe5\" width=\"40\" height=\"40\"></a>"
+	},
+	"Berkano": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png?version=1be9e4449e0c75de0c253c3c012bbe55",
+		"descriptionHTML": "<a href=\"/File:Berkano_Icon.png\" class=\"image\"><img alt=\"Berkano Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png?version=1be9e4449e0c75de0c253c3c012bbe55\" width=\"40\" height=\"40\"></a>"
+	},
+	"Algiz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a…lgiz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7",
+		"descriptionHTML": "<a href=\"/File:Algiz_Icon.png\" class=\"image\"><img alt=\"Algiz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a…giz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7\" width=\"40\" height=\"40\" srcset=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/60px-Algiz_Icon.png 1.5x, http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/80px-Algiz_Icon.png 2x\"></a>"
+	},
+	"Blank Rune": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da",
+		"descriptionHTML": "<a href=\"/File:Blank_Rune_Icon.png\" class=\"image\"><img alt=\"Blank Rune Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png?version=b66ab780f04de8438f2b1f390cb91558\" width=\"40\" height=\"51\"></a>"
+	}
+}

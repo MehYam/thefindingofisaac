@@ -1,0 +1,12 @@
+{
+	"Emergency Contact": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Emergency_Contact",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da",
+		"descriptionHTML": "When used, will cause two <a href=\"/Mom%27s_Hand\" title=\"Mom's Hand\">Mom's Hands</a> to come down and grab two random enemies."
+	},
+	"Dice Shard": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dice_Shard",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da",
+		"descriptionHTML": "Upon use, activates the effects of the <a href=\"/D6\" title=\"D6\" class=\"mw-redirect\">D6</a> and the <a href=\"/D20\" title=\"D20\">D20</a> at the same time."
+	}
+}

@@ -25,7 +25,7 @@ function extractToJSON(table, rowScraper)
 		var row = table.rows[r];
 		var nCols = row.cells.length;
 
-		var name = row.cells[0].textContent;
+		var name = row.cells[0].textContent.trim();
 		retval[name] = rowScraper(row);
 	}
 	return retval;
@@ -44,7 +44,7 @@ function rowImageAndThumbnailScrape(row)
 	entry.thumbnail = img.src;
 
 	var description = row.cells[g_descriptionCol];
-	entry.descriptionHTML = description.innerHTML;
+	entry.descriptionHTML = description.innerHTML.trim();
 	return entry;
 }
 function rowMetadataTemplateScrape(row)
