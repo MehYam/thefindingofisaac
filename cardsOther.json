@@ -1,4 +1,4 @@
-{
+var cardsOther = {
 	"Emergency Contact": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Emergency_Contact",
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da",

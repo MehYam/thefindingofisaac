@@ -1,4 +1,4 @@
-{
+var cards = {
 	"0 - The Fool": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4f/0_-_The_Fool_Icon.png?version=8680b308ca887899fa5de66c2459ada0",
 		"descriptionHTML": "Teleports you back to the starting room of a floor."

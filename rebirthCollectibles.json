@@ -1,4 +1,4 @@
-{
+var rebirthCollectibles = {
 	"Anarchist Cookbook": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook",
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/68/Anarchist_Cookbook_Icon.png?version=aaca48d42f8c4d482f9000e84a1def4b",

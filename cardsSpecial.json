@@ -1,4 +1,4 @@
-{
+var cardsSpecial = {
 	"Suicide King": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Suicide_King",
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Suicide_King_Icon.png?version=6f8abe8e4ce3e6b88a793eae0e49a82b",

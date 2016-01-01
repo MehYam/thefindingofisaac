@@ -1,3 +1,9 @@
+// TO DO:
+// 1. data merge
+// 2. hook up searching
+// 3. results rendering
+// 4. hand-tune supplemental data
+
 var g_testData =
 {
 	"items":
@@ -22,32 +28,6 @@ var g_testData =
 };
 
 var g_itemClasses = "activated passive card rune pill"
-
-var g_testData_V2 = 
-{
-	"items":
-	{
-		"The Bible" :
-		{
-			wikiPage: "...",
-			thumbnail: "...",
-			descriptionHTML: "...",
-
-			itemClass: "activated",
-			type: "book",
-			color: "brown",
-			tags: ""
-		},
-		"Big Fan":
-		{
-			itemClass: "passive",
-			type: "familiar",
-			color: "brown beige",
-			tags: "fly orbital"
-		}
-	};
-};
-
 
 function prepareData(data)
 {
@@ -112,9 +92,6 @@ function retrieveHits(data, searchText)
 	return hits;
 }
 
-//KAI: searching rules:
-// 1) maybe handle plurals
-// 2) audit/normalize item.tags so that aliases don't appear? maybe not  
 function update()
 {
 	var terms = event.currentTarget.value;

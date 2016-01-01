@@ -1,4 +1,4 @@
-{
+var cardsPlayingSupplemental = {
 	"2 of Clubs": {
 		"itemClass": "",
 		"itemType": "",

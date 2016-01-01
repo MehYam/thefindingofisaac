@@ -1,4 +1,4 @@
-{
+var cardsPlaying = {
 	"2 of Clubs": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d7/2_of_Clubs_Icon.png?version=1402a2f381c9af88a2eb105e71db101d",
 		"descriptionHTML": "Doubles your <a href=\"/Pickups#Bombs\" title=\"Pickups\">bombs</a>. If you have no bombs, gives you 2 instead."

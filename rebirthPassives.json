@@ -1,4 +1,4 @@
-{
+var rebirthPassives = {
 	"<3": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Less_Than_Three",
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Less_Than_Three_Icon.png?version=62fecd18a85499e5dbbf7fef1d7b0269",

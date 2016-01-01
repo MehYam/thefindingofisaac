@@ -1,4 +1,4 @@
-{
+var runes1 = {
 	"Hagalaz": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Hagalaz_Icon.png?version=2f587276dcf4f28be30a3d9088c0f326",
 		"descriptionHTML": "<a href=\"/File:Hagalaz_Icon.png\" class=\"image\"><img alt=\"Hagalaz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Hagalaz_Icon.png?version=2f587276dcf4f28be30a3d9088c0f326\" width=\"40\" height=\"40\"></a>"

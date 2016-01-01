@@ -1,4 +1,4 @@
-{
+var runes2 = {
 	"Ansuz": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d",
 		"descriptionHTML": "<a href=\"/File:Ansuz_Icon.png\" class=\"image\"><img alt=\"Ansuz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d\" width=\"40\" height=\"40\"></a>"
