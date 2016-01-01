@@ -1,9 +1,13 @@
 // TO DO:
 // xxxx1. data merge
-// 2. hook up searching
-// 3. results rendering
-// 4. hand-tune supplemental data
-// 5. add back aliasing
+// xxxx2. hook up searching
+// - fully render results
+// - hand-tune supplemental data
+// - add back aliases
+// - sort by relevance (implement relevance scoring)
+// - maybe checkboxes for more sort options (save them if you do this)
+//     - exact match, etc
+//     - maybe make quotes do what you expect
 // ALSO
 // - add pills
 
