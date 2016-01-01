@@ -3,6 +3,9 @@
 // 2. hook up searching
 // 3. results rendering
 // 4. hand-tune supplemental data
+//
+// ALSO
+// - add pills
 
 var g_testData =
 {
@@ -27,9 +30,7 @@ var g_testData =
 	]
 };
 
-var g_itemClasses = "activated passive card rune pill"
-
-function prepareData(data)
+function prepareTestData(data)
 {
 	// process the aliases first
 	var aliasLookup = {};
@@ -66,9 +67,7 @@ function prepareData(data)
 	});
 }
 
-prepareData(g_testData);
-
-function retrieveHits(data, searchText)
+function retrieveTestHits(data, searchText)
 {
 	// split search into multiple terms
 	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
@@ -92,12 +91,65 @@ function retrieveHits(data, searchText)
 	return hits;
 }
 
+var g_data = 
+{
+	items: {}
+};
+var g_classes = "collectible passive trinket card rune pill"
+function prepareData(data)
+{
+	mergeItems(data, [afterbirthCollectibles, afterbirthCollectiblesSupplemental], function(item) {  item.itemClass = "collectible"; });
+	mergeItems(data, [rebirthCollectibles, rebirthCollectiblesSupplemental], function(item) {  item.itemClass = "collectible"; });
+	mergeItems(data, [afterbirthTrinkets, afterbirthTrinketsSupplemental], function(item) {  item.itemClass = "trinket"; });
+	mergeItems(data, [rebirthTrinkets, rebirthTrinketsSupplemental], function(item) {  item.itemClass = "trinket"; });
+	mergeItems(data, 
+		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
+		function(item) { item.itemClass = "card"; });
+	mergeItems(data, [runes1, runes2, runes1Supplemental, runes2Supplemental], function(item) { item.itemClass = "rune"; })
+}
+function mergeItems(data, itemTableArray, override)
+{
+	itemTableArray.forEach(function(itemTable)
+	{
+		for (var key in itemTable)
+		{
+			var source = itemTable[key];
+			var keyLower = key.toLowerCase().trim();  // some whitespace snuck into names during scraping, thought I trimmed everything
+			var merged = data.items[keyLower] || {};
+
+			merged.properName = key;
+			merged.wikiPage = merged.wikiPage || source.wikiPage;
+			merged.thumbnail = merged.thumbnail || source.thumbnail;
+			merged.descriptionHTML = merged.descriptionHTML || source.descriptionHTML;
+			merged.itemClass = merged.itemClass || source.itemClass;
+			merged.itemType = merged.itemType || source.itemType;
+			merged.itemColor = merged.itemColor || source.itemColor;
+			merged.itemTags = merged.itemTags || source.itemTags;
+
+			if (override)
+			{
+				override(merged);
+			}
+			data.items[keyLower] = merged;
+		}
+	});
+}
+
+update.lastTerms = null;
 function update()
 {
-	var terms = event.currentTarget.value;
-	if (terms.length > 0)
+	var terms = event.currentTarget.value.trim();
+	console.log("terms '" + terms + "'");
+
+	if (update.lastTerms != terms && terms.length > 0)
 	{
-		var hits = retrieveHits(g_testData, event.currentTarget.value);
+		var hits = retrieveTestHits(g_testData, terms);
+		update.lastTerms = terms;
+
 		console.log("hits " + hits.length);
 	}
 }
+
+prepareTestData(g_testData);
+prepareData(g_data);
+loading.style.visibility = "hidden";
