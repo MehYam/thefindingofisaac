@@ -181,19 +181,50 @@ function update()
 		}
 		else
 		{
-			renderHits([]);
+			renderClear();
 		}
 	}
 }
 function renderHits(hits)
 {
-	var hitsHTML = "";
+	hitsContainer.innerHTML = tableTemplate.textContent;
 	hits.forEach(function(hit) {
 
-		hitsHTML += hit.properName;
-		hitsHTML += "<br/>";
+		var row = document.createElement('tr');
+
+		// name column
+		var cell = document.createElement('td');
+		var nameParent = cell;
+		if (hit.wikiPage)
+		{
+			var anchor = document.createElement('a');
+			anchor.href = hit.wikiPage;
+			nameParent = anchor;
+
+			cell.appendChild(anchor);
+		}
+		nameParent.appendChild(document.createTextNode(hit.properName));
+		row.appendChild(cell);
+
+		// image column
+		cell = document.createElement('td');
+		var img = document.createElement('img');
+		img.src = hit.thumbnail;
+
+		cell.appendChild(img);
+		row.appendChild(cell);
+
+		// description
+		cell = document.createElement('td');
+		cell.innerHTML = hit.descriptionHTML;
+		row.appendChild(cell);
+
+		hitsTable.tBodies[0].appendChild(row);
 	});
-	hitsContainer.innerHTML = hitsHTML;
+}
+function renderClear()
+{
+	hitsContainer.innerHTML = "";
 }
 prepareTestData(g_testData);
 prepareData(g_data);

@@ -1,9 +1,40 @@
 <html>
+<head>
+<style>
+body {
+	font-family: Verdana,Arial,sans-serif;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+table {
+	background-color: #6b4537;
+}
+th {
+    background: #142E59;
+    border: 1px solid #000000;
+    font-size: 10pt;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #9CB0D1;
+}
+a:visited {
+	color: #9DB1D2;
+}
+a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
 <body>
 <div id="loading">loading...</div>
 <label for="searchTerms">Search: </label>
 <input id="searchTerms" autofocus type="text" oninput="update()"/>
-<div id="hitsContainer"/>
+<div id="hitsContainer"></div>
 </body>
 <script src="afterbirthCollectibles.json"></script>
 <script src="afterbirthCollectiblesSupplemental.json"></script>
@@ -30,4 +61,17 @@
 <script src="runes2.json"></script>
 <script src="runes2Supplemental.json"></script>
 <script src="thesearchingofisaac.js"></script>
+<script id="tableTemplate" type="text/template">
+	<table id="hitsTable">
+		<tbody>
+			<tr>
+				<th style="width:120px">Name</th>
+				<th style="width:100px">Image</th>
+				<th>Description</th>
+			</tr>
+		</tbody>
+	</table>
+</script>
+<script id="rowTemplate" type="text/template">
+</script>
 </html>
