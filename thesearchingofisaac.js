@@ -4,18 +4,18 @@
 // xxxxfully render results
 // - hand-tune supplemental data
 //		- include categorization for devil/angel items
-// - add back aliases
 // - sort
 //		- by relevance (implement relevance scoring)
 //			- score exact matches most highly, users don't need to quote anything
 //	    - by name
+// - add back aliases
 // - maybe checkboxes for more sort options (save them if you do this)
 //     - exact match, etc
 //     - maybe make quotes do what you expect
 // - fix broken links
 // ALSO
 // - add pills
-function retrieveHits(data, searchText)
+function retrieveHits_OR(data, searchText)
 {
 	// split search into multiple terms
 	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
@@ -28,36 +28,36 @@ function retrieveHits(data, searchText)
 		for (var i = 0; i < nTerms; ++i)
 		{
 			var term = terms[i];
+			var score = 0;
 
 			// item name match
 			if (key.indexOf(term) >= 0)
 			{
-				hits.push(item);
-				break;
+				score += 10;
 			}
 			// class
 			if (item.itemClass.indexOf(term) >= 0)
 			{
-				hits.push(item);
-				break;
+				score += 5;
 			}
 			// type
 			if (item.itemType.indexOf(term) >= 0)
 			{
-				hits.push(item);
-				break;
+				score += 3;
 			}
 			// color
 			if (item.itemColor.indexOf(term) >= 0)
 			{
-				hits.push(item);
-				break;
+				score += 2;
 			}
 			// tag hits
 			if (item.itemTags.indexOf(term) >= 0)
 			{
-				hits.push(data.items[key]);
-				break;
+				score += 1;
+			}
+			if (score)
+			{
+				hits.push({ item: item, score: score });
 			}
 		}
 	}
@@ -121,7 +121,10 @@ function update()
 		if (terms.length)
 		{
 			//KAI: search also for the fully entered text, score it more highly
-			var hits = retrieveHits(g_data, terms);
+			var hits = retrieveHits_OR(g_data, terms);
+			hits.sort(function(hitA, hitB){
+				return hitB.score - hitA.score;
+			});
 			renderHits(hits);
 		}
 		else
@@ -141,15 +144,15 @@ function renderHits(hits)
 		// name column
 		var cell = document.createElement('td');
 		var nameParent = cell;
-		if (hit.wikiPage)
+		if (hit.item.wikiPage)
 		{
 			var anchor = document.createElement('a');
-			anchor.href = hit.wikiPage;
+			anchor.href = hit.item.wikiPage;
 			nameParent = anchor;
 
 			cell.appendChild(anchor);
 		}
-		nameParent.appendChild(document.createTextNode(hit.properName));
+		nameParent.appendChild(document.createTextNode(hit.item.properName));
 		row.appendChild(cell);
 
 		// image column
@@ -157,7 +160,7 @@ function renderHits(hits)
 		cell.className = "itemIconCell";
 
 		var img = document.createElement('img');
-		img.src = hit.thumbnail;
+		img.src = hit.item.thumbnail;
 		img.className = "itemIcon";
 
 		cell.appendChild(img);
@@ -165,7 +168,12 @@ function renderHits(hits)
 
 		// description
 		cell = document.createElement('td');
-		cell.innerHTML = hit.descriptionHTML;
+		cell.innerHTML = hit.item.descriptionHTML;
+		row.appendChild(cell);
+
+		// score
+		cell = document.createElement('td');
+		cell.appendChild(document.createTextNode(hit.score));
 		row.appendChild(cell);
 
 		hitsTable.tBodies[0].appendChild(row);
