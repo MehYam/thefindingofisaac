@@ -213,8 +213,11 @@ function renderHits(hits)
 
 		// image column
 		cell = document.createElement('td');
+		cell.className = "itemIconCell";
+
 		var img = document.createElement('img');
 		img.src = hit.thumbnail;
+		img.className = "itemIcon";
 
 		cell.appendChild(img);
 		row.appendChild(cell);
