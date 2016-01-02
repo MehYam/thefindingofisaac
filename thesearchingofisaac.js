@@ -4,10 +4,11 @@
 // xxxxfully render results
 // - hand-tune supplemental data
 //		- include categorization for devil/angel items
-// - sort
+// - scored sort
 //		- by relevance (implement relevance scoring)
 //			- score exact matches most highly, users don't need to quote anything
 //	    - by name
+//      - needs tweaking
 // - add back aliases
 // - maybe checkboxes for more sort options (save them if you do this)
 //     - exact match, etc
@@ -25,10 +26,16 @@ function retrieveHits_OR(data, searchText)
 	for (var key in data.items)
 	{
 		var item = data.items[key];
+		var score = 0;
+
+		// full item name match
+		if (key.indexOf(searchText) >= 0)
+		{
+			score += 20;
+		}
 		for (var i = 0; i < nTerms; ++i)
 		{
 			var term = terms[i];
-			var score = 0;
 
 			// item name match
 			if (key.indexOf(term) >= 0)
@@ -55,10 +62,10 @@ function retrieveHits_OR(data, searchText)
 			{
 				score += 1;
 			}
-			if (score)
-			{
-				hits.push({ item: item, score: score });
-			}
+		}
+		if (score)
+		{
+			hits.push({ item: item, score: score });
 		}
 	}
 	return hits;
@@ -174,6 +181,7 @@ function renderHits(hits)
 		// score
 		cell = document.createElement('td');
 		cell.appendChild(document.createTextNode(hit.score));
+		cell.className = "scoreCell";
 		row.appendChild(cell);
 
 		hitsTable.tBodies[0].appendChild(row);
