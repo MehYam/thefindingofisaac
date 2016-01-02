@@ -179,7 +179,6 @@ function update()
 		{
 			// var hits = retrieveTestHits(g_testData, terms);
 			var hits = retrieveHits(g_data, terms);
-			update.lastTerms = terms;
 
 			// console.log("hits " + hits.length);
 			renderHits(hits);
@@ -188,6 +187,7 @@ function update()
 		{
 			renderClear();
 		}
+		update.lastTerms = terms;
 	}
 }
 function renderHits(hits)
@@ -236,4 +236,4 @@ function renderClear()
 }
 prepareTestData(g_testData);
 prepareData(g_data);
-loading.style.visibility = "hidden";
+loading.style.display = "none";
