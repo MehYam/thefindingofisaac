@@ -1,13 +1,18 @@
 // TO DO:
 // xxxx1. data merge
 // xxxx2. hook up searching
-// - fully render results
+// xxxxfully render results
 // - hand-tune supplemental data
+//		- include categorization for devil/angel items
 // - add back aliases
-// - sort by relevance (implement relevance scoring)
+// - sort
+//		- by relevance (implement relevance scoring)
+//			- score exact matches most highly, users don't need to quote anything
+//	    - by name
 // - maybe checkboxes for more sort options (save them if you do this)
 //     - exact match, etc
 //     - maybe make quotes do what you expect
+// - fix broken links
 // ALSO
 // - add pills
 
@@ -104,12 +109,24 @@ function retrieveHits(data, searchText)
 	var hits = [];
 	for (var key in data.items)
 	{
+		var item = data.items[key];
 		for (var i = 0; i < nTerms; ++i)
 		{
 			var term = terms[i];
 
-			// item name hits
+			// item name match
 			if (key.indexOf(term) >= 0)
+			{
+				hits.push(item);
+				break;
+			}
+			// color
+			if (item.itemColor.indexOf(term) >= 0)
+			{
+				hits.push(item);
+			}
+			// tag hits
+			if (item.itemTags.indexOf(term) >= 0)
 			{
 				hits.push(data.items[key]);
 				break;
@@ -171,16 +188,12 @@ update.lastTerms = null;
 function update()
 {
 	var terms = event.currentTarget.value.trim();
-	console.log("terms '" + terms + "'");
-
 	if (update.lastTerms != terms)
 	{
 		if (terms.length)
 		{
-			// var hits = retrieveTestHits(g_testData, terms);
+			//KAI: search also for the fully entered text, score it more highly
 			var hits = retrieveHits(g_data, terms);
-
-			// console.log("hits " + hits.length);
 			renderHits(hits);
 		}
 		else
