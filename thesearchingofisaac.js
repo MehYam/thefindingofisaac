@@ -126,10 +126,15 @@ var g_data =
 var g_classes = "collectible passive trinket card rune pill"
 function prepareData(data)
 {
-	mergeItems(data, [afterbirthCollectibles, afterbirthCollectiblesSupplemental], function(item) {  item.itemClass = "collectible"; });
-	mergeItems(data, [rebirthCollectibles, rebirthCollectiblesSupplemental], function(item) {  item.itemClass = "collectible"; });
-	mergeItems(data, [afterbirthTrinkets, afterbirthTrinketsSupplemental], function(item) {  item.itemClass = "trinket"; });
-	mergeItems(data, [rebirthTrinkets, rebirthTrinketsSupplemental], function(item) {  item.itemClass = "trinket"; });
+	mergeItems(data, 
+		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental], 
+		function(item) {  item.itemClass = "trinket"; });
+	mergeItems(data, 
+		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental], 
+		function(item) {  item.itemClass = "collectible"; });
+	mergeItems(data, 
+		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental], 
+		function(item) {  item.itemClass = "passive"; });
 	mergeItems(data, 
 		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
 		function(item) { item.itemClass = "card"; });
