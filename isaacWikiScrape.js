@@ -40,6 +40,7 @@ function rowImageAndThumbnailScrape(row)
 		entry.wikiPage = anchor.href;
 	}
 
+	// var img = getChildTag(row, "img", 1) || getChildTag(row, "img"); // cards/runes have the "DLC" icon before the item icon
 	var img = getChildTag(row, "img");
 	entry.thumbnail = img.src;
 
@@ -59,8 +60,10 @@ function getTable(index)
 {
 	return document.body.getElementsByTagName("table")[index];
 }
-function getChildTag(el, tagName)
+function getChildTag(el, tagName, index)
 {
+	index = index || 0;
+
 	var elements = el.getElementsByTagName(tagName);
-	return elements && elements.length && elements[0];
+	return elements && (elements.length > index) && elements[index];
 }

@@ -1,22 +1,22 @@
 var runes2 = {
 	"Ansuz": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d",
-		"descriptionHTML": "<a href=\"/File:Ansuz_Icon.png\" class=\"image\"><img alt=\"Ansuz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d\" width=\"40\" height=\"40\"></a>"
+		"descriptionHTML": "<p style=\"text-align: left;\">Reveals the whole map, including the <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Room</a> and the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>.</p>"
 	},
 	"Perthro": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png?version=803a97e064dd0576fe2bf1242c5edfe5",
-		"descriptionHTML": "<a href=\"/File:Perthro_Icon.png\" class=\"image\"><img alt=\"Perthro Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png?version=803a97e064dd0576fe2bf1242c5edfe5\" width=\"40\" height=\"40\"></a>"
+		"descriptionHTML": "<p style=\"text-align: left;\">Rerolls all pedestal items in the room. (This is the same effect as the <a href=\"/D6\" title=\"D6\" class=\"mw-redirect\">D6</a>.)</p>"
 	},
 	"Berkano": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png?version=1be9e4449e0c75de0c253c3c012bbe55",
-		"descriptionHTML": "<a href=\"/File:Berkano_Icon.png\" class=\"image\"><img alt=\"Berkano Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png?version=1be9e4449e0c75de0c253c3c012bbe55\" width=\"40\" height=\"40\"></a>"
+		"descriptionHTML": "<p style=\"text-align: left;\">Summons 3 friendly <a href=\"/Familiar#Blue_Flies\" title=\"Familiar\">blue flies</a> and 3 friendly <a href=\"/Familiar#Blue_Spiders\" title=\"Familiar\">blue spiders</a>.</p>"
 	},
 	"Algiz": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a…lgiz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7",
-		"descriptionHTML": "<a href=\"/File:Algiz_Icon.png\" class=\"image\"><img alt=\"Algiz Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a…giz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7\" width=\"40\" height=\"40\" srcset=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/60px-Algiz_Icon.png 1.5x, http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/80px-Algiz_Icon.png 2x\"></a>"
+		"descriptionHTML": "<p style=\"text-align: left;\">Grants a <a href=\"/Effects#Shield\" title=\"Effects\">shield</a> which lasts for 30 seconds.</p>"
 	},
 	"Blank Rune": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da",
-		"descriptionHTML": "<a href=\"/File:Blank_Rune_Icon.png\" class=\"image\"><img alt=\"Blank Rune Icon.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png?version=b66ab780f04de8438f2b1f390cb91558\" width=\"40\" height=\"51\"></a>"
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png?version=b66ab780f04de8438f2b1f390cb91558",
+		"descriptionHTML": "<p style=\"text-align: left;\">Grants a random rune effect. Has a 25% chance to spawn another Blank Rune upon use.</p>"
 	}
 }

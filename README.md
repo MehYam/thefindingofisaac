@@ -9,8 +9,8 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-- fix broken images
 - fix rune data (scraping broken?)
+- fix broken images
 - test and tweak results, (i.e. The Mind and other symbols inconsistent)
 - RELEASE BETA
 - add search options options
