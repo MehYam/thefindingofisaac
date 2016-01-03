@@ -12,7 +12,7 @@ var runes2 = {
 		"descriptionHTML": "<p style=\"text-align: left;\">Summons 3 friendly <a href=\"/Familiar#Blue_Flies\" title=\"Familiar\">blue flies</a> and 3 friendly <a href=\"/Familiar#Blue_Spiders\" title=\"Familiar\">blue spiders</a>.</p>"
 	},
 	"Algiz": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a…lgiz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7",
 		"descriptionHTML": "<p style=\"text-align: left;\">Grants a <a href=\"/Effects#Shield\" title=\"Effects\">shield</a> which lasts for 30 seconds.</p>"
 	},
 	"Blank Rune": {

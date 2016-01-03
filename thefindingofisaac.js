@@ -242,6 +242,15 @@ function renderHits(hits)
 	});
 	console.log("<- renderHits");
 }
+function renderAll(data)
+{
+	var hits = [];
+	for (var key in data.items)
+	{
+		hits.push({ item: data.items[key], score: 0 });
+	}
+	renderHits(hits);
+}
 function renderClear()
 {
 	hitsContainer.innerHTML = "";
@@ -269,4 +278,5 @@ function update(event)
 	}
 }
 prepareData(g_data);
+//renderAll(g_data);
 loading.style.display = "none";

@@ -51,7 +51,7 @@ var afterbirthCollectibles = {
 	},
 	"Mega Bean": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mega_Bean",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/3…_Icon.png/45px-Mega_Bean_Icon.png?version=0527e6c2cfc4b7b6044c4d6dbf75d63b",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/3/3f/Mega_Bean_Icon.png/70px-Mega_Bean_Icon.png?version=79c3915e5541a0583be0986b45185d96",
 		"descriptionHTML": "When used, the Mega Bean will freeze all enemies in the current room for a couple of seconds, deal 5 damage and poison any enemies near Isaac, and send a wave of spikes that deals 10 damage across the room in the direction Isaac is facing."
 	},
 	"Mega Blast": {
@@ -66,7 +66,7 @@ var afterbirthCollectibles = {
 	},
 	"Mom's Box": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Box",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/b…con.png/45px-Mom%27s_Box_Icon.png?version=6b0240dae940b096e2db93c3d2849f4b",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/b/b5/Mom%27s_Box_Icon.png/70px-Mom%27s_Box_Icon.png?version=f0cf98c0500757e3e54f8af99b853652",
 		"descriptionHTML": "When used, Mom's Box will drop a random <a href=\"/Trinkets\" title=\"Trinkets\">trinket</a> on the ground. While held, doubles the effects of trinkets."
 	},
 	"Placebo": {

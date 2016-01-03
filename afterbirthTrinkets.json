@@ -16,7 +16,7 @@ var afterbirthTrinkets = {
 	},
 	"Blister": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blister",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/5…er_Icon.png/45px-Blister_Icon.png?version=54b6d4214c69fc2ac32614ba9ab73504",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/5/5b/Blister_Icon.png/70px-Blister_Icon.png?version=a62a6fc5968041bc8805a4a1f1ef64de",
 		"descriptionHTML": "Increases knockback of tears."
 	},
 	"Brown Cap": {
@@ -31,7 +31,7 @@ var afterbirthTrinkets = {
 	},
 	"Child Leash": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Child_Leash",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/c…con.png/44px-Child_Leash_Icon.png?version=e5213044a98f3c2f22dc81faa6ce0f3a",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/c/c5/Child_Leash_Icon.png/70px-Child_Leash_Icon.png?version=b614d9712beb8570f2d4c970edc3f1f4",
 		"descriptionHTML": "Causes familiars to stay closer to each other."
 	},
 	"Cracked Dice": {
@@ -101,7 +101,7 @@ var afterbirthTrinkets = {
 	},
 	"Rib Of Greed": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rib_Of_Greed",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/b…on.png/45px-Rib_Of_Greed_Icon.png?version=ba380b60febaa6b8119608788215a5c7",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Rib_Of_Greed_Icon.png?version=216db2d36a91d1923f9350c9b84459d1",
 		"descriptionHTML": "Prevents <a href=\"/Greed\" title=\"Greed\">Greed</a> and <a href=\"/Super_Greed\" title=\"Super Greed\">Super Greed</a> from appearing in <a href=\"/Shop\" title=\"Shop\">Shops</a> and <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Rooms</a>."
 	},
 	"Safety Scissors": {

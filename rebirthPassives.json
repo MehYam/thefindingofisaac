@@ -436,7 +436,7 @@ var rebirthPassives = {
 	},
 	"Gemini": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Gemini_(Item)",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/7…g/45px-Gemini_%28Item%29_Icon.png?version=10c5fdd7acb3a8b512d25a440655a11f",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/7/73/Gemini_%28Item%29_Icon.png/70px-Gemini_%28Item%29_Icon.png?version=d15716b05c3824d54b04e49643d5734d",
 		"descriptionHTML": "<a href=\"/Gemini\" title=\"Gemini\">Suture</a> becomes attached to Isaac, and does touch damage to enemies within its attacking range."
 	},
 	"Ghost Baby": {

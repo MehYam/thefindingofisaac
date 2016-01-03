@@ -26,12 +26,12 @@ var cardsSpecial = {
 	},
 	"? Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/%3F_Card",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/f…ard_Icon.png/35px-Q_Card_Icon.png?version=d74b77172055dbadd4f28a5bda9f3fc9",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f7/Q_Card_Icon.png?version=82de8a9ff2893692f693b5aab282f975",
 		"descriptionHTML": "When used, copies the effect of Isaac's currently held <a href=\"/Item#Activated_Collectibles\" title=\"Item\">activated collectible item</a>."
 	},
 	"Get Out Of Jail Free Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Get_Out_Of_Jail_Free_Card",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/2…et_Out_Of_Jail_Free_Card_Icon.png?version=18d85ab0a3a2cdfc8e5faf30fcce2879",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Get_Out_Of_Jail_Free_Card_Icon.png?version=d8c5f264833d893a7f16807cab9178fd",
 		"descriptionHTML": "Upon use, opens all doors in the current room (including the golden door at <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a>/<a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a>), similar to <a href=\"/Dad%27s_Key\" title=\"Dad's Key\">Dad's Key</a>."
 	}
 }
