@@ -19,6 +19,7 @@ TO DO:
 	- put a default sample search
 - add description to the sort options
 - test on mobile
+- ~~alias the colors~~
 - ~~RELEASE BETA~~
 - ~~fix broken images~~
 - ~~fix rune data (scraping broken?)~~

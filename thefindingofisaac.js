@@ -94,6 +94,7 @@ function explodeItemAliases(data, aliasLookup)
 
 		item.itemTypeWithAliases = explodeAliases(aliasLookup, item.itemType);
 		item.itemTagsWithAliases = explodeAliases(aliasLookup, item.itemTags);
+		item.itemColorWithAliases = explodeAliases(aliasLookup, item.itemColor);
 	}	
 }
 function explodeAliases(aliasLookup, termsString)
@@ -157,7 +158,7 @@ function retrieveHits(data, searchText, searchTermsWithAND)
 				termScore += 3;
 			}
 			// color
-			if (item.itemColor.indexOf(term) >= 0)
+			if (item.itemColorWithAliases.indexOf(term) >= 0)
 			{
 				termScore += 2;
 			}
