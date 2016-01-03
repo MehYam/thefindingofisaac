@@ -17,7 +17,7 @@ var rebirthCollectiblesSupplemental = {
 	"The Bible": {
 		"itemType": "book",
 		"itemColor": "brown",
-		"itemTags": "flight fly"
+		"itemTags": "flight fly cross"
 	},
 	"Blank Card": {
 		"itemType": "",

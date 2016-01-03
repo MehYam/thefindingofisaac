@@ -3,18 +3,13 @@
 // xxxx2. hook up searching
 // xxxxfully render results
 // xxxxscored sort
-//		- by relevance (implement relevance scoring)
-//			- score exact matches most highly, users don't need to quote anything
-//	    - by name
-//      - needs tweaking
-// - hand-tune supplemental data
-//		- include categorization for devil/angel items
-// - add description to the sort options
-// - add back aliases
+// xxxxxhand-tune supplemental data
+// - hook up aliases
 //		- for color and type too (i.e. dark, zodiac, syringe/needle, etc)?
 // - add checkboxes for the sort options
 //     - exact match, etc
 //     - serialize the settings
+// - add description to the sort options
 // - fix broken links
 // - make links open in new page
 // ALSO
@@ -51,7 +46,7 @@ function retrieveHits_OR(data, searchText)
 				score += 5;
 			}
 			// type
-			if (item.itemType.indexOf(term) >= 0)
+			if (item.itemTypeWithAliases.indexOf(term) >= 0)
 			{
 				score += 3;
 			}
@@ -61,7 +56,7 @@ function retrieveHits_OR(data, searchText)
 				score += 2;
 			}
 			// tag hits
-			if (item.itemTags.indexOf(term) >= 0)
+			if (item.itemTagsWithAliases.indexOf(term) >= 0)
 			{
 				score += 1;
 			}
@@ -73,10 +68,10 @@ function retrieveHits_OR(data, searchText)
 	}
 	return hits;
 }
-
 var g_data = 
 {
-	items: {}
+	items: {},
+	aliases: {}
 };
 var g_classes = "collectible passive trinket card rune pill"
 function prepareData(data)
@@ -86,7 +81,7 @@ function prepareData(data)
 		function(item) {  item.itemClass = "trinket"; });
 	mergeItems(data, 
 		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental], 
-		function(item) {  item.itemClass = "collectible"; });
+		function(item) {  item.itemClass = "activated"; });
 	mergeItems(data, 
 		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental], 
 		function(item) {  item.itemClass = "passive"; });
@@ -94,6 +89,9 @@ function prepareData(data)
 		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
 		function(item) { item.itemClass = "card"; });
 	mergeItems(data, [runes1, runes2, runes1Supplemental, runes2Supplemental], function(item) { item.itemClass = "rune"; })
+
+	var aliasLookup = createAliasLookup(g_aliases);
+	explodeItemAliases(g_data, aliasLookup);
 }
 function mergeItems(data, itemTableArray, override)
 {
@@ -121,6 +119,62 @@ function mergeItems(data, itemTableArray, override)
 			data.items[keyLower] = merged;
 		}
 	});
+}
+function createAliasLookup(aliasList)
+{
+	var retval = {};
+
+	aliasList.forEach(function(aliasSpec)
+	{
+		var aliasTerms = aliasSpec.split(/\s+/);
+		aliasTerms.forEach(function(alias)
+		{
+			if (retval[alias])
+			{
+				console.error("Alias '" + alias + "' used multiple times, ignoring repeats");
+			}
+			else
+			{
+				retval[alias] = aliasTerms;
+			}
+		});
+	});
+	return retval;
+}
+Array.prototype.unique = function() {
+    var a = [];
+    for (var i=0, l=this.length; i<l; i++)
+        if (a.indexOf(this[i]) === -1)
+            a.push(this[i]);
+    return a;
+}
+function explodeItemAliases(data, aliasLookup)
+{
+	// search each item for alias matches, and shove the alternate search terms into the item itself
+	for (var key in data.items)
+	{
+		var item = data.items[key];
+
+		item.itemTypeWithAliases = explodeAliases(aliasLookup, item.itemType);
+		item.itemTagsWithAliases = explodeAliases(aliasLookup, item.itemTags);
+	}	
+}
+function explodeAliases(aliasLookup, termsString)
+{
+	var termsArray = termsString.split(/\s+/);
+	var newTermsArray = [].concat(termsArray);
+
+	termsArray.forEach(function(term)
+	{
+		if (aliasLookup[term])
+		{
+			newTermsArray = newTermsArray.concat(aliasLookup[term]);
+		}
+	});
+
+	newTermsArray.sort();
+	newTermsArray = newTermsArray.unique();
+	return newTermsArray.join(' ');
 }
 update.lastTerms = null;
 function update()

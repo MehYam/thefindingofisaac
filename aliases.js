@@ -1,4 +1,4 @@
-var aliases = 
+var g_aliases = 
 [
 	"bandaid band-aid",
 	"beg beggar",
@@ -8,7 +8,7 @@ var aliases =
 	"charge recharge re-charge battery",
 	"circle ball round sphere",
 	"consumable singleuse single-use",
-	"cord rope"
+	"cord rope",
 	"dark black",
 	"dice reroll re-roll",
 	"dupe duplicate",
@@ -22,12 +22,14 @@ var aliases =
 	"hat cap",
 	"heart <3",
 	"horoscope horroscope zodiac",
+	"jewelry necklace",
 	"knife cut",
 	"large big huge",
 	"larva bug maggot",
 	"light white bright",
 	"map floor",
 	"money cash coin",
+	"needle syringe inject",
 	"photo picture",
 	"poop shit crap",
 	"satan devil demon evil",

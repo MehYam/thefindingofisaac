@@ -279,7 +279,7 @@ var afterbirthPassivesSupplemental = {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "glass cup mug"
+		"itemTags": "glass cup mug drink"
 	},
 	"Mom's Pearls": {
 		"itemClass": "",
