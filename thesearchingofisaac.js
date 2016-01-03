@@ -11,11 +11,12 @@
 //		- include categorization for devil/angel items
 // - add description to the sort options
 // - add back aliases
-//		- for color too (i.e. dark)?
+//		- for color and type too (i.e. dark, zodiac, syringe/needle, etc)?
 // - add checkboxes for the sort options
 //     - exact match, etc
 //     - serialize the settings
 // - fix broken links
+// - make links open in new page
 // ALSO
 // - add pills
 function retrieveHits_OR(data, searchText)

@@ -104,7 +104,7 @@ var rebirthCollectibles = {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/34/D4_Icon.png?version=0aa426bb29cede49e6ea64fe4ac27a07",
 		"descriptionHTML": "Rerolls all upgrades on the player. (Does not reroll <a href=\"/Azazel\" title=\"Azazel\">Azazel's</a> brimstone)."
 	},
-	"The D6": {
+	"D6": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_D6",
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fa/The_D6_Icon.png?version=b5985281793295b5acb8eecbe43fbf65",
 		"descriptionHTML": "Allows Isaac to re-roll collectible items in the current room into other items, depending on the current room's <a href=\"/Item_Pool\" title=\"Item Pool\">Item Pool</a>."
