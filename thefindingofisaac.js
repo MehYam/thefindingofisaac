@@ -4,70 +4,19 @@
 // xxxxfully render results
 // xxxxscored sort
 // xxxxxhand-tune supplemental data
-// - hook up aliases
-//		- for color and type too (i.e. dark, zodiac, syringe/needle, etc)?
+// xxxxhook up aliases
+// xxxxtest in FF and IE
+// - test and tweak results, (i.e. The Mind and other symbols inconsistent)
+// - add help text below the search
 // - add checkboxes for the sort options
 //     - exact match, etc
 //     - serialize the settings
 // - add description to the sort options
 // - fix broken links
 // - make links open in new page
+//
 // ALSO
 // - add pills
-function retrieveHits_OR(data, searchText)
-{
-	// split search into multiple terms
-	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
-	var nTerms = terms.length;
-
-	var hits = [];
-	for (var key in data.items)
-	{
-		var item = data.items[key];
-		var score = 0;
-
-		// full item name match
-		if (key.indexOf(searchText) >= 0)
-		{
-			score += 20;
-		}
-		for (var i = 0; i < nTerms; ++i)
-		{
-			var term = terms[i];
-
-			// item name match
-			if (key.indexOf(term) >= 0)
-			{
-				score += 10;
-			}
-			// class
-			if (item.itemClass.indexOf(term) >= 0)
-			{
-				score += 5;
-			}
-			// type
-			if (item.itemTypeWithAliases.indexOf(term) >= 0)
-			{
-				score += 3;
-			}
-			// color
-			if (item.itemColor.indexOf(term) >= 0)
-			{
-				score += 2;
-			}
-			// tag hits
-			if (item.itemTagsWithAliases.indexOf(term) >= 0)
-			{
-				score += 1;
-			}
-		}
-		if (score)
-		{
-			hits.push({ item: item, score: score });
-		}
-	}
-	return hits;
-}
 var g_data = 
 {
 	items: {},
@@ -176,30 +125,66 @@ function explodeAliases(aliasLookup, termsString)
 	newTermsArray = newTermsArray.unique();
 	return newTermsArray.join(' ');
 }
-update.lastTerms = null;
-function update()
+function retrieveHits_OR(data, searchText)
 {
-	var terms = event.currentTarget.value.trim();
-	if (update.lastTerms != terms)
+	console.log("-> retrieveHits");
+
+	// split search into multiple terms
+	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
+	var nTerms = terms.length;
+
+	var hits = [];
+	for (var key in data.items)
 	{
-		if (terms.length)
+		var item = data.items[key];
+		var score = 0;
+
+		// full item name match
+		if (key.indexOf(searchText) >= 0)
 		{
-			//KAI: search also for the fully entered text, score it more highly
-			var hits = retrieveHits_OR(g_data, terms);
-			hits.sort(function(hitA, hitB){
-				return hitB.score - hitA.score;
-			});
-			renderHits(hits);
+			score += 20;
 		}
-		else
+		for (var i = 0; i < nTerms; ++i)
 		{
-			renderClear();
+			var term = terms[i];
+
+			// item name match
+			if (key.indexOf(term) >= 0)
+			{
+				score += 10;
+			}
+			// class
+			if (item.itemClass.indexOf(term) >= 0)
+			{
+				score += 5;
+			}
+			// type
+			if (item.itemTypeWithAliases.indexOf(term) >= 0)
+			{
+				score += 3;
+			}
+			// color
+			if (item.itemColor.indexOf(term) >= 0)
+			{
+				score += 2;
+			}
+			// tag hits
+			if (item.itemTagsWithAliases.indexOf(term) >= 0)
+			{
+				score += 1;
+			}
 		}
-		update.lastTerms = terms;
+		if (score)
+		{
+			hits.push({ item: item, score: score });
+		}
 	}
+	console.log("<- retrieveHits");
+	return hits;
 }
 function renderHits(hits)
 {
+	console.log("-> renderHits");
 	hitsContainer.innerHTML = tableTemplate.textContent;
 	hits.forEach(function(hit) {
 
@@ -249,10 +234,33 @@ function renderHits(hits)
 
 		hitsTable.tBodies[0].appendChild(row);
 	});
+	console.log("<- renderHits");
 }
 function renderClear()
 {
 	hitsContainer.innerHTML = "";
+}
+update.lastTerms = null;
+function update(event)
+{
+	var terms = event.currentTarget.value.trim();
+	if (update.lastTerms != terms)
+	{
+		if (terms.length)
+		{
+			//KAI: search also for the fully entered text, score it more highly
+			var hits = retrieveHits_OR(g_data, terms);
+			hits.sort(function(hitA, hitB){
+				return hitB.score - hitA.score;
+			});
+			renderHits(hits);
+		}
+		else
+		{
+			renderClear();
+		}
+		update.lastTerms = terms;
+	}
 }
 prepareData(g_data);
 loading.style.display = "none";
