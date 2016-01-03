@@ -9,18 +9,18 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-xxxx1. data merge
-xxxx2. hook up searching
-xxxxfully render results
-xxxxscored sort
-xxxxxhand-tune supplemental data
-xxxxhook up aliases
-xxxxtest in FF and IE
-xxxxadd help text below the search
-xxxxpublish this somewhere
-xxxxsearch with AND
-xxxxmake anchors open in new page
-xxxxfix relative links in description
+~~1. data merge
+~~2. hook up searching
+~~fully render results
+~~scored sort
+~~hand-tune supplemental data
+~~hook up aliases
+~~test in FF and IE
+~~add help text below the search
+~~publish this somewhere
+~~search with AND
+~~make anchors open in new page
+~~fix relative links in description
 - fix broken images
 - fix rune data (scraping broken?)
 - test and tweak results, (i.e. The Mind and other symbols inconsistent)
