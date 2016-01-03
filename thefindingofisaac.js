@@ -8,18 +8,20 @@
 // xxxxtest in FF and IE
 // xxxxadd help text below the search
 // xxxxpublish this somewhere
+// xxxxsearch with AND
+// - make anchors open in new page
+// - fix relative links
 // - test and tweak results, (i.e. The Mind and other symbols inconsistent)
 // - add search options options
 //     - AND vs. OR
 //     - exact match, etc
 //     - serialize the settings
+// - sub-word matching (i.e. "red" shouldn't match "credit" ?)
 // - serialize the last entry
 //		- start with something 
 // - add description to the sort options
 // - fix broken images
-// - fix relative links
 // - fix rune data (scraping broken?)
-// - make anchors open in new page
 // - test on mobile
 //
 // ALSO
@@ -137,7 +139,7 @@ function explodeAliases(aliasLookup, termsString)
 	newTermsArray = newTermsArray.unique();
 	return newTermsArray.join(' ');
 }
-function retrieveHits_OR(data, searchText)
+function retreiveHits(data, searchText, searchTermsWithAND)
 {
 	console.log("-> retrieveHits");
 
@@ -151,40 +153,48 @@ function retrieveHits_OR(data, searchText)
 		var item = data.items[key];
 		var score = 0;
 
-		// full item name match
-		if (key.indexOf(searchText) >= 0)
-		{
-			score += 20;
-		}
 		for (var i = 0; i < nTerms; ++i)
 		{
 			var term = terms[i];
+			var termScore = 0;
 
 			// item name match
 			if (key.indexOf(term) >= 0)
 			{
-				score += 10;
+				termScore += 10;
 			}
 			// class
 			if (item.itemClass.indexOf(term) >= 0)
 			{
-				score += 5;
+				termScore += 5;
 			}
 			// type
 			if (item.itemTypeWithAliases.indexOf(term) >= 0)
 			{
-				score += 3;
+				termScore += 3;
 			}
 			// color
 			if (item.itemColor.indexOf(term) >= 0)
 			{
-				score += 2;
+				termScore += 2;
 			}
 			// tag hits
 			if (item.itemTagsWithAliases.indexOf(term) >= 0)
 			{
-				score += 1;
+				termScore += 1;
 			}
+			// with AND, all terms must generate some kind of score
+			if (searchTermsWithAND && !termScore)
+			{
+				score = 0;
+				break;
+			}
+			score += termScore;
+		}
+		// full item name match
+		if (key.indexOf(searchText) >= 0)
+		{
+			score += 20;
 		}
 		if (score)
 		{
@@ -261,7 +271,7 @@ function update(event)
 		if (terms.length)
 		{
 			//KAI: search also for the fully entered text, score it more highly
-			var hits = retrieveHits_OR(g_data, terms);
+			var hits = retreiveHits(g_data, terms, true);
 			hits.sort(function(hitA, hitB){
 				return hitB.score - hitA.score;
 			});
