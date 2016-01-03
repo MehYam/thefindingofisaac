@@ -5,7 +5,7 @@ var aliases =
 	"blade sharp",
 	"bomb boom explosive tnt",
 	"break destroy",
-	"charge recharge battery",
+	"charge recharge re-charge battery",
 	"circle ball round sphere",
 	"consumable singleuse single-use",
 	"cord rope"

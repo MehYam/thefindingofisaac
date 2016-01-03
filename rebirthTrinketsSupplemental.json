@@ -1,362 +1,302 @@
 var rebirthTrinketsSupplemental = {
 	"???'s Soul": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "blue",
+		"itemTags": "baby"
 	},
 	"AAA Battery": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "charge"
 	},
 	"Ace of Spades": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "card spades"
 	},
 	"Bible Tract": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "book page eternal heart"
 	},
 	"Black Lipstick": {
-		"itemClass": "",
-		"itemType": "",
+		"itemType": "mom",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "makeup"
 	},
 	"Bloody Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "coin"
 	},
 	"Broken Ankh": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "cross"
 	},
 	"Broken Magnet": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "red",
 		"itemTags": ""
 	},
 	"Broken Remote": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Burnt Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "coin bomb"
 	},
 	"Butt Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "coin fart"
 	},
 	"Cain's Eye": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "round"
 	},
 	"Callus": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "ball meat creep spike"
 	},
 	"Cancer (Trinket)": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "heart gross"
 	},
 	"Cartridge": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "nintendo game"
 	},
 	"Child's Heart": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "organ gross"
 	},
 	"Counterfeit Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gold",
+		"itemTags": "coin"
 	},
 	"Cursed Skull": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Curved Horn": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "damage"
 	},
 	"Daemon's Tail": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "arrow crooked evil"
 	},
 	"Eve's Bird Foot": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "claw"
 	},
 	"Fish Head": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "dead"
 	},
 	"Flat Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "silver",
+		"itemTags": "coin"
 	},
 	"Flat Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "round head face tear"
 	},
 	"Goat Hoof": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "foot speed"
 	},
 	"Hook Worm": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "white",
 		"itemTags": ""
 	},
 	"Isaac's Fork": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Isaac's Head": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "dead"
 	},
 	"Judas' Tongue": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "blood lick"
 	},
 	"The Left Hand": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "blood"
 	},
 	"Liberty Cap": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "mushroom",
+		"itemColor": "gray",
 		"itemTags": ""
 	},
 	"Lucky Toe": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Lucky Rock": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "stone coin"
 	},
 	"Maggy's Faith": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yello",
+		"itemTags": "cross shine magdalene"
 	},
 	"Match Stick": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"A Missing Page": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Missing Poster": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "page"
 	},
 	"Mom's Pearl": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "soul heart"
 	},
 	"Mom's Toenail": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "ears"
 	},
 	"Monkey Paw": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "hand"
 	},
 	"Mysterious Candy": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "rectangle"
 	},
 	"Mysterious Paper": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "page blank"
 	},
 	"Petrified Poop": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "crap"
 	},
 	"Paper Clip": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "metal wire"
 	},
 	"Pinky Eye": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "eye"
 	},
 	"Purple Heart": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "trophy"
 	},
 	"Push Pin": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "tack"
 	},
 	"Pulse Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Red Patch": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "fabric cloth"
 	},
 	"Ring Worm": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "swirl snake round"
 	},
 	"Rosary Bead": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "round"
 	},
 	"Rusted Key": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "brown",
 		"itemTags": ""
 	},
 	"Safety Cap": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "capsule cylinder pill"
 	},
 	"Samson's Lock": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "hair"
 	},
 	"Store Credit": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "dollar"
 	},
 	"Swallowed Penny": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "wet coin cent"
 	},
 	"The Tick": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "bug"
 	},
 	"Umbilical Cord": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "organ blood wet"
 	},
 	"Wiggle Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "snake"
 	},
 	"Whip Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "snake"
 	}
 }
