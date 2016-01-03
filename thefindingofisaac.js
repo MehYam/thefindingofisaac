@@ -9,8 +9,10 @@
 // xxxxadd help text below the search
 // xxxxpublish this somewhere
 // xxxxsearch with AND
-// - make anchors open in new page
-// - fix relative links
+// xxxxmake anchors open in new page
+// xxxxfix relative links in description
+// - fix broken images
+// - fix rune data (scraping broken?)
 // - test and tweak results, (i.e. The Mind and other symbols inconsistent)
 // - add search options options
 //     - AND vs. OR
@@ -20,8 +22,6 @@
 // - serialize the last entry
 //		- start with something 
 // - add description to the sort options
-// - fix broken images
-// - fix rune data (scraping broken?)
 // - test on mobile
 //
 // ALSO
@@ -47,6 +47,8 @@ function prepareData(data)
 		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
 		function(item) { item.itemClass = "card"; });
 	mergeItems(data, [runes1, runes2, runes1Supplemental, runes2Supplemental], function(item) { item.itemClass = "rune"; })
+
+	fixUpRelativeURLs(data);
 
 	console.log("Item merge steps: " + mergeItems.totalMerged);
 
@@ -139,7 +141,16 @@ function explodeAliases(aliasLookup, termsString)
 	newTermsArray = newTermsArray.unique();
 	return newTermsArray.join(' ');
 }
-function retreiveHits(data, searchText, searchTermsWithAND)
+function fixUpRelativeURLs(data)
+{
+	// HACK: fix up the relative links in the description HTML until this hosted on the wiki
+	for (var key in data.items)
+	{
+		var item = data.items[key];
+		item.descriptionHTML = item.descriptionHTML.replace(/href="/g, "target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com");
+	}
+}
+function retrieveHits(data, searchText, searchTermsWithAND)
 {
 	console.log("-> retrieveHits");
 
@@ -272,7 +283,7 @@ function update(event)
 		if (terms.length)
 		{
 			//KAI: search also for the fully entered text, score it more highly
-			var hits = retreiveHits(g_data, terms, true);
+			var hits = retrieveHits(g_data, terms, true);
 			hits.sort(function(hitA, hitB){
 				return hitB.score - hitA.score;
 			});
