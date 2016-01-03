@@ -7,9 +7,10 @@
 // xxxxhook up aliases
 // xxxxtest in FF and IE
 // xxxxadd help text below the search
-// - publish this somewhere
+// xxxxpublish this somewhere
 // - test and tweak results, (i.e. The Mind and other symbols inconsistent)
 // - add search options options
+//     - AND vs. OR
 //     - exact match, etc
 //     - serialize the settings
 // - serialize the last entry
@@ -17,6 +18,7 @@
 // - add description to the sort options
 // - fix broken images
 // - fix relative links
+// - fix rune data (scraping broken?)
 // - make anchors open in new page
 // - test on mobile
 //

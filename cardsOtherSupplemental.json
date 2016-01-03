@@ -1,12 +1,10 @@
 var cardsOtherSupplemental = {
 	"Emergency Contact": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": "mom"
 	},
 	"Dice Shard": {
-		"itemClass": "",
 		"itemType": "dice",
 		"itemColor": "red",
 		"itemTags": "d6 d20 reroll"

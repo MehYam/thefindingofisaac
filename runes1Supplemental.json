@@ -1,24 +1,20 @@
 var runes1Supplemental = {
 	"Hagalaz": {
-		"itemClass": "",
 		"itemType": "rune",
 		"itemColor": "",
 		"itemTags": "rock break"
 	},
 	"Jera": {
-		"itemClass": "",
 		"itemType": "rune",
 		"itemColor": "",
 		"itemTags": "dupe"
 	},
 	"Ehwaz": {
-		"itemClass": "",
 		"itemType": "rune",
 		"itemColor": "",
 		"itemTags": "passage trap floor"
 	},
 	"Dagaz": {
-		"itemClass": "",
 		"itemType": "rune",
 		"itemColor": "",
 		"itemTags": "curse purity"

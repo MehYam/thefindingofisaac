@@ -50,7 +50,6 @@ function rowImageAndThumbnailScrape(row)
 function rowMetadataTemplateScrape(row)
 {
 	var entry = {};
-	entry.itemClass = "";
 	entry.itemType = "";
 	entry.itemColor = "";
 	entry.itemTags = "";

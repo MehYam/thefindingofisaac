@@ -1,114 +1,95 @@
 var afterbirthCollectiblesSupplemental = {
 	"Box Of Friends": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "yellow",
 		"itemTags": "familiar"
 	},
 	"D12": {
-		"itemClass": "",
 		"itemType": "dice",
 		"itemColor": "blue",
 		"itemTags": ""
 	},
 	"D7": {
-		"itemClass": "",
 		"itemType": "dice",
 		"itemColor": "gray",
 		"itemTags": ""
 	},
 	"D8": {
-		"itemClass": "",
 		"itemType": "dice",
 		"itemColor": "gray",
 		"itemTags": ""
 	},
 	"Diplopia": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "eye white round",
 		"itemTags": "dupe"
 	},
 	"Friendly Ball": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white round",
 		"itemTags": "capture pokemon"
 	},
 	"Glass Cannon": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": ""
 	},
 	"Glowing Hour Glass": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "blue glow",
 		"itemTags": "hourglass"
 	},
 	"Jar Of Flies": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "glass",
 		"itemTags": ""
 	},
 	"Kidney Bean": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "red",
 		"itemTags": ""
 	},
 	"Mega Bean": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "pink",
 		"itemTags": ""
 	},
 	"Mega Blast": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "dark satan",
 		"itemTags": ""
 	},
 	"Mine Crafter": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "pink",
 		"itemTags": "bomb tnt"
 	},
 	"Mom's Box": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "purple gray",
 		"itemTags": "trinket"
 	},
 	"Placebo": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "pill"
 	},
 	"Tear Detonator": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "blue",
 		"itemTags": "bomb"
 	},
 	"Teleport 2.0": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "yellow",
 		"itemTags": ""
 	},
 	"Ventricle Razor": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "gray red",
 		"itemTags": "knife"
 	},
 	"Wooden Nickel": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "brown",
 		"itemTags": "money"

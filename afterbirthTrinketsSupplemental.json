@@ -1,174 +1,145 @@
 var afterbirthTrinketsSupplemental = {
 	"Blasting Cap": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "red",
 		"itemTags": "square bomb"
 	},
 	"Black Feather": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "dark",
 		"itemTags": "leaf"
 	},
 	"Blind Rage": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "bandana blindfold"
 	},
 	"Blister": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "beige",
 		"itemTags": "dome cup round"
 	},
 	"Brown Cap": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "brown",
 		"itemTags": "square poop"
 	},
 	"Bob's Bladder": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "green",
 		"itemTags": "gross organ gut"
 	},
 	"Child Leash": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "green",
 		"itemTags": "snake cord"
 	},
 	"Cracked Dice": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "cube"
 	},
 	"Endless Nameless": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "dark",
 		"itemTags": "mask 8"
 	},
 	"Error": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": "404 number text"
 	},
 	"Faded Polaroid": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "photo card paper"
 	},
 	"Golden Horse Shoe": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "gold yellow",
 		"itemTags": "horseshoe u"
 	},
 	"Karma": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "dark",
 		"itemTags": "curly symbol luck beggar"
 	},
 	"Lazy Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "round face"
 	},
 	"Lil Larva": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "worm fetus grub"
 	},
 	"Louse": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "screw spider"
 	},
 	"Mom's Locket": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "red dark",
 		"itemTags": "necklace chain heart"
 	},
 	"NO!": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "red",
 		"itemTags": "symbol round permission"
 	},
 	"Poker Chip": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white red",
 		"itemTags": "round"
 	},
 	"Rainbow Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "rainbow multi",
 		"itemTags": "tear shot swirl"
 	},
 	"Rib Of Greed": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "worm swirl"
 	},
 	"Safety Scissors": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "blue white",
 		"itemTags": "cut"
 	},
 	"Second Hand": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "red",
 		"itemTags": "rod stick"
 	},
 	"Shiny Rock": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "stone sparkle bright"
 	},
 	"Store Key": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "gray",
 		"itemTags": "metal shop"
 	},
 	"Stud Finder": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "dark yellow red",
 		"itemTags": ""
 	},
 	"Super Magnet": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "cap cylinder round"
 	},
 	"Tape Worm": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
 		"itemTags": "snake tear gross"
 	},
 	"Watch Battery": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "gray",
 		"itemTags": "pill cylinder round"
