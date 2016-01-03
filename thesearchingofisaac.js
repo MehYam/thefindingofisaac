@@ -181,6 +181,12 @@ function renderHits(hits)
 		cell.innerHTML = hit.item.descriptionHTML;
 		row.appendChild(cell);
 
+		// type
+		cell = document.createElement('td');
+		cell.appendChild(document.createTextNode(hit.item.itemClass));
+		cell.className = "itemTypeCell";
+		row.appendChild(cell);
+
 		// score
 		cell = document.createElement('td');
 		cell.appendChild(document.createTextNode(hit.score));
