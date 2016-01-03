@@ -6,14 +6,19 @@
 // xxxxxhand-tune supplemental data
 // xxxxhook up aliases
 // xxxxtest in FF and IE
+// xxxxadd help text below the search
+// - publish this somewhere
 // - test and tweak results, (i.e. The Mind and other symbols inconsistent)
-// - add help text below the search
-// - add checkboxes for the sort options
+// - add search options options
 //     - exact match, etc
 //     - serialize the settings
+// - serialize the last entry
+//		- start with something 
 // - add description to the sort options
-// - fix broken links
-// - make links open in new page
+// - fix broken images
+// - fix relative links
+// - make anchors open in new page
+// - test on mobile
 //
 // ALSO
 // - add pills
