@@ -219,6 +219,7 @@ function renderHits(hits)
 		{
 			var anchor = document.createElement('a');
 			anchor.href = hit.item.wikiPage;
+			anchor.target = "_blank";
 			nameParent = anchor;
 
 			cell.appendChild(anchor);
