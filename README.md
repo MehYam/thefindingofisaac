@@ -9,7 +9,6 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-- fix broken images
 - test and tweak results, (i.e. The Mind and other symbols inconsistent)
 - RELEASE BETA
 - add search options options
@@ -21,6 +20,7 @@ TO DO:
 	- put a default sample search
 - add description to the sort options
 - test on mobile
+- ~~fix broken images~~
 - ~~fix rune data (scraping broken?)~~
 - ~~1. data merge~~
 - ~~2. hook up searching~~
