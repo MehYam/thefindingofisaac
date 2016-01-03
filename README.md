@@ -9,18 +9,6 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-~~1. data merge~~
-~~2. hook up searching~~
-~~fully render results~~
-~~scored sort~~
-~~hand-tune supplemental data~~
-~~hook up aliases~~
-~~test in FF and IE~~
-~~add help text below the search~~
-~~publish this somewhere~~
-~~search with AND~~
-~~make anchors open in new page~~
-~~fix relative links in description~~
 - fix broken images
 - fix rune data (scraping broken?)
 - test and tweak results, (i.e. The Mind and other symbols inconsistent)
@@ -34,6 +22,18 @@ TO DO:
 	- put a default sample search
 - add description to the sort options
 - test on mobile
+- ~~1. data merge~~
+- ~~2. hook up searching~~
+- ~~fully render results~~
+- ~~scored sort~~
+- ~~hand-tune supplemental data~~
+- ~~hook up aliases~~
+- ~~test in FF and IE~~
+- ~~add help text below the search~~
+- ~~publish this somewhere~~
+- ~~search with AND~~
+- ~~make anchors open in new page~~
+- ~~fix relative links in description~~
 
 ALSO
 - add pills
