@@ -1,32 +1,32 @@
 var cardsPlayingSupplemental = {
 	"2 of Clubs": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "bomb"
 	},
 	"2 of Spades": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "key"
 	},
 	"2 of Diamonds": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "coin"
 	},
 	"2 of Hearts": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "playing",
+		"itemColor": "white",
 		"itemTags": ""
 	},
 	"Joker": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "devil"
 	}
 }

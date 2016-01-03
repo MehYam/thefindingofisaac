@@ -14,25 +14,25 @@ var cardsSpecialSupplemental = {
 	"Credit Card": {
 		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "blue",
 		"itemTags": ""
 	},
 	"Rules Card": {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "message"
 	},
 	"A Card Against Humanity": {
 		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "poop"
 	},
 	"? Card ": {
 		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "white",
 		"itemTags": ""
 	},
 	"Get Out Of Jail Free Card ": {

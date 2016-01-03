@@ -1,134 +1,134 @@
 var cardsSupplemental = {
 	"0 - The Fool": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "teleport"
 	},
 	"I - The Magician": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "homing"
 	},
 	"II - The High Priestess": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "mom"
 	},
 	"III - The Empress": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "whore babylon eve"
 	},
 	"IV - The Emperor": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "teleport boss"
 	},
 	"V - The Hierophant": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "soul heart"
 	},
 	"VI - The Lovers": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "red heart"
 	},
 	"VII - The Chariot": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "unicorn"
 	},
 	"VIII - Justice": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"IX - The Hermit": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "teleport shop"
 	},
 	"X - Wheel of Fortune": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "gamble"
 	},
 	"XI - Strength": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "buff heart"
 	},
 	"XII - The Hanged Man": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "fly flight"
 	},
 	"XIII - Death": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "damage"
 	},
 	"XIV - Temperance": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "blood donation machine"
 	},
 	"XV - The Devil": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "buff damage"
 	},
 	"XVI - The Tower": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "bomb anarchy"
 	},
 	"XVII - The Stars": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "teleport treasure"
 	},
 	"XVIII - The Moon": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "teleport secret"
 	},
 	"XIX - The Sun": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "heal map"
 	},
 	"XX - Judgement": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "beggar"
 	},
 	"XXI - The World": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "tarot",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "map"
 	}
 }

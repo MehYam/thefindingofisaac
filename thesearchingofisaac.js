@@ -2,17 +2,19 @@
 // xxxx1. data merge
 // xxxx2. hook up searching
 // xxxxfully render results
-// - hand-tune supplemental data
-//		- include categorization for devil/angel items
-// - scored sort
+// xxxxscored sort
 //		- by relevance (implement relevance scoring)
 //			- score exact matches most highly, users don't need to quote anything
 //	    - by name
 //      - needs tweaking
+// - hand-tune supplemental data
+//		- include categorization for devil/angel items
+// - add description to the sort options
 // - add back aliases
-// - maybe checkboxes for more sort options (save them if you do this)
+//		- for color too (i.e. dark)?
+// - add checkboxes for the sort options
 //     - exact match, etc
-//     - maybe make quotes do what you expect
+//     - serialize the settings
 // - fix broken links
 // ALSO
 // - add pills

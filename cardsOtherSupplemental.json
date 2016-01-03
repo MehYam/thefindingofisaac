@@ -3,12 +3,12 @@ var cardsOtherSupplemental = {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "mom"
 	},
 	"Dice Shard": {
 		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "red",
+		"itemTags": "d6 d20 reroll"
 	}
 }

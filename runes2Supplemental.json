@@ -1,32 +1,32 @@
 var runes2Supplemental = {
 	"Ansuz": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "rune",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "map secret"
 	},
 	"Perthro": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "rune",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "d6 reroll"
 	},
 	"Berkano": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "rune",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "fly spider"
 	},
 	"Algiz": {
 		"itemClass": "",
-		"itemType": "",
+		"itemType": "rune",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "shield invuln"
 	},
 	"Blank Rune": {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "???"
 	}
 }

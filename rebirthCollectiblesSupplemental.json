@@ -1,446 +1,372 @@
 var rebirthCollectiblesSupplemental = {
 	"Anarchist Cookbook": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "book",
+		"itemColor": "red",
 		"itemTags": ""
 	},
 	"The Bean": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "fart"
 	},
 	"Best Friend": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "dead baby bomb decoy"
 	},
 	"The Bible": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "brown",
+		"itemTags": "flight fly"
 	},
 	"Blank Card": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "card rune rectangle"
 	},
 	"Blood Rights": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown silver",
+		"itemTags": "metal blade cut blood"
 	},
 	"Bob's Rotten Head": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "head dead bomb"
 	},
 	"The Book Of Belial": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "dark",
+		"itemTags": "evil"
 	},
 	"Book Of Revelations": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "brown",
+		"itemTags": "cross bible"
 	},
 	"Book Of Secrets": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "white",
+		"itemTags": "? map secret"
 	},
 	"Book Of Shadows": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "white",
+		"itemTags": "shield"
 	},
 	"The Book Of Sin": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "dark red",
+		"itemTags": "7"
 	},
 	"The Boomerang": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "c"
 	},
 	"Box Of Spiders": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "white",
 		"itemTags": ""
 	},
 	"Breath Of Life": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "ball yarn puff air"
 	},
 	"Butter Bean": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "fart"
 	},
 	"The Candle": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "flame"
 	},
 	"Converter": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "cylinder round"
 	},
 	"Crack The Sky": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "feather"
 	},
 	"Crystal Ball": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "round"
 	},
 	"D4": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "green",
+		"itemTags": "stat"
 	},
-	"The D6": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+	"D6": {
+		"itemType": "dice",
+		"itemColor": "red",
+		"itemTags": "item"
 	},
 	"D10": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "orange",
+		"itemTags": "mob enemy"
 	},
 	"D20": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "red",
+		"itemTags": "item pickup"
 	},
 	"D100": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "white",
+		"itemTags": "ball"
 	},
 	"Dad's Key": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Dead Sea Scrolls": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Deck Of Cards": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "tarot"
 	},
 	"Doctor's Remote": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "bomb"
 	},
 	"Flush!": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "handle poop"
 	},
 	"Forget Me Now": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "cap pill reroll"
 	},
 	"The Gamekid": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "nintendo invuln"
 	},
 	"Guppy's Head": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "head cat face fly"
 	},
 	"Guppy's Paw": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray pink",
+		"itemTags": "foot paw cat"
 	},
 	"Head Of Krampus": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "demon dead"
 	},
 	"How To Jump": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "book",
+		"itemColor": "gray",
 		"itemTags": ""
 	},
 	"The Hourglass": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "time slow"
 	},
 	"Isaac's Tears": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "cup glass water"
 	},
 	"IV Bag": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "blood donation machine coin"
 	},
 	"The Jar": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "clear",
+		"itemTags": "glass container heart"
 	},
 	"Kamikaze!": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "tnt"
 	},
 	"Lemon Mishap": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "round fruit"
 	},
 	"Magic Fingers": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "coin damage toaster"
 	},
 	"Mom's Bottle Of Pills": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Mom's Bra": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "mom gross"
 	},
 	"Mom's Pad": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "mom gross"
 	},
 	"Monster Manual": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "multi",
+		"itemTags": "familiar"
 	},
 	"Monstro's Tooth": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "teeth blood gross"
 	},
 	"Mr. Boom": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "bomb"
 	},
 	"My Little Unicorn": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "horn cone"
 	},
 	"The Nail": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "blood soul spike"
 	},
 	"The Necronomicon": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "brown",
+		"itemTags": "damage"
 	},
 	"Notched Axe": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "pick rock break"
 	},
 	"Pandora's Box": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "cube"
 	},
 	"The Pinking Shears": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "scissor cut metal"
 	},
 	"The Pony": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "flight fly demon horse"
 	},
 	"The Poop": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "shit"
 	},
 	"Portable Slot": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "gamble coin"
 	},
 	"Prayer Card": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "angel eternal heart"
 	},
 	"Razor Blade": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "cut metal damage"
 	},
 	"Red Candle": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
 		"itemTags": ""
 	},
 	"Remote Detonator": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "tnt bomb"
 	},
 	"Satanic Bible": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "dark",
+		"itemTags": "evil heart"
 	},
 	"Scissors": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "cut"
 	},
 	"Shoop Da Whoop!": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "face brimstone"
 	},
 	"Spider Butt": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "web"
 	},
 	"Tammy's Head": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "dead cat head"
 	},
 	"Telepathy For Dummies": {
-		"itemClass": "",
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "book",
+		"itemColor": "yellow",
+		"itemTags": "homing tear"
 	},
 	"Teleport": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "remote"
 	},
 	"Undefined": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "broken teleport weird"
 	},
 	"Unicorn Stump": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "invuln stone"
 	},
 	"We Need To Go Deeper!": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "shovel dig spade"
 	},
 	"White Pony": {
-		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "fly flight horse"
 	},
 	"Yum Heart": {
-		"itemClass": "",
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "red",
 		"itemTags": ""
 	}
 }
