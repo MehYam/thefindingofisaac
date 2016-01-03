@@ -14,6 +14,7 @@
 // - fix broken images
 // - fix rune data (scraping broken?)
 // - test and tweak results, (i.e. The Mind and other symbols inconsistent)
+// - RELEASE BETA
 // - add search options options
 //     - AND vs. OR
 //     - exact match, etc
