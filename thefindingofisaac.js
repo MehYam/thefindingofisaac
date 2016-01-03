@@ -46,9 +46,12 @@ function prepareData(data)
 		function(item) { item.itemClass = "card"; });
 	mergeItems(data, [runes1, runes2, runes1Supplemental, runes2Supplemental], function(item) { item.itemClass = "rune"; })
 
+	console.log("Item merge steps: " + mergeItems.totalMerged);
+
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
 }
+mergeItems.totalMerged = 0;
 function mergeItems(data, itemTableArray, override)
 {
 	itemTableArray.forEach(function(itemTable)
@@ -73,6 +76,8 @@ function mergeItems(data, itemTableArray, override)
 				override(merged);
 			}
 			data.items[keyLower] = merged;
+
+			++mergeItems.totalMerged;
 		}
 	});
 }
