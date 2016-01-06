@@ -9,14 +9,17 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-- test and tweak results, (i.e. The Mind and other symbols inconsistent)
+- type "all" to see the entire item list
+- serialize the last entry and load it upon page start
+	- put a default sample search
+	- highlight the entire text in the input box so it deletes by typing
+- highlight the text box after clicking link
+- test and tweak tagging, (i.e. The Mind and other symbols inconsistent, add more descriptors and colors)
 - add search options options
     - AND vs. OR
     - exact match, etc
     - serialize the settings
 - sub-word matching (i.e. "red" shouldn't match "credit" ?)
-- serialize the last entry
-	- put a default sample search
 - add description to the sort options
 - test on mobile
 - ~~alias the colors~~

@@ -1,9 +1,3 @@
-var g_data = 
-{
-	items: {},
-	aliases: {}
-};
-var g_classes = "collectible passive trinket card rune pill"
 function prepareData(data)
 {
 	mergeItems(data, 
@@ -128,7 +122,7 @@ function retrieveHits(data, searchText, searchTermsWithAND)
 	console.log("-> retrieveHits");
 
 	// split search into multiple terms
-	var terms = searchText.toLowerCase().split(' ');  // KAI: should maybe regexp for whitespace instead
+	var terms = searchText.split(' ');  // KAI: should maybe regexp for whitespace instead
 	var nTerms = terms.length;
 
 	var hits = [];
@@ -256,28 +250,51 @@ function renderClear()
 {
 	hitsContainer.innerHTML = "";
 }
-update.lastTerms = null;
+update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch';
 function update(event)
 {
-	var terms = event.currentTarget.value.trim();
-	if (update.lastTerms != terms)
+	var searchText = event.currentTarget.value.trim().toLowerCase();
+	var lastSearchText = localStorage.getItem(update.LAST_SEARCH_KEY, searchText);
+	if (lastSearchText != searchText)
 	{
-		if (terms.length)
+		doSearch(searchText);
+		localStorage.setItem(update.LAST_SEARCH_KEY, searchText);
+	}
+}
+function doSearch(searchText)
+{
+	if (searchText.length)
+	{
+		if (searchText == "all")
 		{
-			//KAI: search also for the fully entered text, score it more highly
-			var hits = retrieveHits(g_data, terms, true);
+			renderAll(g_data);
+		}
+		else
+		{
+			var hits = retrieveHits(g_data, searchText, true);
 			hits.sort(function(hitA, hitB){
 				return hitB.score - hitA.score;
 			});
 			renderHits(hits);
 		}
-		else
-		{
-			renderClear();
-		}
-		update.lastTerms = terms;
+	}
+	else
+	{
+		renderClear();
 	}
 }
-prepareData(g_data);
-//renderAll(g_data);
-loading.style.display = "none";
+var g_data = 
+{
+	items: {},
+	aliases: {}
+};
+function main()
+{
+	prepareData(g_data);
+	loading.style.display = "none";	
+
+	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY) || "green";
+	searchTerms.value = lastSearch;
+
+	doSearch(lastSearch);
+}

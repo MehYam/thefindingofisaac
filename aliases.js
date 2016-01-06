@@ -4,6 +4,7 @@ var g_aliases =
 	"beg beggar",
 	"blade sharp",
 	"bomb boom explosive tnt",
+	"bottle jar",
 	"break destroy",
 	"charge recharge re-charge battery",
 	"circle ball round sphere",

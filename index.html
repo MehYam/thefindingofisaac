@@ -62,18 +62,23 @@ a:hover {
 }
 </style>
 </head>
-<body>
+<body onload="main()">
 <label for="searchTerms">Describe Item:</label>
 <input id="searchTerms" autofocus type="text" oninput="update(event)"/>
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>
 <div id="instruction" class="finePrint">
-	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth</b> run.  Just start typing something descriptive, like <b>"green syringe", "gross blood", "blue fly", "dead head"</b>, etc, to narrow down the item.  Results are linked to the <a href="http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki">gamepedia.com wiki</a>.
+	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth</b> run.  
+	<ul>
+		<li>Just start typing something descriptive, like <b>"green syringe", "gross blood", "blue fly", "dead head"</b>, etc.</li>
+		<li>Type <b>'ALL'</b> to see the entire list of items.</li>
+		<li>Results are linked to the <a href="http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki">gamepedia.com wiki</a>.</li>
+	</ul>
 </div>
 <br/>
 <div id="version" class="finePrint">
-version: 0.0.5
+version: 0.0.6
 </div>
 </body>
 <script src="afterbirthCollectibles.json"></script>
