@@ -17,12 +17,12 @@ var rebirthPassivesSupplemental = {
 	"20/20": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "glasses boobs double tear"
+		"itemTags": "glasses boobs double"
 	},
 	"3 Dollar Bill": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "random tear"
+		"itemTags": "random"
 	},
 	"9 Volt": {
 		"itemType": "",
@@ -42,7 +42,7 @@ var rebirthPassivesSupplemental = {
 	"Anemic": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "tear blood drop"
+		"itemTags": "blood drop"
 	},
 	"Ankh": {
 		"itemType": "",
@@ -137,7 +137,7 @@ var rebirthPassivesSupplemental = {
 	"Bloody Lust": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "tear drop"
+		"itemTags": "drop"
 	},
 	"Blue Cap": {
 		"itemType": "mushroom",
@@ -312,12 +312,12 @@ var rebirthPassivesSupplemental = {
 	"Cupid's Arrow": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "pierce tear"
+		"itemTags": "pierce"
 	},
 	"Cursed Eye": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "round charge tear sucks"
+		"itemTags": "round charge sucks"
 	},
 	"Daddy Longlegs": {
 		"itemType": "familiar",
@@ -352,12 +352,12 @@ var rebirthPassivesSupplemental = {
 	"Dead Onion": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "tear vegetable garlic"
+		"itemTags": "vegetable garlic"
 	},
 	"Death's Touch": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "sickle blade metal tear pierce"
+		"itemTags": "sickle blade metal pierce"
 	},
 	"Demon Baby": {
 		"itemType": "familiar",
@@ -427,7 +427,7 @@ var rebirthPassivesSupplemental = {
 	"Fire Mind": {
 		"itemType": "",
 		"itemColor": "black",
-		"itemTags": "flame ball tear"
+		"itemTags": "flame ball"
 	},
 	"Forever Alone": {
 		"itemType": "familiar",
@@ -697,12 +697,12 @@ var rebirthPassivesSupplemental = {
 	"The Ludovico Technique": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "tear eye technology"
+		"itemTags": "eye technology"
 	},
 	"A Lump Of Coal": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "rock tear"
+		"itemTags": "rock"
 	},
 	"Lunch": {
 		"itemType": "",
@@ -792,7 +792,7 @@ var rebirthPassivesSupplemental = {
 	"Mom's Eye": {
 		"itemType": "mom",
 		"itemColor": "white",
-		"itemTags": "eye tear"
+		"itemTags": "eye"
 	},
 	"Mom's Eyeshadow": {
 		"itemType": "mom",
@@ -887,7 +887,7 @@ var rebirthPassivesSupplemental = {
 	"Number One": {
 		"itemType": "",
 		"itemColor": "yellow",
-		"itemTags": "drip drop tear"
+		"itemTags": "drip"
 	},
 	"Odd Mushroom (Large)": {
 		"itemType": "mushroom",
@@ -922,7 +922,7 @@ var rebirthPassivesSupplemental = {
 	"The Parasite": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "worm grub split tear"
+		"itemTags": "worm grub split"
 	},
 	"The Peeper": {
 		"itemType": "familiar",
@@ -957,7 +957,7 @@ var rebirthPassivesSupplemental = {
 	"Polyphemus": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "eye large tear"
+		"itemTags": "eye large"
 	},
 	"Proptosis": {
 		"itemType": "",
@@ -1032,7 +1032,7 @@ var rebirthPassivesSupplemental = {
 	"Rubber Cement": {
 		"itemType": "",
 		"itemColor": "brown orange",
-		"itemTags": "jar bounce tear"
+		"itemTags": "jar bounce"
 	},
 	"Sack Of Pennies": {
 		"itemType": "",
@@ -1042,7 +1042,7 @@ var rebirthPassivesSupplemental = {
 	"Sacred Heart": {
 		"itemType": "",
 		"itemColor": "orange red",
-		"itemTags": "flame heart tear homing"
+		"itemTags": "flame heart homing"
 	},
 	"Sacrificial Dagger": {
 		"itemType": "familiar",
@@ -1057,7 +1057,7 @@ var rebirthPassivesSupplemental = {
 	"The Sad Onion": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "face tear"
+		"itemTags": "face"
 	},
 	"Safety Pin": {
 		"itemType": "",

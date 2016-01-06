@@ -7,16 +7,16 @@ var afterbirthTrinketsSupplemental = {
 	"Black Feather": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "leaf"
+		"itemTags": "leaf feather"
 	},
 	"Blind Rage": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "bandana blindfold"
+		"itemTags": "bandana blindfold cloth tie round"
 	},
 	"Blister": {
 		"itemType": "",
-		"itemColor": "beige",
+		"itemColor": "beige gray",
 		"itemTags": "dome cup round"
 	},
 	"Brown Cap": {
@@ -37,16 +37,16 @@ var afterbirthTrinketsSupplemental = {
 	"Cracked Dice": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "cube"
+		"itemTags": "cube dice"
 	},
 	"Endless Nameless": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "mask 8"
+		"itemTags": "mask 8 symbol pill card rune"
 	},
 	"Error": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "dark",
 		"itemTags": "404 number text"
 	},
 	"Faded Polaroid": {
@@ -57,12 +57,12 @@ var afterbirthTrinketsSupplemental = {
 	"Golden Horse Shoe": {
 		"itemType": "",
 		"itemColor": "gold yellow",
-		"itemTags": "horseshoe u"
+		"itemTags": "horseshoe shoe u"
 	},
 	"Karma": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "curly symbol luck beggar"
+		"itemTags": "curly swirl symbol luck beggar"
 	},
 	"Lazy Worm": {
 		"itemType": "",
@@ -71,13 +71,13 @@ var afterbirthTrinketsSupplemental = {
 	},
 	"Lil Larva": {
 		"itemType": "",
-		"itemColor": "white",
-		"itemTags": "worm fetus grub"
+		"itemColor": "white gray",
+		"itemTags": "worm fetus bent grub"
 	},
 	"Louse": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "screw spider"
+		"itemTags": "screw spider cylinder ridges small"
 	},
 	"Mom's Locket": {
 		"itemType": "",
@@ -87,27 +87,27 @@ var afterbirthTrinketsSupplemental = {
 	"NO!": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "symbol round permission"
+		"itemTags": "symbol round permission cross strike"
 	},
 	"Poker Chip": {
 		"itemType": "",
 		"itemColor": "white red",
-		"itemTags": "round"
+		"itemTags": "round cross cylinder"
 	},
 	"Rainbow Worm": {
 		"itemType": "",
 		"itemColor": "rainbow multi",
-		"itemTags": "tear shot swirl"
+		"itemTags": "worm swirl round"
 	},
 	"Rib Of Greed": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "worm swirl"
+		"itemTags": "worm swirl sperm wet"
 	},
 	"Safety Scissors": {
 		"itemType": "",
 		"itemColor": "blue white",
-		"itemTags": "cut"
+		"itemTags": "cut metal bomb"
 	},
 	"Second Hand": {
 		"itemType": "",
@@ -117,7 +117,7 @@ var afterbirthTrinketsSupplemental = {
 	"Shiny Rock": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "stone sparkle bright"
+		"itemTags": "stone metal shiney sparkle bright"
 	},
 	"Store Key": {
 		"itemType": "",
@@ -127,7 +127,7 @@ var afterbirthTrinketsSupplemental = {
 	"Stud Finder": {
 		"itemType": "",
 		"itemColor": "dark yellow red",
-		"itemTags": ""
+		"itemTags": "tech"
 	},
 	"Super Magnet": {
 		"itemType": "",
@@ -137,11 +137,11 @@ var afterbirthTrinketsSupplemental = {
 	"Tape Worm": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "snake tear gross"
+		"itemTags": "worm snake gross windy tangle"
 	},
 	"Watch Battery": {
 		"itemType": "",
 		"itemColor": "gray",
-		"itemTags": "pill cylinder round"
+		"itemTags": "pill cylinder round cross charge"
 	}
 }

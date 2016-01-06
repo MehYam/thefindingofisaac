@@ -337,7 +337,7 @@ var rebirthCollectiblesSupplemental = {
 	"Telepathy For Dummies": {
 		"itemType": "book",
 		"itemColor": "yellow",
-		"itemTags": "homing tear"
+		"itemTags": "homing"
 	},
 	"Teleport": {
 		"itemType": "",
