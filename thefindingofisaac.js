@@ -295,6 +295,7 @@ function main()
 
 	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY) || "green";
 	searchTerms.value = lastSearch;
+	searchTerms.select();
 
 	doSearch(lastSearch);
 }
