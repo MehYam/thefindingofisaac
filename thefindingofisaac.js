@@ -282,6 +282,9 @@ function doSearch(searchText)
 	{
 		renderClear();
 	}
+
+	var resultTable = document.getElementById('hitsTable');
+	resultsCount.textContent = resultTable ? resultTable.rows.length - 1 : 0;
 }
 var g_data = 
 {
@@ -293,8 +296,8 @@ function main()
 	prepareData(g_data);
 	loading.style.display = "none";	
 
-	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY) || "green";
-	searchTerms.value = lastSearch;
+	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY);
+	searchTerms.value = lastSearch == undefined ? "green" : lastSearch; // can't use the '|| trick' here, because we want to distinguish between blank and "never searched before"
 	searchTerms.select();
 
 	doSearch(lastSearch);
