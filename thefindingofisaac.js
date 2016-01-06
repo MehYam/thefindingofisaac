@@ -250,7 +250,7 @@ function renderClear()
 {
 	hitsContainer.innerHTML = "";
 }
-update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch';
+update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch.2';
 function update(event)
 {
 	var searchText = event.currentTarget.value.trim().toLowerCase();
@@ -296,8 +296,14 @@ function main()
 	prepareData(g_data);
 	loading.style.display = "none";	
 
+	// restore the last searched term
 	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY);
-	searchTerms.value = lastSearch == undefined ? "green" : lastSearch; // can't use the '|| trick' here, because we want to distinguish between blank and "never searched before"
+	if (lastSearch == undefined)
+	{
+		// can't use the '|| trick' here, because we want to distinguish between blank and "never searched before"
+		lastSearch = "green"
+	}
+	searchTerms.value = lastSearch; 
 	searchTerms.select();
 
 	doSearch(lastSearch);
