@@ -11,7 +11,7 @@ var g_aliases =
 	"charge recharge re-charge battery",
 	"circle ball round sphere disk disc",
 	"consumable singleuse single-use",
-	"cord rope",
+	"cord rope string",
 	"cross +",
 	"dark black",
 	"dead corpse",
