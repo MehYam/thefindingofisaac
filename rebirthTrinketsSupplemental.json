@@ -6,8 +6,8 @@ var rebirthTrinketsSupplemental = {
 	},
 	"AAA Battery": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "charge"
+		"itemColor": "gray",
+		"itemTags": "aaa charge"
 	},
 	"Ace of Spades": {
 		"itemType": "",
@@ -21,13 +21,13 @@ var rebirthTrinketsSupplemental = {
 	},
 	"Black Lipstick": {
 		"itemType": "mom",
-		"itemColor": "",
+		"itemColor": "dark gray",
 		"itemTags": "makeup"
 	},
 	"Bloody Penny": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "coin"
+		"itemTags": "coin wet blood"
 	},
 	"Broken Ankh": {
 		"itemType": "",
@@ -37,12 +37,12 @@ var rebirthTrinketsSupplemental = {
 	"Broken Magnet": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": ""
+		"itemTags": "piece broken"
 	},
 	"Broken Remote": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "tech box"
 	},
 	"Burnt Penny": {
 		"itemType": "",
@@ -52,7 +52,7 @@ var rebirthTrinketsSupplemental = {
 	"Butt Penny": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "coin fart"
+		"itemTags": "coin fart cylinder"
 	},
 	"Cain's Eye": {
 		"itemType": "",
@@ -62,17 +62,17 @@ var rebirthTrinketsSupplemental = {
 	"Callus": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "ball meat creep spike"
+		"itemTags": "ball meat creep spike lump"
 	},
 	"Cancer (Trinket)": {
 		"itemType": "",
 		"itemColor": "black",
-		"itemTags": "heart gross"
+		"itemTags": "heart gross organ"
 	},
 	"Cartridge": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "nintendo game"
+		"itemTags": "gamekid nintendo game"
 	},
 	"Child's Heart": {
 		"itemType": "",
@@ -82,32 +82,32 @@ var rebirthTrinketsSupplemental = {
 	"Counterfeit Penny": {
 		"itemType": "",
 		"itemColor": "gold",
-		"itemTags": "coin"
+		"itemTags": "coin shiny"
 	},
 	"Cursed Skull": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white gray",
+		"itemTags": "head bone dead"
 	},
 	"Curved Horn": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "damage"
+		"itemColor": "purple",
+		"itemTags": "spiral cork screw helix"
 	},
 	"Daemon's Tail": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "arrow crooked evil"
+		"itemTags": "arrow crooked evil pointy"
 	},
 	"Eve's Bird Foot": {
 		"itemType": "",
 		"itemColor": "gray",
-		"itemTags": "claw"
+		"itemTags": "dead claw leg bird"
 	},
 	"Fish Head": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "dead"
+		"itemTags": "dead bloody"
 	},
 	"Flat Penny": {
 		"itemType": "",
@@ -117,37 +117,37 @@ var rebirthTrinketsSupplemental = {
 	"Flat Worm": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "round head face tear"
+		"itemTags": "round head face"
 	},
 	"Goat Hoof": {
 		"itemType": "",
-		"itemColor": "dark",
+		"itemColor": "dark gray pink",
 		"itemTags": "foot speed"
 	},
 	"Hook Worm": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": ""
+		"itemTags": "worm snake"
 	},
 	"Isaac's Fork": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gray",
+		"itemTags": "metal"
 	},
 	"Isaac's Head": {
 		"itemType": "familiar",
 		"itemColor": "pink",
-		"itemTags": "dead"
+		"itemTags": "dead face"
 	},
 	"Judas' Tongue": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "blood lick"
+		"itemTags": "blood lick wet"
 	},
 	"The Left Hand": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "blood"
+		"itemTags": "blood claw paw monkey ape"
 	},
 	"Liberty Cap": {
 		"itemType": "mushroom",
@@ -156,53 +156,53 @@ var rebirthTrinketsSupplemental = {
 	},
 	"Lucky Toe": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "thumb foot nail"
 	},
 	"Lucky Rock": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "dark",
 		"itemTags": "stone coin"
 	},
 	"Maggy's Faith": {
 		"itemType": "",
 		"itemColor": "yello",
-		"itemTags": "cross shine magdalene"
+		"itemTags": "cross shine glow magdalene"
 	},
 	"Match Stick": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow red",
+		"itemTags": "stick"
 	},
 	"A Missing Page": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red purple",
+		"itemTags": "page paper symbol"
 	},
 	"Missing Poster": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "page"
+		"itemTags": "page text photo face"
 	},
 	"Mom's Pearl": {
 		"itemType": "",
 		"itemColor": "gray",
-		"itemTags": "soul heart"
+		"itemTags": "ball soul heart"
 	},
 	"Mom's Toenail": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "ears"
+		"itemTags": "ears piece"
 	},
 	"Monkey Paw": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "hand"
+		"itemTags": "hand claw"
 	},
 	"Mysterious Candy": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "rectangle"
+		"itemTags": "chocolate wafer rectangle"
 	},
 	"Mysterious Paper": {
 		"itemType": "",
@@ -211,68 +211,68 @@ var rebirthTrinketsSupplemental = {
 	},
 	"Petrified Poop": {
 		"itemType": "",
-		"itemColor": "gray",
-		"itemTags": "crap"
+		"itemColor": "gray silver",
+		"itemTags": "crap pile"
 	},
 	"Paper Clip": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "metal wire"
+		"itemColor": "gray",
+		"itemTags": "metal wire shard"
 	},
 	"Pinky Eye": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "eye"
+		"itemColor": "pink",
+		"itemTags": "round eye"
 	},
 	"Purple Heart": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "trophy"
+		"itemColor": "purple",
+		"itemTags": "trophy label ribbon"
 	},
 	"Push Pin": {
 		"itemType": "",
 		"itemColor": "blue",
-		"itemTags": "tack"
+		"itemTags": "thumb tack sharp"
 	},
 	"Pulse Worm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "snake worm bent"
 	},
 	"Red Patch": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "fabric cloth"
+		"itemColor": "red",
+		"itemTags": "fabric cloth rectangle"
 	},
 	"Ring Worm": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "swirl snake round"
+		"itemTags": "swirl snake worm round"
 	},
 	"Rosary Bead": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "round"
+		"itemTags": "ball"
 	},
 	"Rusted Key": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": ""
+		"itemTags": "wood"
 	},
 	"Safety Cap": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "white",
 		"itemTags": "capsule cylinder pill"
 	},
 	"Samson's Lock": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "hair"
+		"itemTags": "hair ponytail tail"
 	},
 	"Store Credit": {
 		"itemType": "",
 		"itemColor": "gray",
-		"itemTags": "dollar"
+		"itemTags": "dollar $"
 	},
 	"Swallowed Penny": {
 		"itemType": "",
@@ -287,16 +287,16 @@ var rebirthTrinketsSupplemental = {
 	"Umbilical Cord": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "organ blood wet"
+		"itemTags": "organ blood wet guts entrails gross"
 	},
 	"Wiggle Worm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "snake"
+		"itemColor": "white",
+		"itemTags": "snake worm"
 	},
 	"Whip Worm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "snake"
+		"itemColor": "white",
+		"itemTags": "snake worm straight point"
 	}
 }

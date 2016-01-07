@@ -1,43 +1,43 @@
 var rebirthPassivesSupplemental = {
 	"<3": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "heart testicles"
+		"itemColor": "red",
+		"itemTags": "heart testicles blood"
 	},
 	"???'s Only Friend": {
 		"itemType": "familiar",
 		"itemColor": "blue",
-		"itemTags": "fly"
+		"itemTags": "fly dead"
 	},
 	"1up!": {
 		"itemType": "mushroom",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white green",
+		"itemTags": "dot"
 	},
 	"20/20": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "glasses boobs double"
+		"itemColor": "black",
+		"itemTags": "glasses wire boobs double"
 	},
 	"3 Dollar Bill": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "random"
+		"itemTags": "3 ? bill paper rectangle random"
 	},
 	"9 Volt": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "battery nine"
+		"itemColor": "black gold",
+		"itemTags": "battery cube nine"
 	},
 	"Abaddon": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "fear pentagram symbol evil"
+		"itemTags": "pentagram symbol evil"
 	},
 	"Abel": {
 		"itemType": "familiar",
 		"itemColor": "gray",
-		"itemTags": "dead head face"
+		"itemTags": "dead head face frown"
 	},
 	"Anemic": {
 		"itemType": "",
@@ -57,7 +57,7 @@ var rebirthPassivesSupplemental = {
 	"Aquarius": {
 		"itemType": "zodiac",
 		"itemColor": "blue",
-		"itemTags": "waves"
+		"itemTags": "waves zig two"
 	},
 	"Aries": {
 		"itemType": "zodiac",
@@ -67,22 +67,22 @@ var rebirthPassivesSupplemental = {
 	"Ball Of Bandages": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "bandaid"
+		"itemTags": "bandaid ball"
 	},
 	"Ball Of Tar": {
 		"itemType": "",
-		"itemColor": "dark",
-		"itemTags": "slow ball"
+		"itemColor": "dark gray",
+		"itemTags": "shiney ball"
 	},
 	"The Battery": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "charge"
+		"itemColor": "grey beige",
+		"itemTags": "charge box"
 	},
 	"The Belt": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "speed"
+		"itemTags": "leather tie"
 	},
 	"Best Bud": {
 		"itemType": "familiar",
@@ -92,47 +92,47 @@ var rebirthPassivesSupplemental = {
 	"BFFS!": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "heart familiar"
+		"itemTags": "arrow heart familiar text"
 	},
 	"BBF": {
 		"itemType": "familiar",
-		"itemColor": "gray",
-		"itemTags": "bomb fly"
+		"itemColor": "gray dark red",
+		"itemTags": "bomb round fly"
 	},
 	"Big Fan": {
 		"itemType": "familiar",
 		"itemColor": "beige",
-		"itemTags": "orbital"
+		"itemTags": "orbital round"
 	},
 	"The Black Bean": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": ""
+		"itemTags": "gas"
 	},
 	"Black Candle": {
 		"itemType": "",
-		"itemColor": "dark",
+		"itemColor": "dark gray",
 		"itemTags": "curse"
 	},
 	"Black Lotus": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "dark purple",
 		"itemTags": "flower"
 	},
 	"Blood Bag": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "iv"
+		"itemTags": "iv bag wet"
 	},
 	"Blood Clot": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": "blood gross"
+		"itemTags": "blood shiny gross"
 	},
 	"Blood Of The Martyr": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "crown thorns halo"
+		"itemTags": "crown thorns prickly ring halo"
 	},
 	"Bloody Lust": {
 		"itemType": "",
@@ -146,8 +146,8 @@ var rebirthPassivesSupplemental = {
 	},
 	"Blue Map": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "secret"
+		"itemColor": "blue",
+		"itemTags": "paper page secret x trail"
 	},
 	"Bob's Brain": {
 		"itemType": "",
@@ -157,51 +157,51 @@ var rebirthPassivesSupplemental = {
 	"Bob's Curse": {
 		"itemType": "familiar",
 		"itemColor": "green",
-		"itemTags": "sick bomb"
+		"itemTags": "sick bomb face"
 	},
 	"Bobby-Bomb": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "bomb"
+		"itemTags": "bomb face"
 	},
 	"The Body": {
 		"itemType": "",
 		"itemColor": "red white",
-		"itemTags": "3"
+		"itemTags": "3 symbol"
 	},
 	"Bogo Bombs": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "paper"
+		"itemColor": "gray purple",
+		"itemTags": "paper bomb"
 	},
 	"Bomb Bag": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "blue gray",
+		"itemTags": "bomb"
 	},
 	"Boom!": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "bomb 10"
+		"itemColor": "gray",
+		"itemTags": "bomb face 10 :|"
 	},
 	"Box": {
 		"itemType": "",
-		"itemColor": "beige",
-		"itemTags": "carton cardboard"
+		"itemColor": "beige yellow",
+		"itemTags": "carton cardboard box"
 	},
 	"Breakfast": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "sour milk"
+		"itemTags": "sour milk rotten box"
 	},
 	"Brimstone": {
 		"itemType": "",
-		"itemColor": "red",
+		"itemColor": "red black",
 		"itemTags": "laser symbol evil"
 	},
 	"Broken Watch": {
 		"itemType": "",
-		"itemColor": "blue",
+		"itemColor": "blue white",
 		"itemTags": "device slow"
 	},
 	"Brother Bobby": {
@@ -212,12 +212,12 @@ var rebirthPassivesSupplemental = {
 	"Bucket Of Lard": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "tub container"
+		"itemTags": "tub container text"
 	},
 	"Bum Friend": {
 		"itemType": "familiar",
 		"itemColor": "pink",
-		"itemTags": "beggar"
+		"itemTags": "beggar baby"
 	},
 	"Butt Bombs": {
 		"itemType": "",
@@ -232,16 +232,16 @@ var rebirthPassivesSupplemental = {
 	"Cain's Other Eye": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "round"
+		"itemTags": "round condom"
 	},
 	"Cancer": {
 		"itemType": "zodiac",
-		"itemColor": "",
+		"itemColor": "blue",
 		"itemTags": "69 wafer"
 	},
 	"Capricorn": {
 		"itemType": "zodiac",
-		"itemColor": "",
+		"itemColor": "blue",
 		"itemTags": "n"
 	},
 	"Cat-O-Nine-Tails": {
@@ -251,28 +251,28 @@ var rebirthPassivesSupplemental = {
 	},
 	"Celtic Cross": {
 		"itemType": "",
-		"itemColor": "dark",
-		"itemTags": ""
+		"itemColor": "dark grey",
+		"itemTags": "+"
 	},
 	"Ceremonial Robes": {
 		"itemType": "",
-		"itemColor": "dark",
+		"itemColor": "gray dark",
 		"itemTags": "hoodie cape"
 	},
 	"Champion Belt": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": ""
+		"itemTags": "round ring"
 	},
 	"Charm Of The Vampire": {
 		"itemType": "familiar",
 		"itemColor": "dark",
-		"itemTags": "bat evil"
+		"itemTags": "bat wing evil"
 	},
 	"Chemical Peel": {
 		"itemType": "",
 		"itemColor": "brown green",
-		"itemTags": "bottle"
+		"itemTags": "bottle poison"
 	},
 	"Chocolate Milk": {
 		"itemType": "",
@@ -286,58 +286,58 @@ var rebirthPassivesSupplemental = {
 	},
 	"The Compass": {
 		"itemType": "",
-		"itemColor": "pink",
+		"itemColor": "red beige",
 		"itemTags": "map round cylinder"
 	},
 	"Contract From Below": {
 		"itemType": "",
-		"itemColor": "purple",
+		"itemColor": "red purple",
 		"itemTags": "paper text isaac page"
 	},
 	"Cricket's Body": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "dead cat"
+		"itemTags": "dead dog animal skin cat"
 	},
 	"Cricket's Head": {
 		"itemType": "",
 		"itemColor": "beige",
-		"itemTags": "dead cat head"
+		"itemTags": "dead dog cat head chihuahua"
 	},
 	"Cube Of Meat": {
 		"itemType": "familiar",
 		"itemColor": "red",
-		"itemTags": "square"
+		"itemTags": "square shiny smb boy super"
 	},
 	"Cupid's Arrow": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "pierce"
+		"itemColor": "red gray",
+		"itemTags": "pierce sharp bow"
 	},
 	"Cursed Eye": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "round charge sucks"
+		"itemTags": "pearl round charge sucks"
 	},
 	"Daddy Longlegs": {
 		"itemType": "familiar",
 		"itemColor": "white",
-		"itemTags": "ball web spider"
+		"itemTags": "ball web spider yarn"
 	},
 	"Dark Bum": {
 		"itemType": "familiar",
-		"itemColor": "gray",
+		"itemColor": "dark gray",
 		"itemTags": "heart beggar"
 	},
 	"Dark Matter": {
 		"itemType": "",
-		"itemColor": "dark",
+		"itemColor": "gray dark",
 		"itemTags": "gross blob ball fear"
 	},
 	"Dead Bird": {
 		"itemType": "familiar",
 		"itemColor": "gray",
-		"itemTags": ""
+		"itemTags": "dead"
 	},
 	"Dead Cat": {
 		"itemType": "",
@@ -347,22 +347,22 @@ var rebirthPassivesSupplemental = {
 	"Dead Dove": {
 		"itemType": "",
 		"itemColor": "silver",
-		"itemTags": "bird statue flight fly"
+		"itemTags": "bird metal statue flight fly"
 	},
 	"Dead Onion": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "vegetable garlic"
+		"itemTags": "vegetable face bulb garlic"
 	},
 	"Death's Touch": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "black silver",
 		"itemTags": "sickle blade metal pierce"
 	},
 	"Demon Baby": {
 		"itemType": "familiar",
 		"itemColor": "dark",
-		"itemTags": "turret"
+		"itemTags": "turret baby"
 	},
 	"Dessert": {
 		"itemType": "",
@@ -376,33 +376,33 @@ var rebirthPassivesSupplemental = {
 	},
 	"Distant Admiration": {
 		"itemType": "familiar",
-		"itemColor": "red",
+		"itemColor": "black red",
 		"itemTags": "orbital fly"
 	},
 	"A Dollar": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "buck money 99"
+		"itemTags": "buck rectangle $ money 99"
 	},
 	"Dr. Fetus": {
 		"itemType": "",
-		"itemColor": "clear",
-		"itemTags": "glass jar bomb"
+		"itemColor": "clear pink",
+		"itemTags": "glass jar bomb baby"
 	},
 	"Dry Baby": {
 		"itemType": "familiar",
 		"itemColor": "white gray",
-		"itemTags": "dead"
+		"itemTags": "dead dry mummy"
 	},
 	"E Coli": {
 		"itemType": "",
-		"itemColor": "red",
+		"itemColor": "red black",
 		"itemTags": "sperm poop tail"
 	},
 	"Epic Fetus": {
 		"itemType": "",
 		"itemColor": "clear",
-		"itemTags": "glass jar bomb"
+		"itemTags": "glass jar bomb baby hat"
 	},
 	"Eve's Mascara": {
 		"itemType": "",
@@ -442,7 +442,7 @@ var rebirthPassivesSupplemental = {
 	"Ghost Baby": {
 		"itemType": "familiar",
 		"itemColor": "white",
-		"itemTags": "dead"
+		"itemTags": "dead ghost"
 	},
 	"Gimpy": {
 		"itemType": "",
@@ -452,16 +452,16 @@ var rebirthPassivesSupplemental = {
 	"Gnawed Leaf": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "bite invuln"
+		"itemTags": "bite petal nintendo"
 	},
 	"Goat Head": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "evil sacrifice"
+		"itemTags": "evil face fur horns sacrifice"
 	},
 	"Godhead": {
 		"itemType": "",
-		"itemColor": "multi",
+		"itemColor": "blue yellow red white",
 		"itemTags": "triangle three homing"
 	},
 	"Growth Hormones": {
@@ -477,17 +477,17 @@ var rebirthPassivesSupplemental = {
 	"Guillotine": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "metal blade head"
+		"itemTags": "metal blade head sharp"
 	},
 	"Guppy's Collar": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "heart respawn"
+		"itemTags": "heart respawn ring round"
 	},
 	"Guppy's Hair Ball": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "gross poop"
+		"itemTags": "gross lump pile poop"
 	},
 	"Guppy's Tail": {
 		"itemType": "",
@@ -497,7 +497,7 @@ var rebirthPassivesSupplemental = {
 	"Habit": {
 		"itemType": "",
 		"itemColor": "black white",
-		"itemTags": "hat hood"
+		"itemTags": "hat hood stripe"
 	},
 	"The Halo": {
 		"itemType": "",
@@ -507,7 +507,7 @@ var rebirthPassivesSupplemental = {
 	"Halo Of Flies": {
 		"itemType": "familiary",
 		"itemColor": "dark",
-		"itemTags": "orbital fly"
+		"itemTags": "orbital fly two"
 	},
 	"Harlequin Baby": {
 		"itemType": "familiar",
@@ -516,7 +516,7 @@ var rebirthPassivesSupplemental = {
 	},
 	"Headless Baby": {
 		"itemType": "familiar",
-		"itemColor": "",
+		"itemColor": "red white",
 		"itemTags": "blood body creep"
 	},
 	"Hive Mind": {
@@ -541,8 +541,8 @@ var rebirthPassivesSupplemental = {
 	},
 	"Hot Bombs": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "fire"
+		"itemColor": "gray flame",
+		"itemTags": "fire bomb face"
 	},
 	"Humbling Bundle": {
 		"itemType": "",
@@ -592,7 +592,7 @@ var rebirthPassivesSupplemental = {
 	"Judas' Shadow": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "body"
+		"itemTags": "body baby"
 	},
 	"Juicy Sack": {
 		"itemType": "",
@@ -611,13 +611,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"The Ladder": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "wood step"
 	},
 	"Latch Key": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "cord"
 	},
 	"Lazarus' Rags": {
 		"itemType": "",
@@ -677,7 +677,7 @@ var rebirthPassivesSupplemental = {
 	"Loki's Horns": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": ""
+		"itemTags": "horns ears"
 	},
 	"Lord Of The Pit": {
 		"itemType": "",
@@ -691,13 +691,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"Lucky Foot": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "pink",
 		"itemTags": ""
 	},
 	"The Ludovico Technique": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "eye technology"
+		"itemTags": "eye tech"
 	},
 	"A Lump Of Coal": {
 		"itemType": "",
@@ -712,12 +712,12 @@ var rebirthPassivesSupplemental = {
 	"Maggy's Bow": {
 		"itemType": "",
 		"itemColor": "pink",
-		"itemTags": "candy"
+		"itemTags": "tie candy"
 	},
 	"Magic 8 Ball": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "cue ball pool"
+		"itemTags": "8 cue ball pool"
 	},
 	"Magic Mushroom": {
 		"itemType": "mushroom",
@@ -731,23 +731,23 @@ var rebirthPassivesSupplemental = {
 	},
 	"Magneto": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "u"
 	},
 	"The Mark": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "red",
 		"itemTags": "evil 666 999"
 	},
 	"Match Book": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "paper"
 	},
 	"MEAT!": {
 		"itemType": "",
 		"itemColor": "red",
-		"itemTags": ""
+		"itemTags": "food bone"
 	},
 	"Midas' Touch": {
 		"itemType": "",
@@ -771,33 +771,33 @@ var rebirthPassivesSupplemental = {
 	},
 	"Missing No.": {
 		"itemType": "",
-		"itemColor": "multi",
+		"itemColor": "blue yellow red",
 		"itemTags": "squares"
 	},
 	"Mitre": {
 		"itemType": "",
-		"itemColor": "yellow",
+		"itemColor": "yellow white",
 		"itemTags": "hat holy pope cardinal"
 	},
 	"Mom's Coin Purse": {
 		"itemType": "mom",
-		"itemColor": "beige",
+		"itemColor": "beige brown",
 		"itemTags": "round sack pack"
 	},
 	"Mom's Contacts": {
 		"itemType": "mom",
-		"itemColor": "red",
+		"itemColor": "red pink",
 		"itemTags": "eye freeze"
 	},
 	"Mom's Eye": {
 		"itemType": "mom",
-		"itemColor": "white",
+		"itemColor": "white black",
 		"itemTags": "eye"
 	},
 	"Mom's Eyeshadow": {
 		"itemType": "mom",
-		"itemColor": "dark multi",
-		"itemTags": "charm makeup"
+		"itemColor": "dark blue",
+		"itemTags": "rectangle charm makeup"
 	},
 	"Mom's Heels": {
 		"itemType": "mom",
@@ -842,12 +842,12 @@ var rebirthPassivesSupplemental = {
 	"Money = Power": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "dollar symbol"
+		"itemTags": "dollar greed $ symbol"
 	},
 	"Mongo Baby": {
 		"itemType": "familiar",
-		"itemColor": "multi",
-		"itemTags": ""
+		"itemColor": "blue beige",
+		"itemTags": "baby"
 	},
 	"Monstro's Lung": {
 		"itemType": "",
@@ -871,17 +871,17 @@ var rebirthPassivesSupplemental = {
 	},
 	"My Reflection": {
 		"itemType": "",
-		"itemColor": "white",
-		"itemTags": "broken mirror"
+		"itemColor": "white silver",
+		"itemTags": "cracked broken mirror"
 	},
 	"Mysterious Liquid": {
 		"itemType": "",
-		"itemColor": "green",
-		"itemTags": "barbell dumbell vial wet creep"
+		"itemColor": "gray green",
+		"itemTags": "barbell broken cracked dumbell vial wet creep"
 	},
 	"Mystery Sack": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "purple",
 		"itemTags": "? bag"
 	},
 	"Number One": {
@@ -896,13 +896,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"Odd Mushroom (Thin)": {
 		"itemType": "mushroom",
-		"itemColor": "dark",
+		"itemColor": "dark gray",
 		"itemTags": ""
 	},
 	"Old Bandage": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "bandaid"
+		"itemTags": "strips bandaid"
 	},
 	"Ouija Board": {
 		"itemType": "",
@@ -921,13 +921,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"The Parasite": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "pink",
 		"itemTags": "worm grub split"
 	},
 	"The Peeper": {
 		"itemType": "familiar",
 		"itemColor": "",
-		"itemTags": "eye gross"
+		"itemTags": "eye stalk gross"
 	},
 	"Pentagram": {
 		"itemType": "",
@@ -936,8 +936,8 @@ var rebirthPassivesSupplemental = {
 	},
 	"PHD": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "page paper rectangle text"
+		"itemColor": "white",
+		"itemTags": "diploma page paper rectangle text"
 	},
 	"Pisces": {
 		"itemType": "zodiac",
@@ -956,7 +956,7 @@ var rebirthPassivesSupplemental = {
 	},
 	"Polyphemus": {
 		"itemType": "",
-		"itemColor": "white",
+		"itemColor": "white black blue",
 		"itemTags": "eye large"
 	},
 	"Proptosis": {
@@ -981,12 +981,12 @@ var rebirthPassivesSupplemental = {
 	},
 	"A Quarter": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "25 cents coin"
+		"itemColor": "gray",
+		"itemTags": "25 cents round coin"
 	},
 	"Rainbow Baby": {
 		"itemType": "familiar",
-		"itemColor": "",
+		"itemColor": "pink",
 		"itemTags": "rainbow fabulous"
 	},
 	"Raw Liver": {
@@ -1027,7 +1027,7 @@ var rebirthPassivesSupplemental = {
 	"Rotten Meat": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "chicken turkey bone"
+		"itemTags": "bird cooked chicken turkey bone"
 	},
 	"Rubber Cement": {
 		"itemType": "",
@@ -1035,18 +1035,18 @@ var rebirthPassivesSupplemental = {
 		"itemTags": "jar bounce"
 	},
 	"Sack Of Pennies": {
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "familiar",
+		"itemColor": "purple",
 		"itemTags": "bag coin"
 	},
 	"Sacred Heart": {
 		"itemType": "",
 		"itemColor": "orange red",
-		"itemTags": "flame heart homing"
+		"itemTags": "flame heart homing +"
 	},
 	"Sacrificial Dagger": {
 		"itemType": "familiar",
-		"itemColor": "",
+		"itemColor": "silver",
 		"itemTags": "bloody knife orbital"
 	},
 	"Sad Bombs": {
@@ -1057,16 +1057,16 @@ var rebirthPassivesSupplemental = {
 	"The Sad Onion": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "face"
+		"itemTags": "face vegetable bulb"
 	},
 	"Safety Pin": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey",
+		"itemTags": "pin sharp metal"
 	},
 	"Sagittarius": {
 		"itemType": "zodiac",
-		"itemColor": "",
+		"itemColor": "blue",
 		"itemTags": "arrow symbol"
 	},
 	"Samson's Chains": {
@@ -1077,7 +1077,7 @@ var rebirthPassivesSupplemental = {
 	"Scapular": {
 		"itemType": "",
 		"itemColor": "purple",
-		"itemTags": "cross chain necklace tags"
+		"itemTags": "plates cross chain necklace tags"
 	},
 	"Scorpio": {
 		"itemType": "zodiac",
@@ -1086,13 +1086,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"Screw": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "nail"
+		"itemColor": "gray",
+		"itemTags": "nail spike metal"
 	},
 	"Sharp Plug": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "electrical"
+		"itemColor": "white",
+		"itemTags": "cord electrical"
 	},
 	"Sissy Longlegs": {
 		"itemType": "familiar",
@@ -1111,7 +1111,7 @@ var rebirthPassivesSupplemental = {
 	},
 	"Skeleton Key": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "gray",
 		"itemTags": "skull"
 	},
 	"The Small Rock": {
@@ -1122,12 +1122,12 @@ var rebirthPassivesSupplemental = {
 	"Smart Fly": {
 		"itemType": "familiar",
 		"itemColor": "yellow",
-		"itemTags": "fly"
+		"itemTags": "fly glow"
 	},
 	"SMB Super Fan!": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "blade metal round teeth blood"
+		"itemColor": "gray",
+		"itemTags": "saw blade metal round teeth blood"
 	},
 	"A Snack": {
 		"itemType": "",
@@ -1141,7 +1141,7 @@ var rebirthPassivesSupplemental = {
 	},
 	"The Soul": {
 		"itemType": "",
-		"itemColor": "blue",
+		"itemColor": "blue white",
 		"itemTags": "symbol three"
 	},
 	"Speed Ball": {
@@ -1167,12 +1167,12 @@ var rebirthPassivesSupplemental = {
 	"Spirit Of The Night": {
 		"itemType": "",
 		"itemColor": "red black",
-		"itemTags": "evil fly flight symbol"
+		"itemTags": "evil moon crescent fly flight symbol"
 	},
 	"Spoon Bender": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "homing"
+		"itemTags": "homing bent metal"
 	},
 	"Squeezy": {
 		"itemType": "",
@@ -1181,22 +1181,22 @@ var rebirthPassivesSupplemental = {
 	},
 	"Starter Deck": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "pills"
+		"itemColor": "yellow",
+		"itemTags": "pills box cards"
 	},
 	"Steam Sale": {
 		"itemType": "",
-		"itemColor": "white",
+		"itemColor": "white orange",
 		"itemTags": "voucher coupon candy bar text"
 	},
 	"Stem Cells": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "gross meat round"
+		"itemTags": "gross meat blob round"
 	},
 	"Steven": {
 		"itemType": "",
-		"itemColor": "black",
+		"itemColor": "white black",
 		"itemTags": "round face"
 	},
 	"Stigmata": {
@@ -1206,13 +1206,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"Stop Watch": {
 		"itemType": "",
-		"itemColor": "blue",
-		"itemTags": "slow"
+		"itemColor": "blue white",
+		"itemTags": "slow tech"
 	},
 	"Strange Attractor": {
 		"itemType": "",
 		"itemColor": "grey",
-		"itemTags": "magnet"
+		"itemTags": "magnet metal"
 	},
 	"Super Bandage": {
 		"itemType": "",
@@ -1231,8 +1231,8 @@ var rebirthPassivesSupplemental = {
 	},
 	"Tech.5": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "laser round metal"
+		"itemColor": "gray",
+		"itemTags": "laser round metal tech"
 	},
 	"Technology": {
 		"itemType": "",
@@ -1247,17 +1247,17 @@ var rebirthPassivesSupplemental = {
 	"Tiny Planet": {
 		"itemType": "",
 		"itemColor": "gray",
-		"itemTags": "ball round rock moon orbit"
+		"itemTags": "ball asteroid meteor round rock moon orbit"
 	},
 	"The Negative": {
 		"itemType": "",
 		"itemColor": "dark",
-		"itemTags": "photo"
+		"itemTags": "photo shot"
 	},
 	"The Polaroid": {
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": "photo"
+		"itemTags": "photo shot"
 	},
 	"There's Options": {
 		"itemType": "",
@@ -1266,17 +1266,17 @@ var rebirthPassivesSupplemental = {
 	},
 	"Thunder Thighs": {
 		"itemType": "",
-		"itemColor": "yellow",
-		"itemTags": "jar"
+		"itemColor": "yellow gray",
+		"itemTags": "jar wet text"
 	},
 	"Toothpicks": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "sticks"
+		"itemColor": "yellow",
+		"itemTags": "wood twig sticks"
 	},
 	"Torn Photo": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "gray",
 		"itemTags": "mom picture rip"
 	},
 	"Tough Love": {
@@ -1286,23 +1286,23 @@ var rebirthPassivesSupplemental = {
 	},
 	"Transcendence": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "brown",
 		"itemTags": "rope noose flight fly"
 	},
 	"Treasure Map": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "paper page"
+		"itemColor": "beige",
+		"itemTags": "paper page trail"
 	},
 	"Trinity Shield": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue gray",
+		"itemTags": "metal symbol swirl 3 armor"
 	},
 	"The Wafer": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "round pill"
+		"itemColor": "white",
+		"itemTags": "round pill +"
 	},
 	"Whore Of Babylon": {
 		"itemType": "",
@@ -1311,13 +1311,13 @@ var rebirthPassivesSupplemental = {
 	},
 	"Wire Coat Hanger": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": "disturbing"
+		"itemColor": "white",
+		"itemTags": "wire clothes disturbing"
 	},
 	"Wooden Spoon": {
 		"itemType": "",
 		"itemColor": "brown",
-		"itemTags": "fast speed"
+		"itemTags": "stick scoop spatula"
 	},
 	"Virgo": {
 		"itemType": "zodiac",
@@ -1332,6 +1332,6 @@ var rebirthPassivesSupplemental = {
 	"X-Ray Vision": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "glasses eyes secret"
+		"itemTags": "look glasses eyes secret"
 	}
 }

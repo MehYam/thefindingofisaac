@@ -15,7 +15,8 @@ TO DO:
     - AND vs. OR
     - exact match, etc
     - serialize the settings
-- sub-word matching (i.e. "red" shouldn't match "credit" ?)
+- score sub-word matching differently from whole word (i.e. "red" shouldn't match "credit" ?)
+	- or have a check-box
 - add description to the sort options
 - ~~test on mobile~~
 - ~~type "all" to see the entire item list~~

@@ -250,7 +250,7 @@ function renderClear()
 {
 	hitsContainer.innerHTML = "";
 }
-update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch.2';
+update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch.3';
 function update(event)
 {
 	var searchText = event.currentTarget.value.trim().toLowerCase();
@@ -301,7 +301,7 @@ function main()
 	if (lastSearch == undefined)
 	{
 		// can't use the '|| trick' here, because we want to distinguish between blank and "never searched before"
-		lastSearch = "green"
+		lastSearch = "blue fly"
 	}
 	searchTerms.value = lastSearch; 
 	searchTerms.select();
