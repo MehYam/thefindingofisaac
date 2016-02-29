@@ -997,7 +997,7 @@ var rebirthPassivesSupplemental = {
 	"The Relic": {
 		"itemType": "familiar",
 		"itemColor": "blue",
-		"itemTags": "soul heart"
+		"itemTags": "soul heart cross"
 	},
 	"Robo-Baby": {
 		"itemType": "familiar",
@@ -1191,7 +1191,7 @@ var rebirthPassivesSupplemental = {
 	},
 	"Stem Cells": {
 		"itemType": "",
-		"itemColor": "brown",
+		"itemColor": "brown red",
 		"itemTags": "gross meat blob round"
 	},
 	"Steven": {
