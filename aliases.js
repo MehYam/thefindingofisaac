@@ -5,7 +5,7 @@ var g_aliases =
 	"beg beggar",
 	"blade sharp pointy stick weapon spike",
 	"bomb boom explosive tnt",
-	"bottle jar",
+	"bottle jar container bowl",
 	"box rectangle square cube",
 	"break destroy",
 	"charge recharge re-charge battery",

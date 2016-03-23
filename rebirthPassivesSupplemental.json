@@ -1267,12 +1267,12 @@ var rebirthPassivesSupplemental = {
 	"Thunder Thighs": {
 		"itemType": "",
 		"itemColor": "yellow gray",
-		"itemTags": "jar wet text"
+		"itemTags": "jar wet text stuff wet"
 	},
 	"Toothpicks": {
 		"itemType": "",
 		"itemColor": "yellow",
-		"itemTags": "wood twig sticks"
+		"itemTags": "wood twig sticks sharp"
 	},
 	"Torn Photo": {
 		"itemType": "",
