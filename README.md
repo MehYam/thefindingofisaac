@@ -9,6 +9,10 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
+- performance tuning
+- Antibirth items
+- Afterbirth+ items
+
 - still slow in FF on the production site?
 	- could use performance tuning in general - starting to feel slow
 - return focus to text box after clicking link

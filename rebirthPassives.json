@@ -1126,7 +1126,7 @@ var rebirthPassives = {
 	},
 	"SMB Super Fan!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/SMB_Super_Fan!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/SMB_Super_Fan%21_Icon.png?version=fa1576e1c5db1d158ae5e02a59d1d361",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/SMB_Super_Fan_Icon.png",
 		"descriptionHTML": "Increases all stats."
 	},
 	"A Snack": {
