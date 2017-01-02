@@ -7,11 +7,16 @@
 <label for="searchTerms">Describe Item:</label>
 <input id="searchTerms" autofocus type="text" oninput="update(event)"/>
 Results: <span id="resultsCount"></span>
+<!-- 
+<div>
+	<input id="rebirthCheckbox" type="checkbox"/><label for="rebirthCheckbox">Rebirth</label>
+</div> 
+-->
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>
 <div id="instruction" class="finePrint">
-	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth</b> run.  
+	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth/Antibirth</b> run.  
 	<ul>
 		<li>Just start typing something descriptive, like <b>"green syringe", "gross blood", "blue fly", "dead head"</b>, etc.</li>
 		<li>Type <b>'ALL'</b> to see the entire list of items.</li>
@@ -20,7 +25,7 @@ Results: <span id="resultsCount"></span>
 </div>
 <br/>
 <div id="version" class="finePrint">
-version: 0.1.0
+version: 0.1.1
 </div>
 </body>
 <script src="afterbirthCollectibles.json"></script>

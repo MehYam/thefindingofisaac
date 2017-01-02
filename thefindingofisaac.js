@@ -188,54 +188,62 @@ function renderHits(hits)
 	hitsContainer.innerHTML = tableTemplate.textContent;
 	hits.forEach(function(hit) {
 
-		var row = document.createElement('tr');
-
-		// name column
-		var cell = document.createElement('td');
-		var nameParent = cell;
-		if (hit.item.wikiPage)
+		if (!hit.item.rowHTML)
 		{
-			var anchor = document.createElement('a');
-			anchor.href = hit.item.wikiPage;
-			anchor.target = "_blank";
-			nameParent = anchor;
-
-			cell.appendChild(anchor);
+			hit.item.rowHTML = renderRow(hit);
 		}
-		nameParent.appendChild(document.createTextNode(hit.item.properName));
-		row.appendChild(cell);
-
-		// image column
-		cell = document.createElement('td');
-		cell.className = "itemIconCell";
-
-		var img = document.createElement('img');
-		img.src = hit.item.thumbnail;
-		img.className = "itemIcon";
-
-		cell.appendChild(img);
-		row.appendChild(cell);
-
-		// description
-		cell = document.createElement('td');
-		cell.innerHTML = hit.item.descriptionHTML;
-		row.appendChild(cell);
-
-		// type
-		cell = document.createElement('td');
-		cell.appendChild(document.createTextNode(hit.item.itemClass));
-		cell.className = "itemTypeCell";
-		row.appendChild(cell);
-
-		// score
-		cell = document.createElement('td');
-		cell.appendChild(document.createTextNode(hit.score));
-		cell.className = "scoreCell";
-		row.appendChild(cell);
-
-		hitsTable.tBodies[0].appendChild(row);
+		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 	});
 	console.log("<- renderHits");
+}
+function renderRow(hit)
+{
+	var row = document.createElement('tr');
+
+	// name column
+	var cell = document.createElement('td');
+	var nameParent = cell;
+	if (hit.item.wikiPage)
+	{
+		var anchor = document.createElement('a');
+		anchor.href = hit.item.wikiPage;
+		anchor.target = "_blank";
+		nameParent = anchor;
+
+		cell.appendChild(anchor);
+	}
+	nameParent.appendChild(document.createTextNode(hit.item.properName));
+	row.appendChild(cell);
+
+	// image column
+	cell = document.createElement('td');
+	cell.className = "itemIconCell";
+
+	var img = document.createElement('img');
+	img.src = hit.item.thumbnail;
+	img.className = "itemIcon";
+
+	cell.appendChild(img);
+	row.appendChild(cell);
+
+	// description
+	cell = document.createElement('td');
+	cell.innerHTML = hit.item.descriptionHTML;
+	row.appendChild(cell);
+
+	// type
+	cell = document.createElement('td');
+	cell.appendChild(document.createTextNode(hit.item.itemClass));
+	cell.className = "itemTypeCell";
+	row.appendChild(cell);
+
+	// score
+	cell = document.createElement('td');
+	cell.appendChild(document.createTextNode(hit.score));
+	cell.className = "scoreCell";
+	row.appendChild(cell);	
+
+	return row;
 }
 function renderAll(data)
 {

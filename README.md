@@ -12,6 +12,7 @@ TO DO:
 - performance tuning
 - Antibirth items
 - Afterbirth+ items
+- checkboxes to filter by DLC
 
 - still slow in FF on the production site?
 	- could use performance tuning in general - starting to feel slow
