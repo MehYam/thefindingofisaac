@@ -1,0 +1,322 @@
+var antibirthPassivesSupplemental = {
+	"120 Volt": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"2Spooky": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"A Bar Of Soap": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Act Of Contrition": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Akeldama": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Almond Milk": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Battery Pack": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Bird Cage": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Bird's Eye": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Birthright": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Blood Bombs": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Blood Oath": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Boiled Baby": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Booster Pack": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Bot Fly": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Consolation Prize": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Dirty Mind": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Donkey Jawbone": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Enigma Bombs": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Evil Charm": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Eye Drops": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Eye Of The Occult": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Eye Sore": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Freezer Baby": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Immaculate Heart": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"The Intruder": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"It Hurts": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Jacob's Ladder": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Knife Piece 1": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Knife Piece 2": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Knife Piece 3": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Knockout Drops": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Lil' Dumpy": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Lodestone": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Lost Soul": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Luna": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Mars": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Member Card": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Menorah": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Mercurius": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Monstrance": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Mucormycosis": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Oculus Rift": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Orphan Socks": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Paschal Candle": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Playdoh Cookie": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Pluto": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Psy Fly": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Red Stew": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Revelation": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rock Bottom": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rocket In A Jar": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rotten Tomato": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Saturnus": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Sausage": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Schoolbag": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Sol": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Spirit Sword": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Stone Bombs": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Terra": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Tinytoma": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Uranus": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Venus": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Voodoo Head": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	}
+};

@@ -1,0 +1,322 @@
+var antibirthPassives = {
+	"120 Volt": {
+		"wikiPage": "http://antibirth.gamepedia.com/120_Volt",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/f/f2/120_Volt_Icon.png/43px-120_Volt_Icon.png?version=97061d6c0f125b25fe4e8cafc60890a9",
+		"descriptionHTML": "Whenever an enemy is shot, it will zap other enemies near them, dealing damage."
+	},
+	"2Spooky": {
+		"wikiPage": "http://antibirth.gamepedia.com/2Spooky",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/41/2Spooky_Icon.png/45px-2Spooky_Icon.png?version=8ed437363726fbb7e2bc2baf047075c4",
+		"descriptionHTML": "Enemies near Isaac will be inflicted with <a href=\"http://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"extiw\" title=\"boir:Fear\">Fear</a>, causing them to flee from him."
+	},
+	"A Bar Of Soap": {
+		"wikiPage": "http://antibirth.gamepedia.com/A_Bar_Of_Soap",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/f/f8/A_Bar_Of_Soap_Icon.png/45px-A_Bar_Of_Soap_Icon.png?version=9e8d2212586b9bb8b6673b5a21f2ea12",
+		"descriptionHTML": "Increases tears and shot speed."
+	},
+	"Act Of Contrition": {
+		"wikiPage": "http://antibirth.gamepedia.com/Act_Of_Contrition",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/b/b5/Act_Of_Contrition_Icon.png/32px-Act_Of_Contrition_Icon.png?version=4422b040cdcaeb1f6cc5c297dd50b445",
+		"descriptionHTML": "Grants an <a href=\"/Pickups#Immortal_Hearts\" title=\"Pickups\">Immortal Heart</a> and increases tears."
+	},
+	"Akeldama": {
+		"wikiPage": "http://antibirth.gamepedia.com/Akeldama",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/1e/Akeldama_Icon.png/41px-Akeldama_Icon.png?version=b7ba7f0d2e45c19f9314ed47249bdaf9",
+		"descriptionHTML": "Whenever Isaac fires a shot, a bloody tear will spawn behind him. Multiple tears will form a trail of tears that drags behind Isaac as he moves, bursting and dealing damage upon contact with enemies. Multiple trails can be formed."
+	},
+	"Almond Milk": {
+		"wikiPage": "http://antibirth.gamepedia.com/Almond_Milk",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/40/Almond_Milk_Icon.png/34px-Almond_Milk_Icon.png?version=3035ef4e1a2c8e1be77ddb45dc833aa4",
+		"descriptionHTML": "Upgrades fire rate immensely but significantly decreases damage, and tears are given random worm effects."
+	},
+	"Battery Pack": {
+		"wikiPage": "http://antibirth.gamepedia.com/Battery_Pack",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0a/Battery_Pack_Icon.png/45px-Battery_Pack_Icon.png?version=e6e52ef7d0cf8a34e2b8dc1952d873f9",
+		"descriptionHTML": "Recharges Isaac's currently held active item and drops 2-4 batteries."
+	},
+	"Bird Cage": {
+		"wikiPage": "http://antibirth.gamepedia.com/Bird_Cage",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0c/Bird_Cage_Icon.png/45px-Bird_Cage_Icon.png?version=a0c4daae0265e946f7ca38faa69bfcd9",
+		"descriptionHTML": "Upon taking damage the first time in a room, the familiar leaps from Isaac's head, targets an enemy, and lands on them, dealing damage and releasing a rock wave. For the rest of the room, the familiar targets and attacks enemies similar to <a href=\"http://bindingofisaacrebirth.gamepedia.com/Dead_Bird\" class=\"extiw\" title=\"boir:Dead Bird\">Dead Bird</a>."
+	},
+	"Bird's Eye": {
+		"wikiPage": "http://antibirth.gamepedia.com/Bird%27s_Eye",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/d/d4/Bird%27s_Eye_Icon.png/27px-Bird%27s_Eye_Icon.png?version=3162b017e0c6ecba129cc26d210eec74",
+		"descriptionHTML": "Adds a chance to spit a large fire whenever Isaac fires a tear."
+	},
+	"Birthright": {
+		"wikiPage": "http://antibirth.gamepedia.com/Birthright",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/1b/Birthright_Icon.png/45px-Birthright_Icon.png?version=56573716b87f099b5e9666ed81e614b3",
+		"descriptionHTML": "Grants different effects depending on which character you're playing as."
+	},
+	"Blood Bombs": {
+		"wikiPage": "http://antibirth.gamepedia.com/Blood_Bombs",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/8/85/Blood_Bombs_Icon.png/45px-Blood_Bombs_Icon.png?version=bae5d202602f88a34e84256bd0a3217a",
+		"descriptionHTML": "Grants 5 bombs. Bombs create puddles of damaging red creep upon exploding. If Isaac has no bombs, bomb can be placed at the cost of half a heart."
+	},
+	"Blood Oath": {
+		"wikiPage": "http://antibirth.gamepedia.com/Blood_Oath",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/19/Blood_Oath_Icon.png/45px-Blood_Oath_Icon.png?version=4ee3835aaca3bf9259d53ede391c5d5b",
+		"descriptionHTML": "Stabs Isaac at the beginning of each floor, draining all but half a heart of his heart containers. Increases damage and speed."
+	},
+	"Boiled Baby": {
+		"wikiPage": "http://antibirth.gamepedia.com/Boiled_Baby",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/5/58/Boiled_Baby_Icon.png/45px-Boiled_Baby_Icon.png?version=1da7aa53093f9e4069d1dbbc81007748",
+		"descriptionHTML": "Grants a familiar similar to a <a href=\"http://bindingofisaacrebirth.gamepedia.com/Boil\" class=\"extiw\" title=\"boir:Boil\">Boil</a> that periodically fires bursts of bullets."
+	},
+	"Booster Pack": {
+		"wikiPage": "http://antibirth.gamepedia.com/Booster_Pack",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/c/cf/Booster_Pack_Icon.png/31px-Booster_Pack_Icon.png?version=ec4ec6461796468e12b731fce533e5bb",
+		"descriptionHTML": "Spawns 3 tarot cards."
+	},
+	"Bot Fly": {
+		"wikiPage": "http://antibirth.gamepedia.com/Bot_Fly",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0a/Bot_Fly_Icon.png/45px-Bot_Fly_Icon.png?version=64e42497435c69de76d30343741d1d08",
+		"descriptionHTML": "Grants a familiar that fires shielded tears at incoming bullets."
+	},
+	"Consolation Prize": {
+		"wikiPage": "http://antibirth.gamepedia.com/Consolation_Prize",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/6/67/Consolation_Prize_Icon.png/29px-Consolation_Prize_Icon.png?version=adebd6309100f5303521432478aead78",
+		"descriptionHTML": "Raises Isaac's current lowest stat. Can also drop a consumable for whichever Isaac has the least of."
+	},
+	"Dirty Mind": {
+		"wikiPage": "http://antibirth.gamepedia.com/Dirty_Mind",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/f/f0/Dirty_Mind_Icon.png/45px-Dirty_Mind_Icon.png?version=6614143b4aa8dc403ee3a841ceecb72a",
+		"descriptionHTML": "Destroying poop spawns friendly <a href=\"http://bindingofisaacrebirth.gamepedia.com/Dip\" class=\"extiw\" title=\"boir:Dip\">Dips</a> that follow the player and damage enemies. Destroying different types of poop spawns different Dips with special effects."
+	},
+	"Donkey Jawbone": {
+		"wikiPage": "http://antibirth.gamepedia.com/Donkey_Jawbone",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/a/ae/Donkey_Jawbone_Icon.png/30px-Donkey_Jawbone_Icon.png?version=84657f63fe948d2e192b73c3b5446440",
+		"descriptionHTML": "Whenever Isaac takes damage, a spin attack will damage enemies around him."
+	},
+	"Enigma Bombs": {
+		"wikiPage": "http://antibirth.gamepedia.com/Enigma_Bombs",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/6/65/Enigma_Bombs_Icon.png/45px-Enigma_Bombs_Icon.png?version=c7bbd56f40cf4c6c639e648029b78d74",
+		"descriptionHTML": "Grants 5 bombs. Bombs explode with a random bomb effect."
+	},
+	"Evil Charm": {
+		"wikiPage": "http://antibirth.gamepedia.com/Evil_Charm",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0f/Evil_Charm_Icon.png/40px-Evil_Charm_Icon.png?version=6145539ac092daed09318392cd9a572c",
+		"descriptionHTML": "Grants +3 luck."
+	},
+	"Eye Drops": {
+		"wikiPage": "http://antibirth.gamepedia.com/Eye_Drops",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/b/b1/Eye_Drops_Icon.png/26px-Eye_Drops_Icon.png?version=2b4bd9163c1cca1581548a76cf3e153b",
+		"descriptionHTML": "Increases tears. Tears fire at different rates from each of Isaac's eyes."
+	},
+	"Eye Of The Occult": {
+		"wikiPage": "http://antibirth.gamepedia.com/Eye_Of_The_Occult",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/5/5c/Eye_Of_The_Occult_Icon.png/45px-Eye_Of_The_Occult_Icon.png?version=bd2d167e4ca867b2f4a3e8d2f864d72d",
+		"descriptionHTML": "Increases damage. Tears can be controlled mid-flight using the fire keys."
+	},
+	"Eye Sore": {
+		"wikiPage": "http://antibirth.gamepedia.com/Eye_Sore",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/2/28/Eye_Sore_Icon.png/45px-Eye_Sore_Icon.png?version=c3d2d98483286cd797cafa7531242664",
+		"descriptionHTML": "Frequently fire tears in random directions in addition to regular tears. Can fire up to three extra tears."
+	},
+	"Freezer Baby": {
+		"wikiPage": "http://antibirth.gamepedia.com/Freezer_Baby",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/5/5a/Freezer_Baby_Icon.png/45px-Freezer_Baby_Icon.png?version=8066830e21619adac4c706a9ad0d7e82",
+		"descriptionHTML": "Grants a familiar that fires shots that freeze enemies. Frozen enemies explode into ice shards when touched."
+	},
+	"Immaculate Heart": {
+		"wikiPage": "http://antibirth.gamepedia.com/Immaculate_Heart",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/1c/Immaculate_Heart_Icon.png/45px-Immaculate_Heart_Icon.png?version=4bd47a9ff9d9a48b67b4e0959f71c965",
+		"descriptionHTML": "Fire orbiting tears along with normal tears."
+	},
+	"The Intruder": {
+		"wikiPage": "http://antibirth.gamepedia.com/The_Intruder",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/f/fd/The_Intruder_Icon.png/45px-The_Intruder_Icon.png?version=fc5b9ca3e649d72bf6dd7da171b269b5",
+		"descriptionHTML": "Isaac will now fire four slowing tears in addition to normal tears. Upon taking damage multiple times in one room, Isaac's head will pop, spawning friendly spiders and a familiar that leaps at enemies."
+	},
+	"It Hurts": {
+		"wikiPage": "http://antibirth.gamepedia.com/It_Hurts",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/46/It_Hurts_Icon.png/31px-It_Hurts_Icon.png?version=393a8ee3d7d69ecd37042342a1be2eaa",
+		"descriptionHTML": "Taking damage causes Isaac to release a ring of bloody tears and increases fire rate for current room."
+	},
+	"Jacob's Ladder": {
+		"wikiPage": "http://antibirth.gamepedia.com/Jacob%27s_Ladder",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/f/f0/Jacob%27s_Ladder_Icon.png/36px-Jacob%27s_Ladder_Icon.png?version=9ab0da6fbdacc88f5e5aa75f0419316b",
+		"descriptionHTML": "Generates a ladder in the starting room next floors, which leads to an Angel Room."
+	},
+	"Knife Piece 1": {
+		"wikiPage": "http://antibirth.gamepedia.com/Knife_Piece_1",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/b/b9/Knife_Piece_1_Icon.png/45px-Knife_Piece_1_Icon.png?version=dc22a129566a5e0f3477d54b2642b01d",
+		"descriptionHTML": "Has no effect on its own. Picking up all three pieces grants a knife familiar that damages enemies and grants access to the <a href=\"/Corpse\" title=\"Corpse\">Corpse</a>."
+	},
+	"Knife Piece 2": {
+		"wikiPage": "http://antibirth.gamepedia.com/Knife_Piece_2",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/3/3c/Knife_Piece_2_Icon.png/45px-Knife_Piece_2_Icon.png?version=6c13755165f347f7bae84d297a741349",
+		"descriptionHTML": "Has no effect on its own. Picking up all three pieces grants a knife familiar that damages enemies and grants access to the <a href=\"/Corpse\" title=\"Corpse\">Corpse</a>."
+	},
+	"Knife Piece 3": {
+		"wikiPage": "http://antibirth.gamepedia.com/Knife_Piece_3",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/7/75/Knife_Piece_3_Icon.png/45px-Knife_Piece_3_Icon.png?version=4e0623d7b11a2025e7ed463298cc3b8c",
+		"descriptionHTML": "Has no effect on its own. Picking up all three pieces grants a knife familiar that damages enemies and grants access to the <a href=\"/Corpse\" title=\"Corpse\">Corpse</a>."
+	},
+	"Knockout Drops": {
+		"wikiPage": "http://antibirth.gamepedia.com/Knockout_Drops",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/7/74/Knockout_Drops_Icon.png/45px-Knockout_Drops_Icon.png?version=b59e8710739cf2867ee70699c215c28f",
+		"descriptionHTML": "Adds a chance to fire fist tears, which have massive knockback and briefly stun enemies."
+	},
+	"Lil' Dumpy": {
+		"wikiPage": "http://antibirth.gamepedia.com/Lil%27_Dumpy",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/3/30/Lil%27_Dumpy_Icon.png/45px-Lil%27_Dumpy_Icon.png?version=b244654b32f3ba563894aebd7ccd41da",
+		"descriptionHTML": "Grants a familiar that loosely follows the player. Farts when hit by enemy attacks."
+	},
+	"Lodestone": {
+		"wikiPage": "http://antibirth.gamepedia.com/Lodestone",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/a/ad/Lodestone_Icon.png/45px-Lodestone_Icon.png?version=903dcecff7364e7fd6a24fe4121e2897",
+		"descriptionHTML": "Adds a chance to fire magnetizing tears. Magnetized enemies attract other enemies, Isaac's tears, and enemy shots including their own."
+	},
+	"Lost Soul": {
+		"wikiPage": "http://antibirth.gamepedia.com/Lost_Soul",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/2/21/Lost_Soul_Icon.png/34px-Lost_Soul_Icon.png?version=24387bde39378a8670b86abd81aa7f52",
+		"descriptionHTML": "Spawns a familiar version of The Lost that follows Isaac. Upon being hit, it instantly dies, regenerating on the next floor. If it survives an entire floor, it grants a random reward."
+	},
+	"Luna": {
+		"wikiPage": "http://antibirth.gamepedia.com/Luna",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/00/Luna_Icon.png/38px-Luna_Icon.png?version=0e18ec918bc1d1ea9977ef5982a7b032",
+		"descriptionHTML": "Adds one extra Secret Room and one Super Secret Room on each floor."
+	},
+	"Mars": {
+		"wikiPage": "http://antibirth.gamepedia.com/Mars",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/d/da/Mars_Icon.png/45px-Mars_Icon.png?version=9dcf362a079a79c5b81dad2bdf5485d4",
+		"descriptionHTML": "Gain the ability to charge by double-tapping in a direction. Isaac is invincible during the charge and deals significant damage. Can be used multiple times per room with a short recharge time."
+	},
+	"Member Card": {
+		"wikiPage": "http://antibirth.gamepedia.com/Member_Card",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/8/88/Member_Card_Icon.png/45px-Member_Card_Icon.png?version=759b3b56720c1fe643b0b89c90502ef0",
+		"descriptionHTML": "Opens a trapdoor with a ladder in every shop. The trapdoor leads to a special shop room, which sells multiple items or pickups for random prices. Sold collectibles don't have to be from the Shop pool."
+	},
+	"Menorah": {
+		"wikiPage": "http://antibirth.gamepedia.com/Menorah",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/c/cd/Menorah_Icon.png/45px-Menorah_Icon.png?version=1da0fe019b28a713ef993ef56adbbfce",
+		"descriptionHTML": "Spawns a menorah familiar that grants an extra tear per shot for each candle lit. The menorah starts with one candle lit, and each time Isaac is hit, another candle is lit, up to a maximum of 7 tears per shot. Being hit an additional time will release blue flames that damage enemies and reset the menorah."
+	},
+	"Mercurius": {
+		"wikiPage": "http://antibirth.gamepedia.com/Mercurius",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/9/93/Mercurius_Icon.png/35px-Mercurius_Icon.png?version=b8ed7b6bbd3ec57849f43167dd9620b1",
+		"descriptionHTML": "Doors stay open after entering a room, even with enemies in it, allowing Isaac to leave any time. Increases speed."
+	},
+	"Monstrance": {
+		"wikiPage": "http://antibirth.gamepedia.com/Monstrance",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/5/5f/Monstrance_Icon.png/42px-Monstrance_Icon.png?version=c056882aef02d75f65b95057dcc2c139",
+		"descriptionHTML": "Isaac emits an aura that damages nearby enemies."
+	},
+	"Mucormycosis": {
+		"wikiPage": "http://antibirth.gamepedia.com/Mucormycosis",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/08/Mucormycosis_Icon.png/45px-Mucormycosis_Icon.png?version=eababc527c5128e51a6a9763f6446b4c",
+		"descriptionHTML": "Upon enemies' death, they release a cloud of gas that damages and poisons other enemies."
+	},
+	"Oculus Rift": {
+		"wikiPage": "http://antibirth.gamepedia.com/Oculus_Rift",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/d/dd/Oculus_Rift_Icon.png/30px-Oculus_Rift_Icon.png?version=afa1e5a3150b161c8f4f08b3206a3c3b",
+		"descriptionHTML": "Adds a chance to fire tears that summon rifts wherever they land. Rifts attract enemies, enemy shots, Isaac's tears, and pickups. They also deal contact damage to enemies caught in them."
+	},
+	"Orphan Socks": {
+		"wikiPage": "http://antibirth.gamepedia.com/Orphan_Socks",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/14/Orphan_Socks_Icon.png/39px-Orphan_Socks_Icon.png?version=21c53c5ea51de524d249dfacb11f0eef",
+		"descriptionHTML": "Isaac gains 2 spirit hearts and can walk on harmful floor effects."
+	},
+	"Paschal Candle": {
+		"wikiPage": "http://antibirth.gamepedia.com/Paschal_Candle",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0b/Paschal_Candle_Icon.png/22px-Paschal_Candle_Icon.png?version=5f7b22267ad5866af81543a8bf964236",
+		"descriptionHTML": "Increases stats for each room completed without taking damage. Resets on taking damage."
+	},
+	"Playdoh Cookie": {
+		"wikiPage": "http://antibirth.gamepedia.com/Playdoh_Cookie",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/b/bc/Playdoh_Cookie_Icon.png/45px-Playdoh_Cookie_Icon.png?version=b8f3f8f04932647dd4dea4f1d6cd77ba",
+		"descriptionHTML": "Adds random effects to tears."
+	},
+	"Pluto": {
+		"wikiPage": "http://antibirth.gamepedia.com/Pluto",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0a/Pluto_Icon.png/41px-Pluto_Icon.png?version=99f7984f0c7bf2ddf4418f697c9a2f89",
+		"descriptionHTML": "Decreases Isaac's size to the point where many tears will fly over Isaac. Increases tears and speed, and decreases range."
+	},
+	"Psy Fly": {
+		"wikiPage": "http://antibirth.gamepedia.com/Psy_Fly",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/7/72/Psy_Fly_Icon.png/45px-Psy_Fly_Icon.png?version=c29a19c26190d66e1b38fb4742e06545",
+		"descriptionHTML": "Catches enemy shots and flings them back at enemies as homing tears."
+	},
+	"Red Stew": {
+		"wikiPage": "http://antibirth.gamepedia.com/Red_Stew",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/a/aa/Red_Stew_Icon.png/45px-Red_Stew_Icon.png?version=8553b94bc4f3b2cc556800de1ce5b7ea",
+		"descriptionHTML": "Restores all red heart containers. Grants an enormous damage boost that wears off over time."
+	},
+	"Revelation": {
+		"wikiPage": "http://antibirth.gamepedia.com/Revelation",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0c/Revelation_Icon.png/45px-Revelation_Icon.png?version=2679a7fa3b074430f6ba1b2da66c1dfa",
+		"descriptionHTML": "Adds 2 Immortal Hearts, grants flight, gives tears a Brain Worm-like homing effect, decreases range and increases shot speed."
+	},
+	"Rock Bottom": {
+		"wikiPage": "http://antibirth.gamepedia.com/Rock_Bottom",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/01/Rock_Bottom_Icon.png/45px-Rock_Bottom_Icon.png?version=518e3d3166860fa462402dc97b5fd006",
+		"descriptionHTML": "All stats down. Prevents stats from being lowered the rest of the run."
+	},
+	"Rocket In A Jar": {
+		"wikiPage": "http://antibirth.gamepedia.com/Rocket_In_A_Jar",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/6/66/Rocket_In_A_Jar_Icon.png/35px-Rocket_In_A_Jar_Icon.png?version=d916b86e1d01cc4d2859b339f4408b46",
+		"descriptionHTML": "Grants 5 bombs. Bombs become rockets that fly in the direction Isaac is currently looking."
+	},
+	"Rotten Tomato": {
+		"wikiPage": "http://antibirth.gamepedia.com/Rotten_Tomato",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/18/Rotten_Tomato_Icon.png/36px-Rotten_Tomato_Icon.png?version=ab2fa7e7e917773808f0520073253b15",
+		"descriptionHTML": "Tears have a chance to mark enemies. Marked enemies will be attacked by other enemies."
+	},
+	"Saturnus": {
+		"wikiPage": "http://antibirth.gamepedia.com/Saturnus",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/1d/Saturnus_Icon.png/35px-Saturnus_Icon.png?version=89a9829763559211cdb44569c44aeea2",
+		"descriptionHTML": "Isaac is surrounded by an aura which grants 7 orbiting tears when entering a new room and has a chance to absorb incoming enemy tears."
+	},
+	"Sausage": {
+		"wikiPage": "http://antibirth.gamepedia.com/Sausage",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/8/81/Sausage_Icon.png/35px-Sausage_Icon.png?version=e861948f0a120ef49e2b502e563ff4f0",
+		"descriptionHTML": "All stats up."
+	},
+	"Schoolbag": {
+		"wikiPage": "http://antibirth.gamepedia.com/Schoolbag",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/2/24/Schoolbag_Icon.png/45px-Schoolbag_Icon.png?version=c9b48b930df721df7e7927e5bfd29755",
+		"descriptionHTML": "Grants an extra active item slot."
+	},
+	"Sol": {
+		"wikiPage": "http://antibirth.gamepedia.com/Sol",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/49/Sol_Icon.png/45px-Sol_Icon.png?version=a28c75eb4037e02c612493e71a2875a4",
+		"descriptionHTML": "Activates the Sun tarot card and fully recharges Isaac's active item upon defeating a boss. Reveals the location of the Boss room on the map."
+	},
+	"Spirit Sword": {
+		"wikiPage": "http://antibirth.gamepedia.com/Spirit_Sword",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/5/50/Spirit_Sword_Icon.png/45px-Spirit_Sword_Icon.png?version=221b207cf04831aecb04079e049a153a",
+		"descriptionHTML": "Replaces Isaac's tears with a sword he can swing in front of him. Holding an attack button charges a spin attack. If Isaac is at full health, it also shoots a projectile when swung. Only one projectile can be active at once."
+	},
+	"Stone Bombs": {
+		"wikiPage": "http://antibirth.gamepedia.com/Stone_Bombs",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/c/cd/Stone_Bombs_Icon.png/38px-Stone_Bombs_Icon.png?version=29ffa1e57563c0fdb74b7123fae82929",
+		"descriptionHTML": "Grants 5 bombs. Bombs release rock waves in the cardinal directions, which can damage enemies, destroy obstacles, and damage Isaac."
+	},
+	"Terra": {
+		"wikiPage": "http://antibirth.gamepedia.com/Terra",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/46/Terra_Icon.png/45px-Terra_Icon.png?version=98132146fad304f4ae1d8145f9130ffa",
+		"descriptionHTML": "Isaac's tears become rocks. The tears can also destroy rocks."
+	},
+	"Tinytoma": {
+		"wikiPage": "http://antibirth.gamepedia.com/Tinytoma",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/e/e6/Tinytoma_Icon.png/45px-Tinytoma_Icon.png?version=77f1f884bea2635cba811a0960af61e0",
+		"descriptionHTML": "A large orbital that slowly orbits Isaac. Upon taking enough tear or contact damage, the orbital splits into two smaller ones that orbit opposite of each other. If the small orbitals take enough damage, they burst into a few blue spiders, and the large orbital respawns."
+	},
+	"Uranus": {
+		"wikiPage": "http://antibirth.gamepedia.com/Uranus",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/c/c8/Uranus_Icon.png/41px-Uranus_Icon.png?version=2b5e1af602b71326a07535827d288afe",
+		"descriptionHTML": "Isaac shoots ice tears."
+	},
+	"Venus": {
+		"wikiPage": "http://antibirth.gamepedia.com/Venus",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/a/aa/Venus_Icon.png/34px-Venus_Icon.png?version=8cdc5877ffa804809c32f9507f839235",
+		"descriptionHTML": "Enemies near Isaac will be inflicted with Charm that wears off quickly after enemies move away from Isaac, causing enemies to attack each other."
+	},
+	"Voodoo Head": {
+		"wikiPage": "http://antibirth.gamepedia.com/Voodoo_Head",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/46/Voodoo_Head_Icon.png/45px-Voodoo_Head_Icon.png?version=52177114f96467bb270c992dd3fe890c",
+		"descriptionHTML": "Additional curse rooms can spawn each floor."
+	}
+};

@@ -2,6 +2,8 @@
 
 This is a tool to help identify that item that just dropped in your Binding of Isaac Rebirth/Afterbirth run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to narrow down the item.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
 
+Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScrape.js for details.
+
 ## Implementation Notes
 
 Written in pure javascript and HTML, no frameworks.  All game data lives in the linked JSON files, and was scraped from the wiki (see isaacWikiScrape.js for details).  The code has not been optimized at all, but is very simple and seems to run well enough on Chrome, Firefox, and IE.
@@ -9,10 +11,10 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-- performance tuning
 - Antibirth items
-- Afterbirth+ items
+	- fix fixUpRelativeUrls to point to the correct wiki
 - checkboxes to filter by DLC
+- Afterbirth+ items
 
 - still slow in FF on the production site?
 	- could use performance tuning in general - starting to feel slow
@@ -24,6 +26,8 @@ TO DO:
 - score sub-word matching differently from whole word (i.e. "red" shouldn't match "credit" ?)
 	- or have a check-box
 - add description to the sort options
+
+- ~~performance tuning~~
 - ~~test and tweak tagging, (i.e. The Mind and other symbols inconsistent, add more descriptors and colors)~~
 - ~~test on mobile~~
 - ~~type "all" to see the entire item list~~

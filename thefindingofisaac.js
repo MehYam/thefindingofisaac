@@ -1,13 +1,13 @@
 function prepareData(data)
 {
 	mergeItems(data, 
-		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental], 
+		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental, antibirthTrinkets, antibirthTrinketsSupplemental], 
 		function(item) {  item.itemClass = "trinket"; });
 	mergeItems(data, 
-		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental], 
+		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental, antibirthCollectibles, antibirthCollectiblesSupplemental], 
 		function(item) {  item.itemClass = "activated"; });
 	mergeItems(data, 
-		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental], 
+		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental, antibirthPassives, antibirthPassivesSupplemental], 
 		function(item) {  item.itemClass = "passive"; });
 	mergeItems(data, 
 		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
