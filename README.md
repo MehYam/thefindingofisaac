@@ -1,6 +1,6 @@
 # The Finding of Isaac
 
-This is a tool to help identify that item that just dropped in your Binding of Isaac Rebirth/Afterbirth run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to narrow down the item.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
+This is a tool to help identify that item that just dropped in your Binding of Isaac run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to narrow down the item.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
 
 Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScrape.js for details.
 
@@ -11,7 +11,11 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 ### TODO
 
 TO DO:
-- Antibirth items
+- ~~Antibirth items~~
+	- ~~scrape the wiki~~
+	- ~~tag the items~~
+	- think about usability
+	- introduces duplicate items (i.e. D12)
 	- fix fixUpRelativeUrls to point to the correct wiki
 - checkboxes to filter by DLC
 - Afterbirth+ items

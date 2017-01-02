@@ -1,92 +1,92 @@
 var antibirthTrinketsSupplemental = {
 	"Beth's Faith": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "shiny heart cross book"
 	},
 	"Blessed Penny": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "shiny sparkle"
 	},
 	"Brain Worm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "snake"
 	},
 	"Broken Padlock": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "hook metal"
 	},
 	"Broken Syringe": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "needle break glass spill blood splat"
 	},
 	"Chewed Pen": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "broken scythe"
 	},
 	"Devil's Crown": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark red",
+		"itemTags": "crown horns tiara"
 	},
 	"Electric Penny": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "zap"
 	},
 	"Exploded Firecracker": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "crown paper broken ripped"
 	},
 	"Giant Bean": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "beige yellow",
+		"itemTags": "kidney"
 	},
 	"Jawbreaker": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "round ball"
 	},
 	"Lighter": {
 		"itemType": "",
-		"itemColor": "",
+		"itemColor": "gray",
 		"itemTags": ""
 	},
 	"'M": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow red blue",
+		"itemTags": "glyph glitch broken"
 	},
 	"Myosotis": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue yellow",
+		"itemTags": "flowers plant"
 	},
 	"Old Capacitor": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "cylinder component tech wire"
 	},
 	"Perfection": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white red",
+		"itemTags": "a+ report card letter page"
 	},
 	"Song of the Siren": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "letter page text scroll music glyph"
 	},
 	"Teardrop Charm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "locket cord"
 	}
 };
