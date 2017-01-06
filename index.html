@@ -2,16 +2,30 @@
 <head>
 <title>The Finding of Isaac [BETA]</title>
 <link rel="stylesheet" type="text/css" href="thefindingofisaac.css">
+<link rel="stylesheet" type="text/css" href="togglebutton.css">
 </head>
 <body onload="main()">
+<div id="buttonBar">
+	<div class="togglebutton">
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="rbbutton" checked>
+	    <label class="togglebutton-label" for="rbbutton"><span class="togglebutton-inner">Rebirth</span></label>
+	</div>	
+	<div class="togglebutton">
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abbutton" checked>
+	    <label class="togglebutton-label" for="abbutton"><span class="togglebutton-inner">Afterbirth</span></label>
+	</div>	
+	<div class="togglebutton">
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abplusbutton" checked>
+	    <label class="togglebutton-label" for="abplusbutton"><span class="togglebutton-inner">Afterbirth+</span></label>
+	</div>
+	<div class="togglebutton">
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="anbbutton" checked>
+	    <label class="togglebutton-label" for="anbbutton"><span class="togglebutton-inner">Antibirth</span></label>
+	</div>	
+</div>
 <label for="searchTerms">Describe Item:</label>
 <input id="searchTerms" autofocus type="text" oninput="update(event)"/>
 Results: <span id="resultsCount"></span>
-<!-- 
-<div>
-	<input id="rebirthCheckbox" type="checkbox"/><label for="rebirthCheckbox">Rebirth</label>
-</div> 
--->
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>

@@ -33,5 +33,5 @@
 }
 .togglebutton-checkbox:checked + .togglebutton-label .togglebutton-inner {
     text-decoration: none;
-    color: white; background-color: #34A7C1;
+    color: white; background-color: #142E59;
 }

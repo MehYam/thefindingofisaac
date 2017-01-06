@@ -1,5 +1,8 @@
 body {
-	font-family: Verdana,Arial,sans-serif;
+	font-family: Trebuchet,Arial,sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
     background: url(bg_lowres.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,9 +18,6 @@ table {
 th {
     background: #142E59;
     border: 1px solid #000000;
-    font-size: 10pt;
-    color: #FFFFFF;
-    font-weight: bold;
 }
 td {
 	border: 1px solid #000000;
