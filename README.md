@@ -18,7 +18,8 @@ TO DO:
 	- fix fixUpRelativeUrls to point to the correct wiki
 - ~~checkboxes to filter by DLC~~
 - Afterbirth+ items
-- sorting by score broken?
+- caching causes display of incorrect score
+- score items better when terms match exactly
 
 - still slow in FF on the production site?
 - return focus to text box after clicking link

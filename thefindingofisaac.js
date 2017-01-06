@@ -1,5 +1,16 @@
+var DLC =
+{
+	BASE: "base",
+	AFTERBIRTH: "afterbirth",
+	AFTERBIRTHPLUS: "afterbirthplus",
+	ANTIBIRTH: "antibirth"
+}
 function prepareData(data)
 {
+	assignDLC([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial], DLC.BASE);
+	assignDLC([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC.AFTERBIRTH);
+	assignDLC([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC.ANTIBIRTH);
+
 	mergeItems(data, 
 		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental, antibirthTrinkets, antibirthTrinketsSupplemental], 
 		function(item) {  item.itemClass = "trinket"; });
@@ -40,6 +51,7 @@ function mergeItems(data, itemTableArray, override)
 			merged.itemType = merged.itemType || source.itemType;
 			merged.itemColor = merged.itemColor || source.itemColor;
 			merged.itemTags = merged.itemTags || source.itemTags;
+			merged.dlc = merged.dlc || source.dlc;
 
 			if (override)
 			{
@@ -48,6 +60,17 @@ function mergeItems(data, itemTableArray, override)
 			data.items[keyLower] = merged;
 
 			++mergeItems.totalMerged;
+		}
+	});
+}
+function assignDLC(itemTableArray, dlcName)
+{
+	itemTableArray.forEach(function(itemTable)
+	{
+		for (var key in itemTable)
+		{
+			var item = itemTable[key];
+			item.dlc = dlcName;
 		}
 	});
 }
@@ -117,7 +140,7 @@ function fixUpRelativeURLs(data)
 		item.descriptionHTML = item.descriptionHTML.replace(/href="/g, "target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com");
 	}
 }
-function retrieveHits(data, searchText, searchTermsWithAND)
+function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 {
 	console.log("-> retrieveHits");
 
@@ -129,8 +152,12 @@ function retrieveHits(data, searchText, searchTermsWithAND)
 	for (var key in data.items)
 	{
 		var item = data.items[key];
-		var score = 0;
+		if (!dlcFilter[item.dlc])
+		{
+			continue;
+		}
 
+		var score = 0;
 		for (var i = 0; i < nTerms; ++i)
 		{
 			var term = terms[i];
@@ -270,6 +297,12 @@ function update(event)
 }
 function doSearch(searchText)
 {
+	var dlcFilter = {};
+	if (rbbutton.checked) dlcFilter[DLC.BASE] = true;
+	if (abbutton.checked) dlcFilter[DLC.AFTERBIRTH] = true;
+	if (abplusbutton.checked) dlcFilter[DLC.AFTERBIRTHPLUS] = true;
+	if (anbbutton.checked) dlcFilter[DLC.ANTIBIRTH] = true;
+
 	if (searchText.length)
 	{
 		if (searchText == "all")
@@ -278,7 +311,7 @@ function doSearch(searchText)
 		}
 		else
 		{
-			var hits = retrieveHits(g_data, searchText, true);
+			var hits = retrieveHits(g_data, searchText, dlcFilter, true);
 			hits.sort(function(hitA, hitB){
 				return hitB.score - hitA.score;
 			});
