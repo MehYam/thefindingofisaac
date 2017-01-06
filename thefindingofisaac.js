@@ -272,12 +272,16 @@ function renderRow(hit)
 
 	return row;
 }
-function renderAll(data)
+function renderAll(data, dlcFilter)
 {
 	var hits = [];
 	for (var key in data.items)
 	{
-		hits.push({ item: data.items[key], score: 0 });
+		var item = data.items[key];
+		if (dlcFilter[item.dlc])
+		{
+			hits.push({ item: data.items[key], score: 0 });
+		}
 	}
 	renderHits(hits);
 }
@@ -307,7 +311,7 @@ function doSearch(searchText)
 	{
 		if (searchText == "all")
 		{
-			renderAll(g_data);
+			renderAll(g_data, dlcFilter);
 		}
 		else
 		{

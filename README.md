@@ -17,6 +17,7 @@ TO DO:
 	- introduces duplicate items (i.e. D12)
 	- fix fixUpRelativeUrls to point to the correct wiki
 - ~~checkboxes to filter by DLC~~
+- refresh Antibirth items
 - Afterbirth+ items
 - caching causes display of incorrect score
 - score items better when terms match exactly
@@ -56,4 +57,4 @@ TO DO:
 - ~~fix relative links in description~~
 
 ALSO
-- add pills
+- add pills?
