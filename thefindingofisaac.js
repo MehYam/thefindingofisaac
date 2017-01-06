@@ -9,16 +9,17 @@ function prepareData(data)
 {
 	assignDLC([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial], DLC.BASE);
 	assignDLC([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC.AFTERBIRTH);
+	assignDLC([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC.AFTERBIRTHPLUS);
 	assignDLC([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC.ANTIBIRTH);
 
 	mergeItems(data, 
-		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental, antibirthTrinkets, antibirthTrinketsSupplemental], 
+		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental, antibirthTrinkets, antibirthTrinketsSupplemental, afterbirthPlusTrinkets, afterbirthPlusTrinketsSupplemental], 
 		function(item) {  item.itemClass = "trinket"; });
 	mergeItems(data, 
-		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental, antibirthCollectibles, antibirthCollectiblesSupplemental], 
+		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental, antibirthCollectibles, antibirthCollectiblesSupplemental, afterbirthPlusCollectibles, afterbirthPlusCollectiblesSupplemental], 
 		function(item) {  item.itemClass = "activated"; });
 	mergeItems(data, 
-		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental, antibirthPassives, antibirthPassivesSupplemental], 
+		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental, antibirthPassives, antibirthPassivesSupplemental, afterbirthPlusPassives, afterbirthPlusPassivesSupplemental], 
 		function(item) {  item.itemClass = "passive"; });
 	mergeItems(data, 
 		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
@@ -337,7 +338,7 @@ var g_data =
 };
 var OPTIONS =
 {
-	HEADER: "thefindingofisaac.9.",
+	HEADER: "thefindingofisaac.10.",
 	LASTSEARCH: "lastSearch",
 	REBIRTH: "rebirth",
 	AFTERBIRTH: "afterbirth",

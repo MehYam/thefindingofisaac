@@ -18,8 +18,10 @@ TO DO:
 	- fix fixUpRelativeUrls to point to the correct wiki
 - ~~checkboxes to filter by DLC~~
 - refresh Antibirth items
+- BUG: filters don't work the first time a page is ever opened (i.e. set the options to a new seed)
 - Afterbirth+ items
 - caching causes display of incorrect score
+- move *.json files to a subdir
 - score items better when terms match exactly
 
 - still slow in FF on the production site?
