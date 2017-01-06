@@ -7,19 +7,19 @@
 <body onload="main()">
 <div id="buttonBar">
 	<div class="togglebutton">
-	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="rbbutton" checked>
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="rbbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="rbbutton"><span class="togglebutton-inner">Rebirth</span></label>
 	</div>	
 	<div class="togglebutton">
-	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abbutton" checked>
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="abbutton"><span class="togglebutton-inner">Afterbirth</span></label>
 	</div>	
 	<div class="togglebutton">
-	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abplusbutton" checked>
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="abplusbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="abplusbutton"><span class="togglebutton-inner">Afterbirth+</span></label>
 	</div>
 	<div class="togglebutton">
-	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="anbbutton" checked>
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="anbbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="anbbutton"><span class="togglebutton-inner">Antibirth</span></label>
 	</div>	
 </div>
@@ -39,7 +39,7 @@ Results: <span id="resultsCount"></span>
 </div>
 <br/>
 <div id="version" class="finePrint">
-version: 0.1.3
+version: 0.2.0
 </div>
 </body>
 <script src="afterbirthCollectibles.json"></script>

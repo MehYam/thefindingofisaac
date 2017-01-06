@@ -14,14 +14,13 @@ TO DO:
 - ~~Antibirth items~~
 	- ~~scrape the wiki~~
 	- ~~tag the items~~
-	- think about usability
 	- introduces duplicate items (i.e. D12)
 	- fix fixUpRelativeUrls to point to the correct wiki
-- checkboxes to filter by DLC
+- ~~checkboxes to filter by DLC~~
 - Afterbirth+ items
+- sorting by score broken?
 
 - still slow in FF on the production site?
-	- could use performance tuning in general - starting to feel slow
 - return focus to text box after clicking link
 - add search options options
     - AND vs. OR
@@ -31,7 +30,7 @@ TO DO:
 	- or have a check-box
 - add description to the sort options
 
-- ~~performance tuning~~
+- ~~performance tuning - cache tr's~~
 - ~~test and tweak tagging, (i.e. The Mind and other symbols inconsistent, add more descriptors and colors)~~
 - ~~test on mobile~~
 - ~~type "all" to see the entire item list~~

@@ -258,15 +258,14 @@ function renderClear()
 {
 	hitsContainer.innerHTML = "";
 }
-update.LAST_SEARCH_KEY = 'thefindingofisaac.update.lastSearch.3';
 function update(event)
 {
 	var searchText = event.currentTarget.value.trim().toLowerCase();
-	var lastSearchText = localStorage.getItem(update.LAST_SEARCH_KEY, searchText);
+	var lastSearchText = getOption(OPTIONS.LASTSEARCH);
 	if (lastSearchText != searchText)
 	{
 		doSearch(searchText);
-		localStorage.setItem(update.LAST_SEARCH_KEY, searchText);
+		saveOption(OPTIONS.LASTSEARCH, searchText);
 	}
 }
 function doSearch(searchText)
@@ -299,18 +298,54 @@ var g_data =
 	items: {},
 	aliases: {}
 };
+var OPTIONS =
+{
+	HEADER: "thefindingofisaac.9.",
+	LASTSEARCH: "lastSearch",
+	REBIRTH: "rebirth",
+	AFTERBIRTH: "afterbirth",
+	AFTERBIRTHPLUS: "afterbirthplus",
+	ANTIBIRTH: "antibirth"
+}
+function getOption(optionName, defaultValue)
+{
+	var optionFull = OPTIONS.HEADER + optionName;
+	var result = localStorage.getItem(optionFull);
+	if (result == undefined)
+	{
+		return defaultValue;
+	}
+	return result === 'true' || (result === 'false' ? false : result);
+}
+function saveOption(optionName, value)
+{
+	var optionFull = OPTIONS.HEADER + optionName;
+	localStorage.setItem(optionFull, value);
+}
+function restoreButtons()
+{
+	// turn on all expansion by default
+	rbbutton.checked = getOption(OPTIONS.REBIRTH, true);
+	abbutton.checked = getOption(OPTIONS.AFTERBIRTH, true);
+	abplusbutton.checked = getOption(OPTIONS.AFTERBIRTHPLUS, true);
+	anbbutton.checked = getOption(OPTIONS.ANTIBIRTH, true);
+}
+function onSearchOption()
+{
+	saveOption(OPTIONS.REBIRTH, rbbutton.checked);
+	saveOption(OPTIONS.AFTERBIRTH, abbutton.checked);
+	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
+	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
+}
 function main()
 {
 	prepareData(g_data);
 	loading.style.display = "none";	
 
-	// restore the last searched term
-	var lastSearch = localStorage.getItem(update.LAST_SEARCH_KEY);
-	if (lastSearch == undefined)
-	{
-		// can't use the '|| trick' here, because we want to distinguish between blank and "never searched before"
-		lastSearch = "blue fly"
-	}
+	// restore the last searched term and options
+	restoreButtons();
+
+	var lastSearch = getOption(OPTIONS.LASTSEARCH, "blue fly");
 	searchTerms.value = lastSearch; 
 	searchTerms.select();
 
