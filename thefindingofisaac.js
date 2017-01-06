@@ -336,6 +336,8 @@ function onSearchOption()
 	saveOption(OPTIONS.AFTERBIRTH, abbutton.checked);
 	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
 	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
+
+	doSearch(getOption(OPTIONS.LASTSEARCH));
 }
 function main()
 {

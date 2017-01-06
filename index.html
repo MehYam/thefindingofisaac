@@ -5,7 +5,12 @@
 <link rel="stylesheet" type="text/css" href="togglebutton.css">
 </head>
 <body onload="main()">
-<div id="buttonBar">
+<span id="searchBar">
+	<label for="searchTerms">Describe Item:</label>
+	<input id="searchTerms" autofocus type="text" oninput="update(event)"/>
+	Results: <span id="resultsCount"></span>
+</span>
+<span id="buttonBar">
 	<div class="togglebutton">
 	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="rbbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="rbbutton"><span class="togglebutton-inner">Rebirth</span></label>
@@ -22,15 +27,12 @@
 	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="anbbutton" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="anbbutton"><span class="togglebutton-inner">Antibirth</span></label>
 	</div>	
-</div>
-<label for="searchTerms">Describe Item:</label>
-<input id="searchTerms" autofocus type="text" oninput="update(event)"/>
-Results: <span id="resultsCount"></span>
+</span>
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>
 <div id="instruction" class="finePrint">
-	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth/Antibirth</b> run.  <b>Afterbirth+</b> coming soon.
+	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth/Afterbirth+/Antibirth</b> run.
 	<ul>
 		<li>Just start typing something descriptive, like <b>"green syringe", "gross blood", "blue fly", "dead head"</b>, etc.</li>
 		<li>Type <b>'ALL'</b> to see the entire list of items.</li>
