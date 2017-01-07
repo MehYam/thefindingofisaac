@@ -11,10 +11,10 @@
     border: 2px solid #999999; border-radius: 20px;
 }
 .togglebutton-label:hover {
-    border: 2px solid green   
+    border: 2px solid #cccccc
 }
 .togglebutton-label:active {
-    border: 2px solid blue   
+    border: 2px solid #ffffff
 }
 .togglebutton-inner {
     display: block; 

@@ -1,97 +1,97 @@
 var afterbirthPlusCollectiblesSupplemental = {
 	"Brown Nugget": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "brown",
+		"itemTags": "cube"
 	},
 	"Clicker": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "square tech button box"
 	},
 	"Compost": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown green",
+		"itemTags": "fly spider garbage"
 	},
 	"Crooked Penny": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "gold yellow",
+		"itemTags": "bent cent money coin"
 	},
 	"D1": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "dice",
+		"itemColor": "white",
+		"itemTags": "cube"
 	},
 	"D Infinity": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey",
+		"itemTags": "8 square cube"
 	},
 	"Dataminer": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red dark",
+		"itemTags": "axe pick pickaxe tool"
 	},
 	"Delirious": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "face ghost spooky"
 	},
 	"Dull Razor": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown black grey",
+		"itemTags": "metal sharp square ticket"
 	},
 	"Eden's Soul": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue white",
+		"itemTags": "circle glow bright"
 	},
 	"Mama Mega!": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red dark",
+		"itemTags": "bomb face lips mouth"
 	},
 	"Metronome": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "tech chair music tick"
 	},
 	"Plan C": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "pill capsule cylinder suicide"
 	},
 	"Potato Peeler": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown silver",
+		"itemTags": "metal tool knife kitchen cube pen chisel handle"
 	},
 	"Pause": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "remote tech box"
 	},
 	"Sharp Straw": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue white",
+		"itemTags": "stick"
 	},
 	"Smelter": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey brown",
+		"itemTags": "pot tub"
 	},
 	"Void": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "swirl vortex spin"
 	},
 	"Wait What?": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "kidney bean fart"
 	}
 };

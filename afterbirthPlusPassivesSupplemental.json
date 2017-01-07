@@ -1,247 +1,247 @@
 var afterbirthPlusPassivesSupplemental = {
 	"Dark Prince's Crown": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "leaf paw"
 	},
 	"Apple!": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "fruit metal razor"
 	},
 	"Lead Pencil": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "pen stick"
 	},
 	"Dog Tooth": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "pointy teeth dental"
 	},
 	"Dead Tooth": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "face dead teeth dental"
 	},
 	"Linger Bean": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "fart bean gas"
 	},
 	"Shard Of Glass": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue",
+		"itemTags": "sharp triangle pointy"
 	},
 	"Metal Plate": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "silver grey",
+		"itemTags": "4 metal horseshoe shoe"
 	},
 	"Eye Of Greed": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "silver",
+		"itemTags": "cent money"
 	},
 	"Tarot Cloth": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "purple grey",
+		"itemTags": "triangle fruit chunk"
 	},
 	"Varicose Veins": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "gross organ guts"
 	},
 	"Compound Fracture": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white red",
+		"itemTags": "bone shatter broken pieces chips break"
 	},
 	"Polydactyly": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "organ bean ear kidney"
 	},
 	"Dad's Lost Coin": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "silver",
+		"itemTags": "symbol coin"
 	},
 	"Moldy Bread": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow green",
+		"itemTags": "bite toast slice"
 	},
 	"Cone Head": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "egg round"
 	},
 	"Belly Button": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "sphincter hole orifice, round"
 	},
 	"Sinus Infection": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "drip"
 	},
 	"Glaucoma": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "round eye"
 	},
 	"Parasitoid": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "blue white",
+		"itemTags": "wings fly"
 	},
 	"Eye Of Belial": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "pacman slit"
 	},
 	"Sulfuric Acid": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "bottle x poison"
 	},
 	"Glyph Of Balance": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "zodiac",
+		"itemColor": "blue",
+		"itemTags": "glyph"
 	},
 	"Analog Stick": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey",
+		"itemTags": "thumb control controller seat chair stool"
 	},
 	"Contagion": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red black",
+		"itemTags": "glyph evil warning toxic radioactive"
 	},
 	"Finger!": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "flesh tip pierce"
 	},
 	"Shade": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "purple",
+		"itemTags": "baby face"
 	},
 	"Depression": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "purple",
+		"itemTags": "cloud blob puff steam air"
 	},
 	"Hushy": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "dark blue",
+		"itemTags": "dead face ghost"
 	},
 	"Lil Monstro": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "face tooth cleft palate"
 	},
 	"King Baby": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "blue yellow",
+		"itemTags": "baby dead crown"
 	},
 	"Big Chubby": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "beige",
+		"itemTags": "round face smile smirk"
 	},
 	"Acid Baby": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "yellow",
+		"itemTags": "sick baby spooky"
 	},
 	"YO LISTEN!": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "green black",
+		"itemTags": "fly"
 	},
 	"Adderline": {
-		"itemType": "",
-		"itemColor": "",
+		"itemType": "syringe",
+		"itemColor": "pink",
 		"itemTags": ""
 	},
 	"Jacob's Ladder": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
+		"itemTags": "spark metal electric tech"
 	},
 	"Ghost Pepper": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "face chili pepper ghost"
 	},
 	"Euthanasia": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "rocket needle syringe"
 	},
 	"Camo Undies": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "shorts pants underwear clothes"
 	},
 	"Duality": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black white",
+		"itemTags": "round moon half semi"
 	},
 	"Eucharist": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white yellow",
+		"itemTags": "cross ice cream wafer cup dish"
 	},
 	"Sack Of Sacks": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "brown",
+		"itemTags": "bag pack"
 	},
 	"Greed's Gullet": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "$ money"
 	},
 	"Large Zit": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow pink",
+		"itemTags": "egg sunny side up gross"
 	},
 	"Little Horn": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "horn sharp shiny rhino nail claw"
 	},
 	"Poke Go": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black green",
+		"itemTags": "tablet phone tech screen device square nintendo"
 	},
 	"Backstabber": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red silver",
+		"itemTags": "metal knife heart stab"
 	},
 	"Mom's Razor": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "T stick"
 	},
 	"Bloodshot Eye": {
-		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "gross stalk"
 	}
 };

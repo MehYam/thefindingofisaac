@@ -1,147 +1,147 @@
 var afterbirthPlusTrinketsSupplemental = {
 	"Bag Lunch": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "paper sack"
 	},
 	"Bat Wing": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "wing fly"
 	},
 	"Black Tooth": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "chunk teeth horn"
 	},
 	"Bloody Crown": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "wet blood splatter"
 	},
 	"Crow Heart": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "purple",
+		"itemTags": "heart organ wet gross"
 	},
 	"Cracked Crown": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "broken"
 	},
 	"Dim Bulb": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey",
+		"itemTags": "broken light tech"
 	},
 	"Duct Tape": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "paper toilet tissue roll towel"
 	},
 	"Equality!": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "equals sign double"
 	},
 	"Fish Tail": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "grey green",
+		"itemTags": "bottle broken sharp shatter"
 	},
 	"Fragmented Card": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "purple",
+		"itemTags": "broken ripped ticket"
 	},
 	"Locust Of Conquest": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "fly bug"
 	},
 	"Locust Of Death": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "black",
+		"itemTags": "fly bug"
 	},
 	"Locust Of Famine": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "fly bug"
 	},
 	"Locust Of Pestilence": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "fly bug"
 	},
 	"Locust Of Wrath": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "red",
+		"itemTags": "fly bug"
 	},
 	"Lost Cork": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "beige",
+		"itemTags": "plug cylinder bullet round cone"
 	},
 	"Meconium": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "dark",
+		"itemTags": "poop"
 	},
 	"Nose Goblin": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "gross booger splatter"
 	},
 	"Ouroboros Worm": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "swirl cycle round"
 	},
 	"Pay To Win": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "green",
+		"itemTags": "$"
 	},
 	"Silver Dollar": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "silver",
+		"itemTags": "coin round"
 	},
 	"Stem Cell": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "orange",
+		"itemTags": "ball round"
 	},
 	"Super Ball": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow orange",
+		"itemTags": "swirl ball toy"
 	},
 	"Tonsil": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "pink",
+		"itemTags": "wet gross round organ"
 	},
 	"Used Diaper": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "white",
+		"itemTags": "round fly gross"
 	},
 	"Vibrant Bulb": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "lightbulb tech bright bulb"
 	},
 	"Walnut": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "brown",
+		"itemTags": "ball basketball nut"
 	},
 	"Wish Bone": {
 		"itemType": "",
-		"itemColor": "",
-		"itemTags": ""
+		"itemColor": "yellow",
+		"itemTags": "sharp circle pinch claw hook"
 	}
 };

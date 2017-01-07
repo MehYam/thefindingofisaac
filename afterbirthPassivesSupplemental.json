@@ -367,7 +367,7 @@ var afterbirthPassivesSupplemental = {
 	"Toxic Shock": {
 		"itemType": "",
 		"itemColor": "green",
-		"itemTags": "warning symbol radioactive"
+		"itemTags": "warning symbol radioactive contagion"
 	},
 	"Tractor Beam": {
 		"itemType": "",
