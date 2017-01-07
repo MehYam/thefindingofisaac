@@ -338,7 +338,7 @@ var g_data =
 };
 var OPTIONS =
 {
-	HEADER: "thefindingofisaac.10.",
+	HEADER: "thefindingofisaac.11.",
 	LASTSEARCH: "lastSearch",
 	REBIRTH: "rebirth",
 	AFTERBIRTH: "afterbirth",
@@ -375,8 +375,9 @@ function onSearchOption()
 	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
 	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
 
-	doSearch(getOption(OPTIONS.LASTSEARCH));
+	doSearch(getOption(OPTIONS.LASTSEARCH, DEFAULT_SEARCH_TERM));
 }
+var DEFAULT_SEARCH_TERM = "blue fly";
 function main()
 {
 	prepareData(g_data);
@@ -385,7 +386,7 @@ function main()
 	// restore the last searched term and options
 	restoreButtons();
 
-	var lastSearch = getOption(OPTIONS.LASTSEARCH, "blue fly");
+	var lastSearch = getOption(OPTIONS.LASTSEARCH, DEFAULT_SEARCH_TERM);
 	searchTerms.value = lastSearch; 
 	searchTerms.select();
 
