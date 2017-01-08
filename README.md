@@ -9,17 +9,16 @@ Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScr
 Written in pure javascript and HTML, no frameworks.  All game data lives in the linked JSON files, and was scraped from the wiki (see isaacWikiScrape.js for details).  The code has not been optimized at all, but is very simple and seems to run well enough on Chrome, Firefox, and IE.
 
 ### TO DO:
-- deal with duplicate item names
-- fix score column
+- ~~deal with duplicate item names~~
+- ~~move *.json files to a data subdir~~
 - dig deep on performance tuning
 	- diagnose bottleneck
 	- partial rendering?
 	- hiding rows + sorting as an alternative?
+- caching causes display of incorrect score
 - add Black Rune
 
 - refresh Antibirth and Afterbirth+ items as they get updated in the wiki
-- caching causes display of incorrect score
-- move *.json files to a subdir
 - score items better when terms match exactly
 
 - more functionality
