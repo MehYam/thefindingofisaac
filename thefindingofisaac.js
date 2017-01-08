@@ -12,63 +12,82 @@ var DLC =
 }
 function prepareData(data)
 {
-	var DLC_KEY = "dlc";
-	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_KEY, DLC.BASE);
-	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_KEY, DLC.AFTERBIRTH);
-	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_KEY, DLC.AFTERBIRTHPLUS);
-	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC_KEY, DLC.ANTIBIRTH);
+	var DLC_PROP = "dlc";
+	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_PROP, DLC.BASE);
+	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_PROP, DLC.AFTERBIRTH);
+	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
+	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC_PROP, DLC.ANTIBIRTH);
 
-	var CLASS_KEY = "itemClass";
-	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets], CLASS_KEY, "trinket");
-	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles], CLASS_KEY, "activated");
-	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives], CLASS_KEY, "passive");
-	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial], CLASS_KEY, "card");
-	addProperty([runes1, runes2], CLASS_KEY, "rune");
+	var CLASS_PROP = "itemClass";
+	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets], CLASS_PROP, "trinket");
+	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles], CLASS_PROP, "activated");
+	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives], CLASS_PROP, "passive");
+	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial], CLASS_PROP, "card");
+	addProperty([runes1, runes2], CLASS_PROP, "rune");
 
-	mergeItems(data, 
-		[afterbirthTrinkets, afterbirthTrinketsTags, rebirthTrinkets, rebirthTrinketsTags, antibirthTrinkets, antibirthTrinketsTags, afterbirthPlusTrinkets, afterbirthPlusTrinketsTags]);
-	mergeItems(data, 
-		[afterbirthCollectibles, afterbirthCollectiblesTags, rebirthCollectibles, rebirthCollectiblesTags, antibirthCollectibles, antibirthCollectiblesTags, afterbirthPlusCollectibles, afterbirthPlusCollectiblesTags]);
-	mergeItems(data, 
-		[afterbirthPassives, afterbirthPassivesTags, rebirthPassives, rebirthPassivesTags, antibirthPassives, antibirthPassivesTags, afterbirthPlusPassives, afterbirthPlusPassivesTags]);
-	mergeItems(data, 
-		[cards, cardsTags, cardsOther, cardsOtherTags, cardsPlaying, cardsPlayingTags, cardsSpecial, cardsSpecialTags]);
-	mergeItems(data, [runes1, runes2, runes1Tags, runes2Tags]);
+	mergeMetadata(data, afterbirthTrinkets, afterbirthTrinketsTags);
+	mergeMetadata(data, rebirthTrinkets, rebirthTrinketsTags);
+	mergeMetadata(data, antibirthTrinkets, antibirthTrinketsTags);
+	mergeMetadata(data, afterbirthPlusTrinkets, afterbirthPlusTrinketsTags);
+	mergeMetadata(data, afterbirthCollectibles, afterbirthCollectiblesTags);
+	mergeMetadata(data, rebirthCollectibles, rebirthCollectiblesTags);
+	mergeMetadata(data, antibirthCollectibles, antibirthCollectiblesTags);
+	mergeMetadata(data, afterbirthPlusCollectibles, afterbirthPlusCollectiblesTags);
+	mergeMetadata(data, afterbirthPassives, afterbirthPassivesTags);
+	mergeMetadata(data, rebirthPassives, rebirthPassivesTags);
+	mergeMetadata(data, antibirthPassives, antibirthPassivesTags);
+	mergeMetadata(data, afterbirthPlusPassives, afterbirthPlusPassivesTags);
+	mergeMetadata(data, cards, cardsTags);
+	mergeMetadata(data, cardsOther, cardsOtherTags);
+	mergeMetadata(data, cardsPlaying, cardsPlayingTags);
+	mergeMetadata(data, cardsSpecial, cardsSpecialTags);
+	mergeMetadata(data, runes1, runes1Tags);
+	mergeMetadata(data, runes2, runes2Tags);
 
 	fixUpRelativeURLs(data);
 
-	console.log("Item merge steps: " + mergeItems.totalMerged);
+	console.log("Item merge steps: " + mergeMetadata.totalMerged);
 
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
 }
-mergeItems.totalMerged = 0;
-function mergeItems(data, itemTableArray)
+mergeMetadata.totalMerged = 0;
+function mergeMetadata(data, items, itemMetadata)
 {
-	// loop through the item lists, merging the scraped wiki items with their tags
-	itemTableArray.forEach(function(itemTable)
+	// the scraping's not perfect, it's generating noisy item names 
+	function scrubKeys(roughItems)
 	{
-		for (var key in itemTable)
+		var retval = {};
+		for (var roughKey in roughItems)
 		{
-			var source = itemTable[key];
-			var keyLower = key.toLowerCase().trim();  // the scraping should have cleaned the names, but some whitespace is sneaking through
-			var merged = data.items[keyLower] || {};
-
-			merged.displayName = key;
-			merged.wikiPage = merged.wikiPage || source.wikiPage;
-			merged.thumbnail = merged.thumbnail || source.thumbnail;
-			merged.descriptionHTML = merged.descriptionHTML || source.descriptionHTML;
-			merged.itemClass = merged.itemClass || source.itemClass;
-			merged.itemType = merged.itemType || source.itemType;
-			merged.itemColor = merged.itemColor || source.itemColor;
-			merged.itemTags = merged.itemTags || source.itemTags;
-			merged.dlc = merged.dlc || source.dlc;
-
-			data.items[keyLower] = merged;
-
-			++mergeItems.totalMerged;
+			var scrubbedKey =  roughKey.toLowerCase().trim();
+			retval[scrubbedKey] = roughItems[roughKey];
+			retval[scrubbedKey].roughKey = roughKey;
 		}
-	});
+		return retval;
+	}
+	var scrubbedItems = scrubKeys(items);
+	var scrubbedMetadata = scrubKeys(itemMetadata);
+
+	for (var key in scrubbedItems)
+	{
+		var item = scrubbedItems[key];
+		item.meta = scrubbedMetadata[key];
+		if (!item.meta)
+		{
+			console.error("No metadata found for item '" + key + "'");
+		}
+		if (!item.dlc)
+		{
+			console.error("No dlc found for item '" + key + "'");
+		}
+		item.displayName = item.roughKey;
+
+		var uniqueKey = key + item.dlc; // some DLC now collides item names (i.e. D12 in Antibirth)
+		data.items[uniqueKey] = item;
+
+		++mergeMetadata.totalMerged;
+	}
 }
 function addProperty(itemTableArray, propertyName, value)
 {
@@ -116,9 +135,9 @@ function explodeItemAliases(data, aliasLookup)
 	{
 		var item = data.items[key];
 
-		item.itemTypeWithAliases = explodeAliases(aliasLookup, item.itemType);
-		item.itemTagsWithAliases = explodeAliases(aliasLookup, item.itemTags);
-		item.itemColorWithAliases = explodeAliases(aliasLookup, item.itemColor);
+		item.itemTypeWithAliases = explodeAliases(aliasLookup, item.meta.itemType);
+		item.itemTagsWithAliases = explodeAliases(aliasLookup, item.meta.itemTags);
+		item.itemColorWithAliases = explodeAliases(aliasLookup, item.meta.itemColor);
 	}	
 }
 function explodeAliases(aliasLookup, termsString)

@@ -34,4 +34,4 @@ var cardsSpecial = {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Get_Out_Of_Jail_Free_Card_Icon.png?version=d8c5f264833d893a7f16807cab9178fd",
 		"descriptionHTML": "Upon use, opens all doors in the current room (including the golden door at <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a>/<a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a>), similar to <a href=\"/Dad%27s_Key\" title=\"Dad's Key\">Dad's Key</a>."
 	}
-}
+};
