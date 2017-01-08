@@ -1,4 +1,4 @@
-var antibirthCollectiblesSupplemental = {
+var antibirthCollectiblesTags = {
 	"Alabaster Box": {
 		"itemType": "",
 		"itemColor": "white gold",

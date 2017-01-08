@@ -1,4 +1,4 @@
-var antibirthPassivesSupplemental = {
+var antibirthPassivesTags = {
 	"120 Volt": {
 		"itemType": "",
 		"itemColor": "white",

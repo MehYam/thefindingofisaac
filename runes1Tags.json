@@ -1,0 +1,22 @@
+var runes1Tags = {
+	"Hagalaz": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": "rock break"
+	},
+	"Jera": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": "dupe"
+	},
+	"Ehwaz": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": "passage trap floor"
+	},
+	"Dagaz": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": "curse purity"
+	}
+}

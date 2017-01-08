@@ -1,0 +1,382 @@
+var afterbirthPassivesTags = {
+	"8 Inch Nails": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "metal sharp"
+	},
+	"Athame": {
+		"itemType": "",
+		"itemColor": "gray sharp",
+		"itemTags": "devil metal sharp claw wrench"
+	},
+	"Betrayal": {
+		"itemType": "",
+		"itemColor": "gray red",
+		"itemTags": "knife blood metal sharp"
+	},
+	"Binky": {
+		"itemType": "",
+		"itemColor": "blue white",
+		"itemTags": "soother plastic baby"
+	},
+	"Black Powder": {
+		"itemType": "",
+		"itemColor": "gray dark",
+		"itemTags": "bag evil"
+	},
+	"Bomber Boy": {
+		"itemType": "",
+		"itemColor": "white gray",
+		"itemTags": "face head tnt"
+	},
+	"Bumbo": {
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "beg coin face"
+	},
+	"Bursting Sack": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "spider web bag"
+	},
+	"Cambion Conception": {
+		"itemType": "familiar",
+		"itemColor": "red",
+		"itemTags": "larva"
+	},
+	"Car Battery": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "charge cube"
+	},
+	"Censer": {
+		"itemType": "familiar",
+		"itemColor": "gold",
+		"itemTags": "metal point cylinder"
+	},
+	"Chaos": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "cross symbol +"
+	},
+	"Charged Baby": {
+		"itemType": "familiar",
+		"itemColor": "gray yellow",
+		"itemTags": "battery metal"
+	},
+	"Circle Of Protection": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "round ring"
+	},
+	"Continuum": {
+		"itemType": "",
+		"itemColor": "pink purple",
+		"itemTags": "infinity symbol ring"
+	},
+	"Crack Jacks": {
+		"itemType": "",
+		"itemColor": "yellow white red",
+		"itemTags": "trinket box text"
+	},
+	"Crown Of Light": {
+		"itemType": "",
+		"itemColor": "blue glow",
+		"itemTags": "diamond"
+	},
+	"Curse Of The Tower": {
+		"itemType": "",
+		"itemColor": "blue green purple orange",
+		"itemTags": "boot bomb page"
+	},
+	"Dead Eye": {
+		"itemType": "",
+		"itemColor": "red gray",
+		"itemTags": "round blood wet"
+	},
+	"Deep Pockets": {
+		"itemType": "",
+		"itemColor": "gray dark",
+		"itemTags": "egg broken pill empty"
+	},
+	"Eden's Blessing": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "flower lotus blossom bloom"
+	},
+	"Empty Vessel": {
+		"itemType": "",
+		"itemColor": "dark gray",
+		"itemTags": "string round bag purse"
+	},
+	"Epiphora": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "three wet"
+	},
+	"Evil Eye": {
+		"itemType": "",
+		"itemColor": "white blue",
+		"itemTags": "glow eye"
+	},
+	"Explosivo": {
+		"itemType": "",
+		"itemColor": "white black orange",
+		"itemTags": "eye round bomb"
+	},
+	"Farting Baby": {
+		"itemType": "familiar",
+		"itemColor": "green",
+		"itemTags": "sick gross"
+	},
+	"Fate's Reward": {
+		"itemType": "familiar",
+		"itemColor": "blue",
+		"itemTags": "head round dead baby"
+	},
+	"Friend Zone": {
+		"itemType": "familiar",
+		"itemColor": "white gray",
+		"itemTags": "fly"
+	},
+	"Fruit Cake": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "round bun food"
+	},
+	"GB Bug": {
+		"itemType": "familiar",
+		"itemColor": "red yellow cyan",
+		"itemTags": "square shapes"
+	},
+	"Glitter Bombs": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "tnt shiney sparkle"
+	},
+	"God's Flesh": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "bent mushroom"
+	},
+	"Head Of The Keeper": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "round ultra greed coin face dead baby"
+	},
+	"Holy Light!": {
+		"itemType": "",
+		"itemColor": "white blue",
+		"itemTags": "round bright glow"
+	},
+	"Host Hat": {
+		"itemType": "familiar",
+		"itemColor": "gray",
+		"itemTags": "bone head skull"
+	},
+	"Immaculate Conception": {
+		"itemType": "familiar",
+		"itemColor": "white",
+		"itemTags": "halo angel grub"
+	},
+	"Incubus": {
+		"itemType": "familiar",
+		"itemColor": "dark red",
+		"itemTags": "demon"
+	},
+	"Key Bum": {
+		"itemType": "familiar",
+		"itemColor": "gray dark",
+		"itemTags": "dead baby greed"
+	},
+	"Kidney Stone": {
+		"itemType": "",
+		"itemColor": "brown red",
+		"itemTags": "gross blood"
+	},
+	"Lil' Chest": {
+		"itemType": "familiar",
+		"itemColor": "brown",
+		"itemTags": "cube"
+	},
+	"Lil Gurdy": {
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "round face charge gross"
+	},
+	"Lil' Loki": {
+		"itemType": "familiar",
+		"itemColor": "red",
+		"itemTags": "devil angel"
+	},
+	"Lost Fly": {
+		"itemType": "familiar",
+		"itemColor": "white beige gray",
+		"itemTags": "fly"
+	},
+	"Lusty Blood": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "heart blood damage pointy"
+	},
+	"Marked": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "cross"
+	},
+	"Maw Of The Void": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "ring round swirl"
+	},
+	"Milk!": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "glass cup mug drink"
+	},
+	"Mom's Pearls": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "round ring necklace"
+	},
+	"More Options": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "? square"
+	},
+	"Mr. Dolly": {
+		"itemType": "",
+		"itemColor": "pink yellow",
+		"itemTags": "mag hair baby"
+	},
+	"Multidimensional Baby": {
+		"itemType": "familiar",
+		"itemColor": "gray",
+		"itemTags": "glow baby"
+	},
+	"My Shadow": {
+		"itemType": "familiar",
+		"itemColor": "dark",
+		"itemTags": "silouhette baby shadow"
+	},
+	"Night Light": {
+		"itemType": "",
+		"itemColor": "white blue",
+		"itemTags": "rectangle box"
+	},
+	"No. 2": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "diaper poop safety pin"
+	},
+	"Papa Fly": {
+		"itemType": "familiar",
+		"itemColor": "blue",
+		"itemTags": ""
+	},
+	"Pay To Play": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "rectangle metal coin slot"
+	},
+	"PJs": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "shirt pajama clothes shirt top"
+	},
+	"Pupula Duplex": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "eye gross pupil wet"
+	},
+	"Purity": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "flower lotus pointy"
+	},
+	"Obsessed Fan": {
+		"itemType": "familiar",
+		"itemColor": "purple",
+		"itemTags": "fly"
+	},
+	"Restock": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "swirl cycle round arrow shop"
+	},
+	"Rune Bag": {
+		"itemType": "familiar",
+		"itemColor": "purple",
+		"itemTags": "bag symbol"
+	},
+	"Sack Head": {
+		"itemType": "",
+		"itemColor": "beige",
+		"itemTags": "face sad tear cry box"
+	},
+	"Scatter Bombs": {
+		"itemType": "",
+		"itemColor": "clear",
+		"itemTags": "glass tnt"
+	},
+	"Seraphim": {
+		"itemType": "familiar",
+		"itemColor": "pink white blue",
+		"itemTags": "angel baby"
+	},
+	"Serpent's Kiss": {
+		"itemType": "",
+		"itemColor": "green",
+		"itemTags": "lips drip"
+	},
+	"Sticky Bombs": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "spider web round sack"
+	},
+	"Spear Of Destiny": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "sword knife metal weapon pointy"
+	},
+	"Spider Mod": {
+		"itemType": "familiar",
+		"itemColor": "gray red",
+		"itemTags": "metal spider"
+	},
+	"Succubus": {
+		"itemType": "familiar",
+		"itemColor": "dark",
+		"itemTags": "demon"
+	},
+	"Sworn Protector": {
+		"itemType": "familiar",
+		"itemColor": "pink white",
+		"itemTags": "angel halo orbital"
+	},
+	"Tech X": {
+		"itemType": "",
+		"itemColor": "gray yellow",
+		"itemTags": "scuba mask glass goggles laser tech"
+	},
+	"The Wiz": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "dunce cap hat cone text"
+	},
+	"Toxic Shock": {
+		"itemType": "",
+		"itemColor": "green",
+		"itemTags": "warning symbol radioactive contagion"
+	},
+	"Tractor Beam": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "glow laser"
+	},
+	"Zodiac": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "cross symbol"
+	}
+}

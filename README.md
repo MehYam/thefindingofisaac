@@ -9,19 +9,22 @@ Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScr
 Written in pure javascript and HTML, no frameworks.  All game data lives in the linked JSON files, and was scraped from the wiki (see isaacWikiScrape.js for details).  The code has not been optimized at all, but is very simple and seems to run well enough on Chrome, Firefox, and IE.
 
 ### TO DO:
-- ~~Antibirth items~~
-	- ~~scrape the wiki~~
-	- ~~tag the items~~
-	- fix fixUpRelativeUrls to point to the correct wiki
-- ~~checkboxes to filter by DLC~~
-- ~~Afterbirth+ items~~
-
-- BUG: filters don't work the first time a page is ever opened (i.e. set the options to a new seed)
 - deal with duplicate item names
+- fix score column
+- dig deep on performance tuning
+	- diagnose bottleneck
+	- partial rendering?
+	- hiding rows + sorting as an alternative?
+- add Black Rune
+
 - refresh Antibirth and Afterbirth+ items as they get updated in the wiki
 - caching causes display of incorrect score
 - move *.json files to a subdir
 - score items better when terms match exactly
+
+- more functionality
+	- search by transformation
+	- room type, etc
 
 - still slow in FF on the production site?
 - return focus to text box after clicking link
@@ -33,6 +36,13 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 	- or have a check-box
 - add description to the sort options
 
+- ~~Antibirth items~~
+	- ~~scrape the wiki~~
+	- ~~tag the items~~
+	- fix fixUpRelativeUrls to point to the correct wiki
+- ~~checkboxes to filter by DLC~~
+- ~~Afterbirth+ items~~
+- ~~BUG: filters don't work the first time a page is ever opened (i.e. set the options to a new seed)~~
 - ~~performance tuning - cache tr's~~
 - ~~test and tweak tagging, (i.e. The Mind and other symbols inconsistent, add more descriptors and colors)~~
 - ~~test on mobile~~
@@ -48,7 +58,7 @@ Written in pure javascript and HTML, no frameworks.  All game data lives in the 
 - ~~2. hook up searching~~
 - ~~fully render results~~
 - ~~scored sort~~
-- ~~hand-tune supplemental data~~
+- ~~hand-tune Tags data~~
 - ~~hook up aliases~~
 - ~~test in FF and IE~~
 - ~~add help text below the search~~

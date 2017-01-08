@@ -1,0 +1,12 @@
+var cardsOtherTags = {
+	"Emergency Contact": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "mom"
+	},
+	"Dice Shard": {
+		"itemType": "dice",
+		"itemColor": "red",
+		"itemTags": "d6 d20 reroll"
+	}
+}

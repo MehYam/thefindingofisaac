@@ -1,3 +1,8 @@
+var g_data = 
+{
+	items: {},
+	aliases: {}
+};
 var DLC =
 {
 	BASE: "base",
@@ -7,24 +12,28 @@ var DLC =
 }
 function prepareData(data)
 {
-	assignDLC([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial], DLC.BASE);
-	assignDLC([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC.AFTERBIRTH);
-	assignDLC([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC.AFTERBIRTHPLUS);
-	assignDLC([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC.ANTIBIRTH);
+	var DLC_KEY = "dlc";
+	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_KEY, DLC.BASE);
+	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_KEY, DLC.AFTERBIRTH);
+	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_KEY, DLC.AFTERBIRTHPLUS);
+	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC_KEY, DLC.ANTIBIRTH);
+
+	var CLASS_KEY = "itemClass";
+	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets], CLASS_KEY, "trinket");
+	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles], CLASS_KEY, "activated");
+	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives], CLASS_KEY, "passive");
+	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial], CLASS_KEY, "card");
+	addProperty([runes1, runes2], CLASS_KEY, "rune");
 
 	mergeItems(data, 
-		[afterbirthTrinkets, afterbirthTrinketsSupplemental, rebirthTrinkets, rebirthTrinketsSupplemental, antibirthTrinkets, antibirthTrinketsSupplemental, afterbirthPlusTrinkets, afterbirthPlusTrinketsSupplemental], 
-		function(item) {  item.itemClass = "trinket"; });
+		[afterbirthTrinkets, afterbirthTrinketsTags, rebirthTrinkets, rebirthTrinketsTags, antibirthTrinkets, antibirthTrinketsTags, afterbirthPlusTrinkets, afterbirthPlusTrinketsTags]);
 	mergeItems(data, 
-		[afterbirthCollectibles, afterbirthCollectiblesSupplemental, rebirthCollectibles, rebirthCollectiblesSupplemental, antibirthCollectibles, antibirthCollectiblesSupplemental, afterbirthPlusCollectibles, afterbirthPlusCollectiblesSupplemental], 
-		function(item) {  item.itemClass = "activated"; });
+		[afterbirthCollectibles, afterbirthCollectiblesTags, rebirthCollectibles, rebirthCollectiblesTags, antibirthCollectibles, antibirthCollectiblesTags, afterbirthPlusCollectibles, afterbirthPlusCollectiblesTags]);
 	mergeItems(data, 
-		[afterbirthPassives, afterbirthPassivesSupplemental, rebirthPassives, rebirthPassivesSupplemental, antibirthPassives, antibirthPassivesSupplemental, afterbirthPlusPassives, afterbirthPlusPassivesSupplemental], 
-		function(item) {  item.itemClass = "passive"; });
+		[afterbirthPassives, afterbirthPassivesTags, rebirthPassives, rebirthPassivesTags, antibirthPassives, antibirthPassivesTags, afterbirthPlusPassives, afterbirthPlusPassivesTags]);
 	mergeItems(data, 
-		[cards, cardsSupplemental, cardsOther, cardsOtherSupplemental, cardsPlaying, cardsPlayingSupplemental, cardsSpecial, cardsSpecialSupplemental], 
-		function(item) { item.itemClass = "card"; });
-	mergeItems(data, [runes1, runes2, runes1Supplemental, runes2Supplemental], function(item) { item.itemClass = "rune"; })
+		[cards, cardsTags, cardsOther, cardsOtherTags, cardsPlaying, cardsPlayingTags, cardsSpecial, cardsSpecialTags]);
+	mergeItems(data, [runes1, runes2, runes1Tags, runes2Tags]);
 
 	fixUpRelativeURLs(data);
 
@@ -34,17 +43,18 @@ function prepareData(data)
 	explodeItemAliases(g_data, aliasLookup);
 }
 mergeItems.totalMerged = 0;
-function mergeItems(data, itemTableArray, override)
+function mergeItems(data, itemTableArray)
 {
+	// loop through the item lists, merging the scraped wiki items with their tags
 	itemTableArray.forEach(function(itemTable)
 	{
 		for (var key in itemTable)
 		{
 			var source = itemTable[key];
-			var keyLower = key.toLowerCase().trim();  // some whitespace snuck into names during scraping, thought I trimmed everything
+			var keyLower = key.toLowerCase().trim();  // the scraping should have cleaned the names, but some whitespace is sneaking through
 			var merged = data.items[keyLower] || {};
 
-			merged.properName = key;
+			merged.displayName = key;
 			merged.wikiPage = merged.wikiPage || source.wikiPage;
 			merged.thumbnail = merged.thumbnail || source.thumbnail;
 			merged.descriptionHTML = merged.descriptionHTML || source.descriptionHTML;
@@ -54,24 +64,20 @@ function mergeItems(data, itemTableArray, override)
 			merged.itemTags = merged.itemTags || source.itemTags;
 			merged.dlc = merged.dlc || source.dlc;
 
-			if (override)
-			{
-				override(merged);
-			}
 			data.items[keyLower] = merged;
 
 			++mergeItems.totalMerged;
 		}
 	});
 }
-function assignDLC(itemTableArray, dlcName)
+function addProperty(itemTableArray, propertyName, value)
 {
 	itemTableArray.forEach(function(itemTable)
 	{
 		for (var key in itemTable)
 		{
 			var item = itemTable[key];
-			item.dlc = dlcName;
+			item[propertyName] = value;
 		}
 	});
 }
@@ -240,7 +246,7 @@ function renderRow(hit)
 
 		cell.appendChild(anchor);
 	}
-	nameParent.appendChild(document.createTextNode(hit.item.properName));
+	nameParent.appendChild(document.createTextNode(hit.item.displayName));
 	row.appendChild(cell);
 
 	// image column
@@ -331,11 +337,6 @@ function doSearch(searchText)
 	var resultTable = document.getElementById('hitsTable');
 	resultsCount.textContent = resultTable ? resultTable.rows.length - 1 : 0;
 }
-var g_data = 
-{
-	items: {},
-	aliases: {}
-};
 var OPTIONS =
 {
 	HEADER: "thefindingofisaac.11.",
