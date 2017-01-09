@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.3.1</string>
         <key>fileName</key>
-        <string>C:/source/thefindingofisaac/tfoi.tps</string>
+        <string>C:/source/thefindingofisaac/spritesheet/testtp.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -34,9 +34,9 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>css</string>
+        <string>css_tfoi</string>
         <key>textureFileName</key>
-        <filename>tfoi.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -3309,7 +3309,27 @@
             <key>css::sprite-prefix</key>
             <struct type="ExporterProperty">
                 <key>value</key>
-                <string>I-</string>
+                <string>i-</string>
+            </struct>
+            <key>css_tfoi::media-query-2x</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>(-webkit-min-device-pixel-ratio: 1), (min-resolution: 192dpi)</string>
+            </struct>
+            <key>css_tfoi::sprite-prefix</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string></string>
+            </struct>
+            <key>plain::bool-property</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>false</string>
+            </struct>
+            <key>plain::string-property</key>
+            <struct type="ExporterProperty">
+                <key>value</key>
+                <string>hello world</string>
             </struct>
         </map>
     </struct>
