@@ -1,0 +1,92 @@
+var antibirthTrinketsTags = {
+	"Beth's Faith": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "shiny heart cross book"
+	},
+	"Blessed Penny": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "shiny sparkle"
+	},
+	"Brain Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "snake"
+	},
+	"Broken Padlock": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "hook metal"
+	},
+	"Broken Syringe": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "needle break glass spill blood splat"
+	},
+	"Chewed Pen": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "broken scythe"
+	},
+	"Devil's Crown": {
+		"itemType": "",
+		"itemColor": "dark red",
+		"itemTags": "crown horns tiara"
+	},
+	"Electric Penny": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "zap"
+	},
+	"Exploded Firecracker": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "crown paper broken ripped"
+	},
+	"Giant Bean": {
+		"itemType": "",
+		"itemColor": "beige yellow",
+		"itemTags": "kidney"
+	},
+	"Jawbreaker": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "round ball"
+	},
+	"Lighter": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": ""
+	},
+	"'M": {
+		"itemType": "",
+		"itemColor": "yellow red blue",
+		"itemTags": "glyph glitch broken"
+	},
+	"Myosotis": {
+		"itemType": "",
+		"itemColor": "blue yellow",
+		"itemTags": "flowers plant"
+	},
+	"Old Capacitor": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "cylinder component tech wire"
+	},
+	"Perfection": {
+		"itemType": "",
+		"itemColor": "white red",
+		"itemTags": "a+ report card letter page"
+	},
+	"Song of the Siren": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "letter page text scroll music glyph"
+	},
+	"Teardrop Charm": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "locket cord"
+	}
+};

@@ -1,0 +1,97 @@
+var afterbirthCollectiblesTags = {
+	"Box Of Friends": {
+		"itemType": "",
+		"itemColor": "gold",
+		"itemTags": "familiar metal"
+	},
+	"D12": {
+		"itemType": "dice",
+		"itemColor": "blue",
+		"itemTags": ""
+	},
+	"D7": {
+		"itemType": "dice",
+		"itemColor": "gray",
+		"itemTags": "metal"
+	},
+	"D8": {
+		"itemType": "dice",
+		"itemColor": "gray dark",
+		"itemTags": ""
+	},
+	"Diplopia": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "eye round dupe shakey"
+	},
+	"Friendly Ball": {
+		"itemType": "",
+		"itemColor": "white blue",
+		"itemTags": "ball metal capture pokemon"
+	},
+	"Glass Cannon": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "metal cylinder"
+	},
+	"Glowing Hour Glass": {
+		"itemType": "",
+		"itemColor": "blue glow",
+		"itemTags": "hourglass 8"
+	},
+	"Jar Of Flies": {
+		"itemType": "",
+		"itemColor": "glass",
+		"itemTags": "fly"
+	},
+	"Kidney Bean": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "gas"
+	},
+	"Mega Bean": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "gas"
+	},
+	"Mega Blast": {
+		"itemType": "",
+		"itemColor": "dark red",
+		"itemTags": "satan head"
+	},
+	"Mine Crafter": {
+		"itemType": "",
+		"itemColor": "red orange",
+		"itemTags": "bomb tnt box text"
+	},
+	"Mom's Box": {
+		"itemType": "",
+		"itemColor": "purple gray",
+		"itemTags": "metal box trinket"
+	},
+	"Placebo": {
+		"itemType": "",
+		"itemColor": "white gray",
+		"itemTags": "pill"
+	},
+	"Tear Detonator": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "bomb box handle"
+	},
+	"Teleport 2.0": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "tech"
+	},
+	"Ventricle Razor": {
+		"itemType": "",
+		"itemColor": "gray red",
+		"itemTags": "knife metal cut blood"
+	},
+	"Wooden Nickel": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "coin wood"
+	}
+}

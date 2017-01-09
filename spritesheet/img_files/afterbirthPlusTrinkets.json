@@ -1,0 +1,147 @@
+var afterbirthPlusTrinkets = {
+	"Bag Lunch": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bag_Lunch",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Bag_Lunch_Icon.png?version=2cf6523cc7f8ad87162d4e8f16d8845c",
+		"descriptionHTML": "Taking damage has a small chance to destroy the trinket and spawn <a href=\"/Lunch\" title=\"Lunch\">Lunch</a>."
+	},
+	"Bat Wing": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bat_Wing",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Bat_Wing_Icon.png?version=5d3bf79b205122385e6015484ea3311c",
+		"descriptionHTML": "Unknown"
+	},
+	"Black Tooth": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Tooth",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/60/Black_Tooth_Icon.png?version=018f2de1e7c12c9133ca599a03e91e0a",
+		"descriptionHTML": "Adds a chance to fire a black tooth that poisons enemies."
+	},
+	"Bloody Crown": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bloody_Crown",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Bloody_Crown_Icon.png?version=1a4670f9bfc0e8612a9ac571727c5cac",
+		"descriptionHTML": "<a href=\"/Treasure_Room\" title=\"Treasure Room\">Treasure Rooms</a> appear in <a href=\"/Chapters\" title=\"Chapters\">Chapter 4</a>."
+	},
+	"Crow Heart": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crow_Heart",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d8/Crow_Heart_Icon.png?version=3414ee32ce8472dbf4e7240873e38878",
+		"descriptionHTML": "Red heart damage will be taken before soul and black heart damage."
+	},
+	"Cracked Crown": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cracked_Crown",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1d/Cracked_Crown_Icon.png?version=c4ee6f6ddbf3ad06aad2c49e46facd5a",
+		"descriptionHTML": "Unknown"
+	},
+	"Dim Bulb": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dim_Bulb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Dim_Bulb_Icon.png?version=6c5d3e01fb61985daa4fdd943d583f55",
+		"descriptionHTML": "Provides a boost to all stats when Isaac's active item is completely uncharged."
+	},
+	"Duct Tape": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Duct_Tape",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a3/Duct_Tape_Icon.png?version=83cb0177ed22370f635d6e2ecbca9859",
+		"descriptionHTML": "Stops Isaac's <a href=\"/Familiar\" title=\"Familiar\">familiars</a> from moving."
+	},
+	"Equality!": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Equality!",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Equality%21_Icon.png?version=06bc47e45b69ed4b3ad6323d10df4811",
+		"descriptionHTML": "Adds a chance to turn pickups into their doubled version."
+	},
+	"Fish Tail": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fish_Tail",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Fish_Tail_Icon.png?version=e0134ec19c8dff327660ac01189851ac",
+		"descriptionHTML": "Unknown"
+	},
+	"Fragmented Card": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fragmented_Card",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/Fragmented_Card_Icon.png?version=3f28c9b65a9a19a441f64fe079f7fbde",
+		"descriptionHTML": "Makes two Secret Rooms spawn on each floor."
+	},
+	"Locust Of Conquest": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Conquest",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a4/Locust_Of_Conquest_Icon.png?version=04d1a208dbc1eb34b139b2a5162bbc6b",
+		"descriptionHTML": "Upon entering a room with enemies, spawns two white flies which damage enemies."
+	},
+	"Locust Of Death": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Death",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Locust_Of_Death_Icon.png?version=ddee679827d8693349ded2338eddc2fc",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a black attack fly that can instantly kill one enemy."
+	},
+	"Locust Of Famine": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Famine",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/Locust_Of_Famine_Icon.png?version=b0f1fb5b70968f30f4ce9e799a773f19",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a yellow fly that damages and slows enemies."
+	},
+	"Locust Of Pestilence": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Pestilence",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Locust_Of_Pestilence_Icon.png?version=d07f6ec9590ae50092d733c380e54676",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a green fly which damages and poisons enemies."
+	},
+	"Locust Of Wrath": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Wrath",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Locust_Of_Wrath_Icon.png?version=5bc282712195db69b2d95c12a9cc53cc",
+		"descriptionHTML": "Upon entering a room with enemies, spawns an orange fly which detonates upon impact with enemies."
+	},
+	"Lost Cork": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lost_Cork",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Lost_Cork_Icon.png?version=048321b427c717790da184c02bb69e16",
+		"descriptionHTML": "Increases the radius of any creep produced by Isaac."
+	},
+	"Meconium": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Meconium",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/Meconium_Icon.png?version=dfb5c346a30f82fe796f99140b0aecf9",
+		"descriptionHTML": "Poop has a chance to turn into black poop."
+	},
+	"Nose Goblin": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Nose_Goblin",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/50/Nose_Goblin_Icon.png?version=fca62c7adde3085b4ded52d80792f290",
+		"descriptionHTML": "Chance to fire a booger that sticks to enemies and deals damage over time."
+	},
+	"Ouroboros Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ouroboros_Worm",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1f/Ouroboros_Worm_Icon.png?version=8ccf5d7961147b04051ec879a1f9d3d3",
+		"descriptionHTML": "Tears travel in a large spiral pattern."
+	},
+	"Pay To Win": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pay_To_Win",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a6/Pay_To_Win_Icon.png?version=971b005824310e7312ed1396297ffb16",
+		"descriptionHTML": "<a href=\"/Restock_Box\" title=\"Restock Box\" class=\"mw-redirect\">Restock Boxes</a> always spawn in Item Rooms."
+	},
+	"Silver Dollar": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Silver_Dollar",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Silver_Dollar_Icon.png?version=771d77b5d590940ccbb8c21af9eb4fa7",
+		"descriptionHTML": "<a href=\"/Shop\" title=\"Shop\">Shops</a> appear in <a href=\"/Chapters\" title=\"Chapters\">Chapter 4</a>."
+	},
+	"Stem Cell": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stem_Cell",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Stem_Cell_Icon.png?version=9bf55d9ecc5e72279447baab886f7de7",
+		"descriptionHTML": "Unknown"
+	},
+	"Super Ball": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Super_Ball",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b2/Super_Ball_Icon.png?version=38fdacb34ea6656027c5ae978c0be91d",
+		"descriptionHTML": "Makes tears have a chance to bounce off enemies and obstacles."
+	},
+	"Tonsil": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tonsil",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Tonsil_Icon.png?version=5e371ebba816135a2c20acd7f45b0c76",
+		"descriptionHTML": "When hit, a there is a small chance a removed tonsil familiar starts following Isaac, blocking enemy shots."
+	},
+	"Used Diaper": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Used_Diaper",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/Used_Diaper_Icon.png?version=ec43af84f7bd364a7ef0ff4562cbae44",
+		"descriptionHTML": "Unknown"
+	},
+	"Vibrant Bulb": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Vibrant_Bulb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/04/Vibrant_Bulb_Icon.png?version=30020f8db939201161e3085149073747",
+		"descriptionHTML": "Provides a boost to all stats when Isaac's active item is fully charged."
+	},
+	"Walnut": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Walnut",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Walnut_Icon.png?version=0363f33ea7a67ecd1e8ed08155b63c55",
+		"descriptionHTML": "Taking damage has a small chance to destroy the trinket and spawn various <a href=\"/Pickups\" title=\"Pickups\">pickups</a>."
+	},
+	"Wish Bone": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wish_Bone",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4f/Wish_Bone_Icon.png?version=3dd0b203cd84568adf1f2de5fb5f9086",
+		"descriptionHTML": "Taking damage has a small chance to destroy the trinket and spawn a random <a href=\"/Item\" title=\"Item\">item</a>."
+	}
+};

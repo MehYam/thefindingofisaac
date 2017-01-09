@@ -1,0 +1,92 @@
+var antibirthTrinkets = {
+	"Beth's Faith": {
+		"wikiPage": "http://antibirth.gamepedia.com/Beth%27s_Faith",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/1/16/Beth%27s_Faith_Icon.png?version=a9e2b8f0d40529b2b4c8996beb46b837",
+		"descriptionHTML": "Spawns four <a href=\"/Book_Of_Virtues\" title=\"Book Of Virtues\">Book Of Virtues</a> orbitals around Isaac at the beginning of each floor."
+	},
+	"Blessed Penny": {
+		"wikiPage": "http://antibirth.gamepedia.com/Blessed_Penny",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/3/34/Blessed_Penny_Icon.png?version=05154ca390205a647653c7cd224e2062",
+		"descriptionHTML": "Chance to spawn half a soul heart when picking up a coin."
+	},
+	"Brain Worm": {
+		"wikiPage": "http://antibirth.gamepedia.com/Brain_Worm",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/2/21/Brain_Worm_Icon.png?version=384d4e2cff149e4df9c0e233533415d2",
+		"descriptionHTML": "Missed tears will redirect themselves and travel sideways towards enemies."
+	},
+	"Broken Padlock": {
+		"wikiPage": "http://antibirth.gamepedia.com/Broken_Padlock",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/b/b6/Broken_Padlock_Icon.png?version=f3e177f49aa43c8a7f313dc2808b9457",
+		"descriptionHTML": "Explosions can open locked doors and chests."
+	},
+	"Broken Syringe": {
+		"wikiPage": "http://antibirth.gamepedia.com/Broken_Syringe",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/19/Broken_Syringe_Icon.png/45px-Broken_Syringe_Icon.png?version=885ae2771fa4c80303bd37e3c675515c",
+		"descriptionHTML": "Grants random syringe item effects per room"
+	},
+	"Chewed Pen": {
+		"wikiPage": "http://antibirth.gamepedia.com/Chewed_Pen",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/f/f0/Chewed_Pen_Icon.png?version=a17ae57600425f3bcb436002c4e778d3",
+		"descriptionHTML": "Tears have a chance to slow enemies."
+	},
+	"Devil's Crown": {
+		"wikiPage": "http://antibirth.gamepedia.com/Devil%27s_Crown",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/0/0b/Devil%27s_Crown_Icon.png?version=31c1571a7e7d10ee212f656e67a3bc51",
+		"descriptionHTML": "Treasure Rooms are replaced with unique Red Treasure Rooms, offering a <a href=\"http://bindingofisaacrebirth.gamepedia.com/Devil_Room\" class=\"extiw\" title=\"boir:Devil Room\">Deal with the Devil</a> in place of an item."
+	},
+	"Electric Penny": {
+		"wikiPage": "http://antibirth.gamepedia.com/Electric_Penny",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/f/f8/Electric_Penny_Icon.png?version=64a700a621d4ae9dc4ab0f07fbeba316",
+		"descriptionHTML": "Has a chance to generate an active item charge on a coin pickup."
+	},
+	"Exploded Firecracker": {
+		"wikiPage": "http://antibirth.gamepedia.com/Exploded_Firecracker",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/1/13/Exploded_Firecracker_Icon.png?version=62aa70df0660180c58b058c90caa75b9",
+		"descriptionHTML": "Placed bombs explode almost instantly."
+	},
+	"Giant Bean": {
+		"wikiPage": "http://antibirth.gamepedia.com/Giant_Bean",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/7/72/Giant_Bean_Icon.png?version=87bf0763f78b17353ceb8e9592a7d59e",
+		"descriptionHTML": "Farts produced by Isaac or familiars will be twice as large."
+	},
+	"Jawbreaker": {
+		"wikiPage": "http://antibirth.gamepedia.com/Jawbreaker",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/9/9c/Jawbreaker_Icon.png?version=ed3558b540004b87e4dda3a5926a42a7",
+		"descriptionHTML": "Tears have a chance to become a tooth, dealing extra damage."
+	},
+	"Lighter": {
+		"wikiPage": "http://antibirth.gamepedia.com/Lighter",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/4/4f/Lighter_Icon.png?version=18e88c674ef562293f4a72f686ea0693",
+		"descriptionHTML": "Chance for enemies to burn when entering a room. Also makes enemies who expel gas clouds explode."
+	},
+	"'M": {
+		"wikiPage": "http://antibirth.gamepedia.com/%27M",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/5/55/%27M_Icon.png?version=1787d91b21db1c94b2bd5c2fa7d65e79",
+		"descriptionHTML": "Active items will be rerolled upon using."
+	},
+	"Myosotis": {
+		"wikiPage": "http://antibirth.gamepedia.com/Myosotis",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/a/a8/Myosotis_Icon.png?version=c3905cfed498b69b4f8c9da82930e25a",
+		"descriptionHTML": "Pickups left on current floor will appear in the starting room of the next floor."
+	},
+	"Old Capacitor": {
+		"wikiPage": "http://antibirth.gamepedia.com/Old_Capacitor",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/c/cf/Old_Capacitor_Icon.png?version=6c410aae8452d7fe800ae6acbf8a67ee",
+		"descriptionHTML": "Activated items don't charge, but <a href=\"http://bindingofisaacrebirth.gamepedia.com/Battery\" class=\"extiw\" title=\"boir:Battery\">batteries</a> drop more frequently. The battery drop chance is dependent on the held item's rate of recharge."
+	},
+	"Perfection": {
+		"wikiPage": "http://antibirth.gamepedia.com/Perfection",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/3/33/Perfection_Icon.png?version=7cec05de4321c24af8b98a754d79cd96",
+		"descriptionHTML": "+10 Luck while held, trinket is destroyed when damage is taken. Drops from a floor boss every four floors without taking damage."
+	},
+	"Song of the Siren": {
+		"wikiPage": "http://antibirth.gamepedia.com/Song_of_the_Siren",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/4/4d/Song_of_the_Siren_Icon.png/45px-Song_of_the_Siren_Icon.png?version=99744e5615bd4850f5828a36f7090ea9",
+		"descriptionHTML": "Improves rate of fire of familiars."
+	},
+	"Teardrop Charm": {
+		"wikiPage": "http://antibirth.gamepedia.com/Teardrop_Charm",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/b/be/Teardrop_Charm_Icon.png?version=6fa2b12065be70c2f100f614e512c82d",
+		"descriptionHTML": "Tear-based effects have an extra chance of occurring."
+	}
+};

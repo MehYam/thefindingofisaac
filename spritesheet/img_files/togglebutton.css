@@ -1,0 +1,37 @@
+.togglebutton {
+    display: inline-block;
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.togglebutton-checkbox {
+    display: none;
+}
+.togglebutton-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.togglebutton-label:hover {
+    border: 2px solid #cccccc
+}
+.togglebutton-label:active {
+    border: 2px solid #ffffff
+}
+.togglebutton-inner {
+    display: block; 
+    width: 100%;
+    height: 30px; 
+    padding: 0; 
+    float: left; 
+    box-sizing: border-box;
+    line-height: 30px;
+    font-size: 14px; 
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-weight: bold;
+    text-align: center;
+    text-decoration: line-through;
+    color: #999999; background-color: #EEEEEE;
+}
+.togglebutton-checkbox:checked + .togglebutton-label .togglebutton-inner {
+    text-decoration: none;
+    color: white; background-color: #142E59;
+}

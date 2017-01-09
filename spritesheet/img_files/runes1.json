@@ -1,0 +1,18 @@
+var runes1 = {
+	"Hagalaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Hagalaz_Icon.png?version=2f587276dcf4f28be30a3d9088c0f326",
+		"descriptionHTML": "<p style=\"text-align: left;\">Destroys all breakable objects in the room. Does not affect Key Blocks.</p>"
+	},
+	"Jera": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Jera_Icon.png?version=582f624f883cde40b317ef0bb9cd2ae9",
+		"descriptionHTML": "<p style=\"text-align: left;\">Clones all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in a room (even <a href=\"/Shop\" title=\"Shop\">shop</a> pickups; the clones can then be picked up for free). Cloned chests will contain exactly the same type of items: if the original contains a pickup, so will the clone; the same is true for <a href=\"/Item\" title=\"Item\">Collectibles</a>. Cannot clone other Jera runes and trinkets.</p>"
+	},
+	"Ehwaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/Ehwaz_Icon.png?version=330154715282e7c788238eb28a214a80",
+		"descriptionHTML": "<p style=\"text-align: left;\">Creates a trapdoor leading to the next floor. Has an estimated 1/12 (8%) chance to spawn a door to a <a href=\"/Crawl_Space\" title=\"Crawl Space\">Crawl Space</a> instead.</p>"
+	},
+	"Dagaz": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Dagaz_Icon.png?version=100fd265b6f7a699327b71722c4e4fb1",
+		"descriptionHTML": "<p style=\"text-align: left;\">Removes any <a href=\"/Curses\" title=\"Curses\">curses</a> from the current floor and grants a <a href=\"/Pickups#Soul_Hearts\" title=\"Pickups\">soul heart</a>. (This will not remove Curse of the Labyrinth.)</p>"
+	}
+}

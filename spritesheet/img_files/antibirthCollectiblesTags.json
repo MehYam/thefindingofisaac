@@ -1,0 +1,117 @@
+var antibirthCollectiblesTags = {
+	"Alabaster Box": {
+		"itemType": "",
+		"itemColor": "white gold",
+		"itemTags": "chest box"
+	},
+	"Black Mushroom": {
+		"itemType": "mushroom",
+		"itemColor": "dark",
+		"itemTags": "toadstool"
+	},
+	"Book Of Despair": {
+		"itemType": "book",
+		"itemColor": "red orange",
+		"itemTags": "drop"
+	},
+	"Book Of Virtues": {
+		"itemType": "book",
+		"itemColor": "blue white",
+		"itemTags": ""
+	},
+	"Bowl of Tears": {
+		"itemType": "",
+		"itemColor": "grey blue",
+		"itemTags": ""
+	},
+	"D12": {
+		"itemType": "dice",
+		"itemColor": "blue",
+		"itemTags": ""
+	},
+	"Damocles": {
+		"itemType": "",
+		"itemColor": "brown silver",
+		"itemTags": "sword sharp"
+	},
+	"Eraser": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "cube rubber block"
+	},
+	"Eternal D6": {
+		"itemType": "dice",
+		"itemColor": "white",
+		"itemTags": "cube"
+	},
+	"Fortune Cookie": {
+		"itemType": "",
+		"itemColor": "yellow brown",
+		"itemTags": "tag"
+	},
+	"Free Lemonade": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "glass jug pee drink"
+	},
+	"Magic Skin": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "corpse stretch hide leather"
+	},
+	"Meat Cleaver": {
+		"itemType": "",
+		"itemColor": "silver brown",
+		"itemTags": "metal blade sharp weapon"
+	},
+	"Mega Mush": {
+		"itemType": "mushroom",
+		"itemColor": "yellow brown",
+		"itemTags": "mario 1up"
+	},
+	"Mom's Bracelet": {
+		"itemType": "",
+		"itemColor": "gold yellow",
+		"itemTags": "metal clamp circle loop"
+	},
+	"R Key": {
+		"itemType": "",
+		"itemColor": "beige",
+		"itemTags": ""
+	},
+	"Red Key": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": ""
+	},
+	"The Scooper": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "metal ice cream"
+	},
+	"Sharp Key": {
+		"itemType": "",
+		"itemColor": "silver red",
+		"itemTags": "red blood sharp"
+	},
+	"Stitches": {
+		"itemType": "familiar",
+		"itemColor": "brown",
+		"itemTags": "baby dead doll voodoo"
+	},
+	"Sulfur": {
+		"itemType": "",
+		"itemColor": "red black",
+		"itemTags": "zodiac symbol glyph"
+	},
+	"Voodoo Pin": {
+		"itemType": "",
+		"itemColor": "black brown",
+		"itemTags": "turnip dart sharp"
+	},
+	"Yuck Heart": {
+		"itemType": "",
+		"itemColor": "red green",
+		"itemTags": "gross blood drip rotten"
+	}
+};

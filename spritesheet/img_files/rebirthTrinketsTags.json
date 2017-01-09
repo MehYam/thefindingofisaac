@@ -1,0 +1,302 @@
+var rebirthTrinketsTags = {
+	"???'s Soul": {
+		"itemType": "familiar",
+		"itemColor": "blue",
+		"itemTags": "baby"
+	},
+	"AAA Battery": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "aaa charge"
+	},
+	"Ace of Spades": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "card spades"
+	},
+	"Bible Tract": {
+		"itemType": "",
+		"itemColor": "black",
+		"itemTags": "book page eternal heart"
+	},
+	"Black Lipstick": {
+		"itemType": "mom",
+		"itemColor": "dark gray",
+		"itemTags": "makeup"
+	},
+	"Bloody Penny": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "coin wet blood"
+	},
+	"Broken Ankh": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "cross"
+	},
+	"Broken Magnet": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "piece broken"
+	},
+	"Broken Remote": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "tech box"
+	},
+	"Burnt Penny": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "coin bomb"
+	},
+	"Butt Penny": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "coin fart cylinder"
+	},
+	"Cain's Eye": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "round"
+	},
+	"Callus": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "ball meat creep spike lump"
+	},
+	"Cancer (Trinket)": {
+		"itemType": "",
+		"itemColor": "black",
+		"itemTags": "heart gross organ"
+	},
+	"Cartridge": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "gamekid nintendo game"
+	},
+	"Child's Heart": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "organ gross"
+	},
+	"Counterfeit Penny": {
+		"itemType": "",
+		"itemColor": "gold",
+		"itemTags": "coin shiny"
+	},
+	"Cursed Skull": {
+		"itemType": "",
+		"itemColor": "white gray",
+		"itemTags": "head bone dead"
+	},
+	"Curved Horn": {
+		"itemType": "",
+		"itemColor": "purple",
+		"itemTags": "spiral cork screw helix"
+	},
+	"Daemon's Tail": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "arrow crooked evil pointy"
+	},
+	"Eve's Bird Foot": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "dead claw leg bird"
+	},
+	"Fish Head": {
+		"itemType": "",
+		"itemColor": "green",
+		"itemTags": "dead bloody"
+	},
+	"Flat Penny": {
+		"itemType": "",
+		"itemColor": "silver",
+		"itemTags": "coin"
+	},
+	"Flat Worm": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "round head face"
+	},
+	"Goat Hoof": {
+		"itemType": "",
+		"itemColor": "dark gray pink",
+		"itemTags": "foot speed"
+	},
+	"Hook Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "worm snake"
+	},
+	"Isaac's Fork": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "metal"
+	},
+	"Isaac's Head": {
+		"itemType": "familiar",
+		"itemColor": "pink",
+		"itemTags": "dead face"
+	},
+	"Judas' Tongue": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "blood lick wet"
+	},
+	"The Left Hand": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "blood claw paw monkey ape"
+	},
+	"Liberty Cap": {
+		"itemType": "mushroom",
+		"itemColor": "gray",
+		"itemTags": ""
+	},
+	"Lucky Toe": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "thumb foot nail"
+	},
+	"Lucky Rock": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "stone coin"
+	},
+	"Maggy's Faith": {
+		"itemType": "",
+		"itemColor": "yello",
+		"itemTags": "cross shine glow magdalene"
+	},
+	"Match Stick": {
+		"itemType": "",
+		"itemColor": "yellow red",
+		"itemTags": "stick"
+	},
+	"A Missing Page": {
+		"itemType": "",
+		"itemColor": "red purple",
+		"itemTags": "page paper symbol"
+	},
+	"Missing Poster": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "page text photo face"
+	},
+	"Mom's Pearl": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "ball soul heart"
+	},
+	"Mom's Toenail": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "ears piece"
+	},
+	"Monkey Paw": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "hand claw"
+	},
+	"Mysterious Candy": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "chocolate wafer rectangle"
+	},
+	"Mysterious Paper": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "page blank"
+	},
+	"Petrified Poop": {
+		"itemType": "",
+		"itemColor": "gray silver",
+		"itemTags": "crap pile"
+	},
+	"Paper Clip": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "metal wire shard"
+	},
+	"Pinky Eye": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "round eye"
+	},
+	"Purple Heart": {
+		"itemType": "",
+		"itemColor": "purple",
+		"itemTags": "trophy label ribbon"
+	},
+	"Push Pin": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "thumb tack sharp"
+	},
+	"Pulse Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "snake worm bent"
+	},
+	"Red Patch": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "fabric cloth rectangle"
+	},
+	"Ring Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "swirl snake worm round"
+	},
+	"Rosary Bead": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "ball"
+	},
+	"Rusted Key": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "wood"
+	},
+	"Safety Cap": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "capsule cylinder pill"
+	},
+	"Samson's Lock": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "hair ponytail tail"
+	},
+	"Store Credit": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "dollar $"
+	},
+	"Swallowed Penny": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "wet coin cent"
+	},
+	"The Tick": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "bug"
+	},
+	"Umbilical Cord": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "organ blood wet guts entrails gross"
+	},
+	"Wiggle Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "snake worm"
+	},
+	"Whip Worm": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "snake worm straight point"
+	}
+}

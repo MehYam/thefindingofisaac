@@ -1,0 +1,302 @@
+var rebirthTrinkets = {
+	"???'s Soul": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blue_Baby%27s_Soul",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Blue_Baby%27s_Soul_Icon.png?version=d007683dfabad43a000aeac6df67e876",
+		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a pattern similar to <a href=\"/The_Peeper\" title=\"The Peeper\">The Peeper</a> and fires <a href=\"/Tears#Spectral_Tears\" title=\"Tears\" class=\"mw-redirect\">spectral</a> and <a href=\"/Tears#Homing_Tears\" title=\"Tears\" class=\"mw-redirect\">homing</a> tears."
+	},
+	"AAA Battery": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/AAA_Battery",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e1/AAA_Battery_Icon.png?version=f201543d313a72b5a47ce10f638236b5",
+		"descriptionHTML": "Automatically recharges the last energy slot of an <a href=\"/Item\" title=\"Item\">activated item</a>, effectively reducing recharge rates by one."
+	},
+	"Ace of Spades": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ace_of_Spades",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Ace_of_Spades_Icon.png?version=c0e9dfb698c954513ca6d883a57c54e9",
+		"descriptionHTML": "Increases the chance of <a href=\"/Cards\" title=\"Cards\" class=\"mw-redirect\">tarot cards or playing cards</a> dropping after clearing a room, and the chance of finding cards when opening a <a href=\"/Chest\" title=\"Chest\" class=\"mw-redirect\">chest</a>."
+	},
+	"Bible Tract": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bible_Tract",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Bible_Tract_Icon.png?version=47e8bed79dc55f4a26a929300b8f40a4",
+		"descriptionHTML": "Increases chance for <a href=\"/Pickups#Eternal_Heart\" title=\"Pickups\">Eternal Hearts</a> to spawn."
+	},
+	"Black Lipstick": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Lipstick",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/06/Black_Lipstick_Icon.png?version=0860e072bb8d5342d35ff3f7ca911ba0",
+		"descriptionHTML": "Increases the chance of <a href=\"/Black_Heart\" title=\"Black Heart\" class=\"mw-redirect\">Black Hearts</a> appearing."
+	},
+	"Bloody Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bloody_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/Bloody_Penny_Icon.png?version=0afb29f3b064fc2a6a71dfe8b431c3d5",
+		"descriptionHTML": "Gives a 50% chance to drop a <a href=\"/Pickups#Hearts\" title=\"Pickups\">half heart</a> when money is collected."
+	},
+	"Broken Ankh": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Broken_Ankh",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7f/Broken_Ankh_Icon.png?version=25ec0093a03911da8057d2a241a7f237",
+		"descriptionHTML": "When held, Isaac has a chance to be revived as <a href=\"/Characters#.3F.3F.3F\" title=\"Characters\" class=\"mw-redirect\">???</a>. Can occur multiple times in the same run."
+	},
+	"Broken Magnet": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Broken_Magnet",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Broken_Magnet_Icon.png?version=969d455f3b222f1c60f31d6d787a037c",
+		"descriptionHTML": "Pulls coins towards Isaac, but ignores other pickups."
+	},
+	"Broken Remote": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Broken_Remote",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/49/Broken_Remote_Icon.png?version=bdc7b3559a33afac339100d7431b976a",
+		"descriptionHTML": "Triggers the <a href=\"/Teleport\" title=\"Teleport\">Teleport</a> effect whenever an <a href=\"/Item\" title=\"Item\">activated item</a> is used."
+	},
+	"Burnt Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Burnt_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/79/Burnt_Penny_Icon.png?version=d0c71e8dce213324b98b2377f8112624",
+		"descriptionHTML": "Gives a 50% chance to drop a <a href=\"/Pickups#Bombs\" title=\"Pickups\">bomb</a> when <a href=\"/Pickups#Coins\" title=\"Pickups\">money</a> is collected."
+	},
+	"Butt Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Butt_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9e/Butt_Penny_Icon.png?version=29c5abf1b7ce64a8df4af8d038b87c29",
+		"descriptionHTML": "Isaac will fart when he picks up a coin."
+	},
+	"Cain's Eye": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cain%27s_Eye",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Cain%27s_Eye_Icon.png?version=aaea518e2b2c5f0dda79b66037379ece",
+		"descriptionHTML": "When starting a floor, 25% chance to get the <a href=\"/The_Compass\" title=\"The Compass\">The Compass</a> effect for the duration of a floor."
+	},
+	"Callus": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Callus",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/78/Callus_Icon.png?version=48b9c8ec76808d5f0752ed2fae445e55",
+		"descriptionHTML": "Prevents damage from <a href=\"/Creep\" title=\"Creep\">creep</a> and <a href=\"/Spikes\" title=\"Spikes\" class=\"mw-redirect\">spikes</a>."
+	},
+	"Cancer (Trinket)": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cancer_(Trinket)",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8c/Cancer_%28Trinket%29_Icon.png?version=30abd8bdb39973f16551eaef67146178",
+		"descriptionHTML": "-2 Tear Delay (effectively increases firerate of tears)"
+	},
+	"Cartridge": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cartridge",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e5/Cartridge_Icon.png?version=1f41a126e7040577a0a8a598b4ade805",
+		"descriptionHTML": "Chance to trigger <a href=\"/The_Gamekid\" title=\"The Gamekid\">The Gamekid</a> effect upon taking damage."
+	},
+	"Child's Heart": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Child%27s_Heart",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8d/Child%27s_Heart_Icon.png?version=f1b67f5ab1ca19bb368d6739bcd55af0",
+		"descriptionHTML": "Increases the chance of a Heart dropping after clearing a room, and the chance of finding a Heart when opening a Chest."
+	},
+	"Counterfeit Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Counterfeit_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/87/Counterfeit_Penny_Icon.png?version=0066ff9bdc3900a8196446ec48a5f2c2",
+		"descriptionHTML": "Gives a 50% chance of increasing the value of every coin pickup by one."
+	},
+	"Cursed Skull": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cursed_Skull",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e9/Cursed_Skull_Icon.png?version=5030071eda9c96dc98bff918eac7581a",
+		"descriptionHTML": "If Isaac has less than one full <a href=\"/Pickups#Red_Hearts\" title=\"Pickups\">red heart</a> after taking damage, he will be immediately teleported to the last cleared room he was in."
+	},
+	"Curved Horn": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Curved_Horn",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Curved_Horn_Icon.png?version=677c88831958ef22eaf102ef493eaf21",
+		"descriptionHTML": "Increases damage by 2."
+	},
+	"Daemon's Tail": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Daemon%27s_Tail",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Daemon%27s_Tail_Icon.png?version=0d1f3570981f19062d74102736fcac1b",
+		"descriptionHTML": "Grants a huge chance of any non-specific Heart drop turning into a <a href=\"/Pickups#Black_Hearts\" title=\"Pickups\">Black Heart</a>."
+	},
+	"Eve's Bird Foot": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Eve%27s_Bird_Foot",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8d/Eve%27s_Bird_Foot_Icon.png?version=f988f26b1cd06e143a8143dc47b8cd08",
+		"descriptionHTML": "5% chance to spawn a <a href=\"/Dead_Bird\" title=\"Dead Bird\">Dead Bird</a> familiar for the current room each time an enemy dies."
+	},
+	"Fish Head": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fish_Head",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/93/Fish_Head_Icon.png?version=3c2e3013761fa16095e95a4b39ebb147",
+		"descriptionHTML": "Spawns a <a href=\"/Familiars#Blue_Flies\" title=\"Familiars\" class=\"mw-redirect\">Blue Fly</a> every time Isaac takes damage."
+	},
+	"Flat Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Flat_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Flat_Penny_Icon.png?version=93cd293f8da9246d0712918ec8f12480",
+		"descriptionHTML": "Gives a 50% chance of spawning a <a href=\"/Pickups#Keys\" title=\"Pickups\">key</a> upon collecting a penny."
+	},
+	"Flat Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Flat_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Flat_Worm_Icon.png?version=64b633130ba5a7c459fa19ded75038d4",
+		"descriptionHTML": "Isaac's tears take on an oblong appearance. They also push enemies back."
+	},
+	"Goat Hoof": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Goat_Hoof",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/Goat_Hoof_Icon.png?version=7e4cf90081419c321155e5c5e39ef04d",
+		"descriptionHTML": "Increases speed by 0.15."
+	},
+	"Hook Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Hook_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Hook_Worm_Icon.png?version=fceb2022d028a5f473ce4dc4dfc82297",
+		"descriptionHTML": "Tears move shifting left to right forming a path of right angles. +10 to Range (effective range remains about the same)."
+	},
+	"Isaac's Fork": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Isaac%27s_Fork",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/86/Isaac%27s_Fork_Icon.png?version=852532fba42a01fa8ce84cdb3d7110e4",
+		"descriptionHTML": "A chance to heal Isaac for 1/2 a red heart upon clearing a room."
+	},
+	"Isaac's Head": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Isaac%27s_Head",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4e/Isaac%27s_Head_Icon.png?version=9178de75b5d0412899c12a09a685181c",
+		"descriptionHTML": "Gives the player Isaac's severed head as a tear-firing familiar. Fires piercing tears."
+	},
+	"Judas' Tongue": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Judas%27_Tongue",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/63/Judas%27_Tongue_Icon.png?version=d2dde924ddb39b37f02a2c11527859ba",
+		"descriptionHTML": "Items in the <a href=\"/Devil_Room\" title=\"Devil Room\">Devil Room</a> only cost 1 heart. Soul heart trades still cost 3 Soul hearts."
+	},
+	"The Left Hand": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Left_Hand",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/05/The_Left_Hand_Icon.png?version=08f6f13bad76a82e8ec98d96ce463a16",
+		"descriptionHTML": "Replaces <a href=\"/Chest#Brown_Chests\" title=\"Chest\" class=\"mw-redirect\">Brown Chests</a> and <a href=\"/Chest#Golden_Chests\" title=\"Chest\" class=\"mw-redirect\">Golden Chests</a> with <a href=\"/Chest#Red_Chests\" title=\"Chest\" class=\"mw-redirect\">Red Chests</a>."
+	},
+	"Liberty Cap": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Liberty_Cap",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7b/Liberty_Cap_Icon.png?version=7ba62e455a383b737331819826e23a12",
+		"descriptionHTML": "Grants a chance of triggering <a href=\"/Mini_Mush\" title=\"Mini Mush\">Mini Mush</a>, <a href=\"/Odd_Mushroom_(Large)\" title=\"Odd Mushroom (Large)\">Odd Mushroom (Large)</a>, <a href=\"/Odd_Mushroom_(Thin)\" title=\"Odd Mushroom (Thin)\">Odd Mushroom (Thin)</a> or <a href=\"/The_Compass\" title=\"The Compass\">The Compass</a> effects for the current room upon entering it."
+	},
+	"Lucky Toe": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lucky_Toe",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Lucky_Toe_Icon.png?version=249f72cef8ca780cb66ea6b87898da36",
+		"descriptionHTML": "Increases <a href=\"/Attributes#Luck\" title=\"Attributes\">Luck</a> by 1."
+	},
+	"Lucky Rock": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lucky_Rock",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Lucky_Rock_Icon.png?version=69f1c76a53485967916a062c7e511e9b",
+		"descriptionHTML": "Each <a href=\"/Obstacles#Destructible\" title=\"Obstacles\">obstacle</a> destroyed drops one <a href=\"/Pickups#Coins\" title=\"Pickups\">coin</a>."
+	},
+	"Maggy's Faith": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Maggy%27s_Faith",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/Maggy%27s_Faith_Icon.png?version=5ef2f9b1db938ac4400f5feb1b31fb7f",
+		"descriptionHTML": "Gives an eternal heart at the start of every floor."
+	},
+	"Match Stick": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Match_Stick",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Match_Stick_Icon.png?version=a11b2cc44c1edde0225249e6e95a9be9",
+		"descriptionHTML": "Increases the chance of Bombs dropping after clearing a room, and the chance of finding Bombs when opening a Chest."
+	},
+	"A Missing Page": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Missing_Page",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/A_Missing_Page_Icon.png?version=48fb088765338c9f00374c17b8bd83c0",
+		"descriptionHTML": "5% chance to induce <a href=\"/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a>'s effect upon taking damage."
+	},
+	"Missing Poster": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Missing_Poster",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6d/Missing_Poster_Icon.png?version=efb55448c7af7ee9ef048f38a3018106",
+		"descriptionHTML": "If Isaac dies in a Sacrifice Room, a puzzle piece will appear on his <a href=\"/Isaac%27s_last_will\" title=\"Isaac's last will\">last will</a> (<span title=\"Afterbirth-exclusive content\" style=\"cursor:help\"><img alt=\"DLC Indicator.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da\" width=\"26\" height=\"11\"></span> and unlocks <a href=\"/The_Lost\" title=\"The Lost\">The Lost</a>).<br>\n<span title=\"Afterbirth-exclusive content\" style=\"cursor:help\"><img alt=\"DLC Indicator.png\" src=\"http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=c030f02204cd70d4f8bf6dfc7495e9da\" width=\"26\" height=\"11\"></span> Revives Isaac as <a href=\"/The_Lost\" title=\"The Lost\">The Lost</a> if unlocked. The Missing Poster then disappears."
+	},
+	"Mom's Pearl": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Pearl",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Mom%27s_Pearl_Icon.png?version=ed7d2004dc8b3ee342f39c71231ff854",
+		"descriptionHTML": "Grants a secondary 10% chance of any non-specific Heart drop turning into a <a href=\"/Pickups#Soul_Hearts\" title=\"Pickups\">Soul Heart</a>."
+	},
+	"Mom's Toenail": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Toenail",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ac/Mom%27s_Toenail_Icon.png?version=042e093dbc2e8ada1fb44c4f78276ef0",
+		"descriptionHTML": "Mom's foot randomly stomps down somewhere in the room. 1 minute intervals."
+	},
+	"Monkey Paw": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Monkey_Paw",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Monkey_Paw_Icon.png?version=ce98b7afbc7afd593aa0fbc41b0357c1",
+		"descriptionHTML": "If the character has half a red heart or no red hearts after taking damage, it grants a <a href=\"/Black_Heart\" title=\"Black Heart\" class=\"mw-redirect\">Black Heart</a>. The effect can trigger up to three times, after which the trinket will disappear."
+	},
+	"Mysterious Candy": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mysterious_Candy",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d3/Mysterious_Candy_Icon.png?version=31356a7b68f1500c29011b8263725040",
+		"descriptionHTML": "Isaac farts or poops at random intervals. Getting hit can also trigger the effect."
+	},
+	"Mysterious Paper": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mysterious_Paper",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c2/Mysterious_Paper_Icon.png?version=9f331a14f855729cc4e80b3899a588a2",
+		"descriptionHTML": "Has a chance to replicate the effects of <a href=\"/A_Missing_Page\" title=\"A Missing Page\">A Missing Page</a>, <a href=\"/The_Polaroid\" title=\"The Polaroid\">The Polaroid</a>, <a href=\"/The_Negative\" title=\"The Negative\">The Negative</a>, or <a href=\"/Missing_Poster\" title=\"Missing Poster\">Missing Poster</a>."
+	},
+	"Petrified Poop": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Petrified_Poop",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a2/Petrified_Poop_Icon.png?version=9d6f04a001512ea28061fb0fcd467f68",
+		"descriptionHTML": "Greatly increases the chances of a pickup dropping when destroying poop."
+	},
+	"Paper Clip": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Paper_Clip",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Paper_Clip_Icon.png?version=5adf6479e1fe7f7c24835d677dd93467",
+		"descriptionHTML": "<a href=\"/Golden_Chests\" title=\"Golden Chests\" class=\"mw-redirect\">Golden Chests</a> can be opened without using a key."
+	},
+	"Pinky Eye": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pinky_Eye",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Pinky_Eye_Icon.png?version=92a999d6d12af4f46dd48bd488690930",
+		"descriptionHTML": "Adds a 10% chance to shoot a <a href=\"/Effects#Poison_Tears\" title=\"Effects\">poison tear</a>, dealing damage over time when inflicted."
+	},
+	"Purple Heart": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Purple_Heart",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f0/Purple_Heart_Icon.png?version=b182043c263fe56d99dde33092ac4b1a",
+		"descriptionHTML": "Increases chance for challenge rooms to be boss challenge rooms / Causes more enemy champions to spawn."
+	},
+	"Push Pin": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Push_Pin",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Push_Pin_Icon.png?version=5a5aecfe874d527dc50aefbfec5f0110",
+		"descriptionHTML": "Adds a 10% chance to shoot a <a href=\"/Tears#Piercing_Tears\" title=\"Tears\" class=\"mw-redirect\">piercing</a> and <a href=\"/Tears#Spectral_Tears\" title=\"Tears\" class=\"mw-redirect\">spectral</a> tear."
+	},
+	"Pulse Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pulse_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c7/Pulse_Worm_Icon.png?version=4cf262036759faf7b699f3ebfdc8bbf8",
+		"descriptionHTML": "Shots pulse in size."
+	},
+	"Red Patch": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Red_Patch",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Red_Patch_Icon.png?version=8e469c0ca7f8aa271e23eada23c01fd8",
+		"descriptionHTML": "Grants a chance of increasing damage by 1.8 for the current room upon taking damage."
+	},
+	"Ring Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ring_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fa/Ring_Worm_Icon.png?version=8d31e8f879e913b73b4781fa728a0a5c",
+		"descriptionHTML": "Gives Isaac spinning shots."
+	},
+	"Rosary Bead": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rosary_Bead",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Rosary_Bead_Icon.png?version=6fe8552de37b936a03799b0c1ec966c7",
+		"descriptionHTML": "\"Faith up\". Increases the chance of <a href=\"/Angel_Room\" title=\"Angel Room\">Angel Rooms</a> and <a href=\"/Eternal_Heart\" title=\"Eternal Heart\" class=\"mw-redirect\">Eternal Hearts</a> appearing."
+	},
+	"Rusted Key": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rusted_Key",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Rusted_Key_Icon.png?version=3c49dea4a4df7b8c5447686dd3f5ff94",
+		"descriptionHTML": "Improves the chances of finding <a href=\"/Pickups#Keys\" title=\"Pickups\">keys</a> and <a href=\"/Chest#Golden_Chests\" title=\"Chest\" class=\"mw-redirect\">golden chests</a>."
+	},
+	"Safety Cap": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Safety_Cap",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Safety_Cap_Icon.png?version=97406662d5da8b5d61a910f3d0cabb73",
+		"descriptionHTML": "Improves the chance of <a href=\"/Pills\" title=\"Pills\">Pills</a> dropping after clearing a room, and chance of finding a Pill when opening a Chest."
+	},
+	"Samson's Lock": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Samson%27s_Lock",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d9/Samson%27s_Lock_Icon.png?version=c226f3d9f4fdc2fc0fa1fec9895ac152",
+		"descriptionHTML": "1/15 chance to increase damage by 0.5 for the current room each time an enemy dies."
+	},
+	"Store Credit": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Store_Credit",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/Store_Credit_Icon.png?version=967064cb23890b71f154c7fb7d77a71d",
+		"descriptionHTML": "The next store purchase is free. The trinket disappears on purchase."
+	},
+	"Swallowed Penny": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Swallowed_Penny",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Swallowed_Penny_Icon.png?version=9081d63fd3ed166266b8694a6246342e",
+		"descriptionHTML": "Upon taking damage, Isaac drops a penny."
+	},
+	"The Tick": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Tick",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/31/The_Tick_Icon.png?version=7c237db9f7dc71c396886980865ca9db",
+		"descriptionHTML": "Drain 15% health of each enemy with more than\n60 HP (ie. most bosses). Also restores one red heart of Isaac whenever he enters an uncleared boss room. The Tick cannot be swapped out for another trinket."
+	},
+	"Umbilical Cord": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Umbilical_Cord",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3e/Umbilical_Cord_Icon.png?version=1328b08ced2db2c8c2954bff506a67e5",
+		"descriptionHTML": "When Isaac's health is brought to half a red heart and no soul hearts, a <a href=\"/Little_Steven\" title=\"Little Steven\">Little Steven</a> familiar spawns for the current room."
+	},
+	"Wiggle Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wiggle_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9e/Wiggle_Worm_Icon.png?version=7d16ffd755b22c34124c1c335feccbfd",
+		"descriptionHTML": "Gives Isaac's shots a wave-like trajectory."
+	},
+	"Whip Worm": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Whip_Worm",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9b/Whip_Worm_Icon.png?version=d9a7022642add5fd8c1a3337a8e32bc1",
+		"descriptionHTML": "Increases shot speed by 0.5, increasing effective range."
+	}
+}

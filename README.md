@@ -8,13 +8,16 @@ Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScr
 
 Written in pure javascript and HTML, no frameworks.  All game data lives in the linked JSON files, and was scraped from the wiki (see isaacWikiScrape.js for details).  The code has not been optimized at all, but is very simple and seems to run well enough on Chrome, Firefox, and IE.
 
+See isaacWikiScrape.js for instructions on how to update the data files.
+
+To improve performance and reduce memory and download overhead, the app uses a spritesheet for all the item icons.  ADD DETAILS HERE
+
 ### TO DO:
 - ~~deal with duplicate item names~~
 - ~~move *.json files to a data subdir~~
 - dig deep on performance tuning
-	- diagnose bottleneck
-	- partial rendering?
-	- hiding rows + sorting as an alternative?
+	- ~~diagnose bottleneck~~
+	- issue has to do with loading all those images.  Use a sprite sheet instead
 - caching causes display of incorrect score
 - add Black Rune
 

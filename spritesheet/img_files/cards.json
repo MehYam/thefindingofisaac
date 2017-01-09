@@ -1,0 +1,90 @@
+var cards = {
+	"0 - The Fool": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4f/0_-_The_Fool_Icon.png?version=8680b308ca887899fa5de66c2459ada0",
+		"descriptionHTML": "Teleports you back to the starting room of a floor."
+	},
+	"I - The Magician": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/01/I_-_The_Magician_Icon.png?version=fa4d51655fdd34ee91b0da195dc631fe",
+		"descriptionHTML": "Grants <a href=\"/Effects#Homing_Tears\" title=\"Effects\">homing tears</a> for the current room."
+	},
+	"II - The High Priestess": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ee/II_-_The_High_Priestess_Icon.png?version=1a7fa926ccff3724d815f0cbbcd157b3",
+		"descriptionHTML": "<a href=\"/Mom\" title=\"Mom\">Mom</a>'s dismembered leg is called down to deal 300 damage to anything it stomps. It will always stomp on the enemy with the most health. If used in an empty room or during the fight with Mom, it will stomp Isaac instead."
+	},
+	"III - The Empress": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dc/III_-_The_Empress_Icon.png?version=b29ae10149b6589e7aff606f7417bd94",
+		"descriptionHTML": "Triggers the <a href=\"/Whore_Of_Babylon\" title=\"Whore Of Babylon\">Whore Of Babylon</a> effect."
+	},
+	"IV - The Emperor": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/60/IV_-_The_Emperor_Icon.png?version=92880be1c69e2959efaa0a7ca2eb79d7",
+		"descriptionHTML": "Teleports you into the <a href=\"/Boss_Room\" title=\"Boss Room\">Boss Room</a> of a floor."
+	},
+	"V - The Hierophant": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4a/V_-_The_Hierophant_Icon.png?version=d94f249e2e6d35120e733c4cdcaf2526",
+		"descriptionHTML": "Spawns 2 <a href=\"/Soul_Hearts\" title=\"Soul Hearts\" class=\"mw-redirect\">Soul Hearts</a>."
+	},
+	"VI - The Lovers": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3a/VI_-_The_Lovers_Icon.png?version=74cc1a12c59e6a507fb59667bcd74580",
+		"descriptionHTML": "Drops 2 full red <a href=\"/Pickups#Hearts\" title=\"Pickups\">hearts</a>. If used in a <a href=\"/Black_Heart\" title=\"Black Heart\" class=\"mw-redirect\">Black Heart</a> or <a href=\"/Eternal_Heart\" title=\"Eternal Heart\" class=\"mw-redirect\">Eternal Heart</a>-containing <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>, it will spawn those types of hearts instead."
+	},
+	"VII - The Chariot": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/VII_-_The_Chariot_Icon.png?version=f79bc559cbdf87b858a04f030f577790",
+		"descriptionHTML": "Grants the temporary <a href=\"/Effects#Invulnerability\" title=\"Effects\">invulnerability</a> effect of <a href=\"/My_Little_Unicorn\" title=\"My Little Unicorn\">My Little Unicorn</a>."
+	},
+	"VIII - Justice": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/VIII_-_Justice_Icon.png?version=8f3f9e5b6d7aa762347f97ccf4d20d58",
+		"descriptionHTML": "Spawns one of each <a href=\"/Pickups\" title=\"Pickups\">consumable</a> drop (a <a href=\"/Pickups#Hearts\" title=\"Pickups\">heart</a>, a <a href=\"/Pickups#Keys\" title=\"Pickups\">key</a>, a <a href=\"/Pickups#Bombs\" title=\"Pickups\">bomb</a>, and a <a href=\"/Pickups#Coins\" title=\"Pickups\">coin</a>)."
+	},
+	"IX - The Hermit": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/IX_-_The_Hermit_Icon.png?version=34ac9e20d431b16cff452b1d935c57e8",
+		"descriptionHTML": "Teleports you to the <a href=\"/Shop\" title=\"Shop\">shop</a>. If there is no shop, this will act as a random teleport. If the shop has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance)."
+	},
+	"X - Wheel of Fortune": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b6/X_-_Wheel_of_Fortune_Icon.png?version=4be3fa0d6d3922fb5e17f3c1dcc127ce",
+		"descriptionHTML": "Spawns an arcade machine (<a href=\"/Slot_Machine\" title=\"Slot Machine\" class=\"mw-redirect\">Slot Machine</a> or <a href=\"/Fortune_Teller\" title=\"Fortune Teller\" class=\"mw-redirect\">Fortune Teller</a>)."
+	},
+	"XI - Strength": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/XI_-_Strength_Icon.png?version=1605e842bebc3dd40564403a66966d80",
+		"descriptionHTML": "Upon use, increases all of Isaac's <a href=\"/Attributes\" title=\"Attributes\">stats</a> except tears and adds one (temporary) <a href=\"/Attributes#Heart_Containers\" title=\"Attributes\">heart container</a> for the current room."
+	},
+	"XII - The Hanged Man": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/XII_-_The_Hanged_Man_Icon.png?version=963eaab5bd4619c2009a6f8ef842b64a",
+		"descriptionHTML": "Removes Isaac's body, allowing him to fly around similar to <a href=\"/Transcendence\" title=\"Transcendence\">Transcendence</a>."
+	},
+	"XIII - Death": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/XIII_-_Death_Icon.png?version=cf5c6e470d80fd829e45a2111b3b218a",
+		"descriptionHTML": "Deals 40 damage to all enemies in the room."
+	},
+	"XIV - Temperance": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/76/XIV_-_Temperance_Icon.png?version=cccc525a2bcbe4b608cd0adfdb5ab4b2",
+		"descriptionHTML": "Spawns a <a href=\"/Blood_Donation_Machine\" title=\"Blood Donation Machine\" class=\"mw-redirect\">Blood Donation Machine</a>."
+	},
+	"XV - The Devil": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/XV_-_The_Devil_Icon.png?version=7f2d5b14b2e9a1daaa02a4df307c17e0",
+		"descriptionHTML": "Increases your damage by 2 until you leave the room (same effect as the <a href=\"/The_Book_Of_Belial\" title=\"The Book Of Belial\">Book of Belial</a>)."
+	},
+	"XVI - The Tower": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ca/XVI_-_The_Tower_Icon.png?version=e71402c25e048c004e23564e4f837af8",
+		"descriptionHTML": "Spawns 6 <a href=\"/Troll_bomb\" title=\"Troll bomb\" class=\"mw-redirect\">troll bombs</a> randomly around the room."
+	},
+	"XVII - The Stars": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/XVII_-_The_Stars_Icon.png?version=4dd95b026db0a1113fa8f2a40d61408b",
+		"descriptionHTML": "Teleports the player to the <a href=\"/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. If there is no Treasure Room, this will act as a random teleport. Randomly chooses a Treasure Room on <a href=\"/Curses\" title=\"Curses\">Curse of the Labyrinth</a>. If the Treasure Room has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance)."
+	},
+	"XVIII - The Moon": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9e/XVIII_-_The_Moon_Icon.png?version=f7502e27c7effb5c6ed4dd3d6880fcc2",
+		"descriptionHTML": "Teleports the player to the <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Room</a>. This card will open one random wall once inside the Secret Room, so you can leave even if you don't have any bombs available."
+	},
+	"XIX - The Sun": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/28/XIX_-_The_Sun_Icon.png?version=749a95003ba2b31276027f89cf9db6ea",
+		"descriptionHTML": "Restores full health, deals 100 damage to all enemies in the room, and reveals the map for the current floor, except the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>."
+	},
+	"XX - Judgement": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/93/XX_-_Judgement_Icon.png?version=6d7df92c62a9b409120a48766f8d9f8e",
+		"descriptionHTML": "Spawns a <a href=\"/Beggar\" title=\"Beggar\">Beggar</a>."
+	},
+	"XXI - The World": {
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3f/XXI_-_The_World_Icon.png?version=30c6d0cfdc1e3afbc59c11d1b613927d",
+		"descriptionHTML": "Reveals the entire floor, except for the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>. Has no effect if under the effect of <a href=\"/Curses\" title=\"Curses\">Curse of the Lost</a> or <a href=\"/Pills#Pill_Effects\" title=\"Pills\">Amnesia</a>."
+	}
+}

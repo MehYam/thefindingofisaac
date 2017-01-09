@@ -1,0 +1,322 @@
+var antibirthPassivesTags = {
+	"120 Volt": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "wires outlet electric plug"
+	},
+	"2Spooky": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "face fear scare horror"
+	},
+	"A Bar Of Soap": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "block cube"
+	},
+	"Act Of Contrition": {
+		"itemType": "",
+		"itemColor": "beige brown",
+		"itemTags": "cross paper sheet post"
+	},
+	"Akeldama": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "drip gross guts rope blood"
+	},
+	"Almond Milk": {
+		"itemType": "",
+		"itemColor": "white blue",
+		"itemTags": "carton drink"
+	},
+	"Battery Pack": {
+		"itemType": "",
+		"itemColor": "black gold brown",
+		"itemTags": "shiny device cord plug"
+	},
+	"Bird Cage": {
+		"itemType": "familiar",
+		"itemColor": "grey",
+		"itemTags": "round dead stitches fly"
+	},
+	"Bird's Eye": {
+		"itemType": "",
+		"itemColor": "red green",
+		"itemTags": "face hot chili pepper"
+	},
+	"Birthright": {
+		"itemType": "",
+		"itemColor": "beige",
+		"itemTags": "text scroll page"
+	},
+	"Blood Bombs": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "iv blood drip bag round"
+	},
+	"Blood Oath": {
+		"itemType": "",
+		"itemColor": "silver",
+		"itemTags": "blood drip metal sharp cross"
+	},
+	"Boiled Baby": {
+		"itemType": "familiar",
+		"itemColor": "red",
+		"itemTags": "dead baby tomato"
+	},
+	"Booster Pack": {
+		"itemType": "",
+		"itemColor": "brown silver",
+		"itemTags": "stick gum label wrapper cards"
+	},
+	"Bot Fly": {
+		"itemType": "",
+		"itemColor": "silver",
+		"itemTags": "fly robot tech"
+	},
+	"Consolation Prize": {
+		"itemType": "",
+		"itemColor": "brown red",
+		"itemTags": "ribbon round"
+	},
+	"Dirty Mind": {
+		"itemType": "",
+		"itemColor": "red brown",
+		"itemTags": "heart poo face"
+	},
+	"Donkey Jawbone": {
+		"itemType": "",
+		"itemColor": "brown red",
+		"itemTags": "stick bone teeth"
+	},
+	"Enigma Bombs": {
+		"itemType": "",
+		"itemColor": "pink yellow",
+		"itemTags": "face smile bomb"
+	},
+	"Evil Charm": {
+		"itemType": "",
+		"itemColor": "blue white",
+		"itemTags": "eye locket"
+	},
+	"Eye Drops": {
+		"itemType": "",
+		"itemColor": "white glass",
+		"itemTags": "dropper jar bottle"
+	},
+	"Eye Of The Occult": {
+		"itemType": "",
+		"itemColor": "red black",
+		"itemTags": "spooky symbol"
+	},
+	"Eye Sore": {
+		"itemType": "",
+		"itemColor": "red pink",
+		"itemTags": "boob gross bubble round eye"
+	},
+	"Freezer Baby": {
+		"itemType": "familiar",
+		"itemColor": "white silver",
+		"itemTags": "ghost dead baby"
+	},
+	"Immaculate Heart": {
+		"itemType": "",
+		"itemColor": "red orange",
+		"itemTags": "sword heart"
+	},
+	"The Intruder": {
+		"itemType": "",
+		"itemColor": "black grey",
+		"itemTags": "red face spider"
+	},
+	"It Hurts": {
+		"itemType": "",
+		"itemColor": "silver red",
+		"itemTags": "sharp needle stitch thread"
+	},
+	"Jacob's Ladder": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "rungs bars"
+	},
+	"Knife Piece 1": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "handle wood goggles"
+	},
+	"Knife Piece 2": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "metal blade"
+	},
+	"Knife Piece 3": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "metal blade"
+	},
+	"Knockout Drops": {
+		"itemType": "",
+		"itemColor": "grey red yellow",
+		"itemTags": "bottle label"
+	},
+	"Lil' Dumpy": {
+		"itemType": "",
+		"itemColor": "pink",
+		"itemTags": "boob face round flesh"
+	},
+	"Lodestone": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "metal chunk shard"
+	},
+	"Lost Soul": {
+		"itemType": "familiar",
+		"itemColor": "white",
+		"itemTags": "ghost baby face frown"
+	},
+	"Luna": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "glyph crescent moon"
+	},
+	"Mars": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "round arrow male man glyph"
+	},
+	"Member Card": {
+		"itemType": "",
+		"itemColor": "gold",
+		"itemTags": "square cube chunk paper ticket card"
+	},
+	"Menorah": {
+		"itemType": "",
+		"itemColor": "gold",
+		"itemTags": "candle holder candelabra furnish"
+	},
+	"Mercurius": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "round glyph woman female horns cross"
+	},
+	"Monstrance": {
+		"itemType": "",
+		"itemColor": "gold",
+		"itemTags": "metal fan round"
+	},
+	"Mucormycosis": {
+		"itemType": "",
+		"itemColor": "blue purple",
+		"itemTags": "organ rotten dead"
+	},
+	"Oculus Rift": {
+		"itemType": "",
+		"itemColor": "red yellow",
+		"itemTags": "symbol eye bright"
+	},
+	"Orphan Socks": {
+		"itemType": "",
+		"itemColor": "blue grey",
+		"itemTags": ""
+	},
+	"Paschal Candle": {
+		"itemType": "",
+		"itemColor": "yellow red",
+		"itemTags": "cross light flame"
+	},
+	"Playdoh Cookie": {
+		"itemType": "",
+		"itemColor": "grey red green purple",
+		"itemTags": "gross lump"
+	},
+	"Pluto": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "cross symbol"
+	},
+	"Psy Fly": {
+		"itemType": "familiar",
+		"itemColor": "purple",
+		"itemTags": "fly"
+	},
+	"Red Stew": {
+		"itemType": "",
+		"itemColor": "grey red",
+		"itemTags": "bowl food plate dish"
+	},
+	"Revelation": {
+		"itemType": "",
+		"itemColor": "blue yellow gray purple",
+		"itemTags": "wings splat flight"
+	},
+	"Rock Bottom": {
+		"itemType": "",
+		"itemColor": "grey",
+		"itemTags": "rock face cry tears"
+	},
+	"Rocket In A Jar": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "glass jar boom"
+	},
+	"Rotten Tomato": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "dead face fly tomato"
+	},
+	"Saturnus": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "cross glyph"
+	},
+	"Sausage": {
+		"itemType": "",
+		"itemColor": "pink red",
+		"itemTags": "gross grub finger penis dick"
+	},
+	"Schoolbag": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "bag leather backpack pack"
+	},
+	"Sol": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "round glyph bullseye"
+	},
+	"Spirit Sword": {
+		"itemType": "",
+		"itemColor": "silver brown",
+		"itemTags": "sword weapon sharp"
+	},
+	"Stone Bombs": {
+		"itemType": "",
+		"itemColor": "grey",
+		"itemTags": "boom rock"
+	},
+	"Terra": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "circle cross glyph"
+	},
+	"Tinytoma": {
+		"itemType": "",
+		"itemColor": "dark",
+		"itemTags": "dead organ gross rotten"
+	},
+	"Uranus": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "glyph wings"
+	},
+	"Venus": {
+		"itemType": "zodiac",
+		"itemColor": "blue black",
+		"itemTags": "circle cross woman female glyph"
+	},
+	"Voodoo Head": {
+		"itemType": "",
+		"itemColor": "gray red",
+		"itemTags": "dead face pins"
+	}
+};

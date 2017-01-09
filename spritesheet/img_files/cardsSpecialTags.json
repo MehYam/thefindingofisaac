@@ -1,0 +1,44 @@
+var cardsSpecialTags = {
+	"Suicide King": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Chaos Card": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Credit Card": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": ""
+	},
+	"Rules Card": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "message"
+	},
+	"A Card Against Humanity": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "black",
+		"itemTags": "poop"
+	},
+	"? Card ": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": ""
+	},
+	"Get Out Of Jail Free Card ": {
+		"itemClass": "",
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": ""
+	}
+}
