@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.3.1</string>
         <key>fileName</key>
-        <string>C:/source/thefindingofisaac/spritesheet/testtp.tps</string>
+        <string>C:/source/thefindingofisaac/spritesheet/tfoi.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -1062,6 +1062,7 @@
                 <false/>
             </struct>
             <key type="filename">img_files/Ace_of_Spades_Icon.png</key>
+            <key type="filename">img_files/Black_Rune_Icon.png</key>
             <key type="filename">img_files/Cambion_Conception_Icon.png</key>
             <key type="filename">img_files/Ghost_Baby_Icon.png</key>
             <key type="filename">img_files/Guppy's_Paw_Icon.png</key>
