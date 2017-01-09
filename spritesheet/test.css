@@ -1,0 +1,15 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.D12_Antibirth_Icon::after {content: ' ';display: inline-block; width:40px; height:40px; background-position: 4.762% 5%;background-size: 152.5% 150%;background-image: url(test.png);}
+.MEAT\!_Icon::after {content: ' ';display: inline-block; width:18px; height:26px; background-position: 97.674% 2.941%;background-size: 338.889% 230.769%;background-image: url(test.png);}
+.\30 _-_The_Fool_Icon::after {content: ' ';display: inline-block; width:14px; height:18px; background-position: 89.362% 66.667%;background-size: 435.714% 333.333%;background-image: url(test.png);}
+.\32 0_20_Icon::after {content: ' ';display: inline-block; width:21px; height:17px; background-position: 2.5% 97.674%;background-size: 290.476% 352.941%;background-image: url(test.png);}
+
+/* $TexturePacker:SmartUpdate:47517175debb25b9672bfb9cdef242b9:b73ea79f16e0a260b1373fb4b92d2920:1a4beba4193919b01a56dc2c2a237cfe$ */

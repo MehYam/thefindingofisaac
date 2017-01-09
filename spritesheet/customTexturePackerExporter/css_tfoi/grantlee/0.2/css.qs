@@ -105,6 +105,10 @@
 
 }));
 
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
 var ExportData = function(root)
 {
     var sprites = "";
@@ -177,11 +181,11 @@ var spriteLines = function(variant, subPath, indent, spritePrefix)
          + "max-height:"+sprite.frameRect.height+"px; "
          + "}";
 
-        var x = 100*(sprite.frameRect.x)/(texture.size.width-sprite.frameRect.width);
-        var y = 100*(sprite.frameRect.y)/(texture.size.height-sprite.frameRect.height);
-        var ratio = 100*sprite.frameRect.height/sprite.frameRect.width;
-        var width = 100*texture.size.width/sprite.frameRect.width;
-        var height = 100*texture.size.height/sprite.frameRect.height;
+        var x = round(100*(sprite.frameRect.x)/(texture.size.width-sprite.frameRect.width), 3);
+        var y = round(100*(sprite.frameRect.y)/(texture.size.height-sprite.frameRect.height), 3);
+        var ratio = round(100*sprite.frameRect.height/sprite.frameRect.width, 3);
+        var width = round(100*texture.size.width/sprite.frameRect.width, 3);
+        var height = round(100*texture.size.height/sprite.frameRect.height, 3);
 
        var line2 = cssClassName + "::after {"
             + "content: ' ';"
@@ -202,15 +206,34 @@ var spriteLines = function(variant, subPath, indent, spritePrefix)
             + "}"
 
         // this is where I override the built-in CSS output - I'll use only line2, since that's all I need, and 
-        // frame by pixels instead of percentage of width/height:
+        // frame by pixels instead of percentage of width/height.
+        //
+        // EDIT - this works great when outputting to IMG tags, but it makes scaling the images hard.  Instead
+        // we'll use the trick below
         var myCustomLine = cssClassName + " {"
             + "width:"+sprite.frameRect.width+"px; "
             + "height:"+sprite.frameRect.height+"px; "
             + "background: url("+imageName+") -"+sprite.frameRect.x+"px -"+sprite.frameRect.y+"px;"
             + "}";
 
+        //lines.push(myCustomLine);
         //lines.push(line1+"\n"+line2+"\n"+line3);
-        lines.push(myCustomLine);
+
+        // scale the image while maintaining the aspect ratio.  HTML5 is clearly not ready yet for spritesheets,
+        // this is a pain
+        var TARGET_HEIGHT = 35;
+        var toScale = 
+        var myCustomLine2 = cssClassName + "::after {"
+            + "content: ' ';"
+            + "display: inline-block; "
+            + "width:"+sprite.frameRect.width+"px; "
+            + "height:"+sprite.frameRect.height+"px; "
+            + "background-position: "+x+"% "+y+"%;"
+            + "background-size: "+width+"% "+height+"%;"
+            + "background-image: url("+imageName+");"
+            + "}";
+
+        lines.push(myCustomLine2);
     }
 
     lines.sort();

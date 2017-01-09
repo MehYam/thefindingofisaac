@@ -18,14 +18,13 @@ To improve performance and reduce memory and download overhead, the app uses a s
 - dig deep on performance tuning
 	- ~~diagnose bottleneck~~
 	- issue has to do with loading all those images.  Use a sprite sheet instead
-		- got TexturePacker working
-			- need to escape CSS names, use https://github.com/mathiasbynens/CSS.escape
-				- in css.qs
-				- in main .js
-		- need to parse filename out of thumbnail
-			- map that to css rule
-			- maybe look up to see if css rule exists, spit out error if it doesn't, and gracefully show the thumbnail in case image doesn't exist
-		- allow easy toggling between spritesheet & non-spritesheet mode
+		- ~~got TexturePacker working~~
+			- ~~need to escape CSS names, use https://github.com/mathiasbynens/CSS.escape~~
+				- ~~in css.qs~~
+				- escaped names still not working 
+		- ~~need to parse filename out of thumbnail~~
+		- need to normalize image sizes back to 35px
+			- this is getting messy.  Backing out for now and using a scheme where we URI-encode all the images instead.  This will work across more browsers, and be easier to maintain
 
 - more organization
 	- mv isaacWikiScrape.js itemdata\_isaacWikiScrape.js
