@@ -18,6 +18,18 @@ To improve performance and reduce memory and download overhead, the app uses a s
 - dig deep on performance tuning
 	- ~~diagnose bottleneck~~
 	- issue has to do with loading all those images.  Use a sprite sheet instead
+		- got TexturePacker working
+			- need to escape CSS names, use https://github.com/mathiasbynens/CSS.escape
+				- in css.qs
+				- in main .js
+		- need to parse filename out of thumbnail
+			- map that to css rule
+			- maybe look up to see if css rule exists, spit out error if it doesn't, and gracefully show the thumbnail in case image doesn't exist
+		- allow easy toggling between spritesheet & non-spritesheet mode
+
+- more organization
+	- mv isaacWikiScrape.js itemdata\_isaacWikiScrape.js
+	- mv anything test related to a test directory?
 - caching causes display of incorrect score
 - add Black Rune
 
