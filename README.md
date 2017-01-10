@@ -15,7 +15,7 @@ To improve performance and reduce memory and download overhead, the app uses a s
 ### TO DO:
 - ~~deal with duplicate item names~~
 - ~~move *.json files to a data subdir~~
-- dig deep on performance tuning
+- ~~dig deep on performance tuning~~
 	- ~~diagnose bottleneck~~
 	- issue has to do with loading all those images.  Use a sprite sheet instead
 		- ~~got TexturePacker working~~
@@ -23,8 +23,7 @@ To improve performance and reduce memory and download overhead, the app uses a s
 				- ~~in css.qs~~
 				- escaped names still not working 
 		- ~~need to parse filename out of thumbnail~~
-		- need to normalize image sizes back to 35px
-			- this is getting messy.  Backing out for now and using a scheme where we URI-encode all the images instead.  This will work across more browsers, and be easier to maintain
+		- ~~STOPPING - scaling images is surprisingly messy, and name escaping has broken.  Backing out for now and using a scheme where we URI-encode all the images instead.  This will work across more browsers, and be easier to maintain long-term.  Will make a browser script like isaacWikiScrape.js to generate the base64~~
 
 - more organization
 	- mv isaacWikiScrape.js itemdata\_isaacWikiScrape.js

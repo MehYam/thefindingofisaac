@@ -273,7 +273,7 @@ function renderRow(hit)
 	cell.className = "itemIconCell";
 
 	var img = document.createElement('img');
-	img.src = hit.item.thumbnail;
+	img.src = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
 	img.className = "itemIcon";
 
 	cell.appendChild(img);
