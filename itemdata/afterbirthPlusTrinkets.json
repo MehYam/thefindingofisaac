@@ -47,7 +47,7 @@ var afterbirthPlusTrinkets = {
 	"Fish Tail": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fish_Tail",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Fish_Tail_Icon.png?version=e0134ec19c8dff327660ac01189851ac",
-		"descriptionHTML": "Unknown"
+		"descriptionHTML": "Upon killing an enemy, chance to spawn a <a href=\"/Blue_Flies\" title=\"Blue Flies\" class=\"mw-redirect\">blue fly</a> that poisons enemies."
 	},
 	"Fragmented Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fragmented_Card",
@@ -57,27 +57,27 @@ var afterbirthPlusTrinkets = {
 	"Locust Of Conquest": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Conquest",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a4/Locust_Of_Conquest_Icon.png?version=04d1a208dbc1eb34b139b2a5162bbc6b",
-		"descriptionHTML": "Upon entering a room with enemies, spawns two white flies which damage enemies."
+		"descriptionHTML": "Upon entering a room with enemies, spawns 2-5 <a href=\"/Familiar#White_Flies\" title=\"Familiar\">White Flies</a> which damage enemies."
 	},
 	"Locust Of Death": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Death",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Locust_Of_Death_Icon.png?version=ddee679827d8693349ded2338eddc2fc",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a black attack fly that can instantly kill one enemy."
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Black_Flies\" title=\"Familiar\">Black Fly (Familiar)</a> that can instantly kill one enemy."
 	},
 	"Locust Of Famine": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Famine",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/Locust_Of_Famine_Icon.png?version=b0f1fb5b70968f30f4ce9e799a773f19",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a yellow fly that damages and slows enemies."
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Yellow_Flies\" title=\"Familiar\">Yellow Fly</a> that damages and slows enemies."
 	},
 	"Locust Of Pestilence": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Pestilence",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Locust_Of_Pestilence_Icon.png?version=d07f6ec9590ae50092d733c380e54676",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a green fly which damages and poisons enemies."
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Green_Flies\" title=\"Familiar\">Green Fly</a> which damages and poisons enemies."
 	},
 	"Locust Of Wrath": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Wrath",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Locust_Of_Wrath_Icon.png?version=5bc282712195db69b2d95c12a9cc53cc",
-		"descriptionHTML": "Upon entering a room with enemies, spawns an orange fly which detonates upon impact with enemies."
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Red_Flies\" title=\"Familiar\">Red Fly</a> which detonates upon impact with enemies."
 	},
 	"Lost Cork": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lost_Cork",
