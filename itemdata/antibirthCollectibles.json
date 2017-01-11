@@ -32,7 +32,7 @@ var antibirthCollectibles = {
 	"Damocles": {
 		"wikiPage": "http://antibirth.gamepedia.com/Damocles",
 		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/1/1b/Damocles_Icon.png/17px-Damocles_Icon.png?version=455da3c2b25d1b8b1a560e4eb621c185",
-		"descriptionHTML": "Spawns a sword above Isaac's head. After a period of time, it will instantly kill him. While he is alive, he receives bonus items from bosses and treasure rooms."
+		"descriptionHTML": "Spawns a sword above Isaac's head. After taking damage at least once, the sword can fall at any time, instantly killing him. While he is alive, he receives bonus items from all sources."
 	},
 	"Eraser": {
 		"wikiPage": "http://antibirth.gamepedia.com/Eraser",

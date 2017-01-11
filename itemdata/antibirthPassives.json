@@ -222,7 +222,7 @@ var antibirthPassives = {
 	"Paschal Candle": {
 		"wikiPage": "http://antibirth.gamepedia.com/Paschal_Candle",
 		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/thumb/0/0b/Paschal_Candle_Icon.png/22px-Paschal_Candle_Icon.png?version=5f7b22267ad5866af81543a8bf964236",
-		"descriptionHTML": "Increases stats for each room completed without taking damage. Resets on taking damage."
+		"descriptionHTML": "Increases tears for each room completed without taking damage. Resets on taking damage."
 	},
 	"Playdoh Cookie": {
 		"wikiPage": "http://antibirth.gamepedia.com/Playdoh_Cookie",
