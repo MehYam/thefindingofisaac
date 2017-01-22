@@ -13,20 +13,10 @@ See isaacWikiScrape.js for instructions on how to update the data files.
 To improve performance and reduce memory and download overhead, the app uses a spritesheet for all the item icons.  ADD DETAILS HERE
 
 ### TO DO:
-- ~~deal with duplicate item names~~
-- ~~move *.json files to a data subdir~~
-- ~~dig deep on performance tuning~~
-	- ~~diagnose bottleneck~~
-	- issue has to do with loading all those images.  Use a sprite sheet instead
-		- ~~got TexturePacker working~~
-			- ~~need to escape CSS names, use https://github.com/mathiasbynens/CSS.escape~~
-				- ~~in css.qs~~
-				- escaped names still not working 
-		- ~~need to parse filename out of thumbnail~~
-		- ~~STOPPING - scaling images is surprisingly messy, and name escaping has broken.  Backing out for now and using a scheme where we URI-encode all the images instead.  This will work across more browsers, and be easier to maintain long-term.  Will make a browser script like isaacWikiScrape.js to generate the base64~~
-
-- caching causes display of incorrect score
-- add Black Rune
+- add new runes and cards
+	- AB+
+	- Antibirth
+- do another tagging pass
 
 - refresh Antibirth and Afterbirth+ items as they get updated in the wiki
 - score items better when terms match exactly
@@ -45,6 +35,19 @@ To improve performance and reduce memory and download overhead, the app uses a s
 	- or have a check-box
 - add description to the sort options
 
+### DONE:
+- ~~caching causes display of incorrect score~~
+- ~~deal with duplicate item names~~
+- ~~move *.json files to a data subdir~~
+- ~~dig deep on performance tuning~~
+	- ~~diagnose bottleneck~~
+	- issue has to do with loading all those images.  Use a sprite sheet instead
+		- ~~got TexturePacker working~~
+			- ~~need to escape CSS names, use https://github.com/mathiasbynens/CSS.escape~~
+				- ~~in css.qs~~
+				- escaped names still not working 
+		- ~~need to parse filename out of thumbnail~~
+		- ~~STOPPING - scaling images is surprisingly messy, and name escaping has broken.  Backing out for now and using a scheme where we URI-encode all the images instead.  This will work across more browsers, and be easier to maintain long-term.  Will make a browser script like isaacWikiScrape.js to generate the base64~~
 - ~~Antibirth items~~
 	- ~~scrape the wiki~~
 	- ~~tag the items~~
@@ -76,5 +79,3 @@ To improve performance and reduce memory and download overhead, the app uses a s
 - ~~make anchors open in new page~~
 - ~~fix relative links in description~~
 
-ALSO
-- add pills?

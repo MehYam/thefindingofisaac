@@ -245,6 +245,7 @@ function renderHits(hits)
 		{
 			hit.item.rowHTML = renderRow(hit);
 		}
+		hit.item.rowHTML.scoreCell.innerHTML = 	hit.score;
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 	});
 	console.log("<- renderHits");
@@ -292,8 +293,8 @@ function renderRow(hit)
 
 	// score
 	cell = document.createElement('td');
-	cell.appendChild(document.createTextNode(hit.score));
 	cell.className = "scoreCell";
+	row.scoreCell = cell;
 	row.appendChild(cell);	
 
 	return row;
