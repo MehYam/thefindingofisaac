@@ -1,7 +1,7 @@
 // Workflow:
 //
 // 1) open the isaac wiki page to scrape (i.e. http://bindingofisaacrebirth.gamepedia.com/Trinkets)
-// 2) paste this file directly in the dev console
+// 2) set g_layout to the correct layout.  Paste this file directly in the dev console
 // 3) type copy(scrapeTable(i)) and copy(scrapeTableForTagging(i)) to scrape the ith table, paste the output of 
 //    each in separate .json files
 // 3.5) there may be more than one table of items to scrape per page, so run for several i's

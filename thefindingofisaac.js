@@ -17,14 +17,14 @@ function prepareData(data)
 	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_PROP, DLC.BASE);
 	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_PROP, DLC.AFTERBIRTH);
 	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
-	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives], DLC_PROP, DLC.ANTIBIRTH);
+	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives, runesAntibirth], DLC_PROP, DLC.ANTIBIRTH);
 
 	var CLASS_PROP = "itemClass";
 	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets], CLASS_PROP, "trinket");
 	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles], CLASS_PROP, "activated");
 	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives], CLASS_PROP, "passive");
 	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial], CLASS_PROP, "card");
-	addProperty([runes1, runes2], CLASS_PROP, "rune");
+	addProperty([runes1, runes2, runesAntibirth], CLASS_PROP, "rune");
 
 	mergeMetadata(data, afterbirthTrinkets, afterbirthTrinketsTags);
 	mergeMetadata(data, rebirthTrinkets, rebirthTrinketsTags);
@@ -44,6 +44,7 @@ function prepareData(data)
 	mergeMetadata(data, cardsSpecial, cardsSpecialTags);
 	mergeMetadata(data, runes1, runes1Tags);
 	mergeMetadata(data, runes2, runes2Tags);
+	mergeMetadata(data, runesAntibirth, runesAntibirthMeta);
 
 	fixUpRelativeURLs(data);
 
@@ -285,11 +286,14 @@ function renderRow(hit)
 	cell = document.createElement('td');
 	cell.className = "itemIconCell";
 
-	var img = document.createElement('img');
-	img.src = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
-	img.className = "itemIcon";
-
-	cell.appendChild(img);
+	var thumbnail = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
+	if (thumbnail)
+	{
+		var img = document.createElement('img');
+		img.src = thumbnail;
+		img.className = "itemIcon";
+		cell.appendChild(img);
+	}
 	row.appendChild(cell);
 
 	// description

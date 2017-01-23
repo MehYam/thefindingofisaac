@@ -1,0 +1,32 @@
+runesAntibirthMeta = {
+	"Rune of Gebo": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rune of Kenaz": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rune of Fehu": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rune of Othala": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rune of Ingwaz": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	},
+	"Rune of Sowilo": {
+		"itemType": "rune",
+		"itemColor": "",
+		"itemTags": ""
+	}
+};
