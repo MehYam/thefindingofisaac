@@ -74,7 +74,15 @@ function mergeMetadata(data, items, itemMetadata)
 	{
 		var item = scrubbedItems[key];
 		item.meta = scrubbedMetadata[key];
-		if (!item.meta)
+		if (item.meta)
+		{
+			if (item.meta.dlc)
+			{
+				// a few of the tables have different dlc mixed together.  This allows us to tag the dlc from the 
+				item.dlc = item.meta.dlc;
+			}
+		}
+		else
 		{
 			console.error("No metadata found for item '" + key + "'");
 		}

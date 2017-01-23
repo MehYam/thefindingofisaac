@@ -1,22 +1,38 @@
 var cardsPlaying = {
 	"2 of Clubs": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d7/2_of_Clubs_Icon.png?version=1402a2f381c9af88a2eb105e71db101d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d7/2_of_Clubs_Icon.png?version=1298561f0e3611e881efda321a2b2abd",
 		"descriptionHTML": "Doubles your <a href=\"/Pickups#Bombs\" title=\"Pickups\">bombs</a>. If you have no bombs, gives you 2 instead."
 	},
-	"2 of Spades": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/2_of_Spades_Icon.png?version=82508e59818c07f6f56857fcef740382",
-		"descriptionHTML": "Doubles your <a href=\"/Pickup#Keys\" title=\"Pickup\" class=\"mw-redirect\">keys</a>. If you have no keys, gives you 2 instead."
-	},
 	"2 of Diamonds": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/2_of_Diamonds_Icon.png?version=e5098abca33b0083c35190e64f7fd0ca",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/2_of_Diamonds_Icon.png?version=69d24fc40b6af7d400136694a7b33c67",
 		"descriptionHTML": "Doubles your <a href=\"/Coins\" title=\"Coins\" class=\"mw-redirect\">coins</a>. If you have no coins, gives you 2 instead."
 	},
+	"2 of Spades": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/2_of_Spades_Icon.png?version=cfe3d6536dc3100befa3b84f4feff520",
+		"descriptionHTML": "Doubles your <a href=\"/Pickup#Keys\" title=\"Pickup\" class=\"mw-redirect\">keys</a>. If you have no keys, gives you 2 instead."
+	},
 	"2 of Hearts": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/2_of_Hearts_Icon.png?version=a6e0ef3eb5b7191f61014d95a3c7285a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/2_of_Hearts_Icon.png?version=c5e4fd4620cf12b978466a7277a4aec7",
 		"descriptionHTML": "Doubles your current number of <a href=\"/Pickups#Red_Hearts\" title=\"Pickups\">red hearts</a> (Soul and Black hearts are unaffected). Doesn't add new heart containers, just fills empty ones."
 	},
+	"Ace of Clubs": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Ace_of_Clubs_Icon.png?version=51cece65fdbda45dca5863120bdbe407",
+		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bombs</a>."
+	},
+	"Ace of Diamonds": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/Ace_of_Diamonds_Icon.png?version=3ada51efb2fbceac33c3283e6baf6d72",
+		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coins</a>."
+	},
+	"Ace of Spades": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dc/Ace_of_Spades_%28card%29_Icon.png?version=d3ab97c36f6ae6cbf632a42b9cc833c0",
+		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into <a href=\"/Key\" title=\"Key\" class=\"mw-redirect\">keys</a>."
+	},
+	"Ace of Hearts": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Ace_of_Hearts_Icon.png?version=783ac6eee7e92cf3670d915ee9c8ae52",
+		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into random <a href=\"/Hearts_(Pickup)\" title=\"Hearts (Pickup)\">heart pickups</a>."
+	},
 	"Joker": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Joker_Icon.png?version=cf8f8297ab4d2861d3b46011efc88daf",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Joker_Icon.png?version=dc63a97dab677f34d8717482537b386c",
 		"descriptionHTML": "Teleports you to the <a href=\"/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a href=\"/Angel_Room\" title=\"Angel Room\">Angel Room</a>."
 	}
-}
+};

@@ -2,11 +2,13 @@ var cardsOtherTags = {
 	"Emergency Contact": {
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": "mom"
+		"itemTags": "mom",
+		"dlc": "afterbirth"
 	},
 	"Dice Shard": {
 		"itemType": "dice",
 		"itemColor": "red",
-		"itemTags": "d6 d20 reroll"
+		"itemTags": "d6 d20 reroll",
+		"dlc": "afterbirth"
 	}
 }

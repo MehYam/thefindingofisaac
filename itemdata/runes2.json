@@ -18,5 +18,9 @@ var runes2 = {
 	"Blank Rune": {
 		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png?version=b66ab780f04de8438f2b1f390cb91558",
 		"descriptionHTML": "<p style=\"text-align: left;\">Grants a random rune effect. Has a 25% chance to spawn another Blank Rune upon use.</p>"
+	},
+	"Black Rune": {
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b8/Black_Rune_Icon.png?version=98893f10d5149e588a2cbe46d42c7609",
+		"descriptionHTML": "<p style=\"text-align: left;\">Deals 40 damage to all enemies in the room. Consumes all pickups in the room and turns them into blue flies and spiders. Consumes all pedestal items in the room and turns them into random stat upgrades.</p>"
 	}
 }

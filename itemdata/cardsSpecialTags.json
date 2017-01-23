@@ -33,12 +33,20 @@ var cardsSpecialTags = {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "white",
-		"itemTags": ""
+		"itemTags": "",
+		"dlc": "afterbirth"
 	},
 	"Get Out Of Jail Free Card ": {
 		"itemClass": "",
 		"itemType": "",
 		"itemColor": "",
-		"itemTags": ""
-	}
+		"itemTags": "",
+		"dlc": "afterbirth"
+	},
+	"Holy Card": {
+		"itemType": "",
+		"itemColor": "",
+		"itemTags": "",
+		"dlc": "afterbirthplus"
+	}	
 }

@@ -13,9 +13,7 @@ See isaacWikiScrape.js for instructions on how to update the data files.
 To improve performance and reduce memory and download overhead, the app uses a spritesheet for all the item icons.  ADD DETAILS HERE
 
 ### TO DO:
-- add new runes and cards
-	- AB+
-	- Antibirth
+- ~~add new runes and cards, tag for correct dlc~~
 - do another tagging pass
 
 - refresh Antibirth and Afterbirth+ items as they get updated in the wiki

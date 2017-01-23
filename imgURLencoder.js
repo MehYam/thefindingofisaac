@@ -1,3 +1,12 @@
+// This code generates a base64-encoded image out of a thumbnail.  This allows us to put all the icons 
+// in a single file, eliminating ~800 http calls 
+//
+// Workflow (steps 3 and 4 are rough right now):
+//
+// 1) Use the app to display all the items
+// 2) Paste the following into the dev console
+// 3) Loop over items in the g_data.item object, calling convertImageToBase64URL in the loop and glomming it all into a single JSON object
+// 4) Save the results in spritesheet/base64Thumbnails.json
 function convertImageToBase64URL(src, callback, outputFormat)
 {
   var img = new Image();

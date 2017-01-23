@@ -15,13 +15,37 @@ var cardsPlayingTags = {
 		"itemClass": "",
 		"itemType": "playing",
 		"itemColor": "white",
-		"itemTags": "coin"
+		"itemTags": "$"
 	},
 	"2 of Hearts": {
 		"itemClass": "",
 		"itemType": "playing",
 		"itemColor": "white",
 		"itemTags": ""
+	},
+	"Ace of Clubs": {
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "bomb",
+		"dlc": "afterbirthplus"
+	},
+	"Ace of Diamonds": {
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "$",
+		"dlc": "afterbirthplus"
+	},
+	"Ace of Spades": {
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "key",
+		"dlc": "afterbirthplus"
+	},
+	"Ace of Hearts": {
+		"itemType": "playing",
+		"itemColor": "white",
+		"itemTags": "",
+		"dlc": "afterbirthplus"
 	},
 	"Joker": {
 		"itemClass": "",
