@@ -1,7 +1,8 @@
 var g_data = 
 {
 	items: {},
-	aliases: {}
+	aliases: {},
+	showScore: false
 };
 var DLC =
 {
@@ -238,14 +239,17 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 function renderHits(hits)
 {
 	console.log("-> renderHits");
-	hitsContainer.innerHTML = tableTemplate.textContent;
+	hitsContainer.innerHTML = g_data.showScore ? tableTemplateWithScore.textContent : tableTemplate.textContent;
 	hits.forEach(function(hit) {
 
 		if (!hit.item.rowHTML)
 		{
 			hit.item.rowHTML = renderRow(hit);
 		}
-		hit.item.rowHTML.scoreCell.innerHTML = 	hit.score;
+		if (g_data.showScore)
+		{
+			hit.item.rowHTML.scoreCell.innerHTML = 	hit.score;
+		}
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 	});
 	console.log("<- renderHits");
@@ -292,11 +296,13 @@ function renderRow(hit)
 	row.appendChild(cell);
 
 	// score
-	cell = document.createElement('td');
-	cell.className = "scoreCell";
-	row.scoreCell = cell;
-	row.appendChild(cell);	
-
+	if (g_data.showScore)
+	{
+		cell = document.createElement('td');
+		cell.className = "scoreCell";
+		row.scoreCell = cell;
+		row.appendChild(cell);	
+	}
 	return row;
 }
 function renderAll(data, dlcFilter)
