@@ -90,7 +90,7 @@ var afterbirthPlusCollectibles = {
 		"descriptionHTML": "Consumes all pedestal items in the room. Active items will have their effects added to Void, and passive items will grant stat upgrades."
 	},
 	"Wait What?": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wait_What",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wait_What%3F",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/Wait_What_Icon.png?version=6a1aa89d8455225746c388561d140cfb",
 		"descriptionHTML": "Isaac farts, sending out rock waves."
 	}

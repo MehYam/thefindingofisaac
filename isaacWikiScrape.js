@@ -11,11 +11,11 @@
 // Why two files per scrape:  we want to be able to tag each item with our own descriptive search terms, but we also want
 // to be able to re-scrape the items as they get updated, without nuking those tags.
 
-var g_itemLayout = { descriptionCol: 2, dlcTag: false };
+var g_itemLayout = { descriptionCol: 4, dlcTag: false };
 var g_cardLayout = { descriptionCol: 4, dlcTag: true };
 var g_runeLayout = { descriptionCol: 5, dlcTag: true };
 
-var g_layout = g_runeLayout;
+var g_layout = g_itemLayout;
 function scrapeTable(tableIndex)
 {
 	return JSON.stringify(extractToJSON(getTable(tableIndex), rowImageAndThumbnailScrape), null, '\t');

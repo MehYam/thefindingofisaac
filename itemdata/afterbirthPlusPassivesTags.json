@@ -169,7 +169,7 @@ var afterbirthPlusPassivesTags = {
 		"itemColor": "green black",
 		"itemTags": "fly"
 	},
-	"Adderline": {
+	"Adrenaline": {
 		"itemType": "syringe",
 		"itemColor": "pink",
 		"itemTags": ""

@@ -7,7 +7,7 @@ var afterbirthPlusTrinkets = {
 	"Bat Wing": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bat_Wing",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Bat_Wing_Icon.png?version=5d3bf79b205122385e6015484ea3311c",
-		"descriptionHTML": "Unknown"
+		"descriptionHTML": "Upon killing an enemy, has a chance to grant flight for the rest of the room."
 	},
 	"Black Tooth": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Tooth",
@@ -27,7 +27,7 @@ var afterbirthPlusTrinkets = {
 	"Cracked Crown": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cracked_Crown",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1d/Cracked_Crown_Icon.png?version=c4ee6f6ddbf3ad06aad2c49e46facd5a",
-		"descriptionHTML": "Unknown"
+		"descriptionHTML": "Grants extra stat upgrades based on Isaac's passive items that increase stats. Also grants tears up and -1 tear delay."
 	},
 	"Dim Bulb": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dim_Bulb",
@@ -42,42 +42,42 @@ var afterbirthPlusTrinkets = {
 	"Equality!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Equality!",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Equality%21_Icon.png?version=06bc47e45b69ed4b3ad6323d10df4811",
-		"descriptionHTML": "Adds a chance to turn pickups into their doubled version."
+		"descriptionHTML": "Turns pickups into their doubled versions while Isaac's numbers of coins, bombs and keys are equal."
 	},
 	"Fish Tail": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fish_Tail",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Fish_Tail_Icon.png?version=e0134ec19c8dff327660ac01189851ac",
-		"descriptionHTML": "Upon killing an enemy, chance to spawn a <a href=\"/Blue_Flies\" title=\"Blue Flies\" class=\"mw-redirect\">blue fly</a> that poisons enemies."
+		"descriptionHTML": "Items and trinkets that generate <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">blue flies</a> or <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> will generate twice as many."
 	},
 	"Fragmented Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fragmented_Card",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/Fragmented_Card_Icon.png?version=3f28c9b65a9a19a441f64fe079f7fbde",
 		"descriptionHTML": "Makes two Secret Rooms spawn on each floor."
 	},
-	"Locust Of Conquest": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Conquest",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a4/Locust_Of_Conquest_Icon.png?version=04d1a208dbc1eb34b139b2a5162bbc6b",
-		"descriptionHTML": "Upon entering a room with enemies, spawns 2-5 <a href=\"/Familiar#White_Flies\" title=\"Familiar\">White Flies</a> which damage enemies."
+	"Locust of Conquest": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_of_Conquest",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4e/Locust_of_Conquest_Icon.png?version=2ed69140da7076f38bc7bf2fee0b7913",
+		"descriptionHTML": "Upon entering a room with enemies, spawns 2-5 <a href=\"/Locust\" title=\"Locust\" class=\"mw-redirect\">White Locusts</a> which damage enemies."
 	},
-	"Locust Of Death": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Death",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Locust_Of_Death_Icon.png?version=ddee679827d8693349ded2338eddc2fc",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Black_Flies\" title=\"Familiar\">Black Fly (Familiar)</a> that can instantly kill one enemy."
+	"Locust of Death": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_of_Death",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0c/Locust_of_Death_Icon.png?version=7b24d3043f568166a4f491d25002535f",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Locust\" title=\"Locust\" class=\"mw-redirect\">Black Locust</a> that does a very high amount of damage."
 	},
-	"Locust Of Famine": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Famine",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/Locust_Of_Famine_Icon.png?version=b0f1fb5b70968f30f4ce9e799a773f19",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Yellow_Flies\" title=\"Familiar\">Yellow Fly</a> that damages and slows enemies."
+	"Locust of Famine": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_of_Famine",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Locust_of_Famine_Icon.png?version=309c69742f6d27bbd00cec0dab0e9b45",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Locust\" title=\"Locust\" class=\"mw-redirect\">Yellow Locust</a> that damages and slows enemies."
 	},
-	"Locust Of Pestilence": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Pestilence",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Locust_Of_Pestilence_Icon.png?version=d07f6ec9590ae50092d733c380e54676",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Green_Flies\" title=\"Familiar\">Green Fly</a> which damages and poisons enemies."
+	"Locust of Pestilence": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_of_Pestilence",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Locust_of_Pestilence_Icon.png?version=f3ec0a27e2fa37754ce01128d81d28f4",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Locust\" title=\"Locust\" class=\"mw-redirect\">Green Locust</a> which damages and poisons enemies."
 	},
-	"Locust Of Wrath": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_Of_Wrath",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Locust_Of_Wrath_Icon.png?version=5bc282712195db69b2d95c12a9cc53cc",
-		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Familiar#Red_Flies\" title=\"Familiar\">Red Fly</a> which detonates upon impact with enemies."
+	"Locust of Wrath": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Locust_of_Wrath",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Locust_of_Wrath_Icon.png?version=dedf322d72f13b5bd681b2b9708bc838",
+		"descriptionHTML": "Upon entering a room with enemies, spawns a <a href=\"/Locust\" title=\"Locust\" class=\"mw-redirect\">Red Locust</a> which detonates upon impact with enemies."
 	},
 	"Lost Cork": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lost_Cork",
@@ -97,7 +97,7 @@ var afterbirthPlusTrinkets = {
 	"Ouroboros Worm": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ouroboros_Worm",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1f/Ouroboros_Worm_Icon.png?version=8ccf5d7961147b04051ec879a1f9d3d3",
-		"descriptionHTML": "Tears travel in a large spiral pattern."
+		"descriptionHTML": "Tears travel in a large spiral pattern and become spectral."
 	},
 	"Pay To Win": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pay_To_Win",
@@ -112,7 +112,7 @@ var afterbirthPlusTrinkets = {
 	"Stem Cell": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stem_Cell",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Stem_Cell_Icon.png?version=9bf55d9ecc5e72279447baab886f7de7",
-		"descriptionHTML": "Unknown"
+		"descriptionHTML": "Heals for half a heart upon traveling to the next floor."
 	},
 	"Super Ball": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Super_Ball",
@@ -122,12 +122,12 @@ var afterbirthPlusTrinkets = {
 	"Tonsil": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tonsil",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Tonsil_Icon.png?version=5e371ebba816135a2c20acd7f45b0c76",
-		"descriptionHTML": "When hit, a there is a small chance a removed tonsil familiar starts following Isaac, blocking enemy shots."
+		"descriptionHTML": "When hit, there is a small chance a removed tonsil familiar starts following Isaac, blocking enemy shots."
 	},
 	"Used Diaper": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Used_Diaper",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/Used_Diaper_Icon.png?version=ec43af84f7bd364a7ef0ff4562cbae44",
-		"descriptionHTML": "Unknown"
+		"descriptionHTML": "Grants the <a href=\"/Skatole\" title=\"Skatole\">Skatole</a> effect in some rooms."
 	},
 	"Vibrant Bulb": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Vibrant_Bulb",
@@ -137,7 +137,7 @@ var afterbirthPlusTrinkets = {
 	"Walnut": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Walnut",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Walnut_Icon.png?version=0363f33ea7a67ecd1e8ed08155b63c55",
-		"descriptionHTML": "Taking damage has a small chance to destroy the trinket and spawn various <a href=\"/Pickups\" title=\"Pickups\">pickups</a>."
+		"descriptionHTML": "Taking damage has a small chance to destroy the trinket and spawn various <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a>."
 	},
 	"Wish Bone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wish_Bone",

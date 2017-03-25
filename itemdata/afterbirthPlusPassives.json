@@ -4,9 +4,9 @@ var afterbirthPlusPassives = {
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Acid_Baby_Icon.png?version=44b98cb766203499d72ce939d7b1471e",
 		"descriptionHTML": "Spawns a familiar that drops random pills every 2 rooms cleared. Upon using a pill, all enemies in the room are poisoned."
 	},
-	"Adderline": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Adderline",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Adderline_Icon.png?version=db43bb30987928932657f2ee887d10fb",
+	"Adrenaline": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Adrenaline",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Adrenaline_Icon.png?version=26730565766505204070a4fd86bd1089",
 		"descriptionHTML": "Increases damage based on how many empty heart containers Isaac has."
 	},
 	"Analog Stick": {
@@ -62,11 +62,11 @@ var afterbirthPlusPassives = {
 	"Dad's Lost Coin": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dad%27s_Lost_Coin",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/24/Dad%27s_Lost_Coin_Icon.png?version=de05eb33cbee8f51f6da8f9ec8f21c27",
-		"descriptionHTML": "Increases range by 1.5. Drops a <a href=\"/Coins_(Pickup)#Lucky_Penny\" title=\"Coins (Pickup)\">Lucky Penny</a>. Other Effects Unknown"
+		"descriptionHTML": "Increases range by 1.5. Drops a <a href=\"/Lucky_penny\" title=\"Lucky penny\" class=\"mw-redirect\">lucky penny</a>. Other Effects Unknown"
 	},
 	"Dark Prince's Crown": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dark_Prince%27s_Crown",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Dark_Prince%27s_Crown_Icon.png?version=4a50a28056c2614006ed10f512337792",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Dark_Prince%27s_Crown_Icon.png?version=55e87f607d18c28c4683e73b98ef67f7",
 		"descriptionHTML": "Increases range, tears, and shot speed when at exactly one red heart."
 	},
 	"Dead Tooth": {
@@ -126,8 +126,8 @@ var afterbirthPlusPassives = {
 	},
 	"Glyph Of Balance": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Glyph_Of_Balance",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Glyph_Of_Balance_Icon.png?version=9b6b310bfa13df1165a07a583ec4d5fb",
-		"descriptionHTML": "Grants 2 <a href=\"/Pickups#Soul_Heart\" title=\"Pickups\">soul hearts</a>, Other Effects Unknown"
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/Glyph_of_Balance_Icon.png?version=3d6bca97a145b4b711717e448f14671d",
+		"descriptionHTML": "Grants 2 <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a> and modifies drops from <a href=\"/Champion\" title=\"Champion\" class=\"mw-redirect\">Champion Monsters</a> based on certain conditions."
 	},
 	"Greed's Gullet": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Greed%27s_Gullet",
@@ -170,8 +170,8 @@ var afterbirthPlusPassives = {
 		"descriptionHTML": "Adds a chance to fire a gas cloud that damages nearby enemies."
 	},
 	"Little Horn": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Horn_(item)",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/11/Little_Horn_%28item%29_Icon.png?version=e3a4dc4420f0699b70cff53ab5127d4c",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Horn_(Item)",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/Little_Horn_%28Item%29_Icon.png?version=a01c10c4cd8702f352278e5ca6a395fa",
 		"descriptionHTML": "Adds a chance to fire a piercing tear that instantly kills any enemy that it touches."
 	},
 	"Metal Plate": {
@@ -217,7 +217,7 @@ var afterbirthPlusPassives = {
 	"Shard Of Glass": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Shard_Of_Glass",
 		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Shard_Of_Glass_Icon.png?version=e9606374e2a9d001e3cc930d82146292",
-		"descriptionHTML": "Upon taking damage, Isaac has a chance to drop a pickup, gain 5 range, and leave a trail of damaging red creep for the current room."
+		"descriptionHTML": "Upon taking damage, Isaac has a chance to drop a full red heart, gain 5 range, and leave a trail of damaging red creep for the current room."
 	},
 	"Sinus Infection": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sinus_Infection",
