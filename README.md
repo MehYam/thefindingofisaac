@@ -14,7 +14,7 @@ To improve performance and reduce memory and download overhead, the app uses a s
 
 ### TO DO:
 - ~~refresh Afterbirth+ items as they get updated in the wiki~~
-- add Booster pack items
+- ~~add Booster pack items~~
 - score items better when terms match exactly
 
 - more functionality

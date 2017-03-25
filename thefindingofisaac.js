@@ -9,7 +9,8 @@ var DLC =
 	BASE: "base",
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
-	ANTIBIRTH: "antibirth"
+	ANTIBIRTH: "antibirth",
+	BOOSTERPACK1: "boosterpack1"
 }
 function prepareData(data)
 {
@@ -18,12 +19,13 @@ function prepareData(data)
 	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_PROP, DLC.AFTERBIRTH);
 	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
 	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives, runesAntibirth], DLC_PROP, DLC.ANTIBIRTH);
+	addProperty([boosterpack1Trinkets, boosterpack1Collectibles, boosterpack1Passives, boosterpack1Cards], DLC_PROP, DLC.BOOSTERPACK1);
 
 	var CLASS_PROP = "itemClass";
-	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets], CLASS_PROP, "trinket");
-	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles], CLASS_PROP, "activated");
-	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives], CLASS_PROP, "passive");
-	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial], CLASS_PROP, "card");
+	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets], CLASS_PROP, "trinket");
+	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles, boosterpack1Collectibles], CLASS_PROP, "active");
+	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives], CLASS_PROP, "passive");
+	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial, boosterpack1Cards], CLASS_PROP, "card");
 	addProperty([runes1, runes2, runesAntibirth], CLASS_PROP, "rune");
 
 	mergeMetadata(data, afterbirthTrinkets, afterbirthTrinketsTags);
@@ -45,6 +47,12 @@ function prepareData(data)
 	mergeMetadata(data, runes1, runes1Tags);
 	mergeMetadata(data, runes2, runes2Tags);
 	mergeMetadata(data, runesAntibirth, runesAntibirthMeta);
+
+	mergeMetadata(data, boosterpack1Trinkets, boosterpack1TrinketsMeta);
+	mergeMetadata(data, boosterpack1Collectibles, boosterpack1CollectiblesMeta);
+	mergeMetadata(data, boosterpack1Passives, boosterpack1PassivesMeta);
+	mergeMetadata(data, boosterpack1Cards, boosterpack1CardsMeta);
+
 
 	fixUpRelativeURLs(data);
 
@@ -351,6 +359,7 @@ function doSearch(searchText)
 	if (abbutton.checked) dlcFilter[DLC.AFTERBIRTH] = true;
 	if (abplusbutton.checked) dlcFilter[DLC.AFTERBIRTHPLUS] = true;
 	if (anbbutton.checked) dlcFilter[DLC.ANTIBIRTH] = true;
+	if (booster1button.checked) dlcFilter[DLC.BOOSTERPACK1] = true;
 
 	if (searchText.length)
 	{
@@ -382,7 +391,8 @@ var OPTIONS =
 	REBIRTH: "rebirth",
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
-	ANTIBIRTH: "antibirth"
+	ANTIBIRTH: "antibirth",
+	BOOSTERPACK1: "boosterpack1"
 }
 function getOption(optionName, defaultValue)
 {
@@ -406,6 +416,7 @@ function restoreButtons()
 	abbutton.checked = getOption(OPTIONS.AFTERBIRTH, true);
 	abplusbutton.checked = getOption(OPTIONS.AFTERBIRTHPLUS, true);
 	anbbutton.checked = getOption(OPTIONS.ANTIBIRTH, true);
+	booster1button.checked = getOption(OPTIONS.BOOSTERPACK1, true);
 }
 function onSearchOption()
 {
@@ -413,6 +424,7 @@ function onSearchOption()
 	saveOption(OPTIONS.AFTERBIRTH, abbutton.checked);
 	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
 	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
+	saveOption(OPTIONS.BOOSTERPACK1, booster1button.checked);
 
 	doSearch(getOption(OPTIONS.LASTSEARCH, DEFAULT_SEARCH_TERM));
 }

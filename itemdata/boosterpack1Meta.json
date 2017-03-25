@@ -1,0 +1,83 @@
+var boosterpack1CollectiblesMeta = {
+	"Black Hole": {
+		"itemType": "",
+		"itemColor": "black purple",
+		"itemTags": "round planet void explosion cosmic space anomaly"
+	},
+	"Mystery Gift": {
+		"itemType": "",
+		"itemColor": "green red",
+		"itemTags": "box gift present bow wrap"
+	},
+	"Sprinkler": {
+		"itemType": "",
+		"itemColor": "grey",
+		"itemTags": "tech joystick stick metal"
+	}
+};
+var boosterpack1PassivesMeta = {
+	"Angry Fly": {
+		"itemType": "familiar",
+		"itemColor": "red",
+		"itemTags": "pill"
+	},
+	"Bozo": {
+		"itemType": "",
+		"itemColor": "red white",
+		"itemTags": "hat cone waldo stripe"
+	},
+	"Broken Modem": {
+		"itemType": "",
+		"itemColor": "dark red",
+		"itemTags": "tech box vcr cable wire light"
+	},
+	"Buddy in a Box": {
+		"itemType": "familiar",
+		"itemColor": "yellow orange",
+		"itemTags": "eyes crate"
+	},
+	"Fast Bombs": {
+		"itemType": "",
+		"itemColor": "black yellow",
+		"itemTags": "bomb zap"
+	},
+	"Lil Delirium": {
+		"itemType": "familiar",
+		"itemColor": "white",
+		"itemTags": "face ghost delirious"
+	}
+};
+var boosterpack1TrinketsMeta = {
+	"Hairpin": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "whip wire"
+	},
+	"Wooden Cross": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "cross"
+	},
+	"Butter!": {
+		"itemType": "",
+		"itemColor": "yellow",
+		"itemTags": "brick"
+	}
+};
+var boosterpack1CardsMeta = {
+	"Huge Growth": {
+		"itemType": "",
+		"itemColor": "green gray",
+		"itemTags": ""
+	},
+	"Ancient Recall": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": ""
+	},
+	"Era Walk": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": ""
+	}
+};
