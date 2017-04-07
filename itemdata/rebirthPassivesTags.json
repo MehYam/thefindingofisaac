@@ -639,12 +639,12 @@ var rebirthPassivesTags = {
 		"itemColor": "blue",
 		"itemTags": "balance"
 	},
-	"Lil' Brimstone": {
+	"Lil Brimstone": {
 		"itemType": "familiar",
 		"itemColor": "dark",
 		"itemTags": "demon"
 	},
-	"Lil' Haunt": {
+	"Lil Haunt": {
 		"itemType": "familiar",
 		"itemColor": "white",
 		"itemTags": "ghost head"
@@ -1124,7 +1124,7 @@ var rebirthPassivesTags = {
 		"itemColor": "yellow",
 		"itemTags": "fly glow"
 	},
-	"SMB Super Fan!": {
+	"SMB Super Fan": {
 		"itemType": "",
 		"itemColor": "gray",
 		"itemTags": "saw blade metal round teeth blood"
