@@ -164,7 +164,7 @@ var afterbirthPassivesTags = {
 		"itemColor": "gray",
 		"itemTags": "round ultra greed coin face dead baby"
 	},
-	"Holy Light!": {
+	"Holy Light": {
 		"itemType": "",
 		"itemColor": "white blue",
 		"itemTags": "round bright glow"
