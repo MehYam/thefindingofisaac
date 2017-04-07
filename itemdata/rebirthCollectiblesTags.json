@@ -104,7 +104,7 @@ var rebirthCollectiblesTags = {
 		"itemColor": "green",
 		"itemTags": "pyramid triangle"
 	},
-	"D6": {
+	"The D6": {
 		"itemType": "dice",
 		"itemColor": "red",
 		"itemTags": "item cube"

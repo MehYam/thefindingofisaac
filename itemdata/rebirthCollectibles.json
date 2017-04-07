@@ -1,372 +1,372 @@
 var rebirthCollectibles = {
 	"Anarchist Cookbook": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/68/Anarchist_Cookbook_Icon.png?version=aaca48d42f8c4d482f9000e84a1def4b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/68/Anarchist_Cookbook_Icon.png?version=d76279b0dbfb46cc1b772ce2db926dd1",
 		"descriptionHTML": "Spawns six troll bombs around the room."
 	},
 	"The Bean": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Bean",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b2/The_Bean_Icon.png?version=f2768114264aa5d8b925edc9aa3b4c7f",
-		"descriptionHTML": "Isaac releases bad gas, <a href=\"/Status_Effects\" title=\"Status Effects\" class=\"mw-redirect\">poisoning</a> any enemy in close vicinity."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b2/The_Bean_Icon.png?version=7a47c59fe092346dd5c1a951ed1c12b5",
+		"descriptionHTML": "Isaac releases bad gas, <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poisoning</a> any enemy in close vicinity."
 	},
 	"Best Friend": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Best_Friend",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/Best_Friend_Icon.png?version=0c07b04cb5ca89bd3b323e236059c27a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/Best_Friend_Icon.png?version=62e0de17fa06b027a8838058b1d38b88",
 		"descriptionHTML": "Deploys a decoy Isaac that eventually explodes with an increased blast radius."
 	},
 	"The Bible": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Bible",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/The_Bible_Icon.png?version=e293ad72ab3eb01fcae1889b4aa665db",
-		"descriptionHTML": "Upon activation, Isaac gains <a href=\"/Flight\" title=\"Flight\">Flight</a>, allowing him to pass over all obstacles in the current room. Instantly kills <a href=\"/Mom\" title=\"Mom\">Mom</a>, <a href=\"/Mom%27s_Heart\" title=\"Mom's Heart\">Mom's Heart</a>, and <a href=\"/It_Lives\" title=\"It Lives\">It Lives</a> when activated, but will kill Isaac when activated while fighting <a href=\"/Satan\" title=\"Satan\">Satan</a>, <a href=\"/Isaac_(Boss)\" title=\"Isaac (Boss)\">Isaac</a>, or <a href=\"/%3F%3F%3F_(Boss)\" title=\"??? (Boss)\">???</a> unless he has <a href=\"/The_Wafer\" title=\"The Wafer\">The Wafer</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/The_Bible_Icon.png?version=cc71afd0f9ef9dc964eaf5ab106a6c76",
+		"descriptionHTML": "Upon activation, Isaac gains <a href=\"/Flight\" title=\"Flight\">flight</a>, allowing him to pass over all obstacles in the current room. Instantly kills <a href=\"/Mom\" title=\"Mom\">Mom</a>, <a href=\"/Mom%27s_Heart\" title=\"Mom's Heart\">Mom's Heart</a>, and <a href=\"/It_Lives\" title=\"It Lives\">It Lives</a> when activated, but will kill Isaac when activated while fighting <a href=\"/Satan\" title=\"Satan\">Satan</a>."
 	},
 	"Blank Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blank_Card",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Blank_Card_Icon.png?version=f61899105c800552a3d9eb83ee8d5aed",
-		"descriptionHTML": "Has the same effect as the <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">card</a> or <a href=\"/Runes\" title=\"Runes\" class=\"mw-redirect\">rune</a> currently held by Isaac."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Blank_Card_Icon.png?version=5c48b40f652a8704412222569a1c0b71",
+		"descriptionHTML": "Has the same effect as the <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">card</a> or <a href=\"/Rune\" title=\"Rune\" class=\"mw-redirect\">rune</a> currently held by Isaac."
 	},
 	"Blood Rights": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blood_Rights",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Blood_Rights_Icon.png?version=2114cecf1534d87caf9739ccc9a9b5da",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Blood_Rights_Icon.png?version=0c6caaf8f3f28d991fcbce1c0c01b281",
 		"descriptionHTML": "Damages all enemies in the room, but deals a half-heart of damage to Isaac with each use."
 	},
 	"Bob's Rotten Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bob%27s_Rotten_Head",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Bob%27s_Rotten_Head_Icon.png?version=5ab31b847ea4e9b784a7ba0b49199418",
-		"descriptionHTML": "Upon use, Isaac holds a <a href=\"/Effects#Poison\" title=\"Effects\">poison</a> <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bomb</a> which can be thrown towards any of the four cardinal points and explodes on impact."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Bob%27s_Rotten_Head_Icon.png?version=10cc4e8a6d97b44835d3832c1399189e",
+		"descriptionHTML": "Upon use, Isaac holds a <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison</a> <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bomb</a> which can be thrown towards any of the four cardinal points and explodes on impact."
 	},
-	"The Book Of Belial": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Book_Of_Belial",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/The_Book_Of_Belial_Icon.png?version=e7c864be8ee1114c9716f611b8bf235c",
+	"The Book of Belial": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Book_of_Belial",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/The_Book_of_Belial_Icon.png?version=16e9ca2b8a75851ac17b5ebe33dd708e",
 		"descriptionHTML": "Guarantees a <a href=\"/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a href=\"/Angel_Room\" title=\"Angel Room\">Angel Room</a> will be open after beating a boss while holding it. Upon use increases damage by 2 for the current room and by a further +50% if the character also has the <a href=\"/Blood_Of_The_Martyr\" title=\"Blood Of The Martyr\">Blood Of The Martyr</a>."
 	},
-	"Book Of Revelations": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_Of_Revelations",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/Book_Of_Revelations_Icon.png?version=6282b7854015c899ba2c2e76011f9f21",
-		"descriptionHTML": "Adds 1 <a href=\"/Soul_Heart\" title=\"Soul Heart\" class=\"mw-redirect\">Soul Heart</a> and makes the next <a href=\"/Bosses\" title=\"Bosses\">boss</a> a <a href=\"/Horseman\" title=\"Horseman\" class=\"mw-redirect\">Horseman</a> (except on XL floors and floors with fixed bosses such as <a href=\"/Mom\" title=\"Mom\">Mom</a>)."
+	"Book of Revelations": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_of_Revelations",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/45/Book_of_Revelations_Icon.png?version=19e8ac71ed418a3a66c766a90028e3e7",
+		"descriptionHTML": "Adds 1 <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul heart</a> and increases the chance for the next <a href=\"/Boss\" title=\"Boss\" class=\"mw-redirect\">boss</a> to be a <a href=\"/Horseman\" title=\"Horseman\" class=\"mw-redirect\">Horseman</a> (except on XL floors and floors with fixed bosses such as <a href=\"/Mom\" title=\"Mom\">Mom</a>)."
 	},
-	"Book Of Secrets": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_Of_Secrets",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/Book_Of_Secrets_Icon.png?version=2c51bb3c7e33cbb0fd60062b3dc277aa",
+	"Book of Secrets": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_of_Secrets",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9b/Book_of_Secrets_Icon.png?version=0be7d6f653a1e1e8b41710550d0f7f87",
 		"descriptionHTML": "Upon use, gives the effect of <a href=\"/Treasure_Map\" title=\"Treasure Map\">Treasure Map</a>, <a href=\"/The_Compass\" title=\"The Compass\">The Compass</a>, or <a href=\"/Blue_Map\" title=\"Blue Map\">Blue Map</a> for the duration of the current floor."
 	},
-	"Book Of Shadows": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_Of_Shadows",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Book_Of_Shadows_Icon.png?version=7b922d87791fa7922ab55acf27954f23",
-		"descriptionHTML": "Upon use, creates a protective <a href=\"/Effects#Shield\" title=\"Effects\">shield</a> nullifying all types of damage for 10 seconds."
+	"Book of Shadows": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Book_of_Shadows",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/90/Book_of_Shadows_Icon.png?version=1f6b9b35a50fe1a9ed37d98c8461b887",
+		"descriptionHTML": "Upon use, creates a protective <a href=\"/Shield\" title=\"Shield\" class=\"mw-redirect\">shield</a> nullifying all types of damage for 10 seconds."
 	},
-	"The Book Of Sin": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Book_Of_Sin",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/79/The_Book_Of_Sin_Icon.png?version=164b70fac3a857639f0e2269b82e3c78",
-		"descriptionHTML": "Spawns a random <a href=\"/Pick_Up\" title=\"Pick Up\" class=\"mw-redirect\">Pick Up</a>, <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">Pill</a>, <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">Card</a>, or <a href=\"/Trinket\" title=\"Trinket\" class=\"mw-redirect\">Trinket</a>."
+	"The Book of Sin": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Book_of_Sin",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/The_Book_of_Sin_Icon.png?version=87654bbeb9449a6dd00a095dbfdf03fa",
+		"descriptionHTML": "Spawns a random <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickup</a>, <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">pill</a>, <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">card</a>, or <a href=\"/Trinket\" title=\"Trinket\" class=\"mw-redirect\">trinket</a>."
 	},
 	"The Boomerang": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Boomerang",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a5/The_Boomerang_Icon.png?version=c29139cfc23b4b3e9c4bd526dc1be51b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a5/The_Boomerang_Icon.png?version=84f36a5192452bc6d78ed0cf79d2bf2b",
 		"descriptionHTML": "Throws a short-range boomerang which does a bit of damage and has a high chance to stun the enemy for 2 seconds. Can also be used to grab pickups."
 	},
-	"Box Of Spiders": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Box_Of_Spiders",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c1/Box_Of_Spiders_Icon.png?version=cd2e1ddc8a2565c90c72c3a09f530456",
-		"descriptionHTML": "Summons 2-4 <a href=\"/Blue_Spider\" title=\"Blue Spider\" class=\"mw-redirect\">Blue Spiders</a>."
+	"Box of Spiders": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Box_of_Spiders",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5e/Box_of_Spiders_Icon.png?version=3f7c212ee2b458fbee0dad4a67e8a815",
+		"descriptionHTML": "Summons 2-4 <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a>."
 	},
-	"Breath Of Life": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Breath_Of_Life",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/77/Breath_Of_Life_Icon.png?version=6f7e1f09062638c76bb748b85edd6d80",
+	"Breath of Life": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Breath_of_Life",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a2/Breath_of_Life_Icon.png?version=7390b9c36e61d25ff91867245f6cb0a0",
 		"descriptionHTML": "Grants a brief moment of invincibility when the charge bar hits zero. If spacebar is held for an additional second after hitting zero, Isaac will take damage."
 	},
 	"Butter Bean": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Butter_Bean",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Butter_Bean_Icon.png?version=136eae2b65ed39eff70a8973f090d80e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Butter_Bean_Icon.png?version=fe47f533dc5873bf18b2d030dc362574",
 		"descriptionHTML": "Isaac farts and pushes back nearby enemies."
 	},
 	"The Candle": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Candle",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/The_Candle_Icon.png?version=66cb60a7df4f6c4f8158254abccea954",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/The_Candle_Icon.png?version=bd55d27e3caa21a5202676f7af8ca646",
 		"descriptionHTML": "Throws out a blue flame that can pass over gaps (but not through rocks). The flame damages anything in its path."
 	},
 	"Converter": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Converter",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Converter_Icon.png?version=c1fd31996ecd815fbb615b69083f030b",
-		"descriptionHTML": "When used, converts two <a href=\"/Attributes#Soul_Hearts\" title=\"Attributes\">soul hearts</a> into a <a href=\"/Attributes#Heart_Containers\" title=\"Attributes\">heart container</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Converter_Icon.png?version=0eb2fb2e14a3cc55a2c665150d1fe6d4",
+		"descriptionHTML": "When used, converts two <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a> into a <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
-	"Crack The Sky": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crack_The_Sky",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/Crack_The_Sky_Icon.png?version=cd99f7bf6eddf17d5c9a47e08ad9f951",
+	"Crack the Sky": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crack_the_Sky",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Crack_the_Sky_Icon.png?version=0cd52fd3a550a5cadb6b42f4c813b346",
 		"descriptionHTML": "Summons multiple beams of light in random locations around the room, dealing a large amount of damage to any enemy that touches them."
 	},
 	"Crystal Ball": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crystal_Ball",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/Crystal_Ball_Icon.png?version=2613644a6bdf03424690c19baed3b612",
-		"descriptionHTML": "Reveals the map (except the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>) and drops a random <a href=\"/Tarot_Card\" title=\"Tarot Card\" class=\"mw-redirect\">Tarot Card</a> or <a href=\"/Soul_Heart\" title=\"Soul Heart\" class=\"mw-redirect\">Soul Heart</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/Crystal_Ball_Icon.png?version=a969ed3c67c51000364dca36b6bb26e2",
+		"descriptionHTML": "Reveals the map (except the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>) and drops a random <a href=\"/Tarot_Card\" title=\"Tarot Card\" class=\"mw-redirect\">Tarot Card</a> or <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul heart</a>."
 	},
 	"D4": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D4",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/34/D4_Icon.png?version=0aa426bb29cede49e6ea64fe4ac27a07",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/34/D4_Icon.png?version=4a9712988f7298d8b09064285dcd8518",
 		"descriptionHTML": "Rerolls all upgrades on the player. (Does not reroll <a href=\"/Azazel\" title=\"Azazel\">Azazel's</a> brimstone)."
 	},
-	"D6": {
+	"The D6": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_D6",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fa/The_D6_Icon.png?version=b5985281793295b5acb8eecbe43fbf65",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fa/The_D6_Icon.png?version=21cf82fc9d2776b9855af0d3d343f72c",
 		"descriptionHTML": "Allows Isaac to re-roll collectible items in the current room into other items, depending on the current room's <a href=\"/Item_Pool\" title=\"Item Pool\">Item Pool</a>."
 	},
 	"D10": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D10",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6e/D10_Icon.png?version=439523b1b3715d9e4c802d273559fbb7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6e/D10_Icon.png?version=dfe97c77021357626240bb06491a2a54",
 		"descriptionHTML": "Rerolls the enemies in a room. Only rerolls enemies that are still alive (does not spawn new enemies)."
 	},
 	"D20": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D20",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7a/D20_Icon.png?version=5f924572ac40250a5677579375aa4c4e",
-		"descriptionHTML": "Rerolls all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> in the current room."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7a/D20_Icon.png?version=3877937e1d53925802fb918c55bfc342",
+		"descriptionHTML": "Rerolls all <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> in the current room."
 	},
 	"D100": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D100",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2a/D100_Icon.png?version=022681b09483edfe398c039a7737aa61",
-		"descriptionHTML": "Upon use, rerolls all passive items on Isaac like the <a href=\"/D4\" title=\"D4\">D4</a>, every pedestal item on the room like the <a href=\"/D6\" title=\"D6\" class=\"mw-redirect\">D6</a> and every pickup like the <a href=\"/D20\" title=\"D20\">D20</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2a/D100_Icon.png?version=c5675344d0d9f3a5dfc2eb8b882d41d6",
+		"descriptionHTML": "Upon use, rerolls all passive items on Isaac like the <a href=\"/D4\" title=\"D4\">D4</a>, every pedestal item in the room like the <a href=\"/D6\" title=\"D6\" class=\"mw-redirect\">D6</a> and every pickup like the <a href=\"/D20\" title=\"D20\">D20</a>."
 	},
 	"Dad's Key": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dad%27s_Key",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/04/Dad%27s_Key_Icon.png?version=23925d0171425f66dbe0962e3c10f1e2",
-		"descriptionHTML": "Opens all doors in the current room when activated, including doors which require a <a href=\"/Pickups#Keys\" title=\"Pickups\">Key</a> to open and entrances to <a href=\"/Secret_Room\" title=\"Secret Room\">secret rooms</a>. Opens the big doors in the first room of both <a href=\"/Chapters#The_Chest\" title=\"Chapters\">The Chest</a> and <a href=\"/Chapters#The_Dark_Room\" title=\"Chapters\">The Dark Room</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/04/Dad%27s_Key_Icon.png?version=5ac9737d5c736c0cc76e7d53f4e1093f",
+		"descriptionHTML": "Opens all doors in the current room when activated, including doors which require a <a href=\"/Key\" title=\"Key\" class=\"mw-redirect\">key</a> to open and entrances to <a href=\"/Secret_Room\" title=\"Secret Room\">secret rooms</a>. Opens the big doors in the first room of both <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a> and the <a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a>."
 	},
 	"Dead Sea Scrolls": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Sea_Scrolls",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Dead_Sea_Scrolls_Icon.png?version=a5438a08c32dc76f93776724e22c9dea",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Dead_Sea_Scrolls_Icon.png?version=fd41ba9e4ea9aff4d4c2f316b8b1d6b4",
 		"descriptionHTML": "Triggers the effect of a random activated item from a list of possible options (not every activated item is included)."
 	},
-	"Deck Of Cards": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Deck_Of_Cards",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f8/Deck_Of_Cards_Icon.png?version=5d319c9962a5e35e0435e6114fa79216",
+	"Deck of Cards": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Deck_of_Cards",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/Deck_of_Cards_Icon.png?version=eab06434b077a8b48ec6cfb730ac5d29",
 		"descriptionHTML": "Gives Isaac a random <a href=\"/Tarot_Card\" title=\"Tarot Card\" class=\"mw-redirect\">Tarot Card</a>."
 	},
 	"Doctor's Remote": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Doctor%27s_Remote",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Doctor%27s_Remote_Icon.png?version=371beb493a610a26c37272e59cf28325",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Doctor%27s_Remote_Icon.png?version=b4d73e381402db114c9cfdf23f849b2d",
 		"descriptionHTML": "Sets a big red target on the ground (similar to the <a href=\"/Epic_Fetus\" title=\"Epic Fetus\">Epic Fetus</a> item) which can be controlled with tear controls. After 6 seconds or by pressing space again, a huge explosive missile hits it, which damages all enemies caught in its blast radius."
 	},
 	"Flush!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Flush!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/57/Flush%21_Icon.png?version=9907a63aa347d632e704e9e64908e0b3",
-		"descriptionHTML": "Changes all enemies in the room into <a href=\"/Poop\" title=\"Poop\">poop</a>. Does not work on all enemies (<a href=\"/Knight\" title=\"Knight\">Knights</a> and <a href=\"/Bosses\" title=\"Bosses\">bosses</a> are immune)."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/57/Flush%21_Icon.png?version=cbb3148278ce8fd5d16d88f5e3d1f774",
+		"descriptionHTML": "Changes all enemies in the room into <a href=\"/Poop\" title=\"Poop\" class=\"mw-redirect\">poop</a>. Does not work on all enemies (<a href=\"/Knight\" title=\"Knight\">Knights</a> and <a href=\"/Boss\" title=\"Boss\" class=\"mw-redirect\">bosses</a> are immune). Instantly kills <a href=\"/Dingle\" title=\"Dingle\">Dingle</a>, <a href=\"/Dangle\" title=\"Dangle\">Dangle</a>, and <a href=\"/Brownie\" title=\"Brownie\">Brownie</a>."
 	},
 	"Forget Me Now": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Forget_Me_Now",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Forget_Me_Now_Icon.png?version=8cdc74d760eeb7329bfdedd69b23ed88",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/Forget_Me_Now_Icon.png?version=da537f4e498a28536163abeb5b748dc5",
 		"descriptionHTML": "When activated, the level ends and is freshly regenerated with new rooms, monsters, and items. Disappears after use."
 	},
 	"The Gamekid": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Gamekid",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5e/The_Gamekid_Icon.png?version=2602fc379a5d2a14332a375813dbc0c7",
-		"descriptionHTML": "Upon use, turns the character into a into a <a href=\"https://en.wikipedia.org/wiki/Pac-Man_(character)\" class=\"extiw\" title=\"wikipedia:Pac-Man (character)\">Pac-Man</a>-like creature for 5 seconds, granting <a href=\"/Effects#Invulnerability\" title=\"Effects\">invulnerability</a> and increased speed, inflicting <a href=\"/Status_Effects\" title=\"Status Effects\" class=\"mw-redirect\">fear</a> on all enemies, and replenishing half a red heart container for every two enemies killed."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5e/The_Gamekid_Icon.png?version=4629cd0acdef79d754bb101d74198d49",
+		"descriptionHTML": "Upon use, turns the character into a into a <a href=\"https://en.wikipedia.org/wiki/Pac-Man_(character)\" class=\"extiw\" title=\"wikipedia:Pac-Man (character)\">Pac-Man</a>-like creature for 5 seconds, granting <a href=\"/Invulnerability\" title=\"Invulnerability\" class=\"mw-redirect\">invulnerability</a> and increased speed, inflicting <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear</a> on all enemies, and replenishing half a red heart container for every two enemies killed."
 	},
 	"Guppy's Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Head",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Guppy%27s_Head_Icon.png?version=b48d422c6ecf802b467b05dafe12099d",
-		"descriptionHTML": "Spawns 2-4 <a href=\"/Blue_Flies\" title=\"Blue Flies\" class=\"mw-redirect\">Blue Flies</a> to damage enemies."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Guppy%27s_Head_Icon.png?version=68a7260e8723b557e085ec550c3f51d9",
+		"descriptionHTML": "Spawns 2-4 <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">blue flies</a> to damage enemies."
 	},
 	"Guppy's Paw": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Paw",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/Guppy%27s_Paw_Icon.png?version=3b018840fcd976293aa9806fe9525c62",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/Guppy%27s_Paw_Icon.png?version=e1537d7a76e563fd35976bec6bec9b78",
 		"descriptionHTML": "Removes one Heart Container in exchange for gaining 3 Soul Hearts."
 	},
-	"Head Of Krampus": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Head_Of_Krampus",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/76/Head_Of_Krampus_Icon.png?version=4f63a76895ef3dad4684fa02170ed891",
-		"descriptionHTML": "Fires a cross-patterned brimstone shot, just like <a href=\"/The_Fallen\" title=\"The Fallen\">the Fallen</a> and <a href=\"/Krampus\" title=\"Krampus\">Krampus</a> shoot."
+	"Head of Krampus": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Head_of_Krampus",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ed/Head_of_Krampus_Icon.png?version=4fb1b160b0a6a7b11475d33a175a5dab",
+		"descriptionHTML": "Fires a cross-patterned brimstone shot, just like <a href=\"/The_Fallen\" title=\"The Fallen\">The Fallen</a> and <a href=\"/Krampus\" title=\"Krampus\">Krampus</a> shoot."
 	},
-	"How To Jump": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/How_To_Jump",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1f/How_To_Jump_Icon.png?version=c5e4c2ba1f05f09cfe625b043eec1bb6",
+	"How to Jump": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/How_to_Jump",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/63/How_to_Jump_Icon.png?version=11ef6eed773a25c31131df924d883f6c",
 		"descriptionHTML": "Gives Isaac the ability to jump (over gaps, spikes, etc.)."
 	},
 	"The Hourglass": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Hourglass",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/The_Hourglass_Icon.png?version=41aa81b0dc317061b07185d8735f1da1",
-		"descriptionHTML": "Upon activation, enemies and their projectiles are <a href=\"/Effects#Status_Effects\" title=\"Effects\">slowed</a> down for a short duration."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/The_Hourglass_Icon.png?version=0ef1d0f036b1f905b42785dffbccee2c",
+		"descriptionHTML": "Upon activation, enemies and their projectiles are <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slowed</a> down for a short duration."
 	},
 	"Isaac's Tears": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Isaac%27s_Tears",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b6/Isaac%27s_Tears_Icon.png?version=a1bd6f5234c81eea6282090946fe412f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b6/Isaac%27s_Tears_Icon.png?version=7b2237e13f25560b79bd986c5e858ad2",
 		"descriptionHTML": "Shoots 8 tears around Isaac, which retain the damage, shot speed, and special effects of his tears. Each tear shot by Isaac increases item charge by one."
 	},
 	"IV Bag": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/IV_Bag",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/IV_Bag_Icon.png?version=a7cb7d63949274e9808da0c75aad8e20",
-		"descriptionHTML": "Upon activation, Isaac loses a half-heart (one whole heart in <a href=\"/The_Womb\" title=\"The Womb\">The Womb</a> onwards) for a random amount of coins, similar to the <a href=\"/Blood_Donation_Machine\" title=\"Blood Donation Machine\" class=\"mw-redirect\">Blood Donation Machine</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/IV_Bag_Icon.png?version=b465dff1583f6f702e50d6e4eb531ee5",
+		"descriptionHTML": "Upon activation, Isaac loses a half-heart (one whole heart in <a href=\"/The_Womb\" title=\"The Womb\">The Womb</a> onwards) for a random amount of coins, similar to the <a href=\"/Blood_donation_machine\" title=\"Blood donation machine\" class=\"mw-redirect\">blood donation machine</a>."
 	},
 	"The Jar": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Jar",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/The_Jar_Icon.png?version=84ca060314de63439a704671ac6f36f7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/The_Jar_Icon.png?version=9528afdd590ff2e00104548ad0ed914b",
 		"descriptionHTML": "When at full health, up to 4 extra hearts can be stored in the jar."
 	},
 	"Kamikaze!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Kamikaze!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Kamikaze%21_Icon.png?version=68162f156ebfd0ae9bad1f2957f07478",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Kamikaze%21_Icon.png?version=e3110a6e56ea7031c9366586efa5fdc8",
 		"descriptionHTML": "Creates an explosion in the same area as Isaac, dealing half a heart of damage to him and also damaging all enemies caught in the blast radius."
 	},
 	"Lemon Mishap": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lemon_Mishap",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/19/Lemon_Mishap_Icon.png?version=830d83e3b608b55b96700e67f9d36573",
-		"descriptionHTML": "Creates a small yellow pool of <a href=\"/Creep\" title=\"Creep\">Creep</a>, which damages enemies that cross it."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/19/Lemon_Mishap_Icon.png?version=202af35ffbe30412c84dbe63f96be87c",
+		"descriptionHTML": "Creates a small yellow pool of <a href=\"/Creep\" title=\"Creep\">creep</a>, which damages enemies that cross it."
 	},
 	"Magic Fingers": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Magic_Fingers",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/Magic_Fingers_Icon.png?version=812c49da1bc1c5934dc8e16b592e129d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/Magic_Fingers_Icon.png?version=be1b8ad989aea8bb9d7a84457a49c724",
 		"descriptionHTML": "For 1 Coin, damages all enemies in the room."
 	},
 	"Mom's Bottle Of Pills": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Bottle_Of_Pills",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/55/Mom%27s_Bottle_Of_Pills_Icon.png?version=876691bee497a8e81bf8c50721bc694c",
-		"descriptionHTML": "Gives Isaac a random <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">Pill</a>, and will cause him to drop any held Q-slot item (If any). The player will only receive six different pill types in one playthrough."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/55/Mom%27s_Bottle_Of_Pills_Icon.png?version=a0a050ca5e37c09225555eb2e6bd425c",
+		"descriptionHTML": "Gives Isaac a random <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">pill</a>, and will cause him to drop any held Q-slot item (If any). The player will only receive six different pill types in one playthrough."
 	},
 	"Mom's Bra": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Bra",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c4/Mom%27s_Bra_Icon.png?version=05d493a111f4d5057a2464e527ac2268",
-		"descriptionHTML": "Upon use <a href=\"/Status_Effects#Status_Effects\" title=\"Status Effects\" class=\"mw-redirect\">petrifies</a> all enemies in the current room for approximately 4 seconds."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c4/Mom%27s_Bra_Icon.png?version=26dcba444547049c5b9d43bf1c8d6566",
+		"descriptionHTML": "Upon use, <a href=\"/Petrification\" title=\"Petrification\" class=\"mw-redirect\">petrifies</a> all enemies in the current room for approximately 4 seconds."
 	},
 	"Mom's Pad": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Pad",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b7/Mom%27s_Pad_Icon.png?version=879bc889351ddb90ea6d33046aa8abec",
-		"descriptionHTML": "Upon use inflicts <a href=\"/Status_Effects#Status_Effects\" title=\"Status Effects\" class=\"mw-redirect\">fear</a> to all enemies in the room for 5 seconds."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b7/Mom%27s_Pad_Icon.png?version=683dce9334fc72419dda9dbdd01938e3",
+		"descriptionHTML": "Upon use, inflicts <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear</a> to all enemies in the room for 5 seconds."
 	},
 	"Monster Manual": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Monster_Manual",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Monster_Manual_Icon.png?version=64030680a7d301f0a5a57f71ea57f612",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Monster_Manual_Icon.png?version=3466335433974e035b5cc988a261ec43",
 		"descriptionHTML": "Summons a random <a href=\"/Familiar\" title=\"Familiar\">familiar</a> for the current room. Can summon familiars not yet unlocked."
 	},
 	"Monstro's Tooth": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Monstro%27s_Tooth",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/76/Monstro%27s_Tooth_Icon.png?version=99d4bb6916b9923923730419232ec5ae",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/76/Monstro%27s_Tooth_Icon.png?version=4020e554e11fa4f936241755219d0517",
 		"descriptionHTML": "<a href=\"/Monstro\" title=\"Monstro\">Monstro</a> jumps onto a random enemy, doing area damage. Can damage/kill the player if summoned in an room without enemies."
 	},
 	"Mr. Boom": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mr._Boom",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Mr._Boom_Icon.png?version=4be2d29ff6d2d9b217c2d1e91c304808",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Mr._Boom_Icon.png?version=b05dd0a70af30f38458206607b6553d6",
 		"descriptionHTML": "Drops a large bomb."
 	},
 	"My Little Unicorn": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/My_Little_Unicorn",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cb/My_Little_Unicorn_Icon.png?version=aa1a6fc63ea4fdfd4977f46d18d7e9b8",
-		"descriptionHTML": "Upon use, grants <a href=\"/Effects#Invulnerability\" title=\"Effects\">invulnerability</a> and increased speed for five seconds, removing the ability to shoot tears and instead dealing contact damage to enemies."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cb/My_Little_Unicorn_Icon.png?version=6fc25c679520fc9b3323302da21ef913",
+		"descriptionHTML": "Upon use, grants <a href=\"/Invulnerability\" title=\"Invulnerability\" class=\"mw-redirect\">invulnerability</a> and increased speed for five seconds, removing the ability to shoot tears and instead dealing contact damage to enemies."
 	},
 	"The Nail": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Nail",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/The_Nail_Icon.png?version=56a6a23fbbce7126398563c2c4b8be8a",
-		"descriptionHTML": "Adds one <a href=\"/Soul_Heart\" title=\"Soul Heart\" class=\"mw-redirect\">Soul Heart</a> and allows the breaking of Rocks and damaging enemies by simply walking over them. Increases Damage and decreases Speed. All effects except for the Soul Heart wear off upon leaving the room."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/The_Nail_Icon.png?version=c95e33c2c2652b2b42c96930b73dc787",
+		"descriptionHTML": "Adds one <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul heart</a> and allows the breaking of Rocks and damaging enemies by simply walking over them. Increases Damage and decreases Speed. All effects except for the Soul Heart wear off upon leaving the room."
 	},
 	"The Necronomicon": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Necronomicon",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/77/The_Necronomicon_Icon.png?version=5bfa1cb9b0b1843d3fd6733386689622",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/77/The_Necronomicon_Icon.png?version=a30f75e836a60c8dba87594c973b69b9",
 		"descriptionHTML": "Damages all enemies in the room significantly."
 	},
 	"Notched Axe": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Notched_Axe",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Notched_Axe_Icon.png?version=40456bd76e50be87829c49081390bdc4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Notched_Axe_Icon.png?version=78fb8d9ee77ea86aa1618df9e93e7278",
 		"descriptionHTML": "Isaac holds the axe above his head for as long as the spacebar button is held (or until he leaves the room). While holding the axe, Isaac can break any rock he touches, but cannot attack or pick up other items."
 	},
 	"Pandora's Box": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pandora%27s_Box",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2d/Pandora%27s_Box_Icon.png?version=c9183ccf100a6102fa662d3d630ea864",
-		"descriptionHTML": "Upon use, spawns certain <a href=\"/Pickups\" title=\"Pickups\">Pickups</a> or <a href=\"/Items\" title=\"Items\" class=\"mw-redirect\">Items</a> depending on the floor it is used on. Single-use."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2d/Pandora%27s_Box_Icon.png?version=2913b58455e962d28e79b9c4d2025b6e",
+		"descriptionHTML": "Upon use, spawns certain <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> or <strong class=\"selflink\">items</strong> depending on the floor it is used on. Single-use."
 	},
 	"The Pinking Shears": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Pinking_Shears",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/The_Pinking_Shears_Icon.png?version=333cc7cbcac01d237f566f1ae8d02b10",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4b/The_Pinking_Shears_Icon.png?version=86b9ae2e0097b31ecef41d0f5f1f27c9",
 		"descriptionHTML": "Separates Isaac's head and body for the current room. Isaac's head, which now has <a href=\"/Flight\" title=\"Flight\">flight</a>, will be under the player's control, while his body will seek out enemies to attack by contact damage."
 	},
 	"The Pony": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Pony",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/87/The_Pony_Icon.png?version=8cb07e58acb61861af815249adf48834",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/87/The_Pony_Icon.png?version=1d42348e930d75e64fa11b5871dedefa",
 		"descriptionHTML": "Passively grants <a href=\"/Flight\" title=\"Flight\">flight</a> and increased speed. Upon use, Isaac charges in the direction the pony is facing, becoming invulnerable during the charge and damaging enemies."
 	},
 	"The Poop": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Poop",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/The_Poop_Icon.png?version=2017be75d81ee1b7397647ec4fb6eef5",
-		"descriptionHTML": "Spawns a pile of <a href=\"/Obstacles#Poop\" title=\"Obstacles\">poop</a> where the character is standing and <a href=\"/Knock-back\" title=\"Knock-back\" class=\"mw-redirect\">knocks nearby monsters back</a>. May yield <a href=\"/Pickups\" title=\"Pickups\">pickups</a> like regular poop."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/The_Poop_Icon.png?version=b75a1a244c09732125e402a926d303f8",
+		"descriptionHTML": "Spawns a pile of <a href=\"/Poop\" title=\"Poop\" class=\"mw-redirect\">poop</a> where the character is standing and <a href=\"/Knock-back\" title=\"Knock-back\" class=\"mw-redirect\">knocks nearby monsters back</a>. May yield <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> like regular poop."
 	},
 	"Portable Slot": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Portable_Slot",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Portable_Slot_Icon.png?version=cbf71bee1af85cd1a0ff31626285092a",
-		"descriptionHTML": "Upon activation, 1 <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coin</a> will be consumed, and a random <a href=\"/Pick_Up\" title=\"Pick Up\" class=\"mw-redirect\">Pick Up</a> may drop, similar to the <a href=\"/Slot_Machine\" title=\"Slot Machine\" class=\"mw-redirect\">Slot Machine</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Portable_Slot_Icon.png?version=3530502a4ed0e8b12738b308a657600b",
+		"descriptionHTML": "Upon activation, 1 <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coin</a> will be consumed, and a random <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickup</a> may drop, similar to the <a href=\"/Slot_machine\" title=\"Slot machine\" class=\"mw-redirect\">slot machine</a>."
 	},
 	"Prayer Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Prayer_Card",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/17/Prayer_Card_Icon.png?version=7090f8006efc0832cd9f3084b68d447c",
-		"descriptionHTML": "Grants an <a href=\"/Eternal_Heart\" title=\"Eternal Heart\" class=\"mw-redirect\">Eternal Heart</a> per use."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/17/Prayer_Card_Icon.png?version=bdcc4dcc662aacb71466c7a3c5e5dd73",
+		"descriptionHTML": "Grants an <a href=\"/Eternal_heart\" title=\"Eternal heart\" class=\"mw-redirect\">eternal heart</a> per use."
 	},
 	"Razor Blade": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Razor_Blade",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Razor_Blade_Icon.png?version=2d4da8732f49d5c19966f9850b5760f5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Razor_Blade_Icon.png?version=6d633ca13870b0f07bec8c81e5be5498",
 		"descriptionHTML": "Upon use deals one heart damage and grants +1.2 damage for the current room."
 	},
 	"Red Candle": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Red_Candle",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Red_Candle_Icon.png?version=87ce7f0697e77785edcf72dc3d60ca17",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Red_Candle_Icon.png?version=e032e108fc17d5799b5667d9f95b6f2b",
 		"descriptionHTML": "Throws a persistent flame that deals high damage and diminishes as it damages enemies or blocks shots."
 	},
 	"Remote Detonator": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Remote_Detonator",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Remote_Detonator_Icon.png?version=276348a3f0f1e04655c1c6019d152e5f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Remote_Detonator_Icon.png?version=e160d9652d9da29bda605a2953e3cdf4",
 		"descriptionHTML": "Bombs you place explode only when you use this item. Gives 5 bombs."
 	},
 	"Satanic Bible": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Satanic_Bible",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5b/Satanic_Bible_Icon.png?version=704d3e7e7819bb56746618796fa8f4d4",
-		"descriptionHTML": "Upon activation, Isaac gains a black heart."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5b/Satanic_Bible_Icon.png?version=ade33020618b32616da1a51fea32c173",
+		"descriptionHTML": "Upon activation, Isaac gains a <a href=\"/Black_heart\" title=\"Black heart\" class=\"mw-redirect\">black heart</a>."
 	},
 	"Scissors": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Scissors",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Scissors_Icon.png?version=1174ab4cfff3f872204be894e17b7bdf",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Scissors_Icon.png?version=8c3c11ef6e21dac33f6253c435048364",
 		"descriptionHTML": "Upon use, turns Isaac's head into a stationary <a href=\"/Familiar\" title=\"Familiar\">familiar</a> for the current room which fires normal tears that deal 3.5 damage."
 	},
 	"Shoop Da Whoop!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Shoop_Da_Whoop!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Shoop_Da_Whoop%21_Icon.png?version=8fe8e1590d5675ec911aa2cda0bf0648",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Shoop_Da_Whoop%21_Icon.png?version=8088aac3e7d1a61ff1c6097465585ce1",
 		"descriptionHTML": "Fires a laser from Isaac's mouth."
 	},
 	"Spider Butt": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spider_Butt",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7f/Spider_Butt_Icon.png?version=40077a39b1f6f133820f2bb0dc4b874d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7f/Spider_Butt_Icon.png?version=a8396195d0e3f2d22921a78a9db67281",
 		"descriptionHTML": "Damages all enemies in the room and <a href=\"/Effects#Status_Effects\" title=\"Effects\">slows</a> them and their projectiles down."
 	},
 	"Tammy's Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tammy%27s_Head",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Tammy%27s_Head_Icon.png?version=53221586419073c68b0cddcb206e8e9e",
-		"descriptionHTML": "Shoots 10 tears in a circle around Isaac, which retain the damage, shot speed, and special effects (such as <a href=\"/Status_Effects\" title=\"Status Effects\" class=\"mw-redirect\">Poison</a>) of Isaac's tears."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Tammy%27s_Head_Icon.png?version=eed3e07d205afe1327964a38b4517a07",
+		"descriptionHTML": "Shoots 10 tears in a circle around Isaac, which retain the damage, shot speed, and special effects (such as <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison</a>) of Isaac's tears."
 	},
-	"Telepathy For Dummies": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Telepathy_For_Dummies",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/12/Telepathy_For_Dummies_Icon.png?version=5228648fa8cb5fd47a4d797a1cc2b805",
-		"descriptionHTML": "Upon activation, grants <a href=\"/Effects#Homing_Tears\" title=\"Effects\">homing tears</a> for the current room."
+	"Telepathy for Dummies": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Telepathy_for_Dummies",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Telepathy_for_Dummies_Icon.png?version=93ab22bbe6f077466626282e9fd7aff2",
+		"descriptionHTML": "Upon activation, grants <a href=\"/Homing_tears\" title=\"Homing tears\" class=\"mw-redirect\">homing tears</a> for the current room."
 	},
 	"Teleport": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Teleport",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Teleport_Icon.png?version=0f7a46d4843e4075dffce281ff05bb66",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Teleport_Icon.png?version=cf03e2386051473d7f6ac03ca6577cc4",
 		"descriptionHTML": "Teleports you to a random room on the level."
 	},
 	"Undefined": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Undefined",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5b/Undefined_Icon.png?version=32fa513ec2abe469a4bf4ab10b984f91",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5b/Undefined_Icon.png?version=a8dea4e14bb068e81836585ee96f6eb8",
 		"descriptionHTML": "Teleports Isaac to either the <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Room</a>, <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>, <a href=\"/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>, or <a href=\"/I_AM_ERROR\" title=\"I AM ERROR\">I AM ERROR</a>."
 	},
 	"Unicorn Stump": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Unicorn_Stump",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Unicorn_Stump_Icon.png?version=b45b428bb806ba0e33bd9d0868fcd23a",
-		"descriptionHTML": "Upon use, grants <a href=\"/Effects#Invulnerability\" title=\"Effects\">invulnerability</a> and increased speed for five seconds, but removes the ability to shoot tears."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Unicorn_Stump_Icon.png?version=f4d03bbc55e929d97fccac144da30789",
+		"descriptionHTML": "Upon use, grants <a href=\"/Invulnerability\" title=\"Invulnerability\" class=\"mw-redirect\">invulnerability</a> and increased speed for five seconds, but removes the ability to shoot tears."
 	},
-	"We Need To Go Deeper!": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/We_Need_To_Go_Deeper!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/We_Need_To_Go_Deeper%21_Icon.png?version=c2dc75a1ff518a88e62fa6a183122334",
+	"We Need to Go Deeper!": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/We_Need_to_Go_Deeper!",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/We_Need_to_Go_Deeper%21_Icon.png?version=a522cf202041950743e71e90b10ac85b",
 		"descriptionHTML": "Creates a trapdoor to go to the next floor. If used in <a href=\"/The_Womb\" title=\"The Womb\">The Womb</a>, it will create a trapdoor to <a href=\"/Sheol\" title=\"Sheol\">Sheol</a>, even if the player hasn't unlocked it."
 	},
 	"White Pony": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/White_Pony",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2e/White_Pony_Icon.png?version=8298b30647b7592c86873c65d5355631",
-		"descriptionHTML": "Passively grants <a href=\"/Flight\" title=\"Flight\">flight</a> and increased speed. Upon use, Isaac charges in the direction the pony is facing, becoming invulnerable during the charge and damaging enemies while also casting the effect of <a href=\"/Crack_The_Sky\" title=\"Crack The Sky\">Crack The Sky</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2e/White_Pony_Icon.png?version=0964000179d911f65cc2f5fd996fa5d4",
+		"descriptionHTML": "Passively grants <a href=\"/Flight\" title=\"Flight\">flight</a> and increased speed. Upon use, Isaac charges in the direction the pony is facing, becoming invulnerable during the charge and damaging enemies while also casting the effect of <a href=\"/Crack_the_Sky\" title=\"Crack the Sky\">Crack the Sky</a>."
 	},
 	"Yum Heart": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Yum_Heart",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Yum_Heart_Icon.png?version=c4ebe5030a6ca48f8fa2da08c9092911",
-		"descriptionHTML": "Restores 1 whole <a href=\"/Pickups#Red_Hearts\" title=\"Pickups\">Red heart</a>."
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Yum_Heart_Icon.png?version=ae5b2ca8523a55c07e5b814717703424",
+		"descriptionHTML": "Restores 1 whole <a href=\"/Red_heart\" title=\"Red heart\" class=\"mw-redirect\">red heart</a>."
 	}
 }

@@ -14,9 +14,9 @@
 // Why two files per scrape:  we want to be able to tag each item with our own descriptive search terms, but we also want
 // to be able to re-scrape the items as they get updated, without nuking those tags.
 
-var g_itemLayout = { descriptionCol: 4, dlcTag: true };
-var g_cardLayout = { descriptionCol: 4, dlcTag: true };
-var g_runeLayout = { descriptionCol: 5, dlcTag: true };
+var g_itemLayout = { descriptionCol: 4, iconCol: 2 };
+var g_cardLayout = { descriptionCol: 4, iconCol: 2 };
+var g_runeLayout = { descriptionCol: 5, iconCol: 2 };
 
 var g_layout = g_itemLayout;
 function scrapeTable(tableIndex)
@@ -53,9 +53,8 @@ function rowImageAndThumbnailScrape(row)
 	}
 
 	// cards/runes have the "DLC" icon before the item icon.
-	var img = g_layout.dlcTag ? 
-		getChildTag(row, "img", 1) || getChildTag(row, "img") :
-		getChildTag(row, "img");
+	var iconCol = row.cells[g_layout.iconCol];
+	var img = getChildTag(iconCol, "img");
 	entry.thumbnail = img.src;
 
 	var description = row.cells[g_layout.descriptionCol];
