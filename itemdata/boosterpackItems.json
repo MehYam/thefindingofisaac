@@ -81,3 +81,45 @@ var boosterpack1Cards = {
 		"descriptionHTML": "For the current room, enemies are slowed, Isaac's speed is increased, and his shot speed is decreased."
 	}
 };
+///////////
+var boosterpack2Collectibles = {
+	"Coupon": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Coupon",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Coupon_Icon.png?version=dcd2dfa8b0d07b845c38d138fb61f805",
+		"descriptionHTML": "Upon use, makes a random item from a shop, devil deal, or black market free."
+	},
+	"Telekinesis": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Telekinesis",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/75/Telekinesis_Icon.png?version=fd77276a00a885a5c8c9dea51294f895",
+		"descriptionHTML": "Upon use, for the next two seconds, any enemy shots that come near Isaac are held in place. After the charge is depleted, they are fired back as tears."
+	},
+	"Moving Box": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Moving_Box",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Moving_Box_Icon.png?version=c67e252030180d2ea5acbec176d023f8",
+		"descriptionHTML": "If the box is empty, picks up all items and pickups in a room and stores them. If the box is not empty, places all stored items and pickups in the current room."
+	}
+};
+var boosterpack2Passives = {
+	"Jumper Cables": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Jumper_Cables",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Jumper_Cables_Icon.png?version=bddefd5fd269c7846e125bb68c8a7a6b",
+		"descriptionHTML": "Grants an active item charge every 15 enemies killed."
+	},
+	"Leprosy": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Leprosy",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Leprosy_Icon.png?version=55b28eba9a810f3487d5983594b95d57",
+		"descriptionHTML": "Upon taking damage, grants a body part as an orbital, which blocks enemy shots and deals 7 damage per tick to enemies it comes in contact with. The orbitals will be destroyed if they take enough damage from enemies or enemy shots."
+	},
+	"Technology Zero": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Technology_Zero",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/Technology_Zero_Icon.png?version=da80acd72f105796876f45ec1773dbe7",
+		"descriptionHTML": "Connects Isaac's tears with electricity that can damage enemies."
+	}
+};
+var boosterpack2Trinkets = {
+	"Filigree Feather": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Filigree_Feather",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Filigree_Feather_Icon.png?version=b1b3f2fc851355c3a6f63c19668c10f7",
+		"descriptionHTML": "Angels drop items instead of key pieces when defeated."
+	}
+};

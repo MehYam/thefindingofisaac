@@ -81,3 +81,45 @@ var boosterpack1CardsMeta = {
 		"itemTags": ""
 	}
 };
+////////////////////////
+var boosterpack2CollectiblesMeta = {
+	"Coupon": {
+		"itemType": "",
+		"itemColor": "green red",
+		"itemTags": "credit card paper square text sticker label mail"
+	},
+	"Telekinesis": {
+		"itemType": "",
+		"itemColor": "blue",
+		"itemTags": "hand stop jedi"
+	},
+	"Moving Box": {
+		"itemType": "",
+		"itemColor": "beige yellow",
+		"itemTags": "carton cardboard crate mail"
+	}
+};
+var boosterpack2PassivesMeta = {
+	"Jumper Cables": {
+		"itemType": "",
+		"itemColor": "dark red",
+		"itemTags": "clips tech wires 2"
+	},
+	"Leprosy": {
+		"itemType": "",
+		"itemColor": "pink red",
+		"itemTags": "gross ball zit leprocy"
+	},
+	"Technology Zero": {
+		"itemType": "",
+		"itemColor": "silver black",
+		"itemTags": "round eye shiny glass slot"
+	}
+};
+var boosterpack2TrinketsMeta = {
+	"Filigree Feather": {
+		"itemType": "",
+		"itemColor": "gray",
+		"itemTags": "sword blade rough broken quill"
+	}
+};

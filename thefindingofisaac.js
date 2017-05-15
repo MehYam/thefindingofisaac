@@ -20,11 +20,12 @@ function prepareData(data)
 	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
 	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives, runesAntibirth], DLC_PROP, DLC.ANTIBIRTH);
 	addProperty([boosterpack1Trinkets, boosterpack1Collectibles, boosterpack1Passives, boosterpack1Cards], DLC_PROP, DLC.BOOSTERPACK1);
+	addProperty([boosterpack2Trinkets, boosterpack2Collectibles, boosterpack2Passives], DLC_PROP, DLC.BOOSTERPACK1);
 
 	var CLASS_PROP = "itemClass";
-	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets], CLASS_PROP, "trinket");
-	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles, boosterpack1Collectibles], CLASS_PROP, "active");
-	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives], CLASS_PROP, "passive");
+	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets, boosterpack2Trinkets], CLASS_PROP, "trinket");
+	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles, boosterpack1Collectibles, boosterpack2Collectibles], CLASS_PROP, "active");
+	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives, boosterpack2Passives], CLASS_PROP, "passive");
 	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial, boosterpack1Cards], CLASS_PROP, "card");
 	addProperty([runes1, runes2, runesAntibirth], CLASS_PROP, "rune");
 
@@ -52,6 +53,9 @@ function prepareData(data)
 	mergeMetadata(data, boosterpack1Collectibles, boosterpack1CollectiblesMeta);
 	mergeMetadata(data, boosterpack1Passives, boosterpack1PassivesMeta);
 	mergeMetadata(data, boosterpack1Cards, boosterpack1CardsMeta);
+	mergeMetadata(data, boosterpack2Trinkets, boosterpack2TrinketsMeta);
+	mergeMetadata(data, boosterpack2Collectibles, boosterpack2CollectiblesMeta);
+	mergeMetadata(data, boosterpack2Passives, boosterpack2PassivesMeta);
 
 
 	fixUpRelativeURLs(data);
