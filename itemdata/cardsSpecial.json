@@ -25,8 +25,8 @@ var cardsSpecial = {
 		"descriptionHTML": "Kills Isaac and spawns lots of pickups, items, and/or chests in the same room."
 	},
 	"Get Out Of Jail Free Card": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Get_Out_Of_Jail_Free_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/2/2b/Get_Out_Of_Jail_Free_Card_Icon.png/35px-Get_Out_Of_Jail_Free_Card_Icon.png?version=f32cdad9012169dd3ecda66e0dd01723",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Get_out_of_Jail_Free_Card",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Get_out_of_Jail_Free_Card_Icon.png",
 		"descriptionHTML": "Upon use, opens all doors in the current room (including the golden door at <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a>/<a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a>), similar to <a href=\"/Dad%27s_Key\" title=\"Dad's Key\">Dad's Key</a>."
 	},
 	"? Card": {

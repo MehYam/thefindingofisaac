@@ -160,8 +160,8 @@ var afterbirthPassives = {
 		"descriptionHTML": "Tears now have a random chance to apply a shrinking effect, causing enemies to shrink in size and also run away from Isaac. Shrunk enemies can be crushed and killed by walking over them."
 	},
 	"Head Of The Keeper": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Head_Of_The_Keeper",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0d/Head_Of_The_Keeper_Icon.png?version=31d1ede356968ef05c544318cf2f17cf",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Head_of_the_Keeper",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Head_of_the_Keeper_Icon.png",
 		"descriptionHTML": "Isaac's tears become coins and now have a chance to drop pennies on the floor upon successfully hitting an enemy."
 	},
 	"Holy Light": {
@@ -225,8 +225,8 @@ var afterbirthPassives = {
 		"descriptionHTML": "Isaac will now fire tears automatically directed at a red target on the ground which is controlled by the player. This allows for a full 360 degree tear firing radius. Can be overridden by other tear modifiers such as Mom's Knife or Brimstone."
 	},
 	"Maw Of The Void": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Maw_Of_The_Void",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ed/Maw_Of_The_Void_Icon.png?version=a98e7daa7ae4c15e64680283495135b4",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Maw_of_the_Void",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/80/Maw_of_the_Void_Icon.png",
 		"descriptionHTML": "+1.0 Damage Up. After continuously firing tears for 3 seconds, a red cross appears on Isaac's head that, upon releasing the fire button, creates a black ring which deals a lot of damage to any enemies inside it. The ring rapidly deals damage equal to Isaac's tear damage to any enemies in contact with it."
 	},
 	"Milk!": {

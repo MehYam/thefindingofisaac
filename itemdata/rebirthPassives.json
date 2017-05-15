@@ -130,8 +130,8 @@ var rebirthPassives = {
 		"descriptionHTML": "Increases damage by 1 and range by 5 for tears fired from the left eye."
 	},
 	"Blood Of The Martyr": {
-		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blood_Of_The_Martyr",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2f/Blood_Of_The_Martyr_Icon.png?version=e9707cfa38ba5ce09e79121b4d4c4161",
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blood_of_the_Martyr",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b6/Blood_of_the_Martyr_Icon.png",
 		"descriptionHTML": "Increases Damage by 1, and turns Isaac's tears into blood tears."
 	},
 	"Bloody Lust": {

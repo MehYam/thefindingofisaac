@@ -24,7 +24,7 @@ var cardsPlaying = {
 		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coins</a>."
 	},
 	"Ace of Spades": {
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dc/Ace_of_Spades_%28card%29_Icon.png?version=d3ab97c36f6ae6cbf632a42b9cc833c0",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Ace_of_Spades_Icon.png",
 		"descriptionHTML": "Turns all <a href=\"/Pickups\" title=\"Pickups\">pickups</a> and <a href=\"/Chests\" title=\"Chests\">chests</a> in the room into <a href=\"/Key\" title=\"Key\" class=\"mw-redirect\">keys</a>."
 	},
 	"Ace of Hearts": {
