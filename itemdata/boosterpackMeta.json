@@ -123,3 +123,34 @@ var boosterpack2TrinketsMeta = {
 		"itemTags": "sword blade rough broken quill"
 	}
 };
+var boosterpack3CollectiblesMeta = {
+	"Mr. ME!": {
+		"itemType": "familiar",
+		"itemColor": "silver brown",
+		"itemTags": "box chest"
+	}
+};
+var boosterpack3PassivesMeta = {
+	"7 Seals": {
+		"itemType": "familiar",
+		"itemColor": "white",
+		"itemTags": "stone slab text scroll"
+	},
+	"Angelic Prism": {
+		"itemType": "",
+		"itemColor": "white red yellow green",
+		"itemTags": "shapes triangle circle"
+	},
+	"Pop!": {
+		"itemType": "",
+		"itemColor": "white red",
+		"itemTags": "wet gross eyes eyeballs googly blood"
+	}
+};
+var boosterpack3TrinketsMeta = {
+	"Door Stop": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "wood wedge triangle slice cheese pie"
+	}
+};

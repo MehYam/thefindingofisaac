@@ -123,3 +123,35 @@ var boosterpack2Trinkets = {
 		"descriptionHTML": "Angels drop items instead of key pieces when defeated."
 	}
 };
+////////////
+var boosterpack3Collectibles = {
+	"Mr. ME!": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mr._ME!",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1e/Mr._ME%21_Icon.png?version=e48070df6e9ef98c2300decec3f50b33",
+		"descriptionHTML": "Summons a controllable ghost that can perform various tasks depending on what it targets."
+	}
+};
+var boosterpack3Passives = {
+	"7 Seals": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/7_Seals",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/7_Seals_Icon.png?version=0129c1a3dbcfd006fdaacbee9d72f736",
+		"descriptionHTML": "Grants a random <a href=\"/The_Harbingers\" title=\"The Harbingers\">Harbinger</a> familiar that changes every 10 seconds."
+	},
+	"Angelic Prism": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Angelic_Prism",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d4/Angelic_Prism_Icon.png?version=07d0123803d1b7e8a04aaddd1850efe7",
+		"descriptionHTML": "Grants a prism orbital with a large orbital radius. Tears that pass through the prism split into four multi-colored tears."
+	},
+	"Pop!": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pop!",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Pop%21_Icon.png?version=ed22a8a23a45e60545ffcdbd822f20cf",
+		"descriptionHTML": "Replaces Isaac's tears with eyeballs that can bounce off of each other. The eyeballs are not limited by range, and will instead dissipate when they stop moving or when hitting an enemy or obstacle."
+	}
+};
+var boosterpack3Trinkets = {
+	"Door Stop": {
+		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Door_Stop",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Door_Stop_Icon.png?version=f8466fd5c7220f638ec3098a0f7baf1a",
+		"descriptionHTML": "The last door Isaac went through stays open, allowing him to leave the room even if enemies are in it."
+	}
+};

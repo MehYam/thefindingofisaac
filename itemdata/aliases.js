@@ -64,7 +64,7 @@ var g_aliases =
 	"tech device gadget equipment",
 	"testicles balls",
 	"teeth tooth dental",
-	"text writing",
+	"text words write writing",
 	"one single 1",
 	"two double 2",
 	"three triple triangle 3",
