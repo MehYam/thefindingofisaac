@@ -1,97 +1,97 @@
 var afterbirthPlusCollectibles = {
 	"Brown Nugget": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Brown_Nugget",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Brown_Nugget_Icon.png?version=166252144f8dfd749cb12420c2a4fe66",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Brown_Nugget_Icon.png",
 		"descriptionHTML": "Spawns a stationary fly familiar that fires tears at nearby enemies."
 	},
 	"Clicker": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Clicker",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Clicker_Icon.png?version=9e1187ed8956138ea0fa20cce8017608",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Clicker_Icon.png",
 		"descriptionHTML": "Transforms Isaac into another random character."
 	},
 	"Compost": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Compost",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d9/Compost_Icon.png?version=1613086f6b51c1d862c16a4ea1035b4f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d9/Compost_Icon.png",
 		"descriptionHTML": "Spawns a blue spider or fly. Turns pickups in the room into blue spiders or flies."
 	},
 	"Crooked Penny": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crooked_Penny",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0d/Crooked_Penny_Icon.png?version=fe6dd7afbddffd49a5dfa1098b351c06",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0d/Crooked_Penny_Icon.png",
 		"descriptionHTML": "Spawns a penny and has a 50% chance to double all items and pickups in the room. If the effect fails, the items and pickups disappear."
 	},
 	"D1": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D1",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/D1_Icon.png?version=8a588bf625cb8eaa7a8362c7789a3d07",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/D1_Icon.png",
 		"descriptionHTML": "Duplicates a random pickup in the room."
 	},
 	"D Infinity": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/D_Infinity",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/D_Infinity_Icon.png?version=38d104f965025dfaf30f153821c87f30",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/D_Infinity_Icon.png",
 		"descriptionHTML": "Grants a random dice item that changes each use."
 	},
 	"Dataminer": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dataminer",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Dataminer_Icon.png?version=dfcd3ebacb6ae09d50632278411f732d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Dataminer_Icon.png",
 		"descriptionHTML": "Displaces enemy sprites for the current room and increases or decreases a random stat."
 	},
 	"Delirious": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Delirious",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Delirious_Icon.png?version=3e1218bd93f05d9791728c4545bdb1d4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Delirious_Icon.png",
 		"descriptionHTML": "Spawns a random charmed boss."
 	},
 	"Dull Razor": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dull_Razor",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/86/Dull_Razor_Icon.png?version=221d9dea3d3c34857fbc72dcfe014199",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/86/Dull_Razor_Icon.png",
 		"descriptionHTML": "Hurts Isaac without depleting health, activating any items that trigger upon taking damage."
 	},
 	"Eden's Soul": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Eden%27s_Soul",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Eden%27s_Soul_Icon.png?version=d41c9a930915e5359eeaae5f37be8b67",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Eden%27s_Soul_Icon.png",
 		"descriptionHTML": "Spawns two item pedestals."
 	},
 	"Mama Mega!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mama_Mega!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d8/Mama_Mega%21_Icon.png?version=3b827bab4c65ba2f363c15886ab09ac3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d8/Mama_Mega%21_Icon.png",
 		"descriptionHTML": "Damages all enemies and destroys all obstacles. The effect occurs every time a new room is entered for the rest of the floor. Opens doors to the floor's secret and super secret rooms."
 	},
 	"Metronome": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Metronome",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/ba/Metronome_Icon.png?version=af40891202c39cfade84733db860cea2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/ba/Metronome_Icon.png",
 		"descriptionHTML": "Grants a random item effect for the current room."
 	},
 	"Plan C": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Plan_C",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/53/Plan_C_Icon.png?version=95ff88d77af30518d7bc4850a92e4156",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/53/Plan_C_Icon.png",
 		"descriptionHTML": "Kills all enemies in the room, then kills Isaac three seconds later."
 	},
 	"Potato Peeler": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Potato_Peeler",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Potato_Peeler_Icon.png?version=21a339f66f1e743982a88ef046288887",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Potato_Peeler_Icon.png",
 		"descriptionHTML": "Removes a heart container, increases damage and range, and grants a Cube of Meat."
 	},
 	"Pause": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pause",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Pause_Icon.png?version=633ca41aae3cceebf6165f4572262fe3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Pause_Icon.png",
 		"descriptionHTML": "Freezes all enemies until a fire button is pressed."
 	},
 	"Sharp Straw": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sharp_Straw",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Sharp_Straw_Icon.png?version=65af56ca14d6b69fe50086dda7b36d1c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Sharp_Straw_Icon.png",
 		"descriptionHTML": "Damages all enemies in the room."
 	},
 	"Smelter": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Smelter",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Smelter_Icon.png?version=ae8bc295ec032233b32dc4051f003b14",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Smelter_Icon.png",
 		"descriptionHTML": "Consumes Isaac's currently held trinket and applies its effect permanently."
 	},
 	"Void": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Void",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Void_Icon.png?version=8db534296ad75cbe5657deb88d0913db",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Void_Icon.png",
 		"descriptionHTML": "Consumes all pedestal items in the room. Active items will have their effects added to Void, and passive items will grant stat upgrades."
 	},
 	"Wait What?": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wait_What%3F",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/Wait_What_Icon.png?version=6a1aa89d8455225746c388561d140cfb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/Wait_What_Icon.png",
 		"descriptionHTML": "Isaac farts, sending out rock waves."
 	}
 };

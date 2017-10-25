@@ -1,162 +1,162 @@
 var afterbirthPassives = {
 	"8 Inch Nails": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/8_Inch_Nails",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/8_Inch_Nails_Icon.png?version=5cbd0c25a57bc78e6a9d2aeb123d7196",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/8_Inch_Nails_Icon.png",
 		"descriptionHTML": "+1.5 Damage Up. Replaces Isaac's tears with nails, which have increased knockback."
 	},
 	"Athame": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Athame",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/91/Athame_Icon.png?version=07d6821a092e4d949f9f62d3028a0dc5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/91/Athame_Icon.png",
 		"descriptionHTML": "Whenever Isaac takes damage, a black ring briefly appears around Isaac, dealing damage to all nearby enemies."
 	},
 	"Betrayal": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Betrayal",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1c/Betrayal_Icon.png?version=c282490c0652bb78ed8e59dd102afb06",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1c/Betrayal_Icon.png",
 		"descriptionHTML": "Every time Isaac takes damage, a charm effect is applied to every enemy in the room, causing them to attack each other rather than Isaac."
 	},
 	"Binky": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Binky",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Binky_Icon.png?version=22f5019917434c7b7dba540dc88bac48",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Binky_Icon.png",
 		"descriptionHTML": "Tears up, adds 1 soul heart, and decreases Isaac's size."
 	},
 	"Black Powder": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Powder",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Black_Powder_Icon.png?version=ffede584f190c8d56681b86e99d5ba0c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Black_Powder_Icon.png",
 		"descriptionHTML": "Isaac leaves a trail of black powder on the floor. Walking in a circle will spawn a pentagram symbol on the floor, which deals 10 damage per tick to any enemies inside it."
 	},
 	"Bomber Boy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bomber_Boy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/12/Bomber_Boy_Icon.png?version=c2c7e2e25836bdb9820f423113bec8f8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/12/Bomber_Boy_Icon.png",
 		"descriptionHTML": "+5 bombs. Isaac's bombs will now explode in a large cross-shaped pattern (roughly 5 bombs explosions wide). This also affects troll bombs."
 	},
 	"Bumbo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bumbo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Bumbo_Icon.png?version=9076a0ef64d3a4123d3f4d87d0c66786",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Bumbo_Icon.png",
 		"descriptionHTML": "Spawns a beggar familiar which floats around the room and picks up any nearby coins, leveling up after collecting several coins. At level 2, Bumbo gains a body. At level 3, it begins to fire tears. At level 4, Bumbo chases enemies slowly, dealing contact damage."
 	},
 	"Bursting Sack": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bursting_Sack",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ee/Bursting_Sack_Icon.png?version=c95f0e5df41ff11fa08654b4ddc89447",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ee/Bursting_Sack_Icon.png",
 		"descriptionHTML": "Spider enemies no longer target or deal contact damage to Isaac."
 	},
 	"Cambion Conception": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cambion_Conception",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Cambion_Conception_Icon.png?version=3b330f477e48d2f7e22fde80789a2210",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Cambion_Conception_Icon.png",
 		"descriptionHTML": "After taking damage a certain amount of times, a permanent demonic familiar spawns."
 	},
 	"Car Battery": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Car_Battery",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a0/Car_Battery_Icon.png?version=b0883b5f056a8afc2b1d2a83d57fabb1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a0/Car_Battery_Icon.png",
 		"descriptionHTML": "Causes Isaac's activated item to activate twice on each use."
 	},
 	"Censer": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Censer",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Censer_Icon.png?version=3d05167b9f8429cd964cb88011cca7b7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Censer_Icon.png",
 		"descriptionHTML": "Gives Isaac a golden censer familiar which creates a huge aura of light that slows down any enemies inside it."
 	},
 	"Chaos": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Chaos",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/79/Chaos_Icon.png?version=52382ecda19024795c1530393e9ea268",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/79/Chaos_Icon.png",
 		"descriptionHTML": "Chaos causes items to be chosen from random item pools. When picked up, drops between 1-6 random pickups on the floor."
 	},
 	"Charged Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Charged_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Charged_Baby_Icon.png?version=3f2f9a944e6ae2feb98ec04cc8740d65",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Charged_Baby_Icon.png",
 		"descriptionHTML": "A familiar baby that drops a battery every 4 rooms. Has a small chance to freeze all enemies in the room when hit."
 	},
 	"Circle Of Protection": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Circle_Of_Protection",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/Circle_Of_Protection_Icon.png?version=e488ae271de732e2abec9b70c1a8d40e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/Circle_Of_Protection_Icon.png",
 		"descriptionHTML": "Gives Isaac a large white halo around him, that deals a bit of damage to any enemies in contact with the ring. Every time an enemy bullet enters the ring, there is a chance it will reflect a homing tear back at the enemy."
 	},
 	"Continuum": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Continuum",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d4/Continuum_Icon.png?version=cd0688b272b6415ffc9937c2efb82c26",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d4/Continuum_Icon.png",
 		"descriptionHTML": "+2.25 Range Up. +1.5 Tear Height. Isaac's tears travel through walls and appear out of the opposite wall. Isaac's tears also travel over rocks and objects."
 	},
 	"Crack Jacks": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crack_Jacks",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Crack_Jacks_Icon.png?version=a4c165bbe1b56bd078090c04ab390093",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Crack_Jacks_Icon.png",
 		"descriptionHTML": "Adds one heart container and drops a random <a href=\"/Trinket\" title=\"Trinket\" class=\"mw-redirect\">trinket</a>."
 	},
 	"Crown Of Light": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Crown_Of_Light",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/78/Crown_Of_Light_Icon.png?version=1783293f8977855dd6dc9af558953485",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/78/Crown_Of_Light_Icon.png",
 		"descriptionHTML": "Gives Isaac a crown that glows blue when active, and turns gray when inactive. While Isaac has no empty red heart containers, Isaac's tears are replaced with blue diamond tears that deal double damage. Regardless of health, the crown will deactivate for the current room when Isaac takes damage."
 	},
 	"Curse Of The Tower": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Curse_Of_The_Tower",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c6/Curse_Of_The_Tower_Icon.png?version=d33c5a2661963ed3ed5da7d7c75b9b44",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c6/Curse_Of_The_Tower_Icon.png",
 		"descriptionHTML": "Causes Isaac to spawn 6 troll bombs on the floor every time he gets hit, similar to the <a href=\"/Anarchist_Cookbook\" title=\"Anarchist Cookbook\">Anarchist Cookbook</a> mechanic."
 	},
 	"Dead Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Dead_Eye_Icon.png?version=3fa6113191129ab14a19557905ffdbe1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Dead_Eye_Icon.png",
 		"descriptionHTML": "Isaac's damage increases each time an enemy is hit. Damage is reset upon missing a shot."
 	},
 	"Deep Pockets": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Deep_Pockets",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Deep_Pockets_Icon.png?version=062995e656891699c2d2d538a38cf58f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Deep_Pockets_Icon.png",
 		"descriptionHTML": "Allows Isaac to carry two cards or pills (or a combination of both) at the same time."
 	},
 	"Eden's Blessing": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Eden%27s_Blessing",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f9/Eden%27s_Blessing_Icon.png?version=21a7db4e7805b5775f6c93eca9b56d62",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f9/Eden%27s_Blessing_Icon.png",
 		"descriptionHTML": "Tears up. Grants a random item at the start of the next run."
 	},
 	"Empty Vessel": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Empty_Vessel",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Empty_Vessel_Icon.png?version=b5a8bae758e50d9f358c87eb6fc79d38",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Empty_Vessel_Icon.png",
 		"descriptionHTML": "While Isaac has no red hearts, this item grants flight and a random chance to activate an invincibility shield for a few seconds. If Isaac gains any red hearts, these benefits will disappear."
 	},
 	"Epiphora": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Epiphora",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/Epiphora_Icon.png?version=9c492f44cebc1975f171c06e85e81cf3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/Epiphora_Icon.png",
 		"descriptionHTML": "Shooting in one direction increases Isaac's rate of fire until the cap is reached. As soon as Isaac changes direction or stops shooting, rate of fire is reset to its normal amount."
 	},
 	"Evil Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Evil_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Evil_Eye_Icon.png?version=56314800307a1bcc56c397c9a22e27ae",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Evil_Eye_Icon.png",
 		"descriptionHTML": "While firing tears, Isaac has a chance to fire an eye across the screen with a very slow shot speed, which will fire tears of its own in the same direction as Isaac. The eye will be destroyed if it comes into contact with an enemy or obstacle."
 	},
 	"Explosivo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Explosivo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cf/Explosivo_Icon.png?version=2ec0324cb0d751049f872e330121b56b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cf/Explosivo_Icon.png",
 		"descriptionHTML": "Isaac's tears have a chance to stick to enemies and explode."
 	},
 	"Farting Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Farting_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/31/Farting_Baby_Icon.png?version=af1afc8e91960dae57a44a288f21de38",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/31/Farting_Baby_Icon.png",
 		"descriptionHTML": "A familiar that follows Isaac and blocks tears. If a tear hits Farting Baby, there is a high chance for it to fart, which will either knock back, poison, or charm all nearby enemies."
 	},
 	"Fate's Reward": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fate%27s_Reward",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Fate%27s_Reward_Icon.png?version=6ea5bb123856ee879fc829ba2cd574c9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Fate%27s_Reward_Icon.png",
 		"descriptionHTML": "A blue head familiar that will follow Isaac and fire tears copying his tear effects and damage."
 	},
 	"Friend Zone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Friend_Zone",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Friend_Zone_Icon.png?version=43ed245537a14e117ab17f26650b1e03",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Friend_Zone_Icon.png",
 		"descriptionHTML": "A white orbiting fly which deals 3 contact damage per tick to enemies. This familiar orbits Isaac at a middle length distance somewhere between <a href=\"/Distant_Admiration\" title=\"Distant Admiration\">Distant Admiration</a> and <a href=\"/Forever_Alone\" title=\"Forever Alone\">Forever Alone</a>."
 	},
 	"Fruit Cake": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fruit_Cake",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Fruit_Cake_Icon.png?version=4b565c645cf74b998a180d7456cc5939",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8f/Fruit_Cake_Icon.png",
 		"descriptionHTML": "Isaac's tears gain a random effect that changes every shot."
 	},
 	"GB Bug": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/GB_Bug",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/GB_Bug_Icon.png?version=673619b4767b7d06bc82854d7dab28eb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/GB_Bug_Icon.png",
 		"descriptionHTML": "A glitch familiar that bounces around the room and applies a random <a href=\"/Status_effect\" title=\"Status effect\" class=\"mw-redirect\">status effect</a> to any enemies it comes into contact with and has a chance to re-roll <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> that it passes over."
 	},
 	"Glitter Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Glitter_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Glitter_Bombs_Icon.png?version=2d8472adb49cf50e207516bdbfbc6f5f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Glitter_Bombs_Icon.png",
 		"descriptionHTML": "Gives Isaac 5 bombs, and makes Isaac's bombs have a chance to drop random <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> or charm enemies when they explode."
 	},
 	"God's Flesh": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/God%27s_Flesh",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/God%27s_Flesh_Icon.png?version=f77a79f4b79ce4314b2aa109575443b2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/God%27s_Flesh_Icon.png",
 		"descriptionHTML": "Tears now have a random chance to apply a shrinking effect, causing enemies to shrink in size and also run away from Isaac. Shrunk enemies can be crushed and killed by walking over them."
 	},
 	"Head Of The Keeper": {
@@ -166,62 +166,62 @@ var afterbirthPassives = {
 	},
 	"Holy Light": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Holy_Light",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4e/Holy_Light_Icon.png?version=d99cdea5fc1a94521450b72b0af13cea",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4e/Holy_Light_Icon.png",
 		"descriptionHTML": "Isaac has a random chance to fire a Holy tear, which when it hits an enemy, will spawn a <a href=\"/Crack_the_Sky\" title=\"Crack the Sky\">Crack the Sky</a> style light beam on the same enemy, dealing damage."
 	},
 	"Host Hat": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Host_Hat",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/65/Host_Hat_Icon.png?version=ed7c57b50eb1ef59b46d61e139000103",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/65/Host_Hat_Icon.png",
 		"descriptionHTML": "A host familiar that sits on Isaac's head and has a random chance to block enemy shots and retaliate with 3 tears. Grants immunity to explosions."
 	},
 	"Immaculate Conception": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Immaculate_Conception",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bd/Immaculate_Conception_Icon.png?version=b32d05f52cddd2596334b7aa699bc621",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bd/Immaculate_Conception_Icon.png",
 		"descriptionHTML": "Upon picking up a certain amount of health, spawn a permanent angelic familiar."
 	},
 	"Incubus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Incubus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cd/Incubus_Icon.png?version=93416d820dc9f511647d4d19b8acce9d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cd/Incubus_Icon.png",
 		"descriptionHTML": "A demonic familiar that follows Isaac and shoots tears identical to Isaac's in terms of damage, range, fire rate, and effects."
 	},
 	"Key Bum": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Key_Bum",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Key_Bum_Icon.png?version=e6a1fa4f5a2a520e8225d73b691aa6e7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Key_Bum_Icon.png",
 		"descriptionHTML": "Spawns a portable <a href=\"/Key_master\" title=\"Key master\" class=\"mw-redirect\">key master</a> that follows Isaac and collects keys, giving random chests in return."
 	},
 	"Kidney Stone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Kidney_Stone",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Kidney_Stone_Icon.png?version=4522b133feabd63bcadb02671c36680a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Kidney_Stone_Icon.png",
 		"descriptionHTML": "Randomly while firing tears, Isaac will stop firing and turn red, where he will charge and release a lot of 'tears' in one go. In the burst of tears is a kidney stone which deals a lot of damage."
 	},
 	"Lil' Chest": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil%27_Chest",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Lil%27_Chest_Icon.png?version=6464f968b37cc432b5724bc406609534",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Lil%27_Chest_Icon.png",
 		"descriptionHTML": "Spawns a chest familiar that follows Isaac and drops a random pickup every few rooms."
 	},
 	"Lil Gurdy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil_Gurdy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Lil_Gurdy_Icon.png?version=5bfaf5d5e5868f01a41a1a58049c1fd5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Lil_Gurdy_Icon.png",
 		"descriptionHTML": "Gives Isaac a Gurdy familiar that will charge around the room dealing contact damage to enemies. Lil Gurdy is charged by holding down a fire button and letting go. The longer the button is held, the faster Lil Gurdy will fling itself across the screen. Lil Gurdy can pass over objects and obstacles in the room."
 	},
 	"Lil' Loki": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil%27_Loki",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/Lil%27_Loki_Icon.png?version=029e2dff9cb9f008a9d1f70c5358393e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/Lil%27_Loki_Icon.png",
 		"descriptionHTML": "A Loki familiar that follows Isaac and shoots 4 tears in a cross pattern."
 	},
 	"Lost Fly": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lost_Fly",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c1/Lost_Fly_Icon.png?version=fa0ccf8f080491acb070329c26a4bdbc",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c1/Lost_Fly_Icon.png",
 		"descriptionHTML": "A familiar fly that moves in a straight line and attaches itself to the first obstacle or wall it comes into contact with in each room. If any enemies walk into its path, it will deal 7 contact damage per tick. If the obstacle it is attached to is destroyed then it will continue rolling in the direction it was previously travelling until it meets another wall or obstacle."
 	},
 	"Lusty Blood": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lusty_Blood",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Lusty_Blood_Icon.png?version=9083c627c1c28a5f4fac21fd84eb6c5e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Lusty_Blood_Icon.png",
 		"descriptionHTML": "Each time Isaac kills an enemy, Isaac's damage increases for the current room."
 	},
 	"Marked": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Marked",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/90/Marked_Icon.png?version=90ef92480da8d99c7a33e51847ec55a6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/90/Marked_Icon.png",
 		"descriptionHTML": "Isaac will now fire tears automatically directed at a red target on the ground which is controlled by the player. This allows for a full 360 degree tear firing radius. Can be overridden by other tear modifiers such as Mom's Knife or Brimstone."
 	},
 	"Maw Of The Void": {
@@ -231,152 +231,152 @@ var afterbirthPassives = {
 	},
 	"Milk!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Milk!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Milk%21_Icon.png?version=fb88f2bcc9b7b6e248630c50f612b9ef",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Milk%21_Icon.png",
 		"descriptionHTML": "A glass of milk follows Isaac and spills on the floor upon taking damage. After the milk spills, Isaac's tear delay is decreased by 2 for the rest of the room."
 	},
 	"Mom's Pearls": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Pearls",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Mom%27s_Pearls_Icon.png?version=97bbde188e79b2601bfd3d4ec58641f7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Mom%27s_Pearls_Icon.png",
 		"descriptionHTML": "+1.25 Range Up. +0.5 Tear Height. +1 Luck Up."
 	},
 	"More Options": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/More_Options",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/More_Options_Icon.png?version=8e5cdedf6249bc46001383dfd3bf1ded",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/More_Options_Icon.png",
 		"descriptionHTML": "Two items spawn in every <a href=\"/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. Only one can be taken; the other will disappear."
 	},
 	"Mr. Dolly": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mr._Dolly",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Mr._Dolly_Icon.png?version=551d9118f5fdec14518c57c1238512fe",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Mr._Dolly_Icon.png",
 		"descriptionHTML": "Tears and Range up. Spawns 3 random types of hearts on the floor when picked up."
 	},
 	"Multidimensional Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Multidimensional_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Multidimensional_Baby_Icon.png?version=9617bf35694f3c905f7c92f03306a9e1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Multidimensional_Baby_Icon.png",
 		"descriptionHTML": "Spawns a familiar that will follow Isaac's movements on a 2.5 second delay. Tears that pass through the baby will be doubled and increase in speed."
 	},
 	"My Shadow": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/My_Shadow",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/My_Shadow_Icon.png?version=e774099cb08bccd18bedff35ea009de3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/My_Shadow_Icon.png",
 		"descriptionHTML": "Each time Isaac takes damage, inflicts <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear</a> on all enemies in the room and spawns a black <a href=\"/Charger\" title=\"Charger\" class=\"mw-redirect\">Charger</a> familiar that will attack enemies. The Charger will be killed if it is damaged too much."
 	},
 	"Night Light": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Night_Light",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Night_Light_Icon.png?version=4e97d995ceeb537ac452805607adcd8c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Night_Light_Icon.png",
 		"descriptionHTML": "A cone of light shines in the direction Isaac is moving that <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slows</a> enemies and enemy shots."
 	},
 	"No. 2": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/No._2",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a5/No._2_Icon.png?version=fd57d701cf1c1f0c2434ce80d657b102",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a5/No._2_Icon.png",
 		"descriptionHTML": "Continuously firing tears for several seconds causes Isaac to drop a <a href=\"/Butt_Bombs\" title=\"Butt Bombs\">Butt Bomb</a>. Butt Bombs explode for 50 damage like normal bombs, but also deal 10 damage to all enemies in the room and daze them for a short period of time."
 	},
 	"Papa Fly": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Papa_Fly",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Papa_Fly_Icon.png?version=0ebdfe12558701db80e42eab3d157c6c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Papa_Fly_Icon.png",
 		"descriptionHTML": "A blue fly familiar follows Isaac's movements on a 3 second delay. Papa Fly will fire tears at nearby enemies."
 	},
 	"Pay to Play": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pay_to_Play",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/Pay_to_Play_Icon.png?version=494621f6b21a0adb00f32bf1d642a4d9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/Pay_to_Play_Icon.png",
 		"descriptionHTML": "This item turns all doors that require a key into doors which need a coin to enter instead. This affects shops, item rooms, libraries and other key doors."
 	},
 	"PJs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/PJs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/PJs_Icon.png?version=135522da8eb3e474fdf13d2c7c6e03f2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/PJs_Icon.png",
 		"descriptionHTML": "Adds 4 Soul Hearts and fully restores Isaac's red health."
 	},
 	"Pupula Duplex": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pupula_Duplex",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Pupula_Duplex_Icon.png?version=776d7146b54abbf1b74787d60a39c8e3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Pupula_Duplex_Icon.png",
 		"descriptionHTML": "Transforms Isaac's tears into a wide arc shape which gives them a much larger hitbox. Gives Isaac spectral tears which allows them to travel through objects in the environment (i.e. rocks)."
 	},
 	"Purity": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Purity",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Purity_Icon.png?version=d26265064b420c18cb404bc6f54d5499",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Purity_Icon.png",
 		"descriptionHTML": "This item will boost one of Isaac's stats depending on the color of the aura around him. The aura will disappear upon taking damage and will reappear with a random color upon entering a new room. A red aura boosts damage, a blue aura boosts rate of fire, a yellow aura boosts speed, and an orange aura boosts range."
 	},
 	"Obsessed Fan": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Obsessed_Fan",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Obsessed_Fan_Icon.png?version=b81b3b94c9af34faa3f5d12573ce9452",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Obsessed_Fan_Icon.png",
 		"descriptionHTML": "A purple fly familiar that follows Isaac's movements on a 3 second delay and deals contact damage to enemies."
 	},
 	"Restock": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Restock",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a6/Restock_Icon.png?version=35270abf7999afc81d4ed138a7f1b15c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a6/Restock_Icon.png",
 		"descriptionHTML": "Causes <a href=\"/Shop\" title=\"Shop\">shops</a> to instantly restock their items when they are bought. Granted by default for every character in Greed Mode."
 	},
 	"Rune Bag": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rune_Bag",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a4/Rune_Bag_Icon.png?version=731c798708bfba682acee8c094e30930",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a4/Rune_Bag_Icon.png",
 		"descriptionHTML": "A bag that follows Isaac and drops a random mystic rune every 3 rooms."
 	},
 	"Sack Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sack_Head",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/48/Sack_Head_Icon.png?version=c1d651a501aaec8cae6035c0b5d8e581",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/48/Sack_Head_Icon.png",
 		"descriptionHTML": "Greatly increases the chance to find sacks."
 	},
 	"Scatter Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Scatter_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/Scatter_Bombs_Icon.png?version=82250f30cd94ece6ed7b2ccd1a921c1d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/Scatter_Bombs_Icon.png",
 		"descriptionHTML": "Adds 5 bombs. Isaac's bombs explode into 2-4 tiny bombs"
 	},
 	"Seraphim": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Seraphim",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Seraphim_Icon.png?version=1b058ebb2e225886d65ce02ed8474e24",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Seraphim_Icon.png",
 		"descriptionHTML": "An angel familiar which follows Isaac and fires homing tears which deal 10 damage at -25% shot speed and a reduced fire rate."
 	},
 	"Serpent's Kiss": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Serpent%27s_Kiss",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Serpent%27s_Kiss_Icon.png?version=6a24636fc121f3b04d0fc29e0db64ea5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Serpent%27s_Kiss_Icon.png",
 		"descriptionHTML": "Tears now have a random chance to apply a poison effect, causing 4 or 6 damage per tick to enemies (Similar to The Common Cold item). Isaac now deals poison damage on contact with enemies similar to The Virus item (Damage over time 4 or 6 per tick). Enemies that were poisoned have a chance to drop a black heart when killed."
 	},
 	"Sticky Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sticky_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/Sticky_Bombs_Icon.png?version=d99a7501bdf02af3f0e2fb1403814958",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/Sticky_Bombs_Icon.png",
 		"descriptionHTML": "+5 bombs. Bombs stick to enemies and spawn 2-4 <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> if they kill an enemy."
 	},
 	"Spear of Destiny": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spear_of_Destiny",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Spear_of_Destiny_Icon.png?version=9481c6ba39d013630809455d10655428",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Spear_of_Destiny_Icon.png",
 		"descriptionHTML": "In addition to tears, Isaac now holds a spear in front of him which deals damage equal to 2 times his tear damage, and occasionally inflicts <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear</a>. The spear cannot be thrown, but deals damage while it is in contact with an enemy."
 	},
 	"Spider Mod": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spider_Mod",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6f/Spider_Mod_Icon.png?version=2763b1d3b526fde8f02061be012c404e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6f/Spider_Mod_Icon.png",
 		"descriptionHTML": "Displays Isaac's tear damage and enemy health bars. Spawns a gray spider familiar that wanders around and inflicts a random status effect on any enemies it comes into contact with. Occasionally spawns a blue spider upon clearing a room."
 	},
 	"Succubus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Succubus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Succubus_Icon.png?version=495c15a26e22195056ba7c510a35f876",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Succubus_Icon.png",
 		"descriptionHTML": "Spawns a flying familiar that bounces around the room with a black aura, dealing rapid damage to any enemies inside it. While standing in the aura, Isaac gains a 1.5x tear damage multiplier."
 	},
 	"Sworn Protector": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sworn_Protector",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/Sworn_Protector_Icon.png?version=9b25c9de1d593f24d90b03ec05dcec0f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/03/Sworn_Protector_Icon.png",
 		"descriptionHTML": "An orbital angel which does 7 contact damage per tick and blocks enemy shots. When it blocks a shot, it has a very small chance to drop an <a href=\"/Eternal_heart\" title=\"Eternal heart\" class=\"mw-redirect\">eternal heart</a>."
 	},
 	"Tech X": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tech_X",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Tech_X_Icon.png?version=e559bdee4181c0d187be9840b3d9dee5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Tech_X_Icon.png",
 		"descriptionHTML": "Tears are replaced with laser rings that pierce through enemies and deal damage to enemies within them. Can be charged to increase the size of the ring."
 	},
 	"The Wiz": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Wiz",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/The_Wiz_Icon.png?version=9b35db47e133592fbbfc97bb07ecfcbe",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/The_Wiz_Icon.png",
 		"descriptionHTML": "Tears simultaneously fire out of both eyes diagonally, similar to the effect of the <a href=\"/Pills\" title=\"Pills\">R U A Wizard?</a> pill. Isaac's tears also travel above all obstacles."
 	},
 	"Toxic Shock": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Toxic_Shock",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Toxic_Shock_Icon.png?version=7028bc6e6d9ec444bb76fde00d2695ad",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Toxic_Shock_Icon.png",
 		"descriptionHTML": "Upon entering a room, poisons all enemies, dealing double Isaac's tear damage. Killing enemies leaves a small, short lasting pool of green <a href=\"/Creep\" title=\"Creep\">creep</a> on the ground."
 	},
 	"Tractor Beam": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tractor_Beam",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/45/Tractor_Beam_Icon.png?version=87b6bf6c0e406851499189dc3f36940f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/45/Tractor_Beam_Icon.png",
 		"descriptionHTML": "Isaac emits a beam from his face. Isaac's tears travel in the path of the beam."
 	},
 	"Zodiac": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Zodiac",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Zodiac_Icon.png?version=23bf576eeb6015043456c7dd9e08adfc",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Zodiac_Icon.png",
 		"descriptionHTML": "Zodiac will give Isaac a random <a href=\"/Signs_Of_The_Zodiac\" title=\"Signs Of The Zodiac\">zodiac item</a> effect that changes after every floor."
 	}
 }

@@ -1,26 +1,26 @@
 var runes2 = {
 	"Ansuz": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png?version=2357355dc7aafba3ebc4851a242ab95d",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Ansuz_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Reveals the whole map, including the <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Room</a> and the <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a>.</p>"
 	},
 	"Perthro": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png?version=803a97e064dd0576fe2bf1242c5edfe5",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Perthro_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Rerolls all pedestal items in the room. (This is the same effect as the <a href=\"/D6\" title=\"D6\" class=\"mw-redirect\">D6</a>.)</p>"
 	},
 	"Berkano": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png?version=1be9e4449e0c75de0c253c3c012bbe55",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Berkano_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Summons 3 friendly <a href=\"/Familiar#Blue_Flies\" title=\"Familiar\">blue flies</a> and 3 friendly <a href=\"/Familiar#Blue_Spiders\" title=\"Familiar\">blue spiders</a>.</p>"
 	},
 	"Algiz": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/40px-Algiz_Icon.png?version=118a4a98db804fa31a0e81b143b530f7",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/a/a9/Algiz_Icon.png/40px-Algiz_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Grants a <a href=\"/Effects#Shield\" title=\"Effects\">shield</a> which lasts for 30 seconds.</p>"
 	},
 	"Blank Rune": {
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png?version=b66ab780f04de8438f2b1f390cb91558",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Blank_Rune_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Grants a random rune effect. Has a 25% chance to spawn another Blank Rune upon use.</p>"
 	},
 	"Black Rune": {
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b8/Black_Rune_Icon.png?version=98893f10d5149e588a2cbe46d42c7609",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b8/Black_Rune_Icon.png",
 		"descriptionHTML": "<p style=\"text-align: left;\">Deals 40 damage to all enemies in the room. Consumes all pickups in the room and turns them into blue flies and spiders. Consumes all pedestal items in the room and turns them into random stat upgrades.</p>"
 	}
 }

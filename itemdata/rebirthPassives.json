@@ -1,132 +1,132 @@
 var rebirthPassives = {
 	"<3": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Less_Than_Three",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Less_Than_Three_Icon.png?version=5854fd5383f7d39c0de546a7ecb8526f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Less_Than_Three_Icon.png",
 		"descriptionHTML": "Increases available heart containers by 1 and restores all health."
 	},
 	"???'s Only Friend": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/%3F%3F%3F%27s_Only_Friend",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Blue_Baby%27s_Only_Friend_Icon.png?version=b1ed9937ae93b78d293d30582eb5f3a7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Blue_Baby%27s_Only_Friend_Icon.png",
 		"descriptionHTML": "Summons a big attack fly that can be controlled with the shooting direction-keys."
 	},
 	"1up!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/1up!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/90/1up%21_Icon.png?version=0c99d15f02cbed43e24d288a383f1b26",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/90/1up%21_Icon.png",
 		"descriptionHTML": "Gives an extra life. Upon death, you will respawn in the previous room with full health and lose the 1up!."
 	},
 	"20/20": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/20/20",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/20_20_Afterbirth_Icon.png?version=f75f706ee04e8bebbc2c8ea13d1e5bed",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/41/20_20_Afterbirth_Icon.png",
 		"descriptionHTML": "Grants double shot."
 	},
 	"3 Dollar Bill": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/3_Dollar_Bill",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/3_Dollar_Bill_Icon.png?version=0044a2270a83c04ea5d0a944d7d1f347",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/3_Dollar_Bill_Icon.png",
 		"descriptionHTML": "Gives Isaac a random tear effect every room.<br><span title=\"Rebirth-exclusive content\" style=\"cursor:help\"><img alt=\"NoDLC Indicator.png\" src=\"https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/NoDLC_Indicator.png?version=f69160fd0ebe749f2c7e50f9fac09d00\" width=\"31\" height=\"14\"></span> The effect given changes upon entering a room.<br><span title=\"Afterbirth-exclusive content\" style=\"cursor:help\"><img alt=\"DLC Indicator.png\" src=\"https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=d31b8b2e60d226ec6062742142893d13\" width=\"31\" height=\"14\"></span> The effect changes every 3 seconds."
 	},
 	"9 Volt": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/9_Volt",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/9_Volt_Icon.png?version=0716a5b532ba6bf1431178b0350efa83",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/56/9_Volt_Icon.png",
 		"descriptionHTML": "Reduces the charge of any <a href=\"/Items#Activated_Collectibles\" title=\"Items\" class=\"mw-redirect\">Activated Items</a> by 1. Any 1 charge items instead have timed recharges."
 	},
 	"Abaddon": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Abaddon",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1a/Abaddon_Icon.png?version=7bcf597d314fbfadf2bc1f728c89ff9f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1a/Abaddon_Icon.png",
 		"descriptionHTML": "Increases damage and speed, removes all red <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart containers</a>, grants six <a href=\"/Black_heart\" title=\"Black heart\" class=\"mw-redirect\">black hearts</a>, and adds a chance to shoot <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear</a> tears."
 	},
 	"Abel": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Abel",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e9/Abel_Icon.png?version=8b5935d1804668aa7a5b1530eaf6dafb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e9/Abel_Icon.png",
 		"descriptionHTML": "A familiar that mirrors the player's movements and shoots in the opposite direction."
 	},
 	"Anemic": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Anemic",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5f/Anemic_Icon.png?version=55412f8b39ecc5e86f840c7d16052ccb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5f/Anemic_Icon.png",
 		"descriptionHTML": "+5 range. After Isaac is damaged, a trail of red <a href=\"/Creep\" title=\"Creep\">creep</a> will be left behind Isaac until he leaves the current room."
 	},
 	"Ankh": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ankh",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/45/Ankh_Icon.png?version=6544c699de262bd12d748e09f78d5559",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/45/Ankh_Icon.png",
 		"descriptionHTML": "Upon <a href=\"/Death\" title=\"Death\">death</a>, the player will respawn as <a href=\"/%3F%3F%3F_(Character)\" title=\"??? (Character)\" class=\"mw-redirect\">???</a> with 3 <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a>."
 	},
 	"Anti-Gravity": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Anti-Gravity",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Anti-Gravity_Icon.png?version=0906ca60870e0cf2bcc40e7b5e93b6dc",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Anti-Gravity_Icon.png",
 		"descriptionHTML": "-2 Tear Delay. Tears float in position until firing ceases, after which they will fly off in the direction they were shot in."
 	},
 	"Aquarius": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Aquarius",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Aquarius_Icon.png?version=93811fc4032b059694190612db0c5e30",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Aquarius_Icon.png",
 		"descriptionHTML": "A trail of blue <a href=\"/Creep\" title=\"Creep\">creep</a> is left behind Isaac, which damages enemies."
 	},
 	"Aries": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Aries",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/19/Aries_Icon.png?version=a75a1a3d5527f8beb2c9aeaa12a4c5b3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/19/Aries_Icon.png",
 		"descriptionHTML": "+0.25 Speed. Running into enemies while at a high speed will deal 18 points of damage. Does not prevent contact damage."
 	},
 	"Ball of Bandages": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ball_of_Bandages",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0f/Ball_of_Bandages_Icon.png?version=cfe05cdbfc23ad3b9ba0f1912c15fce1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0f/Ball_of_Bandages_Icon.png",
 		"descriptionHTML": "Orbiting <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that deals damage to enemies. If collected while already having one, makes the familiar evolve. Only drops from <a href=\"/The_Harbingers\" title=\"The Harbingers\">Horsemen</a>. Similar to <a href=\"/Cube_of_Meat\" title=\"Cube of Meat\">Cube of Meat</a>."
 	},
 	"Ball of Tar": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ball_of_Tar",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fc/Ball_of_Tar_Icon.png?version=b42b30ede3faa0723542b0672064c63d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fc/Ball_of_Tar_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slowing tears</a> and the character leaves a trail of <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slowing</a> <a href=\"/Creep\" title=\"Creep\">creep</a> behind as he moves, impeding enemies' speed."
 	},
 	"The Battery": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Battery",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8b/The_Battery_Icon.png?version=099f1316f60664d4437fe5c3c4f024ed",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8b/The_Battery_Icon.png",
 		"descriptionHTML": "<a href=\"/Items#Activated_Collectibles\" title=\"Items\" class=\"mw-redirect\">Activated Items</a> can be \"overcharged\" to allow for an additional use."
 	},
 	"The Belt": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Belt",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/50/The_Belt_Icon.png?version=d29857a95db6bafd2f3a6c428bbbbda1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/50/The_Belt_Icon.png",
 		"descriptionHTML": "Increases <a href=\"/Speed\" title=\"Speed\">speed</a> by 0.3."
 	},
 	"Best Bud": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Best_Bud",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Best_Bud_Icon.png?version=0d518e15722e18fe295873495e4cd759",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Best_Bud_Icon.png",
 		"descriptionHTML": "When hit, summons a white attack fly similar to <a href=\"/Distant_Admiration\" title=\"Distant Admiration\">Distant Admiration</a> for the current room."
 	},
 	"BFFS!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/BFFS!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/BFFS%21_Icon.png?version=bbaf7b16b8df5e5715ec1338a1a34c89",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/BFFS%21_Icon.png",
 		"descriptionHTML": "Increases the size and damage of <a href=\"/Familiar\" title=\"Familiar\">familiars</a>."
 	},
 	"BBF": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/BBF",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/BBF_Icon.png?version=3032b3ca390326bf75f22d55feebe603",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/BBF_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that flies around the room in a manner similar to the <a href=\"/Boom_Fly\" title=\"Boom Fly\" class=\"mw-redirect\">Boom Fly</a> and explodes on contact with an enemy. Respawns after ten seconds."
 	},
 	"Big Fan": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Big_Fan",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Big_Fan_Icon.png?version=a399b10ccd8e55b2d426e50e877dc70d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9d/Big_Fan_Icon.png",
 		"descriptionHTML": "Spawns a large <a href=\"/Orbital_familiar\" title=\"Orbital familiar\" class=\"mw-redirect\">orbital familiar</a> that blocks enemy projectiles and deals slight contact damage to enemies."
 	},
 	"The Black Bean": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Black_Bean",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/The_Black_Bean_Icon.png?version=10ac34df80ce068d14ec1a00da211294",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/14/The_Black_Bean_Icon.png",
 		"descriptionHTML": "When taking damage, Isaac farts, causing <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison</a> damage to all enemies in range."
 	},
 	"Black Candle": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Candle",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b9/Black_Candle_Icon.png?version=220b70a770046b9abe3c0129eda0c83c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b9/Black_Candle_Icon.png",
 		"descriptionHTML": "Prevents <a href=\"/Curse\" title=\"Curse\" class=\"mw-redirect\">curses</a>. Grants one <a href=\"/Black_heart\" title=\"Black heart\" class=\"mw-redirect\">black heart</a>. If obtained on a floor with a Curse, it will remove the curse."
 	},
 	"Black Lotus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Lotus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/ff/Black_Lotus_Icon.png?version=2acd26a638a3754323eaa159aaf8f433",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/ff/Black_Lotus_Icon.png",
 		"descriptionHTML": "Grants the player one red <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>, one <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul heart</a>, and one <a href=\"/Black_heart\" title=\"Black heart\" class=\"mw-redirect\">black heart</a>."
 	},
 	"Blood Bag": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blood_Bag",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Blood_Bag_Icon.png?version=6e264127a30fb1a38eb0de58c66e14d8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Blood_Bag_Icon.png",
 		"descriptionHTML": "Grants 1 heart container, restores 5 red hearts, and increases speed."
 	},
 	"Blood Clot": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blood_Clot",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Blood_Clot_Icon.png?version=5928e17a8bea638555590a43c61588c6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Blood_Clot_Icon.png",
 		"descriptionHTML": "Increases damage by 1 and range by 5 for tears fired from the left eye."
 	},
 	"Blood Of The Martyr": {
@@ -136,1202 +136,1202 @@ var rebirthPassives = {
 	},
 	"Bloody Lust": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bloody_Lust",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Bloody_Lust_Icon.png?version=911d78bec762d6525edd9371d8c39609",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Bloody_Lust_Icon.png",
 		"descriptionHTML": "Increases damage as Isaac receives damage. Damage increase stays for the whole floor."
 	},
 	"Blue Cap": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blue_Cap",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ac/Blue_Cap_Icon.png?version=03da283e838c4c1ef4f2e609d2b5332b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ac/Blue_Cap_Icon.png",
 		"descriptionHTML": "Grants 1 heart container and increases tears, but decreases shot speed."
 	},
 	"Blue Map": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blue_Map",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Blue_Map_Icon.png?version=dea699476924701525b5900bffb28541",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Blue_Map_Icon.png",
 		"descriptionHTML": "Shows <a href=\"/Secret_Room\" title=\"Secret Room\">secret</a> and <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">super secret room</a> locations on the map."
 	},
 	"Bob's Brain": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bob%27s_Brain",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/47/Bob%27s_Brain_Icon.png?version=e68b259ef98d20f8811cba4ab5d8e528",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/47/Bob%27s_Brain_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that charges forward when shooting tears, explodes upon contact with an enemy and <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poisons</a> them. Respawns after few seconds."
 	},
 	"Bob's Curse": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bob%27s_Curse",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d7/Bob%27s_Curse_Icon.png?version=2997453fad9f16dec8b0e4e0eb782d87",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d7/Bob%27s_Curse_Icon.png",
 		"descriptionHTML": "Gives 5 bombs and grants all bombs <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison</a> effect."
 	},
 	"Bobby-Bomb": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bobby-Bomb",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d3/Bobby-Bomb_Icon.png?version=2cd5cc35666566ed0e822d49520f6e95",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d3/Bobby-Bomb_Icon.png",
 		"descriptionHTML": "Gives Isaac 5 Bombs, and causes all dropped bombs to home towards the closest enemy."
 	},
 	"The Body": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Body",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/The_Body_Icon.png?version=c072dcf2cf18b5063961141d36ddd57a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/The_Body_Icon.png",
 		"descriptionHTML": "Adds 3 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart containers</a>."
 	},
 	"Bogo Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bogo_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/Bogo_Bombs_Icon.png?version=47086a35647b5eb980ce90f75181fbef",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/Bogo_Bombs_Icon.png",
 		"descriptionHTML": "All standard bomb pickups become 1+1 bomb pickups."
 	},
 	"Bomb Bag": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bomb_Bag",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Bomb_Bag_Icon.png?version=a4ea44daa1dc90d4085fffc830a39d42",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/Bomb_Bag_Icon.png",
 		"descriptionHTML": "Isaac is followed by a small bag that drops a Bomb, 1+1 Free, or a Troll Bomb every 3 rooms."
 	},
 	"Boom!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Boom!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Boom%21_Icon.png?version=3a4cca45d53c42ed7053b9dc6b2b6148",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Boom%21_Icon.png",
 		"descriptionHTML": "Gives 10 bombs."
 	},
 	"Box": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Box",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4f/Box_Icon.png?version=44a980730e1b0fa8f5f11579fa44fba6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4f/Box_Icon.png",
 		"descriptionHTML": "Spawns 1 of each (non-collectible) item: 1 coin, 1 key, 1 bomb, 1 heart, 1 <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">card</a>, 1 <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">pill</a>, 1 <a href=\"/Trinket\" title=\"Trinket\" class=\"mw-redirect\">trinket</a>."
 	},
 	"Breakfast": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Breakfast",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Breakfast_Icon.png?version=ed765057d13a2e5784b054dc7583c171",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Breakfast_Icon.png",
 		"descriptionHTML": "Adds 1 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Brimstone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Brimstone",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Brimstone_Icon.png?version=416b237b06978c34193d21f2b8ce4661",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c8/Brimstone_Icon.png",
 		"descriptionHTML": "Tears are replaced by a laser beam that pierces through all enemies and obstacles in its path and deals high damage. Can only be fired after a short charge-up period."
 	},
 	"Broken Watch": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Broken_Watch",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e1/Broken_Watch_Icon.png?version=c251d2a3407dcc04d91bdfa9dd4bc8a5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e1/Broken_Watch_Icon.png",
 		"descriptionHTML": "Chance upon entering a room to slow down or speed up every enemy and their attacks. The chance to slow enemies is quite higher than the chance to speed them up."
 	},
 	"Brother Bobby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Brother_Bobby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Brother_Bobby_Icon.png?version=446b111b2746bca2fffb1218d49503d3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Brother_Bobby_Icon.png",
 		"descriptionHTML": "Follows Isaac around shooting normal tears."
 	},
 	"Bucket of Lard": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bucket_of_Lard",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Bucket_of_Lard_Icon.png?version=f9f9a08a11625ca052a1fa411ae352fe",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Bucket_of_Lard_Icon.png",
 		"descriptionHTML": "Grants two empty heart containers and heals Isaac by half a heart, but decreases speed by 0.2."
 	},
 	"Bum Friend": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bum_Friend",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Bum_Friend_Icon.png?version=8e7b493011a62557e4a37ebd99b3920d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Bum_Friend_Icon.png",
 		"descriptionHTML": "A portable <a href=\"/Beggar\" title=\"Beggar\">beggar</a> who follows Isaac, picks up <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coins</a> for himself, and occasionally drops a <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickup</a> after collecting a coin. Does not spawn <strong class=\"selflink\">collectibles</strong>."
 	},
 	"Butt Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Butt_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Butt_Bombs_Icon.png?version=151ed8b8879f7df96e2152c0b18973c0",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Butt_Bombs_Icon.png",
 		"descriptionHTML": "Gives +5 <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bombs</a> and makes all bombs <b>Butt Bombs</b> that fill the room with gas, damaging and <a href=\"/Confusion\" title=\"Confusion\" class=\"mw-redirect\">confusing</a> all enemies."
 	},
 	"Caffeine Pill": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Caffeine_Pill",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/49/Caffeine_Pill_Icon.png?version=1411a15bf2e449629e919fcecdb20ab3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/49/Caffeine_Pill_Icon.png",
 		"descriptionHTML": "Increases speed and reduces character size. Also gives a random pill."
 	},
 	"Cain's Other Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cain%27s_Other_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fc/Cain%27s_Other_Eye_Icon.png?version=665dc2f8d6eb4b15091633e6f660fa43",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fc/Cain%27s_Other_Eye_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern similar to <a href=\"/The_Peeper\" title=\"The Peeper\">The Peeper</a> and shoots normal tears in the same direction as Isaac."
 	},
 	"Cancer": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cancer",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Cancer_Icon.png?version=1e4c61e54f63f4afff6ae6da6987c354",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Cancer_Icon.png",
 		"descriptionHTML": "Adds 3 <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a>. Grants <a href=\"/The_Wafer\" title=\"The Wafer\">The Wafer</a> effect for the current room upon taking damage."
 	},
 	"Capricorn": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Capricorn",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Capricorn_Icon.png?version=c7454e066cc5263952fe049013d02ac5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Capricorn_Icon.png",
 		"descriptionHTML": "All stats up."
 	},
 	"Cat-O-Nine-Tails": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cat-O-Nine-Tails",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Cat-O-Nine-Tails_Icon.png?version=b68d8dbf9146ab0b066e47c549a1e91b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/59/Cat-O-Nine-Tails_Icon.png",
 		"descriptionHTML": "Increases Shot Speed and damage."
 	},
 	"Celtic Cross": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Celtic_Cross",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/57/Celtic_Cross_Icon.png?version=fee372c2654eee8c9e71c2513352390c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/57/Celtic_Cross_Icon.png",
 		"descriptionHTML": "Grants a chance to trigger the <a href=\"/Book_Of_Shadows\" title=\"Book Of Shadows\" class=\"mw-redirect\">Book Of Shadows</a> effect upon taking damage, creating a <a href=\"/Shield\" title=\"Shield\" class=\"mw-redirect\">shield</a> that nullifies all types of damage for 7 seconds."
 	},
 	"Ceremonial Robes": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ceremonial_Robes",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7c/Ceremonial_Robes_Icon.png?version=ccafda935be319f575983c38b6a75918",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7c/Ceremonial_Robes_Icon.png",
 		"descriptionHTML": "Adds 3 <a href=\"/Black_heart\" title=\"Black heart\" class=\"mw-redirect\">black hearts</a> and increases Damage by 1."
 	},
 	"Champion Belt": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Champion_Belt",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/25/Champion_Belt_Icon.png?version=21c8c988bb28fb8c0dd52dd9ff793a8a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/25/Champion_Belt_Icon.png",
 		"descriptionHTML": "Increases damage, but also increases the chance of <a href=\"/Champion\" title=\"Champion\" class=\"mw-redirect\">champion</a> enemies appearing."
 	},
 	"Charm of the Vampire": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Charm_of_the_Vampire",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b5/Charm_of_the_Vampire_Icon.png?version=c53e99c774adb9b029f572590df38f65",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b5/Charm_of_the_Vampire_Icon.png",
 		"descriptionHTML": "Heals the character for half of a red heart for every 13 monsters killed."
 	},
 	"Chemical Peel": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Chemical_Peel",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/ba/Chemical_Peel_Icon.png?version=8208e9b2ffdf4bf37557ba4589225cfb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/ba/Chemical_Peel_Icon.png",
 		"descriptionHTML": "Tears fired from left eye do increased damage."
 	},
 	"Chocolate Milk": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Chocolate_Milk",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Chocolate_Milk_Icon.png?version=05e9389c5619dffd7d0b7d3b2693bb86",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Chocolate_Milk_Icon.png",
 		"descriptionHTML": "Grants charged tears that deal greater damage when fully charged."
 	},
 	"The Common Cold": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Common_Cold",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/The_Common_Cold_Icon.png?version=f844609fe86690acec5856fb32c80ea2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/The_Common_Cold_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison tears</a>, dealing damage over time when inflicted."
 	},
 	"The Compass": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Compass",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/96/The_Compass_Icon.png?version=7a05dcb980334c611c647a034bef4bac",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/96/The_Compass_Icon.png",
 		"descriptionHTML": "Reveals all special rooms (except <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">secret rooms of any kind</a>)."
 	},
 	"Contract From Below": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Contract_From_Below",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Contract_From_Below_Icon.png?version=ce0113b83860abf12ecbb6d3e824b51a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Contract_From_Below_Icon.png",
 		"descriptionHTML": "Doubles the number of <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> and <a href=\"/Chest\" title=\"Chest\" class=\"mw-redirect\">chests</a> spawned after clearing a room or performing some other triggering action (such as using a <a href=\"/Blood_donation_machine\" title=\"Blood donation machine\" class=\"mw-redirect\">blood donation machine</a>), but reduces the chance for any <a href=\"/Pickups\" title=\"Pickups\">pickups</a> to spawn at all."
 	},
 	"Cricket's Body": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cricket%27s_Body",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Cricket%27s_Body_Icon.png?version=0c7c0e24ac4e3dcfa18b4345dfc9bb81",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Cricket%27s_Body_Icon.png",
 		"descriptionHTML": "Grants -1 Tear Delay and reduces Range. When tears hit an object or deplete their range, they spawn 4 smaller tears, whose Range and Damage scale with Isaac's."
 	},
 	"Cricket's Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cricket%27s_Head",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Cricket%27s_Head_Icon.png?version=8207ac40f033ee4076bc11e57d4fb4f8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Cricket%27s_Head_Icon.png",
 		"descriptionHTML": "Increases damage by 0.5, and multiplies it by 1.5x."
 	},
 	"Cube of Meat": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cube_of_Meat",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/40/Cube_of_Meat_Icon.png?version=7febc824c013e73f6d4458c20ad402f8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/40/Cube_of_Meat_Icon.png",
 		"descriptionHTML": "Orbiting <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that blocks enemy shots and deals damage to enemies. If collected while already having one, makes the familiar evolve. Only drops from <a href=\"/The_Harbingers\" title=\"The Harbingers\">Horsemen</a>. Similar to <a href=\"/Ball_of_Bandages\" title=\"Ball of Bandages\">Ball of Bandages</a>."
 	},
 	"Cupid's Arrow": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cupid%27s_Arrow",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/Cupid%27s_Arrow_Icon.png?version=b17a6df9338cac5cfaca61d2b2fd7dc2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/Cupid%27s_Arrow_Icon.png",
 		"descriptionHTML": "Grants Isaac <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing tears</a> that travel through enemies (but not obstacles) instead of breaking on impact with them."
 	},
 	"Cursed Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cursed_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Cursed_Eye_Icon.png?version=238a693c68222999896ca76a1d800976",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Cursed_Eye_Icon.png",
 		"descriptionHTML": "Grants charged tears that can be fired in a tight burst of four. Getting hit while charging will teleport Isaac into another room."
 	},
 	"Daddy Longlegs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Daddy_Longlegs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/Daddy_Longlegs_Icon.png?version=389b3bf62750619e59f4818a2393498b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/Daddy_Longlegs_Icon.png",
 		"descriptionHTML": "<a href=\"/Daddy_Long_Legs\" title=\"Daddy Long Legs\">Daddy Long Legs</a>' shadow follows Isaac and stomps on enemies."
 	},
 	"Dark Bum": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dark_Bum",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Dark_Bum_Icon.png?version=068d1a5bdeff8301135e4cd98910e3d4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Dark_Bum_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and collects <a href=\"/Red_heart\" title=\"Red heart\" class=\"mw-redirect\">red hearts</a>. For every one-and-a-half red hearts collected, Dark Bum will generate one <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul heart</a>, one hostile <a href=\"/Spider\" title=\"Spider\">Spider</a> or one friendly <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spider</a>."
 	},
 	"Dark Matter": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dark_Matter",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/85/Dark_Matter_Icon.png?version=963c71c4a0980edc937a914d502e6715",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/85/Dark_Matter_Icon.png",
 		"descriptionHTML": "Increases Damage by 1 and adds a chance to shoot <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear tears</a>."
 	},
 	"Dead Bird": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Bird",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Dead_Bird_Icon.png?version=0799f68808cda76ab5843250b8ca0358",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Dead_Bird_Icon.png",
 		"descriptionHTML": "Spawns a flying <a href=\"/Familiar#Chasing_familiars\" title=\"Familiar\">familiar</a> for the current room that chases enemies whenever Isaac takes damage."
 	},
 	"Dead Cat": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Cat",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Dead_Cat_Icon.png?version=c8edbfd72ff4438030f35af44a7cf0dc",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Dead_Cat_Icon.png",
 		"descriptionHTML": "Sets the amount of red heart containers to 1, but gives Isaac 9 extra lives. After dying, Isaac is teleported to the last safe room. New heart containers can be obtained after picking up this item, but after each death, the number of heart containers is set to 1 again."
 	},
 	"Dead Dove": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Dove",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1f/Dead_Dove_Icon.png?version=965cdf2d086b4b5b0e04389d7069fabb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1f/Dead_Dove_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Spectral_tears\" title=\"Spectral tears\" class=\"mw-redirect\">spectral tears</a> and <a href=\"/Flight\" title=\"Flight\">flight</a>."
 	},
 	"Dead Onion": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dead_Onion",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cd/Dead_Onion_Icon.png?version=562083aa4a11945d20d3282cfcb63657",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cd/Dead_Onion_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing</a> and <a href=\"/Spectral_tears\" title=\"Spectral tears\" class=\"mw-redirect\">spectral</a> tears. Increases tear size (without increasing damage) while greatly reducing range and shot speed."
 	},
 	"Death's Touch": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Death%27s_Touch",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Death%27s_Touch_Icon.png?version=1b8252c3eeee252294368434f2218b08",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Death%27s_Touch_Icon.png",
 		"descriptionHTML": "Increases Damage by 1.5, reduces Tears by 0.3 and increases tear size. Grants <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing tears</a>.  Tears are replaced by <a href=\"/Death_(Boss)\" title=\"Death (Boss)\">Death's</a> scythes, which is a cosmetic effect only."
 	},
 	"Demon Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Demon_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a6/Demon_Baby_Icon.png?version=b71a6c12af301c6c2e3271b0af476431",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a6/Demon_Baby_Icon.png",
 		"descriptionHTML": "Follows Isaac and automatically fires at enemies in its reach."
 	},
 	"Dessert": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dessert",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Dessert_Icon.png?version=db27294cca217246212ba0660f9f5e9a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Dessert_Icon.png",
 		"descriptionHTML": "Adds 1 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Dinner": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dinner",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Dinner_Icon.png?version=924cd8bed718398dec4103501f78b8c7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Dinner_Icon.png",
 		"descriptionHTML": "Adds 1 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Distant Admiration": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Distant_Admiration",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Distant_Admiration_Icon.png?version=f64aef645bd24b6cf7a616d4e74e201e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/71/Distant_Admiration_Icon.png",
 		"descriptionHTML": "A red attack fly circles further out than the <a href=\"/Halo_of_Flies\" title=\"Halo of Flies\">Halo of Flies</a> / <a href=\"/Familiar#Orbitals\" title=\"Familiar\">Pretty Flies</a>, but closer than <a href=\"/Forever_Alone\" title=\"Forever Alone\">Forever Alone</a>. Deals more damage than Forever Alone."
 	},
 	"A Dollar": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Dollar",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/A_Dollar_Icon.png?version=d043aef1cd266a74bbb32dd8c5d69169",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/A_Dollar_Icon.png",
 		"descriptionHTML": "Gives Isaac 99 coins. Can be found multiple times in a single playthrough."
 	},
 	"Dr. Fetus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dr._Fetus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/78/Dr._Fetus_Icon.png?version=bf0b1348e24ebb05d804d412d0f65263",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/78/Dr._Fetus_Icon.png",
 		"descriptionHTML": "Tears are replaced by <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bombs</a> that benefit from bomb-enhancing effects and slide a fixed range after being fired."
 	},
 	"Dry Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Dry_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Dry_Baby_Icon.png?version=7aa092b779f5b15f691ab2fe609d128f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Dry_Baby_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and blocks enemy projectiles. Upon blocking a shot it has a chance of triggering <a href=\"/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a> effect."
 	},
 	"E Coli": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/E_Coli",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/E_Coli_Icon.png?version=460ae69ae9bb7c0693381d431d3c4e0b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/E_Coli_Icon.png",
 		"descriptionHTML": "Gives \"Turdy Touch\" Effect. Enemies that touch Isaac are changed into <a href=\"/Poop\" title=\"Poop\" class=\"mw-redirect\">poop</a>."
 	},
 	"Epic Fetus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Epic_Fetus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/Epic_Fetus_Icon.png?version=e75e8df6756046b6625761beb48b197b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/Epic_Fetus_Icon.png",
 		"descriptionHTML": "Isaac's tears are replaced with guided missiles, like those used by the <a href=\"/Doctor%27s_Remote\" title=\"Doctor's Remote\">Doctor's Remote</a>."
 	},
 	"Eve's Mascara": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Eve%27s_Mascara",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Eve%27s_Mascara_Icon.png?version=34918a8b5785b06133f03e0be21e3d15",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Eve%27s_Mascara_Icon.png",
 		"descriptionHTML": "Doubles damage, halves tears stat, and greatly reduces shot speed."
 	},
 	"Experimental Treatment": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Experimental_Treatment",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/01/Experimental_Treatment_Icon.png?version=49c64897eca35535b1d9186dd127d06a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/01/Experimental_Treatment_Icon.png",
 		"descriptionHTML": "Randomly increases and decreases some of the character's stats. There will always be at least one stat increase and one decrease and the same stats can be increased/decreased multiple times."
 	},
 	"Fanny Pack": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fanny_Pack",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Fanny_Pack_Icon.png?version=9f5ac0b5135e8c683a9ae5f35b749299",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Fanny_Pack_Icon.png",
 		"descriptionHTML": "Has a chance to drop a random <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickup</a> when Isaac takes damage."
 	},
 	"Fate": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fate",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Fate_Icon.png?version=2b2c4f4f544a8280d80899041cbd2262",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Fate_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Flight\" title=\"Flight\">flight</a> and one <a href=\"/Eternal_heart\" title=\"Eternal heart\" class=\"mw-redirect\">eternal heart</a>."
 	},
 	"Fire Mind": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fire_Mind",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/46/Fire_Mind_Icon.png?version=05bdace0f0caf59d8c407e7991d91f9d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/46/Fire_Mind_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Burn\" title=\"Burn\" class=\"mw-redirect\">flaming tears</a> that deal <a href=\"/Burn\" title=\"Burn\" class=\"mw-redirect\">burning</a> damage over time. Tears have a chance to explode on impact with an enemy, which creates a fire at the location of the explosion."
 	},
 	"Forever Alone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Forever_Alone",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Forever_Alone_Icon.png?version=771b14762aa011c7e3c034304aea1cc5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d5/Forever_Alone_Icon.png",
 		"descriptionHTML": "Spawns a blue attack fly that orbits a long distance from Isaac."
 	},
 	"Gemini": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Gemini_(Item)",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/7/73/Gemini_%28Item%29_Icon.png/45px-Gemini_%28Item%29_Icon.png?version=009dd2eed1507e5aac4273d34089b515",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/7/73/Gemini_%28Item%29_Icon.png/45px-Gemini_%28Item%29_Icon.png",
 		"descriptionHTML": "<a href=\"/Gemini\" title=\"Gemini\">Suture</a> becomes attached to Isaac, and does touch damage to enemies within its attacking range."
 	},
 	"Ghost Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ghost_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Ghost_Baby_Icon.png?version=827fa0f1790a1fbbac00a78dd797abe9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Ghost_Baby_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a href=\"/Spectral_tears\" title=\"Spectral tears\" class=\"mw-redirect\">spectral tears</a>."
 	},
 	"Gimpy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Gimpy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Gimpy_Icon.png?version=dc78adf565d767923430330120172f26",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Gimpy_Icon.png",
 		"descriptionHTML": "Has a chance of spawning a soul heart or black heart when taking damage. Enemies have a chance to drop a Half Red Heart after being killed."
 	},
 	"Gnawed Leaf": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Gnawed_Leaf",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/15/Gnawed_Leaf_Icon.png?version=6e7e4c858721dfe45247e1bb2bcb6689",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/15/Gnawed_Leaf_Icon.png",
 		"descriptionHTML": "After standing still and not shooting for a short time, Isaac turns invincible until he moves or shoots."
 	},
 	"Goat Head": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Goat_Head",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Goat_Head_Icon.png?version=a9eb986737cab42e0af702bf57bbc546",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Goat_Head_Icon.png",
 		"descriptionHTML": "A <a href=\"/Devil_Room\" title=\"Devil Room\">Devil Room</a> / <a href=\"/Angel_Room\" title=\"Angel Room\">Angel Room</a> Door will always spawn after every boss fight, excluding the first floor and floors after Utero II/Womb II."
 	},
 	"Godhead": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Godhead",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Godhead_Icon.png?version=01c85e1c90868b790a3371c05e76979a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3b/Godhead_Icon.png",
 		"descriptionHTML": "Increases damage and range while reducing tears and shot speed. Grants <a href=\"/Homing_tears\" title=\"Homing tears\" class=\"mw-redirect\">homing tears</a> and tears gain a damaging halo."
 	},
 	"Growth Hormones": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Growth_Hormones",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Growth_Hormones_Icon.png?version=a40e4228f6c989f47ffcb381024682d5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/70/Growth_Hormones_Icon.png",
 		"descriptionHTML": "Increases damage by 1 and speed by 0.4."
 	},
 	"Guardian Angel": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guardian_Angel",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f6/Guardian_Angel_Icon.png?version=133dd7a1c34c45f9b8266e7937db3697",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f6/Guardian_Angel_Icon.png",
 		"descriptionHTML": "Spawns an <a href=\"/Orbital_familiar\" title=\"Orbital familiar\" class=\"mw-redirect\">orbital familiar</a> that blocks enemy projectiles, deals contact damage to enemies and increases the speed of all orbital familiars."
 	},
 	"Guillotine": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guillotine",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Guillotine_Icon.png?version=a427fff133566de021972e223de3dc7a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Guillotine_Icon.png",
 		"descriptionHTML": "Isaac's head is removed from his body and floats around him. Increases Damage by 1 and grants -1 Tear Delay."
 	},
 	"Guppy's Collar": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Collar",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Guppy%27s_Collar_Icon.png?version=21e09d342850df7d14c354a47407b6ce",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Guppy%27s_Collar_Icon.png",
 		"descriptionHTML": "Permanent 50% chance to respawn with 1/2 heart after death."
 	},
 	"Guppy's Hair Ball": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Hair_Ball",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e4/Guppy%27s_Hair_Ball_Icon.png?version=edab694796e049bdfe1d14656cb0ec4b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e4/Guppy%27s_Hair_Ball_Icon.png",
 		"descriptionHTML": "Loosely follows behind Isaac. Can be swung like a flail by rapidly spinning Isaac in a circle. Grows bigger by killing enemies."
 	},
 	"Guppy's Tail": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Tail",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1d/Guppy%27s_Tail_Icon.png?version=7dd7c2a81535e374fc34dc3e51262f09",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1d/Guppy%27s_Tail_Icon.png",
 		"descriptionHTML": "Increases chance of finding gold chests and normal chests, but reduces chance of finding pickups."
 	},
 	"Habit": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Habit",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Habit_Icon.png?version=a691bef7bab0750f3cb300f17e8be8d6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Habit_Icon.png",
 		"descriptionHTML": "When Isaac is hit, 1 point of an item's charge is filled."
 	},
 	"The Halo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Halo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/The_Halo_Icon.png?version=7970f7ff8721f7d9668ec0abf1867c27",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/The_Halo_Icon.png",
 		"descriptionHTML": "Grants one Heart Container, +0.3 Damage, +0.2 Tears, +0.25 Range, +0.3 Speed, and +0.5 Tear Height."
 	},
 	"Halo of Flies": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Halo_of_Flies",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Halo_of_Flies_Icon.png?version=ac50bc755a73ab01c33991aef151ae9c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Halo_of_Flies_Icon.png",
 		"descriptionHTML": "Spawns two <a href=\"/Familiar#Orbital_familiars\" title=\"Familiar\">pretty fly familiars</a> that block enemy shots and deal contact damage to enemies."
 	},
 	"Harlequin Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Harlequin_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Harlequin_Baby_Icon.png?version=cb0b9332485cbffc449385f4da64504a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Harlequin_Baby_Icon.png",
 		"descriptionHTML": "Spawns a familiar that follows Isaac around and fires two tears at once in a V-pattern."
 	},
 	"Headless Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Headless_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7a/Headless_Baby_Icon.png?version=09d8123e6a1025837501ed5fc736350f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7a/Headless_Baby_Icon.png",
 		"descriptionHTML": "<a href=\"/Familiar\" title=\"Familiar\">Familiar</a> that follows Isaac, leaving blood <a href=\"/Creep\" title=\"Creep\">creep</a> on the ground."
 	},
 	"Hive Mind": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Hive_Mind",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3e/Hive_Mind_Icon.png?version=52ef0ffc633cba2820082a013469eb5a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3e/Hive_Mind_Icon.png",
 		"descriptionHTML": "Increases the size of <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> and <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">Blue Flies</a> and doubles the amount of damage they deal."
 	},
 	"Holy Grail": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Holy_Grail",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c9/Holy_Grail_Icon.png?version=8750af2791c31c18b00ca319b5205a8a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c9/Holy_Grail_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Flight\" title=\"Flight\">flight</a> and one <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Holy Mantle": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Holy_Mantle",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c7/Holy_Mantle_Icon.png?version=9195b8a28ae3c92dedaa681fd3fda098",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c7/Holy_Mantle_Icon.png",
 		"descriptionHTML": "Automatically negates first taken damage in every room."
 	},
 	"Holy Water": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Holy_Water",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/Holy_Water_Icon.png?version=a6566bcad186488ef22d25cfcb8e2b21",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/51/Holy_Water_Icon.png",
 		"descriptionHTML": "When Isaac receives damage, the bottle breaks and a puddle of blue <a href=\"/Creep\" title=\"Creep\">creep</a> forms, which damages non-flying enemies, similar to <a href=\"/Lemon_Mishap\" title=\"Lemon Mishap\">Lemon Mishap</a>. The bottle is reformed upon entering a different room."
 	},
 	"Hot Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Hot_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Hot_Bombs_Icon.png?version=7ce0a27645dcac19b5379bff9e717ea0",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Hot_Bombs_Icon.png",
 		"descriptionHTML": "Grants 5 bombs. Isaac's bombs leave behind fire that damages enemies upon contact."
 	},
 	"Humbling Bundle": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Humbling_Bundle",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Humbling_Bundle_Icon.png?version=36af74c90e6a4dcacbe04d556190a6e0",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Humbling_Bundle_Icon.png",
 		"descriptionHTML": "Gives one extra pickup (1+1 Free version) of Red Hearts, pennies, bombs and Keys. Does not work with blue, black and half red hearts, nickels and dimes."
 	},
 	"Infamy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Infamy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fd/Infamy_Icon.png?version=f1a40f3063f76b4df52ff6a62f0da3b2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fd/Infamy_Icon.png",
 		"descriptionHTML": "Chance to block projectiles coming from any direction."
 	},
 	"Infestation": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Infestation",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6a/Infestation_Icon.png?version=cdd6394bbfa4a97c0865ec4549622aa8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6a/Infestation_Icon.png",
 		"descriptionHTML": "1-3 <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">Blue flies</a> randomly spawn every time Isaac gets hit."
 	},
 	"Infestation 2": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Infestation_2",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4d/Infestation_2_Icon.png?version=6c3cfcc056cbd390ef130dba999fe3a2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4d/Infestation_2_Icon.png",
 		"descriptionHTML": "Spawns allied <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> from killed enemies."
 	},
 	"The Inner Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Inner_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b9/The_Inner_Eye_Icon.png?version=76f5271fa2505952554b61a888329daa",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b9/The_Inner_Eye_Icon.png",
 		"descriptionHTML": "Grants triple shot but decreases <a href=\"/Tears\" title=\"Tears\">tears</a>."
 	},
 	"Ipecac": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ipecac",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Ipecac_Icon.png?version=dff5a79f8106078872cc9446ec28a58a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Ipecac_Icon.png",
 		"descriptionHTML": "Replaces tears with explosive and <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poisoning</a> projectiles fired in an arc from the mouth."
 	},
 	"Iron Bar": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Iron_Bar",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Iron_Bar_Icon.png?version=382cea0b9eb4d16ef8813cb3b293ea1c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/84/Iron_Bar_Icon.png",
 		"descriptionHTML": "Increases damage by 0.3 and adds a chance to shoot <a href=\"/Effects#Concussive_Tears\" title=\"Effects\">concussive tears</a>, causing enemies to walk around randomly."
 	},
 	"Isaac's Heart": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Isaac%27s_Heart",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Isaac%27s_Heart_Icon.png?version=762e3362341bcf6db4dde097ba9fd5d2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Isaac%27s_Heart_Icon.png",
 		"descriptionHTML": "Isaac himself is now immune to all damage, and a heart <a href=\"/Familiar\" title=\"Familiar\">familiar</a> appears and follows Isaac. If the heart is hurt, Isaac is hurt."
 	},
 	"Jesus Juice": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Jesus_Juice",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/Jesus_Juice_Icon.png?version=e21aa7b36c755d1ca4e0b1072e521878",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/98/Jesus_Juice_Icon.png",
 		"descriptionHTML": "Increases Damage and Range."
 	},
 	"Judas' Shadow": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Judas%27_Shadow",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Judas%27_Shadow_Icon.png?version=1902396096ba9d129dbea6b091828a80",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f5/Judas%27_Shadow_Icon.png",
 		"descriptionHTML": "Adds an extra life; upon <a href=\"/Death\" title=\"Death\">death</a>, it respawns Isaac as <a href=\"/Judas#Black_Judas\" title=\"Judas\">Black Judas</a> with only two black hearts."
 	},
 	"Juicy Sack": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Juicy_Sack",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Juicy_Sack_Icon.png?version=5deaa8890b15909e75f06fc8de53c3a4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Juicy_Sack_Icon.png",
 		"descriptionHTML": "A <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows behind Isaac. It drips a trail of creep, which <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slows</a> enemies, and spawns 1-2 <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> after each room."
 	},
 	"Key Piece 1": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Key_Piece_1",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/28/Key_Piece_1_Icon.png?version=f5bdaf4a903c131bd6ea6cda510a222b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/28/Key_Piece_1_Icon.png",
 		"descriptionHTML": "Combined with <a href=\"/Key_Piece_2\" title=\"Key Piece 2\">Key Piece 2</a>, unlocks the golden gate in the starting room of <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a> and <a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a href=\"/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>."
 	},
 	"Key Piece 2": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Key_Piece_2",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5d/Key_Piece_2_Icon.png?version=be88bcd0d0a7a72309d43720b4369f4a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5d/Key_Piece_2_Icon.png",
 		"descriptionHTML": "Combined with <a href=\"/Key_Piece_1\" title=\"Key Piece 1\">Key Piece 1</a>, unlocks the golden gate in the starting room of <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a> and <a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a href=\"/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>."
 	},
 	"The Ladder": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Ladder",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4a/The_Ladder_Icon.png?version=01b1155f838a8f188762bdc3f9eac01b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4a/The_Ladder_Icon.png",
 		"descriptionHTML": "Allows Isaac to walk across gaps one square across by automatically placing a ladder between the two walkable sections."
 	},
 	"Latch Key": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Latch_Key",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ca/Latch_Key_Icon.png?version=14e098fcb4f0669f2cc43f5c31dbf732",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ca/Latch_Key_Icon.png",
 		"descriptionHTML": "Increases Luck by 1, grants 1 Soul Heart and spawns 2 Keys."
 	},
 	"Lazarus' Rags": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lazarus%27_Rags",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cf/Lazarus%27_Rags_Icon.png?version=cd2714cfb77043350561cf4207f3eb00",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cf/Lazarus%27_Rags_Icon.png",
 		"descriptionHTML": "Upon dying, resurrect as <a href=\"/Lazarus#Revived_Lazarus\" title=\"Lazarus\">Revived Lazarus</a> with one heart container and <a href=\"/Anemic\" title=\"Anemic\">Anemic</a> item."
 	},
 	"Leech": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Leech",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Leech_Icon.png?version=9d47006d942869e202da951658145c13",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Leech_Icon.png",
 		"descriptionHTML": "Spawns a friendly familiar leech on the ground that hunts down enemies and heals you for half a heart each time it eats one."
 	},
 	"Leo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Leo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/Leo_Icon.png?version=5f4adcafc4c1bfbe8d602b21e4f1c6a6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3d/Leo_Icon.png",
 		"descriptionHTML": "Allows you to crush <a href=\"/Rock\" title=\"Rock\" class=\"mw-redirect\">rocks</a> when you walk over them."
 	},
 	"Libra": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Libra",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Libra_Icon.png?version=3cc2d4a26646b4f4f5f53848fdbdfefc",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/Libra_Icon.png",
 		"descriptionHTML": "Gives 6 coins, 6 bombs and 6 keys and balances out all attributes."
 	},
 	"Lil Brimstone": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil_Brimstone",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/Lil_Brimstone_Icon.png?version=5e04009d86a05dac173d1d9b54844500",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/92/Lil_Brimstone_Icon.png",
 		"descriptionHTML": "A Familiar that shoots a small <a href=\"/Brimstone\" title=\"Brimstone\">Brimstone</a> beam. Must charge like the Brimstone Item before shooting."
 	},
 	"Lil Haunt": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil_Haunt",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/89/Lil_Haunt_Icon.png?version=8435602fda907600a0e98ea6dfb48717",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/89/Lil_Haunt_Icon.png",
 		"descriptionHTML": "A familiar that damages enemies by chasing them as well as inducing the fear effect."
 	},
 	"Little Baggy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Baggy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/Little_Baggy_Icon.png?version=dbdb7f699706d2d5d023c06f4a0eeacf",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/88/Little_Baggy_Icon.png",
 		"descriptionHTML": "Isaac can hold 2 pills at once and all cards are replaced by pills."
 	},
 	"Little C.H.A.D.": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_C.H.A.D.",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Little_C.H.A.D._Icon.png?version=cd12075befeeeae62e62232c0d49664b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1b/Little_C.H.A.D._Icon.png",
 		"descriptionHTML": "A <a href=\"/Familiar\" title=\"Familiar\">familiar</a> who will drop a half Heart every 2 rooms."
 	},
 	"Little Chubby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Chubby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/Little_Chubby_Icon.png?version=803f1ed01d87e4464aca925c36a7d532",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/Little_Chubby_Icon.png",
 		"descriptionHTML": "A <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that charges forward and deals touch damage to any enemies in its path."
 	},
 	"Little Gish": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Gish",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Little_Gish_Icon.png?version=7a05c9158e015a433cf6c7b4923e6c20",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e8/Little_Gish_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slowing tears</a>, impeding enemies' speed."
 	},
 	"Little Steven": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Little_Steven",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Little_Steven_Icon.png?version=b8cfeda85868a010c7f712938741c30c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Little_Steven_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a href=\"/Homing_tears\" title=\"Homing tears\" class=\"mw-redirect\">homing tears</a>."
 	},
 	"Loki's Horns": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Loki%27s_Horns",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Loki%27s_Horns_Icon.png?version=13bc7701a9e79e3737bebbddee84d101",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Loki%27s_Horns_Icon.png",
 		"descriptionHTML": "Gives a random chance for projectiles to fire in all 4 cardinal directions."
 	},
 	"Lord of the Pit": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lord_of_the_Pit",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e5/Lord_of_the_Pit_Icon.png?version=f21c1dc7ea76e97d62b29ff3683bac03",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e5/Lord_of_the_Pit_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Flight\" title=\"Flight\">flight</a> and increases speed."
 	},
 	"Lost Contact": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lost_Contact",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/Lost_Contact_Icon.png?version=88ae69f90a901ddebba5820bc7986040",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6b/Lost_Contact_Icon.png",
 		"descriptionHTML": "Every tear has a small shield which will allow it to block one enemy projectile."
 	},
 	"Lucky Foot": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lucky_Foot",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8e/Lucky_Foot_Icon.png?version=59640037a2cb8ca23b6d88ca50173234",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8e/Lucky_Foot_Icon.png",
 		"descriptionHTML": "+1 Luck. Increases chance of winning Shell Game Beggar. (Independent of luck stat)"
 	},
 	"The Ludovico Technique": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Ludovico_Technique",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/05/The_Ludovico_Technique_Icon.png?version=b105ae9a34295c6b457e106b6e9e2556",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/05/The_Ludovico_Technique_Icon.png",
 		"descriptionHTML": "Instead of firing tears, Isaac controls one floating tear that hover over obstacles. This tear deals constant damage when held in place over an enemy."
 	},
 	"A Lump of Coal": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Lump_of_Coal",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/A_Lump_of_Coal_Icon.png?version=e1f444ce4e2fabcabc0036c686533091",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d0/A_Lump_of_Coal_Icon.png",
 		"descriptionHTML": "The more distance tears travel, the more damage they will do."
 	},
 	"Lunch": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lunch",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Lunch_Icon.png?version=f1979472aee1ff2e001e2795e978123b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Lunch_Icon.png",
 		"descriptionHTML": "Adds 1 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Maggy's Bow": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Maggy%27s_Bow",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6c/Maggy%27s_Bow_Icon.png?version=23e089001f0323b2e96328736ad63b3b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6c/Maggy%27s_Bow_Icon.png",
 		"descriptionHTML": "Gives one heart container and doubles the healing provided by red hearts."
 	},
 	"Magic 8 Ball": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Magic_8_Ball",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Magic_8_Ball_Icon.png?version=3e74697845e829644f97036ec05cb2db",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Magic_8_Ball_Icon.png",
 		"descriptionHTML": "Increases Shot Speed, and drops a <a href=\"/Tarot_Card\" title=\"Tarot Card\" class=\"mw-redirect\">Tarot Card</a> when picked up."
 	},
 	"Magic Mushroom": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Magic_Mushroom",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Magic_Mushroom_Icon.png?version=263b59bfd7d5454588d59f173be98024",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Magic_Mushroom_Icon.png",
 		"descriptionHTML": "Increases all stats and enlargens Isaac."
 	},
 	"Magic Scab": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Magic_Scab",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Magic_Scab_Icon.png?version=14974ce06262f8aff69e5d4ee63b0fe6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Magic_Scab_Icon.png",
 		"descriptionHTML": "Increases luck and HP by 1."
 	},
 	"Magneto": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Magneto",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/02/Magneto_Icon.png?version=e5983802c32a5b0c1c8a1f74a382ca20",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/02/Magneto_Icon.png",
 		"descriptionHTML": "Pulls <a href=\"/Pickup\" title=\"Pickup\" class=\"mw-redirect\">pickups</a> towards Isaac."
 	},
 	"The Mark": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Mark",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/The_Mark_Icon.png?version=bc079ce716e971e39b1ed55e14d08334",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/The_Mark_Icon.png",
 		"descriptionHTML": "Increases Damage and Speed, plus adds one Soul Heart."
 	},
 	"Match Book": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Match_Book",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Match_Book_Icon.png?version=a3a02657ca35d487c39fdfaa3890f4bb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Match_Book_Icon.png",
 		"descriptionHTML": "Grants Isaac 1 Black Heart and 3 bombs. Can also give troll bombs."
 	},
 	"MEAT!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/MEAT!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/MEAT%21_Icon.png?version=2f274d52dfdfa6d4aafd4e8cb54b75fb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e0/MEAT%21_Icon.png",
 		"descriptionHTML": "Adds a heart container, and increases damage."
 	},
 	"Midas' Touch": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Midas%27_Touch",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Midas%27_Touch_Icon.png?version=777f6c981292f6e9052b5768b1578a17",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/42/Midas%27_Touch_Icon.png",
 		"descriptionHTML": "Enemies that touch you are stunned and turn gold. Any enemy killed while in this state will drop a coin."
 	},
 	"The Mind": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Mind",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f9/The_Mind_Icon.png?version=9362340790e34c51db2f6e2d09fe1d34",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f9/The_Mind_Icon.png",
 		"descriptionHTML": "Grants the combined effects of the <a href=\"/Blue_Map\" title=\"Blue Map\">Blue Map</a>, <a href=\"/Treasure_Map\" title=\"Treasure Map\">Treasure Map</a> and <a href=\"/The_Compass\" title=\"The Compass\">The Compass</a>, revealing the floor layout and all special rooms, including <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Rooms</a> and <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Rooms</a>."
 	},
 	"Mini Mush": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mini_Mush",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/02/Mini_Mush_Icon.png?version=87ecb86467953fb1131955482b90b78f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/02/Mini_Mush_Icon.png",
 		"descriptionHTML": "Increases Speed and Shot Height and decreases Isaac's size, but lowers Range."
 	},
 	"Missing Page 2": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Missing_Page_2",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/17/Missing_Page_2_Icon.png?version=47c82bfcd2f8b66a403fdf488a09a57e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/17/Missing_Page_2_Icon.png",
 		"descriptionHTML": "Gives 1 black heart. Upon taking damage that reduces Isaac's health to one heart or less, activates <a href=\"/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a> effect, dealing 40 damage to all enemies in the room."
 	},
 	"Missing No.": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Missing_No.",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b2/Missing_No._Icon.png?version=0f348f5d2900ca912bd9911b3af13ec1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b2/Missing_No._Icon.png",
 		"descriptionHTML": "Randomizes all passive items upon pickup and at the start of each succeeding floor."
 	},
 	"Mitre": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mitre",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Mitre_Icon.png?version=bd8f78bed2be79eda73c18f9799d4901",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3c/Mitre_Icon.png",
 		"descriptionHTML": "Grants a chance of converting any <a href=\"/Red_heart\" title=\"Red heart\" class=\"mw-redirect\">red hearts</a> pickups into <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a> instead."
 	},
 	"Mom's Coin Purse": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Coin_Purse",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b1/Mom%27s_Coin_Purse_Icon.png?version=b8fb7c7c063bf1a90c784b3721308545",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b1/Mom%27s_Coin_Purse_Icon.png",
 		"descriptionHTML": "Spawns 4 random <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">pills</a> around Isaac."
 	},
 	"Mom's Contacts": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Contacts",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Mom%27s_Contacts_Icon.png?version=6473c0d94547f086f5a1e4f59307dd92",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Mom%27s_Contacts_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot <a href=\"/Petrification\" title=\"Petrification\" class=\"mw-redirect\">petrifying tears</a>, which stop enemies in place and prevent them from moving or attacking. Range up."
 	},
 	"Mom's Eye": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Eye",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Mom%27s_Eye_Icon.png?version=d3f66a94cd877f3f2162b6e925628c81",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Mom%27s_Eye_Icon.png",
 		"descriptionHTML": "Allows Isaac to fire tears from the back of his head."
 	},
 	"Mom's Eyeshadow": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Eyeshadow",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Mom%27s_Eyeshadow_Icon.png?version=9e6f5c89f95e17de2a943a4ffcd1b072",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Mom%27s_Eyeshadow_Icon.png",
 		"descriptionHTML": "Tears have a chance to <a href=\"/Charm\" title=\"Charm\" class=\"mw-redirect\">charm</a> enemies."
 	},
 	"Mom's Heels": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Heels",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/Mom%27s_Heels_Icon.png?version=c4442bd67cee95633ae56ba8b36cd7a0",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/4c/Mom%27s_Heels_Icon.png",
 		"descriptionHTML": "Increases range."
 	},
 	"Mom's Key": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Key",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/15/Mom%27s_Key_Icon.png?version=6dfbb9360ef6ab3a435659a4c0646f76",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/15/Mom%27s_Key_Icon.png",
 		"descriptionHTML": "Spawns 2 keys. Generates additional pickups from chests."
 	},
 	"Mom's Knife": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Knife",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Mom%27s_Knife_Icon.png?version=78a3e11445ebbc890a27114f3fa7fde5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Mom%27s_Knife_Icon.png",
 		"descriptionHTML": "Isaac's tears are replaced by a knife that pierces enemies, can travel through obstacles, and can hurt enemies while Isaac is holding it. Holding down the fire button before firing increases its range and power."
 	},
 	"Mom's Lipstick": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Lipstick",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dd/Mom%27s_Lipstick_Icon.png?version=b7d82fa6ca411882740622e86839f89a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dd/Mom%27s_Lipstick_Icon.png",
 		"descriptionHTML": "Increases range and shot height."
 	},
 	"Mom's Perfume": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Perfume",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dd/Mom%27s_Perfume_Icon.png?version=11af15f49ce7a4b52b8d8280a9bc9f92",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dd/Mom%27s_Perfume_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot <a href=\"/Fear\" title=\"Fear\" class=\"mw-redirect\">fear tears</a>, -1 Tear Delay."
 	},
 	"Mom's Purse": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Purse",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Mom%27s_Purse_Icon.png?version=0ba93199df079e1e3a157f415e4e4ee1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/Mom%27s_Purse_Icon.png",
 		"descriptionHTML": "Allows Isaac to hold 1 additional trinket."
 	},
 	"Mom's Underwear": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Underwear",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Mom%27s_Underwear_Icon.png?version=28c7337d55c61fcf531bd5a2dbb9c10a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/94/Mom%27s_Underwear_Icon.png",
 		"descriptionHTML": "Increases range."
 	},
 	"Mom's Wig": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Wig",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Mom%27s_Wig_Icon.png?version=1d97d8067395539935889137b4e87b82",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Mom%27s_Wig_Icon.png",
 		"descriptionHTML": "Adds a chance to spawn <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a> when firing tears. Restores 1 red heart."
 	},
 	"Money = Power": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Money_%3D_Power",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e7/Money_%3D_Power_Icon.png?version=5d21aa14cfb608728b0446a3efed1301",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e7/Money_%3D_Power_Icon.png",
 		"descriptionHTML": "Increases damage by 0.04 for every coin Isaac has up to +3.96 damage at 99 coins."
 	},
 	"Mongo Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mongo_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Mongo_Baby_Icon.png?version=86beb12ecb413eb51c8443dbf7361619",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ef/Mongo_Baby_Icon.png",
 		"descriptionHTML": "Summons a familiar that copies the tears of Isaac's other familiars."
 	},
 	"Monstro's Lung": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Monstro%27s_Lung",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/49/Monstro%27s_Lung_Icon.png?version=99807398d54b9418948663a7f97fc0d6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/49/Monstro%27s_Lung_Icon.png",
 		"descriptionHTML": "Increases damage and grants a charged shot that fires multiple tears in the same fashion as <a href=\"/Monstro\" title=\"Monstro\">Monstro</a>."
 	},
 	"Mr. Mega": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mr._Mega",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Mr._Mega_Icon.png?version=6805bae9ef500d7527bdbdea6d4f6a73",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/27/Mr._Mega_Icon.png",
 		"descriptionHTML": "Gives Isaac 5 bombs, and makes all dropped bombs larger, which have an increased blast radius and increased damage."
 	},
 	"The Mulligan": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Mulligan",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1c/The_Mulligan_Icon.png?version=ca78f2962cc2aa7acd1f1f8ee4dbb38d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1c/The_Mulligan_Icon.png",
 		"descriptionHTML": "Tears have a 1/6 chance of spawning allied <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">blue flies</a> when they hit an enemy."
 	},
 	"Mutant Spider": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mutant_Spider",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6e/Mutant_Spider_Icon.png?version=1c951e31480117be33732adc0cba73fd",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6e/Mutant_Spider_Icon.png",
 		"descriptionHTML": "Grants quadruple shot but decreases <a href=\"/Tears\" title=\"Tears\">tears</a>."
 	},
 	"My Reflection": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/My_Reflection",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b7/My_Reflection_Icon.png?version=543c8187c64a7c118a8b2ce295c3c3a3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b7/My_Reflection_Icon.png",
 		"descriptionHTML": "Gives Isaac's tears a boomerang effect, and increases range and shot speed."
 	},
 	"Mysterious Liquid": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mysterious_Liquid",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3a/Mysterious_Liquid_Icon.png?version=4e428d0c04fa8d519eb265c4fc05cd11",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3a/Mysterious_Liquid_Icon.png",
 		"descriptionHTML": "Tears leave a small, short lasting pool of <a href=\"/Creep\" title=\"Creep\">creep</a> on impact or when their range is depleted."
 	},
 	"Mystery Sack": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mystery_Sack",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Mystery_Sack_Icon.png?version=e7cab72f9bd435d5300ea2f6679673c4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Mystery_Sack_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar#Pickup_generation_familiars\" title=\"Familiar\">familiar</a> that follows Isaac around and has a chance to drop a <a href=\"/Heart\" title=\"Heart\" class=\"mw-redirect\">heart</a>, <a href=\"/Coin\" title=\"Coin\" class=\"mw-redirect\">coin</a>, <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bomb</a>, or <a href=\"/Key\" title=\"Key\" class=\"mw-redirect\">key</a> after clearing a room."
 	},
 	"Number One": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Number_One",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Number_One_Icon.png?version=365f8027decce31bcbd8429e80b0c4cf",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/43/Number_One_Icon.png",
 		"descriptionHTML": "Tears range is heavily decreased, but the fire rate is greatly increased."
 	},
 	"Odd Mushroom (Large)": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Large)",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/Odd_Mushroom_%28Large%29_Icon.png?version=07ae7bec620b9b0ef58578f529d7b506",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/Odd_Mushroom_%28Large%29_Icon.png",
 		"descriptionHTML": "Grants an empty heart container. Increases damage, range and shot height while reducing speed."
 	},
 	"Odd Mushroom (Thin)": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Thin)",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Odd_Mushroom_%28Thin%29_Icon.png?version=3df43db541c1c4ce3c8654662c733ae3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/36/Odd_Mushroom_%28Thin%29_Icon.png",
 		"descriptionHTML": "Increases Tears and Speed while reducing Damage."
 	},
 	"Old Bandage": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Old_Bandage",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/af/Old_Bandage_Icon.png?version=e92035b6cfeaa40a370878577810f96e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/af/Old_Bandage_Icon.png",
 		"descriptionHTML": "Adds one empty heart container. Whenever Isaac takes damage there's a chance that a Red Heart may drop."
 	},
 	"Ouija Board": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ouija_Board",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e5/Ouija_Board_Icon.png?version=6669dcc101d4d7292136daa2f9d816e9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e5/Ouija_Board_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Spectral_tears\" title=\"Spectral tears\" class=\"mw-redirect\">spectral tears</a> that travel through obstacles (but not enemies) instead of breaking on impact with them."
 	},
 	"The Pact": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Pact",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3a/The_Pact_Icon.png?version=eb47bed9914bdfac79c09e5033c68921",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3a/The_Pact_Icon.png",
 		"descriptionHTML": "Increases damage by 0.5, tears by 0.7 and grants two soul hearts upon pickup."
 	},
 	"Pageant Boy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pageant_Boy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/16/Pageant_Boy_Icon.png?version=b8ee8308f509af864d1f14d9c9e4b9fe",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/16/Pageant_Boy_Icon.png",
 		"descriptionHTML": "Spawns several coins around Isaac."
 	},
 	"The Parasite": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Parasite",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7d/The_Parasite_Icon.png?version=86c7999a22d8cb79198334a8b77b9270",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7d/The_Parasite_Icon.png",
 		"descriptionHTML": "Isaac's tears split in two when they hit something."
 	},
 	"The Peeper": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Peeper",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/39/The_Peeper_Icon.png?version=f3d18e26c4412ca05436e98e8f4973a2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/39/The_Peeper_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern similar to <a href=\"/Boom_Fly\" title=\"Boom Fly\" class=\"mw-redirect\">Boom Flies</a> damaging enemies it passes through."
 	},
 	"Pentagram": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pentagram",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Pentagram_Icon.png?version=9bf7a47cf4a806594331f196d436bc4f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/95/Pentagram_Icon.png",
 		"descriptionHTML": "Increases Damage and increases chances of the Devil Room appearing."
 	},
 	"PHD": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/PHD",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ec/PHD_Icon.png?version=8208e4d74254814ad7a9d8ed6860a0da",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ec/PHD_Icon.png",
 		"descriptionHTML": "Converts all bad pills into good pills, spawns one pill pickup and restores health. Identifies all pills upon pickup."
 	},
 	"Pisces": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pisces",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/89/Pisces_Icon.png?version=cf2cce6bf11e472399d264cfbd5e351c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/89/Pisces_Icon.png",
 		"descriptionHTML": "-1 Tear Delay, adds <a href=\"/Knock-back\" title=\"Knock-back\" class=\"mw-redirect\">knock-back</a> shots and increases tear size."
 	},
 	"Piggy Bank": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Piggy_Bank",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Piggy_Bank_Icon.png?version=6f3f090a11ecfcc92b8631575c54cab2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Piggy_Bank_Icon.png",
 		"descriptionHTML": "Gives 3 pennies on pick-up. Every time Isaac is damaged, he will drop one additional penny."
 	},
 	"Placenta": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Placenta",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cc/Placenta_Icon.png?version=c03e04f1ff32d6ba5626c0bda5c48f23",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cc/Placenta_Icon.png",
 		"descriptionHTML": "Grants a full heart container, and a chance to regenerate a half-heart of health every minute of gameplay."
 	},
 	"Polyphemus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Polyphemus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Polyphemus_Icon.png?version=d68f133a30d7851455f3dc60fc40f730",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2b/Polyphemus_Icon.png",
 		"descriptionHTML": "Makes Isaac shoot one huge tear. Also reduces Tears to minimum. Damage increased . If tear does more damage than an enemy's life, the tear continues to travel with the extra remaining damage."
 	},
 	"Proptosis": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Proptosis",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cb/Proptosis_Icon.png?version=35a16ede0aeca91952240e1ea95e9cc6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/cb/Proptosis_Icon.png",
 		"descriptionHTML": "Tears start out massive with high damage, and then shrink down and become weaker over a short range."
 	},
 	"Punching Bag": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Punching_Bag",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Punching_Bag_Icon.png?version=6b13f82db5d16edff568ab4e4989fbab",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/Punching_Bag_Icon.png",
 		"descriptionHTML": "Spawns a Mulligan Familiar that will wander the room randomly. Enemies will attack the Mulligan if it's closer."
 	},
 	"Pyro": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pyro",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Pyro_Icon.png?version=5a869624939af37718c37f3fae3d8fbb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/26/Pyro_Icon.png",
 		"descriptionHTML": "Adds 99 bombs."
 	},
 	"Pyromaniac": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pyromaniac",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a0/Pyromaniac_Icon.png?version=03b956a7d7e92d179085d2278cf640ed",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a0/Pyromaniac_Icon.png",
 		"descriptionHTML": "Isaac heals 1 heart instead of taking damage by a explosive blast from source. Adds 5 bombs."
 	},
 	"A Quarter": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Quarter",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c3/A_Quarter_Icon.png?version=3b009b44ed5b0d1fabf0b204f2893463",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c3/A_Quarter_Icon.png",
 		"descriptionHTML": "Adds 25 to Isaac's coin count, capping at 99."
 	},
 	"Rainbow Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rainbow_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f0/Rainbow_Baby_Icon.png?version=c190dfa717434245a059239760d8faff",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f0/Rainbow_Baby_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires tears with random effects."
 	},
 	"Raw Liver": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Raw_Liver",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Raw_Liver_Icon.png?version=f5e5f34f981f2c15d8d0af97b9b8eb36",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Raw_Liver_Icon.png",
 		"descriptionHTML": "Grants 2 Heart Containers and completely restores health."
 	},
 	"The Relic": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Relic",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bb/The_Relic_Icon.png?version=f6da55b29c4e5aad61580fba412fc0ae",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bb/The_Relic_Icon.png",
 		"descriptionHTML": "Isaac is followed by a small blue cross that will drop a Soul Heart every 4 rooms."
 	},
 	"Robo-Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Robo-Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/77/Robo-Baby_Icon.png?version=b5b658ec2559186bba246daa80c0e334",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/77/Robo-Baby_Icon.png",
 		"descriptionHTML": "Follows Isaac around, shooting enemies with an eye laser similar to <a href=\"/Technology\" title=\"Technology\">Technology</a>."
 	},
 	"Robo-Baby 2.0": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Robo-Baby_2.0",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Robo-Baby_2.0_Icon.png?version=cdf3fcb2edb6e3806af480de16903267",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/ce/Robo-Baby_2.0_Icon.png",
 		"descriptionHTML": "Fires lasers at any enemy in its line of sight and moves based on the direction Isaac is firing tears."
 	},
 	"Roid Rage": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Roid_Rage",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Roid_Rage_Icon.png?version=54694c00baa729d18ac409f1f615eb7c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5a/Roid_Rage_Icon.png",
 		"descriptionHTML": "Increases speed by 0.6, range by 5.25, and tear height by 0.5."
 	},
 	"Rosary": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rosary",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/Rosary_Icon.png?version=3d7f55b725e3a25a30fef36d46d9ae84",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/Rosary_Icon.png",
 		"descriptionHTML": "Adds 3 Soul Hearts and increases the chance for <a href=\"/The_Bible\" title=\"The Bible\">The Bible</a> to appear in any item pool."
 	},
 	"Rotten Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rotten_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f1/Rotten_Baby_Icon.png?version=d326b0251334b4bb42eedd1208a197e5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f1/Rotten_Baby_Icon.png",
 		"descriptionHTML": "A familiar that spawns <a href=\"/Blue_fly\" title=\"Blue fly\" class=\"mw-redirect\">blue flies</a>."
 	},
 	"Rotten Meat": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rotten_Meat",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d9/Rotten_Meat_Icon.png?version=98d52272e4678590a0d47cce47718f9b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d9/Rotten_Meat_Icon.png",
 		"descriptionHTML": "Adds one heart container."
 	},
 	"Rubber Cement": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rubber_Cement",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/Rubber_Cement_Icon.png?version=f231fb12e351912a70c5bef9d33baa6a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/Rubber_Cement_Icon.png",
 		"descriptionHTML": "Tears bounce off walls and obstacles (including enemies)."
 	},
 	"Sack of Pennies": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sack_of_Pennies",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Sack_of_Pennies_Icon.png?version=ada97f1a547f3abe39f197813589b617",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e6/Sack_of_Pennies_Icon.png",
 		"descriptionHTML": "Isaac is followed by a small bag that drops a coin every 2 rooms."
 	},
 	"Sacred Heart": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sacred_Heart",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Sacred_Heart_Icon.png?version=b2f451a51d969a4cc0340402973bcf84",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Sacred_Heart_Icon.png",
 		"descriptionHTML": "Increases damage and range while reducing shot speed and grants <a href=\"/Homing_tears\" title=\"Homing tears\" class=\"mw-redirect\">homing tears</a>. Grants a Heart Container and replenishes all Red Hearts."
 	},
 	"Sacrificial Dagger": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sacrificial_Dagger",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/Sacrificial_Dagger_Icon.png?version=0451177143fcc2a7c8e96d07e8317ef2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/Sacrificial_Dagger_Icon.png",
 		"descriptionHTML": "Dagger orbits Isaac, dealing very high damage."
 	},
 	"Sad Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sad_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Sad_Bombs_Icon.png?version=3be8083703cd28a3ab7e0b8280f7483d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Sad_Bombs_Icon.png",
 		"descriptionHTML": "+5 Bombs. Upon exploding, <a href=\"/Bomb\" title=\"Bomb\" class=\"mw-redirect\">bombs</a> shoot 8 tears off in every direction, similar to <a href=\"/Tammy%27s_Head\" title=\"Tammy's Head\">Tammy's Head</a>. The tears are affected by any tear modifiers Isaac has on his own tears."
 	},
 	"The Sad Onion": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Sad_Onion",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1a/The_Sad_Onion_Icon.png?version=7868f4235ec4b021d63003fc1a1c1434",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1a/The_Sad_Onion_Icon.png",
 		"descriptionHTML": "Increases Tears by 0.7."
 	},
 	"Safety Pin": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Safety_Pin",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fe/Safety_Pin_Icon.png?version=42519673617d6aa906c738f7406da80c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fe/Safety_Pin_Icon.png",
 		"descriptionHTML": "Increases range and shot speed, while adding 1 Black Heart."
 	},
 	"Sagittarius": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sagittarius",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/55/Sagittarius_Icon.png?version=0eae4816e402016c3aa8850ef303d628",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/55/Sagittarius_Icon.png",
 		"descriptionHTML": "Increases <a href=\"/Speed\" title=\"Speed\">speed</a> by +0.2 and grants <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing tears</a>."
 	},
 	"Samson's Chains": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Samson%27s_Chains",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/23/Samson%27s_Chains_Icon.png?version=4b2d38adf85db23e6ca15ab1741d5553",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/23/Samson%27s_Chains_Icon.png",
 		"descriptionHTML": "Pull a chain and ball behind you that will damage enemies on contact and is able to break stones."
 	},
 	"Scapular": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Scapular",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/09/Scapular_Icon.png?version=eeab0cb504166d6cabf661ff8a2bc211",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/09/Scapular_Icon.png",
 		"descriptionHTML": "Once per room, when Isaac is reduced to his last half red Heart, the aura around his head temporarily vanishes and he is granted one Soul Heart."
 	},
 	"Scorpio": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Scorpio",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/Scorpio_Icon.png?version=4b5413ac7e05aa61cab18315e3d24e1a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/Scorpio_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison tears</a>, which deal damage over time when inflicted."
 	},
 	"Screw": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Screw",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Screw_Icon.png?version=3c25ed6604c8dd52060e392ae919d17e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Screw_Icon.png",
 		"descriptionHTML": "Tears and shot speed up."
 	},
 	"Sharp Plug": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sharp_Plug",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/08/Sharp_Plug_Icon.png?version=ab9744d07d640d6a2e4a98265e6abb52",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/08/Sharp_Plug_Icon.png",
 		"descriptionHTML": "Using an activated item while it's not charged will charge it and Sharp Plug does 2 full heart damage to Isaac."
 	},
 	"Sissy Longlegs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sissy_Longlegs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/80/Sissy_Longlegs_Icon.png?version=f4f0067adefa47558e2fdb0c51bb2fd9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/80/Sissy_Longlegs_Icon.png",
 		"descriptionHTML": "Wanders about the room, occasionally spawning <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a>."
 	},
 	"Sister Maggy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sister_Maggy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Sister_Maggy_Icon.png?version=732c06d00ade84bcf67f29fceaf174ba",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/Sister_Maggy_Icon.png",
 		"descriptionHTML": "A <a href=\"/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around shooting blood tears."
 	},
 	"Skatole": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Skatole",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Skatole_Icon.png?version=0286243147ac0cee81081f36a2507652",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Skatole_Icon.png",
 		"descriptionHTML": "All types of fly except <a href=\"/Boom_Fly\" title=\"Boom Fly\" class=\"mw-redirect\">Boom Fly</a> and Red Boom Fly become passive and slowly move towards Isaac. Does not prevent contact damage."
 	},
 	"Skeleton Key": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Skeleton_Key",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Skeleton_Key_Icon.png?version=78310df98eef1fb0853b5c598b253136",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/54/Skeleton_Key_Icon.png",
 		"descriptionHTML": "Sets your key count to the maximum of 99."
 	},
 	"The Small Rock": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Small_Rock",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/The_Small_Rock_Icon.png?version=baea65d8bcaa2f38659985d12ae0349b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/61/The_Small_Rock_Icon.png",
 		"descriptionHTML": "Increases damage by 1, increases tears by 0.2, and decreases speed by 0.1."
 	},
 	"Smart Fly": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Smart_Fly",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Smart_Fly_Icon.png?version=2949b6e2ef07595dec0cd3f3bc05731b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/da/Smart_Fly_Icon.png",
 		"descriptionHTML": "After Isaac takes damage, this fly will deal continuous touch damage to whatever enemy caused the damage until it is dead. The fly will then systematically attack 1 enemy at a time until the room is cleared."
 	},
 	"SMB Super Fan": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/SMB_Super_Fan",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/SMB_Super_Fan_Icon.png?version=ce531cf2ce4fe203a5945468fe3f631e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bf/SMB_Super_Fan_Icon.png",
 		"descriptionHTML": "Increases all stats."
 	},
 	"A Snack": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Snack",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/A_Snack_Icon.png?version=465b191386959539f55c15b18f6371e1",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7e/A_Snack_Icon.png",
 		"descriptionHTML": "Adds 1 <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a>."
 	},
 	"Soy Milk": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Soy_Milk",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/39/Soy_Milk_Icon.png?version=5412a28e713e28b95a514d6097ab1304",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/39/Soy_Milk_Icon.png",
 		"descriptionHTML": "Tears shrink and do much less damage, but fire in very rapid succession."
 	},
 	"The Soul": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Soul",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/The_Soul_Icon.png?version=4ea180d6dcb1bf6e7f844c90f4bdbb55",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b4/The_Soul_Icon.png",
 		"descriptionHTML": "Grants two <a href=\"/Soul_heart\" title=\"Soul heart\" class=\"mw-redirect\">soul hearts</a>. Isaac now repels enemy projectiles."
 	},
 	"Speed Ball": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Speed_Ball",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Speed_Ball_Icon.png?version=fdfc7d0d558a26ec7def92ef5bae2bb4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Speed_Ball_Icon.png",
 		"descriptionHTML": "Increases speed by 0.3 and shot speed by 20%."
 	},
 	"Spelunker Hat": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spelunker_Hat",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/af/Spelunker_Hat_Icon.png?version=237e0950266e17c0a30e9f77ebcaa71d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/af/Spelunker_Hat_Icon.png",
 		"descriptionHTML": "Reveals type of adjacent rooms, including location for secret rooms and super secret rooms."
 	},
 	"Spider Bite": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spider_Bite",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/65/Spider_Bite_Icon.png?version=caf3a742f28df1b15c148c22edd48886",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/65/Spider_Bite_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slowing tears</a>, reducing speed of enemy movement and any projectile fired by them."
 	},
 	"Spider Baby": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spider_Baby",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/24/Spider_Baby_Icon.png?version=8f1d4c2ab7bb37f9efe7c4efc9b289be",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/24/Spider_Baby_Icon.png",
 		"descriptionHTML": "When hit, spawns up to 2 <a href=\"/Blue_spider\" title=\"Blue spider\" class=\"mw-redirect\">blue spiders</a>."
 	},
 	"Spirit of the Night": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spirit_of_the_Night",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Spirit_of_the_Night_Icon.png?version=4877a755b831abb857099b7a6a909de3",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ab/Spirit_of_the_Night_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Spectral_tears\" title=\"Spectral tears\" class=\"mw-redirect\">spectral tears</a> and <a href=\"/Flight\" title=\"Flight\">flight</a>."
 	},
 	"Spoon Bender": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Spoon_Bender",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Spoon_Bender_Icon.png?version=cba71d2376f5a8865ee73300beaabcaa",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ae/Spoon_Bender_Icon.png",
 		"descriptionHTML": "Grants Isaac <a href=\"/Homing_tears\" title=\"Homing tears\" class=\"mw-redirect\">homing tears</a>."
 	},
 	"Squeezy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Squeezy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Squeezy_Icon.png?version=c0c6b903ecab096b2f977f26bae179b5",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Squeezy_Icon.png",
 		"descriptionHTML": "Increases tears by 0.4, and spawns 2 Soul Hearts pickups."
 	},
 	"Starter Deck": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Starter_Deck",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Starter_Deck_Icon.png?version=c912a5676186eebecd97360b98fafe98",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/74/Starter_Deck_Icon.png",
 		"descriptionHTML": "Isaac can hold 2 cards at once and all pills are replaced by cards."
 	},
 	"Steam Sale": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Steam_Sale",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/87/Steam_Sale_Icon.png?version=2a656da86303561361e166bc46597235",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/87/Steam_Sale_Icon.png",
 		"descriptionHTML": "Reduces all Shop prices by 50%, rounded down to 7 coins for an item, rounded up to 2-3 coins for a pickup."
 	},
 	"Stem Cells": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stem_Cells",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/53/Stem_Cells_Icon.png?version=6b15434349dc0ae4ca0fd015a065f744",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/53/Stem_Cells_Icon.png",
 		"descriptionHTML": "Adds one filled <a href=\"/Heart_container\" title=\"Heart container\" class=\"mw-redirect\">heart container</a> and increases Shot Speed."
 	},
 	"Steven": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Steven_(Item)",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/Steven_%28Item%29_Icon.png?version=a91d09d8f7c979256e56b9ea923bddf7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/58/Steven_%28Item%29_Icon.png",
 		"descriptionHTML": "Increases Damage by 1."
 	},
 	"Stigmata": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stigmata",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f1/Stigmata_Icon.png?version=a3ea8ff8f6e23ed1d10ee13888a3c87e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f1/Stigmata_Icon.png",
 		"descriptionHTML": "Increases damage, and adds 1 heart container."
 	},
 	"Stop Watch": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stop_Watch",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/40/Stop_Watch_Icon.png?version=0c125ee734a438fc538a68b79d2b879d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/40/Stop_Watch_Icon.png",
 		"descriptionHTML": "<span title=\"Rebirth-exclusive content\" style=\"cursor:help\"><img alt=\"NoDLC Indicator.png\" src=\"https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9a/NoDLC_Indicator.png?version=f69160fd0ebe749f2c7e50f9fac09d00\" width=\"31\" height=\"14\"></span> Automatically inflicts <a href=\"/Slow\" title=\"Slow\" class=\"mw-redirect\">slow</a> to all enemies in every room.<br><span title=\"Afterbirth-exclusive content\" style=\"cursor:help\"><img alt=\"DLC Indicator.png\" src=\"https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a7/DLC_Indicator.png?version=d31b8b2e60d226ec6062742142893d13\" width=\"31\" height=\"14\"></span> Upon taking damage, inflicts slow to all enemies for the current room."
 	},
 	"Strange Attractor": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Strange_Attractor",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/Strange_Attractor_Icon.png?version=4bb5dfb01506f24f5ef01baa05eb7704",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/Strange_Attractor_Icon.png",
 		"descriptionHTML": "<a href=\"/Pickups\" title=\"Pickups\">Pickups</a>, <a href=\"/Trinkets\" title=\"Trinkets\">trinkets</a> and <a href=\"/Monsters\" title=\"Monsters\">monsters</a> are magnetically attracted to Isaac's tears."
 	},
 	"Super Bandage": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Super_Bandage",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Super_Bandage_Icon.png?version=6b9d54114173f8a6caf71cf54ac6e5b4",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/20/Super_Bandage_Icon.png",
 		"descriptionHTML": "Grants one Heart Container and gives 2 Soul Hearts."
 	},
 	"Synthoil": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Synthoil",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6c/Synthoil_Icon.png?version=ee5b019e90c8b6b9e3d8a09504208f3c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/6c/Synthoil_Icon.png",
 		"descriptionHTML": "Increases damage by 1, range by 5.25, and tear height by 0.5."
 	},
 	"Taurus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Taurus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/Taurus_Icon.png?version=458fd0262f973b0caac78cba37fa8236",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e3/Taurus_Icon.png",
 		"descriptionHTML": "Speed down, gains speed while in a room with enemies until gaining <a href=\"/My_Little_Unicorn\" title=\"My Little Unicorn\">My Little Unicorn</a> effect for a few seconds."
 	},
 	"Tech.5": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tech.5",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Tech.5_Icon.png?version=d0cf8b19e2ad0185840a93546e5c22f2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Tech.5_Icon.png",
 		"descriptionHTML": "Grants a unlimited range <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing</a> laser with random rate of fire that does not replace tears. The laser might occasionally fire with the effect of a random item or trinket, such as <a href=\"/Hook_Worm\" title=\"Hook Worm\">Hook Worm</a>, <a href=\"/Spoon_Bender\" title=\"Spoon Bender\">Spoon Bender</a> or <a href=\"/Tiny_Planet\" title=\"Tiny Planet\">Tiny Planet</a>."
 	},
 	"Technology": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Technology",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/80/Technology_Icon.png?version=01f6f0eac6e25fc3a719b708924a499f",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/80/Technology_Icon.png",
 		"descriptionHTML": "Replaces tears with a <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing</a> laser with unlimited range."
 	},
 	"Technology 2": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Technology_2",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Technology_2_Icon.png?version=d2ea559218388fdae896bcb511d3cb35",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Technology_2_Icon.png",
 		"descriptionHTML": "Decreases damage and replaces right eye tears with a unlimited range, <a href=\"/Piercing_tears\" title=\"Piercing tears\" class=\"mw-redirect\">piercing</a> laser which fires continuously."
 	},
 	"Tiny Planet": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tiny_Planet",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3f/Tiny_Planet_Icon.png?version=d3e9d48f6a88ca9ef1e2a46f52f6eee8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3f/Tiny_Planet_Icon.png",
 		"descriptionHTML": "Range up and makes shot tears revolve around Isaac until they drop."
 	},
 	"The Negative": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Negative",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/The_Negative_Icon.png?version=0313b0770d650f46959bf5d7166bd7e9",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/The_Negative_Icon.png",
 		"descriptionHTML": "If the character has half a red heart or no red hearts after taking damage, it triggers <a href=\"/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a> effect, damaging all enemies in the room. Also allows entrance into the <a href=\"/Dark_Room\" title=\"Dark Room\">Dark Room</a>."
 	},
 	"The Polaroid": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Polaroid",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/The_Polaroid_Icon.png?version=ffe7925efc63e3e695eda394e71ee821",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/The_Polaroid_Icon.png",
 		"descriptionHTML": "If the character has half a red heart or no red hearts after taking damage, it triggers the <a href=\"/Book_Of_Shadows\" title=\"Book Of Shadows\" class=\"mw-redirect\">Book Of Shadows</a> effect, creating a <a href=\"/Shield\" title=\"Shield\" class=\"mw-redirect\">shield</a> that nullifies all types of damage for 5 seconds. Also allows entrance into <a href=\"/The_Chest\" title=\"The Chest\">The Chest</a>."
 	},
 	"There's Options": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/There%27s_Options",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a9/There%27s_Options_Icon.png?version=869bf8ca33a8b1bde6d02cfbbcae3a50",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a9/There%27s_Options_Icon.png",
 		"descriptionHTML": "There will be 2 items available to choose from after defeating a boss. Choosing 1 item causes the other to disappear."
 	},
 	"Thunder Thighs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Thunder_Thighs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Thunder_Thighs_Icon.png?version=22b4b3aac4469383c9b1e4854e18825e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9c/Thunder_Thighs_Icon.png",
 		"descriptionHTML": "Destroys rocks upon contact with Isaac. Adds one heart container, and lowers Speed."
 	},
 	"Toothpicks": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Toothpicks",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9b/Toothpicks_Icon.png?version=e04c71068c1e5496c704e0cab4195d4a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/9b/Toothpicks_Icon.png",
 		"descriptionHTML": "Increases tears and shot speed."
 	},
 	"Torn Photo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Torn_Photo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Torn_Photo_Icon.png?version=a56ba43ae766a665542daae046cff461",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Torn_Photo_Icon.png",
 		"descriptionHTML": "Tears + Shot speed up."
 	},
 	"Tough Love": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tough_Love",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/62/Tough_Love_Icon.png?version=e9c20f29c8d4fb691e2c41e6ceb20f9d",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/62/Tough_Love_Icon.png",
 		"descriptionHTML": "Adds a chance to shoot a tooth instead of a tear, which deals greater damage than regular tears."
 	},
 	"Transcendence": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Transcendence",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/62/Transcendence_Icon.png?version=30ae82d4fc5cdf8ca9acb853d88ac568",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/62/Transcendence_Icon.png",
 		"descriptionHTML": "Grants <a href=\"/Flight\" title=\"Flight\">flight</a>."
 	},
 	"Treasure Map": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Treasure_Map",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Treasure_Map_Icon.png?version=6e380f57f66f84ad8750eef443f87b26",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/5c/Treasure_Map_Icon.png",
 		"descriptionHTML": "Reveals all rooms for every floor. However, it does not reveal icons or secret rooms."
 	},
 	"Trinity Shield": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Trinity_Shield",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Trinity_Shield_Icon.png?version=6e67db8dd7b8dd7488f9341eeb3bcf95",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/29/Trinity_Shield_Icon.png",
 		"descriptionHTML": "Isaac gains a shield that protects him from enemy shots."
 	},
 	"The Wafer": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Wafer",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/The_Wafer_Icon.png?version=50de43288f40323faaf8d32040aeeb05",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/97/The_Wafer_Icon.png",
 		"descriptionHTML": "All sources of damage that would cause more than one half heart of damage are reduced to one half heart instead."
 	},
 	"Whore of Babylon": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Whore_of_Babylon",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dc/Whore_of_Babylon_Icon.png?version=014bb690457b7aff052c1da8a3a6717a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/dc/Whore_of_Babylon_Icon.png",
 		"descriptionHTML": "Increases damage and speed whenever the character health is half red heart or less (one red heart for Eve)."
 	},
 	"Wire Coat Hanger": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wire_Coat_Hanger",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/05/Wire_Coat_Hanger_Icon.png?version=3218dead7cbc8d153ce3f49492eeb90b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/05/Wire_Coat_Hanger_Icon.png",
 		"descriptionHTML": "Increases Tears by 0.7."
 	},
 	"Wooden Spoon": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wooden_Spoon",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Wooden_Spoon_Icon.png?version=444811f18539c7ce57c7f0d422c9adb6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/83/Wooden_Spoon_Icon.png",
 		"descriptionHTML": "Increases speed by 0.3."
 	},
 	"Virgo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Virgo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Virgo_Icon.png?version=d053be52910d7781a5b70e07bee6a6df",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/66/Virgo_Icon.png",
 		"descriptionHTML": "Grants a chance to trigger the <a href=\"/Book_Of_Shadows\" title=\"Book Of Shadows\" class=\"mw-redirect\">Book Of Shadows</a> effect upon taking damage, creating a <a href=\"/Shield\" title=\"Shield\" class=\"mw-redirect\">shield</a> that nullifies all types of damage for 10 seconds. Also converts <i>\"bad pills\"</i> into <i>\"good pills\"</i>."
 	},
 	"The Virus": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/The_Virus",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7d/The_Virus_Icon.png?version=e5a7eaadc8afba90d43d34adae6aa6cb",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/7d/The_Virus_Icon.png",
 		"descriptionHTML": "Inflicts <a href=\"/Poison\" title=\"Poison\" class=\"mw-redirect\">poison</a> to enemies who make contact with Isaac. Speed down."
 	},
 	"X-Ray Vision": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/X-Ray_Vision",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/X-Ray_Vision_Icon.png?version=8f0678f8ea1271d4e86a610d816262fa",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/X-Ray_Vision_Icon.png",
 		"descriptionHTML": "Reveals and opens all <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Room</a> and <a href=\"/Super_Secret_Room\" title=\"Super Secret Room\" class=\"mw-redirect\">Super Secret Room</a> entrances."
 	}
 }

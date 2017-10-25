@@ -1,147 +1,147 @@
 var afterbirthTrinkets = {
 	"Blasting Cap": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blasting_Cap",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ac/Blasting_Cap_Icon.png?version=9824903d4d870f7eccf1087785e1d9bb",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ac/Blasting_Cap_Icon.png",
 		"descriptionHTML": "Exploding bombs have a chance to drop another bomb pickup."
 	},
 	"Black Feather": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Feather",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Black_Feather_Icon.png?version=d50c4b061dfb5a5dade089ee74676baa",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/52/Black_Feather_Icon.png",
 		"descriptionHTML": "Increases Isaac's damage for possessing certain evil items."
 	},
 	"Blind Rage": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blind_Rage",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/73/Blind_Rage_Icon.png?version=30a7d9f1dc697d4db76412e5c0aba274",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/73/Blind_Rage_Icon.png",
 		"descriptionHTML": "Increases invincibility time after getting hit."
 	},
 	"Blister": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Blister",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/5/5b/Blister_Icon.png/70px-Blister_Icon.png?version=a62a6fc5968041bc8805a4a1f1ef64de",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/5/5b/Blister_Icon.png/70px-Blister_Icon.png",
 		"descriptionHTML": "Increases knockback of tears."
 	},
 	"Brown Cap": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Brown_Cap",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8c/Brown_Cap_Icon.png?version=a05c3d187a496497974a733508829949",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/8c/Brown_Cap_Icon.png",
 		"descriptionHTML": "<a href=\"/Obstacles#Poop\" title=\"Obstacles\">Poop</a> will explode after being destroyed."
 	},
 	"Bob's Bladder": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bob%27s_Bladder",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Bob%27s_Bladder_Icon.png?version=14b3a228d522a6685492659559838315",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2c/Bob%27s_Bladder_Icon.png",
 		"descriptionHTML": "Leaves a pool of green creep under all bombs Isaac places, which damages enemies that walk over it."
 	},
 	"Child Leash": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Child_Leash",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/c/c5/Child_Leash_Icon.png/70px-Child_Leash_Icon.png?version=b614d9712beb8570f2d4c970edc3f1f4",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/c/c5/Child_Leash_Icon.png/70px-Child_Leash_Icon.png",
 		"descriptionHTML": "Causes familiars to stay closer to each other."
 	},
 	"Cracked Dice": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Cracked_Dice",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Cracked_Dice_Icon.png?version=edaed761a6742eb9561b292503075383",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f2/Cracked_Dice_Icon.png",
 		"descriptionHTML": "Whenever Isaac gets hit, there is a chance that the effect of <a href=\"/The_D6\" title=\"The D6\">The D6</a>, <a href=\"/D8\" title=\"D8\">D8</a>, <a href=\"/D12\" title=\"D12\">D12</a>, or <a href=\"/D20\" title=\"D20\">D20</a> gets activated."
 	},
 	"Endless Nameless": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Endless_Nameless",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Endless_Nameless_Icon.png?version=8e8043822ec66e4b8c27e1640820c0bb",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/ad/Endless_Nameless_Icon.png",
 		"descriptionHTML": "When Isaac uses a <a href=\"/Pill\" title=\"Pill\" class=\"mw-redirect\">pill</a>, <a href=\"/Card\" title=\"Card\" class=\"mw-redirect\">card</a>, or <a href=\"/Rune\" title=\"Rune\" class=\"mw-redirect\">rune</a>, there is a chance to spawn another one of the same type."
 	},
 	"Error": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Error",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e2/Error_Icon.png?version=8d0f3ae5ebdd3584fb1dec5b4dc563f4",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e2/Error_Icon.png",
 		"descriptionHTML": "Gives a random trinket effect each room."
 	},
 	"Faded Polaroid": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Faded_Polaroid",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/85/Faded_Polaroid_Icon.png?version=a5b5a735574bbeda7cd0531dbc2ad4c8",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/85/Faded_Polaroid_Icon.png",
 		"descriptionHTML": "Occasionally causes Isaac to blend into the ground, which briefly <a href=\"/Effects#Status_Effects\" title=\"Effects\">confuses</a> all enemies in the room."
 	},
 	"Golden Horse Shoe": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Golden_Horse_Shoe",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fe/Golden_Horse_Shoe_Icon.png?version=3b62b24b5e50f95d96880370d99ca899",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/fe/Golden_Horse_Shoe_Icon.png",
 		"descriptionHTML": "+15% chance for a Treasure Room with two items to spawn."
 	},
 	"Karma": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Karma",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e4/Karma_Icon.png?version=c0ea850ea4808effbb75e8aa50e4e565",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/e4/Karma_Icon.png",
 		"descriptionHTML": "Donating to a <a href=\"/Donation_Machine\" title=\"Donation Machine\">Donation Machine</a> has a chance to heal Isaac for a full red heart or spawn a <a href=\"/Beggar#Normal_Beggar\" title=\"Beggar\">Beggar</a>. Increases the chance that donating to a Donation Machine will increase Isaac's luck."
 	},
 	"Lazy Worm": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lazy_Worm",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Lazy_Worm_Icon.png?version=ada350528d07662c6e8393b158d8b301",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/bc/Lazy_Worm_Icon.png",
 		"descriptionHTML": "Tear shot speed is greatly reduced."
 	},
 	"Lil Larva": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil_Larva",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/50/Lil_Larva_Icon.png?version=4e14f83952ebb640339442f892aff33f",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/5/50/Lil_Larva_Icon.png",
 		"descriptionHTML": "Spawns a <a href=\"/Blue_Flies\" title=\"Blue Flies\" class=\"mw-redirect\">Blue Fly</a> from every pile of poop Isaac destroys."
 	},
 	"Louse": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Louse",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/48/Louse_Icon.png?version=932ae1e78c1725ab182241178f78e1f8",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/4/48/Louse_Icon.png",
 		"descriptionHTML": "Occasionally spawns a <a href=\"/Blue_Spider\" title=\"Blue Spider\" class=\"mw-redirect\">Blue Spider</a>."
 	},
 	"Mom's Locket": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mom%27s_Locket",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Mom%27s_Locket_Icon.png?version=4cdbfd10cfc96fe4e5554038b1f95180",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Mom%27s_Locket_Icon.png",
 		"descriptionHTML": "Grants half a red heart each time a key is used. Converts half red heart pickups into full red hearts."
 	},
 	"NO!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/NO!",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/NO%21_Icon.png?version=cc28879b978829ab8e9db6cc418204b6",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/69/NO%21_Icon.png",
 		"descriptionHTML": "Removes all active items from every item pool."
 	},
 	"Poker Chip": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Poker_Chip",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Poker_Chip_Icon.png?version=fec2e2f00d770491750635ef72367505",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0b/Poker_Chip_Icon.png",
 		"descriptionHTML": "Chests have a 50% chance of paying out with extra pickups and a 50% chance of paying out with nothing or enemies."
 	},
 	"Rainbow Worm": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rainbow_Worm",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Rainbow_Worm_Icon.png?version=bc33f0c92acb5c50a68df788465bde0b",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Rainbow_Worm_Icon.png",
 		"descriptionHTML": "Isaac's tears gain a random worm effect that changes every 3 seconds."
 	},
 	"Rib Of Greed": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rib_Of_Greed",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Rib_Of_Greed_Icon.png?version=216db2d36a91d1923f9350c9b84459d1",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b0/Rib_Of_Greed_Icon.png",
 		"descriptionHTML": "Prevents <a href=\"/Greed\" title=\"Greed\">Greed</a> and <a href=\"/Super_Greed\" title=\"Super Greed\">Super Greed</a> from appearing in <a href=\"/Shop\" title=\"Shop\">Shops</a> and <a href=\"/Secret_Room\" title=\"Secret Room\">Secret Rooms</a>."
 	},
 	"Safety Scissors": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Safety_Scissors",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f7/Safety_Scissors_Icon.png?version=e63b30d39eb8599e40cd43b1b440034b",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f7/Safety_Scissors_Icon.png",
 		"descriptionHTML": "<a href=\"/Pickups#Troll_Bombs\" title=\"Pickups\">Troll Bombs</a> turn into <a href=\"/Pickups#Bombs\" title=\"Pickups\">Bomb pickups</a> before they explode. <a href=\"/Pickups#Mega_Troll_Bombs\" title=\"Pickups\">Mega Troll Bombs</a> turn into <a href=\"/Pickups#1.2B1_Free_Bombs\" title=\"Pickups\">1+1 Free Bombs</a> before they explode."
 	},
 	"Second Hand": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Second_Hand",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Second_Hand_Icon.png?version=9df34e1c496430945895e8010726b2ea",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/81/Second_Hand_Icon.png",
 		"descriptionHTML": "Increases the time that <a href=\"/Effects#Status_Effects\" title=\"Effects\">status effects</a> stay on enemies."
 	},
 	"Shiny Rock": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Shiny_Rock",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/96/Shiny_Rock_Icon.png?version=5dae68545fba530e0974b21931a4130d",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/9/96/Shiny_Rock_Icon.png",
 		"descriptionHTML": "<a href=\"/Obstacles#Tinted_Rocks\" title=\"Obstacles\">Tinted rocks</a> and rocks with <a href=\"/Crawl_Space\" title=\"Crawl Space\">Crawl Spaces</a> will flash white every 10 seconds."
 	},
 	"Store Key": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Store_Key",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Store_Key_Icon.png?version=270265316f51724d4309286a73d2910e",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/33/Store_Key_Icon.png",
 		"descriptionHTML": "Automatically opens all <a href=\"/Shop\" title=\"Shop\">Shops</a>."
 	},
 	"Stud Finder": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Stud_Finder",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/Stud_Finder_Icon.png?version=42c988479b95fba96b1eb8ef95c5098b",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/72/Stud_Finder_Icon.png",
 		"descriptionHTML": "Increases the chance to find a <a href=\"/Crawl_Space\" title=\"Crawl Space\">Crawl Space</a>."
 	},
 	"Super Magnet": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Super_Magnet",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Super_Magnet_Icon.png?version=25f02d2c736083169da0faa30dbf119d",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a8/Super_Magnet_Icon.png",
 		"descriptionHTML": "Pulls enemies and pickups towards isaac."
 	},
 	"Tape Worm": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Tape_Worm",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2e/Tape_Worm_Icon.png?version=1c91a6725f4419f665ba7833bba14ac5",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/2/2e/Tape_Worm_Icon.png",
 		"descriptionHTML": "Doubles Isaac's range and halves his tear height."
 	},
 	"Watch Battery": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Watch_Battery",
-		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/38/Watch_Battery_Icon.png?version=8430df2d878717aecec9a36750eae484",
+		"thumbnail": "http://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/38/Watch_Battery_Icon.png",
 		"descriptionHTML": "Increased chance of batteries spawning. Has a chance to add an extra charge to Isaac's activated item upon completing a room."
 	}
 }

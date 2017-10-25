@@ -16,6 +16,7 @@ To improve performance and reduce memory and download overhead, the app uses a s
 - refactor data objects to make wiki scraping easier (and fix broken icons)
 - don't render all items to table, add "Show All" button
 - update booster pack icons
+- update the base64 inline images - many of these aren't being used
  
 - score items better when terms match exactly
 - more functionality

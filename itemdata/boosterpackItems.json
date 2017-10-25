@@ -1,83 +1,83 @@
 var boosterpack1Collectibles = {
 	"Black Hole": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Black_Hole",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Black_Hole_Icon.png?version=88db99faf23da02dfa50b42eb34f6a01",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/64/Black_Hole_Icon.png",
 		"descriptionHTML": "Throws a black hole on the ground which sucks in and damages enemies."
 	},
 	"Mystery Gift": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mystery_Gift",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/Mystery_Gift_Icon.png?version=f61a07ae318e65f2a5e73b45e62cdc53",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/Mystery_Gift_Icon.png",
 		"descriptionHTML": "Upon use, spawns a random item from the current room's item pool, with a chance to spawn <a href=\"/A_Lump_of_Coal\" title=\"A Lump of Coal\">A Lump of Coal</a> or <a href=\"/The_Poop\" title=\"The Poop\">The Poop</a> instead."
 	},
 	"Sprinkler": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Sprinkler",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/60/Sprinkler_Icon.png?version=457bd1789b8c8303d952f060e3a33757",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/6/60/Sprinkler_Icon.png",
 		"descriptionHTML": "Upon use, spawns a sprinkler that rotates and fires tears."
 	}
 };
 var boosterpack1Passives = {
 	"Angry Fly": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Angry_Fly",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a3/Angry_Fly_Icon.png?version=2e036f5d6af2d37c37cc8c3df9852556",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/a/a3/Angry_Fly_Icon.png",
 		"descriptionHTML": "Spawns a fly familiar that orbits around a random enemy and deals 2 damage per tick to enemies it comes in contact with."
 	},
 	"Bozo": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Bozo",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Bozo_Icon.png?version=d7b7751280a587be36a2b2be2ff30bc2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/37/Bozo_Icon.png",
 		"descriptionHTML": "Increases damage by 0.1 and grants a soul heart. Enemies can randomly become briefly charmed or feared. Taking damage has a chance to spawn a rainbow poop."
 	},
 	"Broken Modem": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Broken_Modem",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Broken_Modem_Icon.png?version=b50b2504f1c06413ace0ce8fd89c0695",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c5/Broken_Modem_Icon.png",
 		"descriptionHTML": "Enemies, enemy shots, tears, and pickups will briefly freeze in place at random intervals."
 	},
 	"Buddy in a Box": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Buddy_in_a_Box",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Buddy_in_a_Box_Icon.png?version=b4344f9eb108716b4a5c73316a49400a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Buddy_in_a_Box_Icon.png",
 		"descriptionHTML": "Grants a familiar with a random tear effect. The familiar is randomized at the start of each floor."
 	},
 	"Fast Bombs": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Fast_Bombs",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/34/Fast_Bombs_Icon.png?version=d70c6d7d64d27777cf058322066d8864",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/34/Fast_Bombs_Icon.png",
 		"descriptionHTML": "Grants 7 bombs and allows bombs to be placed rapidly."
 	},
 	"Lil Delirium": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Lil_Delirium",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Lil_Delirium_Icon.png?version=d2fea25a33eee19d277650dbe36b52fd",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Lil_Delirium_Icon.png",
 		"descriptionHTML": "Grants a familiar that transforms into another random familiar every 10 seconds."
 	}
 };
 var boosterpack1Trinkets = {
 	"Hairpin": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Hairpin",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Hairpin_Icon.png?version=b72cd7171f29914966cae054f95bb0f8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/8/82/Hairpin_Icon.png",
 		"descriptionHTML": "Fully recharges Isaac's active item upon entering a boss fight."
 	},
 	"Wooden Cross": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Wooden_Cross",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Wooden_Cross_Icon.png?version=325c56fea73a34093f2d65d7e243c861",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/db/Wooden_Cross_Icon.png",
 		"descriptionHTML": "Grants a <a href=\"/Holy_Mantle\" title=\"Holy Mantle\">Holy Mantle</a> shield upon entering a new floor, which protects against one hit of damage."
 	},
 	"Butter!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Butter!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Butter%21_Icon.png?version=056fcb0848774b9f08e62fb6ff621dd2",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/b3/Butter%21_Icon.png",
 		"descriptionHTML": "Using an active item will drop it onto a pedestal on the ground."
 	}
 };
 var boosterpack1Cards = {
 	"Huge Growth": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Huge_Growth",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Huge_Growth_Icon.png?version=2e0c2733817c3b61c61369dbdbb6d011",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/eb/Huge_Growth_Icon.png",
 		"descriptionHTML": "Makes Isaac large for the current room, increasing his range and damage."
 	},
 	"Ancient Recall": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Ancient_Recall",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Ancient_Recall_Icon.png?version=f6b0858b15cf4319a3426ea944a0462e",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/13/Ancient_Recall_Icon.png",
 		"descriptionHTML": "Spawns 3 random cards."
 	},
 	"Era Walk": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Era_Walk",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ec/Era_Walk_Icon.png?version=859832bd18c30c358954564162faf36c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ec/Era_Walk_Icon.png",
 		"descriptionHTML": "For the current room, enemies are slowed, Isaac's speed is increased, and his shot speed is decreased."
 	}
 };
@@ -85,41 +85,41 @@ var boosterpack1Cards = {
 var boosterpack2Collectibles = {
 	"Coupon": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Coupon",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Coupon_Icon.png?version=dcd2dfa8b0d07b845c38d138fb61f805",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/07/Coupon_Icon.png",
 		"descriptionHTML": "Upon use, makes a random item from a shop, devil deal, or black market free."
 	},
 	"Telekinesis": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Telekinesis",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/75/Telekinesis_Icon.png?version=fd77276a00a885a5c8c9dea51294f895",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/7/75/Telekinesis_Icon.png",
 		"descriptionHTML": "Upon use, for the next two seconds, any enemy shots that come near Isaac are held in place. After the charge is depleted, they are fired back as tears."
 	},
 	"Moving Box": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Moving_Box",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Moving_Box_Icon.png?version=c67e252030180d2ea5acbec176d023f8",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/10/Moving_Box_Icon.png",
 		"descriptionHTML": "If the box is empty, picks up all items and pickups in a room and stores them. If the box is not empty, places all stored items and pickups in the current room."
 	}
 };
 var boosterpack2Passives = {
 	"Jumper Cables": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Jumper_Cables",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Jumper_Cables_Icon.png?version=bddefd5fd269c7846e125bb68c8a7a6b",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d1/Jumper_Cables_Icon.png",
 		"descriptionHTML": "Grants an active item charge every 15 enemies killed."
 	},
 	"Leprosy": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Leprosy",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Leprosy_Icon.png?version=55b28eba9a810f3487d5983594b95d57",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f4/Leprosy_Icon.png",
 		"descriptionHTML": "Upon taking damage, grants a body part as an orbital, which blocks enemy shots and deals 7 damage per tick to enemies it comes in contact with. The orbitals will be destroyed if they take enough damage from enemies or enemy shots."
 	},
 	"Technology Zero": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Technology_Zero",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/Technology_Zero_Icon.png?version=da80acd72f105796876f45ec1773dbe7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/00/Technology_Zero_Icon.png",
 		"descriptionHTML": "Connects Isaac's tears with electricity that can damage enemies."
 	}
 };
 var boosterpack2Trinkets = {
 	"Filigree Feather": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Filigree_Feather",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Filigree_Feather_Icon.png?version=b1b3f2fc851355c3a6f63c19668c10f7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Filigree_Feather_Icon.png",
 		"descriptionHTML": "Angels drop items instead of key pieces when defeated."
 	}
 };
@@ -127,31 +127,31 @@ var boosterpack2Trinkets = {
 var boosterpack3Collectibles = {
 	"Mr. ME!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Mr._ME!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1e/Mr._ME%21_Icon.png?version=e48070df6e9ef98c2300decec3f50b33",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/1/1e/Mr._ME%21_Icon.png",
 		"descriptionHTML": "Summons a controllable ghost that can perform various tasks depending on what it targets."
 	}
 };
 var boosterpack3Passives = {
 	"7 Seals": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/7_Seals",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/7_Seals_Icon.png?version=0129c1a3dbcfd006fdaacbee9d72f736",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d6/7_Seals_Icon.png",
 		"descriptionHTML": "Grants a random <a href=\"/The_Harbingers\" title=\"The Harbingers\">Harbinger</a> familiar that changes every 10 seconds."
 	},
 	"Angelic Prism": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Angelic_Prism",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d4/Angelic_Prism_Icon.png?version=07d0123803d1b7e8a04aaddd1850efe7",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/d/d4/Angelic_Prism_Icon.png",
 		"descriptionHTML": "Grants a prism orbital with a large orbital radius. Tears that pass through the prism split into four multi-colored tears."
 	},
 	"Pop!": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Pop!",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Pop%21_Icon.png?version=ed22a8a23a45e60545ffcdbd822f20cf",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/c/c0/Pop%21_Icon.png",
 		"descriptionHTML": "Replaces Isaac's tears with eyeballs that can bounce off of each other. The eyeballs are not limited by range, and will instead dissipate when they stop moving or when hitting an enemy or obstacle."
 	}
 };
 var boosterpack3Trinkets = {
 	"Door Stop": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Door_Stop",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Door_Stop_Icon.png?version=f8466fd5c7220f638ec3098a0f7baf1a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0a/Door_Stop_Icon.png",
 		"descriptionHTML": "The last door Isaac went through stays open, allowing him to leave the room even if enemies are in it."
 	}
 };

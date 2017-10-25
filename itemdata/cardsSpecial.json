@@ -1,27 +1,27 @@
 var cardsSpecial = {
 	"Chaos Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Chaos_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3e/Chaos_Card_Icon.png?version=5f1e8c8d81f68d133cca903e01c1ce18",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/3e/Chaos_Card_Icon.png",
 		"descriptionHTML": "Throws the card to kill anything in its path. Opens normal doors."
 	},
 	"Credit Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Credit_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Credit_Card_Icon.png?version=c9571e754114be4f8f1aead275ae882c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/0/0e/Credit_Card_Icon.png",
 		"descriptionHTML": "Converts all items in the <a href=\"/Shop\" title=\"Shop\">Shop</a> or <a href=\"/Devil_Room\" title=\"Devil Room\">Devil Room</a> into pickups or items on pedestals, allowing them to be picked up for free. This card's effect lasts for the entire floor, but only affects the room it was used in. Wasted if used outside the shop or the devil room. Allows devil room items to be obtained without affecting the chance of an angel room appearing."
 	},
 	"Rules Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Rules_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Rules_Card_Icon.png?version=14e3458444049c82d8a878df643391ff",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/b/be/Rules_Card_Icon.png",
 		"descriptionHTML": "Displays a cryptic statement on the screen, similar to a <a href=\"/Fortune_Teller\" title=\"Fortune Teller\" class=\"mw-redirect\">Fortune Teller</a>. These messages (often) provide hints on bosses, bonus areas, etc."
 	},
 	"A Card Against Humanity": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/A_Card_Against_Humanity",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/A_Card_Against_Humanity_Icon.png?version=5a22e7f210e0fb211bd1341c66be7a0c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/e/ea/A_Card_Against_Humanity_Icon.png",
 		"descriptionHTML": "Covers the entire room with poop. The process is not instant, and the room will not get filled if you leave it before it's done filling."
 	},
 	"Suicide King": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Suicide_King",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Suicide_King_Icon.png?version=0043d3de538373b528955eba88504e9a",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/f/f3/Suicide_King_Icon.png",
 		"descriptionHTML": "Kills Isaac and spawns lots of pickups, items, and/or chests in the same room."
 	},
 	"Get Out Of Jail Free Card": {
@@ -31,12 +31,12 @@ var cardsSpecial = {
 	},
 	"? Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/%3F_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/f/f7/Q_Card_Icon.png/35px-Q_Card_Icon.png?version=ae70fdec04d70603cf4734669c7b5da6",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/thumb/f/f7/Q_Card_Icon.png/35px-Q_Card_Icon.png",
 		"descriptionHTML": "When used, copies the effect of Isaac's currently held <a href=\"/Item#Activated_Collectibles\" title=\"Item\">activated collectible item</a>."
 	},
 	"Holy Card": {
 		"wikiPage": "http://bindingofisaacrebirth.gamepedia.com/Holy_Card",
-		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/30/Holy_Card_Icon.png?version=07c69216fe2ecb6f9baf6dda4366070c",
+		"thumbnail": "https://hydra-media.cursecdn.com/bindingofisaacrebirth.gamepedia.com/3/30/Holy_Card_Icon.png",
 		"descriptionHTML": "Gives <a href=\"/Holy_Mantle\" title=\"Holy Mantle\">Holy Mantle</a> effect for current room"
 	}
 };

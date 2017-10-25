@@ -1,18 +1,18 @@
 runesAntibirth = {
 	"Rune of Gebo": {
-		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/e/ee/Gebo_Icon.png?version=64cac10c9367eed2c64b57a9cb50dd22",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/e/ee/Gebo_Icon.png",
 		"descriptionHTML": "Donates to a machine or beggar"
 	},
 	"Rune of Kenaz": {
-		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/4/49/Kenaz_Icon.png?version=f168d4b0e7c1e0d4ac218cbf3df4b647",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/4/49/Kenaz_Icon.png",
 		"descriptionHTML": "Poisons all enemies in the room"
 	},
 	"Rune of Fehu": {
-		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/1/15/Fehu_Icon.png?version=72527a8e775af915ace5486c154573ab",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/1/15/Fehu_Icon.png",
 		"descriptionHTML": "Turns all the pickups in the room into coins"
 	},
 	"Rune of Othala": {
-		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/6/6d/Othala_Icon.png?version=96b0b7299da2d21c21221556f490127e",
+		"thumbnail": "https://hydra-media.cursecdn.com/antibirth.gamepedia.com/6/6d/Othala_Icon.png",
 		"descriptionHTML": "Rewards a random item that Isaac already holds"
 	},
 	"Rune of Ingwaz": {
