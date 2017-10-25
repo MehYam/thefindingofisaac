@@ -155,3 +155,37 @@ var boosterpack3Trinkets = {
 		"descriptionHTML": "The last door Isaac went through stays open, allowing him to leave the room even if enemies are in it."
 	}
 };
+var boosterpack4Passives = {
+	"Death's List": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Death%27s_List",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/a/a8/Death%27s_List_Icon.png",
+		"descriptionHTML": "Grants a reward if all enemies in a room are killed in the order they are marked."
+	},
+	"Haemolacria": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Haemolacria",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/7/70/Haemolacria_Icon.png",
+		"descriptionHTML": "Tears are now fired in an arc. Upon hitting the floor, an obstacle, or an enemy, they burst into many smaller tears in all directions. Increases tear delay."
+	},
+	"Lachryphagy": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Lachryphagy",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/2/2c/Lachryphagy_Icon.png",
+		"descriptionHTML": "Isaac's tears decelerate as they travel. Upon stopping or hitting an obstacle, they burst into 8 tears in all directions. Tears can be fired into other tears to feed them, increasing their damage."
+	},
+	"Schoolbag": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Schoolbag",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/2/24/Schoolbag_Icon.png",
+		"descriptionHTML": "Allows Isaac to hold two active items."
+	},
+	"Trisagion": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Trisagion",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/0/0e/Trisagion_Icon.png",
+		"descriptionHTML": "Tears are replaced with piercing white blasts of light."
+	}
+};
+var boosterpack4Trinkets = {
+	"Extension Cord": {
+		"wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Extension_Cord",
+		"thumbnail": "https://bindingofisaacrebirth.gamepedia.com/media/bindingofisaacrebirth.gamepedia.com/4/4f/Extension_Cord_Icon.png",
+		"descriptionHTML": "Beams of yellow electricity flow between Isaac and his familiars, damaging any enemies between them."
+	}
+}

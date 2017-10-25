@@ -22,13 +22,14 @@ function prepareData(data)
 	addProperty([boosterpack1Trinkets, boosterpack1Collectibles, boosterpack1Passives, boosterpack1Cards], DLC_PROP, DLC.BOOSTERPACK1);
 	addProperty([boosterpack2Trinkets, boosterpack2Collectibles, boosterpack2Passives], DLC_PROP, DLC.BOOSTERPACK1);
 	addProperty([boosterpack3Trinkets, boosterpack3Collectibles, boosterpack3Passives], DLC_PROP, DLC.BOOSTERPACK1);
+	addProperty([boosterpack4Trinkets, boosterpack4Passives], DLC_PROP, DLC.BOOSTERPACK1);
 
 	var CLASS_PROP = "itemClass";
-	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets, boosterpack2Trinkets, boosterpack3Trinkets], 
+	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets, boosterpack2Trinkets, boosterpack3Trinkets, boosterpack4Trinkets], 
 		CLASS_PROP, "trinket");
 	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles, boosterpack1Collectibles, boosterpack2Collectibles, boosterpack3Collectibles], 
 		CLASS_PROP, "active");
-	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives, boosterpack2Passives, boosterpack3Passives], 
+	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives, boosterpack2Passives, boosterpack3Passives, boosterpack4Passives], 
 		CLASS_PROP, "passive");
 	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial, boosterpack1Cards], CLASS_PROP, "card");
 	addProperty([runes1, runes2, runesAntibirth], CLASS_PROP, "rune");
@@ -63,6 +64,8 @@ function prepareData(data)
 	mergeMetadata(data, boosterpack3Trinkets, boosterpack3TrinketsMeta);
 	mergeMetadata(data, boosterpack3Collectibles, boosterpack3CollectiblesMeta);
 	mergeMetadata(data, boosterpack3Passives, boosterpack3PassivesMeta);
+	mergeMetadata(data, boosterpack4Passives, boosterpack4PassivesMeta);
+	mergeMetadata(data, boosterpack4Trinkets, boosterpack4TrinketsMeta);
 
 	fixUpRelativeURLs(data);
 
@@ -218,7 +221,7 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 			var termScore = 0;
 
 			// item name match
-			if (key.indexOf(term) >= 0)
+			if (item.displayName.indexOf(term) >= 0)
 			{
 				termScore += 10;
 			}

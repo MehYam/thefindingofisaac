@@ -55,7 +55,7 @@ function rowImageAndThumbnailScrape(row)
 	// cards/runes have the "DLC" icon before the item icon.
 	var iconCol = row.cells[g_layout.iconCol];
 	var img = getChildTag(iconCol, "img");
-	entry.thumbnail = img.src;
+	entry.thumbnail = img.src.split('?version=')[0];
 
 	var description = row.cells[g_layout.descriptionCol];
 	entry.descriptionHTML = description.innerHTML.trim();

@@ -154,3 +154,37 @@ var boosterpack3TrinketsMeta = {
 		"itemTags": "wood wedge triangle slice cheese pie"
 	}
 };
+var boosterpack4PassivesMeta = {
+	"Death's List": {
+		"itemType": "",
+		"itemColor": "beige",
+		"itemTags": "paper text writing contract scroll sheet"
+	},
+	"Haemolacria": {
+		"itemType": "",
+		"itemColor": "red",
+		"itemTags": "blood gross wet drop round ball"
+	},
+	"Lachryphagy": {
+		"itemType": "",
+		"itemColor": "light blue",
+		"itemTags": "wet face round"
+	},
+	"Schoolbag": {
+		"itemType": "",
+		"itemColor": "brown",
+		"itemTags": "sack bag leather backpack purse"
+	},
+	"Trisagion": {
+		"itemType": "",
+		"itemColor": "white",
+		"itemTags": "shine spike worms knot 3"
+	}
+};
+var boosterpack4TrinketsMeta = {
+	"Extension Cord": {
+		"itemType": "",
+		"itemColor": "gray silver",
+		"itemTags": "cable loop plug"
+	}
+}
