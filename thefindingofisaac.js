@@ -64,6 +64,9 @@ function prepareData(data)
 		if (!item.meta) {
 			console.error("no tags found for", itemKey);
 		}
+		else if (!item.meta.dlc) {
+			console.error("no dlc found for", itemKey);
+		}
 	}
 	console.log("items added: ", addItems.totalAdded, ", items tagged: ", addTags.totalTagged);
 
@@ -387,7 +390,7 @@ function renderAll(data, dlcFilter)
 	for (var key in data.items)
 	{
 		var item = data.items[key];
-		if (dlcFilter[item.dlc])
+		if (dlcFilter[item.meta.dlc])
 		{
 			hits.push({ item: data.items[key], score: 0 });
 		}
