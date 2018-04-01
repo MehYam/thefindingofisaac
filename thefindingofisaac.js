@@ -10,25 +10,10 @@ var DLC =
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
 	ANTIBIRTH: "antibirth",
-	BOOSTERPACK1: "boosterpack1"
+	BOOSTERPACK: "boosterpack1"
 }
 function prepareData(data)
 {
-	var DLC_PROP = "dlc";
-
-	//KAI: dlc will be resolved from dlc.json, after the data's been glommed
-	// be sure to warn at the end for any items without dlc property
-	/*
-	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_PROP, DLC.BASE);
-	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_PROP, DLC.AFTERBIRTH);
-	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
-	addProperty([antibirthTrinkets, antibirthCollectibles, antibirthPassives, runesAntibirth], DLC_PROP, DLC.ANTIBIRTH);
-	addProperty([boosterpack1Trinkets, boosterpack1Collectibles, boosterpack1Passives, boosterpack1Cards], DLC_PROP, DLC.BOOSTERPACK1);
-	addProperty([boosterpack2Trinkets, boosterpack2Collectibles, boosterpack2Passives], DLC_PROP, DLC.BOOSTERPACK1);
-	addProperty([boosterpack3Trinkets, boosterpack3Collectibles, boosterpack3Passives], DLC_PROP, DLC.BOOSTERPACK1);
-	addProperty([boosterpack4Trinkets, boosterpack4Passives], DLC_PROP, DLC.BOOSTERPACK1);
-	*/
-
 	var CLASS_PROP = "itemClass";
 	var cardsList = [cards1, cards2, cards3, cards4];
 	var runesList = [runes1, runes2, runes3, runes4];
@@ -49,34 +34,22 @@ function prepareData(data)
 		addItems(data, items);
 	})
 
-	addTags(data, afterbirthTrinketsTags);
-	addTags(data, rebirthTrinketsTags);
-	addTags(data, afterbirthPlusTrinketsTags);
-	addTags(data, afterbirthCollectiblesTags);
-	addTags(data, rebirthCollectiblesTags);
-	addTags(data, afterbirthPlusCollectiblesTags);
-	addTags(data, afterbirthPassivesTags);
-	addTags(data, rebirthPassivesTags);
-	addTags(data, afterbirthPlusPassivesTags);
-	addTags(data, cardsTags);
-	addTags(data, cardsOtherTags);
-	addTags(data, cardsPlayingTags);
-	addTags(data, cardsSpecialTags);
-	addTags(data, runes1Tags);
-	addTags(data, runes2Tags);
+	var DLC_PROP = "dlc";
+	function addTagsAndSetDLC(data, dlc, tagsArray) {
+		addProperty(tagsArray, DLC_PROP, dlc);
+		tagsArray.forEach(function(tags){
+			addTags(data, tags);
+		});
+	}
 
-	addTags(data, boosterpack1TrinketsMeta);
-	addTags(data, boosterpack1CollectiblesMeta);
-	addTags(data, boosterpack1PassivesMeta);
-	addTags(data, boosterpack1CardsMeta);
-	addTags(data, boosterpack2TrinketsMeta);
-	addTags(data, boosterpack2CollectiblesMeta);
-	addTags(data, boosterpack3PassivesMeta);
-	addTags(data, boosterpack3TrinketsMeta);
-	addTags(data, boosterpack3CollectiblesMeta);
-	addTags(data, boosterpack3PassivesMeta);
-	addTags(data, boosterpack4PassivesMeta);
-	addTags(data, boosterpack4TrinketsMeta);
+	addTagsAndSetDLC(data, DLC.BASE, [rebirthTrinketsTags, rebirthCollectiblesTags, rebirthPassivesTags]);
+	addTagsAndSetDLC(data, DLC.BASE, [cardsTags, cardsOtherTags, cardsPlayingTags, cardsSpecialTags, runes1Tags, runes2Tags]);
+	addTagsAndSetDLC(data, DLC.AFTERBIRTH, [afterbirthTrinketsTags, afterbirthCollectiblesTags, afterbirthPassivesTags]);
+	addTagsAndSetDLC(data, DLC.AFTERBIRTHPLUS, [afterbirthPlusTrinketsTags, afterbirthPlusCollectiblesTags, afterbirthPlusPassivesTags]);
+	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
+	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
+	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
+	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
 
 /*
 	addTags(data, antibirthPassivesTags);
@@ -85,41 +58,13 @@ function prepareData(data)
 	addTags(data, runesAntibirthMeta);
 */
 
-/*
-	mergeMetadata(data, afterbirthTrinkets, afterbirthTrinketsTags);
-	mergeMetadata(data, rebirthTrinkets, rebirthTrinketsTags);
-	mergeMetadata(data, antibirthTrinkets, antibirthTrinketsTags);
-	mergeMetadata(data, afterbirthPlusTrinkets, afterbirthPlusTrinketsTags);
-	mergeMetadata(data, afterbirthCollectibles, afterbirthCollectiblesTags);
-	mergeMetadata(data, rebirthCollectibles, rebirthCollectiblesTags);
-	mergeMetadata(data, antibirthCollectibles, antibirthCollectiblesTags);
-	mergeMetadata(data, afterbirthPlusCollectibles, afterbirthPlusCollectiblesTags);
-	mergeMetadata(data, afterbirthPassives, afterbirthPassivesTags);
-	mergeMetadata(data, rebirthPassives, rebirthPassivesTags);
-	mergeMetadata(data, antibirthPassives, antibirthPassivesTags);
-	mergeMetadata(data, afterbirthPlusPassives, afterbirthPlusPassivesTags);
-	mergeMetadata(data, cards, cardsTags);
-	mergeMetadata(data, cardsOther, cardsOtherTags);
-	mergeMetadata(data, cardsPlaying, cardsPlayingTags);
-	mergeMetadata(data, cardsSpecial, cardsSpecialTags);
-	mergeMetadata(data, runes1, runes1Tags);
-	mergeMetadata(data, runes2, runes2Tags);
-	mergeMetadata(data, runesAntibirth, runesAntibirthMeta);
-
-	mergeMetadata(data, boosterpack1Trinkets, boosterpack1TrinketsMeta);
-	mergeMetadata(data, boosterpack1Collectibles, boosterpack1CollectiblesMeta);
-	mergeMetadata(data, boosterpack1Passives, boosterpack1PassivesMeta);
-	mergeMetadata(data, boosterpack1Cards, boosterpack1CardsMeta);
-	mergeMetadata(data, boosterpack2Trinkets, boosterpack2TrinketsMeta);
-	mergeMetadata(data, boosterpack2Collectibles, boosterpack2CollectiblesMeta);
-	mergeMetadata(data, boosterpack3Passives, boosterpack3PassivesMeta);
-	mergeMetadata(data, boosterpack3Trinkets, boosterpack3TrinketsMeta);
-	mergeMetadata(data, boosterpack3Collectibles, boosterpack3CollectiblesMeta);
-	mergeMetadata(data, boosterpack3Passives, boosterpack3PassivesMeta);
-	mergeMetadata(data, boosterpack4Passives, boosterpack4PassivesMeta);
-	mergeMetadata(data, boosterpack4Trinkets, boosterpack4TrinketsMeta);
-*/
-
+	// further data sanity checks
+	for (var itemKey in data.items) {
+		var item = data.items[itemKey];
+		if (!item.meta) {
+			console.error("no tags found for", itemKey);
+		}
+	}
 	console.log("items added: ", addItems.totalAdded, ", items tagged: ", addTags.totalTagged);
 
 	fixUpRelativeURLs(data);
@@ -127,6 +72,17 @@ function prepareData(data)
 
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
+}
+function addProperty(itemTableArray, propertyName, value)
+{
+	itemTableArray.forEach(function(itemTable)
+	{
+		for (var key in itemTable)
+		{
+			var item = itemTable[key];
+			item[propertyName] = value;
+		}
+	});
 }
 function scrubKeys(roughItems)
 {
@@ -163,7 +119,7 @@ function addTags(data, tags)
 
 		var item = data.items[key];
 		if (!item) {
-			console.error("Trying to tag item '", key, "' but it doesn't exist");
+			console.error("Trying to apply tag to non-existent item:", key, tags);
 			continue;
 		}
 		item.meta = tags;
@@ -217,17 +173,6 @@ function mergeMetadata(data, items, itemMetadata)
 
 		++mergeMetadata.totalMerged;
 	}
-}
-function addProperty(itemTableArray, propertyName, value)
-{
-	itemTableArray.forEach(function(itemTable)
-	{
-		for (var key in itemTable)
-		{
-			var item = itemTable[key];
-			item[propertyName] = value;
-		}
-	});
 }
 function createAliasLookup(aliasList)
 {
@@ -307,7 +252,7 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 	for (var key in data.items)
 	{
 		var item = data.items[key];
-		if (!dlcFilter[item.dlc])
+		if (!dlcFilter[item.meta.dlc])
 		{
 			continue;
 		}
@@ -361,7 +306,7 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 			hits.push({ item: item, score: score });
 		}
 	}
-	console.log("<- retrieveHits");
+	console.log("<- retrieveHits found", hits.length);
 	return hits;
 }
 function renderHits(hits)
@@ -469,8 +414,8 @@ function doSearch(searchText)
 	if (rbbutton.checked) dlcFilter[DLC.BASE] = true;
 	if (abbutton.checked) dlcFilter[DLC.AFTERBIRTH] = true;
 	if (abplusbutton.checked) dlcFilter[DLC.AFTERBIRTHPLUS] = true;
+	if (booster1button.checked) dlcFilter[DLC.BOOSTERPACK] = true;
 	if (anbbutton.checked) dlcFilter[DLC.ANTIBIRTH] = true;
-	if (booster1button.checked) dlcFilter[DLC.BOOSTERPACK1] = true;
 
 	if (searchText.length)
 	{
@@ -503,7 +448,7 @@ var OPTIONS =
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
 	ANTIBIRTH: "antibirth",
-	BOOSTERPACK1: "boosterpack1"
+	BOOSTERPACK: "boosterpack1"
 }
 function getOption(optionName, defaultValue)
 {
@@ -526,8 +471,9 @@ function restoreButtons()
 	rbbutton.checked = getOption(OPTIONS.REBIRTH, true);
 	abbutton.checked = getOption(OPTIONS.AFTERBIRTH, true);
 	abplusbutton.checked = getOption(OPTIONS.AFTERBIRTHPLUS, true);
+	booster1button.checked = getOption(OPTIONS.BOOSTERPACK, true);
+
 	anbbutton.checked = getOption(OPTIONS.ANTIBIRTH, true);
-	booster1button.checked = getOption(OPTIONS.BOOSTERPACK1, true);
 }
 function onSearchOption()
 {
@@ -535,7 +481,7 @@ function onSearchOption()
 	saveOption(OPTIONS.AFTERBIRTH, abbutton.checked);
 	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
 	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
-	saveOption(OPTIONS.BOOSTERPACK1, booster1button.checked);
+	saveOption(OPTIONS.BOOSTERPACK, booster1button.checked);
 
 	doSearch(getOption(OPTIONS.LASTSEARCH, DEFAULT_SEARCH_TERM));
 }

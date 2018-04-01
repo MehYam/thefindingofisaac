@@ -889,7 +889,12 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/4/43/Number_One_Icon.png",
       "descriptionHTML": "Tears range is heavily decreased, but the fire rate is greatly increased."
    },
-   "Odd Mushroom": {
+   "Odd Mushroom (Large)": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Large)",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/69/Odd_Mushroom_%28Large%29_Icon.png",
+      "descriptionHTML": "Increases Tears and Speed while reducing Damage."
+   },
+   "Odd Mushroom (Thin)": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Thin)",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/36/Odd_Mushroom_%28Thin%29_Icon.png",
       "descriptionHTML": "Increases Tears and Speed while reducing Damage."
