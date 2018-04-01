@@ -15,8 +15,9 @@
 // to be able to re-scrape the items as they get updated, without nuking those tags.
 
 var g_itemLayout = { descriptionCol: 4, iconCol: 2 };
-var g_cardLayout = { descriptionCol: 4, iconCol: 2 };
 var g_runeLayout = { descriptionCol: 5, iconCol: 2 };
+var g_cardLayout = g_itemLayout;
+var g_trinketLayout = g_itemLayout;
 
 var g_layout = g_itemLayout;
 function scrapeTable(tableIndex)

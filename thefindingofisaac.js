@@ -15,6 +15,10 @@ var DLC =
 function prepareData(data)
 {
 	var DLC_PROP = "dlc";
+
+	//KAI: dlc will be resolved from dlc.json, after the data's been glommed
+	// be sure to warn at the end for any items without dlc property
+	/*
 	addProperty([rebirthTrinkets, rebirthCollectibles, rebirthPassives, cards, cardsOther, cardsPlaying, cardsSpecial, runes1, runes2], DLC_PROP, DLC.BASE);
 	addProperty([afterbirthTrinkets, afterbirthCollectibles, afterbirthPassives], DLC_PROP, DLC.AFTERBIRTH);
 	addProperty([afterbirthPlusTrinkets, afterbirthPlusCollectibles, afterbirthPlusPassives], DLC_PROP, DLC.AFTERBIRTHPLUS);
@@ -23,17 +27,65 @@ function prepareData(data)
 	addProperty([boosterpack2Trinkets, boosterpack2Collectibles, boosterpack2Passives], DLC_PROP, DLC.BOOSTERPACK1);
 	addProperty([boosterpack3Trinkets, boosterpack3Collectibles, boosterpack3Passives], DLC_PROP, DLC.BOOSTERPACK1);
 	addProperty([boosterpack4Trinkets, boosterpack4Passives], DLC_PROP, DLC.BOOSTERPACK1);
+	*/
 
 	var CLASS_PROP = "itemClass";
-	addProperty([afterbirthTrinkets, rebirthTrinkets, antibirthTrinkets, afterbirthPlusTrinkets, boosterpack1Trinkets, boosterpack2Trinkets, boosterpack3Trinkets, boosterpack4Trinkets], 
-		CLASS_PROP, "trinket");
-	addProperty([afterbirthCollectibles, rebirthCollectibles, antibirthCollectibles, afterbirthPlusCollectibles, boosterpack1Collectibles, boosterpack2Collectibles, boosterpack3Collectibles], 
-		CLASS_PROP, "active");
-	addProperty([afterbirthPassives, rebirthPassives, antibirthPassives, afterbirthPlusPassives, boosterpack1Passives, boosterpack2Passives, boosterpack3Passives, boosterpack4Passives], 
-		CLASS_PROP, "passive");
-	addProperty([cards, cardsOther, cardsPlaying, cardsSpecial, boosterpack1Cards], CLASS_PROP, "card");
-	addProperty([runes1, runes2, runesAntibirth], CLASS_PROP, "rune");
+	var cardsList = [cards1, cards2, cards3, cards4];
+	var runesList = [runes1, runes2, runes3, runes4];
 
+	addProperty([trinkets], CLASS_PROP, "trinket");
+	addProperty([itemsActivated], CLASS_PROP, "active");
+	addProperty([itemsPassive], CLASS_PROP, "passive");
+	addProperty(cardsList, CLASS_PROP, "card");
+	addProperty(runesList, CLASS_PROP, "rune");
+
+	addItems(data, trinkets);
+	addItems(data, itemsActivated);
+	addItems(data, itemsPassive);
+	cardsList.forEach(function(items){
+		addItems(data, items);
+	});
+	runesList.forEach(function(items){
+		addItems(data, items);
+	})
+
+	addTags(data, afterbirthTrinketsTags);
+	addTags(data, rebirthTrinketsTags);
+	addTags(data, afterbirthPlusTrinketsTags);
+	addTags(data, afterbirthCollectiblesTags);
+	addTags(data, rebirthCollectiblesTags);
+	addTags(data, afterbirthPlusCollectiblesTags);
+	addTags(data, afterbirthPassivesTags);
+	addTags(data, rebirthPassivesTags);
+	addTags(data, afterbirthPlusPassivesTags);
+	addTags(data, cardsTags);
+	addTags(data, cardsOtherTags);
+	addTags(data, cardsPlayingTags);
+	addTags(data, cardsSpecialTags);
+	addTags(data, runes1Tags);
+	addTags(data, runes2Tags);
+
+	addTags(data, boosterpack1TrinketsMeta);
+	addTags(data, boosterpack1CollectiblesMeta);
+	addTags(data, boosterpack1PassivesMeta);
+	addTags(data, boosterpack1CardsMeta);
+	addTags(data, boosterpack2TrinketsMeta);
+	addTags(data, boosterpack2CollectiblesMeta);
+	addTags(data, boosterpack3PassivesMeta);
+	addTags(data, boosterpack3TrinketsMeta);
+	addTags(data, boosterpack3CollectiblesMeta);
+	addTags(data, boosterpack3PassivesMeta);
+	addTags(data, boosterpack4PassivesMeta);
+	addTags(data, boosterpack4TrinketsMeta);
+
+/*
+	addTags(data, antibirthPassivesTags);
+	addTags(data, antibirthCollectiblesTags);
+	addTags(data, antibirthTrinketsTags);
+	addTags(data, runesAntibirthMeta);
+*/
+
+/*
 	mergeMetadata(data, afterbirthTrinkets, afterbirthTrinketsTags);
 	mergeMetadata(data, rebirthTrinkets, rebirthTrinketsTags);
 	mergeMetadata(data, antibirthTrinkets, antibirthTrinketsTags);
@@ -66,14 +118,60 @@ function prepareData(data)
 	mergeMetadata(data, boosterpack3Passives, boosterpack3PassivesMeta);
 	mergeMetadata(data, boosterpack4Passives, boosterpack4PassivesMeta);
 	mergeMetadata(data, boosterpack4Trinkets, boosterpack4TrinketsMeta);
+*/
+
+	console.log("items added: ", addItems.totalAdded, ", items tagged: ", addTags.totalTagged);
 
 	fixUpRelativeURLs(data);
 
-	console.log("Item merge steps: " + mergeMetadata.totalMerged);
 
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
 }
+function scrubKeys(roughItems)
+{
+	var retval = {};
+	for (var roughKey in roughItems)
+	{
+		var scrubbedKey =  roughKey.toLowerCase().trim();
+		retval[scrubbedKey] = roughItems[roughKey];
+		retval[scrubbedKey].roughKey = roughKey;
+	}
+	return retval;
+}
+function addItems(data, items)
+{
+	var scrubbedItems = scrubKeys(items);
+	for (var key in scrubbedItems) {
+		var item = scrubbedItems[key];
+		item.displayName = item.roughKey;
+
+		if (data.items[key]) {
+			console.error("Duplicate entry found for item '", key, "'", item, data.items[key]);
+			continue;
+		}
+		data.items[key] = item;
+		++addItems.totalAdded;
+	}
+}
+addItems.totalAdded = 0;
+function addTags(data, tags)
+{
+	var scrubbedTags = scrubKeys(tags);
+	for (var key in scrubbedTags) {
+		var tags = scrubbedTags[key];
+
+		var item = data.items[key];
+		if (!item) {
+			console.error("Trying to tag item '", key, "' but it doesn't exist");
+			continue;
+		}
+		item.meta = tags;
+		++addTags.totalTagged;
+	}
+}
+addTags.totalTagged = 0;
+
 mergeMetadata.totalMerged = 0;
 function mergeMetadata(data, items, itemMetadata)
 {
