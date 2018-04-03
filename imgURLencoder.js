@@ -1,3 +1,5 @@
+// DEPRECATED.  See the base64ImagePacker node script
+
 // This code generates a base64-encoded image out of a thumbnail.  This allows us to put all the icons 
 // in a single file, eliminating ~800 http calls 
 //

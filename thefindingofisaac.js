@@ -94,6 +94,7 @@ function scrubKeys(roughItems)
 	{
 		var scrubbedKey =  roughKey.toLowerCase().trim();
 		retval[scrubbedKey] = roughItems[roughKey];
+		retval[scrubbedKey].key = scrubbedKey;
 		retval[scrubbedKey].roughKey = roughKey;
 	}
 	return retval;
@@ -315,6 +316,9 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 function renderHits(hits)
 {
 	console.log("-> renderHits");
+
+	resetRenderRowStats();
+
 	hitsContainer.innerHTML = g_data.showScore ? tableTemplateWithScore.textContent : tableTemplate.textContent;
 	hits.forEach(function(hit) {
 
@@ -328,7 +332,7 @@ function renderHits(hits)
 		}
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 	});
-	console.log("<- renderHits");
+	console.log("<- renderHits, rendered", renderRow.stats.rendered, "base64 images used:", renderRow.stats.base64Used);
 }
 function renderRow(hit)
 {
@@ -353,7 +357,16 @@ function renderRow(hit)
 	cell = document.createElement('td');
 	cell.className = "itemIconCell";
 
-	var thumbnail = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
+	// var thumbnail = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
+	var thumbnail;
+	if (base64Thumbnails[hit.item.key]) {
+		thumbnail = base64Thumbnails[hit.item.key];
+
+		++renderRow.stats.base64Used;
+	}
+	else {
+		thumbnail = hit.item.thumbnail;
+	}
 	if (thumbnail)
 	{
 		var img = document.createElement('img');
@@ -382,8 +395,12 @@ function renderRow(hit)
 		row.scoreCell = cell;
 		row.appendChild(cell);	
 	}
+	++renderRow.stats.rendered;
 	return row;
 }
+function resetRenderRowStats () { renderRow.stats = {rendered: 0, base64Used: 0}; }
+resetRenderRowStats();
+
 function renderAll(data, dlcFilter)
 {
 	var hits = [];

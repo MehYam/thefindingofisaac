@@ -14,49 +14,62 @@ const fs = require('fs');
 const request = require('request').defaults({ encoding: null });
 const items = require('./allItems.js');
 
-const result = {};
-
-const maxConcurrent = 10;
-var totalQueued = 0;
-var pending = 0;
+const itemsArray = [];
 for (const key in items) {
-   const url = items[key].thumbnail;
-
-   ++pending;
-   ++totalQueued;
-   console.log("queuing", key);
-
-   request.get(url, (error, response, body) => {
-
-      if (error) {
-         console.error("Error fetching", url, error);
-      }
-      else if (response.statusCode != 200) {
-         console.error("statusCode", url, response.statusCode);
-      }
-      else {
-         result[key] = "data:image/png;base64," + (new Buffer(body).toString('base64'));
-      }
-
-      console.log("done", key, result[key]);
-      console.log("remaining", pending, "of", totalQueued);
-      if (--pending == 0) {
-         writeResult();
-      }
-   });
-
-   // hammering the CDN seems to time out connections
-   while (pending >= maxConcurrent) {
-      sleep.sleep(1);
-
-      console.log('sleeping');
-   }
+   itemsArray.push({key:key, thumbnail: items[key].thumbnail});
 }
 
 function writeResult() {
-   fs.writeFile('spritesheet/base64Thumbnails.json', JSON.stringify(result), (err) => {
+   fs.writeFile('spritesheet/base64Thumbnails.json', 'var base64Thumbnails = ' + JSON.stringify(result), (err) => {
       if (err) throw err;
 
-      console.log("done conversion");
+      console.log("done conversion, completed", successful, "of", total, "requests");
    })
 }
+
+const result = {};
+const total = itemsArray.length;
+const maxConcurrent = 10;
+
+var pending = 0;
+var successful = 0;
+
+function requestImages(array) {
+
+   while (itemsArray.length > 0 && pending <= maxConcurrent) {
+      const next = itemsArray.pop();
+
+      ++pending;
+      console.log("queuing", next.key);
+
+      request.get(next.thumbnail, (error, response, body) => {
+
+         --pending;
+         if (error) {
+            console.error("Error fetching", url, error);
+         }
+         else if (response.statusCode != 200) {
+            console.error("statusCode", url, response.statusCode);
+         }
+         else {
+            ++successful;
+            result[next.key] = "data:image/png;base64," + (new Buffer(body).toString('base64'));
+         }
+
+         console.log("done", next.key, result[next.key]);
+         console.log(pending, "pending, ", itemsArray.length, "remaining.");
+
+         if (itemsArray.length == 0 && pending == 0) {
+            writeResult();
+         }
+      });
+   }
+
+   // did we hit max concurrent?  stop for a breath and try more later
+   if (itemsArray.length) {
+      console.log("throttling,", pending, "to go...");
+      setTimeout(requestImages, 1000, itemsArray);
+   }
+}
+
+requestImages(itemsArray);
