@@ -1836,6 +1836,117 @@ var boosterpack4TrinketsMeta = {
       "itemTags": "cable loop plug"
    }
 };
+var boosterpack5CollectiblesMeta = {
+   "Book of the Dead": {
+      "itemType": "book",
+      "itemColor": "black white",
+      "itemTags": "skull evil"
+   },
+   "Broken Shovel": {
+      "itemType": "",
+      "itemColor": "purple dark",
+      "itemTags": "spade dig handle key pin"
+   },
+   "Mom's Shovel": {
+      "itemType": "",
+      "itemColor": "purple dark",
+      "itemTags": "spade dig"
+   },
+   "Sacrificial Altar": {
+      "itemType": "",
+      "itemColor": "grey red",
+      "itemTags": "blood evil"
+   }
+};
+var boosterpack5PassivesMeta = {
+   "Blanket": {
+      "itemType": "",
+      "itemColor": "light blue",
+      "itemTags": "pile powder lump rock hill mountain cloud"
+   },
+   "Brittle Bones": {
+      "itemType": "",
+      "itemColor": "white",
+      "itemTags": "broken femur skeleton splinter"
+   },
+   "Broken Shovel": {
+      "itemType": "",
+      "itemColor": "purple dark",
+      "itemTags": "spade dig blade dirty part"
+   },
+   "Dad's Ring": {
+      "itemType": "",
+      "itemColor": "yellow",
+      "itemTags": "jewelry loop round circle"
+   },
+   "Divorce Papers": {
+      "itemType": "",
+      "itemColor": "white",
+      "itemTags": "text page sheet"
+   },
+   "Flat Stone": {
+      "itemType": "",
+      "itemColor": "grey blue",
+      "itemTags": "wet water rock round"
+   },
+   "Hallowed Ground": {
+      "itemType": "familiar",
+      "itemColor": "light white",
+      "itemTags": "holy shiny glow poop"
+   },
+   "Jaw Bone": {
+      "itemType": "familiar",
+      "itemColor": "white",
+      "itemTags": "shard u loop curve"
+   },
+   "Lil Spewer": {
+      "itemType": "familiar",
+      "itemColor": "pink",
+      "itemTags": "worm baby face smile fetus"
+   },
+   "Marbles": {
+      "itemType": "",
+      "itemColor": "brown",
+      "itemTags": "beads allies candy bag"
+   },
+   "Marrow": {
+      "itemType": "",
+      "itemColor": "dark red",
+      "itemTags": "heart bone"
+   },
+   "Mystery Egg": {
+      "itemType": "familiar",
+      "itemColor": "pink",
+      "itemTags": "round cone"
+   },
+   "Pointy Rib": {
+      "itemType": "familiar",
+      "itemColor": "white red",
+      "itemTags": "bone sharp broken"
+   },
+   "Slipped Rib": {
+      "itemType": "familiar",
+      "itemColor": "white",
+      "itemTags": "bone curve shard"
+   }
+};
+var boosterpack5TrinketsMeta = {
+   "Rotten Penny": {
+      "itemType": "",
+      "itemColor": "brown green",
+      "itemTags": "gross plate food fly"
+   },
+   "Baby-Bender": {
+      "itemType": "",
+      "itemColor": "white blue",
+      "itemTags": "spoon familiar"
+   },
+   "Finger Bone": {
+      "itemType": "",
+      "itemColor": "white",
+      "itemTags": "bone shard"
+   }
+};
 var cardsOtherTags = {
    "Emergency Contact": {
       "itemType": "",

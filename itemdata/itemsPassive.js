@@ -1267,7 +1267,7 @@ var itemsPassive = {
    "Thunder Thighs": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Thunder_Thighs",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/9/9c/Thunder_Thighs_Icon.png",
-      "descriptionHTML": "Destroys rocks upon contact with Isaac. Adds one heart container, and lowers Speed."
+      "descriptionHTML": "Destroys rocks upon contact with Isaac. Adds one heart container and lowers Speed."
    },
    "Toothpicks": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Toothpicks",
@@ -1502,7 +1502,7 @@ var itemsPassive = {
    "Holy Light": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Holy_Light",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/4/4e/Holy_Light_Icon.png",
-      "descriptionHTML": "Isaac has a random chance to fire a Holy tear, which when it hits an enemy, will spawn a <a href=\"/Crack_the_Sky\" title=\"Crack the Sky\">Crack the Sky</a> style light beam on the same enemy, dealing damage."
+      "descriptionHTML": "Isaac has a random chance to fire a Holy tear, which, when it hits an enemy, will spawn a <a href=\"/Crack_the_Sky\" title=\"Crack the Sky\">Crack the Sky</a>-style light beam on the same enemy, dealing damage."
    },
    "Host Hat": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Host_Hat",
@@ -1764,6 +1764,11 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/b7/Big_Chubby_Icon.png",
       "descriptionHTML": "Spawns a familiar that slowly charges forward and damages enemies in its path."
    },
+   "Blanket": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Blanket",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/4/40/Blanket_Icon.png",
+      "descriptionHTML": "Grants one <a href=\"/Soul_heart\" class=\"mw-redirect\" title=\"Soul heart\">soul heart</a>. Upon entering a boss room, grants a shield that blocks one hit, then disappears."
+   },
    "Bloodshot Eye": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Bloodshot_Eye",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/f/f0/Bloodshot_Eye_Icon.png",
@@ -1774,10 +1779,20 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/37/Bozo_Icon.png",
       "descriptionHTML": "Increases damage by a flat 0.1 and grants a soul heart. Enemies can randomly become briefly charmed or feared. Taking damage has a chance to spawn a rainbow poop."
    },
+   "Brittle Bones": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Brittle_Bones",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/d/d1/Brittle_Bones_Icon.png",
+      "descriptionHTML": "Replaces all red hearts with 6 empty bone hearts. Upon losing a bone heart, Isaac fires bones in 8 directions and permanently gains <a href=\"/Tears\" title=\"Tears\">tears</a>."
+   },
    "Broken Modem": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Broken_Modem",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/c/c5/Broken_Modem_Icon.png",
       "descriptionHTML": "Enemies, enemy shots, tears, and pickups will briefly freeze in place at random intervals."
+   },
+   "Broken Shovel": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Broken_Shovel_2",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/a/a6/Broken_Shovel_2_Icon.png",
+      "descriptionHTML": "One of two parts necessary to create <a href=\"/Mom%27s_Shovel\" title=\"Mom's Shovel\">Mom's Shovel</a>."
    },
    "Buddy in a Box": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Buddy_in_a_Box",
@@ -1809,6 +1824,11 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/2/24/Dad%27s_Lost_Coin_Icon.png",
       "descriptionHTML": "Increases range by 1.5. Drops a <a href=\"/Lucky_penny\" class=\"mw-redirect\" title=\"Lucky penny\">lucky penny</a>. Other Effects Unknown"
    },
+   "Dad's Ring": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Dad%27s_Ring",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/3a/Dad%27s_Ring_Icon.png",
+      "descriptionHTML": "Creates a ring of light around Isaac that <a href=\"/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifies</a> enemies in contact."
+   },
    "Dark Prince's Crown": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Dark_Prince%27s_Crown",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/bc/Dark_Prince%27s_Crown_Icon.png",
@@ -1828,6 +1848,11 @@ var itemsPassive = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Depression",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/d/df/Depression_Icon.png",
       "descriptionHTML": "Spawns a cloud familiar that leaves a trail of tears that damages enemies. Has a chance to spawn damaging beams of light onto enemies that touch the cloud."
+   },
+   "Divorce Papers": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Divorce_Papers",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/5/5f/Divorce_Papers_Icon.png",
+      "descriptionHTML": "Spawns a <a href=\"/Mysterious_Paper\" title=\"Mysterious Paper\">Mysterious Paper</a>, increases <a href=\"/Tears\" title=\"Tears\">tears</a>, and grants a bone heart."
    },
    "Dog Tooth": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Dog_Tooth",
@@ -1869,6 +1894,11 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/f/fd/Finger%21_Icon.png",
       "descriptionHTML": "Spawns a finger familiar that points at enemies, dealing constant damage."
    },
+   "Flat Stone": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Flat_Stone",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/0/04/Flat_Stone_Icon.png",
+      "descriptionHTML": "Tears bounce off the floor. Tears that hit an enemy after bouncing deal splash damage to all nearby enemies for 25% of Isaac's tear damage."
+   },
    "Ghost Pepper": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Ghost_Pepper",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/35/Ghost_Pepper_Icon.png",
@@ -1894,6 +1924,11 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/7/70/Haemolacria_Icon.png",
       "descriptionHTML": "Tears are now fired in an arc. Upon hitting the floor, an obstacle, or an enemy, they burst into many smaller tears in all directions. Increases tear delay."
    },
+   "Hallowed Ground": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Hallowed_Ground",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/6f/Hallowed_Ground_Icon.png",
+      "descriptionHTML": "Spawns a white poop familiar, which turns into a white poop when Isaac is hurt."
+   },
    "Hushy": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Hushy",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/a/af/Hushy_Icon.png",
@@ -1903,6 +1938,11 @@ var itemsPassive = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Jacob%27s_Ladder",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/f/f0/Jacob%27s_Ladder_Icon.png",
       "descriptionHTML": "Tears fire sparks of electricity in random directions upon hitting an obstacle or enemy."
+   },
+   "Jaw Bone": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Jaw_Bone",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/e/ef/Jaw_Bone_Icon.png",
+      "descriptionHTML": "Spawns a familiar that flies the room while firing, dealing double Isaac's tear damage to enemies that come in contact and retrieving pickups."
    },
    "Jumper Cables": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Jumper_Cables",
@@ -1944,6 +1984,11 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/c/ce/Lil_Monstro_Icon.png",
       "descriptionHTML": "Spawns a familiar that fires clusters of tears. Must be charged before shooting."
    },
+   "Lil Spewer": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Lil_Spewer",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/8/8a/Lil_Spewer_Icon.png",
+      "descriptionHTML": "Spawns a random <a href=\"/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a>, and grants a small Spewer familiar that charges up and fires different types of <a href=\"/Creep\" title=\"Creep\">creep</a>."
+   },
    "Linger Bean": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Linger_Bean",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/7/78/Linger_Bean_Icon.png",
@@ -1953,6 +1998,16 @@ var itemsPassive = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Little_Horn_(Item)",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/9/97/Little_Horn_%28Item%29_Icon.png",
       "descriptionHTML": "Adds a chance to fire a piercing tear that instantly kills any enemy that it touches."
+   },
+   "Marbles": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Marbles",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/b6/Marbles_Icon.png",
+      "descriptionHTML": "Spawns 3 random <a href=\"/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinkets</a>. Taking damage has a small chance to swallow Isaac's currently held trinket, gaining its effect permanently."
+   },
+   "Marrow": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Marrow",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/0/0c/Marrow_Icon.png",
+      "descriptionHTML": "Grants one bone heart and spawns three red heart pickups."
    },
    "Metal Plate": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Metal_Plate",
@@ -1969,10 +2024,20 @@ var itemsPassive = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/bc/Mom%27s_Razor_Icon.png",
       "descriptionHTML": "Spawns an orbiting razor that damages enemies it touches and inflicts bleeding on enemies, causing them to slowly take damage over time."
    },
+   "Mystery Egg": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Mystery_Egg",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/b6/Mystery_Egg_Icon.png",
+      "descriptionHTML": "Spawns an egg familiar, which cracks and turns into a random charmed enemy when Isaac is hurt. The egg regenerates upon entering a different room."
+   },
    "Parasitoid": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Parasitoid",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/a/aa/Parasitoid_Icon.png",
       "descriptionHTML": "Adds a chance to fire an egg sack which spawns slowing creep and spawns a blue fly or spider upon hitting an enemy."
+   },
+   "Pointy Rib": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Pointy_Rib",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/4/4d/Pointy_Rib_Icon.png",
+      "descriptionHTML": "Spawns a bone familiar that can be aimed with the fire buttons and does contact damage."
    },
    "Poke Go": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Poke_Go",
@@ -2013,6 +2078,11 @@ var itemsPassive = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Sinus_Infection",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/7/79/Sinus_Infection_Icon.png",
       "descriptionHTML": "Adds a chance to fire a booger which sticks to enemies and poisons them."
+   },
+   "Slipped Rib": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Slipped_Rib",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/2/29/Slipped_Rib_Icon.png",
+      "descriptionHTML": "Spawns a bone familiar that circles around Isaac and reflects enemy shots."
    },
    "Sulfuric Acid": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Sulfuric_Acid",

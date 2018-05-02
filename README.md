@@ -13,16 +13,12 @@ See isaacWikiScrape.js for instructions on how to update the data files.
 To improve performance and reduce memory and download overhead, the app uses a spritesheet for all the item icons.  ADD DETAILS HERE
 
 ### TO DO:
-- refactor data objects to make wiki scraping easier (and fix broken icons)
+- refresh and add back Antibirth
+- performance still not great
 - don't render all items to table, add "Show All" button
-- update booster pack icons
-- update the base64 inline images - many of these aren't being used
- 
-- score items better when terms match exactly
 - more functionality
 	- search by transformation
 	- room type, etc
-- performance still not great
 - return focus to text box after clicking link
 - add search options options
     - AND vs. OR
@@ -33,6 +29,7 @@ To improve performance and reduce memory and download overhead, the app uses a s
 - add description to the sort options
 
 ### DONE:
+- ~~booster pack 5~~
 - ~~booster pack 4~~
 - ~~refresh Afterbirth+ items as they get updated in the wiki~~
 - ~~add Booster pack items~~

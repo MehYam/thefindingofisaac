@@ -469,6 +469,11 @@ var itemsActivated = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/64/Black_Hole_Icon.png",
       "descriptionHTML": "Throws a black hole on the ground which sucks in and damages enemies."
    },
+   "Book of the Dead": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Book_of_the_Dead",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/8/85/Book_of_the_Dead_Icon.png",
+      "descriptionHTML": "Upon use, spawns a charmed <a href=\"/Bony\" title=\"Bony\">Bony</a> or an orbital bone for each enemy killed in the current room."
+   },
    "Brown Nugget": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Brown_Nugget",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/e/eb/Brown_Nugget_Icon.png",
@@ -534,6 +539,11 @@ var itemsActivated = {
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/ba/Metronome_Icon.png",
       "descriptionHTML": "Grants a random item effect for the current room."
    },
+   "Mom's Shovel": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Shovel",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/8/8b/Mom%27s_Shovel_Icon.png",
+      "descriptionHTML": "Spawns a trapdoor that leads to the next floor upon activation. Unlocks <a href=\"/The_Forgotten\" title=\"The Forgotten\">The Forgotten</a> when used on a mound of dirt that appears in <a href=\"/The_Dark_Room\" class=\"mw-redirect\" title=\"The Dark Room\">The Dark Room</a>."
+   },
    "Moving Box": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Moving_Box",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/1/10/Moving_Box_Icon.png",
@@ -563,6 +573,11 @@ var itemsActivated = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Pause",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/64/Pause_Icon.png",
       "descriptionHTML": "Freezes all enemies until a fire button is pressed."
+   },
+   "Sacrificial Altar": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Sacrificial_Altar",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/d/df/Sacrificial_Altar_Icon.png",
+      "descriptionHTML": "Upon use, sacrifices up to 2 familiars and spawns an item from the <a href=\"/Devil_Room_Pool\" class=\"mw-redirect\" title=\"Devil Room Pool\">Devil Room Pool</a> for each familiar sacrificed."
    },
    "Sharp Straw": {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Sharp_Straw",

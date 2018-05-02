@@ -618,5 +618,20 @@ var trinkets = {
       "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Extension_Cord",
       "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/4/4f/Extension_Cord_Icon.png",
       "descriptionHTML": "Beams of yellow electricity flow between Isaac and his familiars, damaging any enemies between them."
+   },
+   "Rotten Penny": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Rotten_Penny",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/2/2e/Rotten_Penny_Icon.png",
+      "descriptionHTML": "Spawns a blue fly every time a coin is picked up."
+   },
+   "Baby-Bender": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Baby-Bender",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/c/ce/Baby-Bender_Icon.png",
+      "descriptionHTML": "Grants Isaac's familiars homing shots."
+   },
+   "Finger Bone": {
+      "wikiPage": "https://bindingofisaacrebirth.gamepedia.com/Finger_Bone",
+      "thumbnail": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/3f/Finger_Bone_Icon.png",
+      "descriptionHTML": "Grants a chance to gain a bone heart upon taking damage."
    }
 };

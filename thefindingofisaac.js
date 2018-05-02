@@ -50,6 +50,7 @@ function prepareData(data)
 	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
 	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
 	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
+	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
 
 /*
 	addTags(data, antibirthPassivesTags);
