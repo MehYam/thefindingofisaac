@@ -43,22 +43,22 @@ function prepareData(data)
 	})
 
 	var DLC_PROP = "dlc";
-	function addTagsAndSetDLC(data, dlc, tagsList) {
+	function mergeTagsAndSetDLC(data, dlc, tagsList) {
 		addProperty(tagsList, DLC_PROP, dlc);
 		tagsList.forEach(function(tags){
-			addTags(data, tags);
+			mergeTags(data, tags);
 		});
 	}
 
-	addTagsAndSetDLC(data, DLC.BASE, [rebirthTrinketsTags, rebirthCollectiblesTags, rebirthPassivesTags]);
-	addTagsAndSetDLC(data, DLC.BASE, [cardsTags, cardsOtherTags, cardsPlayingTags, cardsSpecialTags, runes1Tags, runes2Tags]);
-	addTagsAndSetDLC(data, DLC.AFTERBIRTH, [afterbirthTrinketsTags, afterbirthCollectiblesTags, afterbirthPassivesTags]);
-	addTagsAndSetDLC(data, DLC.AFTERBIRTHPLUS, [afterbirthPlusTrinketsTags, afterbirthPlusCollectiblesTags, afterbirthPlusPassivesTags]);
-	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
-	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
-	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
-	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
-	addTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BASE, [rebirthTrinketsTags, rebirthCollectiblesTags, rebirthPassivesTags]);
+	mergeTagsAndSetDLC(data, DLC.BASE, [cardsTags, cardsOtherTags, cardsPlayingTags, cardsSpecialTags, runes1Tags, runes2Tags]);
+	mergeTagsAndSetDLC(data, DLC.AFTERBIRTH, [afterbirthTrinketsTags, afterbirthCollectiblesTags, afterbirthPassivesTags]);
+	mergeTagsAndSetDLC(data, DLC.AFTERBIRTHPLUS, [afterbirthPlusTrinketsTags, afterbirthPlusCollectiblesTags, afterbirthPlusPassivesTags]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
 
 /*
 	addTags(data, antibirthPassivesTags);
@@ -77,7 +77,7 @@ function prepareData(data)
 			console.error("no dlc found for", itemKey);
 		}
 	}
-	console.log("items added: ", addItems.totalAdded, ", items tagged: ", addTags.totalTagged);
+	console.log("items added: ", addItems.totalAdded, ", items tagged: ", mergeTags.totalTagged);
 
 	fixUpRelativeURLs(data);
 
@@ -124,8 +124,9 @@ function addItems(data, items)
 	}
 }
 addItems.totalAdded = 0;
-function addTags(data, tags)
+function mergeTags(data, tags)
 {
+	// the scraping's not perfect, it's generating noisy item names 
 	var scrubbedTags = scrubKeys(tags);
 	for (var key in scrubbedTags) {
 		var tags = scrubbedTags[key];
@@ -136,46 +137,11 @@ function addTags(data, tags)
 			continue;
 		}
 		item.meta = tags;
-		++addTags.totalTagged;
+		++mergeTags.totalTagged;
 	}
 }
-addTags.totalTagged = 0;
+mergeTags.totalTagged = 0;
 
-mergeMetadata.totalMerged = 0;
-function mergeMetadata(data, items, itemMetadata)
-{
-	// the scraping's not perfect, it's generating noisy item names 
-	var scrubbedItems = scrubKeys(items);
-	var scrubbedMetadata = scrubKeys(itemMetadata);
-
-	for (var key in scrubbedItems)
-	{
-		var item = scrubbedItems[key];
-		item.meta = scrubbedMetadata[key];
-		if (item.meta)
-		{
-			if (item.meta.dlc)
-			{
-				// a few of the tables have different dlc mixed together.  This allows us to tag the dlc from the 
-				item.dlc = item.meta.dlc;
-			}
-		}
-		else
-		{
-			console.error("No metadata found for item '" + key + "'");
-		}
-		if (!item.dlc)
-		{
-			console.error("No dlc found for item '" + key + "'");
-		}
-		item.displayName = item.roughKey;
-
-		var uniqueKey = key + item.dlc; // some DLC now collides item names (i.e. D12 in Antibirth)
-		data.items[uniqueKey] = item;
-
-		++mergeMetadata.totalMerged;
-	}
-}
 function createAliasLookup(aliasList)
 {
 	var retval = {};
