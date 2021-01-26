@@ -10,7 +10,11 @@ var DLC =
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
 	ANTIBIRTH: "antibirth",
-	BOOSTERPACK: "boosterpack1"
+	BOOSTERPACK1: "boosterpack1",
+	BOOSTERPACK2: "boosterpack2",
+	BOOSTERPACK3: "boosterpack3",
+	BOOSTERPACK4: "boosterpack4",
+	BOOSTERPACK5: "boosterpack5"
 }
 var CLASSES = 
 {
@@ -54,18 +58,11 @@ function prepareData(data)
 	mergeTagsAndSetDLC(data, DLC.BASE, [cardsTags, cardsOtherTags, cardsPlayingTags, cardsSpecialTags, runes1Tags, runes2Tags]);
 	mergeTagsAndSetDLC(data, DLC.AFTERBIRTH, [afterbirthTrinketsTags, afterbirthCollectiblesTags, afterbirthPassivesTags]);
 	mergeTagsAndSetDLC(data, DLC.AFTERBIRTHPLUS, [afterbirthPlusTrinketsTags, afterbirthPlusCollectiblesTags, afterbirthPlusPassivesTags]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
-
-/*
-	addTags(data, antibirthPassivesTags);
-	addTags(data, antibirthCollectiblesTags);
-	addTags(data, antibirthTrinketsTags);
-	addTags(data, runesAntibirthMeta);
-*/
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK1, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK2, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK3, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK4, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
+	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK5, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
 
 	// further data sanity checks
 	for (var itemKey in data.items) {
@@ -413,7 +410,13 @@ function doSearch(searchText)
 	if (rbbutton.checked) dlcFilter[DLC.BASE] = true;
 	if (abbutton.checked) dlcFilter[DLC.AFTERBIRTH] = true;
 	if (abplusbutton.checked) dlcFilter[DLC.AFTERBIRTHPLUS] = true;
-	if (booster1button.checked) dlcFilter[DLC.BOOSTERPACK] = true;
+	if (booster1button.checked) {
+		dlcFilter[DLC.BOOSTERPACK1] = true;
+		dlcFilter[DLC.BOOSTERPACK2] = true;
+		dlcFilter[DLC.BOOSTERPACK3] = true;
+		dlcFilter[DLC.BOOSTERPACK4] = true;
+		dlcFilter[DLC.BOOSTERPACK5] = true;
+	}
 	if (anbbutton.checked) dlcFilter[DLC.ANTIBIRTH] = true;
 
 	if (searchText.length)
