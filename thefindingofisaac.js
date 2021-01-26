@@ -1,7 +1,6 @@
 var g_data = 
 {
-	items: {},
-	aliases: {},
+	items: g_items,
 	showScore: false
 };
 var DLC =
@@ -16,128 +15,32 @@ var DLC =
 	BOOSTERPACK4: "boosterpack4",
 	BOOSTERPACK5: "boosterpack5"
 }
-var CLASSES = 
-{
-	TRINKET: "trinket",
-	ACTIVE: "active",
-	PASSIVE: "passive",
-	CARD: "card",
-	RUNE: "rune"
-}
 function prepareData(data)
 {
-	var CLASS_PROP = "itemClass";
-	var cardsList = [cards1, cards2, cards3, cards4];
-	var runesList = [runes1, runes2, runes3, runes4];
+	console.log(`preparing ${g_data.items.length} items`);
 
-	addProperty([trinkets], CLASS_PROP, CLASSES.TRINKET);
-	addProperty([itemsActivated], CLASS_PROP, CLASSES.ACTIVE);
-	addProperty([itemsPassive], CLASS_PROP, CLASSES.PASSIVE);
-	addProperty(cardsList, CLASS_PROP, CLASSES.CARD);
-	addProperty(runesList, CLASS_PROP, CLASSES.RUNE);
-
-	addItems(data, trinkets);
-	addItems(data, itemsActivated);
-	addItems(data, itemsPassive);
-	cardsList.forEach(function(items){
-		addItems(data, items);
-	});
-	runesList.forEach(function(items){
-		addItems(data, items);
-	})
-
-	var DLC_PROP = "dlc";
-	function mergeTagsAndSetDLC(data, dlc, tagsList) {
-		addProperty(tagsList, DLC_PROP, dlc);
-		tagsList.forEach(function(tags){
-			mergeTags(data, tags);
-		});
+	const dlcMissing = g_data.items.filter(item => !item.dlc || !item.dlc.length);
+	if (dlcMissing.length) {
+		console.warn(`${dlcMissing.length} items missing DLC: ${dlcMissing.map(i => i.name).join(',')}`);
 	}
 
-	mergeTagsAndSetDLC(data, DLC.BASE, [rebirthTrinketsTags, rebirthCollectiblesTags, rebirthPassivesTags]);
-	mergeTagsAndSetDLC(data, DLC.BASE, [cardsTags, cardsOtherTags, cardsPlayingTags, cardsSpecialTags, runes1Tags, runes2Tags]);
-	mergeTagsAndSetDLC(data, DLC.AFTERBIRTH, [afterbirthTrinketsTags, afterbirthCollectiblesTags, afterbirthPassivesTags]);
-	mergeTagsAndSetDLC(data, DLC.AFTERBIRTHPLUS, [afterbirthPlusTrinketsTags, afterbirthPlusCollectiblesTags, afterbirthPlusPassivesTags]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK1, [boosterpack1TrinketsMeta, boosterpack1CollectiblesMeta, boosterpack1PassivesMeta, boosterpack1CardsMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK2, [boosterpack2TrinketsMeta, boosterpack2CollectiblesMeta, boosterpack2PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK3, [boosterpack3TrinketsMeta, boosterpack3CollectiblesMeta, boosterpack3PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK4, [boosterpack4TrinketsMeta, boosterpack4PassivesMeta]);
-	mergeTagsAndSetDLC(data, DLC.BOOSTERPACK5, [boosterpack5TrinketsMeta, boosterpack5CollectiblesMeta, boosterpack5PassivesMeta]);
-
-	// further data sanity checks
-	for (var itemKey in data.items) {
-		var item = data.items[itemKey];
-		if (!item.meta) {
-			console.error("no tags found for", itemKey);
-		}
-		else if (!item.meta.dlc) {
-			console.error("no dlc found for", itemKey);
-		}
+	const tagsMissing = g_data.items.filter(item => !item.tags || !item.tags.trim().length);
+	if (tagsMissing.length) {
+		console.warn(`${tagsMissing.length} items missing tags: ${tagsMissing.map(i => i.name).join(',')}`);
 	}
-	console.log("items added: ", addItems.totalAdded, ", items tagged: ", mergeTags.totalTagged);
 
-	fixUpRelativeURLs(data);
-
+	const localThumbnailMissing = g_data.items.filter(item => !base64Thumbnails[item.id]);
+	if (localThumbnailMissing.length) {
+		console.warn(`${localThumbnailMissing.length} items not using local thumbnails: ${localThumbnailMissing.map(i => i.name).join(',')}`);
+	}
 
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
-}
-function addProperty(itemTableArray, propertyName, value)
-{
-	itemTableArray.forEach(function(itemTable)
-	{
-		for (var key in itemTable)
-		{
-			var item = itemTable[key];
-			item[propertyName] = value;
-		}
-	});
-}
-function scrubKeys(roughItems)
-{
-	var retval = {};
-	for (var roughKey in roughItems)
-	{
-		var scrubbedKey =  roughKey.toLowerCase().trim();
-		retval[scrubbedKey] = roughItems[roughKey];
-		retval[scrubbedKey].key = scrubbedKey;
-		retval[scrubbedKey].roughKey = roughKey;
-	}
-	return retval;
-}
-function addItems(data, items)
-{
-	var scrubbedItems = scrubKeys(items);
-	for (var key in scrubbedItems) {
-		var item = scrubbedItems[key];
-		item.displayName = item.roughKey;
 
-		if (data.items[key]) {
-			console.error("Duplicate entry found for item '", key, "'", item, data.items[key]);
-			continue;
-		}
-		data.items[key] = item;
-		++addItems.totalAdded;
-	}
+	fixUpRelativeURLs(data);
 }
-addItems.totalAdded = 0;
-function mergeTags(data, tags)
-{
-	// the scraping's not perfect, it's generating noisy item names 
-	var scrubbedTags = scrubKeys(tags);
-	for (var key in scrubbedTags) {
-		var tags = scrubbedTags[key];
-
-		var item = data.items[key];
-		if (!item) {
-			console.error("Trying to apply tag to non-existent item:", key, tags);
-			continue;
-		}
-		item.meta = tags;
-		++mergeTags.totalTagged;
-	}
-}
-mergeTags.totalTagged = 0;
+// for use during scraping
+function mergeItems() {}
 
 function createAliasLookup(aliasList)
 {
@@ -170,14 +73,13 @@ Array.prototype.unique = function() {
 function explodeItemAliases(data, aliasLookup)
 {
 	// search each item for alias matches, and shove the alternate search terms into the item itself
-	for (var key in data.items)
-	{
-		var item = data.items[key];
-
-		item.itemTypeWithAliases = explodeAliases(aliasLookup, item.meta.itemType);
-		item.itemTagsWithAliases = explodeAliases(aliasLookup, item.meta.itemTags);
-		item.itemColorWithAliases = explodeAliases(aliasLookup, item.meta.itemColor);
-	}	
+	for (const item of data.items) {
+		item.aliases = {
+			type: explodeAliases(aliasLookup, item.type),
+			tags: explodeAliases(aliasLookup, item.tags),
+			colors: explodeAliases(aliasLookup, item.colors)
+		};
+	}
 }
 function explodeAliases(aliasLookup, termsString)
 {
@@ -199,10 +101,8 @@ function explodeAliases(aliasLookup, termsString)
 function fixUpRelativeURLs(data)
 {
 	// HACK: fix up the relative links in the description HTML until this hosted on the wiki
-	for (var key in data.items)
-	{
-		var item = data.items[key];
-		item.descriptionHTML = item.descriptionHTML.replace(/href="/g, "target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com");
+	for (const item of data.items) {
+		item.desc = item.desc.replace(/href="/g, "target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com");
 	}
 }
 function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
@@ -214,42 +114,39 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 	var nTerms = terms.length;
 
 	var hits = [];
-	for (var key in data.items)
+	for (const item of data.items)
 	{
-		var item = data.items[key];
-		if (!dlcFilter[item.meta.dlc])
+		if (!dlcFilter[item.dlc])
 		{
 			continue;
 		}
 
 		var score = 0;
-		for (var i = 0; i < nTerms; ++i)
+		for (const term of terms)
 		{
-			var term = terms[i];
 			var termScore = 0;
 
 			// item name match
-			if (item.displayName.indexOf(term) >= 0)
+			if (item.name.indexOf(term) >= 0)
 			{
 				termScore += 10;
 			}
-			// class
-			if (item.itemClass.indexOf(term) >= 0)
+			// type
+			if (item.type.indexOf(term) >= 0)
 			{
 				termScore += 5;
 			}
-			// type
-			if (item.itemTypeWithAliases.indexOf(term) >= 0)
+			if (item.aliases.type.indexOf(term) >= 0)
 			{
 				termScore += 3;
 			}
 			// color
-			if (item.itemColorWithAliases.indexOf(term) >= 0)
+			if (item.aliases.colors.indexOf(term) >= 0)
 			{
 				termScore += 2;
 			}
 			// tag hits
-			if (item.itemTagsWithAliases.indexOf(term) >= 0)
+			if (item.aliases.tags.indexOf(term) >= 0)
 			{
 				termScore += 1;
 			}
@@ -262,13 +159,13 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 			score += termScore;
 		}
 		// full item name match
-		if (key.indexOf(searchText) >= 0)
+		if (item.name.toLowerCase().indexOf(searchText.toLowerCase()) >= 0)
 		{
 			score += 20;
 		}
 		if (score)
 		{
-			hits.push({ item: item, score: score });
+			hits.push({ item, score: score });
 		}
 	}
 	console.log("<- retrieveHits found", hits.length);
@@ -297,10 +194,10 @@ function renderHits(hits)
 		}
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 
-		if (!resultCount.hasOwnProperty(hit.item.itemClass)) {
-			resultCount[hit.item.itemClass] = 0;
+		if (!resultCount.hasOwnProperty(hit.item.type)) {
+			resultCount[hit.item.type] = 0;
 		}
-		++resultCount[hit.item.itemClass];
+		++resultCount[hit.item.type];
 		++total;
 	});
 	console.log("<- renderHits, rendered", renderRow.stats.rendered, "base64 images used:", renderRow.stats.base64Used);
@@ -318,16 +215,16 @@ function renderRow(hit)
 	// name column
 	var cell = document.createElement('td');
 	var nameParent = cell;
-	if (hit.item.wikiPage)
+	if (hit.item.wiki)
 	{
 		var anchor = document.createElement('a');
-		anchor.href = hit.item.wikiPage;
+		anchor.href = hit.item.wiki;
 		anchor.target = "_blank";
 		nameParent = anchor;
 
 		cell.appendChild(anchor);
 	}
-	nameParent.appendChild(document.createTextNode(hit.item.displayName));
+	nameParent.appendChild(document.createTextNode(hit.item.name));
 	row.appendChild(cell);
 
 	// image column
@@ -335,13 +232,13 @@ function renderRow(hit)
 	cell.className = "itemIconCell";
 
 	var thumbnail;
-	if (base64Thumbnails[hit.item.key]) {
-		thumbnail = base64Thumbnails[hit.item.key];
+	if (base64Thumbnails[hit.item.id]) {
+		thumbnail = base64Thumbnails[hit.item.id];
 
 		++renderRow.stats.base64Used;
 	}
 	else {
-		thumbnail = hit.item.thumbnail;
+		thumbnail = hit.item.thumb;
 	}
 	if (thumbnail)
 	{
@@ -354,12 +251,12 @@ function renderRow(hit)
 
 	// description
 	cell = document.createElement('td');
-	cell.innerHTML = hit.item.descriptionHTML;
+	cell.innerHTML = hit.item.desc;
 	row.appendChild(cell);
 
 	// type
 	cell = document.createElement('td');
-	cell.appendChild(document.createTextNode(hit.item.itemClass));
+	cell.appendChild(document.createTextNode(hit.item.type));
 	cell.className = "itemTypeCell";
 	row.appendChild(cell);
 
@@ -380,12 +277,11 @@ resetRenderRowStats();
 function renderAll(data, dlcFilter)
 {
 	var hits = [];
-	for (var key in data.items)
+	for (const item of data.items)
 	{
-		var item = data.items[key];
-		if (dlcFilter[item.meta.dlc])
+		if (dlcFilter[item.dlc])
 		{
-			hits.push({ item: data.items[key], score: 0 });
+			hits.push({ item, score: 0 });
 		}
 	}
 	renderHits(hits);
@@ -438,9 +334,6 @@ function doSearch(searchText)
 	{
 		renderClear();
 	}
-}
-function tallyResults(hits) {
-
 }
 var OPTIONS =
 {
