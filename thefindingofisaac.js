@@ -145,17 +145,6 @@ mergeMetadata.totalMerged = 0;
 function mergeMetadata(data, items, itemMetadata)
 {
 	// the scraping's not perfect, it's generating noisy item names 
-	function scrubKeys(roughItems)
-	{
-		var retval = {};
-		for (var roughKey in roughItems)
-		{
-			var scrubbedKey =  roughKey.toLowerCase().trim();
-			retval[scrubbedKey] = roughItems[roughKey];
-			retval[scrubbedKey].roughKey = roughKey;
-		}
-		return retval;
-	}
 	var scrubbedItems = scrubKeys(items);
 	var scrubbedMetadata = scrubKeys(itemMetadata);
 
