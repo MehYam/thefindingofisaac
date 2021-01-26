@@ -14,7 +14,7 @@ table {
 	background-color: #333333;
 	border: 1px solid #000000;
 	border-collapse: collapse;
-   table-layout: fixed;
+	table-layout: fixed;
 	width: 100%;
 }
 th {

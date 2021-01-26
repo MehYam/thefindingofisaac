@@ -8,7 +8,7 @@
 // 
 // 4. export the item object from that file so this script can use it
 //
-// 5. run this script
+// 5. run this script using node
 const fs = require('fs');
 
 const request = require('request').defaults({ encoding: null });

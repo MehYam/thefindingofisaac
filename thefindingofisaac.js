@@ -12,17 +12,25 @@ var DLC =
 	ANTIBIRTH: "antibirth",
 	BOOSTERPACK: "boosterpack1"
 }
+var CLASSES = 
+{
+	TRINKET: "trinket",
+	ACTIVE: "active",
+	PASSIVE: "passive",
+	CARD: "card",
+	RUNE: "rune"
+}
 function prepareData(data)
 {
 	var CLASS_PROP = "itemClass";
 	var cardsList = [cards1, cards2, cards3, cards4];
 	var runesList = [runes1, runes2, runes3, runes4];
 
-	addProperty([trinkets], CLASS_PROP, "trinket");
-	addProperty([itemsActivated], CLASS_PROP, "active");
-	addProperty([itemsPassive], CLASS_PROP, "passive");
-	addProperty(cardsList, CLASS_PROP, "card");
-	addProperty(runesList, CLASS_PROP, "rune");
+	addProperty([trinkets], CLASS_PROP, CLASSES.TRINKET);
+	addProperty([itemsActivated], CLASS_PROP, CLASSES.ACTIVE);
+	addProperty([itemsPassive], CLASS_PROP, CLASSES.PASSIVE);
+	addProperty(cardsList, CLASS_PROP, CLASSES.CARD);
+	addProperty(runesList, CLASS_PROP, CLASSES.RUNE);
 
 	addItems(data, trinkets);
 	addItems(data, itemsActivated);
@@ -35,9 +43,9 @@ function prepareData(data)
 	})
 
 	var DLC_PROP = "dlc";
-	function addTagsAndSetDLC(data, dlc, tagsArray) {
-		addProperty(tagsArray, DLC_PROP, dlc);
-		tagsArray.forEach(function(tags){
+	function addTagsAndSetDLC(data, dlc, tagsList) {
+		addProperty(tagsList, DLC_PROP, dlc);
+		tagsList.forEach(function(tags){
 			addTags(data, tags);
 		});
 	}
@@ -321,10 +329,14 @@ function renderHits(hits)
 	resetRenderRowStats();
 
 	hitsContainer.innerHTML = g_data.showScore ? tableTemplateWithScore.textContent : tableTemplate.textContent;
+
+	var resultCount = { };
+	var total = 0;
 	hits.forEach(function(hit) {
 
 		if (!hit.item.rowHTML)
 		{
+			// cache the row node, so we render it just once
 			hit.item.rowHTML = renderRow(hit);
 		}
 		if (g_data.showScore)
@@ -332,8 +344,20 @@ function renderHits(hits)
 			hit.item.rowHTML.scoreCell.innerHTML = 	hit.score;
 		}
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
+
+		if (!resultCount.hasOwnProperty(hit.item.itemClass)) {
+			resultCount[hit.item.itemClass] = 0;
+		}
+		++resultCount[hit.item.itemClass];
+		++total;
 	});
 	console.log("<- renderHits, rendered", renderRow.stats.rendered, "base64 images used:", renderRow.stats.base64Used);
+
+	var output = [];
+	for (var r in resultCount) {
+		output.push(`${resultCount[r]} ${r}s`);
+	}
+	resultsCount.textContent = `${total} items (${output.join(', ')})`;
 }
 function renderRow(hit)
 {
@@ -358,7 +382,6 @@ function renderRow(hit)
 	cell = document.createElement('td');
 	cell.className = "itemIconCell";
 
-	// var thumbnail = base64Thumbnails[hit.item.thumbnail] || hit.item.thumbnail;
 	var thumbnail;
 	if (base64Thumbnails[hit.item.key]) {
 		thumbnail = base64Thumbnails[hit.item.key];
@@ -457,9 +480,9 @@ function doSearch(searchText)
 	{
 		renderClear();
 	}
+}
+function tallyResults(hits) {
 
-	var resultTable = document.getElementById('hitsTable');
-	resultsCount.textContent = resultTable ? resultTable.rows.length - 1 : 0;
 }
 var OPTIONS =
 {
