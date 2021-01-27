@@ -92,44 +92,48 @@ const g_items = [
     "name": "2 of Clubs",
     "type": "card",
     "subType": "playing",
-    "desc": "Doubles your <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups#Bombs\" title=\"Pickups\">bombs</a>. If you have no bombs, gives you 2 instead.",
+    "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>. If you have no bombs, gives you 2 instead.",
     "dlc": "base",
     "colors": "white",
     "tags": "bomb",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/d/d7/2_of_Clubs_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/2_of_Clubs_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "2 of diamonds",
     "name": "2 of Diamonds",
     "type": "card",
     "subType": "playing",
-    "desc": "Doubles your <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickup#Coins\" class=\"mw-redirect\" title=\"Pickup\">coins</a>. If you have no coins, gives you 2 instead.",
+    "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a>. If you have no coins, gives you 2 instead.",
     "dlc": "base",
     "colors": "white",
     "tags": "$",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/3d/2_of_Diamonds_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/2_of_Diamonds_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "2 of hearts",
     "name": "2 of Hearts",
     "type": "card",
     "subType": "playing",
-    "desc": "Doubles Isaac's current number of <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups#Red_Hearts\" title=\"Pickups\">red hearts</a>. Does not affect Eternal Hearts, Soul Hearts, or Black Hearts. Doesn't add new heart containers, just fills empty ones.",
+    "desc": "Doubles Isaac's current number of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. Does not affect Eternal Hearts, Soul Hearts, or Black Hearts. Doesn't add new Red Heart containers, just fills empty ones.",
     "dlc": "base",
     "colors": "white",
     "tags": "",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/3/36/2_of_Hearts_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/36/2_of_Hearts_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "2 of spades",
     "name": "2 of Spades",
     "type": "card",
     "subType": "playing",
-    "desc": "Doubles your <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickup#Keys\" class=\"mw-redirect\" title=\"Pickup\">keys</a>. If you have no keys, gives you 2 instead.",
+    "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">keys</a>. If you have no keys, gives you 2 instead.",
     "dlc": "base",
     "colors": "white",
     "tags": "key",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/a/ab/2_of_Spades_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/2_of_Spades_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "20/20",
@@ -315,44 +319,48 @@ const g_items = [
     "name": "Ace of Clubs",
     "type": "card",
     "subType": "playing",
-    "desc": "Turns all <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups\" title=\"Pickups\">pickups</a> and <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Chests\" title=\"Chests\">chests</a> in the room into <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
+    "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bombs</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "bomb",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/5/5a/Ace_of_Clubs_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Ace_of_Clubs_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "ace of diamonds",
     "name": "Ace of Diamonds",
     "type": "card",
     "subType": "playing",
-    "desc": "Turns all <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups\" title=\"Pickups\">pickups</a> and <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Chests\" title=\"Chests\">chests</a> in the room into <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a>.",
+    "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Penny\" class=\"mw-redirect\" title=\"Penny\">Pennies</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "$",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/61/Ace_of_Diamonds_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Ace_of_Diamonds_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "ace of hearts",
     "name": "Ace of Hearts",
     "type": "card",
     "subType": "playing",
-    "desc": "Turns all <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups\" title=\"Pickups\">pickups</a> and <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Chests\" title=\"Chests\">chests</a> in the room into random <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups#Hearts\" title=\"Pickups\">heart pickups</a>.",
+    "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart\" class=\"mw-redirect\" title=\"Heart\">heart</a> pickups.",
     "dlc": "base",
     "colors": "white",
     "tags": "",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/b/bf/Ace_of_Hearts_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Ace_of_Hearts_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "ace of spades",
     "name": "Ace of Spades",
     "type": "card",
     "subType": "playing",
-    "desc": "Turns all <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Pickups\" title=\"Pickups\">pickups</a> and <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Chests\" title=\"Chests\">chests</a> in the room into <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">keys</a>.",
+    "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">Keys</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "key",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/0/01/Ace_of_Spades_%28Card%29_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Ace_of_Spades_%28Card%29_Icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"    
 },
 {
     "id": "ace of spades (trinket)",
@@ -3651,7 +3659,7 @@ const g_items = [
     "name": "Head of Krampus",
     "type": "active",
     "subType": "",
-    "desc": "Fires a cross-patterned brimstone shot, just like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Fallen\" title=\"The Fallen\">The Fallen</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Krampus\" title=\"Krampus\">Krampus</a> shoot.<br><img alt=\"Added in Afterbirth / Removed in Afterbirth ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â \" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Dlc_ana%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155303\" decoding=\"async\" title=\"Added in Afterbirth / Removed in Afterbirth ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â \" width=\"31\" height=\"14\" class=\"dlc dlc-2\"> Has a 50% chance to rotate all beams around the player 90 degrees.",
+    "desc": "Fires a cross-patterned brimstone shot, just like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Fallen\" title=\"The Fallen\">The Fallen</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Krampus\" title=\"Krampus\">Krampus</a> shoot.<br><img alt=\"Added in Afterbirth / Removed in Afterbirth ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â \" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Dlc_ana%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155303\" decoding=\"async\" title=\"Added in Afterbirth / Removed in Afterbirth ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â \" width=\"31\" height=\"14\" class=\"dlc dlc-2\"> Has a 50% chance to rotate all beams around the player 90 degrees.",
     "dlc": "base",
     "colors": "gray white red",
     "tags": "demon dead tongue",
@@ -4106,11 +4114,12 @@ const g_items = [
     "name": "Joker",
     "type": "card",
     "subType": "playing",
-    "desc": "Teleports you to the <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a>.",
+    "desc": "Teleports you to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "devil",
-    "thumb": "https://d1u5p3l4wpay3k.cloudfront.net/bindingofisaacre_gamepedia/6/64/Joker_Icon.png"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Pickup_Joker_icon.png",
+    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
     "id": "judas' shadow",
