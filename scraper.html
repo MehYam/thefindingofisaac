@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>The Finding of Isaac - Scrape Tool</title>
+<link rel="stylesheet" type="text/css" href="thefindingofisaac.css">
+<link rel="stylesheet" type="text/css" href="togglebutton.css">
+</head>
+<body>
+<div id="instruction" class="finePrint">
+	open scraper.js and follow the instructions there
+</div>
+<label for='input'>Paste scraped JSON here:</label><br/>
+<textarea id='input' name='input' rows='20' cols='150'></textarea><br/>
+<input type='button' value='Do Merge' onclick='doMerge()'></input><br/>
+<label for='output'>Copy these merged items to items.js:</label><br/>
+<textarea id='output' name='output' rows='20' cols='150'></textarea>
+<div id='debug'></div>
+</body>
+
+<!-- items, custom tags, and aliases -->
+<script src="itemdata/items.js"></script>
+<script src="itemdata/aliases.js"></script>
+
+<!-- inline thumbnail images -->
+<script src="spritesheet/base64Thumbnails.json"></script>
+
+<!-- must be last, since it depends on itemdata files above -->
+<script src="scraper.js"></script>
+<script>
+function doMerge()
+{
+	const newItems = JSON.parse(input.value);
+	
+	const existingItemLookup = {};
+	for (const item of g_items) {
+		existingItemLookup[item.id] = item;
+	}
+
+	var merged = 0;
+	for (const newItem of newItems) {
+		var existing = existingItemLookup[newItem.id];
+		if (existing) {
+			// merge the updated item fields
+			existingItemLookup[newItem.id] = {...existing, ...newItem};
+			++merged;
+		}
+		else {
+			existingItemLookup[newItem.id] = newItem;
+		}
+	}
+
+	const mergedItems = Object.values(existingItemLookup).sort((a, b) => a.id.localeCompare(b.id));
+	output.value = JSON.stringify(mergedItems, null, 1);
+
+	debug.innerText = `${merged} items merged, ${newItems.length - merged} items added, ${mergedItems.length} total`;
+}	
+</script>
+</html>

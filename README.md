@@ -2,7 +2,7 @@
 
 This is a tool to help identify that item that just dropped in your Binding of Isaac run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to narrow down the item.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
 
-Currently, the wiki items are scraped in a semi-manual process, see isaacWikiScrape.js for details.
+Currently, the wiki items and images are scraped in a semi-manual process, see scraper.js for details.
 
 ## Implementation Notes
 
