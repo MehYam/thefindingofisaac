@@ -11,9 +11,9 @@
 // - (optional, but highly recommended): follow steps in base64ImagePacker.js to generate new spritesheet
 
 // Current targets:
-// https://bindingofisaacrebirth.gamepedia.com/Items - two tables
-// https://bindingofisaacrebirth.gamepedia.com/Trinkets - one table
-// https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes - 12 tables!
+// https://bindingofisaacrebirth.gamepedia.com/Items - 2 tables
+// https://bindingofisaacrebirth.gamepedia.com/Trinkets - 1 table
+// https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes - 12 tables
 
 function scrapeTable(tableIndex, itemType)
 {
