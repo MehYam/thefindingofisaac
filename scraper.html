@@ -28,6 +28,11 @@
 <script>
 function doMerge()
 {
+	const specialCases = {
+		'odd mushroom': 1,  // there are two different odd mushrooms items
+		'cancer': 1,        // is both a trinket and item
+		'ace of spades': 1  // is both a trinket and item
+	};
 	const newItems = JSON.parse(input.value);
 	
 	const existingItemLookup = {};
@@ -36,7 +41,19 @@ function doMerge()
 	}
 
 	var merged = 0;
+	const additionalMembers = {
+		subType: '',
+		dlc: '',
+		colors: '',
+		tags: ''
+	}
 	for (const newItem of newItems) {
+		if (specialCases[newItem.id]) {
+			const tmpId = newItem.id + ` ${specialCases[newItem.id]++}`
+			dbg(`special case ${newItem.id} found, saved as ${tmpId}, must be merged by hand`);
+			newItem.id = tmpId;
+		}
+
 		var existing = existingItemLookup[newItem.id];
 		if (existing) {
 			// merge the updated item fields
@@ -44,14 +61,18 @@ function doMerge()
 			++merged;
 		}
 		else {
-			existingItemLookup[newItem.id] = newItem;
+			console.log(`adding item ${newItem.id}`);
+			existingItemLookup[newItem.id] = {...additionalMembers, ...newItem};
 		}
 	}
 
 	const mergedItems = Object.values(existingItemLookup).sort((a, b) => a.id.localeCompare(b.id));
 	output.value = JSON.stringify(mergedItems, null, 1);
 
-	debug.innerText = `${merged} items merged, ${newItems.length - merged} items added, ${mergedItems.length} total`;
-}	
+	dbg(`${merged} items merged, ${newItems.length - merged} items added, ${mergedItems.length} total`);
+}
+function dbg(msg) {
+	debug.innerText = msg + '\n' + debug.innerText;
+}
 </script>
 </html>
