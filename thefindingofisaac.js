@@ -36,8 +36,6 @@ function prepareData(data)
 
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
-
-	fixUpRelativeURLs(data);
 }
 // for use during scraping
 function mergeItems() {}
@@ -98,13 +96,6 @@ function explodeAliases(aliasLookup, termsString)
 	newTermsArray = newTermsArray.unique();
 	return newTermsArray.join(' ');
 }
-function fixUpRelativeURLs(data)
-{
-	// HACK: fix up the relative links in the description HTML until this hosted on the wiki
-	for (const item of data.items) {
-		item.desc = item.desc.replace(/href="/g, "target=\"_blank\" href=\"http://bindingofisaacrebirth.gamepedia.com");
-	}
-}
 function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 {
 	console.log("-> retrieveHits");
@@ -114,13 +105,8 @@ function retrieveHits(data, searchText, dlcFilter, searchTermsWithAND)
 	var nTerms = terms.length;
 
 	var hits = [];
-	for (const item of data.items)
+	for (const item of data.items.filter(i => dlcFilter[i.dlc]))
 	{
-		if (!dlcFilter[item.dlc])
-		{
-			continue;
-		}
-
 		var score = 0;
 		for (const term of terms)
 		{
@@ -206,7 +192,7 @@ function renderHits(hits)
 	for (var r in resultCount) {
 		output.push(`${resultCount[r]} ${r}s`);
 	}
-	resultsCount.textContent = `${total} items (${output.join(', ')})`;
+	resultsCount.textContent = total ? `${total} items (${output.join(', ')})` : 'none';
 }
 function renderRow(hit)
 {
@@ -286,10 +272,6 @@ function renderAll(data, dlcFilter)
 	}
 	renderHits(hits);
 }
-function renderClear()
-{
-	hitsContainer.innerHTML = "";
-}
 function update(event)
 {
 	var searchText = event.currentTarget.value.trim().toLowerCase();
@@ -317,22 +299,15 @@ function doSearch(searchText)
 
 	if (searchText.length)
 	{
-		if (searchText == "all")
-		{
-			renderAll(g_data, dlcFilter);
-		}
-		else
-		{
-			var hits = retrieveHits(g_data, searchText, dlcFilter, true);
-			hits.sort(function(hitA, hitB){
-				return hitB.score - hitA.score;
-			});
-			renderHits(hits);
-		}
+		var hits = retrieveHits(g_data, searchText, dlcFilter, true);
+		hits.sort(function(hitA, hitB){
+			return hitB.score - hitA.score;
+		});
+		renderHits(hits);
 	}
 	else
 	{
-		renderClear();
+		renderAll(g_data, dlcFilter);
 	}
 }
 var OPTIONS =
