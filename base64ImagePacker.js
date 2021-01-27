@@ -1,5 +1,7 @@
 // To use:
 //
+
+// NEEDS UPDATING
 // 1. load The Finding of Isaac in a web browser
 //
 // 2. from the console window, copy(JSON.stringify(g_data.items))

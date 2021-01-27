@@ -29,6 +29,7 @@ function scrapeTable(tableIndex, itemType)
         const colHeader = cell.textContent.trim().toLowerCase();
         switch (colHeader) {
             case 'name':
+            case 'rune':
                 opts.nameCol = iCol;
                 break;
             case 'icon':
