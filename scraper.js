@@ -2,9 +2,9 @@
 //
 // - open the isaac wiki page to scrape (i.e. http://bindingofisaacrebirth.gamepedia.com/Trinkets)
 // - paste this file into the dev console
-// - type listTables() to help locate the table to scrape
-// - scrapeTable(n, item-type) will create the array of new/updated items
-// - copy(JSON.stringify(scrapeTable(n, item-type))) to clipboard copy the items
+// - type 'listTables()' to help locate the table to scrape
+// - 'scrapeTable(n, item-type)' will create the array of new/updated items
+// - 'copy(JSON.stringify(scrapeTable(n, item-type)))' to clipboard copy the items
 // - open scraper.html in browser, follow directions
 // - paste the new items into items.js
 // - sanity check changes

@@ -1,7 +1,8 @@
 var g_data = 
 {
 	items: g_items,
-	showScore: false
+	showScore: false,
+	usePackedImgs: false,
 };
 var DLC =
 {
@@ -218,7 +219,7 @@ function renderRow(hit)
 	cell.className = "itemIconCell";
 
 	var thumbnail;
-	if (base64Thumbnails[hit.item.id]) {
+	if (g_data.usePackedImgs && base64Thumbnails[hit.item.id]) {
 		thumbnail = base64Thumbnails[hit.item.id];
 
 		++renderRow.stats.base64Used;
