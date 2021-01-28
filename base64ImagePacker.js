@@ -1,77 +1,58 @@
-// To use:
 //
-
-// NEEDS UPDATING
-// 1. load The Finding of Isaac in a web browser
+// This node script will loop through the item database and pack thumbnails into
+// a single base64-encoded blob for all items.
 //
-// 2. from the console window, copy(JSON.stringify(g_data.items))
-//
-// 3. paste into the allItems.js file
-// 
-// 4. export the item object from that file so this script can use it
-//
-// 5. run this script using node
+// This is useful given that the wiki often changes or breaks image links.  The
+// main page will try to use original images from the wiki if they're missing from
+// the blob.
 const fs = require('fs');
+const fetch = require('node-fetch');
+const jimp = require('jimp');
 
-const request = require('request').defaults({ encoding: null });
-const items = require('./allItems.js');
+function writeResult(result) {
+   const outputFile = 'spritesheet/base64Thumbnails.js';
 
-const itemsArray = [];
-for (const key in items) {
-   itemsArray.push({key:key, thumbnail: items[key].thumbnail});
-}
+   console.log(`writing to ${outputFile}`);
+   const exportString = "\nif (typeof module !== 'undefined') { module.exports = base64Thumbnails; }";
+   fs.writeFile(outputFile, 'const base64Thumbnails = ' + JSON.stringify(result) + exportString, (err) => {
+      if (err) {
+         console.error(`error: ${err}`);
+         throw err;
+      }
 
-function writeResult() {
-   fs.writeFile('spritesheet/base64Thumbnails.json', 'var base64Thumbnails = ' + JSON.stringify(result), (err) => {
-      if (err) throw err;
-
-      console.log("done conversion, completed", successful, "of", total, "requests");
+      console.log('done');
    })
 }
 
-const result = {};
-const total = itemsArray.length;
-const maxConcurrent = 10;
+const limit = -1;
+async function convertImages(array) {
 
-var pending = 0;
-var successful = 0;
+   const result = {};
 
-function requestImages(array) {
+   var converted = 0;
+   for (const item of array) {
+      console.log(item.thumb);
 
-   while (itemsArray.length > 0 && pending <= maxConcurrent) {
-      const next = itemsArray.pop();
+      if (limit > 0 && converted > limit) break;
 
-      ++pending;
-      console.log("queuing", next.key);
+      const response = await fetch(item.thumb);
+      const arrayBuffer = await response.arrayBuffer();
+      const buffer = await Buffer.from(arrayBuffer);
+      const jimpImg = await Jimp.read(buffer);
+//      jimpImg.autocrop();
 
-      request.get(next.thumbnail, (error, response, body) => {
+      const jimpBuffer = await jimpImg.getBufferAsync(Jimp.MIME_PNG);
 
-         --pending;
-         if (error) {
-            console.error("Error fetching", url, error);
-         }
-         else if (response.statusCode != 200) {
-            console.error("statusCode", url, response.statusCode);
-         }
-         else {
-            ++successful;
-            result[next.key] = "data:image/png;base64," + (new Buffer(body).toString('base64'));
-         }
-
-         console.log("done", next.key, result[next.key]);
-         console.log(pending, "pending, ", itemsArray.length, "remaining.");
-
-         if (itemsArray.length == 0 && pending == 0) {
-            writeResult();
-         }
-      });
+      result[item.id] = 'data:image/png;base64,' + jimpBuffer.toString('base64');
+      ++converted;
    }
 
-   // did we hit max concurrent?  stop for a breath and try more later
-   if (itemsArray.length) {
-      console.log("throttling,", pending, "to go...");
-      setTimeout(requestImages, 1000, itemsArray);
-   }
+   console.log(`converted ${converted} images, saving to file`);
+   writeResult(result);
 }
 
-requestImages(itemsArray);
+const g_items = require('./itemdata/items.js');
+const Jimp = require('jimp');
+console.log(`converting thumbnails for ${g_items.length} items`);
+
+convertImages(g_items);

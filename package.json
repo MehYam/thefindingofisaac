@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MehYam/thefindingofisaac#readme",
   "dependencies": {
-    "request": "^2.85.0"
+    "jimp": "^0.16.1",
+    "node-fetch": "^2.6.1"
   }
 }

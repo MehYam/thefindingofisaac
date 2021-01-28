@@ -2,7 +2,7 @@ var g_data =
 {
 	items: g_items,
 	showScore: false,
-	usePackedImgs: false,
+	usePackedImgs: true,
 };
 var DLC =
 {

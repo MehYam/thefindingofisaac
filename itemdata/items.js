@@ -8727,3 +8727,7 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Zodiac"
 }
 ];
+
+if (typeof module !== 'undefined') {
+    module.exports = g_items;   
+}
