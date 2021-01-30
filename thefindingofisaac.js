@@ -39,8 +39,6 @@ function prepareData(data)
 	var aliasLookup = createAliasLookup(g_aliases);
 	explodeItemAliases(g_data, aliasLookup);
 }
-// for use during scraping
-function mergeItems() {}
 
 function createAliasLookup(aliasList)
 {
@@ -371,7 +369,16 @@ function onCellKeypress(e) {
 		}
 	}
 }
+function saveItemChanges() {
+	// admin mode - call copy(saveItemChanges()) from the dev console and paste the result into items.js
 
+	const newItems = g_items.map(item => {
+		// super cool trick! let {a, b, ...foo} = bar will create a clone foo of bar minus properties a and b
+		const { aliases, rowHTML, ...newItem} = item;
+		return newItem;
+	});
+	return newItems;
+}
 var OPTIONS =
 {
 	HEADER: "thefindingofisaac.11.",
