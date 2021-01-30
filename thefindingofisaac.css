@@ -57,6 +57,9 @@ a:hover {
 	text-align: right;
 	vertical-align: middle;
 }
+.editableCell {
+	text-align: left;
+}
 #buttonBar {
 	float: right;
 }

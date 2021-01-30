@@ -1,10 +1,11 @@
-var g_data = 
+const g_data = 
 {
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
+	admin: true
 };
-var DLC =
+const DLC =
 {
 	BASE: "base",
 	AFTERBIRTH: "afterbirth",
@@ -164,7 +165,15 @@ function renderHits(hits)
 
 	resetRenderRowStats();
 
-	hitsContainer.innerHTML = g_data.showScore ? tableTemplateWithScore.textContent : tableTemplate.textContent;
+	if (g_data.showScore) {
+		hitsContainer.innerHTML	= tableTemplateWithScore.textContent;
+	}
+	else if (g_data.admin) {
+		hitsContainer.innerHTML = tableTemplateAdmin.textContent;
+	}
+	else {
+		hitsContainer.innerHTML = tableTemplate.textContent;
+	}
 
 	var resultCount = { };
 	var total = 0;
@@ -174,10 +183,6 @@ function renderHits(hits)
 		{
 			// cache the row node, so we render it just once
 			hit.item.rowHTML = renderRow(hit);
-		}
-		if (g_data.showScore)
-		{
-			hit.item.rowHTML.scoreCell.innerHTML = 	hit.score;
 		}
 		hitsTable.tBodies[0].appendChild(hit.item.rowHTML);
 
@@ -252,8 +257,28 @@ function renderRow(hit)
 	{
 		cell = document.createElement('td');
 		cell.className = "scoreCell";
-		row.scoreCell = cell;
+		cell.innerHTML = hit.score;
 		row.appendChild(cell);	
+	}
+	// admin
+	if (g_data.admin) {
+		row.dataset.itemId = hit.item.id;
+		function createAdminCell(contents, fieldName) {
+			const ret = document.createElement('td');
+			ret.className = 'editableCell';
+			ret.contentEditable = true;
+			ret.innerHTML = contents;
+			ret.dataset.fieldName = fieldName;
+			return ret;
+		}
+		// subtype
+		row.appendChild(createAdminCell(hit.item.subType, 'subType'));
+
+		// colors
+		row.appendChild(createAdminCell(hit.item.colors, 'colors'));
+
+		// tags
+		row.appendChild(createAdminCell(hit.item.tags, 'tags'));
 	}
 	++renderRow.stats.rendered;
 	return row;
@@ -311,6 +336,42 @@ function doSearch(searchText)
 		renderAll(g_data, dlcFilter);
 	}
 }
+function enableAdmin() {
+	hitsTable.addEventListener('focusin', onCellFocusIn);
+	hitsTable.addEventListener('focusout', onCellFocusOut);
+}
+var g_editing = null;
+function onCellFocusIn(e) {
+	const item = g_items.find(i => i.id === e.target.parentElement.dataset.itemId);
+	if (item) {
+		g_editing = {
+			item,
+			fieldName: e.target.dataset.fieldName
+		};
+		e.target.addEventListener('keypress', onCellKeypress);
+	}
+}
+function onCellFocusOut(e) {
+	if (g_editing) {
+		e.target.removeEventListener('keypress', onCellKeypress);
+		console.log(`would apply value ${e.target.innerText} to cell`);
+
+		const tidy = e.target.innerText.trim().toLowerCase().split(' ').sort().join(' ');
+		e.target.innerText = tidy;
+		g_editing.item[g_editing.fieldName] = tidy;
+
+		g_editing = null;
+	}
+}
+function onCellKeypress(e) {
+	if (g_editing) {
+		if (e.key === 'Enter') {
+			e.preventDefault();
+			e.target.blur();
+		}
+	}
+}
+
 var OPTIONS =
 {
 	HEADER: "thefindingofisaac.11.",
@@ -370,4 +431,8 @@ function main()
 	searchTerms.select();
 
 	doSearch(lastSearch);
+
+	if (g_data.admin) {
+		enableAdmin();
+	}
 }
