@@ -3,7 +3,7 @@ const g_data =
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
-	admin: true
+	admin: false
 };
 const DLC =
 {
