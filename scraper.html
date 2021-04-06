@@ -11,7 +11,7 @@
 3. <input type='button' value='Do Merge' onclick='doMerge()'></input><br/>
 <label for='output'>4. Copy these merged items to items.js:</label><br/>
 <textarea id='output' name='output' rows='20' cols='150'></textarea><br/>
-5.<span style='color:red'> REFRESH THIS PAGE AFTER SAVING items.js!  ELSE MIGHT NUKE NEW RECORDS</span>
+5. <input type='button' value='Reload' onclick='location.reload()'></input><span style='color:red'> REFRESH THIS PAGE AFTER SAVING items.js SO IT RELOADS IT FROM FILE</span>
 <div id='debug'></div>
 </body>
 
@@ -69,6 +69,10 @@ function doMerge()
 	output.value = JSON.stringify(mergedItems, null, 1);
 
 	dbg(`${merged} items merged, ${newItems.length - merged} new items added, ${mergedItems.length} total`);
+
+	// for safety:
+	input.disabled = true;
+	output.disabled = true;
 }
 function dbg(msg) {
 	debug.innerText = msg + '\n' + debug.innerText;

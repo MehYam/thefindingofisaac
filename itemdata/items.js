@@ -32,12 +32,12 @@ const g_items = [
     "name": "???'s Only Friend",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Summons a big attack fly that can be controlled with the shooting direction-keys.",
+    "desc": "Spawns a controllable <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that deals 37.5 damage per second on touch. It can be moved using the shooting directional keys",
     "dlc": "base",
     "colors": "blue",
     "tags": "dead fly",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Collectible_Blue_Baby%27s_Only_Friend_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/%3F%3F%3F%27s_Only_Friend"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/%3F%3F%3F%27s_Only_Friend"
 },
 {
     "id": "???'s soul",
@@ -56,12 +56,12 @@ const g_items = [
     "name": "<3",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac one red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Health\" title=\"Health\">heart container</a> and fully restores Isaac's health.",
+    "desc": "Grants Isaac one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">Heart container</a> and fully restores Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">health</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "blood heart testicles",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Collectible_Less_Than_Three_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Less_Than_Three"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_Less_Than_Three_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Less_Than_Three"
 },
 {
     "id": "0 - the fool",
@@ -76,6 +76,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "120 volt",
+    "name": "120 Volt",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/120_Volt",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7c/Collectible_120_Volt_icon.png",
+    "desc": "Repeatedly zaps enemies that are close to Isaac."
+},
+{
     "id": "1up!",
     "name": "1up!",
     "type": "passive",
@@ -85,7 +97,7 @@ const g_items = [
     "colors": "white green",
     "tags": "dot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Collectible_1up%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/1up!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/1up!"
 },
 {
     "id": "2 of clubs",
@@ -144,8 +156,20 @@ const g_items = [
     "dlc": "base",
     "colors": "black",
     "tags": "boobs double glasses wire",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_20_20_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/20/20"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d8/Collectible_20_20_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/20/20"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "2spooky",
+    "name": "2Spooky",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/2Spooky",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/92/Collectible_2Spooky_icon.png",
+    "desc": "Enemies near Isaac are afflicted with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a>."
 },
 {
     "id": "3 dollar bill",
@@ -157,19 +181,31 @@ const g_items = [
     "colors": "pink",
     "tags": "3 ? bill paper random rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Collectible_3_Dollar_Bill_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/3_Dollar_Bill"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/3_Dollar_Bill"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "4.5 volt",
+    "name": "4.5 Volt",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/4.5_Volt",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Collectible_4.5_Volt_icon.png",
+    "desc": "Active items don't charge when clearing rooms. Instead, they're charged by dealing damage to enemies."
 },
 {
     "id": "7 seals",
     "name": "7 Seals",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Grants a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Harbingers\" title=\"The Harbingers\">Harbinger</a> familiar that changes every 10 seconds. Harbingers have different behaviors and spawn themed <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Locust\" class=\"mw-redirect\" title=\"Locust\">Locusts</a>.",
+    "desc": "Spawns a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Harbingers\" title=\"The Harbingers\">Harbinger</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that changes every 10 seconds. Harbingers have different behaviors and spawn themed <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Locust\" class=\"mw-redirect\" title=\"Locust\">Locusts</a>.",
     "dlc": "boosterpack3",
     "colors": "white",
     "tags": "scroll slab stone text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/90/Collectible_7_Seals_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/7_Seals"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/7_Seals"
 },
 {
     "id": "8 inch nails",
@@ -180,20 +216,32 @@ const g_items = [
     "dlc": "afterbirth",
     "colors": "gray",
     "tags": "metal sharp",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Collectible_8_Inch_Nails_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/8_Inch_Nails"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Collectible_8_Inch_Nails_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/8_Inch_Nails"
 },
 {
     "id": "9 volt",
     "name": "9 Volt",
     "type": "passive",
     "subType": "",
-    "desc": "Reduces the charge of any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Activated_item\" class=\"mw-redirect\" title=\"Activated item\">activated item</a> by 1. Any 1 charge items instead have timed recharges.",
+    "desc": "Reduces the charge of any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Activated_item\" class=\"mw-redirect\" title=\"Activated item\">activated item</a> by 1. Any 1 charge items instead have timed recharges.",
     "dlc": "base",
     "colors": "black gold",
     "tags": "battery cube nine",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Collectible_9_Volt_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/9_Volt"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/9_Volt"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "a bar of soap",
+    "name": "A Bar of Soap",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Bar_of_Soap",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c0/Collectible_A_Bar_of_Soap_icon.png",
+    "desc": "+0.57 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">Tears</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_Speed\" title=\"Shot Speed\">Shot Speed</a>."
 },
 {
     "id": "a card against humanity",
@@ -212,12 +260,12 @@ const g_items = [
     "name": "A Dollar",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac 99 coins. Can be found multiple times in a single playthrough.",
+    "desc": "Gives Isaac 99 coins.",
     "dlc": "base",
     "colors": "green",
     "tags": "$ 99 buck money rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Collectible_A_Dollar_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/A_Dollar"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Dollar"
 },
 {
     "id": "a lump of coal",
@@ -229,7 +277,7 @@ const g_items = [
     "colors": "dark",
     "tags": "rock",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Collectible_A_Lump_of_Coal_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/A_Lump_of_Coal"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Lump_of_Coal"
 },
 {
     "id": "a missing page",
@@ -255,28 +303,40 @@ const g_items = [
     "desc": "Passively gives <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a> and increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a> to 1.5. Upon use, Isaac charges in the direction the pony is facing, giving <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Invulnerability\" class=\"mw-redirect\" title=\"Invulnerability\">invincibility</a> during the charge and dealing 40 damage."
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "a pound of flesh",
+    "name": "A Pound of Flesh",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Pound_of_Flesh",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6c/Collectible_A_Pound_of_Flesh_icon.png",
+    "desc": "Devil deals now cost coins, shop items now cost health, and consumables in shops are free but surrounded by spikes."
+},
+{
     "id": "a quarter",
     "name": "A Quarter",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 25 to Isaac's coin count, capping at 99.",
+    "desc": "Adds 25 to Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a> count, capping at 99.",
     "dlc": "base",
     "colors": "gray",
     "tags": "25 cents coin round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Collectible_A_Quarter_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/A_Quarter"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Quarter"
 },
 {
     "id": "a snack",
     "name": "A Snack",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one full red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "biscuit dog treat",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/Collectible_A_Snack_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/A_Snack"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Snack"
 },
 {
     "id": "aaa battery",
@@ -295,28 +355,28 @@ const g_items = [
     "name": "Abaddon",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and speed, removes all Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart containers</a>, grants six <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>, and adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a> tears.",
+    "desc": "Grants +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>. Removes all Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart containers</a>, grants six <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>, and adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a> tears.",
     "dlc": "base",
     "colors": "red",
     "tags": "evil pentagram symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Abaddon_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Abaddon"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/Collectible_Abaddon_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Abaddon"
 },
 {
     "id": "abel",
     "name": "Abel",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A familiar that mirrors the player's movements and shoots in the opposite direction.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that mirrors Isaac's movements and shoots in the opposite direction.",
     "dlc": "base",
     "colors": "gray",
     "tags": "dead face frown head",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Abel_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Abel"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Abel"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "abyss",
@@ -391,12 +451,24 @@ const g_items = [
     "name": "Acid Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a familiar that drops random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pill\" class=\"mw-redirect\" title=\"Pill\">pills</a> every 3 rooms cleared. Upon using a pill, all enemies in the room are <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoned</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a> every 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">rooms</a>. Upon using a pill, all enemies in the room are <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoned</a>.",
     "dlc": "afterbirthplus",
     "colors": "yellow",
     "tags": "baby sick spooky",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Acid_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Acid_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Acid_Baby"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "act of contrition",
+    "name": "Act of Contrition",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Act_of_Contrition",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Collectible_Act_of_Contrition_icon.png",
+    "desc": ""
 },
 {
     "id": "adrenaline",
@@ -408,11 +480,23 @@ const g_items = [
     "colors": "pink",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Adrenaline_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Adrenaline"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Adrenaline"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "akeldama",
+    "name": "Akeldama",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Akeldama",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Akeldama_icon.png",
+    "desc": "Creates a chain of tears behind Isaac while in combat."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "alabaster box",
@@ -435,16 +519,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "almond milk",
+    "name": "Almond Milk",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Almond_Milk",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Almond_Milk_icon.png",
+    "desc": "Quadruples <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fire_rate\" class=\"mw-redirect\" title=\"Fire rate\">fire rate</a>, with x0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> multiplier. Tears are given random worm trinket effects."
+},
+{
     "id": "analog stick",
     "name": "Analog Stick",
     "type": "passive",
     "subType": "",
-    "desc": "+0.3 tears up. Allows Isaac to fire tears diagonally.",
+    "desc": "+0.35 tears up. Allows Isaac to fire tears diagonally.",
     "dlc": "afterbirthplus",
     "colors": "grey",
     "tags": "chair control controller seat stool thumb",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Collectible_Analog_Stick_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Analog_Stick"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Analog_Stick"
 },
 {
     "id": "anarchist cookbook",
@@ -475,40 +571,40 @@ const g_items = [
     "name": "Anemic",
     "type": "passive",
     "subType": "",
-    "desc": "+5 range. After Isaac is damaged, a trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_creep\" class=\"mw-redirect\" title=\"Red creep\">red creep</a> will be left behind Isaac until he leaves the current room.",
+    "desc": "+5 range. After Isaac is damaged, a trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_creep\" class=\"mw-redirect\" title=\"Red creep\">red creep</a> will be left behind Isaac until he leaves the current room.",
     "dlc": "base",
     "colors": "red",
     "tags": "blood drop",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Collectible_Anemic_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Anemic"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_Anemic_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Anemic"
 },
 {
     "id": "angelic prism",
     "name": "Angelic Prism",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a prism orbital with a large orbital radius. Tears that pass through the prism split into four multi-colored tears.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar#Orbital_Familiars\" title=\"Familiar\">orbital familiar</a> with a large orbital radius. Tears that pass through the prism split into four multi-colored tears.",
     "dlc": "boosterpack3",
     "colors": "white red yellow green",
     "tags": "circle shapes triangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c7/Collectible_Angelic_Prism_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Angelic_Prism"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Angelic_Prism"
 },
 {
     "id": "angry fly",
     "name": "Angry Fly",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a fly familiar that orbits around a random enemy and deals 5 damage per tick to enemies it comes in contact with.",
+    "desc": "Spawns a fly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that orbits around a random enemy and deals 30 damage per second to enemies it comes in contact with.",
     "dlc": "boosterpack1",
     "colors": "red",
     "tags": "pill",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_Angry_Fly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Angry_Fly"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Angry_Fly"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "anima sola",
@@ -523,12 +619,12 @@ const g_items = [
     "name": "Ankh",
     "type": "passive",
     "subType": "",
-    "desc": "Upon <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Death\" title=\"Death\">death</a>, the player will respawn as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/%3F%3F%3F_(Character)\" title=\"??? (Character)\">???</a> with 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
+    "desc": "Upon <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Death\" title=\"Death\">death</a>, the player will respawn as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/%3F%3F%3F_(Character)\" title=\"??? (Character)\">???</a> with 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "??? cross",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Collectible_Ankh_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ankh"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ankh"
 },
 {
     "id": "ansuz",
@@ -552,7 +648,7 @@ const g_items = [
     "colors": "blue",
     "tags": "atomic drop",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Collectible_Anti-Gravity_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Anti-Gravity"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Anti-Gravity"
 },
 {
     "id": "apple!",
@@ -564,19 +660,19 @@ const g_items = [
     "colors": "red",
     "tags": "fruit metal razor",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/Collectible_Apple%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Apple!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Apple!"
 },
 {
     "id": "aquarius",
     "name": "Aquarius",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "A trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_creep\" class=\"mw-redirect\" title=\"Blue creep\">blue creep</a> is left behind Isaac, which damages enemies.",
+    "desc": "A trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_creep\" class=\"mw-redirect\" title=\"Blue creep\">blue creep</a> is left behind Isaac, which damages enemies.",
     "dlc": "base",
     "colors": "blue",
     "tags": "two waves zig",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Collectible_Aquarius_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Aquarius"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Collectible_Aquarius_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Aquarius"
 },
 {
     "id": "aries",
@@ -588,19 +684,43 @@ const g_items = [
     "colors": "blue",
     "tags": "horns ram",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a0/Collectible_Aries_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Aries"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Aries"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "astral projection",
+    "name": "Astral Projection",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Astral_Projection",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Collectible_Astral_Projection_icon.png",
+    "desc": "Causes Isaac to turn into a ghost if he gets hit while in a room with enemies, giving him flight and spectral tears and blocking the next hit he takes."
 },
 {
     "id": "athame",
     "name": "Athame",
     "type": "passive",
     "subType": "",
-    "desc": "Whenever Isaac takes damage, a black ring briefly appears around Isaac, dealing damage to all nearby enemies.",
+    "desc": "When Isaac takes damage, a black ring briefly appears around him, dealing damage to all nearby enemies.",
     "dlc": "afterbirth",
     "colors": "gray sharp",
     "tags": "claw devil metal sharp wrench",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Athame_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Athame"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Athame"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "azazel's rage",
+    "name": "Azazel's Rage",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Azazel%27s_Rage",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Collectible_Azazel%27s_Rage_icon.png",
+    "desc": "Isaac builds rage every time a room is cleared. After four rooms, fires a large <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15►Brimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> laser when entering the next room."
 },
 {
     "id": "baby-bender",
@@ -624,7 +744,7 @@ const g_items = [
     "colors": "red silver",
     "tags": "heart knife metal stab",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5d/Collectible_Backstabber_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Backstabber"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Backstabber"
 },
 {
     "id": "bag lunch",
@@ -640,7 +760,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "bag of crafting",
@@ -655,24 +775,24 @@ const g_items = [
     "name": "Ball of Bandages",
     "type": "passive",
     "subType": "",
-    "desc": "Orbiting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that deals damage to enemies. If collected while already having one, makes the familiar evolve. Only drops from <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Harbingers\" title=\"The Harbingers\">Horsemen</a>. Similar to <span class=\"tooltip\" data-tooltip=\"i/tooltip|Cube+of+Meat|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Cube_of_Meat\" title=\"\"><img alt=\"Cube of Meat\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Collectible_Cube_of_Meat_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072601\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Cube_of_Meat\" title=\"\">Cube of Meat</a></span>.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that blocks enemy shots, dealing 105 damage per second. Collecting additional copies gives it the ability to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">charm</a> tears, then chase enemies, then increases the damage.",
     "dlc": "base",
     "colors": "pink",
     "tags": "ball bandaid",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Collectible_Ball_of_Bandages_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ball_of_Bandages"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ball_of_Bandages"
 },
 {
     "id": "ball of tar",
     "name": "Ball of Tar",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing</a> tears and the character leaves a trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Creep\" title=\"Creep\">creep</a> behind as he moves, impeding enemies' speed.",
+    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing</a> tears. Isaac leaves a trail of slowing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> behind as he moves, impeding enemies' speed.",
     "dlc": "base",
     "colors": "dark gray",
     "tags": "ball shiney",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Ball_of_Tar_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ball_of_Tar"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ball_of_Tar"
 },
 {
     "id": "bat wing",
@@ -687,28 +807,52 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bat_Wing"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "battery pack",
+    "name": "Battery Pack",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Battery_Pack",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Collectible_Battery_Pack_icon.png",
+    "desc": "Recharges Isaac's currently held active item and drops 2-4 batteries."
+},
+{
     "id": "bbf",
     "name": "BBF",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that flies around the room like the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Boom_Fly\" title=\"Boom Fly\">Boom Fly</a> and explodes on contact with an enemy. Respawns after ten seconds.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that flies around the room in a zig-zag pattern and explodes on contact with an enemy. Respawns after ten seconds.",
     "dlc": "base",
     "colors": "gray dark red",
     "tags": "bomb fly round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/81/Collectible_BBF_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/BBF"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/BBF"
 },
 {
     "id": "belly button",
     "name": "Belly Button",
     "type": "passive",
     "subType": "",
-    "desc": "Drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>. Grants a second trinket slot.",
+    "desc": "Drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>. Grants a second trinket slot.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "hole orifice, round sphincter",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Belly_Button_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Belly_Button"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Belly_Button"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "belly jelly",
+    "name": "Belly Jelly",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Belly_Jelly",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Collectible_Belly_Jelly_icon.png",
+    "desc": "Causes enemies to bounce off of Isaac, dealing damage to them if they hit and enemy or obstacle. Also gives Isaac the chance to deflect enemy shots."
 },
 {
     "id": "berkano",
@@ -724,7 +868,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "berserk!",
@@ -739,12 +883,12 @@ const g_items = [
     "name": "Best Bud",
     "type": "passive",
     "subType": "familiar",
-    "desc": "When hit, summons a white attack fly similar to <span class=\"tooltip\" data-tooltip=\"i/tooltip|Distant+Admiration|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Distant_Admiration\" title=\"\"><img alt=\"Distant Admiration\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Distant_Admiration_icon.png/revision/latest/scale-to-width-down/20?cb=20180430100247\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Distant_Admiration\" title=\"\">Distant Admiration</a></span> for the current room.",
+    "desc": "When hit, spawns a quickly orbiting attack fly similar to <span class=\"tooltip\" data-tooltip=\"i/tooltip|Forever+Alone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\"><img alt=\"15►Forever Alone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Forever_Alone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101749\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\">Forever Alone</a></span> for the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> dealing 75 damage per second.",
     "dlc": "base",
     "colors": "white",
     "tags": "fly",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Collectible_Best_Bud_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Best_Bud"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_Best_Bud_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Best_Bud"
 },
 {
     "id": "best friend",
@@ -763,24 +907,24 @@ const g_items = [
     "name": "Betrayal",
     "type": "passive",
     "subType": "",
-    "desc": "Every time Isaac takes damage, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Charm\" class=\"mw-redirect\" title=\"Charm\">charm</a> effect is applied to every enemy in the room, causing them to attack each other rather than Isaac.",
+    "desc": "Every time Isaac takes damage, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charm\" class=\"mw-redirect\" title=\"Charm\">charm</a> effect is applied to every enemy in the room, causing them to attack each other rather than Isaac.",
     "dlc": "afterbirth",
     "colors": "gray red",
     "tags": "blood knife metal sharp",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Collectible_Betrayal_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Betrayal"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Betrayal"
 },
 {
     "id": "bffs!",
     "name": "BFFS!",
     "type": "passive",
     "subType": "",
-    "desc": "Increases the size and effectiveness of most <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiars</a>.",
+    "desc": "Increases the size and effectiveness of most <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiars</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "arrow familiar heart text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_BFFS%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/BFFS!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/BFFS!"
 },
 {
     "id": "bible tract",
@@ -799,48 +943,96 @@ const g_items = [
     "name": "Big Chubby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a fat charger familiar that slowly charges forward, blocking shots and damaging enemies in its path.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and charges across the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> when Isaac fires, blocking shots and dealing 40.5 damage per second on contact.",
     "dlc": "afterbirthplus",
     "colors": "beige",
     "tags": "face round smile smirk",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bc/Collectible_Big_Chubby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Big_Chubby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Big_Chubby"
 },
 {
     "id": "big fan",
     "name": "Big Fan",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a large <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that blocks enemy projectiles and deals slight contact damage to enemies.",
+    "desc": "Spawns a large <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that blocks enemy shots and deals 30 damage per second to enemies.",
     "dlc": "base",
     "colors": "beige",
     "tags": "orbital round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Collectible_Big_Fan_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Big_Fan"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Big_Fan"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "binge eater",
+    "name": "Binge Eater",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Binge_Eater",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Collectible_Binge_Eater_icon.png",
+    "desc": "+1 Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_Container\" class=\"mw-redirect\" title=\"Heart Container\">Heart Container</a>. Item pedestals periodically switch between any food item and the item they would otherwise contain. Picking up a food item grants a large temporary damage boost and small permanent stat boost."
 },
 {
     "id": "binky",
     "name": "Binky",
     "type": "passive",
     "subType": "",
-    "desc": "Tears up, adds 1 Soul Heart, and decreases Isaac's size.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, +0.75 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> and decreases Isaac's size.",
     "dlc": "afterbirth",
     "colors": "blue white",
     "tags": "baby plastic soother",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Collectible_Binky_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Binky"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Binky"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "bird cage",
+    "name": "Bird Cage",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bird_Cage",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/87/Collectible_Bird_Cage_icon.png",
+    "desc": "The first time Isaac takes damage in a room, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> leaps on an enemy, dealing damage and releasing a rock wave. For the rest of the room, it chases enemies similar to <span class=\"tooltip\" data-tooltip=\"i/tooltip|Dead+Bird|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dead_Bird\" title=\"\"><img alt=\"15►Dead Bird\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Collectible_Dead_Bird_icon.png/revision/latest/scale-to-width-down/20?cb=20180430074151\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dead_Bird\" title=\"\">Dead Bird</a></span>."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "bird's eye",
+    "name": "Bird's Eye",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bird%27s_Eye",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Collectible_Bird%27s_Eye_icon.png",
+    "desc": "Gives Isaac the chance to shoot fires alongside his regular tears that block enemy shots and deal damage to enemies that touch them."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "birthright",
+    "name": "Birthright",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Birthright",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Birthright_icon.png",
+    "desc": "Has a different effect for each <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Character\" class=\"mw-redirect\" title=\"Character\">character</a>."
 },
 {
     "id": "black candle",
     "name": "Black Candle",
     "type": "passive",
     "subType": "",
-    "desc": "Prevents <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Curse\" class=\"mw-redirect\" title=\"Curse\">curses</a>. Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>. Increases the chance for a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a> to appear.",
+    "desc": "Prevents <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse\" class=\"mw-redirect\" title=\"Curse\">curses</a>. Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>. Increases the chance for a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_Room\" title=\"Angel Room\">Angel Room</a> to appear.",
     "dlc": "base",
     "colors": "dark gray",
     "tags": "curse",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Collectible_Black_Candle_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Black_Candle"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Candle"
 },
 {
     "id": "black feather",
@@ -883,12 +1075,12 @@ const g_items = [
     "name": "Black Lotus",
     "type": "passive",
     "subType": "",
-    "desc": "Grants the player one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, and one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Red Heart</a>, one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, and one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>.",
     "dlc": "base",
     "colors": "dark purple",
     "tags": "flower",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_Black_Lotus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Black_Lotus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Collectible_Black_Lotus_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Lotus"
 },
 {
     "id": "black powder",
@@ -900,7 +1092,7 @@ const g_items = [
     "colors": "gray dark",
     "tags": "bag evil",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Collectible_Black_Powder_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Black_Powder"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Black_Powder"
 },
 {
     "id": "black rune",
@@ -955,12 +1147,12 @@ const g_items = [
     "name": "Blanket",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>. Upon entering a boss room, grants a shield that blocks one hit, then disappears.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>. Upon entering a boss room, grants a shield that blocks one hit, then disappears.",
     "dlc": "boosterpack5",
     "colors": "light blue",
     "tags": "cloud hill lump mountain pile powder rock",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Blanket_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blanket"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blanket"
 },
 {
     "id": "blasting cap",
@@ -1003,24 +1195,48 @@ const g_items = [
     "name": "Blood Bag",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, restores 4 Red Hearts, and increases speed by 0.3.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart_container\" class=\"mw-redirect\" title=\"Red Heart container\">Red Heart container</a>, restores 5 Red Hearts, and increases speed by 0.3.",
     "dlc": "base",
     "colors": "red",
     "tags": "bag iv wet",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Blood_Bag_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blood_Bag"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/Collectible_Blood_Bag_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Bag"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "blood bombs",
+    "name": "Blood Bombs",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Bombs",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a6/Collectible_Blood_Bombs_icon.png",
+    "desc": "Causes Isaac's bombs to leave behind damaging red creep and allows Isaac to place bombs at the cost of half a heart if he doesn't have any. Also gives Isaac a heart container and heals him for five hearts."
 },
 {
     "id": "blood clot",
     "name": "Blood Clot",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage by 1 and range by 5 for tears fired from the left eye.",
+    "desc": "Tears fired from the left eye have +1 flat <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, and +0.5 tear height.",
     "dlc": "base",
     "colors": "red",
     "tags": "blood gross shiny",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Collectible_Blood_Clot_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blood_Clot"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Clot"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "blood oath",
+    "name": "Blood Oath",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Oath",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Collectible_Blood_Oath_icon.png",
+    "desc": "Drains Isaac's heart containers at the start of every floor, giving him speed and damage based on the amount of health drained."
 },
 {
     "id": "blood of the martyr",
@@ -1032,7 +1248,19 @@ const g_items = [
     "colors": "brown",
     "tags": "crown halo prickly ring thorns",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Collectible_Blood_of_the_Martyr_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blood_of_the_Martyr"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_of_the_Martyr"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "blood puppy",
+    "name": "Blood Puppy",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Puppy",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/Collectible_Blood_Puppy_icon.png",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that chases enemies. After killing enough enemies, it becomes more powerful but will also try to hurt Isaac. Attacking it returns it to normal."
 },
 {
     "id": "blood rights",
@@ -1051,12 +1279,12 @@ const g_items = [
     "name": "Bloodshot Eye",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns an orbiting eye familiar that deals contact damage and fires tears every 2 seconds.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar#Orbital_Familiar\" title=\"Familiar\">orbital  familiar</a> that deals 30 damage per second and fires a randomly angled tear every 2 seconds.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "gross stalk",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Collectible_Bloodshot_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bloodshot_Eye"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bloodshot_Eye"
 },
 {
     "id": "bloody crown",
@@ -1071,16 +1299,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bloody_Crown"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "bloody gust",
+    "name": "Bloody Gust",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bloody_Gust",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Collectible_Bloody_Gust_icon.png",
+    "desc": "When Isaac takes damage, he gains speed and tears for the rest of the floor."
+},
+{
     "id": "bloody lust",
     "name": "Bloody Lust",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage as Isaac receives damage. Damage increase stays for the whole floor.",
+    "desc": "Increases Isaac's damage whenever he takes damage, up to six times. The bonus resets when entering a new floor.",
     "dlc": "base",
     "colors": "red",
     "tags": "drop",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/86/Collectible_Bloody_Lust_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bloody_Lust"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bloody_Lust"
 },
 {
     "id": "bloody penny",
@@ -1099,24 +1339,24 @@ const g_items = [
     "name": "Blue Cap",
     "type": "passive",
     "subType": "mushroom",
-    "desc": "Grants 1 Red Heart container and increases tears, but decreases shot speed.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> and -0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/20/Collectible_Blue_Cap_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blue_Cap"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blue_Cap"
 },
 {
     "id": "blue map",
     "name": "Blue Map",
     "type": "passive",
     "subType": "",
-    "desc": "Shows <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Secret_Room\" title=\"Secret Room\">Secret</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a> locations on the map.",
+    "desc": "Shows <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a> locations on the map.",
     "dlc": "base",
     "colors": "blue",
     "tags": "page paper secret trail x",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Collectible_Blue_Map_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Blue_Map"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blue_Map"
 },
 {
     "id": "bob's bladder",
@@ -1135,24 +1375,24 @@ const g_items = [
     "name": "Bob's Brain",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that charges forward when shooting tears and explodes upon contact with an enemy, damaging and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoning</a> them. The familiar respawns after a few seconds.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that charges forward when shooting tears and explodes upon contact with an enemy, damaging and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoning</a> them. The familiar respawns after a few seconds.",
     "dlc": "base",
     "colors": "green",
     "tags": "blob bomb gross",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/94/Collectible_Bob%27s_Brain_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bob%27s_Brain"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bob%27s_Brain"
 },
 {
     "id": "bob's curse",
     "name": "Bob's Curse",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Gives 5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> and grants all bombs <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> effect.",
+    "desc": "Gives 5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> and grants Isaac's bombs a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> effect.",
     "dlc": "base",
     "colors": "green",
     "tags": "bomb face sick",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Bob%27s_Curse_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bob%27s_Curse"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Collectible_Bob%27s_Curse_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bob%27s_Curse"
 },
 {
     "id": "bob's rotten head",
@@ -1171,12 +1411,12 @@ const g_items = [
     "name": "Bobby-Bomb",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac 5 Bombs and causes all dropped bombs to home towards the closest enemy.",
+    "desc": "+5 bombs. Bombs gain a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_Effects#Homing\" title=\"Tear Effects\">homing</a> effect, slowly moving towards the nearest enemy.",
     "dlc": "base",
     "colors": "dark",
     "tags": "bomb face",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Collectible_Bobby-Bomb_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bobby-Bomb"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bobby-Bomb"
 },
 {
     "id": "bogo bombs",
@@ -1188,19 +1428,31 @@ const g_items = [
     "colors": "gray purple",
     "tags": "bomb paper",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Collectible_Bogo_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bogo_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bogo_Bombs"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "boiled baby",
+    "name": "Boiled Baby",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Boiled_Baby",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/00/Collectible_Boiled_Baby_icon.png",
+    "desc": "Gives Isaac a familiar that fires chaotic bursts of tears in all directions."
 },
 {
     "id": "bomb bag",
     "name": "Bomb Bag",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Isaac is followed by a small bag that drops a Bomb, a Double Bomb, a Troll Bomb, or a <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Golden_Bomb\" class=\"mw-redirect\" title=\"Golden Bomb\">Golden Bomb</a> every 3 rooms.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bomb</a> every 3 rooms.",
     "dlc": "base",
     "colors": "blue gray",
     "tags": "bomb",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Bomb_Bag_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bomb_Bag"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bomb_Bag"
 },
 {
     "id": "bomber boy",
@@ -1212,7 +1464,19 @@ const g_items = [
     "colors": "white gray",
     "tags": "face head tnt",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Collectible_Bomber_Boy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bomber_Boy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bomber_Boy"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "bone spurs",
+    "name": "Bone Spurs",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bone_Spurs",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Collectible_Bone_Spurs_icon.png",
+    "desc": "Enemies spawn floating bones on death, which block shots and damage/repel enemies that touch them."
 },
 {
     "id": "book of revelations",
@@ -1231,7 +1495,7 @@ const g_items = [
     "name": "Book of Secrets",
     "type": "active",
     "subType": "book",
-    "desc": "Gives the effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|Treasure+Map|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Map\" title=\"\"><img alt=\"15►Treasure Map\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Collectible_Treasure_Map_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072332\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Map\" title=\"\">Treasure Map</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Compass|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Compass\" title=\"\"><img alt=\"15►The Compass\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_The_Compass_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430095748\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Compass\" title=\"\">The Compass</a></span>, or <span class=\"tooltip\" data-tooltip=\"i/tooltip|Blue+Map|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Map\" title=\"\"><img alt=\"15►Blue Map\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Collectible_Blue_Map_icon.png/revision/latest/scale-to-width-down/20?cb=20180430080840\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Map\" title=\"\">Blue Map</a></span> for the duration of the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chapters\" title=\"Chapters\">floor</a>.",
+    "desc": "Gives the effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|Treasure+Map|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Map\" title=\"\"><img alt=\"15â–ºTreasure Map\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Collectible_Treasure_Map_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072332\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Map\" title=\"\">Treasure Map</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Compass|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Compass\" title=\"\"><img alt=\"15â–ºThe Compass\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_The_Compass_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430095748\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Compass\" title=\"\">The Compass</a></span>, or <span class=\"tooltip\" data-tooltip=\"i/tooltip|Blue+Map|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Map\" title=\"\"><img alt=\"15â–ºBlue Map\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6b/Collectible_Blue_Map_icon.png/revision/latest/scale-to-width-down/20?cb=20180430080840\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Map\" title=\"\">Blue Map</a></span> for the duration of the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chapters\" title=\"Chapters\">floor</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "? map secret",
@@ -1264,7 +1528,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "book of virtues",
@@ -1279,31 +1543,55 @@ const g_items = [
     "name": "Boom!",
     "type": "passive",
     "subType": "",
-    "desc": "Grants 10 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
+    "desc": "Grants 10 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "10 :| bomb face",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Collectible_Boom%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Boom!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Boom!"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "booster pack",
+    "name": "Booster Pack",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Booster_Pack_(Item)",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_Booster_Pack_icon.png",
+    "desc": "Spawns 5 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards\" class=\"mw-redirect\" title=\"Cards\">cards</a>"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "bot fly",
+    "name": "Bot Fly",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bot_Fly",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6c/Collectible_Bot_Fly_icon.png",
+    "desc": "Spawns an orbiting fly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that fires shielded tears at incoming enemy projectiles."
 },
 {
     "id": "box",
     "name": "Box",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns 1 of each (non-collectible) item: 1 Penny, 1 Key, 1 Bomb, 1 Red Heart, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Card\" class=\"mw-redirect\" title=\"Card\">card</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>.",
+    "desc": "Spawns various pickups: 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Penny\" class=\"mw-redirect\" title=\"Penny\">Penny</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">Key</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bomb</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Card\" class=\"mw-redirect\" title=\"Card\">card</a>/<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rune\" class=\"mw-redirect\" title=\"Rune\">rune</a>, 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a> and 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>.",
     "dlc": "base",
     "colors": "beige yellow",
     "tags": "box cardboard carton",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b0/Collectible_Box_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Box"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Box_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Box"
 },
 {
     "id": "box of friends",
     "name": "Box of Friends",
     "type": "active",
     "subType": "",
-    "desc": "Duplicates all of Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiars</a> for the current room. If Isaac has no familiars, spawns a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Demon+Baby|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Demon_Baby\" title=\"\"><img alt=\"15►Demon Baby\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Demon_Baby_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101448\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Demon_Baby\" title=\"\">Demon Baby</a></span> for the room instead.",
+    "desc": "Duplicates all of Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiars</a> for the current room. If Isaac has no familiars, spawns a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Demon+Baby|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Demon_Baby\" title=\"\"><img alt=\"15â–ºDemon Baby\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Demon_Baby_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101448\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Demon_Baby\" title=\"\">Demon Baby</a></span> for the room instead.",
     "dlc": "afterbirth",
     "colors": "gold",
     "tags": "familiar metal",
@@ -1332,19 +1620,19 @@ const g_items = [
     "colors": "red white",
     "tags": "cone hat stripe waldo",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Bozo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bozo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bozo"
 },
 {
     "id": "breakfast",
     "name": "Breakfast",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
+    "desc": "Grants Isaac one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "box milk rotten sour",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Collectible_Breakfast_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Breakfast"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Breakfast"
 },
 {
     "id": "breath of life",
@@ -1367,20 +1655,32 @@ const g_items = [
     "dlc": "base",
     "colors": "red black",
     "tags": "evil laser symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Collectible_Brimstone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Brimstone"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Brimstone"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "brimstone bombs",
+    "name": "Brimstone Bombs",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Brimstone_Bombs",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/23/Collectible_Brimstone_Bombs_icon.png",
+    "desc": "+5 bombs. Bombs release a 4-way <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15►Brimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> laser in cardinal directions upon exploding."
 },
 {
     "id": "brittle bones",
     "name": "Brittle Bones",
     "type": "passive",
     "subType": "",
-    "desc": "Replaces all Red Hearts with 6 empty Bone Hearts. Upon losing a Bone Heart, Isaac fires bones in 8 directions and permanently gains a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tears\" title=\"Tears\">tears</a> up.",
+    "desc": "Replaces all Red Hearts with 6 empty Bone Hearts. Upon losing a Bone Heart, Isaac fires bones in 8 directions and permanently gains a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> up.",
     "dlc": "boosterpack5",
     "colors": "white",
     "tags": "broken femur skeleton splinter",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Brittle_Bones_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Brittle_Bones"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Brittle_Bones"
 },
 {
     "id": "broken ankh",
@@ -1396,7 +1696,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "broken glass cannon",
@@ -1404,7 +1704,7 @@ const g_items = [
     "type": "active",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glass_Cannon",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Broken_Glass_Cannon_icon.png",
-    "desc": "Begins with no charges and turns into <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Glass+Cannon|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Glass_Cannon\" title=\"\"><img alt=\"15►Glass Cannon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Collectible_Glass_Cannon_Afterbirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430124752\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Glass_Cannon\" title=\"\">Glass Cannon</a></span> when used. Only acquired by taking damage while holding Glass Cannon."
+    "desc": "Begins with no charges and turns into <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Glass+Cannon|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Glass_Cannon\" title=\"\"><img alt=\"15â–ºGlass Cannon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Collectible_Glass_Cannon_Afterbirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430124752\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Glass_Cannon\" title=\"\">Glass Cannon</a></span> when used. Only acquired by taking damage while holding Glass Cannon."
 },
 {
     "id": "broken magnet",
@@ -1428,7 +1728,7 @@ const g_items = [
     "colors": "dark red",
     "tags": "box cable light tech vcr wire",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6c/Collectible_Broken_Modem_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Broken_Modem"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Modem"
 },
 {
     "id": "broken remote",
@@ -1445,13 +1745,13 @@ const g_items = [
 {
     "id": "broken shovel",
     "name": "Broken Shovel",
-    "type": "active",
+    "type": "passive",
     "subType": "",
-    "desc": "While held, causes multiple Mom's Foots to come down and stomp on Isaac. One of two parts necessary to create <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Shovel\" title=\"Mom's Shovel\">Mom's Shovel</a>.",
+    "desc": "One of two parts necessary to create <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Shovel\" title=\"Mom's Shovel\">Mom's Shovel</a>.",
     "dlc": "boosterpack5",
     "colors": "purple dark",
     "tags": "blade dig dirty part spade",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Broken_Shovel_1_icon.png",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Collectible_Broken_Shovel_2_icon.png",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Shovel"
 },
 {
@@ -1464,19 +1764,19 @@ const g_items = [
     "colors": "blue white",
     "tags": "device slow",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_Broken_Watch_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Broken_Watch"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Watch"
 },
 {
     "id": "brother bobby",
     "name": "Brother Bobby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Follows Isaac around shooting normal tears.",
+    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around shooting normal tears.",
     "dlc": "base",
     "colors": "blue",
     "tags": "baby dead",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9b/Collectible_Brother_Bobby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Brother_Bobby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b4/Collectible_Brother_Bobby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Brother_Bobby"
 },
 {
     "id": "brown cap",
@@ -1512,43 +1812,43 @@ const g_items = [
     "colors": "white",
     "tags": "container text tub",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Collectible_Bucket_of_Lard_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bucket_of_Lard"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bucket_of_Lard"
 },
 {
     "id": "buddy in a box",
     "name": "Buddy in a Box",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Grants a familiar with a random tear effect. The familiar is randomized at the start of each floor.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> with a random tear effect. The familiar is randomized at the start of each <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chapters\" title=\"Chapters\">floor</a>.",
     "dlc": "boosterpack1",
     "colors": "yellow orange",
     "tags": "crate eyes",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/af/Collectible_Buddy_in_a_Box_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Buddy_in_a_Box"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_Buddy_in_a_Box_Booster_Pack_1_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Buddy_in_a_Box"
 },
 {
     "id": "bum friend",
     "name": "Bum Friend",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A portable <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Beggar\" title=\"Beggar\">Beggar</a> who follows Isaac, picks up <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a> for himself, and occasionally drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> after collecting a coin. Does not spawn <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Collectible\" class=\"mw-redirect\" title=\"Collectible\">collectibles</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that picks up <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a> for himself, giving random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> in return. Does not spawn <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Collectible\" class=\"mw-redirect\" title=\"Collectible\">collectibles</a>.",
     "dlc": "base",
     "colors": "pink",
     "tags": "baby beggar",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Collectible_Bum_Friend_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bum_Friend"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/Collectible_Bum_Friend_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bum_Friend"
 },
 {
     "id": "bumbo",
     "name": "Bumbo",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a Beggar familiar which floats around the room and picks up any nearby coins, leveling up after collecting several coins. At level 2, Bumbo gains a body. At level 3, it begins to fire tears. At level 4, Bumbo chases enemies slowly, doing contact damage.",
+    "desc": "Spawns a beggar <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> which picks up any nearby <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coins\" title=\"Coins\">coins</a>, leveling up after collecting several coins. At level 2, Bumbo gains a body. At level 3, it begins to fire tears. At level 4, Bumbo follows enemies and gains contact damage.",
     "dlc": "afterbirth",
     "colors": "pink",
     "tags": "beg coin face",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Bumbo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bumbo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bumbo"
 },
 {
     "id": "burnt penny",
@@ -1572,19 +1872,19 @@ const g_items = [
     "colors": "white",
     "tags": "bag spider web",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Collectible_Bursting_Sack_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Bursting_Sack"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Bursting_Sack"
 },
 {
     "id": "butt bombs",
     "name": "Butt Bombs",
     "type": "passive",
     "subType": "",
-    "desc": "+5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>. Bombs now cloud up the screen, briefly damaging and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confusing</a> all enemies.",
+    "desc": "+5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>. Bombs now cloud up the screen, briefly damaging and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confusing</a> all enemies.",
     "dlc": "base",
     "colors": "brown",
     "tags": "face poop",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_Butt_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Butt_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Butt_Bombs"
 },
 {
     "id": "butt penny",
@@ -1623,16 +1923,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Butter!"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "c section",
+    "name": "C Section",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/C_Section",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8b/Collectible_C_Section_icon.png",
+    "desc": ""
+},
+{
     "id": "caffeine pill",
     "name": "Caffeine Pill",
     "type": "passive",
     "subType": "",
-    "desc": "Increases speed and reduces character size. Also gives a random pill.",
+    "desc": "Grants +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, reduces character size and gives a random pill.",
     "dlc": "base",
     "colors": "white",
     "tags": "capsule",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/59/Collectible_Caffeine_Pill_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Caffeine_Pill"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Collectible_Caffeine_Pill_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Caffeine_Pill"
 },
 {
     "id": "cain's eye",
@@ -1651,12 +1963,12 @@ const g_items = [
     "name": "Cain's Other Eye",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Peeper\" title=\"The Peeper\">The Peeper</a> and shoots normal tears in the same direction as Isaac.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Peeper\" title=\"The Peeper\">The Peeper</a> and shoots normal tears in the same direction as Isaac.",
     "dlc": "base",
     "colors": "white",
     "tags": "condom round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/Collectible_Cain%27s_Other_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cain%27s_Other_Eye"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cain%27s_Other_Eye"
 },
 {
     "id": "callus",
@@ -1675,12 +1987,12 @@ const g_items = [
     "name": "Cambion Conception",
     "type": "passive",
     "subType": "familiar",
-    "desc": "After taking damage a certain amount of times, a permanent demonic <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> spawns.",
+    "desc": "After taking damage a certain amount of times, a permanent demonic <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> spawns.",
     "dlc": "afterbirth",
     "colors": "red",
     "tags": "larva",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8d/Collectible_Cambion_Conception_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cambion_Conception"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Collectible_Cambion_Conception_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cambion_Conception"
 },
 {
     "id": "camo undies",
@@ -1692,19 +2004,19 @@ const g_items = [
     "colors": "pink",
     "tags": "clothes pants shorts underwear",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Collectible_Camo_Undies_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Camo_Undies"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Camo_Undies"
 },
 {
     "id": "cancer",
     "name": "Cancer",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Adds 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>. Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Wafer\" title=\"The Wafer\">The Wafer</a> effect for the current room upon taking damage.",
     "dlc": "base",
     "colors": "blue",
     "tags": "69 wafer",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cf/Collectible_Cancer_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cancer"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cancer",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Cancer_Rebirth_icon.png",
+    "desc": "Adds 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>. Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Wafer\" title=\"The Wafer\">The Wafer</a> effect for the current room upon taking damage."
 },
 {
     "id": "cancer (trinket)",
@@ -1719,16 +2031,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cancer_(Trinket)"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "candy heart",
+    "name": "Candy Heart",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Candy_Heart",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Collectible_Candy_Heart_icon.png",
+    "desc": "Gives permanent stat boosts when Isaac heals with red heart pickups."
+},
+{
     "id": "capricorn",
     "name": "Capricorn",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Increases health, damage, speed, and range, lowers tear delay, and gives one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bomb</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">key</a>.",
+    "desc": "Increases health, damage, speed, and range, lowers tear delay, and gives one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bomb</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">key</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "n",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Collectible_Capricorn_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Capricorn"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Capricorn"
 },
 {
     "id": "car battery",
@@ -1740,7 +2064,19 @@ const g_items = [
     "colors": "dark",
     "tags": "charge cube",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/69/Collectible_Car_Battery_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Car_Battery"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Car_Battery"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "card reading",
+    "name": "Card Reading",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Card_Reading",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b4/Collectible_Card_Reading_icon.png",
+    "desc": "Spawns two portals that each lead to either the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss_Room\" title=\"Boss Room\">Boss Room</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Room</a>, or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a> at the beginning of each floor."
 },
 {
     "id": "cartridge",
@@ -1759,72 +2095,72 @@ const g_items = [
     "name": "Cat-O-Nine-Tails",
     "type": "passive",
     "subType": "",
-    "desc": "Increases shot speed and damage.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.23 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "dark",
     "tags": "hair whip",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/Collectible_Cat-O-Nine-Tails_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cat-O-Nine-Tails"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cat-O-Nine-Tails"
 },
 {
     "id": "celtic cross",
     "name": "Celtic Cross",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a chance to trigger the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Book+of+Shadows|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Book_of_Shadows\" title=\"\"><img alt=\"Book of Shadows\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Collectible_Book_of_Shadows_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072407\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Book_of_Shadows\" title=\"\">Book of Shadows</a></span> effect upon taking damage, creating a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all types of damage for 7 seconds.",
+    "desc": "Grants a chance to trigger the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Book+of+Shadows|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Book_of_Shadows\" title=\"\"><img alt=\"15►Book of Shadows\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Collectible_Book_of_Shadows_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072407\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Book_of_Shadows\" title=\"\">Book of Shadows</a></span> effect upon taking damage, creating a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all types of damage for 7 seconds.",
     "dlc": "base",
     "colors": "dark grey",
     "tags": "+",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Collectible_Celtic_Cross_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Celtic_Cross"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Collectible_Celtic_Cross_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Celtic_Cross"
 },
 {
     "id": "censer",
     "name": "Censer",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Gives Isaac a golden censer familiar which creates a huge aura of light that slows down any enemies and enemy shots inside it.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> which creates a circular aura that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">slows</a> down enemies and enemy shots inside.",
     "dlc": "afterbirth",
     "colors": "gold",
     "tags": "cylinder metal point",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Collectible_Censer_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Censer"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Censer"
 },
 {
     "id": "ceremonial robes",
     "name": "Ceremonial Robes",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a> and increases damage by 1.",
+    "desc": "Grants 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>, and +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>.",
     "dlc": "base",
     "colors": "gray dark",
     "tags": "cape hoodie",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Collectible_Ceremonial_Robes_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ceremonial_Robes"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ceremonial_Robes"
 },
 {
     "id": "champion belt",
     "name": "Champion Belt",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage, but also increases the chance of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Champion\" class=\"mw-redirect\" title=\"Champion\">champion</a> enemies appearing.",
+    "desc": "Increases damage, but also increases the chance of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Champion\" class=\"mw-redirect\" title=\"Champion\">champion</a> enemies appearing.",
     "dlc": "base",
     "colors": "red",
     "tags": "ring round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Collectible_Champion_Belt_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Champion_Belt"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Champion_Belt"
 },
 {
     "id": "chaos",
     "name": "Chaos",
     "type": "passive",
     "subType": "",
-    "desc": "Chaos causes items to be chosen from random item pools. When picked up, drops between 1-6 random pickups on the floor.",
+    "desc": "Drops 1-6 random pickups on the floor. Causes items to be chosen from random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Item_pool\" class=\"mw-redirect\" title=\"Item pool\">item pools</a>.",
     "dlc": "afterbirth",
     "colors": "gray",
     "tags": "+ cross symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8d/Collectible_Chaos_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Chaos"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Collectible_Chaos_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Chaos"
 },
 {
     "id": "chaos card",
@@ -1843,36 +2179,36 @@ const g_items = [
     "name": "Charged Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A battery familiar that occasionally drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Lil%27_Battery\" class=\"mw-redirect\" title=\"Lil' Battery\">Lil' Battery</a>, gives an active item charge, or freezes all enemies in the room.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that occasionally drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Lil%27_Battery\" class=\"mw-redirect\" title=\"Lil' Battery\">Lil' Battery</a>, gives an activate item charge, or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">petrifies</a> all enemies in the room.",
     "dlc": "afterbirth",
     "colors": "gray yellow",
     "tags": "battery metal",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/df/Collectible_Charged_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Charged_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Charged_Baby"
 },
 {
     "id": "charm of the vampire",
     "name": "Charm of the Vampire",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Heals the character for half of a Red Heart for every 13 monsters killed.",
+    "desc": "Heals Isaac for half of a Red Heart for every 13 enemies killed.",
     "dlc": "base",
     "colors": "dark",
     "tags": "bat evil wing",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c3/Collectible_Charm_of_the_Vampire_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Charm_of_the_Vampire"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Charm_of_the_Vampire"
 },
 {
     "id": "chemical peel",
     "name": "Chemical Peel",
     "type": "passive",
     "subType": "",
-    "desc": "Tears fired from left eye do increased damage.",
+    "desc": "Tears fired from the left eye have +2 flat damage.",
     "dlc": "base",
     "colors": "brown green",
     "tags": "bottle poison",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Collectible_Chemical_Peel_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Chemical_Peel"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Chemical_Peel"
 },
 {
     "id": "child leash",
@@ -1907,24 +2243,24 @@ const g_items = [
     "dlc": "base",
     "colors": "brown",
     "tags": "cup drink glass",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Collectible_Chocolate_Milk_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Chocolate_Milk"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9c/Collectible_Chocolate_Milk_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Chocolate_Milk"
 },
 {
     "id": "circle of protection",
     "name": "Circle of Protection",
     "type": "passive",
     "subType": "",
-    "desc": "Surrounds Isaac with a large white halo. Once per second, the halo deals Isaac's tear damage to enemies inside it. It may also convert enemy shots entering the halo into friendly purple <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
+    "desc": "Surrounds Isaac with a large white halo that occasionally deals Isaac's tear damage to enemies inside it, and can convert enemy shots into friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "ring round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_Circle_of_Protection_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Circle_of_Protection"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Circle_of_Protection"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "clear rune",
@@ -1968,7 +2304,7 @@ const g_items = [
     "colors": "white red",
     "tags": "bone break broken chips pieces shatter",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_Compound_Fracture_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Compound_Fracture"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Compound_Fracture"
 },
 {
     "id": "cone head",
@@ -1979,8 +2315,20 @@ const g_items = [
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "egg round",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/af/Collectible_Cone_Head_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cone_Head"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_Cone_Head_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cone_Head"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "consolation prize",
+    "name": "Consolation Prize",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Consolation_Prize",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f0/Collectible_Consolation_Prize_icon.png",
+    "desc": "Increases Isaac's lowest stat and drops either 3 coins, 1 bomb, or 1 key depending on what Isaac has the least of."
 },
 {
     "id": "contagion",
@@ -1992,31 +2340,31 @@ const g_items = [
     "colors": "red black",
     "tags": "evil glyph radioactive toxic warning",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d9/Collectible_Contagion_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Contagion"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Contagion"
 },
 {
     "id": "continuum",
     "name": "Continuum",
     "type": "passive",
     "subType": "",
-    "desc": "+2.25 range up. +1.5 tear height. Isaac's tears travel through walls and appear out of the opposite wall. Isaac's tears also travel over rocks and objects.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a>, +2.25 range and +1.5 tear height. Tears travel through walls and appear at the opposite side of the room.",
     "dlc": "afterbirth",
     "colors": "pink purple",
     "tags": "infinity ring symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Continuum_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Continuum"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/00/Collectible_Continuum_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Continuum"
 },
 {
     "id": "contract from below",
     "name": "Contract From Below",
     "type": "passive",
     "subType": "",
-    "desc": "Doubles the number of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> spawned after clearing a room or performing some other triggering action (such as using a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blood_Donation_Machine\" class=\"mw-redirect\" title=\"Blood Donation Machine\">Blood Donation Machine</a>), but reduces the chance for any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> to spawn at all.",
+    "desc": "Doubles the number of most room clear awards, but reduces the overall chance of getting one by 1/3.",
     "dlc": "base",
     "colors": "red purple",
     "tags": "isaac page paper text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Collectible_Contract_From_Below_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Contract_From_Below"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Contract_From_Below"
 },
 {
     "id": "converter",
@@ -2059,12 +2407,12 @@ const g_items = [
     "name": "Crack Jacks",
     "type": "passive",
     "subType": "",
-    "desc": "Adds one Red Heart container and drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>.",
+    "desc": "Grants one full <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart_container\" class=\"mw-redirect\" title=\"Red Heart container\">Red Heart container</a> and drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a>.",
     "dlc": "afterbirth",
     "colors": "yellow white red",
     "tags": "box text trinket",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_Crack_Jacks_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Crack_Jacks"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/86/Collectible_Crack_Jacks_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Crack_Jacks"
 },
 {
     "id": "crack the sky",
@@ -2103,6 +2451,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cracked_Dice"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "cracked orb",
+    "name": "Cracked Orb",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cracked_Orb",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/Collectible_Cracked_Orb_icon.png",
+    "desc": "Unlocks doors and reveals a random room on the map when Isaac takes damage."
+},
+{
     "id": "credit card",
     "name": "Credit Card",
     "type": "card",
@@ -2124,7 +2484,7 @@ const g_items = [
     "colors": "brown",
     "tags": "animal cat dead dog skin",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/20/Collectible_Cricket%27s_Body_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cricket%27s_Body"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cricket%27s_Body"
 },
 {
     "id": "cricket's head",
@@ -2135,8 +2495,8 @@ const g_items = [
     "dlc": "base",
     "colors": "beige",
     "tags": "cat chihuahua dead dog head",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Collectible_Cricket%27s_Head_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cricket%27s_Head"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/33/Collectible_Cricket%27s_Head_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cricket%27s_Head"
 },
 {
     "id": "crooked penny",
@@ -2167,12 +2527,12 @@ const g_items = [
     "name": "Crown of Light",
     "type": "passive",
     "subType": "",
-    "desc": "+2 soul hearts. While Isaac has no damaged red heart containers, grants diamond tears that deal double damage and have increased range and reduced shot speed. Regardless of health, the crown will deactivate for the current room when Isaac takes damage.",
+    "desc": "+2 soul hearts. While Isaac has no empty red hearts, grants 2x damage, +5.25 range, and -0.3 shot speed. Regardless of health, the crown deactivates for the current room when Isaac takes damage.",
     "dlc": "afterbirth",
     "colors": "blue glow",
     "tags": "diamond",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Collectible_Crown_of_Light_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Crown_of_Light"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_Crown_of_Light_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Crown_of_Light"
 },
 {
     "id": "crystal ball",
@@ -2187,40 +2547,52 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Crystal_Ball"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "cube baby",
+    "name": "Cube Baby",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cube_Baby",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Collectible_Cube_Baby_icon.png",
+    "desc": "Spawns an ice cube <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that slides around when walked into. It <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slows</a> and deals contact damage, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Freeze\" class=\"mw-redirect\" title=\"Freeze\">freezing</a> monsters it kills."
+},
+{
     "id": "cube of meat",
     "name": "Cube of Meat",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Orbiting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that blocks enemy shots and deals damage to enemies. If collected while already having one, it makes the familiar evolve. Only drops from <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Harbingers\" title=\"The Harbingers\">Horsemen</a>. Similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Ball_of_Bandages\" title=\"Ball of Bandages\">Ball of Bandages</a>.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar#Orbital_Familiars\" title=\"Familiar\">orbital familiar</a> that blocks enemy shots, dealing 105 damage per second. Collecting additional copies grants it the ability to shoot, then chase enemies, then increases the damage.",
     "dlc": "base",
     "colors": "red",
     "tags": "boy shiny smb square super",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Collectible_Cube_of_Meat_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cube_of_Meat"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cube_of_Meat"
 },
 {
     "id": "cupid's arrow",
     "name": "Cupid's Arrow",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing tears</a> that travel through enemies (but not obstacles) instead of breaking on impact with them.",
+    "desc": "Grants Isaac <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing tears</a> that travel through enemies (but not obstacles) instead of breaking on impact with them.",
     "dlc": "base",
     "colors": "red gray",
     "tags": "bow pierce sharp",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/02/Collectible_Cupid%27s_Arrow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cupid%27s_Arrow"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/06/Collectible_Cupid%27s_Arrow_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cupid%27s_Arrow"
 },
 {
     "id": "curse of the tower",
     "name": "Curse of the Tower",
     "type": "passive",
     "subType": "",
-    "desc": "Causes Isaac to spawn 6 Troll Bombs on the floor every time he gets hit, similar to the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Anarchist+Cookbook|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook\" title=\"\"><img alt=\"Anarchist Cookbook\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Anarchist_Cookbook_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072444\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook\" title=\"\">Anarchist Cookbook</a></span> mechanic.",
+    "desc": "Upon taking damage, spawns six <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Troll_Bomb\" class=\"mw-redirect\" title=\"Troll Bomb\">Troll Bombs</a> around the room similar to the <span class=\"tooltip\" data-tooltip=\"p/tooltip|XVI+-+The+Tower|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes\" title=\"\"><img alt=\"XVI - The Tower\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Pickup_XVI_-_The_Tower_icon.png/revision/latest/scale-to-width-down/12?cb=20141111093409\" decoding=\"async\" width=\"12\" height=\"16\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes\" title=\"\">XVI - The Tower</a></span>.",
     "dlc": "afterbirth",
     "colors": "blue green purple orange",
     "tags": "bomb boot page",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Collectible_Curse_of_the_Tower_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Curse_of_the_Tower"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Curse_of_the_Tower"
 },
 {
     "id": "cursed eye",
@@ -2232,7 +2604,7 @@ const g_items = [
     "colors": "white",
     "tags": "charge pearl round sucks",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Collectible_Cursed_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cursed_Eye"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cursed_Eye"
 },
 {
     "id": "cursed skull",
@@ -2299,7 +2671,7 @@ const g_items = [
     "name": "D100",
     "type": "active",
     "subType": "dice",
-    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Combines the effects of <span class=\"tooltip\" data-tooltip=\"i/tooltip|D4|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\"><img alt=\"15►D4\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Collectible_D4_icon.png/revision/latest/scale-to-width-down/20?cb=20180430081908\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\">D4</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+D6|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\"><img alt=\"15►The D6\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png/revision/latest/scale-to-width-down/20?cb=20180430073957\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\">The D6</a></span>, and <span class=\"tooltip\" data-tooltip=\"i/tooltip|D20|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\"><img alt=\"15►D20\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_D20_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102735\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\">D20</a></span>.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Combines the effects of <img alt=\"Added in Afterbirth †\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Dlc_a%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216160954\" decoding=\"async\" title=\"Added in Afterbirth †\" width=\"31\" height=\"14\" class=\"dlc dlc-12\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D1|12\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D1\" title=\"\"><img alt=\"15►D1\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Collectible_D1_Afterbirth%2B_icon.png/revision/latest/scale-to-width-down/20?cb=20210331195803\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D1\" title=\"\">D1</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|D4|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\"><img alt=\"15►D4\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Collectible_D4_icon.png/revision/latest/scale-to-width-down/20?cb=20180430081908\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\">D4</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+D6|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\"><img alt=\"15►The D6\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png/revision/latest/scale-to-width-down/20?cb=20180430073957\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\">The D6</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D7|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D7\" title=\"\"><img alt=\"15►D7\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_D7_Afterbirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430125954\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D7\" title=\"\">D7</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D8|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D8\" title=\"\"><img alt=\"15►D8\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Collectible_D8_icon.png/revision/latest/scale-to-width-down/20?cb=20180430084235\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D8\" title=\"\">D8</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|D10|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D10\" title=\"\"><img alt=\"15►D10\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_D10_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20210331192003\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D10\" title=\"\">D10</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D12|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D12\" title=\"\"><img alt=\"15►D12\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Collectible_D12_icon.png/revision/latest/scale-to-width-down/20?cb=20180430083821\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D12\" title=\"\">D12</a></span>, and <span class=\"tooltip\" data-tooltip=\"i/tooltip|D20|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\"><img alt=\"15►D20\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_D20_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102735\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\">D20</a></span>.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Combines the effects of <span class=\"tooltip\" data-tooltip=\"i/tooltip|D4|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\"><img alt=\"15â–ºD4\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Collectible_D4_icon.png/revision/latest/scale-to-width-down/20?cb=20180430081908\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\">D4</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+D6|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\"><img alt=\"15â–ºThe D6\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png/revision/latest/scale-to-width-down/20?cb=20180430073957\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\">The D6</a></span>, and <span class=\"tooltip\" data-tooltip=\"i/tooltip|D20|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\"><img alt=\"15â–ºD20\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_D20_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102735\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\">D20</a></span>.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Combines the effects of <img alt=\"Added in Afterbirth â€ \" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Dlc_a%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216160954\" decoding=\"async\" title=\"Added in Afterbirth â€ \" width=\"31\" height=\"14\" class=\"dlc dlc-12\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D1|12\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D1\" title=\"\"><img alt=\"15â–ºD1\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Collectible_D1_Afterbirth%2B_icon.png/revision/latest/scale-to-width-down/20?cb=20210331195803\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D1\" title=\"\">D1</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|D4|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\"><img alt=\"15â–ºD4\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Collectible_D4_icon.png/revision/latest/scale-to-width-down/20?cb=20180430081908\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D4\" title=\"\">D4</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+D6|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\"><img alt=\"15â–ºThe D6\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png/revision/latest/scale-to-width-down/20?cb=20180430073957\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"\">The D6</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D7|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D7\" title=\"\"><img alt=\"15â–ºD7\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_D7_Afterbirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430125954\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D7\" title=\"\">D7</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D8|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D8\" title=\"\"><img alt=\"15â–ºD8\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Collectible_D8_icon.png/revision/latest/scale-to-width-down/20?cb=20180430084235\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D8\" title=\"\">D8</a></span>, <span class=\"tooltip\" data-tooltip=\"i/tooltip|D10|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D10\" title=\"\"><img alt=\"15â–ºD10\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_D10_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20210331192003\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D10\" title=\"\">D10</a></span>, <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|D12|14\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D12\" title=\"\"><img alt=\"15â–ºD12\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Collectible_D12_icon.png/revision/latest/scale-to-width-down/20?cb=20180430083821\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D12\" title=\"\">D12</a></span>, and <span class=\"tooltip\" data-tooltip=\"i/tooltip|D20|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\"><img alt=\"15â–ºD20\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_D20_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102735\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"\">D20</a></span>.",
     "dlc": "base",
     "colors": "white",
     "tags": "ball",
@@ -2383,36 +2755,48 @@ const g_items = [
     "name": "Dad's Lost Coin",
     "type": "passive",
     "subType": "",
-    "desc": "Increases range by 1.5. Drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Lucky_Penny\" class=\"mw-redirect\" title=\"Lucky Penny\">Lucky Penny</a>.",
+    "desc": "+1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, Drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Lucky_Penny\" class=\"mw-redirect\" title=\"Lucky Penny\">Lucky Penny</a>.",
     "dlc": "afterbirthplus",
     "colors": "silver",
     "tags": "coin symbol",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Collectible_Dad%27s_Lost_Coin_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dad%27s_Lost_Coin"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dad%27s_Lost_Coin"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "dad's note",
+    "name": "Dad's Note",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dad%27s_Note",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Collectible_Dad%27s_Note_icon.png",
+    "desc": "Begins the sequence to access <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Home\" title=\"Home\">Home</a>."
 },
 {
     "id": "dad's ring",
     "name": "Dad's Ring",
     "type": "passive",
     "subType": "",
-    "desc": "Creates a ring of light around Isaac that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifies</a> enemies in contact.",
+    "desc": "Creates a ring of light around Isaac that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifies</a> enemies in contact.",
     "dlc": "boosterpack5",
     "colors": "yellow",
     "tags": "circle jewelry loop round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e5/Collectible_Dad%27s_Ring_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dad%27s_Ring"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dad%27s_Ring"
 },
 {
     "id": "daddy longlegs",
     "name": "Daddy Longlegs",
     "type": "passive",
     "subType": "familiar",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Daddy_Long_Legs\" title=\"Daddy Long Legs\">Daddy Long Legs</a>' shadow follows Isaac and stomps on enemies.",
+    "desc": "Daddy Long Legs' shadow follows Isaac and occasionally stomps enemies for 40 damage total.",
     "dlc": "base",
     "colors": "white",
     "tags": "ball spider web yarn",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Daddy_Longlegs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Daddy_Longlegs"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Collectible_Daddy_Longlegs_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Daddy_Longlegs"
 },
 {
     "id": "daemon's tail",
@@ -2440,7 +2824,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "damocles",
@@ -2452,7 +2836,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "dark arts",
@@ -2467,36 +2851,36 @@ const g_items = [
     "name": "Dark Bum",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and collects <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. For every one-and-a-half Red Hearts collected, Dark Bum will generate one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, one hostile <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spider\" title=\"Spider\">Spider</a> or one friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spider</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and collects <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a> for himself. For every one-and-a-half Red Hearts collected, Dark Bum will give one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, one hostile <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spider\" title=\"Spider\">Spider</a> or one friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spider</a>.",
     "dlc": "base",
     "colors": "dark gray",
     "tags": "beggar heart",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Collectible_Dark_Bum_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dark_Bum"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4a/Collectible_Dark_Bum_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dark_Bum"
 },
 {
     "id": "dark matter",
     "name": "Dark Matter",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage by 1 and adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"mw-redirect\" title=\"Fear\">fear tears</a>.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear tears</a>.",
     "dlc": "base",
     "colors": "gray dark",
     "tags": "ball blob fear gross",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Collectible_Dark_Matter_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dark_Matter"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dark_Matter"
 },
 {
     "id": "dark prince's crown",
     "name": "Dark Prince's Crown",
     "type": "passive",
     "subType": "",
-    "desc": "Increases range, tears, and shot speed when at exactly one red heart.",
+    "desc": "When at exactly one Red Heart, grants +0.75 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "afterbirthplus",
     "colors": "dark",
     "tags": "leaf paw",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_Dark_Prince%27s_Crown_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dark_Prince%27s_Crown"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dark_Prince%27s_Crown"
 },
 {
     "id": "dataminer",
@@ -2515,36 +2899,36 @@ const g_items = [
     "name": "Dead Bird",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a flying <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> for the current room that chases enemies whenever Isaac takes damage.",
+    "desc": "After Isaac takes damage, spawns a flying <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that chases enemies for the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>, dealing ~5 damage per second.",
     "dlc": "base",
     "colors": "gray",
     "tags": "dead",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Collectible_Dead_Bird_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Bird"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Bird"
 },
 {
     "id": "dead cat",
     "name": "Dead Cat",
     "type": "passive",
     "subType": "",
-    "desc": "Sets Isaac's Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart containers</a> to 1, but gives Isaac 9 extra lives. After dying, Isaac respawns with 1 Red Heart in the last safe room.",
+    "desc": "Sets Isaac's Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart containers</a> to 1, but grants 9 extra lives. After dying, Isaac respawns with 1 Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_Container\" class=\"mw-redirect\" title=\"Heart Container\">Heart Container</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "lives nine",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/Collectible_Dead_Cat_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Cat"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Cat"
 },
 {
     "id": "dead dove",
     "name": "Dead Dove",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a>.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a>.",
     "dlc": "base",
     "colors": "silver",
     "tags": "bird flight fly metal statue",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_Dead_Dove_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Dove"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Dove"
 },
 {
     "id": "dead eye",
@@ -2556,19 +2940,19 @@ const g_items = [
     "colors": "red gray",
     "tags": "blood round wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Dead_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Eye"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Eye"
 },
 {
     "id": "dead onion",
     "name": "Dead Onion",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral</a> tears. Increases tear size (without increasing damage) while greatly reducing range and shot speed.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral</a> tears. Increases tear size (without increasing damage) while greatly reducing range and shot speed.",
     "dlc": "base",
     "colors": "brown",
     "tags": "bulb face garlic vegetable",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e8/Collectible_Dead_Onion_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Onion"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Onion"
 },
 {
     "id": "dead sea scrolls",
@@ -2592,11 +2976,11 @@ const g_items = [
     "colors": "brown",
     "tags": "dead dental face teeth",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Collectible_Dead_Tooth_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dead_Tooth"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dead_Tooth"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "death certificate",
@@ -2611,28 +2995,28 @@ const g_items = [
     "name": "Death's List",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a reward if all enemies in a room are killed in the order they are marked.",
+    "desc": "Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> or stat upgrade if all enemies in a room are killed in the order they are marked.",
     "dlc": "boosterpack4",
     "colors": "beige",
     "tags": "contract paper scroll sheet text writing",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Collectible_Death%27s_List_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Death%27s_List"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Death%27s_List"
 },
 {
     "id": "death's touch",
     "name": "Death's Touch",
     "type": "passive",
     "subType": "",
-    "desc": "+1.5 damage, -0.3 tears. Tears are replaced with large <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> scythes.",
+    "desc": "+1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, -0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>. Tears are replaced with large <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> scythes.",
     "dlc": "base",
     "colors": "black silver",
     "tags": "blade metal pierce sickle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Collectible_Death%27s_Touch_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Death%27s_Touch"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Death%27s_Touch"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "decap attack",
@@ -2659,12 +3043,12 @@ const g_items = [
     "name": "Deep Pockets",
     "type": "passive",
     "subType": "",
-    "desc": "Allows Isaac to carry two cards or pills (or a combination of both) at the same time.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Allows Isaac to carry two cards or pills (or a combination of both) at the same time.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Increases the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a> cap to 999. If a room would otherwise yield no reward, 1-3 pennies will spawn.",
     "dlc": "afterbirth",
     "colors": "gray dark",
     "tags": "broken egg empty pill",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Collectible_Deep_Pockets_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Deep_Pockets"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Deep_Pockets"
 },
 {
     "id": "delirious",
@@ -2683,36 +3067,36 @@ const g_items = [
     "name": "Demon Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Follows Isaac and automatically fires at enemies in its reach.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and automatically fires at enemies in its reach.",
     "dlc": "base",
     "colors": "dark",
     "tags": "baby turret",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Demon_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Demon_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Demon_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Demon_Baby"
 },
 {
     "id": "depression",
     "name": "Depression",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a cloud familiar that leaves a trail of tears that damages enemies. Has a chance to spawn damaging beams of light onto enemies that touch the cloud.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that leaves a trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> that damages enemies at 6 damage per second. Has a chance to spawn damaging beams of light onto enemies that touch the cloud.",
     "dlc": "afterbirthplus",
     "colors": "purple",
     "tags": "air blob cloud puff steam",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_Depression_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Depression"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Depression"
 },
 {
     "id": "dessert",
     "name": "Dessert",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "bag dog food",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e8/Collectible_Dessert_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dessert"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dessert"
 },
 {
     "id": "dice shard",
@@ -2743,12 +3127,12 @@ const g_items = [
     "name": "Dinner",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 1 Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "can dog food",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Dinner_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dinner"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dinner"
 },
 {
     "id": "diplopia",
@@ -2763,28 +3147,52 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Diplopia"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "dirty mind",
+    "name": "Dirty Mind",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dirty_Mind",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Collectible_Dirty_Mind_icon.png",
+    "desc": "Destroying poop spawns friendly Dips that follow Isaac and damage enemies. Destroying different types of poop spawns different Dips with special effects."
+},
+{
     "id": "distant admiration",
     "name": "Distant Admiration",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A red attack fly circles further out than the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Halo+of+Flies|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Halo_of_Flies\" title=\"\"><img alt=\"Halo of Flies\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_Halo_of_Flies_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070150\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Halo_of_Flies\" title=\"\">Halo of Flies</a></span> / <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pretty_Fly\" class=\"mw-redirect\" title=\"Pretty Fly\">Pretty Flies</a>, but closer than <span class=\"tooltip\" data-tooltip=\"i/tooltip|Forever+Alone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Forever_Alone\" title=\"\"><img alt=\"Forever Alone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Forever_Alone_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101741\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Forever_Alone\" title=\"\">Forever Alone</a></span>. Deals more damage than Forever Alone.",
+    "desc": "Spawns an attack fly that circles further out than <span class=\"tooltip\" data-tooltip=\"i/tooltip|Halo+of+Flies|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Halo_of_Flies\" title=\"\"><img alt=\"15►Halo of Flies\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Collectible_Halo_of_Flies_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20210331103805\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Halo_of_Flies\" title=\"\">Halo of Flies</a></span>, but closer than <span class=\"tooltip\" data-tooltip=\"i/tooltip|Forever+Alone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\"><img alt=\"15►Forever Alone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Forever_Alone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101749\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\">Forever Alone</a></span>, dealing 75 damage per second.",
     "dlc": "base",
     "colors": "black red",
     "tags": "fly orbital",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Distant_Admiration_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Distant_Admiration"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2b/Collectible_Distant_Admiration_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Distant_Admiration"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "divine intervention",
+    "name": "Divine Intervention",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Divine_Intervention",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/86/Collectible_Divine_Intervention_icon.png",
+    "desc": "Double tapping a fire key creates a shield that pushes away enemies and reflects enemy projectiles and lasers."
 },
 {
     "id": "divorce papers",
     "name": "Divorce Papers",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Mysterious_Paper\" title=\"Mysterious Paper\">Mysterious Paper</a>, increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tears\" title=\"Tears\">tears</a>, and grants a bone heart.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bone_Heart\" class=\"mw-redirect\" title=\"Bone Heart\">Bone Heart</a>, +0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mysterious_Paper\" title=\"Mysterious Paper\">Mysterious Paper</a>.",
     "dlc": "boosterpack5",
     "colors": "white",
     "tags": "page sheet text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Collectible_Divorce_Papers_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Divorce_Papers"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Divorce_Papers"
 },
 {
     "id": "doctor's remote",
@@ -2803,12 +3211,24 @@ const g_items = [
     "name": "Dog Tooth",
     "type": "passive",
     "subType": "",
-    "desc": "+0.3 damage and +0.1 speed. When Isaac enters a room, a howling sound can be heard if there's a connected secret room, and a barking sound can be heard if there's a crawl space under a rock.",
+    "desc": "+0.3 damage, +0.1 speed. Plays a howl or bark sound when entering a room with undiscovered <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Rooms</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Crawl_Space\" title=\"Crawl Space\">Crawl Spaces</a>.",
     "dlc": "afterbirthplus",
     "colors": "white",
     "tags": "dental pointy teeth",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Collectible_Dog_Tooth_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dog_Tooth"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dog_Tooth"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "dogma",
+    "name": "Dogma",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dogma",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/Collectible_Dogma_icon.png",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a> and the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Holy+Mantle|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Holy_Mantle\" title=\"\"><img alt=\"15►Holy Mantle\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Holy_Mantle_icon.png/revision/latest/scale-to-width-down/20?cb=20180430082525\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Holy_Mantle\" title=\"\">Holy Mantle</a></span> effect. Automatically given to Isaac after defeating <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dogma_(Boss)\" title=\"Dogma (Boss)\">Dogma</a>."
 },
 {
     "id": "door stop",
@@ -2827,36 +3247,48 @@ const g_items = [
     "name": "Dr. Fetus",
     "type": "passive",
     "subType": "",
-    "desc": "Tears are replaced by <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> that benefit from bomb-enhancing effects and slide for a fixed time after being fired.",
+    "desc": "Tears are replaced by <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> that benefit from bomb-enhancing effects and slide for a fixed time after being fired.",
     "dlc": "base",
     "colors": "clear pink",
     "tags": "baby bomb glass jar",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Collectible_Dr._Fetus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dr._Fetus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Collectible_Dr._Fetus_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dr._Fetus"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "dream catcher",
+    "name": "Dream Catcher",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dream_Catcher",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_Dream_Catcher_icon.png",
+    "desc": "During the transition between floors, Isaac's nightmare shows the floor's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a> item and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss\" class=\"mw-redirect\" title=\"Boss\">boss</a>. Grants half a soul heart when entering a new floor."
 },
 {
     "id": "dry baby",
     "name": "Dry Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and blocks enemy projectiles. Upon blocking a shot, it has a chance of triggering <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Necronomicon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"\"><img alt=\"The Necronomicon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Necronomicon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071303\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"\">The Necronomicon</a></span> effect.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and blocks enemy projectiles. Upon blocking a shot, it has a chance of triggering <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Necronomicon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\"><img alt=\"15►The Necronomicon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Necronomicon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071303\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\">The Necronomicon</a></span> effect.",
     "dlc": "base",
     "colors": "white gray",
     "tags": "dead dry mummy",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Collectible_Dry_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dry_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/67/Collectible_Dry_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dry_Baby"
 },
 {
     "id": "duality",
     "name": "Duality",
     "type": "passive",
     "subType": "",
-    "desc": "Whenever a Devil or Angel Room would spawn after defeating a boss, both rooms spawn. Only one can be entered.",
+    "desc": "Whenever a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_Room\" title=\"Angel Room\">Angel Room</a> would spawn after defeating a boss, both rooms spawn. Only one can be entered.",
     "dlc": "afterbirthplus",
     "colors": "black white",
     "tags": "half moon round semi",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Collectible_Duality_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Duality"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Collectible_Duality_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Duality"
 },
 {
     "id": "duct tape",
@@ -2887,12 +3319,24 @@ const g_items = [
     "name": "E Coli",
     "type": "passive",
     "subType": "",
-    "desc": "Gives \"Turdy Touch\" effect. Enemies that touch Isaac are changed into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poop\" class=\"mw-redirect\" title=\"Poop\">poop</a>.",
+    "desc": "Enemies that touch Isaac are changed into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poop\" class=\"mw-redirect\" title=\"Poop\">poop</a>.",
     "dlc": "base",
     "colors": "red black",
     "tags": "poop sperm tail",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_E_Coli_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/E_Coli"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/E_Coli"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "echo chamber",
+    "name": "Echo Chamber",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Echo_Chamber",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Collectible_Echo_Chamber_icon.png",
+    "desc": "When Isaac uses a card, pill, or rune, he also uses a copy of every card/pill/rune he used after picking up Echo Chamber."
 },
 {
     "id": "eden's blessing",
@@ -2904,7 +3348,7 @@ const g_items = [
     "colors": "white",
     "tags": "bloom blossom flower lotus",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Collectible_Eden%27s_Blessing_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Eden%27s_Blessing"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eden%27s_Blessing"
 },
 {
     "id": "eden's soul",
@@ -2943,16 +3387,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Emergency_Contact"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "empty heart",
+    "name": "Empty Heart",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Empty_Heart",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Empty_Heart_icon.png",
+    "desc": "Gives Isaac an empty heart container at the start of every floor."
+},
+{
     "id": "empty vessel",
     "name": "Empty Vessel",
     "type": "passive",
     "subType": "",
-    "desc": "While Isaac has no red hearts, this item grants flight and a random chance to activate an invincibility shield for a few seconds. If Isaac gains any Red Hearts, these benefits will disappear.",
+    "desc": "Grants two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>. While Isaac has no red hearts, grants flight and periodically grants an invincibility shield for a few seconds.",
     "dlc": "afterbirth",
     "colors": "dark gray",
     "tags": "bag purse round string",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/16/Collectible_Empty_Vessel_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Empty_Vessel"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Empty_Vessel"
 },
 {
     "id": "endless nameless",
@@ -2971,12 +3427,12 @@ const g_items = [
     "name": "Epic Fetus",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac's tears are replaced with guided missiles, like those used by the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Doctor%27s+Remote|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Doctor%27s_Remote\" title=\"\"><img alt=\"Doctor's Remote\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Collectible_Doctor%27s_Remote_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071440\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Doctor%27s_Remote\" title=\"\">Doctor's Remote</a></span>.",
+    "desc": "Isaac's tears are replaced with guided missiles, like those used by the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Doctor%27s+Remote|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Doctor%27s_Remote\" title=\"\"><img alt=\"15►Doctor's Remote\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Collectible_Doctor%27s_Remote_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071440\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Doctor%27s_Remote\" title=\"\">Doctor's Remote</a></span>.",
     "dlc": "base",
     "colors": "clear",
     "tags": "baby bomb glass hat jar",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/Collectible_Epic_Fetus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Epic_Fetus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Epic_Fetus_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Epic_Fetus"
 },
 {
     "id": "epiphora",
@@ -2988,7 +3444,7 @@ const g_items = [
     "colors": "blue",
     "tags": "three wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Collectible_Epiphora_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Epiphora"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Epiphora"
 },
 {
     "id": "equality!",
@@ -3016,7 +3472,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "eraser",
@@ -3040,7 +3496,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "esau jr.",
@@ -3052,7 +3508,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "eternal d6",
@@ -3067,12 +3523,12 @@ const g_items = [
     "name": "Eucharist",
     "type": "passive",
     "subType": "",
-    "desc": "An Angel Room door will always spawn after every boss fight, excluding the first floor and floors after <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Womb\" title=\"The Womb\"><img alt=\"The Womb\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Stage_The_Womb_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085743\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Womb\" title=\"The Womb\">The Womb</a> II/<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Utero\" title=\"Utero\"><img alt=\"Utero\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Stage_Utero_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085826\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Utero\" title=\"Utero\">Utero</a> II.",
+    "desc": "An Angel Room door will always spawn after every boss fight, excluding the first floor and floors after <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Womb\" title=\"The Womb\"><img alt=\"The Womb\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Stage_The_Womb_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085743\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Womb\" title=\"The Womb\">The Womb</a> II/<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Utero\" title=\"Utero\"><img alt=\"Utero\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Stage_Utero_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085826\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Utero\" title=\"Utero\">Utero</a> II.",
     "dlc": "afterbirthplus",
     "colors": "white yellow",
     "tags": "cream cross cup dish ice wafer",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f8/Collectible_Eucharist_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Eucharist"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Eucharist_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eucharist"
 },
 {
     "id": "euthanasia",
@@ -3083,8 +3539,8 @@ const g_items = [
     "dlc": "afterbirthplus",
     "colors": "black",
     "tags": "needle rocket syringe",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Euthanasia_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Euthanasia"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8d/Collectible_Euthanasia_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Euthanasia"
 },
 {
     "id": "eve's bird foot",
@@ -3108,11 +3564,11 @@ const g_items = [
     "colors": "dark",
     "tags": "pieces rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Collectible_Eve%27s_Mascara_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Eve%27s_Mascara"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eve%27s_Mascara"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "everything jar",
@@ -3123,6 +3579,18 @@ const g_items = [
     "desc": "Spawns certain pickups based on how many charges it has. If fully charged, instead has one of many unique effects."
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "evil charm",
+    "name": "Evil Charm",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Evil_Charm",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/36/Collectible_Evil_Charm_icon.png",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">luck</a> by 2.0."
+},
+{
     "id": "evil eye",
     "name": "Evil Eye",
     "type": "passive",
@@ -3131,8 +3599,8 @@ const g_items = [
     "dlc": "afterbirth",
     "colors": "white blue",
     "tags": "eye glow",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/43/Collectible_Evil_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Evil_Eye"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/86/Collectible_Evil_Eye_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Evil_Eye"
 },
 {
     "id": "experimental treatment",
@@ -3144,7 +3612,7 @@ const g_items = [
     "colors": "yellow",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Collectible_Experimental_Treatment_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Experimental_Treatment"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Experimental_Treatment"
 },
 {
     "id": "explosivo",
@@ -3156,7 +3624,7 @@ const g_items = [
     "colors": "white black orange",
     "tags": "bomb eye round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Collectible_Explosivo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Explosivo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Explosivo"
 },
 {
     "id": "extension cord",
@@ -3171,6 +3639,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Extension_Cord"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "eye drops",
+    "name": "Eye Drops",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eye_Drops",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Collectible_Eye_Drops_icon.png",
+    "desc": "Lowers the tear delay in Isaac's left eye, causing his eyes to fire at different rates."
+},
+{
     "id": "eye of belial",
     "name": "Eye of Belial",
     "type": "passive",
@@ -3180,19 +3660,43 @@ const g_items = [
     "colors": "red",
     "tags": "pacman slit",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Collectible_Eye_of_Belial_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Eye_of_Belial"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eye_of_Belial"
 },
 {
     "id": "eye of greed",
     "name": "Eye of Greed",
     "type": "passive",
     "subType": "",
-    "desc": "Every 20 tears, Isaac loses 1 penny and shoots an additional gold tear that freezes enemies and turns them into gold. Any enemy killed while in this state will drop coins.",
+    "desc": "Every 20 tears, Isaac loses 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a> and shoots an additional gold tear that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifies</a> enemies and turns them into gold. Any enemy killed while in this state will drop coins.",
     "dlc": "afterbirthplus",
     "colors": "silver",
     "tags": "cent money",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/26/Collectible_Eye_of_Greed_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Eye_of_Greed"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eye_of_Greed"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "eye of the occult",
+    "name": "Eye of the Occult",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eye_of_the_Occult",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Collectible_Eye_of_the_Occult_icon.png",
+    "desc": "Isaac's tears are now controlled mid-flight with tear controls. Also increases damage and range, but decreases shot speed."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "eye sore",
+    "name": "Eye Sore",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eye_Sore",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/Collectible_Eye_Sore_icon.png",
+    "desc": "Causes Isaac to occasionally extra fire tears in random directions while shooting."
 },
 {
     "id": "faded polaroid",
@@ -3207,28 +3711,40 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Faded_Polaroid"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "false phd",
+    "name": "False PHD",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/False_PHD",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Collectible_False_PHD_icon.png",
+    "desc": "Converts good pills into bad pills and identifies all pills. Bad pills now have secondary positive effects. Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>."
+},
+{
     "id": "fanny pack",
     "name": "Fanny Pack",
     "type": "passive",
     "subType": "",
-    "desc": "Has a chance to drop a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> when Isaac takes damage.",
+    "desc": "Has a chance to drop a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> when Isaac takes damage.",
     "dlc": "base",
     "colors": "brown",
     "tags": "bag pickup",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/Collectible_Fanny_Pack_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fanny_Pack"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fanny_Pack"
 },
 {
     "id": "farting baby",
     "name": "Farting Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A familiar that follows Isaac and blocks tears. If a tear hits Farting Baby, there is a high chance for it to fart, which will either knockback, poison, or charm all nearby enemies.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and blocks enemy shots. If a shot hits Farting Baby, it has a chance to fart, which <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charm\" class=\"mw-redirect\" title=\"Charm\">Charms</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poisons</a>, or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Hidden_Attributes\" title=\"Hidden Attributes\">knocks back</a> nearby enemies.",
     "dlc": "afterbirth",
     "colors": "green",
     "tags": "gross sick",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Farting_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Farting_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b0/Collectible_Farting_Baby_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Farting_Baby"
 },
 {
     "id": "fast bombs",
@@ -3240,19 +3756,19 @@ const g_items = [
     "colors": "black yellow",
     "tags": "bomb zap",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Collectible_Fast_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fast_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fast_Bombs"
 },
 {
     "id": "fate",
     "name": "Fate",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a> and one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Eternal_Heart\" class=\"mw-redirect\" title=\"Eternal Heart\">Eternal Heart</a>.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a> and one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Eternal_Heart\" class=\"mw-redirect\" title=\"Eternal Heart\">Eternal Heart</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "dead eternal flight fly head heart",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/Collectible_Fate_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fate"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fate"
 },
 {
     "id": "fate's reward",
@@ -3264,7 +3780,7 @@ const g_items = [
     "colors": "blue",
     "tags": "baby dead head round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Collectible_Fate%27s_Reward_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fate%27s_Reward"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fate%27s_Reward"
 },
 {
     "id": "filigree feather",
@@ -3295,24 +3811,24 @@ const g_items = [
     "name": "Finger!",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a finger familiar that points at enemies, dealing constant damage.",
+    "desc": "Spawns a finger <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that points at enemies, dealing scaling damage.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "flesh pierce tip",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/Collectible_Finger%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Finger!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Finger!"
 },
 {
     "id": "fire mind",
     "name": "Fire Mind",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Burn\" class=\"mw-redirect\" title=\"Burn\">flaming tears</a> that deal <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Burn\" class=\"mw-redirect\" title=\"Burn\">burning</a> damage over time. Tears have a chance to explode on impact with an enemy, which creates a fire at the location of the explosion.",
+    "desc": "Grants flaming tears that deal <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Burn\" class=\"mw-redirect\" title=\"Burn\">burning</a> damage over time. Tears have a chance to explode on impact with an enemy, which creates a fire at the location of the explosion.",
     "dlc": "base",
     "colors": "black",
     "tags": "ball flame",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Collectible_Fire_Mind_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fire_Mind"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fire_Mind"
 },
 {
     "id": "fish head",
@@ -3360,7 +3876,7 @@ const g_items = [
     "colors": "grey blue",
     "tags": "rock round water wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Collectible_Flat_Stone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Flat_Stone"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Flat_Stone"
 },
 {
     "id": "flat worm",
@@ -3376,7 +3892,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "flip",
@@ -3403,12 +3919,12 @@ const g_items = [
     "name": "Forever Alone",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a blue attack fly that orbits a long distance from Isaac.",
+    "desc": "Spawns an attack fly that orbits a long distance from Isaac, dealing 30 damage per second.",
     "dlc": "base",
     "colors": "blue",
     "tags": "fly orbital",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Forever_Alone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Forever_Alone"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Forever_Alone_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone"
 },
 {
     "id": "forget me now",
@@ -3424,7 +3940,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "fortune cookie",
@@ -3448,7 +3964,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "free lemonade",
@@ -3460,7 +3976,19 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "freezer baby",
+    "name": "Freezer Baby",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Freezer_Baby",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Collectible_Freezer_Baby_icon.png",
+    "desc": "Spawns a shooting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that has a chance to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Petrify\" class=\"mw-redirect\" title=\"Petrify\">petrify</a> enemies, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Freeze\" class=\"mw-redirect\" title=\"Freeze\">Freezes</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monsters\" title=\"Monsters\">monsters</a> upon killing them."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "friend finder",
@@ -3475,12 +4003,12 @@ const g_items = [
     "name": "Friend Zone",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A white orbiting fly which deals 3 contact damage per tick to enemies. This familiar orbits Isaac at a middle length distance somewhere between <span class=\"tooltip\" data-tooltip=\"i/tooltip|Distant+Admiration|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Distant_Admiration\" title=\"\"><img alt=\"Distant Admiration\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Distant_Admiration_icon.png/revision/latest/scale-to-width-down/20?cb=20180430100247\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Distant_Admiration\" title=\"\">Distant Admiration</a></span> and <span class=\"tooltip\" data-tooltip=\"i/tooltip|Forever+Alone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Forever_Alone\" title=\"\"><img alt=\"Forever Alone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Forever_Alone_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101741\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Forever_Alone\" title=\"\">Forever Alone</a></span>.",
+    "desc": "Spawns a white attack fly that orbits somewhere between <span class=\"tooltip\" data-tooltip=\"i/tooltip|Distant+Admiration|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Distant_Admiration\" title=\"\"><img alt=\"15►Distant Admiration\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2b/Collectible_Distant_Admiration_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430100257\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Distant_Admiration\" title=\"\">Distant Admiration</a></span> and <span class=\"tooltip\" data-tooltip=\"i/tooltip|Forever+Alone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\"><img alt=\"15►Forever Alone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Forever_Alone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101749\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Forever_Alone\" title=\"\">Forever Alone</a></span>, dealing 45 damage per second.",
     "dlc": "afterbirth",
     "colors": "white gray",
     "tags": "fly",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Friend_Zone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Friend_Zone"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/Collectible_Friend_Zone_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Friend_Zone"
 },
 {
     "id": "friendly ball",
@@ -3504,23 +4032,35 @@ const g_items = [
     "colors": "brown",
     "tags": "bun food round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9a/Collectible_Fruit_Cake_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Fruit_Cake"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fruit_Cake"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "fruity plum",
+    "name": "Fruity Plum",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Fruity_Plum",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/66/Collectible_Fruity_Plum_icon.png",
+    "desc": "Gives Isaac a miniature <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Baby_Plum\" title=\"Baby Plum\">Baby Plum</a> familiar that propels itself diagonally around the room, firing tears behind itself as it travels."
 },
 {
     "id": "gb bug",
     "name": "GB Bug",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A glitch familiar that bounces around the room and applies a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Status_effect\" class=\"mw-redirect\" title=\"Status effect\">status effect</a> to any enemies it comes into contact with and has a chance to re-roll <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> that it passes over.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that bounces diagonally around the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>, applying a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_effect\" class=\"mw-redirect\" title=\"Status effect\">status effect</a> to enemies it hits and has a chance to re-roll <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> it passes over.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Spawns a familiar that follows Isaac. Double tapping the fire button launches it forward, causing it to reroll the first <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">monster</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> it hits. It respawns after clearing a room.",
     "dlc": "afterbirth",
     "colors": "red yellow cyan",
     "tags": "shapes square",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6c/Collectible_GB_Bug_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/GB_Bug"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/GB_Bug"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "gello",
@@ -3535,16 +4075,16 @@ const g_items = [
     "name": "Gemini",
     "type": "passive",
     "subType": "zodiac familiar",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Gemini\" title=\"Gemini\">Suture</a> becomes attached to Isaac, and does touch damage to enemies within its attacking range.",
+    "desc": "Spawns a conjoined <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> which chases enemies close to Isaac, dealing ~8 damage per second.",
     "dlc": "base",
     "colors": "blue",
     "tags": "2 ii suture",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Collectible_Gemini_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Gemini_(Item)"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Gemini_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Gemini_(Item)"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "genesis",
@@ -3571,12 +4111,24 @@ const g_items = [
     "name": "Ghost Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "dead ghost",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d9/Collectible_Ghost_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ghost_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Collectible_Ghost_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ghost_Baby"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "ghost bombs",
+    "name": "Ghost Bombs",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ghost_Bombs",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0f/Collectible_Ghost_Bombs_icon.png",
+    "desc": "Gives Isaac 5 bombs and causes his bombs to spawn ghosts that deal contact damage to enemies and explode after 10 seconds."
 },
 {
     "id": "ghost pepper",
@@ -3587,27 +4139,39 @@ const g_items = [
     "dlc": "afterbirthplus",
     "colors": "white",
     "tags": "chili face ghost pepper",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Collectible_Ghost_Pepper_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ghost_Pepper"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Ghost_Pepper_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ghost_Pepper"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "giant cell",
+    "name": "Giant Cell",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Giant_Cell",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Collectible_Giant_Cell_icon.png",
+    "desc": "Causes Isaac to spawn micro-Isaacs when he takes damage, which chase and shoot at nearby enemies."
 },
 {
     "id": "gimpy",
     "name": "Gimpy",
     "type": "passive",
     "subType": "",
-    "desc": "Has a chance of spawning a Soul Heart or Black Heart when taking damage. Enemies have a chance to drop a Half Red Heart after being killed.",
+    "desc": "Gives chance of spawning a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a> when taking damage. Enemies have a chance to drop a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Half_Red_Heart\" class=\"mw-redirect\" title=\"Half Red Heart\">Half Red Heart</a> after being killed.",
     "dlc": "base",
     "colors": "dark",
     "tags": "bsdm face head leather round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_Gimpy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Gimpy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Gimpy"
 },
 {
     "id": "glass cannon",
     "name": "Glass Cannon",
     "type": "active",
     "subType": "",
-    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Fires a high-damage piercing spectral tear, but lowers Isaac's health to half a heart.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Fires a high-damage piercing spectral tear. If Isaac takes damage while holding Glass Cannon, it becomes <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Broken+Glass+Cannon|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glass_Cannon\" title=\"\"><img alt=\"15►Broken Glass Cannon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Broken_Glass_Cannon_icon.png/revision/latest/scale-to-width-down/20?cb=20210331202942\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glass_Cannon\" title=\"\">Broken Glass Cannon</a></span> and he is reduced to half a heart.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Fires a high-damage piercing spectral tear, but lowers Isaac's health to half a heart.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Fires a high-damage piercing spectral tear. If Isaac takes damage while holding Glass Cannon, it becomes <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Broken+Glass+Cannon|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glass_Cannon\" title=\"\"><img alt=\"15â–ºBroken Glass Cannon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Collectible_Broken_Glass_Cannon_icon.png/revision/latest/scale-to-width-down/20?cb=20210331202942\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Glass_Cannon\" title=\"\">Broken Glass Cannon</a></span> and he is reduced to half a heart.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "cylinder metal",
@@ -3619,24 +4183,36 @@ const g_items = [
     "name": "Glaucoma",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to shoot tears that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confuse</a> enemies for an extremely long time.",
+    "desc": "Adds a chance to shoot tears that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confuse</a> enemies for an extremely long time.",
     "dlc": "afterbirthplus",
     "colors": "white",
     "tags": "eye round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Collectible_Glaucoma_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Glaucoma"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Glaucoma"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "glitched crown",
+    "name": "Glitched Crown",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Glitched_Crown",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Collectible_Glitched_Crown_icon.png",
+    "desc": "Before being picked up, item pedestals cycle between 5 random items."
 },
 {
     "id": "glitter bombs",
     "name": "Glitter Bombs",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac 5 bombs, and makes Isaac's bombs have a chance to drop random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> or charm enemies when they explode.",
+    "desc": "+5 bombs. Bombs have a chance to drop random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> or charm enemies when they explode.",
     "dlc": "afterbirth",
     "colors": "pink",
     "tags": "shiney sparkle tnt",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/41/Collectible_Glitter_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Glitter_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Glitter_Bombs"
 },
 {
     "id": "glowing hour glass",
@@ -3655,12 +4231,12 @@ const g_items = [
     "name": "Glyph of Balance",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Grants 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a> and modifies drops from <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Champion\" class=\"mw-redirect\" title=\"Champion\">Champion</a> monsters based on certain conditions.",
+    "desc": "Grants 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a> and modifies drops from <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Champion\" class=\"mw-redirect\" title=\"Champion\">Champion</a> monsters based on certain conditions.",
     "dlc": "afterbirthplus",
     "colors": "blue",
     "tags": "glyph",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Collectible_Glyph_of_Balance_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Glyph_of_Balance"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Glyph_of_Balance"
 },
 {
     "id": "gnawed leaf",
@@ -3672,19 +4248,19 @@ const g_items = [
     "colors": "green",
     "tags": "bite nintendo petal",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Gnawed_Leaf_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Gnawed_Leaf"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Gnawed_Leaf"
 },
 {
     "id": "goat head",
     "name": "Goat Head",
     "type": "passive",
     "subType": "",
-    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil Room</a> / <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a> Door will always spawn after every boss fight, excluding the first floor and floors after Utero II/Womb II.",
+    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil Room</a> / <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_Room\" title=\"Angel Room\">Angel Room</a> Door will always spawn after every boss fight, excluding the first floor and floors after Utero II/Womb II.",
     "dlc": "base",
     "colors": "brown",
     "tags": "evil face fur horns sacrifice",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Collectible_Goat_Head_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Goat_Head"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Collectible_Goat_Head_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Goat_Head"
 },
 {
     "id": "goat hoof",
@@ -3703,24 +4279,24 @@ const g_items = [
     "name": "God's Flesh",
     "type": "passive",
     "subType": "",
-    "desc": "Tears now have a random chance to apply a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shrink\" class=\"mw-redirect\" title=\"Shrink\">shrinking</a> effect, causing enemies to shrink in size and also run away from Isaac. Shrunk enemies can be crushed and killed by walking over them.",
+    "desc": "Tears have a chance to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shrink\" class=\"mw-redirect\" title=\"Shrink\">shrink</a> enemies, making them run away from Isaac. Shrunk enemies can be crushed and killed by walking over them.",
     "dlc": "afterbirth",
     "colors": "pink",
     "tags": "bent mushroom",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/74/Collectible_God%27s_Flesh_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/God%27s_Flesh"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/God%27s_Flesh"
 },
 {
     "id": "godhead",
     "name": "Godhead",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and range while reducing tears and shot speed. Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a> and tears gain a damaging halo.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a> with a damaging halo. +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, -0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +1.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, -0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>, +0.8 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>.",
     "dlc": "base",
     "colors": "blue yellow red white",
     "tags": "homing three triangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Collectible_Godhead_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Godhead"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Godhead"
 },
 {
     "id": "golden horse shoe",
@@ -3736,7 +4312,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "golden razor",
@@ -3751,72 +4327,84 @@ const g_items = [
     "name": "Greed's Gullet",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a Red Heart container for every 25 coins Isaac has.",
+    "desc": "Grants a Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> for every 25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coins\" title=\"Coins\">coins</a> Isaac has.",
     "dlc": "afterbirthplus",
     "colors": "brown",
     "tags": "$ money",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/23/Collectible_Greed%27s_Gullet_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Greed%27s_Gullet"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Greed%27s_Gullet"
 },
 {
     "id": "growth hormones",
     "name": "Growth Hormones",
     "type": "passive",
     "subType": "syringe",
-    "desc": "Increases damage by 1 and speed by 0.4.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>.",
     "dlc": "base",
     "colors": "purple",
     "tags": "damage",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ce/Collectible_Growth_Hormones_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Growth_Hormones"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Growth_Hormones"
 },
 {
     "id": "guardian angel",
     "name": "Guardian Angel",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that blocks enemy projectiles, deals contact damage to enemies, and increases the speed of all orbital familiars.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that blocks enemy shots, deals 105 damage per second to enemies, and increases the speed of all orbital familiars.",
     "dlc": "base",
     "colors": "pink",
     "tags": "angel orbital",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Guardian_Angel_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Guardian_Angel"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_Guardian_Angel_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guardian_Angel"
 },
 {
     "id": "guillotine",
     "name": "Guillotine",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac's head is removed from his body and floats around him. Increases Damage by 1 and grants -1 Tear Delay.",
+    "desc": "Isaac's head is removed from his body and floats around him as an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital</a>. Gives +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> and grants -1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_delay\" class=\"mw-redirect\" title=\"Tear delay\">tear delay</a>.",
     "dlc": "base",
     "colors": "",
     "tags": "blade head metal sharp",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7c/Collectible_Guillotine_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Guillotine"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guillotine"
 },
 {
     "id": "guppy's collar",
     "name": "Guppy's Collar",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac a permanent 50% chance to respawn with 1/2 of a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a> after death.",
+    "desc": "Grants a permanent 50% chance to respawn with 1/2 of a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a> after death.",
     "dlc": "base",
     "colors": "pink",
     "tags": "heart respawn ring round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4d/Collectible_Guppy%27s_Collar_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Collar"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guppy%27s_Collar"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "guppy's eye",
+    "name": "Guppy's Eye",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guppy%27s_Eye",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Collectible_Guppy%27s_Eye_icon.png",
+    "desc": "Shows the contents of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chests\" title=\"Chests\">Chests</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sacks\" title=\"Sacks\">Sacks</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fire_Places\" title=\"Fire Places\">Fire Places</a> before they're opened."
 },
 {
     "id": "guppy's hair ball",
     "name": "Guppy's Hair Ball",
     "type": "passive",
     "subType": "",
-    "desc": "Loosely follows behind Isaac. It can be swung like a flail by rapidly spinning Isaac in a circle. Grows bigger by killing enemies.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that loosely follows behind Isaac, which blocks shots can be swung like a flail to damage enemies. Grows bigger by killing enemies.",
     "dlc": "base",
     "colors": "brown",
     "tags": "gross lump pile poop",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Guppy%27s_Hair_Ball_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Hair_Ball"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Guppy%27s_Hair_Ball_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guppy%27s_Hair_Ball"
 },
 {
     "id": "guppy's head",
@@ -3847,24 +4435,24 @@ const g_items = [
     "name": "Guppy's Tail",
     "type": "passive",
     "subType": "",
-    "desc": "Increases chance of finding Locked Chests and normal Chests, but reduces chance of finding pickups.",
+    "desc": "Room clear awards have a 1/3 chance of being replaced with a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chest</a> and a 1/3 chance being replaced with nothing.",
     "dlc": "base",
     "colors": "black",
     "tags": "cat cord dead",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/Collectible_Guppy%27s_Tail_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Guppy%27s_Tail"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Guppy%27s_Tail"
 },
 {
     "id": "habit",
     "name": "Habit",
     "type": "passive",
     "subType": "",
-    "desc": "When Isaac is hit, 1 point of an item's charge is filled.",
+    "desc": "When Isaac is hit, his active item gains 1 room's worth of charge.",
     "dlc": "base",
     "colors": "black white",
     "tags": "hat hood stripe",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Habit_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Habit"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/83/Collectible_Habit_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Habit"
 },
 {
     "id": "haemolacria",
@@ -3876,7 +4464,7 @@ const g_items = [
     "colors": "red",
     "tags": "ball blood drop gross round wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Collectible_Haemolacria_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Haemolacria"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Haemolacria"
 },
 {
     "id": "hagalaz",
@@ -3907,24 +4495,24 @@ const g_items = [
     "name": "Hallowed Ground",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a white poop familiar, which turns into a white poop when Isaac is hurt. White poop has an aura that halves tear delay and can block enemy shots.",
+    "desc": "Spawns a white poop familiar, which turns into a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/White_poop\" class=\"mw-redirect\" title=\"White poop\">white poop</a> when Isaac is hurt. White poop has an aura that halves tear delay and can block enemy shots.",
     "dlc": "boosterpack5",
     "colors": "light white",
     "tags": "glow holy poop shiny",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Collectible_Hallowed_Ground_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Hallowed_Ground"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hallowed_Ground"
 },
 {
     "id": "halo of flies",
     "name": "Halo of Flies",
     "type": "passive",
     "subType": "familiary",
-    "desc": "Spawns two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pretty_Fly\" class=\"mw-redirect\" title=\"Pretty Fly\">Pretty Flies</a> that block enemy shots and deal contact damage to flies.",
+    "desc": "Spawns two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pretty_Fly\" class=\"mw-redirect\" title=\"Pretty Fly\">Pretty Flies</a> that block enemy shots and deal contact damage to flies.",
     "dlc": "base",
     "colors": "dark",
     "tags": "fly orbital two",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_Halo_of_Flies_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Halo_of_Flies"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Collectible_Halo_of_Flies_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Halo_of_Flies"
 },
 {
     "id": "harlequin baby",
@@ -3935,15 +4523,15 @@ const g_items = [
     "dlc": "base",
     "colors": "pink",
     "tags": "",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/Collectible_Harlequin_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Harlequin_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_Harlequin_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Harlequin_Baby"
 },
 {
     "id": "head of krampus",
     "name": "Head of Krampus",
     "type": "active",
     "subType": "",
-    "desc": "Fires a powerful <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15►Brimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> beam in four cardinal directions, much like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Fallen\" title=\"The Fallen\">The Fallen</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Krampus\" title=\"Krampus\">Krampus</a> shoot.<br><img alt=\"Added in Afterbirth / Removed in Afterbirth †\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Dlc_ana%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155303\" decoding=\"async\" title=\"Added in Afterbirth / Removed in Afterbirth †\" width=\"31\" height=\"14\" class=\"dlc dlc-2\"> Has a 50% chance to rotate all beams around Isaac 90 degrees.",
+    "desc": "Fires a powerful <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15â–ºBrimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> beam in four cardinal directions, much like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Fallen\" title=\"The Fallen\">The Fallen</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Krampus\" title=\"Krampus\">Krampus</a> shoot.<br><img alt=\"Added in Afterbirth / Removed in Afterbirth â€ \" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Dlc_ana%E2%80%A0_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155303\" decoding=\"async\" title=\"Added in Afterbirth / Removed in Afterbirth â€ \" width=\"31\" height=\"14\" class=\"dlc dlc-2\"> Has a 50% chance to rotate all beams around Isaac 90 degrees.",
     "dlc": "base",
     "colors": "gray white red",
     "tags": "dead demon tongue",
@@ -3960,35 +4548,59 @@ const g_items = [
     "colors": "gray",
     "tags": "baby coin dead face greed round ultra",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Collectible_Head_of_the_Keeper_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Head_of_the_Keeper"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Head_of_the_Keeper"
 },
 {
     "id": "headless baby",
     "name": "Headless Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">Familiar</a> that follows Isaac, leaving blood <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Creep\" title=\"Creep\">creep</a> on the ground.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac, leaving blood <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> on the ground.",
     "dlc": "base",
     "colors": "red white",
     "tags": "blood body creep",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Collectible_Headless_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Headless_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Headless_Baby"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "heartbreak",
+    "name": "Heartbreak",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Heartbreak",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Collectible_Heartbreak_icon.png",
+    "desc": "Grants 3 broken hearts and +0.25 damage for every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">broken heart</a> Isaac has. Every otherwise fatal hit will add 2 more until Isaac has nothing but broken hearts."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "hemoptysis",
+    "name": "Hemoptysis",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hemoptysis",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Collectible_Hemoptysis_icon.png",
+    "desc": "Double-tapping a fire button causes Isaac to sneeze blood, dealing damage to enemies in front of him."
 },
 {
     "id": "hive mind",
     "name": "Hive Mind",
     "type": "passive",
     "subType": "",
-    "desc": "Increases the size of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> and doubles the amount of damage they deal.",
+    "desc": "Increases the size of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> and doubles the amount of damage they deal.",
     "dlc": "base",
     "colors": "blue",
     "tags": "fly spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Collectible_Hive_Mind_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Hive_Mind"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hive_Mind"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "hold",
@@ -4015,24 +4627,24 @@ const g_items = [
     "name": "Holy Grail",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a> and one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a> and one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "gold",
     "tags": "chalice cup flight fly",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8b/Collectible_Holy_Grail_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Holy_Grail"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Grail"
 },
 {
     "id": "holy light",
     "name": "Holy Light",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac has a random chance to fire a Holy tear, which, when it hits an enemy, will spawn a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Crack_the_Sky\" title=\"Crack the Sky\">Crack the Sky</a>-style light beam on the same enemy, dealing damage.",
+    "desc": "Adds a chance to fire holy tears, which will create a damaging light beam in the area if they hit an enemy.",
     "dlc": "afterbirth",
     "colors": "white blue",
     "tags": "bright glow round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7c/Collectible_Holy_Light_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Holy_Light"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Light"
 },
 {
     "id": "holy mantle",
@@ -4044,19 +4656,19 @@ const g_items = [
     "colors": "blue",
     "tags": "cross glow shield",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Holy_Mantle_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Holy_Mantle"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Mantle"
 },
 {
     "id": "holy water",
     "name": "Holy Water",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a bottle familiar that breaks when Isaac takes damage, leaving a puddle of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_creep\" class=\"mw-redirect\" title=\"Blue creep\">blue creep</a>. The bottle is reformed upon entering a different room.",
+    "desc": "Spawns a bottle <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that breaks when Isaac takes damage, leaving a puddle of damaging <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_creep\" class=\"mw-redirect\" title=\"Blue creep\">blue creep</a>. The bottle is reformed upon entering a different room.",
     "dlc": "base",
     "colors": "blue",
     "tags": "creep glass",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Holy_Water_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Holy_Water"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/Collectible_Holy_Water_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Water"
 },
 {
     "id": "hook worm",
@@ -4080,7 +4692,7 @@ const g_items = [
     "colors": "gray",
     "tags": "bone head skull",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Collectible_Host_Hat_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Host_Hat"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Host_Hat"
 },
 {
     "id": "hot bombs",
@@ -4092,7 +4704,7 @@ const g_items = [
     "colors": "gray flame",
     "tags": "bomb face fire",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Hot_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Hot_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hot_Bombs"
 },
 {
     "id": "how to jump",
@@ -4123,24 +4735,48 @@ const g_items = [
     "name": "Humbling Bundle",
     "type": "passive",
     "subType": "",
-    "desc": "Replaces all regular red hearts, pennies, keys, and bombs with double versions worth twice as much.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Replaces all regular red hearts, pennies, keys, and bombs with double versions worth twice as much.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Regular red hearts, pennies, keys, and bombs have a chance to be replaced with double versions worth twice as much.",
     "dlc": "base",
     "colors": "brown",
     "tags": "1+1 math one page paper",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Collectible_Humbling_Bundle_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Humbling_Bundle"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Humbling_Bundle"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "hungry soul",
+    "name": "Hungry Soul",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hungry_Soul",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_Hungry_Soul_icon.png",
+    "desc": "Enemies have a chance to spawn ghosts on death, which chase and deal contact damage to enemies and explode after a short time."
 },
 {
     "id": "hushy",
     "name": "Hushy",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a Hush familiar that bounces around the room and deals contact damage. While firing tears, it stops moving.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Hush\" title=\"Hush\">Hush</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that bounces diagonally around the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> and deals contact damage. While firing tears, it stops moving.",
     "dlc": "afterbirthplus",
     "colors": "dark blue",
     "tags": "dead face ghost",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Collectible_Hushy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Hushy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hushy"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "hypercoagulation",
+    "name": "Hypercoagulation",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Hypercoagulation",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Collectible_Hypercoagulation_icon.png",
+    "desc": "Causes Isaac to spawn red hearts when he take damage to enemies, which vanish after one second."
 },
 {
     "id": "i - the magician",
@@ -4153,6 +4789,18 @@ const g_items = [
     "tags": "homing",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/67/Pickup_I_-_The_Magician_icon.png",
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "ibs",
+    "name": "IBS",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/IBS",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Collectible_IBS_icon.png",
+    "desc": "Causes Isaac to throw poop, create buffing creep, and drop bombs while fighting enemies."
 },
 {
     "id": "ii - the high priestess",
@@ -4188,19 +4836,31 @@ const g_items = [
     "colors": "white",
     "tags": "angel grub halo",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_Immaculate_Conception_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Immaculate_Conception"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Immaculate_Conception"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "immaculate heart",
+    "name": "Immaculate Heart",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Immaculate_Heart",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_Immaculate_Heart_icon.png",
+    "desc": "Adds one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> and +1.2x damage. In addition to normal tears, Isaac will occasionally fire extra tears that orbit around him."
 },
 {
     "id": "incubus",
     "name": "Incubus",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A demonic familiar that follows Isaac and shoots tears identical to Isaac's in terms of damage, range, fire rate, and effects.",
+    "desc": "Spawns a demonic <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that shoots tears identical to Isaac's in terms of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_effect\" class=\"mw-redirect\" title=\"Tear effect\">tear effects</a>.",
     "dlc": "afterbirth",
     "colors": "dark red",
     "tags": "demon",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Incubus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Incubus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_Incubus_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Incubus"
 },
 {
     "id": "infamy",
@@ -4212,55 +4872,67 @@ const g_items = [
     "colors": "gray",
     "tags": "face mask",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Collectible_Infamy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Infamy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Infamy"
 },
 {
     "id": "infestation",
     "name": "Infestation",
     "type": "passive",
     "subType": "",
-    "desc": "1-3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> randomly spawn every time Isaac gets hit.",
+    "desc": "1-3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> randomly spawn every time Isaac gets hit.",
     "dlc": "base",
     "colors": "white",
     "tags": "fly grub worm",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Collectible_Infestation_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Infestation"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Collectible_Infestation_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Infestation"
 },
 {
     "id": "infestation 2",
     "name": "Infestation 2",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns allied <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> from killed enemies.",
+    "desc": "Spawns allied <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> from killed enemies.",
     "dlc": "base",
     "colors": "pink",
     "tags": "spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Collectible_Infestation_2_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Infestation_2"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Infestation_2"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "inner child",
+    "name": "Inner Child",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Inner_Child",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/00/Collectible_Inner_Child_icon.png",
+    "desc": "Upon death, Isaac respawns in the current room with half a heart left, a massive size down, and +0.2 speed."
 },
 {
     "id": "ipecac",
     "name": "Ipecac",
     "type": "passive",
     "subType": "",
-    "desc": "Replaces tears with explosive and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoning</a> projectiles fired in an arc from the mouth.",
+    "desc": "Replaces tears with explosive and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoning</a> projectiles fired in an arc from the mouth.",
     "dlc": "base",
     "colors": "brown",
     "tags": "explosive jar",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Ipecac_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ipecac"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ipecac"
 },
 {
     "id": "iron bar",
     "name": "Iron Bar",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage by 0.3 and adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Effects#Concussive_Tears\" title=\"Effects\">concussive tears</a>, causing enemies to walk around randomly.",
+    "desc": "Increases damage by 0.3 and adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">concussive tears</a>, causing enemies to walk around randomly.",
     "dlc": "base",
     "colors": "silver",
     "tags": "metal shine",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Collectible_Iron_Bar_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Iron_Bar"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Iron_Bar"
 },
 {
     "id": "isaac's fork",
@@ -4291,12 +4963,12 @@ const g_items = [
     "name": "Isaac's Heart",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Isaac himself is now immune to all damage, and a heart <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> appears and follows Isaac. If the heart is hurt, Isaac is hurt.",
+    "desc": "Isaac himself is now immune to all damage, and a heart <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> appears and follows Isaac. If the heart is hurt, Isaac is hurt.",
     "dlc": "base",
     "colors": "red",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4b/Collectible_Isaac%27s_Heart_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Isaac%27s_Heart"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Isaac%27s_Heart"
 },
 {
     "id": "isaac's tears",
@@ -4309,6 +4981,30 @@ const g_items = [
     "tags": "cup glass water",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Collectible_Isaac%27s_Tears_Rebirth_icon.png",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Isaac%27s_Tears"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "isaac's tomb",
+    "name": "Isaac's Tomb",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Isaac%27s_Tomb",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Isaac%27s_Tomb_icon.png",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chests\" title=\"Chests\">Old Chest</a> at the start of each floor."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "it hurts",
+    "name": "It Hurts",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/It_Hurts",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f5/Collectible_It_Hurts_icon.png",
+    "desc": "Releases a ring of tears and increases tears for the current room when Isaac takes damage."
 },
 {
     "id": "iv - the emperor",
@@ -4356,7 +5052,7 @@ const g_items = [
     "colors": "",
     "tags": "electric metal spark tech",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/Collectible_Jacob%27s_Ladder_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Jacob%27s_Ladder"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Jacob%27s_Ladder"
 },
 {
     "id": "jar of flies",
@@ -4372,7 +5068,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "jar of wisps",
@@ -4387,12 +5083,12 @@ const g_items = [
     "name": "Jaw Bone",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a familiar that flies the room while firing, dealing a flat 7 damage to enemies that come in contact and retrieving pickups.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that flies through the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> while firing, dealing a flat 7 contact damage to enemies retrieving <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickups\" title=\"Pickups\">pickups</a>.",
     "dlc": "boosterpack5",
     "colors": "white",
     "tags": "curve loop shard u",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bc/Collectible_Jaw_Bone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Jaw_Bone"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Jaw_Bone"
 },
 {
     "id": "jera",
@@ -4411,12 +5107,12 @@ const g_items = [
     "name": "Jesus Juice",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Damage and Range.",
+    "desc": "+0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>.",
     "dlc": "base",
     "colors": "purple",
     "tags": "box drink straw",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Collectible_Jesus_Juice_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Jesus_Juice"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Jesus_Juice"
 },
 {
     "id": "joker",
@@ -4435,12 +5131,12 @@ const g_items = [
     "name": "Judas' Shadow",
     "type": "passive",
     "subType": "",
-    "desc": "Adds an extra life; upon <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Death\" title=\"Death\">death</a>, it respawns Isaac as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Judas#Black_Judas\" title=\"Judas\">Black Judas</a> with only two black hearts.",
+    "desc": "Adds an extra life; upon <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Death\" title=\"Death\">death</a>, it respawns Isaac as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Judas\" class=\"mw-redirect\" title=\"Black Judas\">Black Judas</a> with only two Black Hearts.",
     "dlc": "base",
     "colors": "dark",
     "tags": "baby body",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Judas%27_Shadow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Judas%27_Shadow"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Judas%27_Shadow"
 },
 {
     "id": "judas' tongue",
@@ -4459,12 +5155,12 @@ const g_items = [
     "name": "Juicy Sack",
     "type": "passive",
     "subType": "",
-    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows behind Isaac. It drips a trail of creep, which <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slows</a> enemies, and spawns 1-2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_spider\" class=\"mw-redirect\" title=\"Blue spider\">blue spiders</a> after each room.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and drips a trail of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">slow</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a>, spawning 1-2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> after each <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "creep round spider wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Collectible_Juicy_Sack_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Juicy_Sack"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Juicy_Sack"
 },
 {
     "id": "jumper cables",
@@ -4476,7 +5172,19 @@ const g_items = [
     "colors": "dark red",
     "tags": "2 clips tech wires",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Collectible_Jumper_Cables_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Jumper_Cables"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Jumper_Cables"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "jupiter",
+    "name": "Jupiter",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Jupiter",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Collectible_Jupiter_icon.png",
+    "desc": "+2 red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart containers</a>, -0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>. Isaac charges up while standing still, and releases a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poisoning</a> gas cloud when he moves."
 },
 {
     "id": "kamikaze!",
@@ -4504,7 +5212,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "keeper's box",
@@ -4515,40 +5223,64 @@ const g_items = [
     "desc": "Spawns a random shop item/pickup."
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "keeper's kin",
+    "name": "Keeper's Kin",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Keeper%27s_Kin",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Collectible_Keeper%27s_Kin_icon.png",
+    "desc": "Rocks and props spawn two blue spiders when destroyed."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "keeper's sack",
+    "name": "Keeper's Sack",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Keeper%27s_Sack",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/41/Collectible_Keeper%27s_Sack_icon.png",
+    "desc": "Gives range, speed, or damage when buying things from a shop. Also spawns three coins and a key on pickup."
+},
+{
     "id": "key bum",
     "name": "Key Bum",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a portable <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key_master\" class=\"mw-redirect\" title=\"Key master\">key master</a> that follows Isaac and collects keys, giving random chests in return.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and collects <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Keys\" title=\"Keys\">Keys</a> for himself, giving random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chests\" title=\"Chests\">Chests</a> in return.",
     "dlc": "afterbirth",
     "colors": "gray dark",
     "tags": "baby dead greed",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bb/Collectible_Key_Bum_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Key_Bum"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/52/Collectible_Key_Bum_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Key_Bum"
 },
 {
     "id": "key piece 1",
     "name": "Key Piece 1",
     "type": "passive",
     "subType": "",
-    "desc": "Combined with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key_Piece_2\" title=\"Key Piece 2\">Key Piece 2</a>, unlocks the golden gate in the starting room of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Chest\" title=\"The Chest\">The Chest</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>.",
+    "desc": "Combined with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key_Piece_2\" title=\"Key Piece 2\">Key Piece 2</a>, unlocks the golden gate in the starting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Chest\" title=\"The Chest\">The Chest</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "broken",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_Key_Piece_1_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Key_Piece_1"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Key_Piece_1"
 },
 {
     "id": "key piece 2",
     "name": "Key Piece 2",
     "type": "passive",
     "subType": "",
-    "desc": "Combined with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key_Piece_1\" title=\"Key Piece 1\">Key Piece 1</a>, unlocks the golden gate in the starting room of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Chest\" title=\"The Chest\">The Chest</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>.",
+    "desc": "Combined with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key_Piece_1\" title=\"Key Piece 1\">Key Piece 1</a>, unlocks the golden gate in the starting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Chest\" title=\"The Chest\">The Chest</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dark_Room\" title=\"Dark Room\">Dark Room</a> to fight <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mega_Satan\" title=\"Mega Satan\">Mega Satan</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "broken",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Collectible_Key_Piece_2_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Key_Piece_2"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/66/Collectible_Key_Piece_2_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Key_Piece_2"
 },
 {
     "id": "kidney bean",
@@ -4572,19 +5304,55 @@ const g_items = [
     "colors": "brown red",
     "tags": "blood gross",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/Collectible_Kidney_Stone_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Kidney_Stone"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Kidney_Stone"
 },
 {
     "id": "king baby",
     "name": "King Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a familiar that follows Isaac and makes other familiars follow it. While firing tears, it stops moving.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and makes other familiars follow it. While firing tears, other familiars stop moving.",
     "dlc": "afterbirthplus",
     "colors": "blue yellow",
     "tags": "baby crown dead",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Collectible_King_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/King_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/King_Baby"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "knife piece 1",
+    "name": "Knife Piece 1",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_1",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Knife_Piece_1_icon.png",
+    "desc": "Combined with <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Knife+Piece+2|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_2\" title=\"\"><img alt=\"15►Knife Piece 2\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_Knife_Piece_2_icon.png/revision/latest/scale-to-width-down/20?cb=20210331104346\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_2\" title=\"\">Knife Piece 2</a></span>, creates a knife <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that damages enemies and can open the door to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Corpse\" title=\"Corpse\"><img alt=\"Corpse\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/30/Stage_Corpse_icon.png/revision/latest/scale-to-width-down/20?cb=20210401153401\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Corpse\" title=\"Corpse\">Corpse</a>."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "knife piece 2",
+    "name": "Knife Piece 2",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_2",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_Knife_Piece_2_icon.png",
+    "desc": "Combined with <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Knife+Piece+1|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_1\" title=\"\"><img alt=\"15►Knife Piece 1\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Knife_Piece_1_icon.png/revision/latest/scale-to-width-down/20?cb=20210331104358\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knife_Piece_1\" title=\"\">Knife Piece 1</a></span>, creates a knife <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that damages enemies and can open the door to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Corpse\" title=\"Corpse\"><img alt=\"Corpse\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/30/Stage_Corpse_icon.png/revision/latest/scale-to-width-down/20?cb=20210401153401\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Corpse\" title=\"Corpse\">Corpse</a>."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "knockout drops",
+    "name": "Knockout Drops",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Knockout_Drops",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c3/Collectible_Knockout_Drops_icon.png",
+    "desc": "Adds a chance to shoot a fist tear that has extremely high <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knockback\" class=\"mw-redirect\" title=\"Knockback\">knockback</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confuses</a> enemies."
 },
 {
     "id": "lachryphagy",
@@ -4596,7 +5364,7 @@ const g_items = [
     "colors": "light blue",
     "tags": "face round wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/30/Collectible_Lachryphagy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lachryphagy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lachryphagy"
 },
 {
     "id": "large zit",
@@ -4608,11 +5376,11 @@ const g_items = [
     "colors": "yellow pink",
     "tags": "egg gross side sunny up",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/43/Collectible_Large_Zit_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Large_Zit"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Large_Zit"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "larynx",
@@ -4627,24 +5395,24 @@ const g_items = [
     "name": "Latch Key",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Luck by 1, grants 1 Soul Heart and spawns 2 Keys.",
+    "desc": "Grants 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a> and +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">luck</a>. Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">Keys</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "cord",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Collectible_Latch_Key_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Latch_Key"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Latch_Key"
 },
 {
     "id": "lazarus' rags",
     "name": "Lazarus' Rags",
     "type": "passive",
     "subType": "",
-    "desc": "Upon dying, resurrect as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Lazarus#Revived_Lazarus\" title=\"Lazarus\">Revived Lazarus</a> with one heart container and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Anemic\" title=\"Anemic\">Anemic</a> item.",
+    "desc": "Upon dying, resurrect as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Lazarus_Risen\" class=\"mw-redirect\" title=\"Lazarus Risen\">Lazarus Risen</a> with one heart container and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Anemic\" title=\"Anemic\">Anemic</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "blood cloth round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/Collectible_Lazarus%27_Rags_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lazarus%27_Rags"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lazarus%27_Rags"
 },
 {
     "id": "lazy worm",
@@ -4667,24 +5435,24 @@ const g_items = [
     "dlc": "afterbirthplus",
     "colors": "yellow",
     "tags": "pen stick",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/Collectible_Lead_Pencil_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lead_Pencil"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Collectible_Lead_Pencil_Afterbirth%2B_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lead_Pencil"
 },
 {
     "id": "leech",
     "name": "Leech",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a friendly familiar leech on the ground that hunts down enemies. Isaac heals for half a heart whenever Leech kills an enemy.",
+    "desc": "Spawns a leech <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that chases enemies, dealing ~3 damage per second. Heals a Half Red Heart whenever Leech kills an enemy.",
     "dlc": "base",
     "colors": "dark",
     "tags": "maggot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Collectible_Leech_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Leech"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Leech"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "lemegeton",
@@ -4711,12 +5479,12 @@ const g_items = [
     "name": "Leo",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Isaac can destroy <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Rock\" class=\"mw-redirect\" title=\"Rock\">rocks</a> by walking into them.",
+    "desc": "Isaac can destroy <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rock\" class=\"mw-redirect\" title=\"Rock\">rocks</a> by walking into them.",
     "dlc": "base",
     "colors": "blue",
     "tags": "noose rock rope stompy",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e5/Collectible_Leo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Leo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Leo"
 },
 {
     "id": "leprosy",
@@ -4728,7 +5496,7 @@ const g_items = [
     "colors": "pink red",
     "tags": "ball gross leprocy zit",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_Leprosy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Leprosy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Leprosy"
 },
 {
     "id": "liberty cap",
@@ -4747,12 +5515,24 @@ const g_items = [
     "name": "Libra",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Gives 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickups#Coins\" title=\"Pickups\">coins</a>, 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickups#Bombs\" title=\"Pickups\">bombs</a>, and 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickups#Keys\" title=\"Pickups\">keys</a> and balances out all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Attributes\" title=\"Attributes\">attributes</a>.",
+    "desc": "Gives 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a>, 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>, and 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">keys</a> and balances out all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Attribute\" class=\"mw-redirect\" title=\"Attribute\">attributes</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "balance",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Libra_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Libra"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Libra"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lil abaddon",
+    "name": "Lil Abaddon",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Abaddon",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_Lil_Abaddon_icon.png",
+    "desc": "Spawns a follower that has a Maw of the Void attack."
 },
 {
     "id": "lil brimstone",
@@ -4771,48 +5551,60 @@ const g_items = [
     "name": "Lil Chest",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a chest familiar that follows Isaac and drops a random pickup every few rooms.",
+    "desc": "Spawns a chest <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that spawns a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickup</a> (25% chance) or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinket</a> (10% chance) upon clearing a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>.",
     "dlc": "afterbirth",
     "colors": "brown",
     "tags": "cube",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/94/Collectible_Lil_Chest_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Chest"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Chest"
 },
 {
     "id": "lil delirium",
     "name": "Lil Delirium",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Grants a familiar that transforms into another random familiar every 10 seconds.",
+    "desc": "Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that transforms into another random familiar every 10 seconds.",
     "dlc": "boosterpack1",
     "colors": "white",
     "tags": "delirious face ghost",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Collectible_Lil_Delirium_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Delirium"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Collectible_Lil_Delirium_Booster_Pack_1_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Delirium"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lil dumpy",
+    "name": "Lil Dumpy",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Dumpy",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Collectible_Lil_Dumpy_icon.png",
+    "desc": "Gives Isaac a Dumpy familiar that, when it takes damage, pushes/stuns/poisons nearby enemies and flies in a random direction."
 },
 {
     "id": "lil gurdy",
     "name": "Lil Gurdy",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Gives Isaac a Gurdy familiar that will charge around the room dealing contact damage to enemies. Lil Gurdy is charged by holding down a fire button and letting go. The longer the button is held, the faster Lil Gurdy will fling itself across the screen. Lil Gurdy can pass over objects and obstacles in the room.",
+    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Gurdy_Jr.\" title=\"Gurdy Jr.\">Gurdy Jr.</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that charges up while Isaac is firing, bouncing around the room when released and dealing contact damage based on its speed.",
     "dlc": "afterbirth",
     "colors": "pink",
     "tags": "charge face gross round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Lil_Gurdy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Gurdy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Gurdy"
 },
 {
     "id": "lil haunt",
     "name": "Lil Haunt",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A familiar that damages enemies by chasing them as well as inducing the fear effect.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that chases down enemies, dealing 4 damage per second and inflicting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects#Effects\" title=\"Status Effects\">fear</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "ghost head",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Collectible_Lil_Haunt_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Haunt"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Haunt"
 },
 {
     "id": "lil larva",
@@ -4831,36 +5623,60 @@ const g_items = [
     "name": "Lil Monstro",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a familiar that fires clusters of tears. Must be charged before shooting.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that fires clusters of tears. Must be charged before shooting.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "cleft face palate tooth",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Collectible_Lil_Monstro_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Monstro"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Monstro"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lil portal",
+    "name": "Lil Portal",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Portal",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0a/Collectible_Lil_Portal_icon.png",
+    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that flies forward, consuming <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickups\" title=\"Pickups\">pickups</a> in its path. Each one will increase its size and damage and spawn a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Fly</a>. Every four pickups, it opens a portal that leads to an unexplored room."
 },
 {
     "id": "lil spewer",
     "name": "Lil Spewer",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a>, and grants a small Spewer familiar that charges up and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Creep\" title=\"Creep\">creep</a>. Using pills changes the creep type.",
+    "desc": "Drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a>, and spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that charges up and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a>. Using pills changes the creep type.",
     "dlc": "boosterpack5",
     "colors": "pink",
     "tags": "baby face fetus smile worm",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Collectible_Lil_Spewer_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil_Spewer"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Spewer"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lil' brimstone",
+    "name": "Lil' Brimstone",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Brimstone",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Collectible_Lil_Brimstone_Rebirth_icon.png",
+    "desc": "Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that shoots a thin <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"Brimstone\">Brimstone</a> beam. Must charge like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"Brimstone\">Brimstone</a> before shooting."
 },
 {
     "id": "lil' loki",
     "name": "Lil' Loki",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A Loki familiar that follows Isaac and shoots 4 tears in a cross pattern.",
+    "desc": "Spawns a Loki <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac and fires 4 tears in a cross pattern.",
     "dlc": "afterbirth",
     "colors": "red",
     "tags": "angel devil",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Collectible_Lil%27_Loki_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lil%27_Loki"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/00/Collectible_Lil%27_Loki_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil%27_Loki"
 },
 {
     "id": "linger bean",
@@ -4872,7 +5688,7 @@ const g_items = [
     "colors": "pink",
     "tags": "bean fart gas",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/Collectible_Linger_Bean_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Linger_Bean"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Linger_Bean"
 },
 {
     "id": "little baggy",
@@ -4884,67 +5700,67 @@ const g_items = [
     "colors": "clear",
     "tags": "pills",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ea/Collectible_Little_Baggy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_Baggy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_Baggy"
 },
 {
     "id": "little c.h.a.d.",
     "name": "Little C.H.A.D.",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> who will drop a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Health#Heart_Containers\" title=\"Health\">half red heart</a> every 3 rooms.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> who drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Hearts\" title=\"Hearts\">Half Red Heart</a> every 3 rooms.",
     "dlc": "base",
     "colors": "red",
     "tags": "heart",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Collectible_Little_C.H.A.D._icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_C.H.A.D."
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_C.H.A.D."
 },
 {
     "id": "little chubby",
     "name": "Little Chubby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Charger\" class=\"mw-redirect\" title=\"Charger\">charger</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that charges forward and deals touch damage to any enemies in its path.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charger\" class=\"mw-redirect\" title=\"Charger\">charger</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that charges forward and deals contact damage to any enemies in its path.",
     "dlc": "base",
     "colors": "white",
     "tags": "charge",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Collectible_Little_Chubby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_Chubby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_Chubby"
 },
 {
     "id": "little gish",
     "name": "Little Gish",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing tears</a>, impeding enemies' speed.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing tears</a>, impeding enemies' speed.",
     "dlc": "base",
     "colors": "dark",
     "tags": "face head orbital slow",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/Collectible_Little_Gish_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_Gish"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/Collectible_Little_Gish_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_Gish"
 },
 {
     "id": "little horn",
     "name": "Little Horn",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to fire a piercing tear that instantly kills any enemy that it touches.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Adds a chance to fire a piercing tear that instantly kills any enemy that it touches.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Adds a chance to fire a tear that summons <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Big_Horn\" title=\"Big Horn\">Big Horn</a>'s hand to crush the first enemy it hits, instantly killing monsters or greatly damaging bosses.",
     "dlc": "afterbirthplus",
     "colors": "black",
     "tags": "claw horn nail rhino sharp shiny",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Collectible_Little_Horn_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_Horn_(Item)"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_Horn_(Item)"
 },
 {
     "id": "little steven",
     "name": "Little Steven",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> who follows Isaac around and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
     "dlc": "base",
     "colors": "black",
     "tags": "homing",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_Little_Steven_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Little_Steven"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Little_Steven"
 },
 {
     "id": "locust of conquest",
@@ -5007,6 +5823,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Locust_of_War"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lodestone",
+    "name": "Lodestone",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lodestone",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Collectible_Lodestone_icon.png",
+    "desc": "Gives Isaac the chance to fire tears that magnetize enemies they hit, causing them to attract nearby pickups and enemies, as well as tears/shots from all sources."
+},
+{
     "id": "loki's horns",
     "name": "Loki's Horns",
     "type": "passive",
@@ -5016,31 +5844,31 @@ const g_items = [
     "colors": "dark",
     "tags": "ears horns",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Loki%27s_Horns_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Loki%27s_Horns"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Loki%27s_Horns"
 },
 {
     "id": "lord of the pit",
     "name": "Lord of the Pit",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a> and increases speed.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a> and +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>.",
     "dlc": "base",
     "colors": "black red",
     "tags": "cross evil",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Collectible_Lord_of_the_Pit_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lord_of_the_Pit"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Collectible_Lord_of_the_Pit_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lord_of_the_Pit"
 },
 {
     "id": "lost contact",
     "name": "Lost Contact",
     "type": "passive",
     "subType": "",
-    "desc": "Every tear has a small shield which will allow it to block one enemy projectile.",
+    "desc": "Isaac's tears can hit and destroy enemy projectiles. -0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "clear",
     "tags": "glass lens",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ce/Collectible_Lost_Contact_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lost_Contact"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lost_Contact"
 },
 {
     "id": "lost cork",
@@ -5059,12 +5887,24 @@ const g_items = [
     "name": "Lost Fly",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A familiar fly that moves in a straight line and attaches itself to the first obstacle or wall it comes into contact within each room. If any enemies walk into its path, it will do 7 contact damage per tick. If the obstacle it is attached to is destroyed then it will continue rolling in the direction it was previously traveling until it meets another wall or obstacle.",
+    "desc": "Spawns fly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that moves in a straight line and circles around the first wall or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Obstacle\" class=\"mw-redirect\" title=\"Obstacle\">obstacle</a> it hits, dealing 105 damage per second on contact.",
     "dlc": "afterbirth",
     "colors": "white beige gray",
     "tags": "fly",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b0/Collectible_Lost_Fly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lost_Fly"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Collectible_Lost_Fly_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lost_Fly"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "lost soul",
+    "name": "Lost Soul",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lost_Soul",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Collectible_Lost_Soul_icon.png",
+    "desc": "Gives Isaac a soul familiar that dies in one hit, respawning at the start of the next floor. If it survives an entire floor, it rewards Isaac with hearts or items."
 },
 {
     "id": "louse",
@@ -5083,12 +5923,12 @@ const g_items = [
     "name": "Lucky Foot",
     "type": "passive",
     "subType": "",
-    "desc": "+1 Luck. Increases chance of winning Shell Game Beggar. (Independent of luck stat)",
+    "desc": "+1 luck. Increases chance of winning <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shell_Game\" class=\"mw-redirect\" title=\"Shell Game\">Shell Games</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fortune_Teller\" class=\"mw-redirect\" title=\"Fortune Teller\">Fortune Tellers</a> (independent from the luck stat).<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Converts all bad pills into good pills, without identifying them.",
     "dlc": "base",
     "colors": "pink",
     "tags": "",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_Lucky_Foot_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lucky_Foot"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Collectible_Lucky_Foot_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lucky_Foot"
 },
 {
     "id": "lucky rock",
@@ -5115,16 +5955,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lucky_Toe"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "luna",
+    "name": "Luna",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Luna",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Collectible_Luna_icon.png",
+    "desc": "Adds an extra <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Room</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a> to each floor. Secret Rooms contain a beam of light that increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> for the current floor and give soul hearts."
+},
+{
     "id": "lunch",
     "name": "Lunch",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "dish dog food",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ef/Collectible_Lunch_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lunch"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lunch"
 },
 {
     "id": "lusty blood",
@@ -5136,19 +5988,19 @@ const g_items = [
     "colors": "red",
     "tags": "blood damage heart pointy",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Collectible_Lusty_Blood_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Lusty_Blood"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lusty_Blood"
 },
 {
     "id": "maggy's bow",
     "name": "Maggy's Bow",
     "type": "passive",
     "subType": "",
-    "desc": "Gives one heart container and doubles the healing provided by red hearts.",
+    "desc": "Gives one Red Heart container and doubles the healing provided by Red Hearts.",
     "dlc": "base",
     "colors": "pink",
     "tags": "candy tie",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/45/Collectible_Maggy%27s_Bow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Maggy%27s_Bow"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Maggy%27s_Bow"
 },
 {
     "id": "maggy's faith",
@@ -5167,12 +6019,12 @@ const g_items = [
     "name": "Magic 8 Ball",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Shot Speed, and drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tarot_card\" class=\"mw-redirect\" title=\"Tarot card\">tarot card</a> when picked up.",
+    "desc": "+0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>, spawns a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tarot_card\" class=\"mw-redirect\" title=\"Tarot card\">tarot card</a>.",
     "dlc": "base",
     "colors": "dark",
     "tags": "8 ball cue pool",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Collectible_Magic_8_Ball_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Magic_8_Ball"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Magic_8_Ball_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Magic_8_Ball"
 },
 {
     "id": "magic fingers",
@@ -5191,28 +6043,28 @@ const g_items = [
     "name": "Magic Mushroom",
     "type": "passive",
     "subType": "mushroom",
-    "desc": "Increases most stats, enlarges Isaac, grants a heart container and restores all health.",
+    "desc": "Makes Isaac bigger. Adds one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, x1.5 damage multiplier, +5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, and +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>. Restores all health on pickup.",
     "dlc": "base",
     "colors": "red",
     "tags": "dots dotted",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Magic_Mushroom_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Magic_Mushroom"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Magic_Mushroom"
 },
 {
     "id": "magic scab",
     "name": "Magic Scab",
     "type": "passive",
     "subType": "",
-    "desc": "Increases luck and HP by 1.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">luck</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "gross gross meat organ wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/79/Collectible_Magic_Scab_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Magic_Scab"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Magic_Scab"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "magic skin",
@@ -5227,12 +6079,12 @@ const g_items = [
     "name": "Magneto",
     "type": "passive",
     "subType": "",
-    "desc": "Pulls <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> towards Isaac.",
+    "desc": "Pulls <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> towards Isaac.",
     "dlc": "base",
     "colors": "red",
     "tags": "u",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Collectible_Magneto_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Magneto"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4b/Collectible_Magneto_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Magneto"
 },
 {
     "id": "mama mega!",
@@ -5251,12 +6103,12 @@ const g_items = [
     "name": "Marbles",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns 3 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinkets</a>. Taking damage has a small chance to swallow Isaac's currently held trinket, gaining its effect permanently.",
+    "desc": "Spawns 3 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinkets</a>, 5% chance to swallow held trinket after taking damage, gaining its effect permanently.",
     "dlc": "boosterpack5",
     "colors": "brown",
     "tags": "allies bag beads candy",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Collectible_Marbles_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Marbles"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Marbles"
 },
 {
     "id": "marked",
@@ -5267,8 +6119,8 @@ const g_items = [
     "dlc": "afterbirth",
     "colors": "red",
     "tags": "cross",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Marked_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Marked"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Collectible_Marked_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Marked"
 },
 {
     "id": "marrow",
@@ -5280,19 +6132,31 @@ const g_items = [
     "colors": "dark red",
     "tags": "bone heart",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/59/Collectible_Marrow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Marrow"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Marrow"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "mars",
+    "name": "Mars",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mars",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3e/Collectible_Mars_icon.png",
+    "desc": "Dash by double-tapping the movement key, becoming invulnerable and damaging enemies. There's a short cooldown before Isaac can dash again."
 },
 {
     "id": "match book",
     "name": "Match Book",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac 1 Black Heart and 3 bombs. Can also give troll bombs.",
+    "desc": "Grants Isaac one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>, Spawns two or three <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bombs</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "paper",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Match_Book_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Match_Book"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Match_Book"
 },
 {
     "id": "match stick",
@@ -5311,16 +6175,16 @@ const g_items = [
     "name": "Maw of the Void",
     "type": "passive",
     "subType": "",
-    "desc": "+1.0 Damage. Continuously firing for 2.5 seconds then releasing the fire button creates a black ring around Isaac that rapidly deals damage and can cause enemies to drop <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Black_heart\" class=\"mw-redirect\" title=\"Black heart\">Black hearts</a>.",
+    "desc": "Charged by firing for 2.5 seconds and when released, creates a black ring around Isaac that rapidly deals damage. <img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> +1 damage, the ring can cause enemies to drop <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>.",
     "dlc": "afterbirth",
     "colors": "red",
     "tags": "ring round swirl",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Maw_of_the_Void_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Maw_of_the_Void"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Collectible_Maw_of_the_Void_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Maw_of_the_Void"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "meat cleaver",
@@ -5335,12 +6199,12 @@ const g_items = [
     "name": "MEAT!",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a> and increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Damage\" title=\"Damage\">damage</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "bone food",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Collectible_MEAT%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/MEAT!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/MEAT!"
 },
 {
     "id": "meconium",
@@ -5380,7 +6244,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "mega mush",
@@ -5391,16 +6255,40 @@ const g_items = [
     "desc": "Gigantifies Isaac for 30 seconds, increasing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a> while lowering <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, granting invulnerability, and allowing Isaac to crush enemies and obstacles he walks on. The effect persists between rooms."
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "member card",
+    "name": "Member Card",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Member_Card",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Collectible_Member_Card_icon.png",
+    "desc": "Adds a trapdoor to every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">shop</a> that leads to a second shop with a unique stock and marked up prices."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "mercurius",
+    "name": "Mercurius",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mercurius",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Mercurius_icon.png",
+    "desc": "+0.4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>. Doors stay open after entering a room, even in rooms with enemies."
+},
+{
     "id": "metal plate",
     "name": "Metal Plate",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one soul heart. Enemy shots have a chance to be reflected at the shooter as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Effects#Status_Effects\" title=\"Effects\">confusing</a> tears.",
+    "desc": "Grants one Soul Heart. Enemy shots have a chance to be reflected at the shooter as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Confusion\" class=\"mw-redirect\" title=\"Confusion\">confusing</a> tears.",
     "dlc": "afterbirthplus",
     "colors": "silver grey",
     "tags": "4 horseshoe metal shoe",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Collectible_Metal_Plate_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Metal_Plate"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Metal_Plate"
 },
 {
     "id": "metronome",
@@ -5419,24 +6307,24 @@ const g_items = [
     "name": "Midas' Touch",
     "type": "passive",
     "subType": "",
-    "desc": "Enemies that touch Isaac are temporarily frozen and turn to gold. Any enemy killed while in this state will drop coins.",
+    "desc": "Enemies that touch Isaac are temporarily <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrified</a> and turn to gold. Any enemy killed while in this state will drop coins.",
     "dlc": "base",
     "colors": "gold",
     "tags": "shine",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f8/Collectible_Midas%27_Touch_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Midas%27_Touch"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Midas%27_Touch"
 },
 {
     "id": "milk!",
     "name": "Milk!",
     "type": "passive",
     "subType": "",
-    "desc": "A glass of milk follows Isaac and spills on the floor upon taking damage. After the milk spills, Isaac's tear delay is decreased by 2 for the rest of the room.",
+    "desc": "Spawns a glass <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that spills on the floor upon taking damage. After the milk spills, Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_delay\" class=\"mw-redirect\" title=\"Tear delay\">tear delay</a> is decreased by 2 for the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Room\" class=\"mw-redirect\" title=\"Room\">room</a>.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "cup drink glass mug",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Milk%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Milk!"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_Milk%21_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Milk!"
 },
 {
     "id": "mine crafter",
@@ -5455,12 +6343,12 @@ const g_items = [
     "name": "Mini Mush",
     "type": "passive",
     "subType": "mushroom",
-    "desc": "Increases Speed and Shot Height and decreases Isaac's size, but lowers Range.",
+    "desc": "Decreases Isaac's size, making him less likely to be hit. +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, -4.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a> (effective range is increased).",
     "dlc": "base",
     "colors": "blue",
     "tags": "dots dotted",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Collectible_Mini_Mush_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mini_Mush"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mini_Mush"
 },
 {
     "id": "missing no.",
@@ -5472,19 +6360,19 @@ const g_items = [
     "colors": "blue yellow red",
     "tags": "squares",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c2/Collectible_Missing_No._icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Missing_No."
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Missing_No."
 },
 {
     "id": "missing page 2",
     "name": "Missing Page 2",
     "type": "passive",
     "subType": "",
-    "desc": "Gives 1 black heart. Upon taking damage that reduces Isaac's health to one heart or less, activates <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a> effect, dealing 40 damage to all enemies in the room.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>. Upon taking damage that reduces Isaac's health to one heart or less, activates <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Necronomicon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\"><img alt=\"15►The Necronomicon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Necronomicon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071303\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\">The Necronomicon</a></span> effect, dealing 40 damage to all enemies in the room.",
     "dlc": "base",
     "colors": "",
     "tags": "bloody paper text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Missing_Page_2_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Missing_Page_2"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Missing_Page_2"
 },
 {
     "id": "missing poster",
@@ -5503,24 +6391,24 @@ const g_items = [
     "name": "Mitre",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a chance of converting any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_heart\" class=\"mw-redirect\" title=\"Red heart\">red hearts</a> pickups into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_heart\" class=\"mw-redirect\" title=\"Soul heart\">soul hearts</a> instead.",
+    "desc": "Grants a chance of converting any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a> pickups into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a> instead.",
     "dlc": "base",
     "colors": "yellow white",
     "tags": "cardinal hat holy pope",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Collectible_Mitre_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mitre"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d9/Collectible_Mitre_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mitre"
 },
 {
     "id": "moldy bread",
     "name": "Moldy Bread",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one full red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Health\" title=\"Health\">heart container</a>.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">Heart container</a>.",
     "dlc": "afterbirthplus",
     "colors": "yellow green",
     "tags": "bite slice toast",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Collectible_Moldy_Bread_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Moldy_Bread"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9a/Collectible_Midnight_Snack_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Midnight_Snack"
 },
 {
     "id": "mom's bottle of pills",
@@ -5560,7 +6448,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "mom's bracelet",
@@ -5575,24 +6463,24 @@ const g_items = [
     "name": "Mom's Coin Purse",
     "type": "passive",
     "subType": "mom",
-    "desc": "Spawns 4 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pill\" class=\"mw-redirect\" title=\"Pill\">pills</a> around Isaac.",
+    "desc": "Spawns 4 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pills</a> near Isaac.",
     "dlc": "base",
     "colors": "beige brown",
     "tags": "pack round sack",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c3/Collectible_Mom%27s_Coin_Purse_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Coin_Purse"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Coin_Purse"
 },
 {
     "id": "mom's contacts",
     "name": "Mom's Contacts",
     "type": "passive",
     "subType": "mom",
-    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifying tears</a>, which stop enemies in place and prevent them from moving or attacking. Range up.",
+    "desc": "+0.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>. Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Petrification\" class=\"mw-redirect\" title=\"Petrification\">petrifying tears</a>, which stop enemies in place and prevent them from moving or attacking.",
     "dlc": "base",
     "colors": "red pink",
     "tags": "eye freeze",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Collectible_Mom%27s_Contacts_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Contacts"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_Mom%27s_Contacts_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Contacts"
 },
 {
     "id": "mom's eye",
@@ -5603,44 +6491,44 @@ const g_items = [
     "dlc": "base",
     "colors": "white black",
     "tags": "eye",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/06/Collectible_Mom%27s_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Eye"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4e/Collectible_Mom%27s_Eye_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Eye"
 },
 {
     "id": "mom's eyeshadow",
     "name": "Mom's Eyeshadow",
     "type": "passive",
     "subType": "mom",
-    "desc": "Tears have a chance to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Charm\" class=\"mw-redirect\" title=\"Charm\">charm</a> enemies.",
+    "desc": "Tears have a chance to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charm\" class=\"mw-redirect\" title=\"Charm\">charm</a> enemies.",
     "dlc": "base",
     "colors": "dark blue",
     "tags": "charm makeup rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Collectible_Mom%27s_Eyeshadow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Eyeshadow"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Eyeshadow"
 },
 {
     "id": "mom's heels",
     "name": "Mom's Heels",
     "type": "passive",
     "subType": "mom",
-    "desc": "Increases range.",
+    "desc": "+5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Enemies that touch Isaac take 12 damage.",
     "dlc": "base",
     "colors": "red",
     "tags": "shoe",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/Collectible_Mom%27s_Heels_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Heels"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Heels"
 },
 {
     "id": "mom's key",
     "name": "Mom's Key",
     "type": "passive",
     "subType": "mom",
-    "desc": "Spawns 2 keys. Generates additional pickups from chests.",
+    "desc": "Adds 2 keys. <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">Chests</a> will drop additional <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Collectible_Mom%27s_Key_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Key"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Key"
 },
 {
     "id": "mom's knife",
@@ -5651,20 +6539,20 @@ const g_items = [
     "dlc": "base",
     "colors": "",
     "tags": "blade metal",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/79/Collectible_Mom%27s_Knife_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Knife"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Collectible_Mom%27s_Knife_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Knife"
 },
 {
     "id": "mom's lipstick",
     "name": "Mom's Lipstick",
     "type": "passive",
     "subType": "mom",
-    "desc": "Increases range and shot height.",
+    "desc": "+5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Spawns one random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart\" class=\"mw-redirect\" title=\"Heart\">heart</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "makeup",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Collectible_Mom%27s_Lipstick_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Lipstick"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Lipstick"
 },
 {
     "id": "mom's locket",
@@ -5707,24 +6595,24 @@ const g_items = [
     "name": "Mom's Pearls",
     "type": "passive",
     "subType": "",
-    "desc": "+1.25 Range Up. +0.5 Tear Height. +1 Luck Up.",
+    "desc": "+1.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">luck</a>.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "necklace ring round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/ba/Collectible_Mom%27s_Pearls_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Pearls"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Pearls"
 },
 {
     "id": "mom's perfume",
     "name": "Mom's Perfume",
     "type": "passive",
     "subType": "mom",
-    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"mw-redirect\" title=\"Fear\">fear tears</a> and decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tears\" title=\"Tears\">tear delay</a> by 1.",
+    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear tears</a> and decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_delay\" class=\"mw-redirect\" title=\"Tear delay\">tear delay</a> by 1.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "bottle cologne glass spray spritz",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Collectible_Mom%27s_Perfume_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Perfume"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Perfume"
 },
 {
     "id": "mom's purse",
@@ -5736,19 +6624,19 @@ const g_items = [
     "colors": "purple",
     "tags": "bag trinket",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Collectible_Mom%27s_Purse_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Purse"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Purse"
 },
 {
     "id": "mom's razor",
     "name": "Mom's Razor",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns an orbiting razor that damages enemies it touches and inflicts bleeding on enemies, causing them to slowly take damage over time.",
+    "desc": "Spawns an orbiting razor that deals contact damage and inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bleed\" class=\"mw-redirect\" title=\"Bleed\">bleeding</a> on enemies, causing them to slowly take damage over time.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "T stick",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Collectible_Mom%27s_Razor_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Razor"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Razor"
 },
 {
     "id": "mom's shovel",
@@ -5779,48 +6667,48 @@ const g_items = [
     "name": "Mom's Underwear",
     "type": "passive",
     "subType": "mom",
-    "desc": "Increases range.",
+    "desc": "+5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Spawns 3-6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> on pickup.",
     "dlc": "base",
     "colors": "pink",
     "tags": "panties panty",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Collectible_Mom%27s_Underwear_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Underwear"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Underwear"
 },
 {
     "id": "mom's wig",
     "name": "Mom's Wig",
     "type": "passive",
     "subType": "mom",
-    "desc": "Adds a chance to spawn <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_spider\" class=\"mw-redirect\" title=\"Blue spider\">blue spiders</a> when firing tears. Restores 1 red heart.",
+    "desc": "Adds a chance to spawn <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> when firing tears. Restores 1 red heart.",
     "dlc": "base",
     "colors": "orange",
     "tags": "itch spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/43/Collectible_Mom%27s_Wig_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Wig"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Wig"
 },
 {
     "id": "money = power",
     "name": "Money = Power",
     "type": "passive",
     "subType": "",
-    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Attributes#Damage\" title=\"Attributes\">damage</a> by 0.04 for every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickups#Coins\" title=\"Pickups\">coin</a> Isaac has, up to +3.96 damage at 99 coins.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> by 0.04 for every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a> Isaac has, up to +3.96 damage at 99 coins.",
     "dlc": "base",
     "colors": "",
     "tags": "$ dollar greed symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Money_%3D_Power_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Money_%3D_Power"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6e/Collectible_Money_%3D_Power_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Money_%3D_Power"
 },
 {
     "id": "mongo baby",
     "name": "Mongo Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Summons a familiar that copies the tears of Isaac's other familiars.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that copies the tears of Isaac's other familiars.",
     "dlc": "base",
     "colors": "blue beige",
     "tags": "baby",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Collectible_Mongo_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mongo_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mongo_Baby"
 },
 {
     "id": "monkey paw",
@@ -5847,16 +6735,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Monster_Manual"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "monstrance",
+    "name": "Monstrance",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Monstrance",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Collectible_Monstrance_icon.png",
+    "desc": "Isaac gains two circular auras that damage enemies. The inner aura deals more damage."
+},
+{
     "id": "monstro's lung",
     "name": "Monstro's Lung",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and grants a charged shot that fires multiple tears in the same fashion as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Monstro\" title=\"Monstro\">Monstro</a>.",
+    "desc": "Increases damage and grants a charged shot that fires multiple tears in the same fashion as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monstro\" title=\"Monstro\">Monstro</a>.",
     "dlc": "base",
     "colors": "pink",
     "tags": "gross organ",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_Monstro%27s_Lung_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Monstro%27s_Lung"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Monstro%27s_Lung"
 },
 {
     "id": "monstro's tooth",
@@ -5871,16 +6771,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Monstro%27s_Tooth"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "montezuma's revenge",
+    "name": "Montezuma's Revenge",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Montezuma%27s_Revenge",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Montezuma%27s_Revenge_icon.png",
+    "desc": "While firing, Isaac charges up a short-ranged <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15►Brimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span>-like diarrhea beam that shoots behind him."
+},
+{
     "id": "more options",
     "name": "More Options",
     "type": "passive",
     "subType": "",
-    "desc": "Two items spawn in every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. Only one can be taken; the other will disappear.",
+    "desc": "Two items spawn in every <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. Only one can be taken; the other will disappear.",
     "dlc": "afterbirth",
     "colors": "yellow",
     "tags": "? square",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Collectible_More_Options_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/More_Options"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/More_Options"
 },
 {
     "id": "moving box",
@@ -5911,12 +6823,12 @@ const g_items = [
     "name": "Mr. Dolly",
     "type": "passive",
     "subType": "",
-    "desc": "Tears and Range up. Spawns 3 random types of hearts on the floor when picked up.",
+    "desc": "+0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, spawns 3 random types of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart\" class=\"mw-redirect\" title=\"Heart\">Hearts</a> on the floor when picked up.",
     "dlc": "afterbirth",
     "colors": "pink yellow",
     "tags": "baby hair mag",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Collectible_Mr._Dolly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mr._Dolly"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mr._Dolly"
 },
 {
     "id": "mr. me!",
@@ -5935,36 +6847,48 @@ const g_items = [
     "name": "Mr. Mega",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac 5 bombs, and makes all dropped bombs larger, which have an increased blast radius and increased damage.",
+    "desc": "Grants 5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>, and makes all dropped bombs larger, which have an increased blast radius and increased damage.",
     "dlc": "base",
     "colors": "gray",
     "tags": "bomb face",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_Mr._Mega_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mr._Mega"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mr._Mega"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "mucormycosis",
+    "name": "Mucormycosis",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mucormycosis",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f0/Collectible_Mucormycosis_icon.png",
+    "desc": "Gives Isaac the chance to fire spore tears that stick to enemies and blow up after a few seconds, dealing damage and poisoning nearby enemies and releasing more spores."
 },
 {
     "id": "multidimensional baby",
     "name": "Multidimensional Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a familiar that will follow Isaac's movements on a 2.5-second delay. Tears that pass through the baby will be doubled and increase in speed.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that will follow Isaac's movements on a 2.5-second delay. Tears that pass through the baby will be doubled and increase in speed.",
     "dlc": "afterbirth",
     "colors": "gray",
     "tags": "baby glow",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2b/Collectible_Multidimensional_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Multidimensional_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Multidimensional_Baby_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Multidimensional_Baby"
 },
 {
     "id": "mutant spider",
     "name": "Mutant Spider",
     "type": "passive",
     "subType": "",
-    "desc": "Grants quadruple shot but decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tears\" title=\"Tears\">tears</a>.",
+    "desc": "Grants quadruple shot but decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>.",
     "dlc": "base",
     "colors": "green",
     "tags": "four quadruple",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Mutant_Spider_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mutant_Spider"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mutant_Spider"
 },
 {
     "id": "my little unicorn",
@@ -5983,24 +6907,24 @@ const g_items = [
     "name": "My Reflection",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac's tears a boomerang effect, and increases range and shot speed.",
+    "desc": "Gives Isaac's tears a boomerang effect. +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, x1.6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a> multiplier.",
     "dlc": "base",
     "colors": "white silver",
     "tags": "broken cracked mirror",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Collectible_My_Reflection_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/My_Reflection"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/My_Reflection"
 },
 {
     "id": "my shadow",
     "name": "My Shadow",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Each time Isaac takes damage, inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a> on all enemies in the room and spawns a black <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Charger\" class=\"mw-redirect\" title=\"Charger\">Charger</a> that will attack enemies. The Charger will be killed if it is damaged too much.",
+    "desc": "Each time Isaac takes damage, inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a> on all enemies in the room and spawns a black <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charger\" class=\"mw-redirect\" title=\"Charger\">Charger</a> that will attack enemies. The Charger will be killed if it is damaged too much.",
     "dlc": "afterbirth",
     "colors": "dark",
     "tags": "baby shadow silouhette",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_My_Shadow_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/My_Shadow"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/My_Shadow"
 },
 {
     "id": "mysterious candy",
@@ -6019,12 +6943,12 @@ const g_items = [
     "name": "Mysterious Liquid",
     "type": "passive",
     "subType": "",
-    "desc": "Tears leave a small, short lasting pool of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Creep\" title=\"Creep\">creep</a> on impact or when their range is depleted.",
+    "desc": "Tears leave a small, short lasting pool of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> on impact or when their range is depleted.",
     "dlc": "base",
     "colors": "gray green",
     "tags": "barbell broken cracked creep dumbell vial wet",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/16/Collectible_Mysterious_Liquid_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mysterious_Liquid"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Mysterious_Liquid_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mysterious_Liquid"
 },
 {
     "id": "mysterious paper",
@@ -6043,12 +6967,12 @@ const g_items = [
     "name": "Mystery Egg",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns an egg familiar, which cracks and turns into a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> enemy when Isaac is hurt. The egg regenerates upon entering a different room.",
+    "desc": "Spawns an egg <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a>, which cracks into a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">monster</a> when Isaac is hurt. The egg regenerates upon entering a different <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>.",
     "dlc": "boosterpack5",
     "colors": "pink",
     "tags": "cone round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Collectible_Mystery_Egg_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mystery_Egg"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mystery_Egg"
 },
 {
     "id": "mystery gift",
@@ -6067,24 +6991,48 @@ const g_items = [
     "name": "Mystery Sack",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar#Pickup_generation_familiars\" title=\"Familiar\">familiar</a> that drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart\" class=\"mw-redirect\" title=\"Heart\">heart</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bomb</a>, or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">key</a> every 5-6 rooms.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart\" class=\"mw-redirect\" title=\"Heart\">Heart</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bomb</a>, or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">key</a> every 5-6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">rooms</a>.",
     "dlc": "base",
     "colors": "purple",
     "tags": "? bag",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ce/Collectible_Mystery_Sack_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Mystery_Sack"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mystery_Sack"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "nancy bombs",
+    "name": "Nancy Bombs",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Nancy_Bombs",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Nancy_Bombs_icon.png",
+    "desc": "+5 bombs. Bombs explode with a random bomb effect."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "neptunus",
+    "name": "Neptunus",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Neptunus",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/20/Collectible_Neptunus_icon.png",
+    "desc": "While not firing, Isaac builds a massive <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> bonus over 3 seconds. The tear bonus falls off rapidly as Isaac fires."
 },
 {
     "id": "night light",
     "name": "Night Light",
     "type": "passive",
     "subType": "",
-    "desc": "A cone of light shines in the direction Isaac is moving that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Effects#Slow\" title=\"Effects\">slows</a> enemies and enemy shots.",
+    "desc": "A cone of light shines in the direction Isaac is moving that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slows</a> enemies and enemy shots.",
     "dlc": "afterbirth",
     "colors": "white blue",
     "tags": "box rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/Collectible_Night_Light_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Night_Light"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Night_Light"
 },
 {
     "id": "no!",
@@ -6103,12 +7051,12 @@ const g_items = [
     "name": "No. 2",
     "type": "passive",
     "subType": "",
-    "desc": "Continuously firing tears for several seconds causes Isaac to drop a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Butt_Bombs\" title=\"Butt Bombs\">Butt Bomb</a>. Butt Bombs explode for 60 damage like normal bombs, but also deal 10 damage to all enemies in the room and daze them for a short period of time.",
+    "desc": "Continuously firing tears for three seconds causes Isaac to drop a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Butt_Bombs\" title=\"Butt Bombs\">Butt Bomb</a>, which damages and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects\" title=\"Status Effects\">confuses</a> all enemies in the room when it explodes.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "diaper pin poop safety",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/Collectible_No._2_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/No._2"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/No._2"
 },
 {
     "id": "nose goblin",
@@ -6144,67 +7092,103 @@ const g_items = [
     "colors": "yellow",
     "tags": "drip",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Collectible_Number_One_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Number_One"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Number_One"
 },
 {
     "id": "obsessed fan",
     "name": "Obsessed Fan",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A purple fly familiar that follows Isaac's movements on a 3 second delay and deals contact damage to enemies.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac's movements on a 3 second delay and deals contact damage to enemies.",
     "dlc": "afterbirth",
     "colors": "purple",
     "tags": "fly",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Obsessed_Fan_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Obsessed_Fan"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Obsessed_Fan"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "ocular rift",
+    "name": "Ocular Rift",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ocular_Rift",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_Ocular_Rift_icon.png",
+    "desc": "Gives Isaac the chance to fire tears that create rifts where they land, which damage nearby enemies and pull in enemies, pickups, and tears/shots from all sources."
 },
 {
     "id": "odd mushroom (large)",
     "name": "Odd Mushroom (Large)",
     "type": "passive",
     "subType": "mushroom",
-    "desc": "Grants an empty heart container. Increases damage, range and shot height while reducing speed.",
     "dlc": "base",
     "colors": "brown",
     "tags": "",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Odd_Mushroom_(Large)",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ad/Collectible_Odd_Mushroom_%28Large%29_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Large)"
+    "desc": "Grants one empty <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, and -0.1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>."
 },
 {
     "id": "odd mushroom (thin)",
     "name": "Odd Mushroom (Thin)",
     "type": "passive",
     "subType": "mushroom",
-    "desc": "+1.7 tears, +0.3 speed, reduces damage.",
     "dlc": "base",
     "colors": "dark gray",
     "tags": "",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Odd_Mushroom_(Thin)",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Collectible_Odd_Mushroom_%28Thin%29_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Odd_Mushroom_(Thin)"
+    "desc": "+1.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, slightly reduces damage."
 },
 {
     "id": "old bandage",
     "name": "Old Bandage",
     "type": "passive",
     "subType": "",
-    "desc": "Adds one empty heart container. Whenever Isaac takes damage there's a chance that a Red Heart may drop.",
+    "desc": "Grants an empty Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>. Adds a chance of dropping a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a> after taking damage.",
     "dlc": "base",
     "colors": "white",
     "tags": "bandaid strips",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Old_Bandage_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Old_Bandage"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Old_Bandage"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "options?",
+    "name": "Options?",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Options%3F",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/06/Collectible_Options%3F_icon.png",
+    "desc": "If a room gives a reward when cleared, there will be two different rewards to chose from. Taking one causes the other to disappear."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "orphan socks",
+    "name": "Orphan Socks",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Orphan_Socks",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/Collectible_Orphan_Socks_icon.png",
+    "desc": "Prevents creep and floor spikes from damaging Isaac. Also gives Isaac +0.3 speed and 2 soul hearts."
 },
 {
     "id": "ouija board",
     "name": "Ouija Board",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> that travel through obstacles (but not enemies) instead of breaking on impact with them.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> that travel through obstacles (but not enemies) instead of breaking on impact with them.",
     "dlc": "base",
     "colors": "beige",
     "tags": "board page paper rectangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Ouija_Board_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ouija_Board"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ouija_Board"
 },
 {
     "id": "ouroboros worm",
@@ -6223,12 +7207,12 @@ const g_items = [
     "name": "Pageant Boy",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns several coins around Isaac.",
+    "desc": "Spawns seven random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coins\" title=\"Coins\">coins</a> around Isaac.",
     "dlc": "base",
     "colors": "pink",
     "tags": "coin crown fabulous",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3e/Collectible_Pageant_Boy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pageant_Boy"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Collectible_Pageant_Boy_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pageant_Boy"
 },
 {
     "id": "pandora's box",
@@ -6247,12 +7231,12 @@ const g_items = [
     "name": "Papa Fly",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A blue fly familiar follows Isaac's movements on a 3 second delay. Papa Fly will fire tears at nearby enemies.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac's movements on a 3 second delay, firing tears at nearby enemies.",
     "dlc": "afterbirth",
     "colors": "blue",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_Papa_Fly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Papa_Fly"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Papa_Fly"
 },
 {
     "id": "paper clip",
@@ -6271,12 +7255,24 @@ const g_items = [
     "name": "Parasitoid",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to fire an egg sack which spawns slowing creep and spawns a blue fly or spider upon hitting an enemy.",
+    "desc": "Adds a chance to fire an egg sack which creates slowing creep and spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Fly</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spider</a> upon hitting an enemy.",
     "dlc": "afterbirthplus",
     "colors": "blue white",
     "tags": "fly wings",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/af/Collectible_Parasitoid_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Parasitoid"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Parasitoid"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "paschal candle",
+    "name": "Paschal Candle",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Paschal_Candle",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Collectible_Paschal_Candle_icon.png",
+    "desc": "Gives Isaac a tears bonus based on how many consecutive rooms he's cleared without taking damage."
 },
 {
     "id": "pause",
@@ -6295,12 +7291,12 @@ const g_items = [
     "name": "Pay to Play",
     "type": "passive",
     "subType": "",
-    "desc": "+5 coins. Turns all doors that require a single key into doors which need a coin to enter instead. This affects shops, item rooms and libraries.",
+    "desc": "+5 coins. Turns doors that require a single key into doors which need a coin to enter instead.",
     "dlc": "afterbirth",
     "colors": "gray",
     "tags": "coin metal rectangle slot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_Pay_to_Play_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pay_to_Play"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pay_to_Play"
 },
 {
     "id": "pay to win",
@@ -6319,12 +7315,12 @@ const g_items = [
     "name": "Pentagram",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and increases the chance for a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a> to appear.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil Room</a> / <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_Room\" title=\"Angel Room\">Angel Room</a> chance by 10%.",
     "dlc": "base",
     "colors": "red",
     "tags": "evil star symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Collectible_Pentagram_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pentagram"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_Pentagram_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pentagram"
 },
 {
     "id": "perthro",
@@ -6355,12 +7351,12 @@ const g_items = [
     "name": "PHD",
     "type": "passive",
     "subType": "",
-    "desc": "Converts all bad pills into good pills, spawns one pill pickup and restores health. Identifies all pills upon pickup.",
+    "desc": "Converts all bad pills into good pills, spawns one pill pickup, and identifies all pills. Restores two Red Hearts and increases the payout of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blood_Donation_Machine\" class=\"mw-redirect\" title=\"Blood Donation Machine\">Blood Donation Machines</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "diploma page paper rectangle text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_PHD_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/PHD"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/PHD"
 },
 {
     "id": "piggy bank",
@@ -6371,8 +7367,8 @@ const g_items = [
     "dlc": "base",
     "colors": "pink",
     "tags": "coin",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/Collectible_Piggy_Bank_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Piggy_Bank"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Collectible_Piggy_Bank_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Piggy_Bank"
 },
 {
     "id": "pinky eye",
@@ -6391,24 +7387,24 @@ const g_items = [
     "name": "Pisces",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "-1 Tear Delay, adds <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Knock-back\" class=\"mw-redirect\" title=\"Knock-back\">knock-back</a> shots and increases tear size.",
+    "desc": "-1 Tear Delay, adds <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knock-back\" class=\"mw-redirect\" title=\"Knock-back\">knock-back</a> shots and increases tear size.",
     "dlc": "base",
     "colors": "blue",
     "tags": "h x",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Collectible_Pisces_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pisces"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pisces"
 },
 {
     "id": "pjs",
     "name": "PJs",
     "type": "passive",
     "subType": "",
-    "desc": "Grants four <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Health#Soul_Hearts\" title=\"Health\">soul hearts</a> and fully restores Isaac's red health.",
+    "desc": "Grants 4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a> and fully restores Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">health</a>.",
     "dlc": "afterbirth",
     "colors": "blue",
     "tags": "clothes pajama shirt shirt top",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b6/Collectible_PJs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/PJs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/PJs"
 },
 {
     "id": "placebo",
@@ -6427,12 +7423,12 @@ const g_items = [
     "name": "Placenta",
     "type": "passive",
     "subType": "",
-    "desc": "Grants a full <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a>, and a chance to regenerate a half-heart of health every minute of gameplay.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, and a chance to regenerate a Half Red Heart of health every minute of gameplay.",
     "dlc": "base",
     "colors": "purple",
     "tags": "gross meat organ yum",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Collectible_Placenta_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Placenta"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Placenta"
 },
 {
     "id": "plan c",
@@ -6448,7 +7444,19 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "playdough cookie",
+    "name": "Playdough Cookie",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Playdough_Cookie",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Playdough_Cookie_icon.png",
+    "desc": "Grants multicolored tears. Each color comes with a different <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_Effects\" title=\"Status Effects\">status</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_Effects\" title=\"Tear Effects\">tear</a> effect."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "plum flute",
@@ -6459,28 +7467,40 @@ const g_items = [
     "desc": "Summons the boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Baby_Plum\" title=\"Baby Plum\">Baby Plum</a> to fight for Isaac in the current room."
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "pluto",
+    "name": "Pluto",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pluto",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9b/Collectible_Pluto_icon.png",
+    "desc": "Significantly shrinks Isaac, allowing him to squeeze between objects and makes some enemy shots pass over him. Also gives +0.7 tears."
+},
+{
     "id": "pointy rib",
     "name": "Pointy Rib",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a bone familiar that can be aimed with the fire buttons and does contact damage.",
+    "desc": "Spawns a bone <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that hovers back and forth in front of Isaac, dealing damage equal to Isaac's damage.",
     "dlc": "boosterpack5",
     "colors": "white red",
     "tags": "bone broken sharp",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b4/Collectible_Pointy_Rib_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pointy_Rib"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pointy_Rib"
 },
 {
     "id": "poke go",
     "name": "Poke Go",
     "type": "passive",
     "subType": "",
-    "desc": "Upon entering a room with enemies in it, has a chance to spawn a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> enemy that persists across rooms.",
+    "desc": "Upon entering a room with enemies in it, has a chance to spawn a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> enemy that persists across rooms.",
     "dlc": "afterbirthplus",
     "colors": "black green",
     "tags": "device nintendo phone screen square tablet tech",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Collectible_Poke_Go_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Poke_Go"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Poke_Go"
 },
 {
     "id": "poker chip",
@@ -6499,12 +7519,12 @@ const g_items = [
     "name": "Polydactyly",
     "type": "passive",
     "subType": "",
-    "desc": "Allows Isaac to carry two cards, pills, or any combination of both at the same time. Drops a random card or pill.",
+    "desc": "Allows Isaac to carry two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards\" class=\"mw-redirect\" title=\"Cards\">cards</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pills\" title=\"Pills\">pills</a>, or any combination of both. Spawns one random card, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rune\" class=\"mw-redirect\" title=\"Rune\">rune</a> or pill.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "bean ear kidney organ",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/26/Collectible_Polydactyly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Polydactyly"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Polydactyly"
 },
 {
     "id": "polyphemus",
@@ -6515,8 +7535,8 @@ const g_items = [
     "dlc": "base",
     "colors": "white black blue",
     "tags": "eye large",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/Collectible_Polyphemus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Polyphemus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Collectible_Polyphemus_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Polyphemus"
 },
 {
     "id": "pop!",
@@ -6528,7 +7548,7 @@ const g_items = [
     "colors": "white red",
     "tags": "blood eyeballs eyes googly gross wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Collectible_Pop%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pop!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pop!"
 },
 {
     "id": "portable slot",
@@ -6575,8 +7595,20 @@ const g_items = [
     "dlc": "base",
     "colors": "white red",
     "tags": "eye gross",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Collectible_Proptosis_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Proptosis"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Collectible_Proptosis_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Proptosis"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "psy fly",
+    "name": "Psy Fly",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Psy_Fly",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Collectible_Psy_Fly_icon.png",
+    "desc": "Spawns a fly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> that chases and deflects enemy shots and converts them into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>."
 },
 {
     "id": "pulse worm",
@@ -6595,12 +7627,12 @@ const g_items = [
     "name": "Punching Bag",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a Mulligan Familiar that will wander the room randomly. Enemies will attack the Mulligan if it's closer.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mulligan\" title=\"Mulligan\">Mulligan</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that wanders randomly. Enemies will attack the Mulligan if it's closer.",
     "dlc": "base",
     "colors": "pink",
     "tags": "baby mulligan sad",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Collectible_Punching_Bag_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Punching_Bag"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Punching_Bag"
 },
 {
     "id": "pupula duplex",
@@ -6612,7 +7644,19 @@ const g_items = [
     "colors": "white",
     "tags": "eye gross pupil wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Collectible_Pupula_Duplex_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pupula_Duplex"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pupula_Duplex"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "purgatory",
+    "name": "Purgatory",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Purgatory",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/38/Collectible_Purgatory_icon.png",
+    "desc": "While in a room with enemies, spawns cracks on the ground. Walking over these cracks summon ghosts that launch themselves at enemies and explode."
 },
 {
     "id": "purity",
@@ -6624,7 +7668,7 @@ const g_items = [
     "colors": "white",
     "tags": "flower lotus pointy",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/35/Collectible_Purity_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Purity"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Purity"
 },
 {
     "id": "purple heart",
@@ -6655,28 +7699,40 @@ const g_items = [
     "name": "Pyro",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 99 bombs.",
+    "desc": "Grants 99 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
     "dlc": "base",
     "colors": "dark",
     "tags": "99 bomb face",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Collectible_Pyro_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pyro"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Collectible_Pyro_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pyro"
 },
 {
     "id": "pyromaniac",
     "name": "Pyromaniac",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac heals 1 heart instead of taking damage from an explosive source. Adds 5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
+    "desc": "Isaac heals 1 Red Heart instead of taking damage from an explosive source. Adds 5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>.",
     "dlc": "base",
     "colors": "orange yellow",
     "tags": "blast bomb flame heart",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Collectible_Pyromaniac_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Pyromaniac"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pyromaniac"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "quints",
+    "name": "Quints",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Quints",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/Collectible_Quints_icon.png",
+    "desc": "Killing enemies spawns a stationary shooting <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> where they died for the current room."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "r key",
@@ -6691,12 +7747,12 @@ const g_items = [
     "name": "Rainbow Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires tears with random effects.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around and fires tears with random effects.",
     "dlc": "base",
     "colors": "pink",
     "tags": "fabulous rainbow",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Collectible_Rainbow_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rainbow_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Collectible_Rainbow_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rainbow_Baby"
 },
 {
     "id": "rainbow worm",
@@ -6715,12 +7771,12 @@ const g_items = [
     "name": "Raw Liver",
     "type": "passive",
     "subType": "",
-    "desc": "Grants 2 Heart Containers and completely restores health.",
+    "desc": "Grants 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart_container\" class=\"mw-redirect\" title=\"Red Heart container\">Red Heart containers</a> and completely restores <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">health</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "meat",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fd/Collectible_Raw_Liver_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Raw_Liver"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Raw_Liver"
 },
 {
     "id": "razor blade",
@@ -6736,7 +7792,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "recall",
@@ -6744,7 +7800,7 @@ const g_items = [
     "type": "active",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Recall",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Recall_icon.png",
-    "desc": "Retrieves the Forgotten's body from any distance. Only available as the <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Birthright|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Birthright\" title=\"\"><img alt=\"15►Birthright\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Birthright_icon.png/revision/latest/scale-to-width-down/20?cb=20210331104424\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Birthright\" title=\"\">Birthright</a></span> effect for <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tainted_Forgotten\" title=\"Tainted Forgotten\">Tainted Forgotten</a>."
+    "desc": "Retrieves the Forgotten's body from any distance. Only available as the <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><span class=\"tooltip\" data-tooltip=\"i/tooltip|Birthright|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Birthright\" title=\"\"><img alt=\"15â–ºBirthright\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Birthright_icon.png/revision/latest/scale-to-width-down/20?cb=20210331104424\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Birthright\" title=\"\">Birthright</a></span> effect for <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tainted_Forgotten\" title=\"Tainted Forgotten\">Tainted Forgotten</a>."
 },
 {
     "id": "red candle",
@@ -6760,7 +7816,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "red key",
@@ -6783,6 +7839,30 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Red_Patch"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "red stew",
+    "name": "Red Stew",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Red_Stew",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a6/Collectible_Red_Stew_icon.png",
+    "desc": "Refills all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart containers</a>. Grants an enormous damage boost that wears off over time."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "redemption",
+    "name": "Redemption",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Redemption",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Collectible_Redemption_icon.png",
+    "desc": ""
+},
+{
     "id": "remote detonator",
     "name": "Remote Detonator",
     "type": "active",
@@ -6799,12 +7879,24 @@ const g_items = [
     "name": "Restock",
     "type": "passive",
     "subType": "",
-    "desc": "Causes <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shop\" title=\"Shop\">shops</a> to instantly restock their items when they are bought. Granted by default for every character in Greed Mode.",
+    "desc": "Causes <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">shops</a> to instantly restock their items when they are bought. Granted by default for every character in Greed Mode.",
     "dlc": "afterbirth",
     "colors": "blue",
     "tags": "arrow cycle round shop swirl",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Restock_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Restock"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Restock"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "revelation",
+    "name": "Revelation",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Revelation",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/94/Collectible_Revelation_icon.png",
+    "desc": ""
 },
 {
     "id": "rib of greed",
@@ -6835,12 +7927,12 @@ const g_items = [
     "name": "Robo-Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Follows Isaac around, shooting enemies with an eye laser similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Technology\" title=\"Technology\">Technology</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that shoots <span class=\"tooltip\" data-tooltip=\"i/tooltip|Technology|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Technology\" title=\"\"><img alt=\"15►Technology\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Collectible_Technology_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072526\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Technology\" title=\"\">Technology</a></span> lasers.",
     "dlc": "base",
     "colors": "white",
     "tags": "eye laser",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Collectible_Robo-Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Robo-Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Collectible_Robo-Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Robo-Baby"
 },
 {
     "id": "robo-baby 2.0",
@@ -6851,32 +7943,56 @@ const g_items = [
     "dlc": "base",
     "colors": "gray",
     "tags": "eye laser",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b0/Collectible_Robo-Baby_2.0_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Robo-Baby_2.0"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Collectible_Robo-Baby_2.0_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Robo-Baby_2.0"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "rock bottom",
+    "name": "Rock Bottom",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rock_Bottom",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Collectible_Rock_Bottom_icon.png",
+    "desc": "Sets all stats to their base value. Prevents stats from being lowered for the rest of the run."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "rocket in a jar",
+    "name": "Rocket in a Jar",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rocket_in_a_Jar",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Rocket_in_a_Jar_icon.png",
+    "desc": "+5 bombs. If Isaac is currently moving, placing a bomb will instead shoot a fast-moving, explosive rocket in the direction he's facing."
 },
 {
     "id": "roid rage",
     "name": "Roid Rage",
     "type": "passive",
     "subType": "syringe",
-    "desc": "Increases speed by 0.6, range by 5.25, and tear height by 0.5.",
+    "desc": "+0.6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, +5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>.",
     "dlc": "base",
     "colors": "green",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Collectible_Roid_Rage_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Roid_Rage"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Roid_Rage"
 },
 {
     "id": "rosary",
     "name": "Rosary",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 3 Soul Hearts. <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Bible\" title=\"The Bible\">The Bible</a> will appear in any item pool.",
+    "desc": "Adds 3 Soul Hearts. <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Bible\" title=\"The Bible\">The Bible</a> will appear in any item pool.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\">Also a +0.5 tears up.",
     "dlc": "base",
     "colors": "",
     "tags": "catholicism chain cross necklace penance",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d2/Collectible_Rosary_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rosary"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rosary"
 },
 {
     "id": "rosary bead",
@@ -6895,24 +8011,24 @@ const g_items = [
     "name": "Rotten Baby",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A familiar that spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_fly\" class=\"mw-redirect\" title=\"Blue fly\">blue flies</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Fly</a> when Isaac shoots. It can only have one Fly at a time.",
     "dlc": "base",
     "colors": "green",
     "tags": "dead fly",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Rotten_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rotten_Baby"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rotten_Baby"
 },
 {
     "id": "rotten meat",
     "name": "Rotten Meat",
     "type": "passive",
     "subType": "",
-    "desc": "Adds one heart container.",
+    "desc": "Adds one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "bird bone chicken cooked turkey",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Collectible_Rotten_Meat_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rotten_Meat"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rotten_Meat"
 },
 {
     "id": "rotten penny",
@@ -6927,16 +8043,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rotten_Penny"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "rotten tomato",
+    "name": "Rotten Tomato",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rotten_Tomato",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a6/Collectible_Rotten_Tomato_icon.png",
+    "desc": "Adds a chance to fire tears that <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mark\" class=\"mw-redirect\" title=\"Mark\">Mark</a> enemies. Marked enemies are attacked by other enemies."
+},
+{
     "id": "rubber cement",
     "name": "Rubber Cement",
     "type": "passive",
     "subType": "",
-    "desc": "Tears bounce off walls, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Enemy\" class=\"mw-redirect\" title=\"Enemy\">enemies</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Obstacle\" class=\"mw-redirect\" title=\"Obstacle\">environmental objects</a>.",
+    "desc": "Tears bounce off walls, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Enemy\" class=\"mw-redirect\" title=\"Enemy\">enemies</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Obstacle\" class=\"mw-redirect\" title=\"Obstacle\">environmental objects</a>.",
     "dlc": "base",
     "colors": "brown orange",
     "tags": "bounce jar",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Collectible_Rubber_Cement_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rubber_Cement"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rubber_Cement"
 },
 {
     "id": "rules card",
@@ -6955,12 +8083,12 @@ const g_items = [
     "name": "Rune Bag",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A bag that follows Isaac and drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes\" title=\"Cards and Runes\">rune</a> every 5-6 rooms.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes\" title=\"Cards and Runes\">rune</a> every 5-6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">rooms</a>.",
     "dlc": "afterbirth",
     "colors": "purple",
     "tags": "bag symbol",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Collectible_Rune_Bag_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rune_Bag"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rune_Bag"
 },
 {
     "id": "rusted key",
@@ -6979,48 +8107,60 @@ const g_items = [
     "name": "Sack Head",
     "type": "passive",
     "subType": "",
-    "desc": "Coins, bombs, keys, cards, runes and batteries have a chance to become <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Sacks\" title=\"Sacks\">sacks</a>.",
+    "desc": "Coins, bombs, keys, cards, runes and batteries have a chance to become <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sack\" class=\"mw-redirect\" title=\"Sack\">sacks</a>.",
     "dlc": "afterbirth",
     "colors": "beige",
     "tags": "box cry face sad tear",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Collectible_Sack_Head_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sack_Head"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sack_Head"
 },
 {
     "id": "sack of pennies",
     "name": "Sack of Pennies",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Isaac is followed by a small bag that drops a coin every 2 rooms.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coin</a> every 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">rooms</a>.",
     "dlc": "base",
     "colors": "purple",
     "tags": "bag coin",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Collectible_Sack_of_Pennies_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sack_of_Pennies"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sack_of_Pennies"
 },
 {
     "id": "sack of sacks",
     "name": "Sack of Sacks",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a sack familiar that drops a sack every 5-6 rooms cleared.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a sack every 5-6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">rooms</a> cleared.",
     "dlc": "afterbirthplus",
     "colors": "brown",
     "tags": "bag pack",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Collectible_Sack_of_Sacks_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sack_of_Sacks"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sack_of_Sacks"
 },
 {
     "id": "sacred heart",
     "name": "Sacred Heart",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and range while reducing shot speed and grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>. Grants a Heart Container and replenishes all Red Hearts.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>, x2.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> multiplier, +1 flat damage, +4.125 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.75 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, -0.4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, -0.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>, a red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_Container\" class=\"mw-redirect\" title=\"Heart Container\">Heart Container</a> and replenishes all Red Hearts.",
     "dlc": "base",
     "colors": "orange red",
     "tags": "+ flame heart homing",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Collectible_Sacred_Heart_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sacred_Heart"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sacred_Heart"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "sacred orb",
+    "name": "Sacred Orb",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sacred_Orb",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0f/Collectible_Sacred_Orb_icon.png",
+    "desc": ""
 },
 {
     "id": "sacrificial altar",
@@ -7039,24 +8179,24 @@ const g_items = [
     "name": "Sacrificial Dagger",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A dagger orbits Isaac, dealing very high damage and blocking enemy shots.",
+    "desc": "Spawns a dagger <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a>, dealing 225 damage per second and blocking enemy shots.",
     "dlc": "base",
     "colors": "silver",
     "tags": "bloody knife orbital",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/35/Collectible_Sacrificial_Dagger_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sacrificial_Dagger"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bd/Collectible_Sacrificial_Dagger_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sacrificial_Dagger"
 },
 {
     "id": "sad bombs",
     "name": "Sad Bombs",
     "type": "passive",
     "subType": "",
-    "desc": "+5 Bombs. Upon exploding, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> shoot 8 tears off in every direction, similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tammy%27s_Head\" title=\"Tammy's Head\">Tammy's Head</a>. The tears are affected by any tear modifiers Isaac has on his own tears.",
+    "desc": "+5 Bombs. Upon exploding, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a> shoot 10 tears around them, affected by tear modifiers.",
     "dlc": "base",
     "colors": "dark",
     "tags": "cry face",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Collectible_Sad_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sad_Bombs"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Collectible_Sad_Bombs_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sad_Bombs"
 },
 {
     "id": "safety cap",
@@ -7075,12 +8215,12 @@ const g_items = [
     "name": "Safety Pin",
     "type": "passive",
     "subType": "",
-    "desc": "Increases range and shot speed, while adding 1 Black Heart.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Heart</a>, +5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>, +0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "grey",
     "tags": "metal pin sharp",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a0/Collectible_Safety_Pin_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Safety_Pin"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Safety_Pin"
 },
 {
     "id": "safety scissors",
@@ -7099,24 +8239,36 @@ const g_items = [
     "name": "Sagittarius",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Speed\" title=\"Speed\">speed</a> by +0.2 and grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing tears</a>.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a> by +0.2 and grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing tears</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "arrow symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/Collectible_Sagittarius_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sagittarius"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_Sagittarius_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sagittarius"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "salvation",
+    "name": "Salvation",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Salvation",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Collectible_Salvation_icon.png",
+    "desc": "Gives Isaac a halo that summons beams of light on enemies inside it. The halo grows larger the more times Isaac has taken damage this floor."
 },
 {
     "id": "samson's chains",
     "name": "Samson's Chains",
     "type": "passive",
     "subType": "",
-    "desc": "Spawns a ball and chain familiar Isaac pulls behind him that damages enemies, blocks shots, and destroys rocks.",
+    "desc": "Attaches a ball and chain to Isaac that pulls behind him that damages enemies, blocks shots, and destroys most <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Obstacles#Destructible\" title=\"Obstacles\">obstacles</a>.",
     "dlc": "base",
     "colors": "dark",
     "tags": "ball chain",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Samson%27s_Chains_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Samson%27s_Chains"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Samson%27s_Chains"
 },
 {
     "id": "samson's lock",
@@ -7131,6 +8283,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Samson%27s_Lock"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "sanguine bond",
+    "name": "Sanguine Bond",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sanguine_Bond",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Collectible_Sanguine_Bond_icon.png",
+    "desc": "Spawns a special set of spikes in the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil Room</a>. Taking damage from the spikes has a chance to grant a reward."
+},
+{
     "id": "satanic bible",
     "name": "Satanic Bible",
     "type": "active",
@@ -7143,16 +8307,40 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Satanic_Bible"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "saturnus",
+    "name": "Saturnus",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Saturnus",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0a/Collectible_Saturnus_icon.png",
+    "desc": "Upon entering a room, a circle of tears orbits Isaac. Enemy tears have a chance to be caught in orbit, turning them friendly."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "sausage",
+    "name": "Sausage",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sausage",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Collectible_Sausage_icon.png",
+    "desc": "+0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">Speed</a>, +1.33 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">Damage</a>, +1.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_Speed\" title=\"Shot Speed\">Shot Speed</a>, +0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">Range</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">Luck</a>."
+},
+{
     "id": "scapular",
     "name": "Scapular",
     "type": "passive",
     "subType": "",
-    "desc": "Once per room, when Isaac is reduced to his last half red Heart, the aura around his head temporarily vanishes and he is granted one Soul Heart.",
+    "desc": "Once per room, when Isaac is reduced to his last half heart, he is granted one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>.",
     "dlc": "base",
     "colors": "purple",
     "tags": "chain cross necklace plates tags",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Scapular_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Scapular"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Scapular"
 },
 {
     "id": "scatter bombs",
@@ -7164,7 +8352,7 @@ const g_items = [
     "colors": "clear",
     "tags": "glass tnt",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/41/Collectible_Scatter_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Scatter_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Scatter_Bombs"
 },
 {
     "id": "schoolbag",
@@ -7176,7 +8364,7 @@ const g_items = [
     "colors": "brown",
     "tags": "backpack bag leather purse sack",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_Schoolbag_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Schoolbag"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Schoolbag"
 },
 {
     "id": "scissors",
@@ -7195,24 +8383,24 @@ const g_items = [
     "name": "Scorpio",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poison tears</a>, which deal damage over time when inflicted.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison tears</a>, which deal damage over time when inflicted.",
     "dlc": "base",
     "colors": "blue",
     "tags": "m",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Collectible_Scorpio_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Scorpio"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Scorpio"
 },
 {
     "id": "screw",
     "name": "Screw",
     "type": "passive",
     "subType": "",
-    "desc": "+0.5 tears up, +0.2 shot speed up.",
+    "desc": "+0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "metal nail spike",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Screw_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Screw"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Screw"
 },
 {
     "id": "second hand",
@@ -7231,52 +8419,52 @@ const g_items = [
     "name": "Seraphim",
     "type": "passive",
     "subType": "familiar",
-    "desc": "An angel familiar which follows Isaac and fires homing tears which deal 10 damage and have -25% shot speed.",
+    "desc": "Spawns an angel <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> which follows Isaac and fires <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_Effects#Effects\" title=\"Tear Effects\">homing tears</a> which deal 10 damage and have 75% shot speed.",
     "dlc": "afterbirth",
     "colors": "pink white blue",
     "tags": "angel baby",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Collectible_Seraphim_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Seraphim"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Seraphim"
 },
 {
     "id": "serpent's kiss",
     "name": "Serpent's Kiss",
     "type": "passive",
     "subType": "",
-    "desc": "Tears have a random chance to apply a poison effect to enemies. Isaac now deals poison damage on contact. Enemies that were poisoned have a chance to drop a black heart when killed.",
+    "desc": "Tears have a chance to apply a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> effect to enemies. Isaac poisons enemies on contact. Poisoned enemies have a chance to drop a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_heart\" class=\"mw-redirect\" title=\"Black heart\">black heart</a> when killed.",
     "dlc": "afterbirth",
     "colors": "green",
     "tags": "drip lips",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Collectible_Serpent%27s_Kiss_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Serpent%27s_Kiss"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Serpent%27s_Kiss"
 },
 {
     "id": "shade",
     "name": "Shade",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a shadow familiar that follows Isaac's movements on a 1 second delay and deals contact damage to enemies. After dealing enough damage, it is absorbed by Isaac and spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Charger\" class=\"mw-redirect\" title=\"Charger\">Chargers</a>.",
+    "desc": "Spawns a shadow <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac's movements on a 1 second delay and deals contact damage to enemies. After dealing enough damage, it is absorbed by Isaac and spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charger\" class=\"mw-redirect\" title=\"Charger\">Chargers</a>.",
     "dlc": "afterbirthplus",
     "colors": "purple",
     "tags": "baby face",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/59/Collectible_Shade_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Shade"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Shade"
 },
 {
     "id": "shard of glass",
     "name": "Shard of Glass",
     "type": "passive",
     "subType": "",
-    "desc": "Upon taking damage, Isaac has a chance to drop a full red heart, gain 5 range, and leave a trail of damaging red creep for the current room.",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Upon taking damage, Isaac has a chance to drop a full red heart, gain 5 range, and leave a trail of damaging red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> for the current room.<br><img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Taking damage causes Isaac to bleed, spraying a volley of blood in the direction he fires. Bleeding will eventually damage him, but it can be stopped by picking up a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a>.",
     "dlc": "afterbirthplus",
     "colors": "blue",
     "tags": "pointy sharp triangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Shard_of_Glass_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Shard_of_Glass"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Shard_of_Glass"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "sharp key",
@@ -7291,12 +8479,12 @@ const g_items = [
     "name": "Sharp Plug",
     "type": "passive",
     "subType": "",
-    "desc": "Using an activated item while it's not charged will charge it and Sharp Plug does 2 full heart damage to Isaac.",
+    "desc": "Damages Isaac in exchange for fully recharging Isaac's current activated item.",
     "dlc": "base",
     "colors": "white",
     "tags": "cord electrical",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Collectible_Sharp_Plug_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sharp_Plug"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sharp_Plug"
 },
 {
     "id": "sharp straw",
@@ -7356,55 +8544,55 @@ const g_items = [
     "colors": "green",
     "tags": "drip",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/Collectible_Sinus_Infection_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sinus_Infection"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sinus_Infection"
 },
 {
     "id": "sissy longlegs",
     "name": "Sissy Longlegs",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Wanders about the room, occasionally spawning <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that wanders randomly, occasionally spawning <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e6/Collectible_Sissy_Longlegs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sissy_Longlegs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sissy_Longlegs"
 },
 {
     "id": "sister maggy",
     "name": "Sister Maggy",
     "type": "passive",
     "subType": "familiar",
-    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around shooting blood tears.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that follows Isaac around shooting normal tears.",
     "dlc": "base",
     "colors": "red",
     "tags": "dead magdalene",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8b/Collectible_Sister_Maggy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sister_Maggy"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/Collectible_Sister_Maggy_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sister_Maggy"
 },
 {
     "id": "skatole",
     "name": "Skatole",
     "type": "passive",
     "subType": "",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fly\" title=\"Fly\">Flies</a> become harmless or less dangerous depending on the type.",
+    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fly\" title=\"Fly\">Flies</a> become harmless or less dangerous depending on the type.",
     "dlc": "base",
     "colors": "red black",
     "tags": "fly heart poop",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Skatole_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Skatole"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d0/Collectible_Skatole_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Skatole"
 },
 {
     "id": "skeleton key",
     "name": "Skeleton Key",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac 99 keys.",
+    "desc": "Gives Isaac 99 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Keys\" title=\"Keys\">keys</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "skull",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/Collectible_Skeleton_Key_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Skeleton_Key"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Collectible_Skeleton_Key_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Skeleton_Key"
 },
 {
     "id": "slipped rib",
@@ -7416,31 +8604,31 @@ const g_items = [
     "colors": "white",
     "tags": "bone curve shard",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/77/Collectible_Slipped_Rib_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Slipped_Rib"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Slipped_Rib"
 },
 {
     "id": "smart fly",
     "name": "Smart Fly",
     "type": "passive",
     "subType": "familiar",
-    "desc": "After Isaac takes damage, this fly will do continuous touch damage to whatever enemy caused the damage until it is dead. The fly will then systematically attack 1 enemy at a time until the room is cleared.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar#Orbital_familiars\" title=\"Familiar\">orbital familiar</a> that blocks enemy shots. Upon taking damage, the familiar will pursue enemies for the rest of the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>, dealing 22.5 damage per second.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "fly glow",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/67/Collectible_Smart_Fly_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Smart_Fly"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Smart_Fly"
 },
 {
     "id": "smb super fan",
     "name": "SMB Super Fan",
     "type": "passive",
     "subType": "",
-    "desc": "Increases all stats.",
+    "desc": "+1 Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.3 damage, +0.2 tears, +0.2 speed, +0.5 range, +1 tear height. Fully restores all red hearts.",
     "dlc": "base",
     "colors": "gray",
     "tags": "blade blood metal round saw teeth",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/77/Collectible_SMB_Super_Fan_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/SMB_Super_Fan"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/Collectible_SMB_Super_Fan_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/SMB_Super_Fan"
 },
 {
     "id": "smelter",
@@ -7455,76 +8643,100 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Smelter"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "sol",
+    "name": "Sol",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sol",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Collectible_Sol_icon.png",
+    "desc": "Reveals the location of the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss_room\" class=\"mw-redirect\" title=\"Boss room\">Boss room</a>. Upon defeating a boss, activates <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/XIX_-_The_Sun\" class=\"mw-redirect\" title=\"XIX - The Sun\">XIX - The Sun</a>, fully recharges Isaac's active item, and grants bonus damage and luck for the rest of the floor."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "soul locket",
+    "name": "Soul Locket",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Soul_Locket",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Soul_Locket_icon.png",
+    "desc": ""
+},
+{
     "id": "soy milk",
     "name": "Soy Milk",
     "type": "passive",
     "subType": "",
-    "desc": "Tears shrink and do much less damage, but fire in very rapid succession.",
+    "desc": "Tears are smaller and do much less damage, but fire in very rapid succession.",
     "dlc": "base",
     "colors": "white",
     "tags": "cup drink glass sucks",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Collectible_Soy_Milk_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Soy_Milk"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Soy_Milk_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Soy_Milk"
 },
 {
     "id": "spear of destiny",
     "name": "Spear of Destiny",
     "type": "passive",
     "subType": "",
-    "desc": "In addition to tears, Isaac now holds a spear in front of him which deals damage equal to 2 times his tear damage, and occasionally inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a>. The spear cannot be thrown but deals damage while it is in contact with an enemy.",
+    "desc": "In addition to tears, Isaac holds a spear in front of him which deals contact damage equal to 2x his tear damage, and occasionally inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fear\" class=\"mw-redirect\" title=\"Fear\">fear</a>.",
     "dlc": "afterbirth",
     "colors": "gray",
     "tags": "knife metal pointy sword weapon",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Collectible_Spear_of_Destiny_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spear_of_Destiny"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Spear_of_Destiny_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spear_of_Destiny"
 },
 {
     "id": "speed ball",
     "name": "Speed Ball",
     "type": "passive",
     "subType": "syringe",
-    "desc": "Increases speed by 0.3 and shot speed by 20%.",
+    "desc": "+0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ea/Collectible_Speed_Ball_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Speed_Ball"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Speed_Ball_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Speed_Ball"
 },
 {
     "id": "spelunker hat",
     "name": "Spelunker Hat",
     "type": "passive",
     "subType": "",
-    "desc": "Reveals type of adjacent rooms, including location for secret rooms and super secret rooms.",
+    "desc": "Reveals type of adjacent rooms, including location for Secret Rooms and Super Secret Rooms.",
     "dlc": "base",
     "colors": "",
     "tags": "hat light",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Collectible_Spelunker_Hat_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spelunker_Hat"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spelunker_Hat"
 },
 {
     "id": "spider baby",
     "name": "Spider Baby",
     "type": "passive",
     "subType": "",
-    "desc": "When hit, spawns up to 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>.",
+    "desc": "When hit, spawns up to 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "heart spider",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/33/Collectible_Spider_Baby_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spider_Baby"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Collectible_Spider_Baby_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spider_Baby"
 },
 {
     "id": "spider bite",
     "name": "Spider Bite",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing tears</a>, reducing speed of enemy movement and any projectile fired by them.",
+    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing tears</a>, reducing speed of enemy movement and any projectile fired by them.",
     "dlc": "base",
     "colors": "grey",
     "tags": "slow spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/Collectible_Spider_Bite_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spider_Bite"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spider_Bite"
 },
 {
     "id": "spider butt",
@@ -7543,16 +8755,16 @@ const g_items = [
     "name": "Spider Mod",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Displays Isaac's tear damage and enemy health bars. Spawns a gray spider familiar that wanders around and inflicts a random status effect on any enemies it comes into contact with. Occasionally spawns a blue spider upon clearing a room.",
+    "desc": "Displays Isaac's tear damage and enemy health bars. Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that wanders around and inflicts random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Status_effect\" class=\"mw-redirect\" title=\"Status effect\">status effects</a> on enemies it touches. Can spawn a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Little_Battery\" class=\"mw-redirect\" title=\"Little Battery\">Lil' Battery</a>/<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_spider\" class=\"mw-redirect\" title=\"Blue spider\">Blue spider</a> upon clearing a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>.",
     "dlc": "afterbirth",
     "colors": "gray red",
     "tags": "metal spider",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Collectible_Spider_Mod_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spider_Mod"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spider_Mod"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "spin to win",
@@ -7564,7 +8776,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "spindown dice",
@@ -7579,24 +8791,48 @@ const g_items = [
     "name": "Spirit of the Night",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a>.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a>.",
     "dlc": "base",
     "colors": "red black",
     "tags": "crescent evil flight fly moon symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/Collectible_Spirit_of_the_Night_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spirit_of_the_Night"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4d/Collectible_Spirit_of_the_Night_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spirit_of_the_Night"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "spirit shackles",
+    "name": "Spirit Shackles",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spirit_Shackles",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Collectible_Spirit_Shackles_icon.png",
+    "desc": "On death, Isaac's ghost is chained to his dead body and he can continue to fight with 1/2 of a heart. Isaac returns to life after clearing the room."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "spirit sword",
+    "name": "Spirit Sword",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spirit_Sword",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Collectible_Spirit_Sword_icon.png",
+    "desc": "Instead of tears, Isaac swings a sword. Charging does a spin attack and fires a projectile, and a projectile is sometimes fired with normal swings if Isaac has no empty red hearts."
 },
 {
     "id": "spoon bender",
     "name": "Spoon Bender",
     "type": "passive",
     "subType": "",
-    "desc": "Grants Isaac <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
+    "desc": "Grants Isaac <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a>.",
     "dlc": "base",
     "colors": "",
     "tags": "bent homing metal",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/15/Collectible_Spoon_Bender_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Spoon_Bender"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Spoon_Bender"
 },
 {
     "id": "sprinkler",
@@ -7615,12 +8851,36 @@ const g_items = [
     "name": "Squeezy",
     "type": "passive",
     "subType": "",
-    "desc": "Increases tears by 0.4, and spawns 2 Soul Hearts pickups.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> by 0.4, spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "grub worm",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/Collectible_Squeezy_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Squeezy"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Squeezy"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "stapler",
+    "name": "Stapler",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Stapler",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/16/Collectible_Stapler_icon.png",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>. Prevents Isaac from firing tears from one eye, like <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cain\" title=\"Cain\">Cain</a>."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "star of bethlehem",
+    "name": "Star of Bethlehem",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Star_of_Bethlehem",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_Star_of_Bethlehem_icon.png",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that slowly travels towards the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss_Room\" title=\"Boss Room\">Boss Room</a>, giving an aura that increases damage and tears and grants homing."
 },
 {
     "id": "starter deck",
@@ -7632,7 +8892,7 @@ const g_items = [
     "colors": "yellow",
     "tags": "box cards pills",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/11/Collectible_Starter_Deck_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Starter_Deck"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Starter_Deck"
 },
 {
     "id": "steam sale",
@@ -7644,7 +8904,7 @@ const g_items = [
     "colors": "white orange",
     "tags": "bar candy coupon text voucher",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b0/Collectible_Steam_Sale_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Steam_Sale"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Steam_Sale"
 },
 {
     "id": "stem cell",
@@ -7663,36 +8923,36 @@ const g_items = [
     "name": "Stem Cells",
     "type": "passive",
     "subType": "",
-    "desc": "Adds one filled <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a> and increases Shot Speed.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> and +0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "brown red",
     "tags": "blob gross meat round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Collectible_Stem_Cells_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Stem_Cells"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Stem_Cells"
 },
 {
     "id": "steven",
     "name": "Steven",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Damage by 1.",
+    "desc": "Increases damage by 1.",
     "dlc": "base",
     "colors": "white black",
     "tags": "face round",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Collectible_Steven_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Steven_(Item)"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Collectible_Steven_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Steven_(Item)"
 },
 {
     "id": "sticky bombs",
     "name": "Sticky Bombs",
     "type": "passive",
     "subType": "",
-    "desc": "+5 bombs. Bombs stick to enemies and spawn 2-4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> if they kill an enemy.",
+    "desc": "+5 bombs. Bombs stick to enemies and spawn 2-4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a> if they kill an enemy.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "round sack spider web",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Collectible_Sticky_Bombs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sticky_Bombs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sticky_Bombs"
 },
 {
     "id": "stigmata",
@@ -7704,11 +8964,11 @@ const g_items = [
     "colors": "brown",
     "tags": "cross sharp spike wood",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b5/Collectible_Stigmata_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Stigmata"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Stigmata"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "stitches",
@@ -7723,12 +8983,12 @@ const g_items = [
     "name": "Stop Watch",
     "type": "passive",
     "subType": "",
-    "desc": "<img alt=\"Removed in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Dlc_na_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155407\" decoding=\"async\" title=\"Removed in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-1\"> Automatically inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slow\" class=\"mw-redirect\" title=\"Slow\">slow</a> to all enemies in every room.<br><img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"> Upon taking damage, inflicts slow to all enemies for the current room.",
+    "desc": "<img alt=\"Removed in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Dlc_na_indicator.png/revision/latest/scale-to-width-down/31?cb=20171216155407\" decoding=\"async\" title=\"Removed in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-1\"> Automatically inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slow</a> to all enemies in every room.<br><img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"> Upon taking damage, inflicts slow to all enemies for the current room.",
     "dlc": "base",
     "colors": "blue white",
     "tags": "slow tech",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e5/Collectible_Stop_Watch_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Stop_Watch"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Stop_Watch"
 },
 {
     "id": "store credit",
@@ -7759,12 +9019,24 @@ const g_items = [
     "name": "Strange Attractor",
     "type": "passive",
     "subType": "",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickups\" title=\"Pickups\">Pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Trinkets\" title=\"Trinkets\">trinkets</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Monsters\" title=\"Monsters\">monsters</a> are magnetically attracted to Isaac's tears.",
+    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">Pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Trinket\" class=\"mw-redirect\" title=\"Trinket\">trinkets</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">monsters</a> are magnetically attracted to Isaac's tears.",
     "dlc": "base",
     "colors": "grey",
     "tags": "magnet metal",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6a/Collectible_Strange_Attractor_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Strange_Attractor"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Collectible_Strange_Attractor_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Strange_Attractor"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "strawman",
+    "name": "Strawman",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Strawman",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Strawman_icon.png",
+    "desc": ""
 },
 {
     "id": "stud finder",
@@ -7783,12 +9055,12 @@ const g_items = [
     "name": "Succubus",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a flying familiar that bounces around the room with a black aura, dealing rapid damage to any enemies inside it. While standing in the aura, Isaac gains a 1.5x tear damage multiplier.",
+    "desc": "Spawns a flying <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that bounces around the room with a black aura, dealing rapid damage to any enemies inside it. While standing in the aura, Isaac gains a 1.5x tear damage multiplier.",
     "dlc": "afterbirth",
     "colors": "dark",
     "tags": "demon",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Collectible_Succubus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Succubus"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Succubus"
 },
 {
     "id": "suicide king",
@@ -7804,7 +9076,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "sulfur",
@@ -7812,7 +9084,7 @@ const g_items = [
     "type": "active",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sulfur",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Collectible_Sulfur_icon.png",
-    "desc": "Grants <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15►Brimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> for the current room."
+    "desc": "Grants <span class=\"tooltip\" data-tooltip=\"i/tooltip|Brimstone|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\"><img alt=\"15â–ºBrimstone\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Collectible_Brimstone_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101611\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Brimstone\" title=\"\">Brimstone</a></span> for the current room."
 },
 {
     "id": "sulfuric acid",
@@ -7824,11 +9096,11 @@ const g_items = [
     "colors": "yellow",
     "tags": "bottle poison x",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Collectible_Sulfuric_Acid_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sulfuric_Acid"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sulfuric_Acid"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "sumptorium",
@@ -7855,12 +9127,12 @@ const g_items = [
     "name": "Super Bandage",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one Heart Container and gives 2 Soul Hearts.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> and 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
     "dlc": "base",
     "colors": "pink",
     "tags": "bandaid",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/45/Collectible_Super_Bandage_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Super_Bandage"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Super_Bandage"
 },
 {
     "id": "super magnet",
@@ -7876,7 +9148,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "suplex!",
@@ -7885,6 +9157,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Suplex!",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Collectible_Suplex%21_icon.png",
     "desc": "Allows Isaac to dash into and pick up enemies, then slam them into the ground to deal damage and create rock waves that damage nearby enemies and destroy obstacles."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "supper",
+    "name": "Supper",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Supper",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6d/Collectible_Supper_icon.png",
+    "desc": "Grants one Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> and restores all empty Red Hearts."
 },
 {
     "id": "swallowed penny",
@@ -7903,24 +9187,24 @@ const g_items = [
     "name": "Sworn Protector",
     "type": "passive",
     "subType": "familiar",
-    "desc": "An orbital angel which does 7 contact damage per tick and attracts and blocks enemy shots. Upon blocking 10 shots in a room it drops an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Eternal_Heart\" class=\"mw-redirect\" title=\"Eternal Heart\">Eternal Heart</a>.",
+    "desc": "Spawns an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Orbital_familiar\" class=\"mw-redirect\" title=\"Orbital familiar\">orbital familiar</a> which does 105 damage per second and attracts and blocks enemy shots. Upon blocking 10 shots in a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a> it drops an <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Eternal_Heart\" class=\"mw-redirect\" title=\"Eternal Heart\">Eternal Heart</a>.",
     "dlc": "afterbirth",
     "colors": "pink white",
     "tags": "angel halo orbital",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9f/Collectible_Sworn_Protector_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Sworn_Protector"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Sworn_Protector"
 },
 {
     "id": "synthoil",
     "name": "Synthoil",
     "type": "passive",
     "subType": "syringe",
-    "desc": "Increases damage by 1, range by 5.25, and tear height by 0.5.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +5.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>.",
     "dlc": "base",
     "colors": "grey white",
     "tags": "",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Collectible_Synthoil_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Synthoil"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Synthoil"
 },
 {
     "id": "tammy's head",
@@ -7951,24 +9235,24 @@ const g_items = [
     "name": "Tarot Cloth",
     "type": "passive",
     "subType": "",
-    "desc": "Drops a random card or rune. Doubles the effects of cards and runes.",
+    "desc": "Drops a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes\" title=\"Cards and Runes\">card or rune</a>. <img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\"> Doubles the effects of most cards and runes. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Doubles the effects of tarot cards.",
     "dlc": "afterbirthplus",
     "colors": "purple grey",
     "tags": "chunk fruit triangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7c/Collectible_Tarot_Cloth_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tarot_Cloth"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tarot_Cloth"
 },
 {
     "id": "taurus",
     "name": "Taurus",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Speed\" title=\"Speed\">Speed</a> down; gains speed while in a room with enemies until gaining <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/My_Little_Unicorn\" title=\"My Little Unicorn\">My Little Unicorn</a> effect for a few seconds.",
+    "desc": "-0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">Speed</a>. Isaac builds speed while in a room with enemies. At max speed, he gains the <span class=\"tooltip\" data-tooltip=\"i/tooltip|My+Little+Unicorn|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/My_Little_Unicorn\" title=\"\"><img alt=\"15►My Little Unicorn\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_My_Little_Unicorn_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072739\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/My_Little_Unicorn\" title=\"\">My Little Unicorn</a></span> effect for 5 seconds.",
     "dlc": "base",
     "colors": "blue",
     "tags": "unicorn",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Collectible_Taurus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Taurus"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Collectible_Taurus_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Taurus"
 },
 {
     "id": "tear detonator",
@@ -7992,43 +9276,43 @@ const g_items = [
     "colors": "gray yellow",
     "tags": "glass goggles laser mask scuba tech",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9c/Collectible_Tech_X_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tech_X"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tech_X"
 },
 {
     "id": "tech.5",
     "name": "Tech.5",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac occasionally fires an unlimited range <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser alongside his normal tears. The laser can glitch, mimicking the effects of certain items and trinkets.",
+    "desc": "Isaac occasionally fires an unlimited range <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser alongside his normal tears. The laser can glitch, mimicking the effects of certain items and trinkets.",
     "dlc": "base",
     "colors": "gray",
     "tags": "laser metal round tech",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/Collectible_Tech.5_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tech.5"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5d/Collectible_Tech.5_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tech.5"
 },
 {
     "id": "technology",
     "name": "Technology",
     "type": "passive",
     "subType": "",
-    "desc": "Replaces tears with a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser with unlimited range.",
+    "desc": "Replaces tears with a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser with unlimited range.",
     "dlc": "base",
     "colors": "white red",
     "tags": "eye laser metal round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Collectible_Technology_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Technology"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Technology"
 },
 {
     "id": "technology 2",
     "name": "Technology 2",
     "type": "passive",
     "subType": "",
-    "desc": "Decreases damage and replaces right eye tears with a unlimited range, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser which fires continuously.",
+    "desc": "Decreases damage and replaces right eye tears with a unlimited range, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Piercing_tears\" class=\"mw-redirect\" title=\"Piercing tears\">piercing</a> laser which fires continuously.",
     "dlc": "base",
     "colors": "red gray",
     "tags": "eye laser metal",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cf/Collectible_Technology_2_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Technology_2"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Technology_2"
 },
 {
     "id": "technology zero",
@@ -8040,7 +9324,7 @@ const g_items = [
     "colors": "silver black",
     "tags": "eye glass round shiny slot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Collectible_Technology_Zero_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Technology_Zero"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Technology_Zero"
 },
 {
     "id": "telekinesis",
@@ -8091,16 +9375,28 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Teleport_2.0"
 },
 {
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "terra",
+    "name": "Terra",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Terra",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Collectible_Terra_icon.png",
+    "desc": "Replaces tears with rocks that deal variable damage, have increased <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Knockback\" class=\"mw-redirect\" title=\"Knockback\">knockback</a>, and can destroy <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Obstacles\" title=\"Obstacles\">obstacles</a>."
+},
+{
     "id": "the battery",
     "name": "The Battery",
     "type": "passive",
     "subType": "",
-    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Activated_collectible\" class=\"mw-redirect\" title=\"Activated collectible\">Activated collectibles</a> can be \"overcharged\" to allow for an additional use.",
+    "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Activated_collectible\" class=\"mw-redirect\" title=\"Activated collectible\">Activated collectibles</a> can be \"overcharged\" to allow for an additional use.",
     "dlc": "base",
     "colors": "grey beige",
     "tags": "box charge",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Collectible_The_Battery_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Battery"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Battery"
 },
 {
     "id": "the bean",
@@ -8119,12 +9415,12 @@ const g_items = [
     "name": "The Belt",
     "type": "passive",
     "subType": "",
-    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Speed\" title=\"Speed\">speed</a> by 0.3.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a> by 0.3.",
     "dlc": "base",
     "colors": "brown",
     "tags": "leather tie",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Collectible_The_Belt_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Belt"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Collectible_The_Belt_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Belt"
 },
 {
     "id": "the bible",
@@ -8143,24 +9439,24 @@ const g_items = [
     "name": "The Black Bean",
     "type": "passive",
     "subType": "",
-    "desc": "When taking damage, Isaac farts, causing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> damage to all enemies in range.",
+    "desc": "When taking damage, Isaac farts, causing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> damage to all enemies in range.",
     "dlc": "base",
     "colors": "dark",
     "tags": "gas",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Collectible_The_Black_Bean_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Black_Bean"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Black_Bean"
 },
 {
     "id": "the body",
     "name": "The Body",
     "type": "passive",
     "subType": "",
-    "desc": "Adds 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_Container\" class=\"mw-redirect\" title=\"Heart Container\">Heart Containers</a>.",
+    "desc": "Adds 3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart_container\" class=\"mw-redirect\" title=\"Red Heart container\">Red Heart containers</a>.",
     "dlc": "base",
     "colors": "red white",
     "tags": "3 symbol",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Collectible_The_Body_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Body"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Body"
 },
 {
     "id": "the book of belial",
@@ -8215,24 +9511,24 @@ const g_items = [
     "name": "The Common Cold",
     "type": "passive",
     "subType": "",
-    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Effects#Poison\" title=\"Effects\">poison tears</a>, dealing damage over time when inflicted.",
+    "desc": "Adds a chance to shoot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison tears</a>, dealing damage over time when inflicted.",
     "dlc": "base",
     "colors": "green",
     "tags": "blob gross round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Collectible_The_Common_Cold_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Common_Cold"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Common_Cold"
 },
 {
     "id": "the compass",
     "name": "The Compass",
     "type": "passive",
     "subType": "",
-    "desc": "Reveals all special rooms (except <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">secret rooms of any kind</a>).",
+    "desc": "Reveals all special rooms (except <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">secret rooms of any kind</a>).",
     "dlc": "base",
     "colors": "red beige",
     "tags": "cylinder map round",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Collectible_The_Compass_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Compass"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/93/Collectible_The_Compass_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Compass"
 },
 {
     "id": "the d6",
@@ -8263,12 +9559,12 @@ const g_items = [
     "name": "The Halo",
     "type": "passive",
     "subType": "",
-    "desc": "Grants one Heart Container, +0.3 Damage, +0.2 Tears, +0.25 Range, +0.3 Speed, and +0.5 Tear Height.",
+    "desc": "Grants one full Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +0.25 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>, +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>, and +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tear_height\" class=\"mw-redirect\" title=\"Tear height\">tear height</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "ring",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Collectible_The_Halo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Halo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Halo"
 },
 {
     "id": "the hourglass",
@@ -8287,12 +9583,24 @@ const g_items = [
     "name": "The Inner Eye",
     "type": "passive",
     "subType": "",
-    "desc": "Grants triple shot but decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Tears\" title=\"Tears\">tears</a>.",
+    "desc": "Grants triple shot but decreases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "3 eye round triple",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/45/Collectible_The_Inner_Eye_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Inner_Eye"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Inner_Eye"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "the intruder",
+    "name": "The Intruder",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Intruder",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/Collectible_The_Intruder_icon.png",
+    "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> burrows in Isaac's head, firing 4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slowing</a> tears. Upon taking damage, there's a chance it will burst out of Isaac's head, spawning blue spiders and chasing enemies for the current room."
 },
 {
     "id": "the jar",
@@ -8315,8 +9623,8 @@ const g_items = [
     "dlc": "base",
     "colors": "brown",
     "tags": "step wood",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ef/Collectible_The_Ladder_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Ladder"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/69/Collectible_The_Ladder_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Ladder"
 },
 {
     "id": "the left hand",
@@ -8340,43 +9648,43 @@ const g_items = [
     "colors": "white",
     "tags": "eye tech",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Collectible_The_Ludovico_Technique_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Ludovico_Technique"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Ludovico_Technique"
 },
 {
     "id": "the mark",
     "name": "The Mark",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Damage and Speed, plus adds one Soul Heart.",
+    "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>, +1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, and +0.2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a>.",
     "dlc": "base",
     "colors": "red",
     "tags": "666 999 evil",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b4/Collectible_The_Mark_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Mark"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Mark"
 },
 {
     "id": "the mind",
     "name": "The Mind",
     "type": "passive",
     "subType": "",
-    "desc": "Grants the combined effects of the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Map\" title=\"Blue Map\">Blue Map</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Treasure_Map\" title=\"Treasure Map\">Treasure Map</a>, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Compass\" title=\"The Compass\">The Compass</a>, revealing the floor layout and all special rooms, including <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Secret_Room\" title=\"Secret Room\">Secret Rooms</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Rooms</a>.",
+    "desc": "Reveals the entire map, including all special rooms and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Rooms</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "symbol three triangle",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Collectible_The_Mind_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Mind"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Mind"
 },
 {
     "id": "the mulligan",
     "name": "The Mulligan",
     "type": "passive",
     "subType": "",
-    "desc": "Tears have a 1/6 chance of spawning allied <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_fly\" class=\"mw-redirect\" title=\"Blue fly\">blue flies</a> when they hit an enemy.",
+    "desc": "Tears have a 1/6 chance of spawning allied <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> when they hit an enemy.",
     "dlc": "base",
     "colors": "blue",
     "tags": "fly",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Collectible_The_Mulligan_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Mulligan"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a0/Collectible_The_Mulligan_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Mulligan"
 },
 {
     "id": "the nail",
@@ -8407,24 +9715,24 @@ const g_items = [
     "name": "The Negative",
     "type": "passive",
     "subType": "",
-    "desc": "If the character has half a red heart or no red hearts after taking damage, it triggers <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"The Necronomicon\">The Necronomicon</a> effect, damaging all enemies in the room. Also allows entrance into the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Dark_Room\" title=\"Dark Room\">Dark Room</a>.",
+    "desc": "If Isaac has half a red heart or no red hearts after taking damage, all enemies in the room take significant damage. Allows entrance into the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dark_Room\" title=\"Dark Room\"><img alt=\"Dark Room\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Stage_Dark_Room_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085759\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dark_Room\" title=\"Dark Room\">Dark Room</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Also allows access to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Home\" title=\"Home\"><img alt=\"Home\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Stage_Home_icon.png/revision/latest/scale-to-width-down/20?cb=20210401153415\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Home\" title=\"Home\">Home</a>.",
     "dlc": "base",
     "colors": "dark",
     "tags": "photo shot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b7/Collectible_The_Negative_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Negative"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Negative"
 },
 {
     "id": "the pact",
     "name": "The Pact",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage by 0.5, tears by 0.7 and grants two soul hearts upon pickup.",
+    "desc": "Grants two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Hearts\" class=\"mw-redirect\" title=\"Soul Hearts\">Soul Hearts</a>, +0.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a>, and +0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "blood contract drip page paper",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Collectible_The_Pact_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Pact"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Pact"
 },
 {
     "id": "the parasite",
@@ -8436,19 +9744,19 @@ const g_items = [
     "colors": "pink",
     "tags": "grub split worm",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Collectible_The_Parasite_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Parasite"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Parasite"
 },
 {
     "id": "the peeper",
     "name": "The Peeper",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern similar to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Boom_Fly\" title=\"Boom Fly\">Boom Flies</a> damaging enemies it passes through.",
+    "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that floats slowly around the room on a zig-zag pattern, damaging enemies it passes through.",
     "dlc": "base",
     "colors": "",
     "tags": "eye gross stalk",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Collectible_The_Peeper_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Peeper"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/79/Collectible_The_Peeper_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Peeper"
 },
 {
     "id": "the pinking shears",
@@ -8467,12 +9775,12 @@ const g_items = [
     "name": "The Polaroid",
     "type": "passive",
     "subType": "",
-    "desc": "If the character has half a red heart or no red hearts after taking damage, it triggers the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Book_of_Shadows\" title=\"Book of Shadows\">Book of Shadows</a> effect, creating a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all types of damage for 5 seconds. Also allows entrance into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Chest\" title=\"The Chest\">The Chest</a>.",
+    "desc": "If Isaac has half a red heart or no red hearts after taking damage, he gains a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all types of damage for 5 seconds. Allows entrance into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Chest\" title=\"The Chest\"><img alt=\"The Chest\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fe/Stage_The_Chest_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085840\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Chest\" title=\"The Chest\">The Chest</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Also allows access to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Home\" title=\"Home\"><img alt=\"Home\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f4/Stage_Home_icon.png/revision/latest/scale-to-width-down/20?cb=20210401153415\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Home\" title=\"Home\">Home</a>.",
     "dlc": "base",
     "colors": "white",
     "tags": "photo shot",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5d/Collectible_The_Polaroid_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Polaroid"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Polaroid"
 },
 {
     "id": "the poop",
@@ -8491,28 +9799,28 @@ const g_items = [
     "name": "The Relic",
     "type": "passive",
     "subType": "familiar",
-    "desc": "Isaac is followed by a small blue cross that will drop a Soul Heart every 5-6 rooms.",
+    "desc": "Spawns a cross <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that drops a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a> every 5-6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Room\" class=\"mw-redirect\" title=\"Room\">rooms</a>.",
     "dlc": "base",
     "colors": "blue",
     "tags": "cross heart soul",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_The_Relic_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Relic"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Collectible_The_Relic_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Relic"
 },
 {
     "id": "the sad onion",
     "name": "The Sad Onion",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Tears by 0.7.",
+    "desc": "Increases tears by 0.7.",
     "dlc": "base",
     "colors": "green",
     "tags": "bulb face vegetable",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Collectible_The_Sad_Onion_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Sad_Onion"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Sad_Onion"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "the scooper",
@@ -8527,36 +9835,60 @@ const g_items = [
     "name": "The Small Rock",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage by 1, increases tears by 0.2, and decreases speed by 0.1.",
+    "desc": "Increases damage by 1, increases tears by 0.2, and decreases speed by 0.2.",
     "dlc": "base",
     "colors": "",
     "tags": "stone",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Collectible_The_Small_Rock_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Small_Rock"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Small_Rock"
 },
 {
     "id": "the soul",
     "name": "The Soul",
     "type": "passive",
     "subType": "",
-    "desc": "Grants two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_heart\" class=\"mw-redirect\" title=\"Soul heart\">soul hearts</a>. Isaac gains a pulsing aura that repels enemies and projectiles.",
+    "desc": "Grants two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>. Isaac gains a pulsing aura that repels enemies and projectiles.",
     "dlc": "base",
     "colors": "blue white",
     "tags": "symbol three",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Collectible_The_Soul_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Soul"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Soul"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "the stairway",
+    "name": "The Stairway",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Stairway",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Stairway_icon.png",
+    "desc": ""
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "the swarm",
+    "name": "The Swarm",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Swarm",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Collectible_The_Swarm_icon.png",
+    "desc": "Spawns nine orbital flies, which turn into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> after they block a shot. Each time a room is cleared, spawns another orbital fly."
 },
 {
     "id": "the virus",
     "name": "The Virus",
     "type": "passive",
     "subType": "syringe",
-    "desc": "Inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> to enemies who make contact with Isaac. Speed down. <img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\">Poisoned enemies have a chance to drop a black heart when killed.",
+    "desc": "Inflicts <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">poison</a> to enemies who make contact with Isaac. Speed down. <img alt=\"Added in Afterbirth / Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Dlc_anr_indicator.png/revision/latest/scale-to-width-down/29?cb=20200828182533\" decoding=\"async\" title=\"Added in Afterbirth / Removed in Repentance\" width=\"29\" height=\"14\" class=\"dlc dlc-6\">Poisoned enemies have a chance to drop a black heart when killed.",
     "dlc": "base",
     "colors": "red",
     "tags": "poison touch",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0d/Collectible_The_Virus_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Virus"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Virus"
 },
 {
     "id": "the wafer",
@@ -8568,19 +9900,19 @@ const g_items = [
     "colors": "white",
     "tags": "+ pill round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/02/Collectible_The_Wafer_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Wafer"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Wafer"
 },
 {
     "id": "the wiz",
     "name": "The Wiz",
     "type": "passive",
     "subType": "",
-    "desc": "Tears simultaneously fire out of both eyes diagonally, similar to the effect of the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pills\" title=\"Pills\">R U A Wizard?</a> pill. Isaac's tears also travel above all obstacles.",
+    "desc": "Tears simultaneously fire out of both eyes diagonally, similar to the effect of the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/R_U_a_Wizard%3F\" class=\"mw-redirect\" title=\"R U a Wizard?\">R U a Wizard?</a> pill. Isaac's tears also travel above all obstacles.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "cap cone dunce hat text",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/Collectible_The_Wiz_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/The_Wiz"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/The_Wiz"
 },
 {
     "id": "there's options",
@@ -8591,20 +9923,20 @@ const g_items = [
     "dlc": "base",
     "colors": "white",
     "tags": "? item rectangle",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Collectible_There%27s_Options_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/There%27s_Options"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Collectible_There%27s_Options_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/There%27s_Options"
 },
 {
     "id": "thunder thighs",
     "name": "Thunder Thighs",
     "type": "passive",
     "subType": "",
-    "desc": "Destroys rocks upon contact with Isaac. Adds one heart container and lowers Speed.",
+    "desc": "Destroys rocks upon contact with Isaac. Adds one Red Heart container and lowers Speed.",
     "dlc": "base",
     "colors": "yellow gray",
     "tags": "jar stuff text wet wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Thunder_Thighs_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Thunder_Thighs"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Thunder_Thighs"
 },
 {
     "id": "tick",
@@ -8628,43 +9960,79 @@ const g_items = [
     "colors": "gray",
     "tags": "asteroid ball meteor moon orbit rock round",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/20/Collectible_Tiny_Planet_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tiny_Planet"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tiny_Planet"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "tinytoma",
+    "name": "Tinytoma",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tinytoma",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Collectible_Tinytoma_icon.png",
+    "desc": ""
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "tmtrainer",
+    "name": "TMTRAINER",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/TMTRAINER",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Collectible_TMTRAINER_icon.png",
+    "desc": "Causes all future items to be \"glitched\", granting them completely random effects."
 },
 {
     "id": "tonsil",
     "name": "Tonsil",
-    "type": "trinket",
+    "type": "passive",
     "subType": "",
-    "desc": "When hit, there is a small chance a removed tonsil familiar starts following Isaac, blocking enemy shots.",
+    "desc": "Grants a familiar that can block enemy shots.",
     "dlc": "afterbirthplus",
     "colors": "pink",
     "tags": "gross organ round wet",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Trinket_Tonsil_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tonsil"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tonsil"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "tooth and nail",
+    "name": "Tooth and Nail",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tooth_and_Nail",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d8/Collectible_Tooth_and_Nail_icon.png",
+    "desc": "Isaac periodically turns into a spiked statue, briefly becoming invulnerable and dealing contact damage."
 },
 {
     "id": "toothpicks",
     "name": "Toothpicks",
     "type": "passive",
     "subType": "",
-    "desc": "+0.7 tears, +16% shot speed.",
+    "desc": "+0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "yellow",
     "tags": "sharp sticks twig wood",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Toothpicks_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Toothpicks"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Toothpicks"
 },
 {
     "id": "torn photo",
     "name": "Torn Photo",
     "type": "passive",
     "subType": "",
-    "desc": "Tears + Shot speed up.",
+    "desc": "+0.7 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a>, +0.16 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shot_speed\" class=\"mw-redirect\" title=\"Shot speed\">shot speed</a>.",
     "dlc": "base",
     "colors": "gray",
     "tags": "mom picture rip",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Torn_Photo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Torn_Photo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Torn_Photo"
 },
 {
     "id": "tough love",
@@ -8675,20 +10043,20 @@ const g_items = [
     "dlc": "base",
     "colors": "dark",
     "tags": "brass four knuckles teeth tooth",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Collectible_Tough_Love_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tough_Love"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/Collectible_Tough_Love_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tough_Love"
 },
 {
     "id": "toxic shock",
     "name": "Toxic Shock",
     "type": "passive",
     "subType": "",
-    "desc": "Upon entering a room, poisons all enemies, dealing double Isaac's tear damage. Killing enemies leaves a small, short lasting pool of green <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Creep\" title=\"Creep\">creep</a> on the ground.",
+    "desc": "Upon entering a room, poisons all enemies, dealing double Isaac's tear damage. Killing enemies leaves a small, short lasting pool of green <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a> on the ground.",
     "dlc": "afterbirth",
     "colors": "green",
     "tags": "contagion radioactive symbol warning",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Collectible_Toxic_Shock_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Toxic_Shock"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Toxic_Shock"
 },
 {
     "id": "tractor beam",
@@ -8700,19 +10068,19 @@ const g_items = [
     "colors": "blue",
     "tags": "glow laser",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6e/Collectible_Tractor_Beam_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Tractor_Beam"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tractor_Beam"
 },
 {
     "id": "transcendence",
     "name": "Transcendence",
     "type": "passive",
     "subType": "",
-    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">flight</a>.",
+    "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">flight</a>.",
     "dlc": "base",
     "colors": "brown",
     "tags": "flight fly noose rope",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Collectible_Transcendence_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Transcendence"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Transcendence"
 },
 {
     "id": "treasure map",
@@ -8724,19 +10092,19 @@ const g_items = [
     "colors": "beige",
     "tags": "page paper trail",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Collectible_Treasure_Map_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Treasure_Map"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Map"
 },
 {
     "id": "trinity shield",
     "name": "Trinity Shield",
     "type": "passive",
     "subType": "",
-    "desc": "Isaac gains a shield that protects him from enemy shots.",
+    "desc": "Isaac gains a shield that protects him from enemy shots. It aims in the direction Isaac fires from.",
     "dlc": "base",
     "colors": "blue gray",
     "tags": "3 armor metal swirl symbol",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4a/Collectible_Trinity_Shield_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Trinity_Shield"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Trinity_Shield"
 },
 {
     "id": "trisagion",
@@ -8748,7 +10116,31 @@ const g_items = [
     "colors": "white",
     "tags": "3 knot shine spike worms",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/25/Collectible_Trisagion_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Trisagion"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Trisagion"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "tropicamide",
+    "name": "Tropicamide",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tropicamide",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Collectible_Tropicamide_icon.png",
+    "desc": "+1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>. Increases the size of tears."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "twisted pair",
+    "name": "Twisted Pair",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Twisted_Pair",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Twisted_Pair_icon.png",
+    "desc": ""
 },
 {
     "id": "umbilical cord",
@@ -8788,7 +10180,19 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "uranus",
+    "name": "Uranus",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Uranus",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Collectible_Uranus_icon.png",
+    "desc": "Isaac shoots ice tears, which <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slow\" class=\"mw-redirect\" title=\"Slow\">slow</a> enemies and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Freeze\" class=\"mw-redirect\" title=\"Freeze\">freeze</a> monsters they kill. Frozen enemies slide away and explode into ice shards when touched."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "urn of souls",
@@ -8824,7 +10228,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "vade retro",
@@ -8833,6 +10237,18 @@ const g_items = [
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Vade_Retro",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/Collectible_Vade_Retro_icon.png",
     "desc": "While held, non-ghost enemies leave behind small, red ghosts on death; using the item causes the ghosts to explode, dealing damage to nearby enemies. Stronger enemies leave behind stronger ghosts that create more powerful explosions."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "vanishing twin",
+    "name": "Vanishing Twin",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Vanishing_Twin",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Collectible_Vanishing_Twin_icon.png",
+    "desc": ""
 },
 {
     "id": "varicose veins",
@@ -8844,7 +10260,31 @@ const g_items = [
     "colors": "red",
     "tags": "gross guts organ",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a0/Collectible_Varicose_Veins_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Varicose_Veins"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Varicose_Veins"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "vasculitis",
+    "name": "Vasculitis",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Vasculitis",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/Collectible_Vasculitis_icon.png",
+    "desc": "Enemies explode into tears upon death, which inherit the effects of Isaac's tears."
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "vengeful spirit",
+    "name": "Vengeful Spirit",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Vengeful_Spirit",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/Collectible_Vengeful_Spirit_icon.png",
+    "desc": ""
 },
 {
     "id": "ventricle razor",
@@ -8857,6 +10297,18 @@ const g_items = [
     "tags": "blood cut knife metal",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Collectible_Ventricle_Razor_Afterbirth_icon.png",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ventricle_Razor"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "venus",
+    "name": "Venus",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Venus",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Collectible_Venus_icon.png",
+    "desc": "Adds one red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a>. Enemies near Isaac become <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Charm\" class=\"mw-redirect\" title=\"Charm\">charmed</a>."
 },
 {
     "id": "vi - the lovers",
@@ -8911,12 +10363,12 @@ const g_items = [
     "name": "Virgo",
     "type": "passive",
     "subType": "zodiac",
-    "desc": "Adds a chance to give a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all incoming damage for 10 seconds upon taking damage. Also converts bad pills into good pills.",
+    "desc": "Adds a chance to give a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> that nullifies all incoming damage for 10 seconds upon taking damage. Also converts bad pills into good pills.",
     "dlc": "base",
     "colors": "blue",
     "tags": "m shield",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Collectible_Virgo_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Virgo"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Virgo"
 },
 {
     "id": "void",
@@ -8929,6 +10381,18 @@ const g_items = [
     "tags": "spin swirl vortex",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Collectible_Void_Afterbirth%2B_icon.png",
     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Void"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "voodoo head",
+    "name": "Voodoo Head",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Voodoo_Head",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Collectible_Voodoo_Head_icon.png",
+    "desc": "Spawns an additional <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse_room\" class=\"mw-redirect\" title=\"Curse room\">curse room</a> on each floor."
 },
 {
     "id": "wait what?",
@@ -8968,7 +10432,7 @@ const g_items = [
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "wavy cap",
@@ -9019,12 +10483,12 @@ const g_items = [
     "name": "Whore of Babylon",
     "type": "passive",
     "subType": "",
-    "desc": "Increases damage and speed whenever Isaac has half a red heart or less (one red heart for Eve), ignoring any soul or black hearts.",
+    "desc": "Grants +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> and +0.3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a> whenever Isaac has half a red heart or less (one red heart for Eve), ignoring any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Hearts\" class=\"mw-redirect\" title=\"Soul Hearts\">Soul</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Black_Heart\" class=\"mw-redirect\" title=\"Black Heart\">Black Hearts</a>.",
     "dlc": "base",
     "colors": "red black",
     "tags": "eve evil",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Whore_of_Babylon_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Whore_of_Babylon"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Collectible_Whore_of_Babylon_Rebirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Whore_of_Babylon"
 },
 {
     "id": "wiggle worm",
@@ -9043,12 +10507,12 @@ const g_items = [
     "name": "Wire Coat Hanger",
     "type": "passive",
     "subType": "",
-    "desc": "Increases Tears by 0.7.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> by 0.7.",
     "dlc": "base",
     "colors": "white",
     "tags": "clothes disturbing wire",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Collectible_Wire_Coat_Hanger_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Wire_Coat_Hanger"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Wire_Coat_Hanger"
 },
 {
     "id": "wish bone",
@@ -9091,12 +10555,24 @@ const g_items = [
     "name": "Wooden Spoon",
     "type": "passive",
     "subType": "",
-    "desc": "Increases speed by 0.3.",
+    "desc": "Increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Speed\" title=\"Speed\">speed</a> by 0.3.",
     "dlc": "base",
     "colors": "brown",
     "tags": "scoop spatula stick",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/11/Collectible_Wooden_Spoon_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Wooden_Spoon"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Wooden_Spoon"
+},
+{
+    "subType": "",
+    "dlc": "repentance",
+    "colors": "",
+    "tags": "",
+    "id": "worm friend",
+    "name": "Worm Friend",
+    "type": "passive",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Worm_Friend",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Collectible_Worm_Friend_icon.png",
+    "desc": ""
 },
 {
     "id": "x - wheel of fortune",
@@ -9115,12 +10591,12 @@ const g_items = [
     "name": "X-Ray Vision",
     "type": "passive",
     "subType": "",
-    "desc": "Reveals and opens all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Secret_Room\" title=\"Secret Room\">Secret Room</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a> entrances.",
+    "desc": "Reveals and opens all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Room</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a> entrances.",
     "dlc": "base",
     "colors": "",
     "tags": "eyes glasses look secret",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Collectible_X-Ray_Vision_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/X-Ray_Vision"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/X-Ray_Vision"
 },
 {
     "id": "xi - strength",
@@ -9259,16 +10735,16 @@ const g_items = [
     "name": "YO LISTEN!",
     "type": "passive",
     "subType": "familiar",
-    "desc": "+1 luck. Spawns a fairy familiar that points out secret room entrances and tinted rocks.",
+    "desc": "+1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">luck</a>. Spawns a fairy <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that points out <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Rooms</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Crawl_Space\" title=\"Crawl Space\">Crawl Space</a> entrances, and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Obstacles#Tinted_Rocks\" title=\"Obstacles\">tinted rocks</a>.",
     "dlc": "afterbirthplus",
     "colors": "green black",
     "tags": "fly",
     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Collectible_YO_LISTEN%21_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/YO_LISTEN!"
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/YO_LISTEN!"
 },
 {
     "subType": "",
-    "dlc": "DLC_FIXME",
+    "dlc": "repentance",
     "colors": "",
     "tags": "",
     "id": "yuck heart",
@@ -9295,12 +10771,12 @@ const g_items = [
     "name": "Zodiac",
     "type": "passive",
     "subType": "",
-    "desc": "Gives Isaac a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Signs_of_the_Zodiac\" title=\"Signs of the Zodiac\">zodiac item</a> effect that changes every floor.",
+    "desc": "Gives Isaac a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Signs_of_the_Zodiac\" title=\"Signs of the Zodiac\">zodiac item</a> effect that changes every floor.",
     "dlc": "afterbirth",
     "colors": "white",
     "tags": "cross symbol",
-    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Collectible_Zodiac_icon.png",
-    "wiki": "https://bindingofisaacrebirth.gamepedia.com/Zodiac"
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Collectible_Zodiac_Afterbirth_icon.png",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Zodiac"
 }
 ];
 
