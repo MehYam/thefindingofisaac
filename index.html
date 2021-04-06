@@ -8,7 +8,6 @@
 <span id="searchBar">
 	<label for="searchTerms">Filter:</label>
 	<input id="searchTerms" autofocus type="text" oninput="update(event)"/>
-	<span id="resultsCount"></span>
 </span>
 <span id="buttonBar">
 	<div class="togglebutton">
@@ -27,11 +26,12 @@
 	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="booster1button" onchange="onSearchOption()">
 	    <label class="togglebutton-label" for="booster1button"><span class="togglebutton-inner">Boosters</span></label>
 	</div>	
-	<div style="display:none" class="togglebutton">
-	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="anbbutton" onchange="onSearchOption()">
-	    <label class="togglebutton-label" for="anbbutton"><span class="togglebutton-inner">Antibirth</span></label>
+	<div class="togglebutton">
+	    <input type="checkbox" name="togglebutton" class="togglebutton-checkbox" id="repentancebutton" onchange="onSearchOption()">
+	    <label class="togglebutton-label" for="repentancebutton"><span class="togglebutton-inner">Repentance</span></label>
 	</div>	
 </span>
+<div id="resultsCount"></div>
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>
@@ -44,7 +44,7 @@
 	</ul>
 </div>
 <br/>
-<div id="version" class="finePrint">version: <b>0.5.2</b>, <br/>last update <b>1/27/2020</b> - fresh data scrape from wiki</div>
+<div id="version" class="finePrint">version: <b>0.6.0</b>, <br/>last update <b>4/05/2021</b> - Repentance items</div>
 </body>
 
 <!-- items, custom tags, and aliases -->

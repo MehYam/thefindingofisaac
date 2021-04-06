@@ -10,12 +10,12 @@ const DLC =
 	BASE: "base",
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
-	ANTIBIRTH: "antibirth",
 	BOOSTERPACK1: "boosterpack1",
 	BOOSTERPACK2: "boosterpack2",
 	BOOSTERPACK3: "boosterpack3",
 	BOOSTERPACK4: "boosterpack4",
-	BOOSTERPACK5: "boosterpack5"
+	BOOSTERPACK5: "boosterpack5",
+	REPENTANCE: "repentance"
 }
 function prepareData(data)
 {
@@ -196,7 +196,7 @@ function renderHits(hits)
 	for (var r in resultCount) {
 		output.push(`${resultCount[r]} ${r}s`);
 	}
-	resultsCount.textContent = total ? `${total} items (${output.join(', ')})` : 'none';
+	resultsCount.textContent = 'matches: ' + (total ? `${total} items (${output.join(', ')})` : 'none');
 }
 function renderRow(hit)
 {
@@ -319,7 +319,7 @@ function doSearch(searchText)
 		dlcFilter[DLC.BOOSTERPACK4] = true;
 		dlcFilter[DLC.BOOSTERPACK5] = true;
 	}
-	if (anbbutton.checked) dlcFilter[DLC.ANTIBIRTH] = true;
+	if (repentancebutton.checked) dlcFilter[DLC.REPENTANCE] = true;
 
 	if (searchText.length)
 	{
@@ -381,13 +381,13 @@ function saveItemChanges() {
 }
 var OPTIONS =
 {
-	HEADER: "thefindingofisaac.11.",
+	HEADER: "thefindingofisaac.12.",
 	LASTSEARCH: "lastSearch",
 	REBIRTH: "rebirth",
 	AFTERBIRTH: "afterbirth",
 	AFTERBIRTHPLUS: "afterbirthplus",
-	ANTIBIRTH: "antibirth",
-	BOOSTERPACK: "boosterpack1"
+	BOOSTERPACK: "boosterpack1",
+	REPENTANCE: "repentance",
 }
 function getOption(optionName, defaultValue)
 {
@@ -412,14 +412,14 @@ function restoreButtons()
 	abplusbutton.checked = getOption(OPTIONS.AFTERBIRTHPLUS, true);
 	booster1button.checked = getOption(OPTIONS.BOOSTERPACK, true);
 
-	anbbutton.checked = getOption(OPTIONS.ANTIBIRTH, true);
+	repentancebutton.checked = getOption(OPTIONS.REPENTANCE, true);
 }
 function onSearchOption()
 {
 	saveOption(OPTIONS.REBIRTH, rbbutton.checked);
 	saveOption(OPTIONS.AFTERBIRTH, abbutton.checked);
 	saveOption(OPTIONS.AFTERBIRTHPLUS, abplusbutton.checked);
-	saveOption(OPTIONS.ANTIBIRTH, anbbutton.checked);
+	saveOption(OPTIONS.REPENTANCE, repentancebutton.checked);
 	saveOption(OPTIONS.BOOSTERPACK, booster1button.checked);
 
 	doSearch(getOption(OPTIONS.LASTSEARCH, DEFAULT_SEARCH_TERM));

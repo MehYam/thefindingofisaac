@@ -42,7 +42,7 @@ function doMerge()
 	var merged = 0;
 	const additionalMembers = {
 		subType: '',
-		dlc: 'FIXME',
+		dlc: 'DLC_FIXME',
 		colors: '',
 		tags: ''
 	}
@@ -68,7 +68,7 @@ function doMerge()
 	const mergedItems = Object.values(existingItemLookup).sort((a, b) => a.id.localeCompare(b.id));
 	output.value = JSON.stringify(mergedItems, null, 1);
 
-	dbg(`${merged} items merged, ${newItems.length - merged} items added, ${mergedItems.length} total`);
+	dbg(`${merged} items merged, ${newItems.length - merged} new items added, ${mergedItems.length} total`);
 }
 function dbg(msg) {
 	debug.innerText = msg + '\n' + debug.innerText;

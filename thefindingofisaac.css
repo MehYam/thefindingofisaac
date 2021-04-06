@@ -67,3 +67,7 @@ a:hover {
 	color: #336699;
 	font-weight: bold;
 }
+#resultsCount {
+	font-weight: normal;
+	margin: 4px;
+}

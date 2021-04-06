@@ -3,20 +3,25 @@
 // - open the isaac wiki page to scrape (i.e. http://bindingofisaacrebirth.gamepedia.com/Trinkets)
 // - paste this file into the dev console
 // - type 'listTables()' to help locate the table to scrape
-// - 'scrapeTable(n, item-type)' will create the array of new/updated items
-// - 'copy(JSON.stringify(scrapeTable(n, item-type)))' to clipboard copy the items
+// - 'copyTable(tableIndex, item-type)' to scrape the items to the clipboard
+// 		- item-type is "active", "trinket", "card", "passive", "shard", etc
 // - open scraper.html in browser, follow directions
 // - paste the new items into items.js
 // - sanity check changes
+// 		- search for "DLC_FIXME" in case dlc type needs to be set manually
 // - (optional, but highly recommended): follow steps in base64ImagePacker.js to generate new spritesheet
+// - temporarily open the page in admin mode (g_data.admin = true) to in-place edit the item tags
+// 		- must manually save the tags to items.js afterwards, do copy/stringify on g_items when done and paste in items.js
 
 // Current targets:
 // https://bindingofisaacrebirth.gamepedia.com/Items - 2 tables
 // https://bindingofisaacrebirth.gamepedia.com/Trinkets - 1 table
 // https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes - 12 tables
 
-function scrapeTable(tableIndex, itemType)
-{
+function copyTable(tableIndex, itemType) {
+	copy(JSON.stringify(scrapeTable(tableIndex, itemType)));
+}
+function scrapeTable(tableIndex, itemType) {
     const opts = { 
         itemType,
         rowTransform: rowToItem
