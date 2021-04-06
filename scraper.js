@@ -14,9 +14,9 @@
 // 		- must manually save the tags to items.js afterwards, do copy/stringify on g_items when done and paste in items.js
 
 // Current targets:
-// https://bindingofisaacrebirth.gamepedia.com/Items - 2 tables
-// https://bindingofisaacrebirth.gamepedia.com/Trinkets - 1 table
-// https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes - 12 tables
+// https://bindingofisaacrebirth.fandom.com/wiki/Items - 2 tables
+// https://bindingofisaacrebirth.fandom.com/wiki/Trinkets - 1 table
+// https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes - 12 tables
 
 function copyTable(tableIndex, itemType) {
 	copy(JSON.stringify(scrapeTable(tableIndex, itemType)));
