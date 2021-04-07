@@ -53,7 +53,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "'m",
@@ -89,7 +89,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "0 - the fool?",
@@ -293,7 +293,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "a lighter",
@@ -484,7 +484,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "ace of spades 1",
@@ -520,7 +520,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "adoption papers",
@@ -688,7 +688,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "apollyon's best friend",
@@ -700,7 +700,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "apple of sodom",
@@ -784,7 +784,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "azazel's stump",
@@ -964,7 +964,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "beth's essence",
@@ -976,7 +976,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "beth's faith",
@@ -1252,7 +1252,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "blessed penny",
@@ -1444,7 +1444,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "blue key",
@@ -1732,7 +1732,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "brain worm",
@@ -1828,7 +1828,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "broken glasses",
@@ -1864,7 +1864,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "broken padlock",
@@ -1900,7 +1900,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "broken syringe",
@@ -2344,7 +2344,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "charged penny",
@@ -2380,7 +2380,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "chewed pen",
@@ -2632,7 +2632,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "cracked key",
@@ -2668,7 +2668,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "cricket leg",
@@ -2752,7 +2752,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "crystal key",
@@ -2824,7 +2824,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "cursed penny",
@@ -3316,7 +3316,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "devil's crown",
@@ -3328,7 +3328,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "dice bag",
@@ -3364,7 +3364,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "dingle berry",
@@ -3844,7 +3844,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "expansion pack",
@@ -4108,7 +4108,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "flat file",
@@ -4204,7 +4204,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "forgotten lullaby",
@@ -4228,7 +4228,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "found soul",
@@ -4312,7 +4312,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "friendship necklace",
@@ -4456,7 +4456,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "gigante bean",
@@ -4468,7 +4468,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "gilded key",
@@ -4924,7 +4924,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "hollow heart",
@@ -4948,7 +4948,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "holy crown",
@@ -5128,7 +5128,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "i - the magician?",
@@ -5152,7 +5152,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "ice cube",
@@ -5176,7 +5176,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "ii - the high priestess?",
@@ -5200,7 +5200,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "iii - the empress?",
@@ -5404,7 +5404,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "iv - the emperor?",
@@ -5440,7 +5440,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "ix - the hermit?",
@@ -5500,7 +5500,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "jawbreaker",
@@ -5620,7 +5620,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "keeper's bargain",
@@ -5704,7 +5704,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "kid's drawing",
@@ -5992,7 +5992,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "lil clot",
@@ -6388,7 +6388,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "lucky sack",
@@ -6856,7 +6856,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "modeling clay",
@@ -7024,7 +7024,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "mom's lock",
@@ -7276,7 +7276,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "mother's kiss",
@@ -7420,7 +7420,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "myosotis",
@@ -7588,7 +7588,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "nuh uh!",
@@ -7600,7 +7600,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "number magnet",
@@ -7684,7 +7684,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "old capacitor",
@@ -7768,7 +7768,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "panic button",
@@ -8056,7 +8056,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "polished bone",
@@ -8272,7 +8272,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "queen of hearts",
@@ -8356,7 +8356,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "rc remote",
@@ -8488,7 +8488,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "ring cap",
@@ -8776,7 +8776,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "rune shard",
@@ -9220,7 +9220,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "short fuse",
@@ -9232,7 +9232,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "sigil of baphomet",
@@ -9388,7 +9388,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of ???",
@@ -9400,7 +9400,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of apollyon",
@@ -9412,7 +9412,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of azazel",
@@ -9424,7 +9424,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of bethany",
@@ -9436,7 +9436,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of cain",
@@ -9448,7 +9448,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of eden",
@@ -9460,7 +9460,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of eve",
@@ -9472,7 +9472,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of isaac",
@@ -9484,7 +9484,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of jacob and esau",
@@ -9496,7 +9496,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of judas",
@@ -9508,7 +9508,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of lazarus",
@@ -9520,7 +9520,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of lilith",
@@ -9532,7 +9532,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of magdalene",
@@ -9544,7 +9544,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of samson",
@@ -9556,7 +9556,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of the forgotten",
@@ -9568,7 +9568,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of the keeper",
@@ -9580,7 +9580,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "soul of the lost",
@@ -9952,7 +9952,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "strange key",
@@ -10108,7 +10108,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "swallowed m80",
@@ -10216,7 +10216,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "teardrop charm",
@@ -10336,7 +10336,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "telescope lens",
@@ -10348,7 +10348,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "temporary tattoo",
@@ -10864,7 +10864,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "the twins",
@@ -11020,7 +11020,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "torn card",
@@ -11044,7 +11044,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "torn pocket",
@@ -11248,7 +11248,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "v - the hierophant?",
@@ -11356,7 +11356,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "vi - the lovers?",
@@ -11392,7 +11392,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "vii - the chariot?",
@@ -11416,7 +11416,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "viii - justice?",
@@ -11560,7 +11560,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "wicked crown",
@@ -11584,7 +11584,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "wild card",
@@ -11680,7 +11680,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "x - wheel of fortune?",
@@ -11716,7 +11716,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xi - strength?",
@@ -11740,7 +11740,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xii - the hanged man?",
@@ -11764,7 +11764,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xiii - death?",
@@ -11788,7 +11788,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xiv - temperance?",
@@ -11812,7 +11812,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xix - the sun?",
@@ -11836,7 +11836,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xv - the devil?",
@@ -11860,7 +11860,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xvi - the tower?",
@@ -11884,7 +11884,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xvii - the stars?",
@@ -11908,7 +11908,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xviii - the moon?",
@@ -11932,7 +11932,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xx - judgement?",
@@ -11956,7 +11956,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "xxi - the world?",
@@ -11980,7 +11980,7 @@ const g_items = [
     },
     {
      "subType": "",
-     "dlc": "DLC_FIXME",
+     "dlc": "repentance",
      "colors": "",
      "tags": "",
      "id": "your soul",
