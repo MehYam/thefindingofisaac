@@ -26,6 +26,11 @@ function prepareData(data)
 		console.warn(`${dlcMissing.length} items missing DLC: ${dlcMissing.map(i => i.name).join(',')}`);
 	}
 
+	const dlcBroken = g_data.items.filter(item => item.dlc == 'DLC_FIXME');
+	if (dlcBroken.length) {
+		console.warn(`${dlcBroken.length} items with FIXME DLC: ${dlcBroken.map(i => i.name).join(',')}`)
+	}
+
 	const tagsMissing = g_data.items.filter(item => !item.tags || !item.tags.trim().length);
 	if (tagsMissing.length) {
 		console.warn(`${tagsMissing.length} items missing tags: ${tagsMissing.map(i => i.name).join(',')}`);
