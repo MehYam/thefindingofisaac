@@ -4,7 +4,8 @@
 // - paste this file into the dev console
 // - type 'listTables()' to help locate the table to scrape
 // - 'copyTable(tableIndex, item-type)' to scrape the items to the clipboard
-// 		- item-type is "active", "trinket", "card", "passive", "shard", etc
+// 		- item-type is "active", "trinket", "card", "passive", "soul", etc
+//		- tableIndex can be an array of indexes, which helps pulling in multiple card tables
 // - open scraper.html in browser, follow directions
 // - paste the new items into items.js
 // - sanity check changes
@@ -16,12 +17,22 @@
 // Current targets:
 // https://bindingofisaacrebirth.fandom.com/wiki/Items - 2 tables
 // https://bindingofisaacrebirth.fandom.com/wiki/Trinkets - 1 table
-// https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes - 12 tables
+// https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes - 15 tables
 
 function copyTable(tableIndex, itemType) {
 	copy(JSON.stringify(scrapeTable(tableIndex, itemType)));
 }
 function scrapeTable(tableIndex, itemType) {
+	let retval = [];
+	if (!Array.isArray(tableIndex)) {
+		tableIndex = [ tableIndex ];
+	}
+	for (t of tableIndex) {
+		retval = retval.concat(scrapeOneTable(t));
+	}
+	return retval;
+}
+function scrapeOneTable(tableIndex, itemType) {
     const opts = { 
         itemType,
         rowTransform: rowToItem
@@ -43,7 +54,8 @@ function scrapeTable(tableIndex, itemType) {
             case 'effect':
             case 'collapseeffect':
             case 'description':
-            case 'collapsedescription':
+			case 'collapsedescription':
+			case 'collapsedesciption':
                 opts.descCol = iCol;
                 break;
         }
