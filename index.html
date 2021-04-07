@@ -9,6 +9,7 @@
 <span id="searchBar">
 	<label for="searchTerms">Filter:</label>
 	<input id="searchTerms" autofocus type="text" oninput="update(event)"/>
+	<span id="resultsCount" class="finePrint"></span>
 </span>
 <span id="buttonBar">
 	<div class="togglebutton">
@@ -32,12 +33,11 @@
 	    <label class="togglebutton-label" for="repentancebutton"><span class="togglebutton-inner">Repentance</span></label>
 	</div>	
 </span>
-<div id="resultsCount"></div>
 <div id="hitsContainer"></div>
 <div id="loading">...LOADING AND INITIALIZING DATA...</div>
 <hr/>
 <div id="instruction" class="finePrint">
-	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac Rebirth/Afterbirth/Afterbirth+</b> run.
+	This is a tool to help identify that item that just dropped in your <b>Binding of Isaac</b> run.
 	<ul>
 		<li>Just start typing something descriptive, like <b>"green syringe", "gross blood", "blue fly", "dead head"</b>, etc.</li>
 		<li>Leave the filter empty to see the entire item list.</li>
@@ -45,7 +45,7 @@
 	</ul>
 </div>
 <br/>
-<div id="version" class="finePrint">version: <b>0.6.0</b>, <br/>last update <b>4/05/2021</b> - Repentance items</div>
+<div id="version" class="finePrint">version: <b>0.6.0</b>, <br/>last update <b>4/07/2021</b> - Repentance items!</div>
 </body>
 
 <!-- items, custom tags, and aliases -->
@@ -61,8 +61,8 @@
 			<tr>
 				<th style="width:150px">Name</th>
 				<th style="width:100px">Image</th>
-				<th>Description</th>
 				<th style="width:100px">Type</th>
+				<th>Description</th>
 			</tr>
 		</tbody>
 	</table>
@@ -73,8 +73,8 @@
 			<tr>
 				<th style="width:150px">Name</th>
 				<th style="width:100px">Image</th>
-				<th>Description</th>
 				<th>Type</th>
+				<th>Description</th>
 				<th class="score">Match</th>
 			</tr>
 		</tbody>
@@ -86,8 +86,8 @@
 			<tr>
 				<th style="width:150px">Name</th>
 				<th style="width:100px">Image</th>
-				<th>Description</th>
 				<th>Type</th>
+				<th>Description</th>
 				<th>Subtype</th>
 				<th>Colors</th>
 				<th>Tags</th>

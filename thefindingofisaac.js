@@ -3,7 +3,7 @@ const g_data =
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
-	admin: true
+	admin: false
 };
 // admin mode - call copy(saveItems()) from the dev console and paste the result into items.js
 function saveItems() {
@@ -253,15 +253,15 @@ function renderRow(hit)
 	}
 	row.appendChild(cell);
 
-	// description
-	cell = document.createElement('td');
-	cell.innerHTML = hit.item.desc;
-	row.appendChild(cell);
-
 	// type
 	cell = document.createElement('td');
 	cell.appendChild(document.createTextNode(hit.item.type));
 	cell.className = "itemTypeCell";
+	row.appendChild(cell);
+
+	// description
+	cell = document.createElement('td');
+	cell.innerHTML = hit.item.desc;
 	row.appendChild(cell);
 
 	// score
