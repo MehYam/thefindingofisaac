@@ -2632,6 +2632,18 @@ const g_items = [
     },
     {
      "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "cracked key",
+     "name": "Cracked Key",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cracked_Key",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Pickup_Cracked_Key_icon.png",
+     "desc": "Mimics the effect of Red Key."
+    },
+    {
+     "subType": "",
      "dlc": "repentance",
      "colors": "",
      "tags": "",
@@ -3331,12 +3343,12 @@ const g_items = [
      "name": "Dice Shard",
      "type": "card",
      "subType": "dice",
-     "desc": "Upon use, activates the effects of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_D6\" title=\"The D6\">The D6</a> and the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/D20\" title=\"D20\">D20</a> at the same time.",
+     "desc": "Upon use, activates the effects of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"The D6\">The D6</a> and the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/D20\" title=\"D20\">D20</a> at the same time.",
      "dlc": "base",
      "colors": "red",
      "tags": "d20 d6 reroll",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/Pickup_Dice_Shard_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Dice_Shard"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Dice_Shard"
     },
     {
      "id": "dim bulb",
@@ -3607,12 +3619,12 @@ const g_items = [
      "name": "Emergency Contact",
      "type": "card",
      "subType": "",
-     "desc": "When used, will cause two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Mom%27s_Hand\" title=\"Mom's Hand\">Mom's Hands</a> to come down and grab two random enemies.",
+     "desc": "When used, will cause two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Hand\" title=\"Mom's Hand\">Mom's Hands</a> to come down and grab two random enemies.",
      "dlc": "base",
      "colors": "",
      "tags": "mom",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/Pickup_Emergency_Contact_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Emergency_Contact"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Emergency_Contact"
     },
     {
      "subType": "",
