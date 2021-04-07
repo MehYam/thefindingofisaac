@@ -28,7 +28,7 @@ function scrapeTable(tableIndex, itemType) {
 		tableIndex = [ tableIndex ];
 	}
 	for (t of tableIndex) {
-		retval = retval.concat(scrapeOneTable(t));
+		retval = retval.concat(scrapeOneTable(t, itemType));
 	}
 	return retval;
 }
