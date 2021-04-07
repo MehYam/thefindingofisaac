@@ -3,8 +3,17 @@ const g_data =
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
-	admin: false
+	admin: true
 };
+// admin mode - call copy(saveItems()) from the dev console and paste the result into items.js
+function saveItems() {
+	const newItems = g_items.map(item => {
+		// super cool trick! let {a, b, ...foo} = bar will create a clone foo of bar minus properties a and b
+		const { aliases, rowHTML, ...newItem} = item;
+		return newItem;
+	});
+	return JSON.stringify(newItems, null, 1);
+}
 const DLC =
 {
 	BASE: "base",
@@ -357,7 +366,7 @@ function onCellFocusIn(e) {
 function onCellFocusOut(e) {
 	if (g_editing) {
 		e.target.removeEventListener('keypress', onCellKeypress);
-		console.log(`would apply value ${e.target.innerText} to cell`);
+		console.log(`applying value ${e.target.innerText} to cell`);
 
 		const tidy = e.target.innerText.trim().toLowerCase().split(' ').sort().join(' ');
 		e.target.innerText = tidy;
@@ -374,15 +383,28 @@ function onCellKeypress(e) {
 		}
 	}
 }
-function saveItemChanges() {
-	// admin mode - call copy(saveItemChanges()) from the dev console and paste the result into items.js
+// the above's buggy for some reason - if the changes aren't persisting to g_items, call this to commit changes
+function emergencyCommit() {
+	const itemLookup = {};
+	for (const item of g_items) {
+		itemLookup[item.id] = item;
+	}
+	for (const row of hitsTable.rows) {
+		if (row.dataset.itemId) {
+			const item = itemLookup[row.dataset.itemId];
 
-	const newItems = g_items.map(item => {
-		// super cool trick! let {a, b, ...foo} = bar will create a clone foo of bar minus properties a and b
-		const { aliases, rowHTML, ...newItem} = item;
-		return newItem;
-	});
-	return newItems;
+			for (const cell of row.cells) {
+				if (cell.dataset.fieldName) {
+					const raw = cell.innerText.trim();
+					if (raw.length) {
+						const tags = raw.toLowerCase().split(' ').sort().join(' ');
+						//console.log(`would write ${tags} to item ${item.id}.${cell.dataset.fieldName}`);
+						item[cell.dataset.fieldName] = tags;
+					}
+				}
+			}
+		}
+	}
 }
 var OPTIONS =
 {
