@@ -20,12 +20,12 @@ const g_items = [
      "name": "? Card",
      "type": "card",
      "subType": "",
-     "desc": "When used, copies the effect of Isaac's currently held <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Activated_collectible\" class=\"mw-redirect\" title=\"Activated collectible\">activated collectible</a>.",
+     "desc": "When used, copies the effect of Isaac's currently held <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Activated_collectible\" class=\"mw-redirect\" title=\"Activated collectible\">activated collectible</a>.",
      "dlc": "base",
      "colors": "white",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Pickup_Q_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/%3F_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/%3F_Card"
     },
     {
      "id": "???'s only friend",
@@ -84,8 +84,20 @@ const g_items = [
      "dlc": "base",
      "colors": "",
      "tags": "teleport",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/0_-_The_Fool_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3f/Pickup_0_-_The_Fool_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "0 - the fool?",
+     "name": "0 - The Fool?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Pickup_0_-_The_Fool%3F_icon.png",
+     "desc": "Drops all hearts and pickups on the floor, leaving Isaac at half a heart. Pickups may be spawned as items such as <span class=\"tooltip\" data-tooltip=\"i/tooltip|A+Quarter|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/A_Quarter\" title=\"\"><img alt=\"15►A Quarter\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Collectible_A_Quarter_icon.png/revision/latest/scale-to-width-down/20?cb=20180430100449\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/A_Quarter\" title=\"\">A Quarter</a></span> and <span class=\"tooltip\" data-tooltip=\"i/tooltip|Boom%21|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boom!\" title=\"\"><img alt=\"15►Boom!\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f7/Collectible_Boom%21_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070808\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boom!\" title=\"\">Boom!</a></span>."
     },
     {
      "subType": "",
@@ -116,48 +128,48 @@ const g_items = [
      "name": "2 of Clubs",
      "type": "card",
      "subType": "playing",
-     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>. If you have no bombs, gives you 2 instead.",
+     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">bombs</a>. If you have no bombs, gives you 2 instead.",
      "dlc": "base",
      "colors": "white",
      "tags": "bomb",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/2_of_Clubs_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b5/Pickup_2_of_Clubs_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "2 of diamonds",
      "name": "2 of Diamonds",
      "type": "card",
      "subType": "playing",
-     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a>. If you have no coins, gives you 2 instead.",
+     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Coin\" class=\"mw-redirect\" title=\"Coin\">coins</a>. If you have no coins, gives you 2 instead.",
      "dlc": "base",
      "colors": "white",
      "tags": "$",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/2_of_Diamonds_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1a/Pickup_2_of_Diamonds_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "2 of hearts",
      "name": "2 of Hearts",
      "type": "card",
      "subType": "playing",
-     "desc": "Doubles Isaac's current number of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. Does not affect Eternal Hearts, Soul Hearts, or Black Hearts. Doesn't add new Red Heart containers, just fills empty ones.",
+     "desc": "Doubles Isaac's current number of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. Does not affect Eternal Hearts, Soul Hearts, or Black Hearts. Doesn't add new Red Heart containers, just fills empty ones.",
      "dlc": "base",
      "colors": "white",
      "tags": "",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/36/2_of_Hearts_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/94/Pickup_2_of_Hearts_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "2 of spades",
      "name": "2 of Spades",
      "type": "card",
      "subType": "playing",
-     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">keys</a>. If you have no keys, gives you 2 instead.",
+     "desc": "Doubles your <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">keys</a>. If you have no keys, gives you 2 instead.",
      "dlc": "base",
      "colors": "white",
      "tags": "key",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/2_of_Spades_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/15/Pickup_2_of_Spades_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "20/20",
@@ -265,7 +277,7 @@ const g_items = [
      "colors": "black",
      "tags": "poop",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/59/Pickup_A_Card_Against_Humanity_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/A_Card_Against_Humanity"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/A_Card_Against_Humanity"
     },
     {
      "id": "a dollar",
@@ -415,48 +427,48 @@ const g_items = [
      "name": "Ace of Clubs",
      "type": "card",
      "subType": "playing",
-     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bombs</a>.",
+     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a>, and <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> non-boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">enemies</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bombs</a>.",
      "dlc": "base",
      "colors": "white",
      "tags": "bomb",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Ace_of_Clubs_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/Pickup_Ace_of_Clubs_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "ace of diamonds",
      "name": "Ace of Diamonds",
      "type": "card",
      "subType": "playing",
-     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Penny\" class=\"mw-redirect\" title=\"Penny\">Pennies</a>.",
+     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a>, and <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> non-boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">enemies</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Penny\" class=\"mw-redirect\" title=\"Penny\">Pennies</a>.",
      "dlc": "base",
      "colors": "white",
      "tags": "$",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Ace_of_Diamonds_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Pickup_Ace_of_Diamonds_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "ace of hearts",
      "name": "Ace of Hearts",
      "type": "card",
      "subType": "playing",
-     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart\" class=\"mw-redirect\" title=\"Heart\">heart</a> pickups.",
+     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a>, and <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> non-boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">enemies</a> in the room into random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart\" class=\"mw-redirect\" title=\"Heart\">heart</a> pickups.",
      "dlc": "base",
      "colors": "white",
      "tags": "",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Ace_of_Hearts_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d1/Pickup_Ace_of_Hearts_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "ace of spades",
      "name": "Ace of Spades",
      "type": "card",
      "subType": "playing",
-     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">Keys</a>.",
      "dlc": "base",
      "colors": "white",
      "tags": "key",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Ace_of_Spades_%28Card%29_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a>, and <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> non-boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">enemies</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">Keys</a>."
     },
     {
      "id": "ace of spades (trinket)",
@@ -468,7 +480,19 @@ const g_items = [
      "tags": "card spades",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ace_of_Spades",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Trinket_Ace_of_Spades_icon.png",
-     "desc": "Increases the chance of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Card\" class=\"mw-redirect\" title=\"Card\">tarot cards or playing cards</a> dropping after clearing a room, and the chance of finding cards when opening a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chest</a>.",
+     "desc": "Increases the chance of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Card\" class=\"mw-redirect\" title=\"Card\">tarot cards or playing cards</a> dropping after clearing a room, and the chance of finding cards when opening a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chest</a>."
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "ace of spades 1",
+     "name": "Ace of Spades",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Ace_of_Spades_%28Card%29_Icon.png",
+     "desc": "Turns all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a>, and <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> non-boss <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Monster\" class=\"mw-redirect\" title=\"Monster\">enemies</a> in the room into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">Keys</a>."
     },
     {
      "id": "acid baby",
@@ -600,7 +624,7 @@ const g_items = [
      "colors": "blue",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Pickup_Ancient_Recall_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Ancient_Recall"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ancient_Recall"
     },
     {
      "id": "anemic",
@@ -2196,7 +2220,7 @@ const g_items = [
      "tags": "gross heart organ",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cancer_(Trinket)",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Trinket_Cancer_icon.png",
-     "desc": "-2 tear delay (effectively increases firerate of tears).",
+     "desc": "-2 tear delay (effectively increases firerate of tears)."
     },
     {
      "subType": "",
@@ -2340,7 +2364,7 @@ const g_items = [
      "colors": "",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Pickup_Chaos_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Chaos_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Chaos_Card"
     },
     {
      "id": "charged baby",
@@ -2659,12 +2683,12 @@ const g_items = [
      "name": "Credit Card",
      "type": "card",
      "subType": "",
-     "desc": "Converts all items in the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shop\" title=\"Shop\">Shop</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil Room</a> into pickups or items on pedestals, allowing them to be picked up for free.",
+     "desc": "Converts all items in the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">Shop</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil Room</a> into pickups or items on pedestals, allowing them to be picked up for free.",
      "dlc": "base",
      "colors": "blue",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Pickup_Credit_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Credit_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Credit_Card"
     },
     {
      "subType": "",
@@ -3732,7 +3756,7 @@ const g_items = [
      "colors": "blue",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Pickup_Era_Walk_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Era_Walk"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Era_Walk"
     },
     {
      "subType": "",
@@ -4428,7 +4452,7 @@ const g_items = [
      "colors": "",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/35/Pickup_Get_out_of_Jail_Free_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Get_out_of_Jail_Free_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Get_out_of_Jail_Free_Card"
     },
     {
      "id": "ghost baby",
@@ -4975,12 +4999,12 @@ const g_items = [
      "name": "Holy Card",
      "type": "card",
      "subType": "",
-     "desc": "Grants the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Holy+Mantle|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Holy_Mantle\" title=\"\"><img alt=\"Holy Mantle\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Holy_Mantle_icon.png/revision/latest/scale-to-width-down/20?cb=20180430082525\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Holy_Mantle\" title=\"\">Holy Mantle</a></span> effect for the current room.",
+     "desc": "Grants the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Holy+Mantle|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Holy_Mantle\" title=\"\"><img alt=\"15►Holy Mantle\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Holy_Mantle_icon.png/revision/latest/scale-to-width-down/20?cb=20180430082525\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Holy_Mantle\" title=\"\">Holy Mantle</a></span> effect.",
      "dlc": "base",
      "colors": "",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Pickup_Holy_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Holy_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Holy_Card"
     },
     {
      "subType": "",
@@ -5100,7 +5124,7 @@ const g_items = [
      "colors": "green gray",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Pickup_Huge_Growth_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Huge_Growth"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Huge_Growth"
     },
     {
      "id": "humbling bundle",
@@ -5155,12 +5179,24 @@ const g_items = [
      "name": "I - The Magician",
      "type": "card",
      "subType": "tarot",
-     "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a> for the current room.",
+     "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Homing_tears\" class=\"mw-redirect\" title=\"Homing tears\">homing tears</a> (<img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> and +3 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>) for the current room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|Telepathy+for+Dummies|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Telepathy_for_Dummies\" title=\"\"><img alt=\"15►Telepathy for Dummies\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Collectible_Telepathy_for_Dummies_icon.png/revision/latest/scale-to-width-down/20?cb=20180430075833\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Telepathy_for_Dummies\" title=\"\">Telepathy for Dummies</a></span>).",
      "dlc": "base",
      "colors": "",
      "tags": "homing",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/67/Pickup_I_-_The_Magician_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "i - the magician?",
+     "name": "I - The Magician?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Pickup_I_-_The_Magician%3F_icon.png",
+     "desc": "Grants a repelling blue aura for one minute, like <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Soul|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Soul\" title=\"\"><img alt=\"15►The Soul\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b1/Collectible_The_Soul_icon.png/revision/latest/scale-to-width-down/20?cb=20180430082825\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Soul\" title=\"\">The Soul</a></span> but stronger and with a wider area of effect."
     },
     {
      "subType": "",
@@ -5191,24 +5227,48 @@ const g_items = [
      "name": "II - The High Priestess",
      "type": "card",
      "subType": "tarot",
-     "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Mom\" title=\"Mom\">Mom</a>'s dismembered leg is called down to deal 300 damage to anything it stomps. It will always stomp on the enemy with the most health. If used in an empty room or during the fight with Mom, it will stomp Isaac instead.",
+     "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom\" title=\"Mom\">Mom</a>'s dismembered leg is called down to deal 300 damage to anything it stomps. It will always stomp on the enemy with the most health. If used in an empty room or during the fight with Mom, it will stomp Isaac instead.",
      "dlc": "base",
      "colors": "",
      "tags": "mom",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Pickup_II_-_The_High_Priestess_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "ii - the high priestess?",
+     "name": "II - The High Priestess?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Pickup_II_-_The_High_Priestess%3F_icon.png",
+     "desc": "<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom\" title=\"Mom\">Mom</a>'s leg starts stomping down repeatedly for one minute, like holding <span class=\"tooltip\" data-tooltip=\"i/tooltip|Broken+Shovel+1|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Shovel\" title=\"\"><img alt=\"15►Broken Shovel\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Broken_Shovel_1_icon.png/revision/latest/scale-to-width-down/20?cb=20180501000113\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_Shovel\" title=\"\">Broken Shovel</a></span>."
     },
     {
      "id": "iii - the empress",
      "name": "III - The Empress",
      "type": "card",
      "subType": "tarot",
-     "desc": "Triggers the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Whore+of+Babylon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Whore_of_Babylon\" title=\"\"><img alt=\"Whore of Babylon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Whore_of_Babylon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101656\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Whore_of_Babylon\" title=\"\">Whore of Babylon</a></span> effect (+1.5 damage, +0.3 speed) for the current room, but without the need for Isaac to have a red heart or less of health.",
+     "desc": "Triggers the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Whore+of+Babylon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Whore_of_Babylon\" title=\"\"><img alt=\"15►Whore of Babylon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Collectible_Whore_of_Babylon_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430101713\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Whore_of_Babylon\" title=\"\">Whore of Babylon</a></span> effect (+1.5 damage, +0.3 speed) for the current room, but without the need for Isaac to have a red heart or less of health.",
      "dlc": "base",
      "colors": "",
      "tags": "babylon eve whore",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4d/Pickup_III_-_The_Empress_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "iii - the empress?",
+     "name": "III - The Empress?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ef/Pickup_III_-_The_Empress%3F_icon.png",
+     "desc": "Grants 2 temporary <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">red heart containers</a> and +1.35 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tears\" title=\"Tears\">tears</a> for one minute, along with <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Magdalene\" title=\"Magdalene\">Magdalene</a>'s hairstyle. Does not stack."
     },
     {
      "id": "immaculate conception",
@@ -5395,12 +5455,24 @@ const g_items = [
      "name": "IV - The Emperor",
      "type": "card",
      "subType": "tarot",
-     "desc": "Teleports Isaac into the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Boss_Room\" title=\"Boss Room\">Boss Room</a> of a floor.",
+     "desc": "Teleports Isaac into the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss_Room\" title=\"Boss Room\">Boss Room</a> of a floor.",
      "dlc": "base",
      "colors": "",
      "tags": "boss teleport",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c4/Pickup_IV_-_The_Emperor_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "iv - the emperor?",
+     "name": "IV - The Emperor?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Pickup_IV_-_The_Emperor%3F_icon.png",
+     "desc": "Teleports Isaac into an extra <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Boss_Room\" title=\"Boss Room\">Boss Room</a>. The boss will drop a reward, but the room has no trapdoor and can be returned to only with another card."
     },
     {
      "id": "iv bag",
@@ -5419,12 +5491,24 @@ const g_items = [
      "name": "IX - The Hermit",
      "type": "card",
      "subType": "tarot",
-     "desc": "Teleports Isaac to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shop\" title=\"Shop\">Shop</a>. If there is no Shop, this will act as a random teleport. If the Shop has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance).",
+     "desc": "Teleports Isaac to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">Shop</a>. If there is no Shop, this will act as a random teleport. If the Shop has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance).",
      "dlc": "base",
      "colors": "",
      "tags": "shop teleport",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ad/Pickup_IX_-_The_Hermit_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "ix - the hermit?",
+     "name": "IX - The Hermit?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Pickup_IX_-_The_Hermit%3F_icon.png",
+     "desc": "\"Sells\" items and pickups in the room for their usual <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">shop</a> price, spawning a matching amount of coins. Does not affect <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Grab_bag\" class=\"mw-redirect\" title=\"Grab bag\">grab bags</a>. If there is nothing to sell, spawns a penny."
     },
     {
      "id": "jacob's ladder",
@@ -5515,12 +5599,12 @@ const g_items = [
      "name": "Joker",
      "type": "card",
      "subType": "playing",
-     "desc": "Teleports you to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Angel_Room\" title=\"Angel Room\">Angel Room</a>.",
+     "desc": "Teleports you to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Room\" title=\"Devil Room\">Devil Room</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_Room\" title=\"Angel Room\">Angel Room</a>.",
      "dlc": "base",
      "colors": "white",
      "tags": "devil",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Pickup_Joker_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "judas' shadow",
@@ -8272,6 +8356,18 @@ const g_items = [
     },
     {
      "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "queen of hearts",
+     "name": "Queen of Hearts",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/ba/Pickup_Queen_of_Hearts_icon.png",
+     "desc": "Spawns 1-12 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Hearts\" title=\"Hearts\">full red hearts</a>."
+    },
+    {
+     "subType": "",
      "dlc": "repentance",
      "colors": "",
      "tags": "",
@@ -8647,12 +8743,12 @@ const g_items = [
      "name": "Rules Card",
      "type": "card",
      "subType": "",
-     "desc": "Displays a cryptic statement on the screen, similar to a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fortune_Teller\" class=\"mw-redirect\" title=\"Fortune Teller\">Fortune Teller</a>. These messages (often) provide hints on bosses, bonus areas, etc.",
+     "desc": "Displays a cryptic statement on the screen, similar to a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fortune_Teller\" class=\"mw-redirect\" title=\"Fortune Teller\">Fortune Teller</a>. These messages (often) provide hints on bosses, bonus areas, etc.",
      "dlc": "base",
      "colors": "",
      "tags": "message",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d4/Pickup_Rules_Card_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Rules_Card"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rules_Card"
     },
     {
      "id": "rune bag",
@@ -9683,8 +9779,8 @@ const g_items = [
      "dlc": "base",
      "colors": "",
      "tags": "",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Suicide_King_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Suicide_King"
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e3/Pickup_Suicide_King_icon.png",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Suicide_King"
     },
     {
      "subType": "",
@@ -10915,12 +11011,24 @@ const g_items = [
      "name": "V - The Hierophant",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
+     "desc": "Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Hearts</a>.",
      "dlc": "base",
      "colors": "",
      "tags": "heart soul",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Pickup_V_-_The_Hierophant_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "v - the hierophant?",
+     "name": "V - The Hierophant?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/77/Pickup_V_-_The_Hierophant%3F_icon.png",
+     "desc": "Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bone_Heart\" class=\"mw-redirect\" title=\"Bone Heart\">Bone Hearts</a>."
     },
     {
      "subType": "",
@@ -11011,12 +11119,24 @@ const g_items = [
      "name": "VI - The Lovers",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. If used in a Black Heart or Eternal Heart-containing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>, it will spawn those types of hearts instead.",
+     "desc": "Spawns 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Hearts</a>. If used in a Black Heart or Eternal Heart-containing <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>, it will spawn those types of hearts instead.",
      "dlc": "base",
      "colors": "",
      "tags": "heart red",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Pickup_VI_-_The_Lovers_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "vi - the lovers?",
+     "name": "VI - The Lovers?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c9/Pickup_VI_-_The_Lovers%3F_icon.png",
+     "desc": "Spawns a random item from the current room's item pool. Turns 1 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Health\" title=\"Health\">red heart container</a> or 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_heart\" class=\"mw-redirect\" title=\"Soul heart\">soul hearts</a> into a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Broken_heart\" class=\"mw-redirect\" title=\"Broken heart\">broken heart</a>, potentially fatally."
     },
     {
      "id": "vibrant bulb",
@@ -11035,24 +11155,48 @@ const g_items = [
      "name": "VII - The Chariot",
      "type": "card",
      "subType": "tarot",
-     "desc": "Grants the temporary <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Invulnerability\" class=\"mw-redirect\" title=\"Invulnerability\">invulnerability</a> effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|My+Little+Unicorn|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/My_Little_Unicorn\" title=\"\"><img alt=\"My Little Unicorn\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_My_Little_Unicorn_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072739\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/My_Little_Unicorn\" title=\"\">My Little Unicorn</a></span>.",
+     "desc": "Grants the temporary <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Invulnerability\" class=\"mw-redirect\" title=\"Invulnerability\">invulnerability</a> effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|My+Little+Unicorn|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/My_Little_Unicorn\" title=\"\"><img alt=\"15►My Little Unicorn\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/Collectible_My_Little_Unicorn_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072739\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/My_Little_Unicorn\" title=\"\">My Little Unicorn</a></span>.",
      "dlc": "base",
      "colors": "",
      "tags": "unicorn",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Pickup_VII_-_The_Chariot_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "vii - the chariot?",
+     "name": "VII - The Chariot?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/Pickup_VII_-_The_Chariot%3F_icon.png",
+     "desc": "Isaac becomes an invincible, immobile statue with extreme fire rate for 10 seconds. Sometimes the statue looks like Edith."
     },
     {
      "id": "viii - justice",
      "name": "VIII - Justice",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns one of each <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">consumable</a> drop (a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a>, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Key\" class=\"mw-redirect\" title=\"Key\">Key</a>, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bomb</a>, and a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Penny\" class=\"mw-redirect\" title=\"Penny\">Penny</a>). Hearts have a chance to spawn as either a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Half_Red_Heart\" class=\"mw-redirect\" title=\"Half Red Heart\">Half Red Heart</a> or a Double Heart.",
+     "desc": "Spawns one of each <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">consumable</a> drop (a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Red_Heart\" class=\"mw-redirect\" title=\"Red Heart\">Red Heart</a>, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Key\" class=\"mw-redirect\" title=\"Key\">Key</a>, a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bomb\" class=\"mw-redirect\" title=\"Bomb\">Bomb</a>, and a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Penny\" class=\"mw-redirect\" title=\"Penny\">Penny</a>). Hearts have a chance to spawn as either a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Half_Red_Heart\" class=\"mw-redirect\" title=\"Half Red Heart\">Half Red Heart</a> or a Double Heart.",
      "dlc": "base",
      "colors": "",
      "tags": "",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Pickup_VIII_-_Justice_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "viii - justice?",
+     "name": "VIII - Justice?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Pickup_VIII_-_Justice%3F_icon.png",
+     "desc": "Spawns 2 to 4 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Golden_Chest\" class=\"mw-redirect\" title=\"Golden Chest\">Golden Chests</a>."
     },
     {
      "id": "virgo",
@@ -11211,6 +11355,18 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Wiggle_Worm"
     },
     {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "wild card",
+     "name": "Wild Card",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/Pickup_Wild_Card_icon.png",
+     "desc": "When used, copies the effect of the most recently used <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pill</a>, <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Cards\" class=\"mw-redirect\" title=\"Cards\">card, rune, soul stone</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Activated_item\" class=\"mw-redirect\" title=\"Activated item\">activated item</a>."
+    },
+    {
      "id": "wire coat hanger",
      "name": "Wire Coat Hanger",
      "type": "passive",
@@ -11287,12 +11443,24 @@ const g_items = [
      "name": "X - Wheel of Fortune",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns an Arcade machine (<a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Slot_Machine\" class=\"mw-redirect\" title=\"Slot Machine\">Slot Machine</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Fortune_Telling_Machine\" class=\"mw-redirect\" title=\"Fortune Telling Machine\">Fortune Telling Machine</a>).",
+     "desc": "Spawns an Arcade machine (<a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Slot_Machine\" class=\"mw-redirect\" title=\"Slot Machine\">Slot Machine</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Fortune_Telling_Machine\" class=\"mw-redirect\" title=\"Fortune Telling Machine\">Fortune Telling Machine</a>).",
      "dlc": "base",
      "colors": "",
      "tags": "gamble",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Pickup_X_-_Wheel_of_Fortune_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "x - wheel of fortune?",
+     "name": "X - Wheel of Fortune?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Pickup_X_-_Wheel_of_Fortune%3F_icon.png",
+     "desc": "Invokes a random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Dice_room\" class=\"mw-redirect\" title=\"Dice room\">dice room</a> effect."
     },
     {
      "id": "x-ray vision",
@@ -11311,132 +11479,264 @@ const g_items = [
      "name": "XI - Strength",
      "type": "card",
      "subType": "tarot",
-     "desc": "Grants the effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|Magic+Mushroom|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Magic_Mushroom\" title=\"\"><img alt=\"Magic Mushroom\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Magic_Mushroom_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070519\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Magic_Mushroom\" title=\"\">Magic Mushroom</a></span> (increases all of Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Stat\" class=\"mw-redirect\" title=\"Stat\">stats</a> except tears), but adds one (temporary) Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> for the current room as opposed to a permanent one.",
+     "desc": "Grants the effect of <span class=\"tooltip\" data-tooltip=\"i/tooltip|Magic+Mushroom|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Magic_Mushroom\" title=\"\"><img alt=\"15►Magic Mushroom\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Magic_Mushroom_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070519\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Magic_Mushroom\" title=\"\">Magic Mushroom</a></span> (increases all of Isaac's <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Stat\" class=\"mw-redirect\" title=\"Stat\">stats</a> except tears), but adds one (temporary) Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> for the current room as opposed to a permanent one.",
      "dlc": "base",
      "colors": "",
      "tags": "buff heart",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Pickup_XI_-_Strength_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xi - strength?",
+     "name": "XI - Strength?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Pickup_XI_-_Strength%3F_icon.png",
+     "desc": "All enemies in the room are weakened, becoming slow and take double damage."
     },
     {
      "id": "xii - the hanged man",
      "name": "XII - The Hanged Man",
      "type": "card",
      "subType": "tarot",
-     "desc": "Removes Isaac's body, allowing him to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Flight\" title=\"Flight\">fly</a> around for the duration of the room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|Transcendence|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Transcendence\" title=\"\"><img alt=\"Transcendence\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Collectible_Transcendence_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070816\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Transcendence\" title=\"\">Transcendence</a></span>).",
+     "desc": "Removes Isaac's body, allowing him to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Flight\" title=\"Flight\">fly</a> around for the duration of the room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|Transcendence|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Transcendence\" title=\"\"><img alt=\"15►Transcendence\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Collectible_Transcendence_icon.png/revision/latest/scale-to-width-down/20?cb=20180430070816\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Transcendence\" title=\"\">Transcendence</a></span>).",
      "dlc": "base",
      "colors": "",
      "tags": "flight fly",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Pickup_XII_-_The_Hanged_Man_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xii - the hanged man?",
+     "name": "XII - The Hanged Man?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bb/Pickup_XII_-_The_Hanged_Man%3F_icon.png",
+     "desc": "Isaac turns visually into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Keeper\" title=\"Keeper\">Keeper</a> for 30 seconds, with a triple shot, no damage bonus and -0.1 speed. Killed enemies drop random coins."
     },
     {
      "id": "xiii - death",
      "name": "XIII - Death",
      "type": "card",
      "subType": "tarot",
-     "desc": "Deals 40 damage to all enemies in the room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Necronomicon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"\"><img alt=\"The Necronomicon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Necronomicon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071303\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Necronomicon\" title=\"\">The Necronomicon</a></span>).",
+     "desc": "Deals 40 damage to all enemies in the room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Necronomicon|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\"><img alt=\"15►The Necronomicon\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Necronomicon_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071303\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Necronomicon\" title=\"\">The Necronomicon</a></span>).",
      "dlc": "base",
      "colors": "",
      "tags": "damage",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Pickup_XIII_-_Death_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xiii - death?",
+     "name": "XIII - Death?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6f/Pickup_XIII_-_Death%3F_icon.png",
+     "desc": "Invokes a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Book+of+the+Dead|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Book_of_the_Dead\" title=\"\"><img alt=\"15►Book of the Dead\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Collectible_Book_of_the_Dead_icon.png/revision/latest/scale-to-width-down/20?cb=20180430235936\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Book_of_the_Dead\" title=\"\">Book of the Dead</a></span> effect."
     },
     {
      "id": "xiv - temperance",
      "name": "XIV - Temperance",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blood_Donation_Machine\" class=\"mw-redirect\" title=\"Blood Donation Machine\">Blood Donation Machine</a>.<br><img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"> Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Devil_Beggar\" class=\"mw-redirect\" title=\"Devil Beggar\">Devil Beggar</a> in <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Greed_mode\" class=\"mw-redirect\" title=\"Greed mode\">Greed mode</a>.",
+     "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blood_Donation_Machine\" class=\"mw-redirect\" title=\"Blood Donation Machine\">Blood Donation Machine</a>.<br><img alt=\"Added in Afterbirth\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/Dlc_a_indicator.png/revision/latest/scale-to-width-down/31?cb=20190418212519\" decoding=\"async\" title=\"Added in Afterbirth\" width=\"31\" height=\"14\" class=\"dlc dlc-14\"> Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Devil_Beggar\" class=\"mw-redirect\" title=\"Devil Beggar\">Devil Beggar</a> in <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Greed_mode\" class=\"mw-redirect\" title=\"Greed mode\">Greed mode</a>.",
      "dlc": "base",
      "colors": "",
      "tags": "blood donation machine",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/Pickup_XIV_-_Temperance_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xiv - temperance?",
+     "name": "XIV - Temperance?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Pickup_XIV_-_Temperance%3F_icon.png",
+     "desc": "Forces Isaac to eat 5 random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pill\" class=\"mw-redirect\" title=\"Pill\">pills</a> in quick succession."
     },
     {
      "id": "xix - the sun",
      "name": "XIX - The Sun",
      "type": "card",
      "subType": "tarot",
-     "desc": "Restores Isaac's full health, deals 100 damage to all enemies in the room, and reveals the map for the current floor, except the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>.",
+     "desc": "Restores Isaac's full health, deals 100 damage to all enemies in the room, and reveals the map for the current floor, except the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Removes <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse_of_Darkness\" class=\"mw-redirect\" title=\"Curse of Darkness\">Curse of Darkness</a> for the current floor.",
      "dlc": "base",
      "colors": "",
      "tags": "heal map",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5c/Pickup_XIX_-_The_Sun_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xix - the sun?",
+     "name": "XIX - The Sun?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/Pickup_XIX_-_The_Sun%3F_icon.png",
+     "desc": "Gain <span class=\"tooltip\" data-tooltip=\"i/tooltip|Spirit+of+the+Night|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spirit_of_the_Night\" title=\"\"><img alt=\"15►Spirit of the Night\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/Collectible_Spirit_of_the_Night_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102441\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spirit_of_the_Night\" title=\"\">Spirit of the Night</a></span> and +1.5 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> for the current level. Turns Isaac's red hearts into bone hearts, but they revert once the effect ends. Also causes <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse_of_Darkness\" class=\"mw-redirect\" title=\"Curse of Darkness\">Curse of Darkness</a> that cannot be dispelled."
     },
     {
      "id": "xv - the devil",
      "name": "XV - The Devil",
      "type": "card",
      "subType": "tarot",
-     "desc": "Grants Isaac a temporary +2 increase to damage for the current room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Book+of+Belial|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Book_of_Belial\" title=\"\"><img alt=\"The Book of Belial\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_The_Book_of_Belial_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071256\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_Book_of_Belial\" title=\"\">The Book of Belial</a></span>).",
+     "desc": "Grants Isaac a temporary +2 increase to damage for the current room (same effect as <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Book+of+Belial|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Book_of_Belial\" title=\"\"><img alt=\"15►The Book of Belial\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_The_Book_of_Belial_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071256\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Book_of_Belial\" title=\"\">The Book of Belial</a></span>).",
      "dlc": "base",
      "colors": "",
      "tags": "buff damage",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Pickup_XV_-_The_Devil_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xv - the devil?",
+     "name": "XV - The Devil?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Pickup_XV_-_The_Devil%3F_icon.png",
+     "desc": "Invokes <span class=\"tooltip\" data-tooltip=\"i/tooltip|The+Bible|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Bible\" title=\"\"><img alt=\"15►The Bible\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Collectible_The_Bible_icon.png/revision/latest/scale-to-width-down/20?cb=20180430071248\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_Bible\" title=\"\">The Bible</a></span> and grants a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Seraphim|8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Seraphim\" title=\"\"><img alt=\"15►Seraphim\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Collectible_Seraphim_icon.png/revision/latest/scale-to-width-down/20?cb=20151104091606\" decoding=\"async\" width=\"20\" height=\"16\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Seraphim\" title=\"\">Seraphim</a></span> familiar and flight for 30 seconds."
     },
     {
      "id": "xvi - the tower",
      "name": "XVI - The Tower",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Troll_Bomb\" class=\"mw-redirect\" title=\"Troll Bomb\">Troll Bombs</a> randomly around the room (same effect as the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Anarchist+Cookbook|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook\" title=\"\"><img alt=\"Anarchist Cookbook\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Anarchist_Cookbook_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072444\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Anarchist_Cookbook\" title=\"\">Anarchist Cookbook</a></span>).",
+     "desc": "Spawns 6 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Troll_Bomb\" class=\"mw-redirect\" title=\"Troll Bomb\">Troll Bombs</a> randomly around the room (same effect as the <span class=\"tooltip\" data-tooltip=\"i/tooltip|Anarchist+Cookbook|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Anarchist_Cookbook\" title=\"\"><img alt=\"15►Anarchist Cookbook\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c6/Collectible_Anarchist_Cookbook_icon.png/revision/latest/scale-to-width-down/20?cb=20180430072444\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Anarchist_Cookbook\" title=\"\">Anarchist Cookbook</a></span>).",
      "dlc": "base",
      "colors": "",
      "tags": "anarchy bomb",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Pickup_XVI_-_The_Tower_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xvi - the tower?",
+     "name": "XVI - The Tower?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ce/Pickup_XVI_-_The_Tower%3F_icon.png",
+     "desc": "Spawns 6 clusters of random <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rocks\" title=\"Rocks\">rocks</a> and other obstacles. The pathways between exits can't be blocked."
     },
     {
      "id": "xvii - the stars",
      "name": "XVII - The Stars",
      "type": "card",
      "subType": "tarot",
-     "desc": "Teleports Isaac to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. If there is no Treasure Room, this will act as a random teleport. Randomly chooses a Treasure Room on <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Curse_of_the_Labyrinth\" class=\"mw-redirect\" title=\"Curse of the Labyrinth\">Curse of the Labyrinth</a>. If the Treasure Room has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance).",
+     "desc": "Teleports Isaac to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a>. If there is no Treasure Room, this will act as a random teleport. Randomly chooses a Treasure Room on <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse_of_the_Labyrinth\" class=\"mw-redirect\" title=\"Curse of the Labyrinth\">Curse of the Labyrinth</a>. If the Treasure Room has not yet been accessed, this card will unlock the door without requiring a key (as long as the player exits through the main entrance).",
      "dlc": "base",
      "colors": "",
      "tags": "teleport treasure",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Pickup_XVII_-_The_Stars_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xvii - the stars?",
+     "name": "XVII - The Stars?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/52/Pickup_XVII_-_The_Stars%3F_icon.png",
+     "desc": "Removes Isaac's oldest passive item and spawns 2 random items from the current room's item pool."
     },
     {
      "id": "xviii - the moon",
      "name": "XVIII - The Moon",
      "type": "card",
      "subType": "tarot",
-     "desc": "Teleports the player to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Secret_Room\" title=\"Secret Room\">Secret Room</a>. This card will open one random wall once inside the Secret Room, so you can leave even if you don't have any bombs available.",
+     "desc": "Teleports the player to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Room</a>. This card will open one random wall once inside the Secret Room, so you can leave even if you don't have any bombs available.",
      "dlc": "base",
      "colors": "",
      "tags": "secret teleport",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2c/Pickup_XVIII_-_The_Moon_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xviii - the moon?",
+     "name": "XVIII - The Moon?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c0/Pickup_XVIII_-_The_Moon%3F_icon.png",
+     "desc": "Teleports the player to the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Ultra_Secret_Room\" class=\"mw-redirect\" title=\"Ultra Secret Room\">Ultra Secret Room</a>. The pathway back to the normal rooms will be made of red rooms."
     },
     {
      "id": "xx - judgement",
      "name": "XX - Judgement",
      "type": "card",
      "subType": "tarot",
-     "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Beggar\" title=\"Beggar\">Beggar</a>.",
+     "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Beggar\" title=\"Beggar\">Beggar</a>.",
      "dlc": "base",
      "colors": "",
      "tags": "beggar",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/15/Pickup_XX_-_Judgement_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xx - judgement?",
+     "name": "XX - Judgement?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Pickup_XX_-_Judgement%3F_icon.png",
+     "desc": "Spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Restock_Machine\" class=\"mw-redirect\" title=\"Restock Machine\">Restock Machine</a>."
     },
     {
      "id": "xxi - the world",
      "name": "XXI - The World",
      "type": "card",
      "subType": "tarot",
-     "desc": "Reveals the entire floor, except for the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>. Has no effect if under the effect of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Curse_of_the_Lost\" class=\"mw-redirect\" title=\"Curse of the Lost\">Curse of the Lost</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Amnesia\" class=\"mw-redirect\" title=\"Amnesia\">Amnesia</a>.",
+     "desc": "Reveals the entire floor, except for the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>. Has no effect if under the effect of <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse_of_the_Lost\" class=\"mw-redirect\" title=\"Curse of the Lost\">Curse of the Lost</a> or <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Amnesia\" class=\"mw-redirect\" title=\"Amnesia\">Amnesia</a>.",
      "dlc": "base",
      "colors": "",
      "tags": "map",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6d/Pickup_XXI_-_The_World_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
+    },
+    {
+     "subType": "",
+     "dlc": "DLC_FIXME",
+     "colors": "",
+     "tags": "",
+     "id": "xxi - the world?",
+     "name": "XXI - The World?",
+     "type": "card",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Pickup_XXI_-_The_World%3F_icon.png",
+     "desc": "Spawns a trap door to a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Crawl_space\" class=\"mw-redirect\" title=\"Crawl space\">crawl space</a>."
     },
     {
      "id": "yo listen!",
