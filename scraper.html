@@ -1,16 +1,17 @@
 <html>
 <head>
-<title>Scrape Utility for The Finding of Isaac</title>
-<link rel="stylesheet" type="text/css" href="thefindingofisaac.css">
-<link rel="stylesheet" type="text/css" href="togglebutton.css">
+	<meta charset="UTF-8">
+	<title>Scrape Utility for The Finding of Isaac</title>
+	<link rel="stylesheet" type="text/css" href="thefindingofisaac.css">
+	<link rel="stylesheet" type="text/css" href="togglebutton.css">
 </head>
 <body>
-	1. Start by following the directions in scraper.js<br/>
+1. Start by following the directions in scraper.js<br/>
 <label for='input'>2. Paste scraped JSON here:</label><br/>
 <textarea id='input' name='input' rows='20' cols='150'></textarea><br/>
-3. <input type='button' value='Do Merge' onclick='doMerge()'></input><br/>
-<label for='output'>4. Copy these merged items to items.js:</label><br/>
+3. <input type='button' value='Merge new items' onclick='doMerge()'></input><br/>
 <textarea id='output' name='output' rows='20' cols='150'></textarea><br/>
+4. <input type='button' value='Copy the merged result' onclick='doCopy()'></input>and paste into items.js<br/>
 5. <input type='button' value='Reload' onclick='location.reload()'></input><span style='color:red'> REFRESH THIS PAGE AFTER SAVING items.js SO IT RELOADS IT FROM FILE</span>
 <div id='debug'></div>
 </body>
@@ -72,6 +73,12 @@ function doMerge()
 
 	// for safety:
 	input.disabled = true;
+}
+function doCopy() {
+	output.select();
+	output.setSelectionRange(0, output.value.length + 1);
+	document.execCommand('copy');
+
 	output.disabled = true;
 }
 function dbg(msg) {
