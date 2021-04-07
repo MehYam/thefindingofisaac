@@ -83,7 +83,7 @@ var g_aliases =
 	"tech device gadget equipment",
 	"testicles balls nuts scrotum",
 	"teeth tooth dental",
-	"text words notes write writing",
+	"text message words notes write writing",
 	"tool utensil",
 	"vapor smoke",
 	"vegetable plant fruit leaf",
