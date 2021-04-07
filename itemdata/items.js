@@ -567,18 +567,6 @@ const g_items = [
      "desc": "Spawns three <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_heart\" class=\"mw-redirect\" title=\"Soul heart\">soul hearts</a> and two <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Angel_room\" class=\"mw-redirect\" title=\"Angel room\">angel room</a> items. Must be charged by picking up 6 soul hearts."
     },
     {
-     "id": "algiz",
-     "name": "Algiz",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> which lasts for 30 seconds.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "invuln shield",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Algiz_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
-    },
-    {
      "subType": "",
      "dlc": "repentance",
      "colors": "",
@@ -685,18 +673,6 @@ const g_items = [
      "tags": "??? cross",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/28/Collectible_Ankh_icon.png",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ankh"
-    },
-    {
-     "id": "ansuz",
-     "name": "Ansuz",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Reveals the whole map, including the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Secret_Room\" title=\"Secret Room\">Secret Room</a> and the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "map secret",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Ansuz_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
     },
     {
      "id": "anti-gravity",
@@ -949,18 +925,6 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Belly_Jelly",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Collectible_Belly_Jelly_icon.png",
      "desc": "Causes enemies to bounce off of Isaac, dealing damage to them if they hit and enemy or obstacle. Also gives Isaac the chance to deflect enemy shots."
-    },
-    {
-     "id": "berkano",
-     "name": "Berkano",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Summons 3 friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> and 3 friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "fly spider",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Berkano_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
     },
     {
      "subType": "",
@@ -1255,12 +1219,12 @@ const g_items = [
      "name": "Blank Rune",
      "type": "rune",
      "subType": "rune",
-     "desc": "Grants a random rune effect (excluding the Black Rune). Has a 25% chance to spawn another Blank Rune upon use.",
+     "desc": "Grants a random rune effect <img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\">(excluding the Black Rune). Has a 25% chance to spawn another Blank Rune upon use. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Now has a chance to activate Black Rune upon use.",
      "dlc": "base",
      "colors": "",
      "tags": "???",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5f/Pickup_Blank_Rune_icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes"
     },
     {
      "id": "blanket",
@@ -3063,18 +3027,6 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Daemon%27s_Tail"
     },
     {
-     "id": "dagaz",
-     "name": "Dagaz",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Removes any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Curse\" class=\"mw-redirect\" title=\"Curse\">curses</a> from the current floor and grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>. (This will not remove Curse of the Labyrinth.)",
-     "dlc": "base",
-     "colors": "",
-     "tags": "curse purity",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Dagaz_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
-    },
-    {
      "subType": "",
      "dlc": "repentance",
      "colors": "",
@@ -3649,18 +3601,6 @@ const g_items = [
      "tags": "bright circle glow",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Eden%27s_Soul_Afterbirth%2B_icon.png",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Eden%27s_Soul"
-    },
-    {
-     "id": "ehwaz",
-     "name": "Ehwaz",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Creates a trapdoor leading to the next floor. Has an estimated 1/12 (8%) chance to spawn a door to a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Crawl_Space\" title=\"Crawl Space\">Crawl Space</a> instead.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "floor passage trap",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Ehwaz_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
     },
     {
      "id": "emergency contact",
@@ -4839,18 +4779,6 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Haemolacria"
     },
     {
-     "id": "hagalaz",
-     "name": "Hagalaz",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Destroys all breakable objects in the room. Does not affect Key Blocks.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "break rock",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Hagalaz_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
-    },
-    {
      "id": "hairpin",
      "name": "Hairpin",
      "type": "trinket",
@@ -5569,18 +5497,6 @@ const g_items = [
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0a/Trinket_Jawbreaker_icon.png",
      "desc": "Adds a chance to shoot a tooth, similar to <span class=\"tooltip\" data-tooltip=\"i/tooltip|Tough+Love|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tough_Love\" title=\"\"><img alt=\"15►Tough Love\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/Collectible_Tough_Love_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430102145\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Tough_Love\" title=\"\">Tough Love</a></span>.",
      "type": "trinket"
-    },
-    {
-     "id": "jera",
-     "name": "Jera",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Clones all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in a room (including <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Shop\" title=\"Shop\">Shop</a> pickups; the clones can then be picked up for free). Cloned chests will contain exactly the same type of items: if the original contains a pickup, so will the clone; the same is true for <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/Collectible\" class=\"mw-redirect\" title=\"Collectible\">collectibles</a>. Cannot clone other Jera runes and trinkets.",
-     "dlc": "base",
-     "colors": "",
-     "tags": "dupe",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Jera_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
     },
     {
      "id": "jesus juice",
@@ -7947,18 +7863,6 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pentagram"
     },
     {
-     "id": "perthro",
-     "name": "Perthro",
-     "type": "rune",
-     "subType": "rune",
-     "desc": "Rerolls all pedestal items in the room. (This is the same effect as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.gamepedia.com/The_D6\" title=\"The D6\">The D6</a>.)",
-     "dlc": "base",
-     "colors": "",
-     "tags": "d6 reroll",
-     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Perthro_Icon.png",
-     "wiki": "https://bindingofisaacrebirth.gamepedia.com/Cards_and_Runes"
-    },
-    {
      "id": "petrified poop",
      "name": "Petrified Poop",
      "type": "trinket",
@@ -8762,6 +8666,102 @@ const g_items = [
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/Collectible_Rune_Bag_icon.png",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Rune_Bag"
     },
+    {
+    "id": "rune of algiz",
+    "name": "Rune of Algiz",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "invuln shield",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Algiz_Icon.png",
+    "desc": "<img alt=\"Removed in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png/revision/latest/scale-to-width-down/31?cb=20200828181034\" decoding=\"async\" title=\"Removed in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-7\">Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> which lasts for 30 seconds. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\">Grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shield\" class=\"mw-redirect\" title=\"Shield\">shield</a> which lasts for 20 seconds."
+   },
+    {
+    "id": "rune of ansuz",
+    "name": "Rune of Ansuz",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "map secret",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/Ansuz_Icon.png",
+    "desc": "Reveals the whole map, including the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Secret_Room\" title=\"Secret Room\">Secret Room</a> and the <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Super_Secret_Room\" class=\"mw-redirect\" title=\"Super Secret Room\">Super Secret Room</a>."
+   },
+   {
+    "id": "rune of berkano",
+    "name": "Rune of Berkano",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "fly spider",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c8/Berkano_Icon.png",
+    "desc": "Summons 3 friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Fly\" class=\"mw-redirect\" title=\"Blue Fly\">Blue Flies</a> and 3 friendly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_Spider\" class=\"mw-redirect\" title=\"Blue Spider\">Blue Spiders</a>."
+  },
+    {
+    "id": "rune of dagaz",
+    "name": "Rune of Dagaz",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "curse purity",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Dagaz_Icon.png",
+    "desc": "Removes any <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Curse\" class=\"mw-redirect\" title=\"Curse\">curses</a> from the current floor and grants a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Soul_Heart\" class=\"mw-redirect\" title=\"Soul Heart\">Soul Heart</a>. (This will not remove Curse of the Labyrinth.)"
+    },
+    {
+    "id": "rune of ehwaz",
+    "name": "Rune of Ehwaz",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "floor passage trap",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Ehwaz_Icon.png",
+    "desc": "Creates a trapdoor leading to the next floor. Has an estimated 1/12 (8%) chance to spawn a door to a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Crawl_Space\" title=\"Crawl Space\">Crawl Space</a> instead."
+    },
+    {
+    "id": "rune of hagalaz",
+    "name": "Rune of Hagalaz",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "break rock",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Hagalaz_Icon.png",
+    "desc": "Destroys all breakable objects in the room. Does not affect Key Blocks. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Does affect Key Blocks"
+    },
+    {
+    "id": "rune of jera",
+    "name": "Rune of Jera",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "dupe",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Jera_Icon.png",
+    "desc": "Clones all <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickup\" class=\"mw-redirect\" title=\"Pickup\">pickups</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Chest\" class=\"mw-redirect\" title=\"Chest\">chests</a> in a room (including <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">Shop</a> pickups; the clones can then be picked up for free). Cloned chests will contain exactly the same type of items: if the original contains a pickup, so will the clone; the same is true for <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Collectible\" class=\"mw-redirect\" title=\"Collectible\">collectibles</a>. Cannot clone other Jera runes and trinkets."
+    },
+    {
+    "id": "perthro",
+    "name": "Perthro",
+    "type": "rune",
+    "subType": "rune",
+    "dlc": "base",
+    "colors": "",
+    "tags": "d6 reroll",
+    "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes",
+    "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Perthro_Icon.png",
+    "desc": "Rerolls all pedestal items in the room. (This is the same effect as <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/The_D6\" title=\"The D6\">The D6</a>.)"
+   },
     {
      "id": "rusted key",
      "name": "Rusted Key",
