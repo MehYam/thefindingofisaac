@@ -3,7 +3,7 @@ const g_data =
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
-	admin: false
+	admin: true
 };
 // admin mode - call copy(saveItems()) from the dev console and paste the result into items.js
 function saveItems() {
@@ -211,6 +211,8 @@ function renderHits(hits)
 		output.push(`${resultCount[r]} ${r}s`);
 	}
 	resultsCount.textContent = 'matches: ' + (total ? `${total} items (${output.join(', ')})` : 'none');
+
+	enableCellEditing(g_data.admin);
 }
 function renderRow(hit)
 {
@@ -348,9 +350,15 @@ function doSearch(searchText)
 		renderAll(g_data, dlcFilter);
 	}
 }
-function enableAdmin() {
-	hitsTable.addEventListener('focusin', onCellFocusIn);
-	hitsTable.addEventListener('focusout', onCellFocusOut);
+function enableCellEditing(enable) {
+	if (enable) {
+		hitsTable.addEventListener('focusin', onCellFocusIn);
+		hitsTable.addEventListener('focusout', onCellFocusOut);
+	}
+	else {
+		hitsTable.removeEventListener('focusin', onCellFocusIn);
+		hitsTable.removeEventListener('focusout', onCellFocusOut);
+	}
 }
 var g_editing = null;
 function onCellFocusIn(e) {
@@ -465,8 +473,4 @@ function main()
 	searchTerms.select();
 
 	doSearch(lastSearch);
-
-	if (g_data.admin) {
-		enableAdmin();
-	}
 }
