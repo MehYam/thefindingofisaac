@@ -3,7 +3,7 @@ const g_data =
 	items: g_items,
 	showScore: false,
 	usePackedImgs: true,
-	admin: true
+	admin: false
 };
 // admin mode - call copy(saveItems()) from the dev console and paste the result into items.js
 function saveItems() {
