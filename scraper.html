@@ -29,7 +29,8 @@
 function doMerge()
 {
 	const ambiguousItems = {
-		'odd mushroom': 1  // there are two different odd mushrooms items
+		// this is handled automatically now
+//		'odd mushroom': 1  // there are two different odd mushrooms items
 	};
 	const collidedTrinketItem = {
 		'cancer': 1,        // is both a trinket and item
@@ -50,10 +51,25 @@ function doMerge()
 		tags: ''
 	}
 	for (const newItem of newItems) {
+		/////////// START special cases
 		if (ambiguousItems[newItem.id]) {
 			const tmpId = newItem.id + ` ${ambiguousItems[newItem.id]++}`
 			dbg(`ambiguous case ${newItem.id} found, saved as ${tmpId}, must be merged by hand`);
 			newItem.id = tmpId;
+		}
+		if (newItem.id === 'odd mushroom') {
+			const differentiator = newItem.wiki.toLowerCase().includes('large') ? '(Large)' : '(Thin)';
+			dbg(`odd mushroom ${newItem.id} found, identified as ${differentiator}`);
+
+			newItem.name += ' ' + differentiator;
+			newItem.id = newItem.name.toLowerCase();
+		}
+		if (newItem.id === 'broken shovel') {
+			const differentiator = newItem.type == 'active' ? '(Handle)' : '(Blade)';
+			dbg(`broken shovel ${newItem.id} found, identified as ${differentiator}`);
+
+			newItem.name += ' ' + differentiator;
+			newItem.id = newItem.name.toLowerCase();
 		}
 		if (collidedTrinketItem[newItem.id] && newItem.type == 'trinket') {
 			const tmpName = newItem.name + ' (Trinket)';
@@ -62,6 +78,7 @@ function doMerge()
 			newItem.id = tmpId;
 			newItem.name = tmpName;
 		}
+		/////////// END special cases
 
 		var existing = existingItemLookup[newItem.id];
 		if (existing) {
