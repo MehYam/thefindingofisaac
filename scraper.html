@@ -28,10 +28,12 @@
 <script>
 function doMerge()
 {
-	const specialCases = {
-		'odd mushroom': 1,  // there are two different odd mushrooms items
+	const ambiguousItems = {
+		'odd mushroom': 1  // there are two different odd mushrooms items
+	};
+	const collidedTrinketItem = {
 		'cancer': 1,        // is both a trinket and item
-		'ace of spades': 1  // is both a trinket and item
+		'ace of spades': 1  // is both a trinket and card
 	};
 	const newItems = JSON.parse(input.value);
 	
@@ -48,10 +50,17 @@ function doMerge()
 		tags: ''
 	}
 	for (const newItem of newItems) {
-		if (specialCases[newItem.id]) {
-			const tmpId = newItem.id + ` ${specialCases[newItem.id]++}`
-			dbg(`special case ${newItem.id} found, saved as ${tmpId}, must be merged by hand`);
+		if (ambiguousItems[newItem.id]) {
+			const tmpId = newItem.id + ` ${ambiguousItems[newItem.id]++}`
+			dbg(`ambiguous case ${newItem.id} found, saved as ${tmpId}, must be merged by hand`);
 			newItem.id = tmpId;
+		}
+		if (collidedTrinketItem[newItem.id] && newItem.type == 'trinket') {
+			const tmpName = newItem.name + ' (Trinket)';
+			const tmpId = newItem.id + ' (trinket)';
+			dbg(`collided trinket ${newItem.id} found, renamed to ${tmpId}/${tmpName}`);
+			newItem.id = tmpId;
+			newItem.name = tmpName;
 		}
 
 		var existing = existingItemLookup[newItem.id];

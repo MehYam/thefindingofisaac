@@ -695,7 +695,7 @@ const g_items = [
      "name": "Apollyon's Best Friend",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Apollyon%27s_Best_Friend",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Trinket_Apollyon%27s_Best_Friend_icon.png",
-     "desc": "Grants Isaac 2 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">Familiar</a> attack flies which he can aim and fire with, similarly to <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bob%27s_Brain\" title=\"Bob's Brain\">Bob's Brain</a>, or <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/GB_Bug\" title=\"GB Bug\">GB Bug</a>.",
+     "desc": "Spawns two attack fly <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiars</a> which will fly forward while Isaac shoots.",
      "type": "trinket"
     },
     {
@@ -791,7 +791,7 @@ const g_items = [
      "name": "Azazel's Stump",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Azazel%27s_Stump",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/Trinket_Azazel%27s_Stump_icon.png",
-     "desc": "When entering a new room, adds a chance to turn into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Azazel\" title=\"Azazel\">Azazel</a> for the current room.",
+     "desc": "When clearing a room, adds a chance to turn into <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Azazel\" title=\"Azazel\">Azazel</a> until clearing another.",
      "type": "trinket"
     },
     {
@@ -5627,7 +5627,7 @@ const g_items = [
      "name": "Keeper's Bargain",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Keeper%27s_Bargain",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a7/Trinket_Keeper%27s_Bargain_icon.png",
-     "desc": "Devil Deals cost money instead of health,",
+     "desc": "Devil Deals cost money instead of health.",
      "type": "trinket"
     },
     {
@@ -5999,7 +5999,7 @@ const g_items = [
      "name": "Lil Clot",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Lil_Clot",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Trinket_Lil_Clot_icon.png",
-     "desc": "",
+     "desc": "Spawns a clot <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> that mimics Isaac's movements and tears. It dies for the current room after taking too much damage.",
      "type": "trinket"
     },
     {
@@ -7283,7 +7283,7 @@ const g_items = [
      "name": "Mother's Kiss",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Mother%27s_Kiss",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cc/Trinket_Mother%27s_Kiss_icon.png",
-     "desc": "",
+     "desc": "Grants one <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a>.",
      "type": "trinket"
     },
     {
@@ -7875,6 +7875,18 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Pentagram"
     },
     {
+     "subType": "",
+     "dlc": "repentance",
+     "colors": "white red",
+     "tags": "a+ report card page text",
+     "id": "perfection",
+     "name": "Perfection",
+     "type": "trinket",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Perfection",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Trinket_Perfection_icon.png",
+     "desc": "+10 <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Luck\" title=\"Luck\">Luck</a>. If Isaac takes damage, the trinket is destroyed and its effect is removed."
+    },
+    {
      "id": "petrified poop",
      "name": "Petrified Poop",
      "type": "trinket",
@@ -8063,7 +8075,7 @@ const g_items = [
      "name": "Polished Bone",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Polished_Bone",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Trinket_Polished_Bone_icon.png",
-     "desc": "",
+     "desc": "After clearing a room, adds a chance to spawn a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">friendly</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Bony\" title=\"Bony\">Bony</a>.",
      "type": "trinket"
     },
     {
@@ -8495,7 +8507,7 @@ const g_items = [
      "name": "Ring Cap",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Ring_Cap",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/Trinket_Ring_Cap_icon.png",
-     "desc": "",
+     "desc": "Spawns two extra bombs for each bomb placed.",
      "type": "trinket"
     },
     {
@@ -10115,7 +10127,7 @@ const g_items = [
      "name": "Swallowed M80",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Swallowed_M80",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Trinket_Swallowed_M80_icon.png",
-     "desc": "",
+     "desc": "Isaac explodes upon taking damage.",
      "type": "trinket"
     },
     {
@@ -11051,7 +11063,7 @@ const g_items = [
      "name": "Torn Pocket",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Torn_Pocket",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Trinket_Torn_Pocket_icon.png",
-     "desc": "",
+     "desc": "Upon taking damage, Isaac drops all of his <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Pickups\" title=\"Pickups\">Pickups</a>.",
      "type": "trinket"
     },
     {
@@ -11167,7 +11179,7 @@ const g_items = [
      "name": "Umbilical Cord",
      "type": "trinket",
      "subType": "",
-     "desc": "When Isaac's health is brought to a Half Red Heart and no <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Hearts\" title=\"Hearts\">Soul Hearts</a>,spawns a <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Little_Steven\" title=\"Little Steven\">Little Steven</a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> for the current <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Rooms\" title=\"Rooms\">room</a>.",
+     "desc": "When brought down to only a Half Red Heart, spawns a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Little+Steven|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Little_Steven\" title=\"\"><img alt=\"15►Little Steven\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Collectible_Little_Steven_icon.png/revision/latest/scale-to-width-down/20?cb=20180430073025\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Little_Steven\" title=\"\">Little Steven</a></span> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> for the current room. <img alt=\"Added in Repentance\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Dlc_r_indicator.png/revision/latest/scale-to-width-down/31?cb=20180903030730\" decoding=\"async\" title=\"Added in Repentance\" width=\"31\" height=\"14\" class=\"dlc dlc-8\"> Adds a high chance to spawn a <span class=\"tooltip\" data-tooltip=\"i/tooltip|Gemini|15\"><a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Gemini_(Item)\" title=\"\"><img alt=\"15►Gemini\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Collectible_Gemini_Rebirth_icon.png/revision/latest/scale-to-width-down/20?cb=20180430124441\" decoding=\"async\" width=\"20\" height=\"20\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Gemini_(Item)\" title=\"\">Gemini</a></span> familiar for the current room after taking damage.",
      "dlc": "base",
      "colors": "pink",
      "tags": "blood entrails gross guts organ wet",
@@ -11567,7 +11579,7 @@ const g_items = [
      "name": "Wicked Crown",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Wicked_Crown",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Trinket_Wicked_Crown_icon.png",
-     "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a> appears in <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sheol\" title=\"Sheol\"><img alt=\"Sheol\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/Stage_Sheol_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085749\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sheol\" title=\"Sheol\">Sheol</a>.",
+     "desc": "A <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Treasure_Room\" title=\"Treasure Room\">Treasure Room</a> and <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Shop\" title=\"Shop\">Shop</a> appears in <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sheol\" title=\"Sheol\"><img alt=\"Sheol\" src=\"https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/Stage_Sheol_icon.png/revision/latest/scale-to-width-down/20?cb=20151103085749\" decoding=\"async\" width=\"20\" height=\"14\"></a> <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Sheol\" title=\"Sheol\">Sheol</a>.",
      "type": "trinket"
     },
     {
