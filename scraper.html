@@ -33,8 +33,9 @@ function doMerge()
 //		'odd mushroom': 1  // there are two different odd mushrooms items
 	};
 	const collidedTrinketItem = {
-		'cancer': 1,        // is both a trinket and item
-		'ace of spades': 1  // is both a trinket and card
+		'cancer': 1,        // both a trinket and passive
+		'tonsil': 1,        // both a trinket and passive
+		'ace of spades': 1  // both a trinket and card
 	};
 	const newItems = JSON.parse(input.value);
 	
@@ -59,14 +60,14 @@ function doMerge()
 		}
 		if (newItem.id === 'odd mushroom') {
 			const differentiator = newItem.wiki.toLowerCase().includes('large') ? '(Large)' : '(Thin)';
-			dbg(`odd mushroom ${newItem.id} found, identified as ${differentiator}`);
+			dbg(`${newItem.id} found, identified as ${differentiator}`);
 
 			newItem.name += ' ' + differentiator;
 			newItem.id = newItem.name.toLowerCase();
 		}
 		if (newItem.id === 'broken shovel') {
 			const differentiator = newItem.type == 'active' ? '(Handle)' : '(Blade)';
-			dbg(`broken shovel ${newItem.id} found, identified as ${differentiator}`);
+			dbg(`${newItem.id} found, identified as ${differentiator}`);
 
 			newItem.name += ' ' + differentiator;
 			newItem.id = newItem.name.toLowerCase();

@@ -1056,7 +1056,7 @@ const g_items = [
      "type": "passive",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Binge_Eater",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Collectible_Binge_Eater_icon.png",
-     "desc": "+1 Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_Container\" class=\"mw-redirect\" title=\"Heart Container\">Heart Container</a>. Item pedestals periodically switch between any food item and the item they would otherwise contain. Picking up a food item grants a large temporary damage boost and small permanent stat boost."
+     "desc": "+1 red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a> and fully heals Isaac. Item pedestals cycle between their normal items and food, and collecting food grants a temporary <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Damage\" title=\"Damage\">damage</a> boost and permanent bonuses to 2 stats."
     },
     {
      "id": "binky",
@@ -1308,7 +1308,7 @@ const g_items = [
      "type": "passive",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Blood_Bombs",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a6/Collectible_Blood_Bombs_icon.png",
-     "desc": "Causes Isaac's bombs to leave behind damaging red creep and allows Isaac to place bombs at the cost of half a heart if he doesn't have any. Also gives Isaac a heart container and heals him for five hearts."
+     "desc": "Grants a Red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">Heart container</a> and restore 5 hearts. Bombs leave behind damaging red <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Creep\" title=\"Creep\">creep</a>. Isaac can place bombs at the cost of half a heart if he doesn't have any."
     },
     {
      "id": "blood clot",
@@ -1887,6 +1887,18 @@ const g_items = [
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Remote"
     },
     {
+     "subType": "",
+     "dlc": "boosterpack5",
+     "colors": "dark purple",
+     "tags": "spade part bottom",
+     "id": "broken shovel (blade)",
+     "name": "Broken Shovel (Blade)",
+     "type": "passive",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Shovel",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Collectible_Broken_Shovel_2_icon.png",
+     "desc": "One of two parts necessary to create <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Shovel\" title=\"Mom's Shovel\">Mom's Shovel</a>."
+    },
+    {
      "id": "broken shovel (handle)",
      "name": "Broken Shovel (Handle)",
      "type": "active",
@@ -1894,7 +1906,7 @@ const g_items = [
      "desc": "While held, causes multiple Mom's Foots to come down and stomp on Isaac. One of two parts necessary to create <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Mom%27s_Shovel\" title=\"Mom's Shovel\">Mom's Shovel</a>.",
      "dlc": "boosterpack5",
      "colors": "purple dark",
-     "tags": "blade dig dirty part spade handle shaft",
+     "tags": "blade dig dirty part spade handle shaft top",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Collectible_Broken_Shovel_1_icon.png",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Broken_Shovel"
     },
@@ -2527,7 +2539,7 @@ const g_items = [
      "name": "Continuum",
      "type": "passive",
      "subType": "",
-     "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a>, +2.25 range and +1.5 tear height. Tears travel through walls and appear at the opposite side of the room.",
+     "desc": "Grants <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Spectral_tears\" class=\"mw-redirect\" title=\"Spectral tears\">spectral tears</a> and increases <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Range\" title=\"Range\">range</a>. Tears travel through walls and appear at the opposite side of the room.",
      "dlc": "afterbirth",
      "colors": "pink purple",
      "tags": "infinity ring symbol",
@@ -3636,7 +3648,7 @@ const g_items = [
      "type": "passive",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Empty_Heart",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Collectible_Empty_Heart_icon.png",
-     "desc": "Gives Isaac an empty heart container at the start of every floor."
+     "desc": "If Isaac has an empty <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Heart_container\" class=\"mw-redirect\" title=\"Heart container\">heart container</a>, another one is added at the start of each floor."
     },
     {
      "id": "empty vessel",
@@ -5148,7 +5160,7 @@ const g_items = [
      "type": "passive",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/IBS",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/Collectible_IBS_icon.png",
-     "desc": "Causes Isaac to throw poop, create buffing creep, and drop bombs while fighting enemies."
+     "desc": "Causes Isaac to throw poop, create buffing creep, or drop bombs while fighting enemies."
     },
     {
      "subType": "",
@@ -9984,7 +9996,7 @@ const g_items = [
      "type": "passive",
      "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Strawman",
      "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Strawman_icon.png",
-     "desc": "Spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Keeper\" title=\"Keeper\">Keeper</a> to fight enemies alongside Isaac. If Keeper dies, he spawns blue spiders and Strawman is removed from Isaac's inventory."
+     "desc": "Spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Keeper\" title=\"Keeper\">Keeper</a> to fight enemies alongside Isaac. If Keeper dies, he spawns <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Blue_spider\" class=\"mw-redirect\" title=\"Blue spider\">blue spiders</a> and Strawman is removed from Isaac's inventory."
     },
     {
      "id": "stud finder",
@@ -10995,8 +11007,20 @@ const g_items = [
      "desc": "Causes all future items to be \"glitched\", granting them completely random effects."
     },
     {
+     "subType": "familiar",
+     "dlc": "afterbirthplus",
+     "colors": "pink",
+     "tags": "gross organ round wet",
      "id": "tonsil",
      "name": "Tonsil",
+     "type": "passive",
+     "wiki": "https://bindingofisaacrebirth.fandom.com/wiki/Tonsil",
+     "thumb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8f/Trinket_Tonsil_icon.png",
+     "desc": "Grants a familiar that can block enemy shots."
+    },
+    {
+     "id": "tonsil (trinket)",
+     "name": "Tonsil (Trinket)",
      "type": "trinket",
      "subType": "",
      "desc": "When hit, there is a small chance a removed tonsil <a target=\"_blank\" href=\"https://bindingofisaacrebirth.fandom.com/wiki/Familiar\" title=\"Familiar\">familiar</a> starts following Isaac, blocking enemy shots.",
