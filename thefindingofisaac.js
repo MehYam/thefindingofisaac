@@ -2,7 +2,7 @@ const g_data =
 {
 	items: g_items,
 	showScore: false,
-	usePackedImgs: true,
+	usePackedImgs: false,
 	admin: false
 };
 // admin mode - call copy(saveItems()) from the dev console and paste the result into items.js
@@ -416,7 +416,7 @@ function emergencyCommit() {
 }
 var OPTIONS =
 {
-	HEADER: "thefindingofisaac.12.",
+	HEADER: "thefindingofisaac.13.",
 	LASTSEARCH: "lastSearch",
 	REBIRTH: "rebirth",
 	AFTERBIRTH: "afterbirth",
