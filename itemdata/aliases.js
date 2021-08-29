@@ -90,8 +90,8 @@ var g_aliases =
 	"vegetable plant fruit leaf",
 
 	"one single 1",
-	"two double 2",
-	"three triple triangle 3",
+	"two double 2 ii",
+	"three triple triangle 3 iii",
 	"four quad 4",
 	"five 5",
 	"six 6",
