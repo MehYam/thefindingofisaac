@@ -7,14 +7,16 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;	
+    background-size: cover;
     color: #FFFFFF;
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
 }
 table {
 	background-color: #333333;
 	border: 1px solid #000000;
 	border-collapse: collapse;
-	table-layout: fixed;
 	width: 100%;
 }
 th {
@@ -60,6 +62,12 @@ a:hover {
 .editableCell {
 	text-align: left;
 }
+#searchBar {
+	display: block;
+}
+#searchTerms {
+	font-size: 16px;
+}
 #buttonBar {
 	float: right;
 }
@@ -70,4 +78,47 @@ a:hover {
 #resultsCount {
 	font-weight: normal;
 	margin: 4px;
+}
+
+.colMedium {
+	width: 150px;
+}
+.colSmall {
+	width: 100px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 600px) {
+	#searchBar {
+		display: block;
+		margin-bottom: 8px;
+	}
+	#searchTerms {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	#buttonBar {
+		float: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px;
+		margin-bottom: 8px;
+	}
+	table {
+		font-size: 9pt;
+	}
+	th, td {
+		padding: 4px;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+	.itemIcon {
+		height: 28px;
+	}
+	.colMedium {
+		width: auto;
+	}
+	.colSmall {
+		width: auto;
+	}
 }
