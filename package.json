@@ -4,7 +4,9 @@
   "description": "This is a tool to help identify that item that just dropped in your Binding of Isaac run.  Just start typing something descriptive, like *\"syringe\", \"gross blood\", or \"blue fly\"*, etc, to narrow down the item.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).",
   "main": "thefindingofisaac.js",
   "scripts": {
-    "pack-images": "node base64ImagePacker.js"
+    "pack-images": "node base64ImagePacker.js",
+    "scrape": "node autoScraper.js",
+    "scrape:dry-run": "node autoScraper.js --dry-run"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/MehYam/thefindingofisaac#readme",
   "dependencies": {
+    "cheerio": "^1.2.0",
     "jimp": "^0.16.1",
     "node-fetch": "^2.6.1"
   }
