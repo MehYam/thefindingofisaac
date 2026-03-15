@@ -89,6 +89,7 @@ var g_aliases =
 	"vapor smoke gas fart",
 	"vegetable plant fruit leaf",
 
+	/* numeric */
 	"one single 1",
 	"two double 2 ii",
 	"three triple triangle 3 iii",

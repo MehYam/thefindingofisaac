@@ -64,7 +64,7 @@ The goal is a Node script replacing the manual browser-console workflow. Design 
 
 **Dependencies:** add `cheerio` for HTML parsing (jQuery-like API; `node-fetch` already present).
 
-**Three target URLs** (also documented in `scraper.js`):
+**Three target URLs** (also documented in README.md):
 - `https://bindingofisaacrebirth.fandom.com/wiki/Items` — tables 0 & 1 (passive + active)
 - `https://bindingofisaacrebirth.fandom.com/wiki/Trinkets` — table 0
 - `https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes` — tables 0–14
