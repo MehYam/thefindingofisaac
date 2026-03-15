@@ -2,6 +2,10 @@
 
 This is a tool to help identify that item that just dropped in your Binding of Isaac run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to look it up.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
 
+[The Finding of Isaac live site](https://mehyam.github.io/thefindingofisaac/)
+
+![thumbnail](sample.jpg)
+
 ## Architecture
 
 Written in pure frontend HTML, CSS, and Javascript without dependencies or frameworks.  The code has not been optimized at all, but is very simple and seems to run well enough on any browser.
