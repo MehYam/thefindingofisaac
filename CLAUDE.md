@@ -57,3 +57,20 @@ New items are added via a semi-manual process:
 2. Paste the output into `itemdata/items.js`
 3. Tag items manually or via admin mode (`g_data.admin = true` in console)
 4. Download new thumbnails and run `node base64ImagePacker.js` to regenerate `spritesheet/base64Thumbnails.js`
+
+### Planned: automate scraping with a Node.js script
+
+The goal is a Node script replacing the manual browser-console workflow. Design notes:
+
+**Dependencies:** add `cheerio` for HTML parsing (jQuery-like API; `node-fetch` already present).
+
+**Three target URLs** (also documented in `scraper.js`):
+- `https://bindingofisaacrebirth.fandom.com/wiki/Items` — tables 0 & 1 (passive + active)
+- `https://bindingofisaacrebirth.fandom.com/wiki/Trinkets` — table 0
+- `https://bindingofisaacrebirth.fandom.com/wiki/Cards_and_Runes` — tables 0–14
+
+**Key gotcha: lazy-loaded images.** In raw HTML, `<img src>` may be a placeholder; the real URL is likely in `data-src` or `data-wiki-filepage`. The browser scraper sidesteps this because images are already loaded by console time. Verify the actual attribute names against live wiki page source before coding.
+
+**Merge strategy:** update `desc`, `thumb`, `wiki` from the wiki for existing items; preserve hand-curated `tags`, `colors`, `dlc`; append new items with those fields blank. Match on `id` (lowercased item name).
+
+**`fixUpRelativeURLs` equivalent:** hardcode base URL `https://bindingofisaacrebirth.fandom.com` instead of using `window.location.origin`.
