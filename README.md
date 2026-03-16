@@ -1,6 +1,6 @@
 # The Finding of Isaac
 
-This is a tool to help visually identify that items in The Binding of Isaac.  Try something descriptive, like **syringe**, **gross blood**, or **blue fly**, etc.  Results linked to the [fandom wiki](https://bindingofisaacrebirth.fandom.com/wiki).
+This is a tool that visually identifies items in The Binding of Isaac.  Type something descriptive, like **syringe**, **gross blood**, or **blue fly**, etc.  Results linked to the [fandom wiki](https://bindingofisaacrebirth.fandom.com/wiki).
 
 [The Finding of Isaac live site](https://mehyam.github.io/thefindingofisaac/)
 
@@ -8,14 +8,13 @@ This is a tool to help visually identify that items in The Binding of Isaac.  Tr
 
 ## Architecture
 
-Written in pure frontend HTML, CSS, and Javascript without dependencies or frameworks.  The code has not been optimized at all, but is very simple and seems to run well enough on any browser.
+Written in raw HTML, CSS, and Javascript, no dependencies or frameworks.  Has not been optimized at all, but is pretty simple and works well enough.
 
-All game data lives in the linked JSON files.  Architecture:
-* there's no build, just open index.html directly in browser
-* the app is served from GitHub pages, main branch is merged to branch gh-pages to deploy the latest "build"
-* app logic lives in thefindingofisaac.js
+* no server or build, just open index.html directly in browser
+* hosted currently in GitHub Pages, "build" deployed by merging main to gh-pages
+* app logic all in thefindingofisaac.js
 * itemdata/items.js - JSON-like file holding all item data, including the tags used when searching/filtering
-  * object shape:
+  * item object shape:
 ```js
 {
   id: "the d6",
@@ -31,7 +30,7 @@ All game data lives in the linked JSON files.  Architecture:
 }
 ```
 * itemdata/aliases.js - hand-edited thesaurus for tags
-* spritesheet/base64Thumbnails.js - base64-encoded item thumbnails
+* spritesheet/base64Thumbnails.js - base64-encoded item thumbnails, bespoke spritesheet
 
 ## Updating Data
 Currently, the wiki items and images are scraped with some manually-run dev console utilities that live in scraper.js.  Workflow:
