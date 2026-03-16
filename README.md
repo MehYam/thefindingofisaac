@@ -1,6 +1,6 @@
 # The Finding of Isaac
 
-This is a tool to help identify that item that just dropped in your Binding of Isaac run.  Just start typing something descriptive, like *"syringe", "gross blood", or "blue fly"*, etc, to look it up.  Results are linked to the [gamepedia.com wiki](http://bindingofisaacrebirth.gamepedia.com/Binding_of_Isaac:_Rebirth_Wiki).
+This is a tool to help visually identify that items in The Binding of Isaac.  Try something descriptive, like **syringe**, **gross blood**, or **blue fly**, etc.  Results linked to the [fandom wiki](https://bindingofisaacrebirth.fandom.com/wiki).
 
 [The Finding of Isaac live site](https://mehyam.github.io/thefindingofisaac/)
 
@@ -60,6 +60,7 @@ Currently, the wiki items and images are scraped with some manually-run dev cons
 
 ## TO DO:
 - automate more/all of the scraping
+- npm outdated
 - update data for 2026
 	- fresh scrape
 	- use ColorWeave to auto-generate color tags
