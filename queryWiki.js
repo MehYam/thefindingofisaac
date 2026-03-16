@@ -1,3 +1,6 @@
+/**
+ * This code was vibed and could use some review (it's pretty low quality at first glance)
+ */
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
@@ -71,19 +74,32 @@ function cleanCargoString(value) {
 
 // Standard MediaWiki image URL construction from a filename.
 // Computes the MD5 hash of the filename to derive the two-level directory path.
+// MediaWiki always uppercases the first letter of filenames before hashing and serving.
 function imageUrl(filename) {
     if (!filename) return '';
     const normalized = filename.replace(/ /g, '_');
-    const hash = crypto.createHash('md5').update(normalized).digest('hex');
-    return `https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/${hash[0]}/${hash.slice(0, 2)}/${normalized}`;
+    const wikified = normalized.charAt(0).toUpperCase() + normalized.slice(1);
+    const hash = crypto.createHash('md5').update(wikified).digest('hex');
+    return `https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/${hash[0]}/${hash.slice(0, 2)}/${wikified}`;
 }
 
 function wikiUrl(name) {
-    return `${BASE_URL}/wiki/${name.replace(/ /g, '_')}`;
+    return `${BASE_URL}/wiki/${encodeURIComponent(name.replace(/ /g, '_'))}`;
+}
+
+// Convert wikitext [[Page]] and [[Page|Label]] link syntax to HTML anchor tags.
+// Cargo returns description fields as raw wikitext rather than rendered HTML.
+function convertWikiLinks(text) {
+    return text.replace(/\[\[([^\]]+)\]\]/g, (_, inner) => {
+        const [pageName, displayText] = inner.split('|');
+        const href = `${BASE_URL}/wiki/${pageName.trim().replace(/ /g, '_')}`;
+        const label = (displayText ?? pageName).trim();
+        return `<a target="_blank" href="${href}">${label}</a>`;
+    });
 }
 
 function fixUpRelativeURLs(html) {
-    return html.replace(/href="/g, `target="_blank" href="${BASE_URL}`);
+    return html.replace(/href="\//g, `target="_blank" href="${BASE_URL}/`);
 }
 
 const KNOWN_PICKUP_TYPES = new Set(['card', 'rune', 'soul']);
@@ -167,7 +183,7 @@ function rowsToItems(config, rows) {
         const thumb = imageUrl(imageFile);
         if (!thumb) result.warnings.push(`Missing image for: "${name}"`);
 
-        const desc = row.description ? fixUpRelativeURLs(cleanCargoString(row.description)) : '';
+        const desc = row.description ? fixUpRelativeURLs(convertWikiLinks(cleanCargoString(row.description))) : '';
         const dlc = mapDlc(row.dlc, result.warnings);
         const type = config.toType(row);
 
@@ -243,7 +259,7 @@ function mergeItems(existingItems, fetchedItems) {
 // ─── Output ───────────────────────────────────────────────────────────────────
 
 function writeItemsFile(header, mergedItems) {
-    const content = header + `const g_items = ${JSON.stringify(mergedItems, null, 1)};\n`;
+    const content = header + `const g_items = ${JSON.stringify(mergedItems, null, 2)};\n`;
     fs.writeFileSync(path.join(__dirname, 'itemdata', 'items.js'), content, 'utf8');
 }
 
