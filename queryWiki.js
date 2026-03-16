@@ -1,5 +1,9 @@
 /**
- * This code was vibed and could use some review (it's pretty low quality at first glance)
+ * This code was vibed and it shows.  Not the best, but it's used to manually run
+ * our data scraping and works well enough for now.  If this were in production,
+ * we'd tighten it up.
+ * 
+ * See Usage below
  */
 const fetch = require('node-fetch');
 const fs = require('fs');
@@ -305,8 +309,8 @@ function printMergeReport(tableResults, mergeStats, existingCount, mergedCount) 
     if (mergeStats.matched === 0 && totalItems > 0) {
         console.log('\n  ### NO ITEMS MATCHED — something may be wrong with id mapping ###');
     }
+    const PREVIEW = 25;
     if (mergeStats.newItems.length > 0) {
-        const PREVIEW = 10;
         console.log('\n  New items:');
         for (const item of mergeStats.newItems.slice(0, PREVIEW)) {
             console.log(`    + [${item.type}] ${item.id}`);
@@ -316,7 +320,6 @@ function printMergeReport(tableResults, mergeStats, existingCount, mergedCount) 
         }
     }
     if (mergeStats.notFound.length > 0) {
-        const PREVIEW = 10;
         console.log('\n  Existing items not found on wiki (may be renamed or removed):');
         for (const id of mergeStats.notFound.slice(0, PREVIEW)) {
             console.log(`    - ${id}`);
