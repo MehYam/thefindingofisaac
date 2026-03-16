@@ -1,3 +1,12 @@
+/**
+ * @deprecated
+ * 
+ * This was Claude's attempt at automating a scrape of the Wiki before we realized
+ * that the WikiMedia API exists, which lets us access the data tables through an
+ * API (see queryWiki.js).
+ * 
+ * Keeping around just in case we need to fallback to it, but this was never completed.
+ */
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const fs = require('fs');
@@ -174,7 +183,10 @@ async function scrapePage(target) {
 
     let html;
     try {
-        const resp = await fetch(target.url);
+        const resp = await fetch(target.url, {
+            // The wiki 403's unless we pretend to be a browser
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' },
+        });
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         html = await resp.text();
     } catch (err) {
@@ -327,7 +339,10 @@ function printReport(pageResults, mergeStats, existingCount, mergedCount) {
             console.log(`    + [${item.type}] ${item.id}`);
         }
     }
-    if (mergeStats.notFound.length > 0) {
+    if (mergeStats.matched === 0) {
+        console.log('\n  ### NO ITEMS SCRAPED, something went wrong. ###');
+    }
+    else if (mergeStats.notFound.length > 0) {
         console.log('\n  Existing items not found on wiki (may be renamed or removed):');
         for (const id of mergeStats.notFound) {
             console.log(`    - ${id}`);

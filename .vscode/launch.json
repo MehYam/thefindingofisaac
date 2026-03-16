@@ -31,6 +31,46 @@
             ],
             "program": "${workspaceFolder}/autoScraper.js",
             "args": ["--dry-run"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "queryWiki collectible",
+            "skipFiles": [ "<node_internals>/**" ],
+            "program": "${workspaceFolder}/queryWiki.js",
+            "args": ["collectible"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "queryWiki trinket",
+            "skipFiles": [ "<node_internals>/**" ],
+            "program": "${workspaceFolder}/queryWiki.js",
+            "args": ["trinket"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "queryWiki pickup",
+            "skipFiles": [ "<node_internals>/**" ],
+            "program": "${workspaceFolder}/queryWiki.js",
+            "args": ["pickup"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "queryWiki merge",
+            "skipFiles": [ "<node_internals>/**" ],
+            "program": "${workspaceFolder}/queryWiki.js",
+            "args": ["merge"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "queryWiki merge",
+            "skipFiles": [ "<node_internals>/**" ],
+            "program": "${workspaceFolder}/queryWiki.js",
+            "args": ["merge"]
         }
     ]
 }

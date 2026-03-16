@@ -6,7 +6,11 @@
   "scripts": {
     "pack-images": "node base64ImagePacker.js",
     "scrape": "node autoScraper.js",
-    "scrape:dry-run": "node autoScraper.js --dry-run"
+    "scrape:dry-run": "node autoScraper.js --dry-run",
+    "query-wiki:collectible": "node queryWiki.js collectible",
+    "query-wiki:trinket": "node queryWiki.js trinket",
+    "query-wiki:pickup": "node queryWiki.js pickup",
+    "query-wiki:merge": "node queryWiki.js merge"
   },
   "repository": {
     "type": "git",
