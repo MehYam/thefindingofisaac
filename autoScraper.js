@@ -33,7 +33,10 @@ const TARGETS = [
 
 function loadExistingItems() {
     const itemsPath = path.join(__dirname, 'itemdata', 'items.js');
-    const code = fs.readFileSync(itemsPath, 'utf8');
+
+    //const declarations in vm.runInNewContext are block-scoped and don't attach to the sandbox object. Fix is to strip the const before running
+    const code = fs.readFileSync(itemsPath, 'utf8')
+        .replace(/\bconst\s+g_items\b/, 'g_items');
     const sandbox = {};
     vm.runInNewContext(code, sandbox);
     return sandbox.g_items;
